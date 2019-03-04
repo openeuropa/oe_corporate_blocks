@@ -1,0 +1,6 @@
+name: OpenEuropa Corporate Blocks
+description: OpenEuropa Corporate Blocks.
+package: OpenEuropa
+type: module
+core: 8.x
+

@@ -1,0 +1,8 @@
+<?php
+
+/**
+ * @file
+ * OpenEuropa Corporate Blocks module.
+ */
+
+declare(strict_types = 1);
