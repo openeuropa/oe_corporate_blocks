@@ -2,14 +2,13 @@ imports:
   - { resource: vendor/openeuropa/code-review/dist/drupal-conventions.yml }
 parameters:
   tasks.phpcs.ignore_patterns:
+    - build/
+    - node_modules/
     - vendor/
-    - web/
   tasks.phpcs.triggered_by:
-    - php
-    - module
     - inc
-    - theme
     - install
-
-  extensions:
-    - OpenEuropa\CodeReview\ExtraTasksExtension
+    - module
+    - php
+    - theme
+    - yml
