@@ -21,6 +21,7 @@ drupal:
     # Enable the modules.
     - "./vendor/bin/drush en config_devel -y"
     - "./vendor/bin/drush en oe_corporate_blocks -y"
+    - "./vendor/bin/drush en oe_corporate_blocks_demo -y"
     - "./vendor/bin/drush cr"
   settings:
     settings:

@@ -16,6 +16,7 @@
         "drupal/console": "~1.0",
         "drupal/drupal-extension": "~4.0",
         "drush/drush": "~9.0@stable",
+        "openeuropa/behat-transformation-context" : "~0.1",
         "openeuropa/code-review": "~1.0@beta",
         "openeuropa/drupal-core-require-dev": "^8.6",
         "openeuropa/task-runner": "~1.0-beta4",
