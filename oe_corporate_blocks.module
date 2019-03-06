@@ -6,3 +6,17 @@
  */
 
 declare(strict_types = 1);
+
+/**
+ * Implements hook_theme().
+ */
+function oe_corporate_blocks_theme() {
+  return [
+    'corporate_blocks_footer' => [
+      'variables' => [
+        'corporate_footer' => [],
+        'custom_footer' => [],
+      ],
+    ],
+  ];
+}
