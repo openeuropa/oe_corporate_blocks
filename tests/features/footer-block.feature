@@ -4,7 +4,7 @@ Feature: Corporate blocks feature
   As an anonymous user
   I want to use corporate blocks
 
-  Scenario: On home page we have correct urls in corporate footer block
+  Scenario: On the home page we have correct urls in corporate footer block
     Given I am on homepage
     Then Links in the "footer" region should be correct:
     | Commission and its priorities           | https://ec.europa.eu/commission/index_en                                    |
@@ -16,15 +16,15 @@ Feature: Corporate blocks feature
     | European Union                          | https://europa.eu/european-union/index_en                                   |
     | About the Commission's new web presence | https://ec.europa.eu/info/about-commissions-new-web-presence_en             |
     | Language policy                         | https://ec.europa.eu/info/language-policy_en                                |
-    | Resources for partners                  | https://ec.europa.eu/info/resources-partners_en                              |
+    | Resources for partners                  | https://ec.europa.eu/info/resources-partners_en                             |
     | Cookies                                 | https://ec.europa.eu/info/cookies_en                                        |
     | Privacy policy                          | https://ec.europa.eu/info/privacy-policy_en                                 |
     | Legal notice                            | https://ec.europa.eu/info/legal-notice_en                                   |
     | Contact                                 | https://ec.europa.eu/info/contact_en                                        |
 
 
-  Scenario: On user page we have correct urls in corporate footer block
-    Given I am on "the user page"
+  Scenario: On the user login page we have correct urls in corporate footer block
+    Given I am on "the login page"
     Then Links in the "footer" region should be correct:
       | Commission and its priorities           | https://ec.europa.eu/commission/index_en                                    |
       | Policies, information and services      | https://ec.europa.eu/info/index_en                                          |
@@ -35,7 +35,7 @@ Feature: Corporate blocks feature
       | European Union                          | https://europa.eu/european-union/index_en                                   |
       | About the Commission's new web presence | https://ec.europa.eu/info/about-commissions-new-web-presence_en             |
       | Language policy                         | https://ec.europa.eu/info/language-policy_en                                |
-      | Resources for partners                  | https://ec.europa.eu/info/resources-partners_en                              |
+      | Resources for partners                  | https://ec.europa.eu/info/resources-partners_en                             |
       | Cookies                                 | https://ec.europa.eu/info/cookies_en                                        |
       | Privacy policy                          | https://ec.europa.eu/info/privacy-policy_en                                 |
       | Legal notice                            | https://ec.europa.eu/info/legal-notice_en                                   |

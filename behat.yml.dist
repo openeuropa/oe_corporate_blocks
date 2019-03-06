@@ -9,7 +9,7 @@ default:
         - Drupal\Tests\oe_corporate_blocks\Behat\CorporateBlocksContext
         - OpenEuropa\Behat\TransformationContext:
             pages:
-               user: '/user'
+              login: "user/login"
   extensions:
     Drupal\MinkExtension:
       goutte: ~
@@ -20,7 +20,7 @@ default:
     Drupal\DrupalExtension:
       api_driver: "drupal"
       drupal:
-        drupal_root: "build"
+        drupal_root: "${drupal.root}"
       region_map:
         footer: "div.region-footer-fifth"
   formatters:
