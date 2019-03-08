@@ -15,7 +15,7 @@ class CorporateBlocksContext extends RawDrupalContext {
   /**
    * Assertion of links in region.
    *
-   * @Then Links in the :region region should be correct:
+   * @Then Links in the :region region contains the links:
    *
    * @throws \Exception
    */

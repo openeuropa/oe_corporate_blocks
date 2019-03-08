@@ -6,7 +6,7 @@ Feature: Corporate blocks feature
 
   Scenario: On the home page we have correct urls in corporate footer block
     Given I am on homepage
-    Then Links in the "footer" region should be correct:
+    Then Links in the "footer" region contains the links:
     | Commission and its priorities           | https://ec.europa.eu/commission/index_en                                    |
     | Policies, information and services      | https://ec.europa.eu/info/index_en                                          |
     | Facebook                                | https://www.facebook.com/EuropeanCommission                                 |
@@ -25,7 +25,7 @@ Feature: Corporate blocks feature
 
   Scenario: On the user login page we have correct urls in corporate footer block
     Given I am on "the login page"
-    Then Links in the "footer" region should be correct:
+    Then Links in the "footer" region contains the links:
       | Commission and its priorities           | https://ec.europa.eu/commission/index_en                                    |
       | Policies, information and services      | https://ec.europa.eu/info/index_en                                          |
       | Facebook                                | https://www.facebook.com/EuropeanCommission                                 |
