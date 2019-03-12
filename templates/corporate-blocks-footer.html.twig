@@ -14,31 +14,32 @@
  * @ingroup themeable
  */
 #}
+
 <div class="footer__corporate-top">
-  {% if corporate_footer.about_ec.items is defined and corporate_footer.about_ec.items is not empty %}
-    <h2 class="footer__column-title">{{ corporate_footer.about_ec.title }}</h2>
+  {% if corporate_footer.about_ec_links is defined and corporate_footer.about_ec_links is not empty %}
+    <h2 class="footer__column-title">{{ corporate_footer.about_ec_title }}</h2>
     <ul class="footer__list">
-      {% for menu_item in corporate_footer.about_ec.items %}
+      {% for menu_item in corporate_footer.about_ec_links %}
         <li class="footer__list-item">
           {{ link(menu_item.label, menu_item.href) }}
         </li>
       {% endfor %}
     </ul>
   {% endif %}
-  {% if corporate_footer.social_media.items is defined and corporate_footer.social_media.items is not empty %}
-    <h2 class="footer__column-title">{{ corporate_footer.social_media.title }}</h2>
+  {% if corporate_footer.social_media_links is defined and corporate_footer.social_media_links is not empty %}
+    <h2 class="footer__column-title">{{ corporate_footer.social_media_title }}</h2>
     <ul class="footer__list">
-      {% for menu_item in corporate_footer.social_media.items %}
+      {% for menu_item in corporate_footer.social_media_links %}
         <li class="footer__list-item">
           {{ link(menu_item.link.label, menu_item.link.href) }}
         </li>
       {% endfor %}
     </ul>
   {% endif %}
-  {% if corporate_footer.about_eu.items is defined and corporate_footer.about_eu.items is not empty %}
-    <h2 class="footer__column-title">{{ corporate_footer.about_eu.title }}</h2>
+  {% if corporate_footer.about_eu_links is defined and corporate_footer.about_eu_links is not empty %}
+    <h2 class="footer__column-title">{{ corporate_footer.about_eu_title }}</h2>
     <ul class="footer__list">
-      {% for menu_item in corporate_footer.about_eu.items %}
+      {% for menu_item in corporate_footer.about_eu_links %}
         <li>
           {{ link(menu_item.label, menu_item.href) }}
         </li>

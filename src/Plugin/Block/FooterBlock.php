@@ -6,6 +6,7 @@ namespace Drupal\oe_corporate_blocks\Plugin\Block;
 
 use Drupal\Core\Access\AccessResult;
 use Drupal\Core\Block\BlockBase;
+use Drupal\Core\Config\ConfigFactoryInterface;
 use Drupal\Core\Plugin\ContainerFactoryPluginInterface;
 use Drupal\Core\Session\AccountInterface;
 use Symfony\Component\DependencyInjection\ContainerInterface;
@@ -15,19 +16,18 @@ use Symfony\Component\DependencyInjection\ContainerInterface;
  *
  * @Block(
  *   id = "oe_footer",
- *   admin_label = @Translation("OpenEuropa Footer block"),
- *   category = @Translation("OE Corporate blocks"),
+ *   admin_label = @Translation("Footer block"),
+ *   category = @Translation("Corporate blocks"),
  * )
  */
 class FooterBlock extends BlockBase implements ContainerFactoryPluginInterface {
 
-
   /**
-   * Data for footer block from service container.
+   * The config factory.
    *
-   * @var array
+   * @var \Drupal\Core\Config\ConfigFactoryInterface
    */
-  protected $footerData;
+  protected $configFactory;
 
   /**
    * Constructs an Search block object.
@@ -38,12 +38,12 @@ class FooterBlock extends BlockBase implements ContainerFactoryPluginInterface {
    *   The plugin_id for the plugin instance.
    * @param mixed $plugin_definition
    *   The plugin implementation definition.
-   * @param array $block_footer
-   *   The footer block data from parameters of service container.
+   * @param \Drupal\Core\Config\ConfigFactoryInterface $config_factory
+   *   The config factory.
    */
-  public function __construct(array $configuration, $plugin_id, $plugin_definition, array $block_footer) {
+  public function __construct(array $configuration, $plugin_id, $plugin_definition, ConfigFactoryInterface $config_factory) {
     parent::__construct($configuration, $plugin_id, $plugin_definition);
-    $this->footerData = $block_footer;
+    $this->configFactory = $config_factory;
   }
 
   /**
@@ -54,7 +54,7 @@ class FooterBlock extends BlockBase implements ContainerFactoryPluginInterface {
       $configuration,
       $plugin_id,
       $plugin_definition,
-      $container->getParameter('block.footer')
+      $container->get('config.factory')
     );
   }
 
@@ -70,7 +70,7 @@ class FooterBlock extends BlockBase implements ContainerFactoryPluginInterface {
    */
   public function build() {
     $build['#theme'] = 'corporate_blocks_footer';
-    $build['#corporate_footer'] = $this->footerData['corporate_footer'];
+    $build['#corporate_footer'] = $this->configFactory->get('oe_corporate_blocks.data.footer')->getOriginal();
     return $build;
   }
 
