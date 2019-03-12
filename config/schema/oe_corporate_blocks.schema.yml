@@ -1,0 +1,32 @@
+oe_corporate_blocks.data.*:
+  type: config_object
+  label: 'Data for corporate bocks.'
+  mapping:
+    about_ec_title:
+      type: string
+      label: 'About EC title'
+      translatable: true
+    about_ec_links:
+      type: sequence
+      label: 'About EC links'
+      translatable: true
+    social_media_title:
+      type: string
+      label: 'Social media title'
+      translatable: true
+    social_media_links:
+      type: sequence
+      label: 'Social media links'
+      translatable: true
+    about_eu_title:
+      type: string
+      label: 'About EU title'
+      translatable: true
+    about_eu_links:
+      type: sequence
+      label: 'About EU links'
+      translatable: true
+    bottom_links:
+      type: sequence
+      label: 'Bottom links'
+      translatable: true

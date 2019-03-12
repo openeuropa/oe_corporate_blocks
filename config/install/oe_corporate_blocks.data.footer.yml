@@ -1,0 +1,44 @@
+langcode: en
+about_ec_title: European Commission
+about_ec_links:
+  - href: https://ec.europa.eu/commission/index_en
+    label: Commission and its priorities
+  - href: https://ec.europa.eu/info/index_en
+    label: Policies, information and services
+social_media_title: Follow the European Commission
+social_media_links:
+  - type: social-network
+    icon: facebook
+    link:
+      href: "https://www.facebook.com/EuropeanCommission"
+      label: Facebook
+  - type: social-network
+    icon: twitter
+    link:
+      href: "https://twitter.com/EU_commission"
+      label: Twitter
+  - type: external
+    link:
+      href: "https://europa.eu/european-union/contact/social-networks_en#n:+i:4+e:1+t:+s"
+      label: Other social media
+about_eu_title: European Union
+about_eu_links:
+  - href: "https://europa.eu/european-union/about-eu/institutions-bodies_en"
+    label: EU institutions
+  - href: "https://europa.eu/european-union/index_en"
+    label: European Union
+bottom_links:
+  - href: https://ec.europa.eu/info/about-commissions-new-web-presence_en
+    label: About the Commission's new web presence
+  - href: https://ec.europa.eu/info/language-policy_en
+    label: Language policy
+  - href: https://ec.europa.eu/info/resources-partners_en
+    label: Resources for partners
+  - href: https://ec.europa.eu/info/cookies_en
+    label: Cookies
+  - href: https://ec.europa.eu/info/privacy-policy_en
+    label: Privacy policy
+  - href: https://ec.europa.eu/info/legal-notice_en
+    label: Legal notice
+  - href: https://ec.europa.eu/info/contact_en
+    label: Contact
