@@ -1,0 +1,58 @@
+langcode: pl
+about_ec_title: 'Komisja Europejska'
+about_ec_links:
+  -
+    href: 'https://ec.europa.eu/commission/index_pl'
+    label: 'Komisja i jej priorytety'
+  -
+    href: 'https://ec.europa.eu/info/index_pl'
+    label: 'Obszary polityki, informacje i usługi'
+social_media_title: 'Komisja Europejska w mediach społecznościowych'
+social_media_links:
+  -
+    type: social-network
+    icon: facebook
+    link:
+      href: 'https://www.facebook.com/EuropeanCommission'
+      label: Facebook
+  -
+    type: social-network
+    icon: twitter
+    link:
+      href: 'https://twitter.com/EU_commission'
+      label: Twitter
+  -
+    type: external
+    link:
+      href: 'https://europa.eu/european-union/contact/social-networks_pl#n:+i:4+e:1+t:+s'
+      label: 'Inne serwisy społecznościowe'
+about_eu_title: 'Unia Europejska'
+about_eu_links:
+  -
+    href: 'https://europa.eu/european-union/about-eu/institutions-bodies_pl'
+    label: 'Instytucje UE'
+  -
+    href: 'https://europa.eu/european-union/index_pl'
+    label: 'Unia Europejska'
+bottom_links:
+  -
+    href: 'https://ec.europa.eu/info/about-commissions-new-web-presence_pl'
+    label: 'Informacje o nowej generacji stron internetowych Komisji'
+  -
+    href: 'https://ec.europa.eu/info/language-policy_pl'
+    label: 'Polityka językowa'
+  -
+    href: 'http://ec.europa.eu/info/resources-partners_pl'
+    label: 'Resources for partners'
+  -
+    href: 'https://ec.europa.eu/info/cookies_pl'
+    label: 'Pliki cookie'
+  -
+    href: 'https://ec.europa.eu/info/privacy-policy_pl'
+    label: 'Informacja o polityce prywatności'
+  -
+    href: 'https://ec.europa.eu/info/legal-notice_pl'
+    label: 'Informacja prawna'
+  -
+    href: 'https://ec.europa.eu/info/contact_pl'
+    label: Kontakt

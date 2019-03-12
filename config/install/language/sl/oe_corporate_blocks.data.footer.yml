@@ -1,0 +1,58 @@
+langcode: sl
+about_ec_title: 'Evropska komisija'
+about_ec_links:
+  -
+    href: 'https://ec.europa.eu/commission/index_sl'
+    label: 'Komisija in njene prednostne naloge'
+  -
+    href: 'https://ec.europa.eu/info/index_sl'
+    label: 'Politike, informacije in službe'
+social_media_title: 'Spremljajte Evropsko komisijo'
+social_media_links:
+  -
+    type: social-network
+    icon: facebook
+    link:
+      href: 'https://www.facebook.com/EuropeanCommission'
+      label: Facebook
+  -
+    type: social-network
+    icon: twitter
+    link:
+      href: 'https://twitter.com/EU_commission'
+      label: Twitter
+  -
+    type: external
+    link:
+      href: 'https://europa.eu/european-union/contact/social-networks_sl#n:+i:4+e:1+t:+s'
+      label: 'Druga družbena omrežja'
+about_eu_title: 'Evropska unija'
+about_eu_links:
+  -
+    href: 'https://europa.eu/european-union/about-eu/institutions-bodies_sl'
+    label: 'Institucije EU'
+  -
+    href: 'https://europa.eu/european-union/index_sl'
+    label: 'Evropska unija'
+bottom_links:
+  -
+    href: 'https://ec.europa.eu/info/about-commissions-new-web-presence_sl'
+    label: 'O novi spletni prisotnosti Evropske komisije'
+  -
+    href: 'https://ec.europa.eu/info/language-policy_sl'
+    label: 'Jezikovna politika'
+  -
+    href: 'http://ec.europa.eu/info/resources-partners_sl'
+    label: 'Resources for partners'
+  -
+    href: 'https://ec.europa.eu/info/cookies_sl'
+    label: Piškotki
+  -
+    href: 'https://ec.europa.eu/info/privacy-policy_sl'
+    label: 'Varstvo zasebnosti'
+  -
+    href: 'https://ec.europa.eu/info/legal-notice_sl'
+    label: 'Pravno obvestilo'
+  -
+    href: 'https://ec.europa.eu/info/contact_sl'
+    label: Kontakt

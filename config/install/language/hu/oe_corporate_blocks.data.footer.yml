@@ -1,0 +1,58 @@
+langcode: hu
+about_ec_title: 'Európai Bizottság'
+about_ec_links:
+  -
+    href: 'https://ec.europa.eu/commission/index_hu'
+    label: 'A Bizottság és prioritásai'
+  -
+    href: 'https://ec.europa.eu/info/index_hu'
+    label: 'Szakpolitikák, információk és szolgálatok'
+social_media_title: 'Kövessen bennünket!'
+social_media_links:
+  -
+    type: social-network
+    icon: facebook
+    link:
+      href: 'https://www.facebook.com/EuropeanCommission'
+      label: Facebook
+  -
+    type: social-network
+    icon: twitter
+    link:
+      href: 'https://twitter.com/EU_commission'
+      label: Twitter
+  -
+    type: external
+    link:
+      href: 'https://europa.eu/european-union/contact/social-networks_hu#n:+i:4+e:1+t:+s'
+      label: 'Egyéb közösségi hálózatok'
+about_eu_title: 'Európai Unió'
+about_eu_links:
+  -
+    href: 'https://europa.eu/european-union/about-eu/institutions-bodies_hu'
+    label: 'EU intézményei'
+  -
+    href: 'https://europa.eu/european-union/index_hu'
+    label: 'Európai Unió'
+bottom_links:
+  -
+    href: 'https://ec.europa.eu/info/about-commissions-new-web-presence_hu'
+    label: 'A Bizottság új webes jelenléte'
+  -
+    href: 'https://ec.europa.eu/info/language-policy_hu'
+    label: Nyelvpolitika
+  -
+    href: 'http://ec.europa.eu/info/resources-partners_hu'
+    label: 'Resources for partners'
+  -
+    href: 'https://ec.europa.eu/info/cookies_hu'
+    label: Cookie-k
+  -
+    href: 'https://ec.europa.eu/info/privacy-policy_hu'
+    label: 'Adatvédelmi politika'
+  -
+    href: 'https://ec.europa.eu/info/legal-notice_hu'
+    label: 'Jogi nyilatkozat'
+  -
+    href: 'https://ec.europa.eu/info/contact_hu'
+    label: Kapcsolatfelvétel

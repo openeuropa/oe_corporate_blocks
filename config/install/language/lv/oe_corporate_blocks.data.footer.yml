@@ -1,0 +1,58 @@
+langcode: lv
+about_ec_title: 'Eiropas Komisija'
+about_ec_links:
+  -
+    href: 'https://ec.europa.eu/commission/index_lv'
+    label: 'Komisija un tās prioritātes'
+  -
+    href: 'https://ec.europa.eu/info/index_lv'
+    label: 'Politikas jomas, informācija un dienesti'
+social_media_title: 'Sekojiet Eiropas Komisijai'
+social_media_links:
+  -
+    type: social-network
+    icon: facebook
+    link:
+      href: 'https://www.facebook.com/EuropeanCommission'
+      label: Facebook
+  -
+    type: social-network
+    icon: twitter
+    link:
+      href: 'https://twitter.com/EU_commission'
+      label: Twitter
+  -
+    type: external
+    link:
+      href: 'https://europa.eu/european-union/contact/social-networks_lv#n:+i:4+e:1+t:+s'
+      label: 'Citi sociālie tīkli'
+about_eu_title: 'Eiropas Savienība'
+about_eu_links:
+  -
+    href: 'https://europa.eu/european-union/about-eu/institutions-bodies_lv'
+    label: 'ES iestādēm'
+  -
+    href: 'https://europa.eu/european-union/index_lv'
+    label: 'Eiropas Savienība'
+bottom_links:
+  -
+    href: 'https://ec.europa.eu/info/about-commissions-new-web-presence_lv'
+    label: 'Par Komisijas jauno tīmekļa vietni'
+  -
+    href: 'http://ec.europa.eu/info/resources-partners_lv'
+    label: 'Resources for partners'
+  -
+    href: 'https://ec.europa.eu/info/language-policy_lv'
+    label: 'Valodu politika'
+  -
+    href: 'https://ec.europa.eu/info/cookies_lv'
+    label: Sīkdatnes
+  -
+    href: 'https://ec.europa.eu/info/privacy-policy_lv'
+    label: 'Privātuma aizsardzība'
+  -
+    href: 'https://ec.europa.eu/info/legal-notice_lv'
+    label: 'Juridisks paziņojums'
+  -
+    href: 'https://ec.europa.eu/info/contact_lv'
+    label: Kontakti

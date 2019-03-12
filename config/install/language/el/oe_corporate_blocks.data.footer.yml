@@ -1,0 +1,58 @@
+langcode: el
+about_ec_title: 'Ευρωπαϊκή Επιτροπή'
+about_ec_links:
+  -
+    href: 'https://ec.europa.eu/commission/index_el'
+    label: 'Η Ευρωπαϊκή Επιτροπή και οι προτεραιότητές της'
+  -
+    href: 'https://ec.europa.eu/info/index_el'
+    label: 'Πολιτικές, πληροφορίες και υπηρεσίες'
+social_media_title: 'Ακολουθήστε την Ευρωπαϊκή Επιτροπή'
+social_media_links:
+  -
+    type: social-network
+    icon: facebook
+    link:
+      href: 'https://www.facebook.com/EuropeanCommission'
+      label: Facebook
+  -
+    type: social-network
+    icon: twitter
+    link:
+      href: 'https://twitter.com/EU_commission'
+      label: Twitter
+  -
+    type: external
+    link:
+      href: 'https://europa.eu/european-union/contact/social-networks_el#n:+i:4+e:1+t:+s'
+      label: 'Άλλα μέσα κοινωνικής δικτύωσης'
+about_eu_title: 'Ευρωπαϊκή Ένωση'
+about_eu_links:
+  -
+    href: 'https://europa.eu/european-union/about-eu/institutions-bodies_el'
+    label: 'Όργανα της ΕΕ'
+  -
+    href: 'https://europa.eu/european-union/index_el'
+    label: 'Ευρωπαϊκή Ένωση'
+bottom_links:
+  -
+    href: 'https://ec.europa.eu/info/about-commissions-new-web-presence_el'
+    label: 'About the Commission''s new web presence'
+  -
+    href: 'http://ec.europa.eu/info/resources-partners_el'
+    label: 'Resources for partners'
+  -
+    href: 'https://ec.europa.eu/info/language-policy_el'
+    label: 'Γλωσσική πολιτική'
+  -
+    href: 'https://ec.europa.eu/info/cookies_el'
+    label: Cookies
+  -
+    href: 'https://ec.europa.eu/info/privacy-policy_el'
+    label: 'Πολιτική προστασίας της ιδιωτικής ζωής'
+  -
+    href: 'https://ec.europa.eu/info/legal-notice_el'
+    label: 'Ανακοίνωση νομικού περιεχομένου'
+  -
+    href: 'https://ec.europa.eu/info/contact_el'
+    label: Επικοινωνία
