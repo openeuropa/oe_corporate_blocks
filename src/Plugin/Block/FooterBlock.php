@@ -4,6 +4,7 @@ declare(strict_types = 1);
 
 namespace Drupal\oe_corporate_blocks\Plugin\Block;
 
+use Drupal\Component\Utility\NestedArray;
 use Drupal\Core\Access\AccessResult;
 use Drupal\Core\Block\BlockBase;
 use Drupal\Core\Config\ConfigFactoryInterface;
@@ -70,7 +71,20 @@ class FooterBlock extends BlockBase implements ContainerFactoryPluginInterface {
    */
   public function build() {
     $build['#theme'] = 'corporate_blocks_footer';
-    $build['#corporate_footer'] = $this->configFactory->get('oe_corporate_blocks.data.footer')->getOriginal();
+
+    $config = $this->configFactory->get('oe_corporate_blocks.data.footer');
+
+    NestedArray::setValue($build, ['#corporate_footer', 'about_ec', 'title'], $config->get('about_ec_title'));
+    NestedArray::setValue($build, ['#corporate_footer', 'about_ec', 'items'], $config->get('about_ec_links'));
+
+    NestedArray::setValue($build, ['#corporate_footer', 'social_media', 'title'], $config->get('social_media_title'));
+    NestedArray::setValue($build, ['#corporate_footer', 'social_media', 'items'], $config->get('social_media_links'));
+
+    NestedArray::setValue($build, ['#corporate_footer', 'about_eu', 'title'], $config->get('about_eu_title'));
+    NestedArray::setValue($build, ['#corporate_footer', 'about_eu', 'items'], $config->get('about_eu_links'));
+
+    NestedArray::setValue($build, ['#corporate_footer', 'bottom_links'], $config->get('bottom_links'));
+
     return $build;
   }
 
