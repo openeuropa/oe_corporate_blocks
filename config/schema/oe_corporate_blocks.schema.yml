@@ -1,4 +1,4 @@
-oe_corporate_blocks.data.*:
+oe_corporate_blocks.data.footer:
   type: config_object
   label: 'Data for corporate bocks.'
   mapping:
@@ -7,9 +7,7 @@ oe_corporate_blocks.data.*:
       label: 'About EC title'
       translatable: true
     about_ec_links:
-      type: sequence
-      label: 'About EC links'
-      translatable: true
+      type: oe_corporate_blocks.footer.links
     social_media_title:
       type: string
       label: 'Social media title'
@@ -17,16 +15,42 @@ oe_corporate_blocks.data.*:
     social_media_links:
       type: sequence
       label: 'Social media links'
-      translatable: true
+      sequence:
+        type: mapping
+        label: 'Social media link data'
+        mapping:
+          type:
+            type: string
+            label: 'The type of the social media link'
+          icon:
+            type: string
+            label: 'The icon of the social media link'
+          link:
+            type: oe_corporate_blocks.footer.link
     about_eu_title:
       type: string
       label: 'About EU title'
       translatable: true
     about_eu_links:
-      type: sequence
-      label: 'About EU links'
-      translatable: true
+      type: oe_corporate_blocks.footer.links
     bottom_links:
-      type: sequence
-      label: 'Bottom links'
+      type: oe_corporate_blocks.footer.links
+
+oe_corporate_blocks.footer.links:
+  type: sequence
+  label: 'A list of footer links'
+  sequence:
+    type: oe_corporate_blocks.footer.link
+
+oe_corporate_blocks.footer.link:
+  type: mapping
+  label: 'Footer link'
+  mapping:
+    href:
+      type: string
+      label: 'Link URL'
+      translatable: true
+    label:
+      type: string
+      label: 'The link label'
       translatable: true
