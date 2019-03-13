@@ -1,4 +1,3 @@
-langcode: cs
 about_ec_title: 'Evropská komise'
 about_ec_links:
   -
@@ -10,19 +9,14 @@ about_ec_links:
 social_media_title: 'Sledujte Evropskou komisi'
 social_media_links:
   -
-    type: social-network
-    icon: facebook
     link:
       href: 'https://www.facebook.com/EuropeanCommission'
       label: Facebook
   -
-    type: social-network
-    icon: twitter
     link:
       href: 'https://twitter.com/EU_commission'
       label: Twitter
   -
-    type: external
     link:
       href: 'https://europa.eu/european-union/contact/social-networks_cs#n:+i:4+e:1+t:+s'
       label: 'Ostatní sociální sítě'
