@@ -83,7 +83,7 @@ class FooterBlock extends BlockBase implements ContainerFactoryPluginInterface {
    * {@inheritdoc}
    */
   public function build() {
-    $build['#theme'] = 'corporate_blocks_footer';
+    $build['#theme'] = 'oe_corporate_blocks_footer';
 
     $config = $this->configFactory->get('oe_corporate_blocks.data.footer');
 
@@ -98,9 +98,16 @@ class FooterBlock extends BlockBase implements ContainerFactoryPluginInterface {
 
     NestedArray::setValue($build, ['#corporate_footer', 'bottom_links'], $config->get('bottom_links'));
 
-    // By some reasons drush config import do not do invalidating of cache tags.
+    $build['#cache'] = [
+      'contexts' => [
+        'languages:language_interface',
+      ],
+    ];
+
+    // By some reasons drush config import does not invalidate cache tags.
     // So for deployment we should take care about this case and
-    // do cache invalidating by tag "config:oe_corporate_blocks.data.footer".
+    // perform cache invalidation
+    // via the "config:oe_corporate_blocks.data.footer" cache tag.
     $this->renderer->addCacheableDependency($build, $config);
 
     return $build;

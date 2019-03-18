@@ -23,5 +23,6 @@ default:
         drupal_root: "${drupal.root}"
       region_map:
         footer: "div.region-footer-fifth"
+        header: "div.region-header"
   formatters:
     progress: ~
