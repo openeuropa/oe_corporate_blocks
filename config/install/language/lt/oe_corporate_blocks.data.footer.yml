@@ -1,0 +1,52 @@
+about_ec_title: 'Europos Komisija'
+about_ec_links:
+  -
+    href: 'https://ec.europa.eu/commission/index_lt'
+    label: 'Komisija ir jos prioritetai'
+  -
+    href: 'https://ec.europa.eu/info/index_lt'
+    label: 'Politika, informacija ir paslaugos'
+social_media_title: 'Sekite Europos Komisijos naujienas'
+social_media_links:
+  -
+    link:
+      href: 'https://www.facebook.com/EuropeanCommission'
+      label: Facebook
+  -
+    link:
+      href: 'https://twitter.com/EU_commission'
+      label: Twitter
+  -
+    link:
+      href: 'https://europa.eu/european-union/contact/social-networks_lt#n:+i:4+e:1+t:+s'
+      label: 'Kiti socialiniai tinklai'
+about_eu_title: 'Europos Sąjunga'
+about_eu_links:
+  -
+    href: 'https://europa.eu/european-union/about-eu/institutions-bodies_lt'
+    label: 'ES institucijоs'
+  -
+    href: 'https://europa.eu/european-union/index_lt'
+    label: 'Europos Sąjunga'
+bottom_links:
+  -
+    href: 'https://ec.europa.eu/info/about-commissions-new-web-presence_lt'
+    label: 'Apie naują Komisijos interneto svetainę'
+  -
+    href: 'https://ec.europa.eu/info/language-policy_lt'
+    label: 'Kalbų politika'
+  -
+    href: 'http://ec.europa.eu/info/resources-partners_lt'
+    label: 'Resources for partners'
+  -
+    href: 'https://ec.europa.eu/info/cookies_lt'
+    label: Slapukai
+  -
+    href: 'https://ec.europa.eu/info/privacy-policy_lt'
+    label: 'Privatumo politika'
+  -
+    href: 'https://ec.europa.eu/info/legal-notice_lt'
+    label: 'Teisinė informacija'
+  -
+    href: 'https://ec.europa.eu/info/contact_lt'
+    label: Kontaktai

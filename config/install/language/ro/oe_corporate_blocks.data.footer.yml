@@ -1,0 +1,52 @@
+about_ec_title: 'Comisia Europeană'
+about_ec_links:
+  -
+    href: 'https://ec.europa.eu/commission/index_ro'
+    label: 'Comisia și prioritățile sale'
+  -
+    href: 'https://ec.europa.eu/info/index_ro'
+    label: 'Informații și domenii de interes'
+social_media_title: 'Urmăriți Comisia Europeană'
+social_media_links:
+  -
+    link:
+      href: 'https://www.facebook.com/EuropeanCommission'
+      label: Facebook
+  -
+    link:
+      href: 'https://twitter.com/EU_commission'
+      label: Twitter
+  -
+    link:
+      href: 'https://europa.eu/european-union/contact/social-networks_ro#n:+i:4+e:1+t:+s'
+      label: 'Alte rețele sociale'
+about_eu_title: 'Uniunea Europeană'
+about_eu_links:
+  -
+    href: 'https://europa.eu/european-union/about-eu/institutions-bodies_ro'
+    label: 'Instituțiile UE'
+  -
+    href: 'https://europa.eu/european-union/index_ro'
+    label: 'Uniunea Europeană'
+bottom_links:
+  -
+    href: 'https://ec.europa.eu/info/about-commissions-new-web-presence_ro'
+    label: 'Despre noul portal al Comisiei'
+  -
+    href: 'https://ec.europa.eu/info/language-policy_ro'
+    label: 'Politica lingvistică'
+  -
+    href: 'http://ec.europa.eu/info/resources-partners_ro'
+    label: 'Resources for partners'
+  -
+    href: 'https://ec.europa.eu/info/cookies_ro'
+    label: Cookie-urile
+  -
+    href: 'https://ec.europa.eu/info/privacy-policy_ro'
+    label: 'Politica de confidențialitate'
+  -
+    href: 'https://ec.europa.eu/info/legal-notice_ro'
+    label: 'Aviz juridic'
+  -
+    href: 'https://ec.europa.eu/info/contact_ro'
+    label: Contact

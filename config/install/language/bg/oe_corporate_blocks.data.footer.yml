@@ -1,0 +1,52 @@
+about_ec_title: 'Европейска комисия'
+about_ec_links:
+  -
+    href: 'https://ec.europa.eu/commission/index_bg'
+    label: 'Комисията и нейните приоритети'
+  -
+    href: 'https://ec.europa.eu/info/index_bg'
+    label: 'Политики, информация и услуги'
+social_media_title: 'Следвайте Европейската комисия'
+social_media_links:
+  -
+    link:
+      href: 'https://www.facebook.com/EuropeanCommission'
+      label: Facebook
+  -
+    link:
+      href: 'https://twitter.com/EU_commission'
+      label: Twitter
+  -
+    link:
+      href: 'https://europa.eu/european-union/contact/social-networks_bg#n:+i:4+e:1+t:+s'
+      label: 'Други социални мрежи'
+about_eu_title: 'Европейски съюз'
+about_eu_links:
+  -
+    href: 'https://europa.eu/european-union/about-eu/institutions-bodies_bg'
+    label: 'Институции на ЕС'
+  -
+    href: 'https://europa.eu/european-union/index_bg'
+    label: 'Европейски съюз'
+bottom_links:
+  -
+    href: 'https://ec.europa.eu/info/about-commissions-new-web-presence_bg'
+    label: 'За новото присъствие на Комисията в интернет'
+  -
+    href: 'http://ec.europa.eu/info/resources-partners_bg'
+    label: 'Resources for partners'
+  -
+    href: 'https://ec.europa.eu/info/language-policy_bg'
+    label: 'Езикова политика'
+  -
+    href: 'https://ec.europa.eu/info/cookies_bg'
+    label: Бисквитки
+  -
+    href: 'https://ec.europa.eu/info/privacy-policy_bg'
+    label: 'Политика за поверителност'
+  -
+    href: 'https://ec.europa.eu/info/legal-notice_bg'
+    label: 'Правна информация'
+  -
+    href: 'https://ec.europa.eu/info/contact_bg'
+    label: 'За контакти'

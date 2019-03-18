@@ -1,0 +1,19 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - oe_corporate_blocks
+  theme:
+    - bartik
+id: footer_block
+theme: bartik
+region: footer_fifth
+weight: 0
+provider: null
+plugin: oe_footer
+settings:
+  id: oe_footer
+  label: 'OpenEuropa Footer block'
+  provider: oe_corporate_blocks
+  label_display: '0'
+visibility: {  }

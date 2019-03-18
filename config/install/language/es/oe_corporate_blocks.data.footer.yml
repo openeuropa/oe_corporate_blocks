@@ -1,0 +1,52 @@
+about_ec_title: 'Comisión Europea'
+about_ec_links:
+  -
+    href: 'https://ec.europa.eu/commission/index_es'
+    label: 'La Comisión y sus prioridades'
+  -
+    href: 'https://ec.europa.eu/info/index_es'
+    label: 'Políticas, información y servicios'
+social_media_title: 'Seguir a la Comisión Europea'
+social_media_links:
+  -
+    link:
+      href: 'https://www.facebook.com/EuropeanCommission'
+      label: Facebook
+  -
+    link:
+      href: 'https://twitter.com/EU_commission'
+      label: Twitter
+  -
+    link:
+      href: 'https://europa.eu/european-union/contact/social-networks_es#n:+i:4+e:1+t:+s'
+      label: 'Otras redes sociales'
+about_eu_title: 'Unión Europea'
+about_eu_links:
+  -
+    href: 'https://europa.eu/european-union/about-eu/institutions-bodies_es'
+    label: 'Instituciones de la UE'
+  -
+    href: 'https://europa.eu/european-union/index_es'
+    label: 'Unión Europea'
+bottom_links:
+  -
+    href: 'https://ec.europa.eu/info/about-commissions-new-web-presence_es'
+    label: 'Sobre la nueva página web de la Comisión'
+  -
+    href: 'https://ec.europa.eu/info/language-policy_es'
+    label: 'Política lingüística'
+  -
+    href: 'http://ec.europa.eu/info/resources-partners_es'
+    label: 'Resources for partners'
+  -
+    href: 'https://ec.europa.eu/info/cookies_es'
+    label: Cookies
+  -
+    href: 'https://ec.europa.eu/info/privacy-policy_es'
+    label: 'Política de privacidad'
+  -
+    href: 'https://ec.europa.eu/info/legal-notice_es'
+    label: 'Aviso jurídico'
+  -
+    href: 'https://ec.europa.eu/info/contact_es'
+    label: Contacto

@@ -1,0 +1,52 @@
+about_ec_title: 'An Coimisiún Eorpach'
+about_ec_links:
+  -
+    href: 'https://ec.europa.eu/commission/index_ga'
+    label: 'An Coimisiún agus a thosaíochtaí'
+  -
+    href: 'https://ec.europa.eu/info/index_ga'
+    label: 'Beartais, eolas agus seirbhísí'
+social_media_title: 'An Coimisiún Eorpach a leanúint'
+social_media_links:
+  -
+    link:
+      href: 'https://www.facebook.com/EuropeanCommission'
+      label: Facebook
+  -
+    link:
+      href: 'https://twitter.com/EU_commission'
+      label: Twitter
+  -
+    link:
+      href: 'https://europa.eu/european-union/contact/social-networks_ga#n:+i:4+e:1+t:+s'
+      label: 'Líonraí sóisialta eile'
+about_eu_title: 'Aontais Eorpaigh'
+about_eu_links:
+  -
+    href: 'https://europa.eu/european-union/about-eu/institutions-bodies_ga'
+    label: 'Institiúidí an Aontais Eorpaigh'
+  -
+    href: 'https://europa.eu/european-union/index_ga'
+    label: 'Aontais Eorpaigh'
+bottom_links:
+  -
+    href: 'https://ec.europa.eu/info/about-commissions-new-web-presence_ga'
+    label: 'Eolas faoi láithreacht nua an Choimisiúin Eorpaigh ar an idirlíon'
+  -
+    href: 'https://ec.europa.eu/info/language-policy_ga'
+    label: 'Beartas teanga'
+  -
+    href: 'http://ec.europa.eu/info/resources-partners_ga'
+    label: 'Resources for partners'
+  -
+    href: 'https://ec.europa.eu/info/cookies_ga'
+    label: Fianáin
+  -
+    href: 'https://ec.europa.eu/info/privacy-policy_ga'
+    label: 'Beartas príobháideachais'
+  -
+    href: 'https://ec.europa.eu/info/legal-notice_ga'
+    label: 'Fógra dlíthiúil'
+  -
+    href: 'https://ec.europa.eu/info/contact_ga'
+    label: Teagmháil

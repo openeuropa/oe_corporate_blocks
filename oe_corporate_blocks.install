@@ -1,0 +1,27 @@
+<?php
+
+/**
+ * @file
+ * Install, update and uninstall functions for the oe_corporate_blocks module.
+ */
+
+declare(strict_types = 1);
+
+/**
+ * Implements hook_install().
+ */
+function oe_corporate_blocks_install() {
+  if (\Drupal::isConfigSyncing() === TRUE) {
+    // If config is syncing, we do nothing here.
+    return;
+  }
+
+  if (!\Drupal::moduleHandler()->moduleExists('oe_multilingual')) {
+    return;
+  }
+
+  // Triggers the config override localisation only if the oe_multilingual
+  // module was already installed. See also
+  // oe_corporate_blocks_modules_installed().
+  _oe_corporate_blocks_ensure_config_translations();
+}

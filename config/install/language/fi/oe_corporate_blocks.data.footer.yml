@@ -1,0 +1,52 @@
+about_ec_title: 'Euroopan komissio'
+about_ec_links:
+  -
+    href: 'https://ec.europa.eu/commission/index_fi'
+    label: 'Komissio ja sen toiminnan painopisteet'
+  -
+    href: 'https://ec.europa.eu/info/index_fi'
+    label: 'Politiikan alat, palvelut, tietolähteet'
+social_media_title: 'Seuraa Euroopan komissiota'
+social_media_links:
+  -
+    link:
+      href: 'https://www.facebook.com/EuropeanCommission'
+      label: Facebook
+  -
+    link:
+      href: 'https://twitter.com/EU_commission'
+      label: Twitter
+  -
+    link:
+      href: 'https://europa.eu/european-union/contact/social-networks_fi#n:+i:4+e:1+t:+s'
+      label: 'Muut yhteisöpalvelut'
+about_eu_title: 'Euroopan unioni'
+about_eu_links:
+  -
+    href: 'https://europa.eu/european-union/about-eu/institutions-bodies_fi'
+    label: 'EU:n toimielimeti'
+  -
+    href: 'https://europa.eu/european-union/index_fi'
+    label: 'Euroopan unioni'
+bottom_links:
+  -
+    href: 'https://ec.europa.eu/info/about-commissions-new-web-presence_fi'
+    label: 'Tietoa komission verkkosivujen uudistuksesta'
+  -
+    href: 'https://ec.europa.eu/info/language-policy_fi'
+    label: Kielipolitiikka
+  -
+    href: 'http://ec.europa.eu/info/resources-partners_fi'
+    label: 'Resources for partners'
+  -
+    href: 'https://ec.europa.eu/info/cookies_fi'
+    label: Evästeet
+  -
+    href: 'https://ec.europa.eu/info/privacy-policy_fi'
+    label: Yksityisyydensuoja
+  -
+    href: 'https://ec.europa.eu/info/legal-notice_fi'
+    label: 'Oikeudellinen huomautus'
+  -
+    href: 'https://ec.europa.eu/info/contact_fi'
+    label: Yhteydenotot

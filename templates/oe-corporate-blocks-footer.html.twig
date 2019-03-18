@@ -1,0 +1,60 @@
+{#
+/**
+ * @file
+ * Default theme implementation for rendering corporate blocks footer.
+ *
+ * Available variables:
+ * - corporate_footer: Array with structure compatible to ECL ec-components-footer component.
+ *   - about_ec: Data about EC for corporate footer.
+ *   - social_media: Social media links for corporate footer.
+ *   - about_eu: Data about EU for corporate footer.
+ *
+ * @see template_preprocess_corporate_blocks_footer()
+ *
+ * @ingroup themeable
+ */
+#}
+
+<div class="footer__corporate-top">
+  {% if corporate_footer.about_ec.items is defined and corporate_footer.about_ec.items is not empty %}
+    <h2 class="footer__column-title">{{ corporate_footer.about_ec.title }}</h2>
+    <ul class="footer__list">
+      {% for menu_item in corporate_footer.about_ec.items %}
+        <li class="footer__list-item">
+          {{ link(menu_item.label, menu_item.href) }}
+        </li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+  {% if corporate_footer.social_media.items is defined and corporate_footer.social_media.items is not empty %}
+    <h2 class="footer__column-title">{{ corporate_footer.social_media.title }}</h2>
+    <ul class="footer__list">
+      {% for menu_item in corporate_footer.social_media.items %}
+        <li class="footer__list-item">
+          {{ link(menu_item.link.label, menu_item.link.href) }}
+        </li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+  {% if corporate_footer.about_eu.items is defined and corporate_footer.about_eu.items is not empty %}
+    <h2 class="footer__column-title">{{ corporate_footer.about_eu.title }}</h2>
+    <ul class="footer__list">
+      {% for menu_item in corporate_footer.about_eu.items %}
+        <li>
+          {{ link(menu_item.label, menu_item.href) }}
+        </li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+</div>
+<div class="footer__corporate-bottom">
+  {% if corporate_footer.bottom_links is defined and corporate_footer.bottom_links is not empty %}
+    <ul class="footer__list">
+      {% for menu_item in corporate_footer.bottom_links %}
+        <li class="footer__list-item">
+          {{ link(menu_item.label, menu_item.href) }}
+        </li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+</div>
