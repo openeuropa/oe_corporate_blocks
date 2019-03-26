@@ -60,21 +60,21 @@ oe_corporate_blocks.data.site_switcher:
   label: 'Data for site switcher bock.'
   mapping:
     info_label:
-      type: string
+      type: label
       label: 'Info site link label'
-      translatable: true
     info_url:
       type: string
       label: 'Info site link URL'
       translatable: true
+      form_element_class: '\Drupal\config_translation\FormElement\Textfield'
     political_label:
-      type: string
+      type: label
       label: 'Political site link label'
-      translatable: true
     political_url:
       type: string
       label: 'Political site link URL'
       translatable: true
+      form_element_class: '\Drupal\config_translation\FormElement\Textfield'
     active:
       type: string
       label: 'Active link'
