@@ -1,12 +1,12 @@
-about_ec_title: 'European Commission'
+about_ec_title: 'Comissão Europeia'
 about_ec_links:
   -
-    href: 'https://ec.europa.eu/commission/index_en'
-    label: 'Commission and its priorities'
+    href: 'https://ec.europa.eu/commission/index_pt'
+    label: 'As prioridades da Comissão'
   -
-    href: 'https://ec.europa.eu/info/index_en'
-    label: 'Policies, information and services'
-social_media_title: 'Follow the European Commission'
+    href: 'https://ec.europa.eu/info/index_pt'
+    label: 'Políticas, informações e serviços'
+social_media_title: 'Siga a Comissão Europeia'
 social_media_links:
   -
     link:
@@ -18,35 +18,35 @@ social_media_links:
       label: Twitter
   -
     link:
-      href: 'https://europa.eu/european-union/contact/social-networks_en#n:+i:4+e:1+t:+s'
-      label: 'Other social media'
-about_eu_title: 'European Union'
+      href: 'https://europa.eu/european-union/contact/social-networks_pt#n:+i:4+e:1+t:+s'
+      label: 'Outras redes sociais'
+about_eu_title: 'União Europeia'
 about_eu_links:
   -
-    href: 'https://europa.eu/european-union/about-eu/institutions-bodies_en'
-    label: 'EU institutions'
+    href: 'https://europa.eu/european-union/about-eu/institutions-bodies_pt'
+    label: 'Instituições da UE'
   -
-    href: 'https://europa.eu/european-union/index_en'
-    label: 'European Union'
+    href: 'https://europa.eu/european-union/index_pt'
+    label: 'União Europeia'
 bottom_links:
   -
-    href: 'https://ec.europa.eu/info/about-commissions-new-web-presence_en'
-    label: 'About the Commission''s new web presence'
+    href: 'https://ec.europa.eu/info/about-commissions-new-web-presence_pt'
+    label: 'Sobre a nova presença da Comissão na Web'
   -
-    href: 'https://ec.europa.eu/info/language-policy_en'
-    label: 'Language policy'
+    href: 'https://ec.europa.eu/info/language-policy_pt'
+    label: 'Política em matéria de línguas'
   -
-    href: 'http://ec.europa.eu/info/resources-partners_en'
+    href: 'http://ec.europa.eu/info/resources-partners_pt'
     label: 'Resources for partners'
   -
-    href: 'https://ec.europa.eu/info/cookies_en'
-    label: Cookies
+    href: 'https://ec.europa.eu/info/cookies_pt'
+    label: 'Cookies testemunhos de conexãob'
   -
-    href: 'https://ec.europa.eu/info/privacy-policy_en'
-    label: 'Privacy policy'
+    href: 'https://ec.europa.eu/info/privacy-policy_pt'
+    label: 'Política de privacidade'
   -
-    href: 'https://ec.europa.eu/info/legal-notice_en'
-    label: 'Legal notice'
+    href: 'https://ec.europa.eu/info/legal-notice_pt'
+    label: 'Advertência jurídica'
   -
-    href: 'https://ec.europa.eu/info/contact_en'
-    label: Contact
+    href: 'https://ec.europa.eu/info/contact_pt'
+    label: Contacto
