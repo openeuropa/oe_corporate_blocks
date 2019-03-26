@@ -1,0 +1,13 @@
+oe_corporate_blocks.settings_index:
+  title: Corporate blocks
+  route_name: oe_corporate_blocks.settings_index
+  parent: system.admin_config
+  description: 'Configure corporate blocks.'
+  position: left
+  weight: -10
+oe_corporate_blocks.site_switcher_settings:
+  title: 'Site switcher'
+  parent: oe_corporate_blocks.settings_index
+  description: 'Configure site switcher block.'
+  weight: -10
+  route_name: oe_corporate_blocks.site_switcher_settings
