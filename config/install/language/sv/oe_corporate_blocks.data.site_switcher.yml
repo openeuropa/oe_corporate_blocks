@@ -1,4 +1,4 @@
 political_label: 'Kommissionen och dess prioriteringar'
-political_url: 'https://ec.europa.eu/commission/index_sv'
+political_href: 'https://ec.europa.eu/commission/index_sv'
 info_label: 'Politikområden, information och tjänster'
-info_url: 'https://ec.europa.eu/info/index_sv'
+info_href: 'https://ec.europa.eu/info/index_sv'

@@ -1,4 +1,4 @@
 political_label: 'A Bizottság és prioritásai'
-political_url: 'https://ec.europa.eu/commission/index_hu'
+political_href: 'https://ec.europa.eu/commission/index_hu'
 info_label: 'Szakpolitikák, információk és szolgálatok'
-info_url: 'https://ec.europa.eu/info/index_hu'
+info_href: 'https://ec.europa.eu/info/index_hu'

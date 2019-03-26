@@ -62,7 +62,7 @@ oe_corporate_blocks.data.site_switcher:
     info_label:
       type: label
       label: 'Info site link label'
-    info_url:
+    info_href:
       type: string
       label: 'Info site link URL'
       translatable: true
@@ -70,7 +70,7 @@ oe_corporate_blocks.data.site_switcher:
     political_label:
       type: label
       label: 'Political site link label'
-    political_url:
+    political_href:
       type: string
       label: 'Political site link URL'
       translatable: true

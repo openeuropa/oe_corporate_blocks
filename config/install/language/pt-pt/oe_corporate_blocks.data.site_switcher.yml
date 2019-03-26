@@ -1,4 +1,4 @@
 political_label: 'As prioridades da Comissão'
-political_url: 'https://ec.europa.eu/commission/index_pt'
+political_href: 'https://ec.europa.eu/commission/index_pt'
 info_label: 'Políticas, informações e serviços'
-info_url: 'https://ec.europa.eu/info/index_pt'
+info_href: 'https://ec.europa.eu/info/index_pt'

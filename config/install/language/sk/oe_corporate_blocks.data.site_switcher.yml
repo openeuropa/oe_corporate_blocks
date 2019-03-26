@@ -1,4 +1,4 @@
 political_label: 'Komisia a jej priority'
-political_url: 'https://ec.europa.eu/commission/index_sk'
+political_href: 'https://ec.europa.eu/commission/index_sk'
 info_label: 'Politiky, informácie a služby'
-info_url: 'https://ec.europa.eu/info/index_sk'
+info_href: 'https://ec.europa.eu/info/index_sk'

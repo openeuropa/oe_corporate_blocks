@@ -1,4 +1,4 @@
 political_label: 'Comisia și prioritățile sale'
-political_url: 'https://ec.europa.eu/commission/index_ro'
+political_href: 'https://ec.europa.eu/commission/index_ro'
 info_label: 'Informații și domenii de interes'
-info_url: 'https://ec.europa.eu/info/index_ro'
+info_href: 'https://ec.europa.eu/info/index_ro'
