@@ -10,6 +10,8 @@ default:
         - OpenEuropa\Behat\TransformationContext:
             pages:
               login: "user/login"
+              site switcher block settings: 'admin/config/corporate-blocks/site-switcher'
+
   extensions:
     Drupal\MinkExtension:
       goutte: ~

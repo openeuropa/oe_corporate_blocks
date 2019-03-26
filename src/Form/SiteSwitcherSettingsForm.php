@@ -34,14 +34,13 @@ class SiteSwitcherSettingsForm extends ConfigFormBase {
 
     $form['active'] = [
       '#type' => 'select',
-      '#title' => $this->t('Set active link'),
+      '#title' => $this->t('Link'),
       '#options' => [
-        'info' => $this->t('Info'),
-        'political' => $this->t('Political'),
+        'info' => $this->t('Info site'),
+        'political' => $this->t('Political site'),
       ],
       '#description' => $this->t('Choose which site switcher link will be marked as active.'),
       '#default_value' => $config->get('active'),
-      '#required' => TRUE,
     ];
 
     return parent::buildForm($form, $form_state);
