@@ -1,0 +1,7 @@
+oe_corporate_blocks.site_switcher_settings:
+  path: '/admin/structure/site-switcher'
+  defaults:
+    _form: '\Drupal\oe_corporate_blocks\Form\SiteSwitcherSettingsForm'
+    _title: 'Site switcher settings'
+  requirements:
+    _permission: 'configure site switcher block'
