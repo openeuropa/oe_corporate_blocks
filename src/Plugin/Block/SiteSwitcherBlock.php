@@ -99,10 +99,10 @@ class SiteSwitcherBlock extends BlockBase implements ContainerFactoryPluginInter
       ],
     ];
 
-    // By some reasons drush config import does not invalidate cache tags.
-    // So for deployment we should take care about this case and
-    // perform cache invalidation
-    // via the "config:oe_corporate_blocks.data.footer" cache tag.
+    // Drush config import does not seem to invalidate cache tags.
+    // When syncing configuration we should take care of this case and
+    // invalidate the cache via the
+    // "config:oe_corporate_blocks.data.site_switcher" cache tag.
     $this->renderer->addCacheableDependency($build, $config);
 
     return $build;
