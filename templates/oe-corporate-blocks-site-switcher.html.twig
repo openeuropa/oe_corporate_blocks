@@ -1,0 +1,21 @@
+{#
+/**
+ * @file
+ * Default theme implementation for rendering corporate site switcher footer.
+ *
+ * Available variables:
+ * - links: list of site switcher links.
+ *
+ * @ingroup themeable
+ */
+#}
+
+<div class="site-switcher">
+  <ul>
+    {% for link in links %}
+      <li>
+        <a href="{{ link.href }}" class="{{ link.active ? 'active' }}">{{ link.label }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+</div>

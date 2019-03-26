@@ -18,6 +18,11 @@ function oe_corporate_blocks_theme() {
         'custom_footer' => [],
       ],
     ],
+    'oe_corporate_blocks_site_switcher' => [
+      'variables' => [
+        'links' => [],
+      ],
+    ],
   ];
 }
 
