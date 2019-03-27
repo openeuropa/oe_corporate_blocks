@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types = 1);
+
 namespace Drupal\oe_corporate_blocks\Form;
 
 use Drupal\Core\Form\ConfigFormBase;
