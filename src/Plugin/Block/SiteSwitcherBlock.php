@@ -4,12 +4,10 @@ declare(strict_types = 1);
 
 namespace Drupal\oe_corporate_blocks\Plugin\Block;
 
-use Drupal\Core\Access\AccessResult;
 use Drupal\Core\Block\BlockBase;
+use Drupal\Core\Cache\CacheableMetadata;
 use Drupal\Core\Config\ConfigFactoryInterface;
 use Drupal\Core\Plugin\ContainerFactoryPluginInterface;
-use Drupal\Core\Render\RendererInterface;
-use Drupal\Core\Session\AccountInterface;
 use Symfony\Component\DependencyInjection\ContainerInterface;
 
 /**
@@ -31,13 +29,6 @@ class SiteSwitcherBlock extends BlockBase implements ContainerFactoryPluginInter
   protected $configFactory;
 
   /**
-   * The renderer.
-   *
-   * @var \Drupal\Core\Render\RendererInterface
-   */
-  protected $renderer;
-
-  /**
    * Construct the site switcher block object.
    *
    * @param array $configuration
@@ -48,13 +39,10 @@ class SiteSwitcherBlock extends BlockBase implements ContainerFactoryPluginInter
    *   The plugin implementation definition.
    * @param \Drupal\Core\Config\ConfigFactoryInterface $config_factory
    *   The config factory.
-   * @param \Drupal\Core\Render\RendererInterface $renderer
-   *   The renderer.
    */
-  public function __construct(array $configuration, $plugin_id, $plugin_definition, ConfigFactoryInterface $config_factory, RendererInterface $renderer) {
+  public function __construct(array $configuration, $plugin_id, $plugin_definition, ConfigFactoryInterface $config_factory) {
     parent::__construct($configuration, $plugin_id, $plugin_definition);
     $this->configFactory = $config_factory;
-    $this->renderer = $renderer;
   }
 
   /**
@@ -65,23 +53,19 @@ class SiteSwitcherBlock extends BlockBase implements ContainerFactoryPluginInter
       $configuration,
       $plugin_id,
       $plugin_definition,
-      $container->get('config.factory'),
-      $container->get('renderer')
+      $container->get('config.factory')
     );
   }
 
   /**
    * {@inheritdoc}
    */
-  protected function blockAccess(AccountInterface $account) {
-    return AccessResult::allowedIfHasPermission($account, 'access content');
-  }
-
-  /**
-   * {@inheritdoc}
-   */
   public function build() {
+    $cache = new CacheableMetadata();
+    $cache->addCacheContexts(['languages:language_interface']);
+
     $config = $this->configFactory->get('oe_corporate_blocks.data.site_switcher');
+    $cache->addCacheableDependency($config);
 
     $build['#theme'] = 'oe_corporate_blocks_site_switcher';
 
@@ -93,17 +77,7 @@ class SiteSwitcherBlock extends BlockBase implements ContainerFactoryPluginInter
       ];
     }
 
-    $build['#cache'] = [
-      'contexts' => [
-        'languages:language_interface',
-      ],
-    ];
-
-    // Drush config import does not seem to invalidate cache tags.
-    // When syncing configuration we should take care of this case and
-    // invalidate the cache via the
-    // "config:oe_corporate_blocks.data.site_switcher" cache tag.
-    $this->renderer->addCacheableDependency($build, $config);
+    $cache->applyTo($build);
 
     return $build;
   }

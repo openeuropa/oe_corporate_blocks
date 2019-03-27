@@ -5,12 +5,10 @@ declare(strict_types = 1);
 namespace Drupal\oe_corporate_blocks\Plugin\Block;
 
 use Drupal\Component\Utility\NestedArray;
-use Drupal\Core\Access\AccessResult;
 use Drupal\Core\Block\BlockBase;
+use Drupal\Core\Cache\CacheableMetadata;
 use Drupal\Core\Config\ConfigFactoryInterface;
 use Drupal\Core\Plugin\ContainerFactoryPluginInterface;
-use Drupal\Core\Render\RendererInterface;
-use Drupal\Core\Session\AccountInterface;
 use Symfony\Component\DependencyInjection\ContainerInterface;
 
 /**
@@ -32,13 +30,6 @@ class FooterBlock extends BlockBase implements ContainerFactoryPluginInterface {
   protected $configFactory;
 
   /**
-   * The renderer.
-   *
-   * @var \Drupal\Core\Render\RendererInterface
-   */
-  protected $renderer;
-
-  /**
    * Construct the footer block object.
    *
    * @param array $configuration
@@ -49,13 +40,10 @@ class FooterBlock extends BlockBase implements ContainerFactoryPluginInterface {
    *   The plugin implementation definition.
    * @param \Drupal\Core\Config\ConfigFactoryInterface $config_factory
    *   The config factory.
-   * @param \Drupal\Core\Render\RendererInterface $renderer
-   *   The renderer.
    */
-  public function __construct(array $configuration, $plugin_id, $plugin_definition, ConfigFactoryInterface $config_factory, RendererInterface $renderer) {
+  public function __construct(array $configuration, $plugin_id, $plugin_definition, ConfigFactoryInterface $config_factory) {
     parent::__construct($configuration, $plugin_id, $plugin_definition);
     $this->configFactory = $config_factory;
-    $this->renderer = $renderer;
   }
 
   /**
@@ -66,25 +54,21 @@ class FooterBlock extends BlockBase implements ContainerFactoryPluginInterface {
       $configuration,
       $plugin_id,
       $plugin_definition,
-      $container->get('config.factory'),
-      $container->get('renderer')
+      $container->get('config.factory')
     );
   }
 
   /**
    * {@inheritdoc}
    */
-  protected function blockAccess(AccountInterface $account) {
-    return AccessResult::allowedIfHasPermission($account, 'access content');
-  }
-
-  /**
-   * {@inheritdoc}
-   */
   public function build() {
-    $build['#theme'] = 'oe_corporate_blocks_footer';
+    $cache = new CacheableMetadata();
+    $cache->addCacheContexts(['languages:language_interface']);
 
     $config = $this->configFactory->get('oe_corporate_blocks.data.footer');
+    $cache->addCacheableDependency($config);
+
+    $build['#theme'] = 'oe_corporate_blocks_footer';
 
     NestedArray::setValue($build, ['#corporate_footer', 'about_ec', 'title'], $config->get('about_ec_title'));
     NestedArray::setValue($build, ['#corporate_footer', 'about_ec', 'items'], $config->get('about_ec_links'));
@@ -97,17 +81,7 @@ class FooterBlock extends BlockBase implements ContainerFactoryPluginInterface {
 
     NestedArray::setValue($build, ['#corporate_footer', 'bottom_links'], $config->get('bottom_links'));
 
-    $build['#cache'] = [
-      'contexts' => [
-        'languages:language_interface',
-      ],
-    ];
-
-    // Drush config import does not seem to invalidate cache tags.
-    // When syncing configuration we should take care of this case and
-    // invalidate the cache via the
-    // "config:oe_corporate_blocks.data.footer" cache tag.
-    $this->renderer->addCacheableDependency($build, $config);
+    $cache->applyTo($build);
 
     return $build;
   }
