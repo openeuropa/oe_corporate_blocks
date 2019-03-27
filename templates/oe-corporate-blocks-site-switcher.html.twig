@@ -14,7 +14,7 @@
   <ul>
     {% for link in links %}
       <li>
-        <a href="{{ link.href }}" class="{{ link.active ? 'active' }}">{{ link.label }}</a>
+        <a href="{{ link.href }}"{{ link.active ? ' class="active"' }}">{{ link.label }}</a>
       </li>
     {% endfor %}
   </ul>

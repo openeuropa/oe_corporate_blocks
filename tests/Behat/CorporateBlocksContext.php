@@ -19,7 +19,7 @@ class CorporateBlocksContext extends RawDrupalContext {
    *
    * @var \Drupal\DrupalExtension\Context\ConfigContext
    */
-  private $configContext;
+  protected $configContext;
 
   /**
    * Gather external contexts.
@@ -81,6 +81,9 @@ class CorporateBlocksContext extends RawDrupalContext {
 
   /**
    * Assert that the given site switcher link is active.
+   *
+   * @param string $label
+   *   Link label.
    *
    * @Then the :label site switcher link should be set as active
    */

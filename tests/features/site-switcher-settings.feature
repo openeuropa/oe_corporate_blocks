@@ -1,11 +1,11 @@
 @api
-Feature: Site switcher settings
+Feature: Site switcher settings.
   In order to be able to set which site switcher link should be active
   As a privileged user
   I want to be able to access the site switcher settings page and update its values
 
   @preserve-site-switcher-configuration
-  Scenario Outline: Privileged users can set which site switcher block link is active
+  Scenario Outline: Privileged users can set which site switcher block link is active.
     Given the following languages are available:
       | languages |
       | en        |
