@@ -4,9 +4,9 @@ declare(strict_types = 1);
 
 namespace Drupal\Tests\oe_corporate_blocks\Behat;
 
-use Behat\Behat\Hook\Scope\AfterScenarioScope;
 use Behat\Behat\Hook\Scope\BeforeScenarioScope;
 use Behat\Gherkin\Node\TableNode;
+use Drupal\DrupalExtension\Context\ConfigContext;
 use Drupal\DrupalExtension\Context\RawDrupalContext;
 
 /**
@@ -15,11 +15,37 @@ use Drupal\DrupalExtension\Context\RawDrupalContext;
 class CorporateBlocksContext extends RawDrupalContext {
 
   /**
-   * Site switcher configuration value.
+   * Configuration context from Drupal Behat Extension.
    *
-   * @var array
+   * @var \Drupal\DrupalExtension\Context\ConfigContext
    */
-  protected $siteSwitcherConfiguration;
+  private $configContext;
+
+  /**
+   * Gather external contexts.
+   *
+   * @param \Behat\Behat\Hook\Scope\BeforeScenarioScope $scope
+   *   The scenario scope.
+   *
+   * @BeforeScenario
+   */
+  public function gatherContexts(BeforeScenarioScope $scope) {
+    $environment = $scope->getEnvironment();
+    $this->configContext = $environment->getContext(ConfigContext::class);
+  }
+
+  /**
+   * Backup site configuration.
+   *
+   * @param \Behat\Behat\Hook\Scope\BeforeScenarioScope $scope
+   *   The scenario scope.
+   *
+   * @beforeScenario @preserve-site-switcher-configuration
+   */
+  public function backupSiteSwitcherConfiguration(BeforeScenarioScope $scope): void {
+    $value = \Drupal::config('oe_corporate_blocks.data.site_switcher')->get('active');
+    $this->configContext->setConfig('oe_corporate_blocks.data.site_switcher', 'active', $value);
+  }
 
   /**
    * Assertion of links in region.
@@ -45,33 +71,6 @@ class CorporateBlocksContext extends RawDrupalContext {
   }
 
   /**
-   * Backup site switcher block configuration.
-   *
-   * @param \Behat\Behat\Hook\Scope\BeforeScenarioScope $scope
-   *   The scenario scope.
-   *
-   * @beforeScenario @preserve-site-switcher-configuration
-   */
-  public function backupSiteSwitcherConfiguration(BeforeScenarioScope $scope): void {
-    $this->siteSwitcherConfiguration = \Drupal::config('oe_corporate_blocks.data.site_switcher')
-      ->getRawData();
-  }
-
-  /**
-   * Restore site switcher block configuration.
-   *
-   * @param \Behat\Behat\Hook\Scope\AfterScenarioScope $scope
-   *   The scenario scope.
-   *
-   * @afterScenario @preserve-site-switcher-configuration
-   */
-  public function restoreSiteSwitcherConfiguration(AfterScenarioScope $scope): void {
-    \Drupal::configFactory()->getEditable('oe_corporate_blocks.data.site_switcher')
-      ->setData($this->siteSwitcherConfiguration)
-      ->save();
-  }
-
-  /**
    * Assert that there are no active site switcher links.
    *
    * @Then no site switcher link should be set as active
@@ -81,7 +80,7 @@ class CorporateBlocksContext extends RawDrupalContext {
   }
 
   /**
-   * Assert that given site switcher link is active.
+   * Assert that the given site switcher link is active.
    *
    * @Then the :label site switcher link should be set as active
    */

@@ -7,6 +7,7 @@ default:
         - Drupal\DrupalExtension\Context\MinkContext
         - Drupal\DrupalExtension\Context\DrupalContext
         - Drupal\Tests\oe_corporate_blocks\Behat\CorporateBlocksContext
+        - Drupal\DrupalExtension\Context\ConfigContext
         - OpenEuropa\Behat\TransformationContext:
             pages:
               login: "user/login"

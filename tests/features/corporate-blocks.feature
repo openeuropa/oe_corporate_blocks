@@ -11,12 +11,12 @@ Feature: Corporate blocks feature
       | fr        |
     When I am on "the <path> page"
 
-    And Links in the "header" region contains the links:
+    Then Links in the "header" region contains the links:
       | Commission and its priorities      | https://ec.europa.eu/commission/index_en |
       | Policies, information and services | https://ec.europa.eu/info/index_en       |
 
     When I click "French" in the "header"
-    And Links in the "header" region contains the links:
+    Then Links in the "header" region contains the links:
       | La Commission et ses priorités       | https://ec.europa.eu/commission/index_fr |
       | Politiques, informations et services | https://ec.europa.eu/info/index_fr       |
 
