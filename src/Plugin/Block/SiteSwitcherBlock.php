@@ -4,7 +4,6 @@ declare(strict_types = 1);
 
 namespace Drupal\oe_corporate_blocks\Plugin\Block;
 
-use Drupal\Component\Utility\NestedArray;
 use Drupal\Core\Block\BlockBase;
 use Drupal\Core\Cache\CacheableMetadata;
 use Drupal\Core\Config\ConfigFactoryInterface;
@@ -12,15 +11,15 @@ use Drupal\Core\Plugin\ContainerFactoryPluginInterface;
 use Symfony\Component\DependencyInjection\ContainerInterface;
 
 /**
- * Provides the corporate footer block.
+ * Provides the corporate site switcher block.
  *
  * @Block(
- *   id = "oe_footer",
- *   admin_label = @Translation("Footer block"),
+ *   id = "oe_site_switcher",
+ *   admin_label = @Translation("Site switcher block"),
  *   category = @Translation("Corporate blocks"),
  * )
  */
-class FooterBlock extends BlockBase implements ContainerFactoryPluginInterface {
+class SiteSwitcherBlock extends BlockBase implements ContainerFactoryPluginInterface {
 
   /**
    * The config factory.
@@ -30,7 +29,7 @@ class FooterBlock extends BlockBase implements ContainerFactoryPluginInterface {
   protected $configFactory;
 
   /**
-   * Construct the footer block object.
+   * Construct the site switcher block object.
    *
    * @param array $configuration
    *   A configuration array containing information about the plugin instance.
@@ -65,21 +64,18 @@ class FooterBlock extends BlockBase implements ContainerFactoryPluginInterface {
     $cache = new CacheableMetadata();
     $cache->addCacheContexts(['languages:language_interface']);
 
-    $config = $this->configFactory->get('oe_corporate_blocks.data.footer');
+    $config = $this->configFactory->get('oe_corporate_blocks.data.site_switcher');
     $cache->addCacheableDependency($config);
 
-    $build['#theme'] = 'oe_corporate_blocks_footer';
+    $build['#theme'] = 'oe_corporate_blocks_site_switcher';
 
-    NestedArray::setValue($build, ['#corporate_footer', 'about_ec', 'title'], $config->get('about_ec_title'));
-    NestedArray::setValue($build, ['#corporate_footer', 'about_ec', 'items'], $config->get('about_ec_links'));
-
-    NestedArray::setValue($build, ['#corporate_footer', 'social_media', 'title'], $config->get('social_media_title'));
-    NestedArray::setValue($build, ['#corporate_footer', 'social_media', 'items'], $config->get('social_media_links'));
-
-    NestedArray::setValue($build, ['#corporate_footer', 'about_eu', 'title'], $config->get('about_eu_title'));
-    NestedArray::setValue($build, ['#corporate_footer', 'about_eu', 'items'], $config->get('about_eu_links'));
-
-    NestedArray::setValue($build, ['#corporate_footer', 'bottom_links'], $config->get('bottom_links'));
+    foreach (['info', 'political'] as $name) {
+      $build['#links'][$name] = [
+        'label' => $config->get("{$name}_label"),
+        'href' => $config->get("{$name}_href"),
+        'active' => $config->get('active') === $name,
+      ];
+    }
 
     $cache->applyTo($build);
 

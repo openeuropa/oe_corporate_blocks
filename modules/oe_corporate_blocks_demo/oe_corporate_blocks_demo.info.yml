@@ -1,3 +1,9 @@
 name: OpenEuropa Corporate blocks Demo
 core: 8.x
 type: module
+
+config_devel:
+  install:
+  - block.block.footer_block
+  - block.block.languageswitcher
+  - block.block.siteswitcherblock

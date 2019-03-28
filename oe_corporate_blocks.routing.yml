@@ -1,0 +1,15 @@
+oe_corporate_blocks.settings_index:
+  path: '/admin/config/corporate-blocks'
+  defaults:
+    _controller: '\Drupal\system\Controller\SystemController::systemAdminMenuBlockPage'
+    _title: 'Corporate blocks'
+  requirements:
+    _permission: 'access administration pages'
+
+oe_corporate_blocks.site_switcher_settings:
+  path: '/admin/config/corporate-blocks/site-switcher'
+  defaults:
+    _form: '\Drupal\oe_corporate_blocks\Form\SiteSwitcherSettingsForm'
+    _title: 'Site switcher settings'
+  requirements:
+    _permission: 'configure site switcher block'

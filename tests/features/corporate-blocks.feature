@@ -4,6 +4,27 @@ Feature: Corporate blocks feature
   As an anonymous user
   I want to use corporate blocks
 
+  Scenario Outline: The site switcher block shows the correct links in different languages
+    Given the following languages are available:
+      | languages |
+      | en        |
+      | fr        |
+    When I am on "the <path> page"
+
+    Then Links in the "header" region contains the links:
+      | Commission and its priorities      | https://ec.europa.eu/commission/index_en |
+      | Policies, information and services | https://ec.europa.eu/info/index_en       |
+
+    When I click "French" in the "header"
+    Then Links in the "header" region contains the links:
+      | La Commission et ses priorités       | https://ec.europa.eu/commission/index_fr |
+      | Politiques, informations et services | https://ec.europa.eu/info/index_fr       |
+
+    Examples:
+      | path  |
+      | home  |
+      | login |
+
   Scenario Outline: On any pages we have correct urls in corporate footer block for many languages
     Given the following languages are available:
       | languages |
