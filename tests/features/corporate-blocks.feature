@@ -64,7 +64,7 @@ Feature: Corporate blocks feature
     | Union européenne                                             | https://europa.eu/european-union/index_fr                                   |
     | À propos de la nouvelle présence de la Commission sur le web | https://ec.europa.eu/info/about-commissions-new-web-presence_fr             |
     | Politique linguistique                                       | https://ec.europa.eu/info/language-policy_fr                                |
-    | Resources for partners                                       | http://ec.europa.eu/info/resources-partners_fr                             |
+    | Ressources pour les partenaires                              | http://ec.europa.eu/info/resources-partners_fr                             |
     | Cookies                                                      | https://ec.europa.eu/info/cookies_fr                                        |
     | Protection de la vie privée                                  | https://ec.europa.eu/info/privacy-policy_fr                                 |
     | Avis juridique                                               | https://ec.europa.eu/info/legal-notice_fr                                   |
