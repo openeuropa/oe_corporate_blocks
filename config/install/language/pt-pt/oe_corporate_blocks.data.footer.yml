@@ -40,7 +40,7 @@ bottom_links:
     label: 'Recursos disponíveis'
   -
     href: 'https://ec.europa.eu/info/cookies_pt'
-    label: 'Cookies testemunhos de conexãob'
+    label: 'Cookies'
   -
     href: 'https://ec.europa.eu/info/privacy-policy_pt'
     label: 'Política de privacidade'
