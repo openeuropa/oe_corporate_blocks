@@ -1,8 +1,17 @@
 # Change Log
 
+## [1.0.1](https://github.com/openeuropa/oe_corporate_blocks/tree/1.0.1) (2019-05-06)
+[Full Changelog](https://github.com/openeuropa/oe_corporate_blocks/compare/1.0.0...1.0.1)
+
+**Merged pull requests:**
+
+- OPENEUROPA-1792: Fix Slovak translation. [\#9](https://github.com/openeuropa/oe_corporate_blocks/pull/9) ([sergepavle](https://github.com/sergepavle))
+- Updating dependencies [\#8](https://github.com/openeuropa/oe_corporate_blocks/pull/8) ([upchuk](https://github.com/upchuk))
+
 ## [1.0.0](https://github.com/openeuropa/oe_corporate_blocks/tree/1.0.0) (2019-04-25)
 **Merged pull requests:**
 
+- Update CHANGELOG.md for release 1.0.0. [\#7](https://github.com/openeuropa/oe_corporate_blocks/pull/7) ([ademarco](https://github.com/ademarco))
 - OPENEUROPA-1792: Translate string 'Resources for partners'. [\#6](https://github.com/openeuropa/oe_corporate_blocks/pull/6) ([imanoleguskiza](https://github.com/imanoleguskiza))
 - OPENEUROPA-1743: Add site switcher configuration and form. [\#3](https://github.com/openeuropa/oe_corporate_blocks/pull/3) ([ademarco](https://github.com/ademarco))
 - OPENEUROPA-1695: Implement footer block. [\#2](https://github.com/openeuropa/oe_corporate_blocks/pull/2) ([sergepavle](https://github.com/sergepavle))
