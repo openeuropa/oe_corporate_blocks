@@ -1,10 +1,18 @@
 # Change Log
 
+## [1.1.0](https://github.com/openeuropa/oe_corporate_blocks/tree/1.1.0) (2019-05-07)
+[Full Changelog](https://github.com/openeuropa/oe_corporate_blocks/compare/1.0.1...1.1.0)
+
+**Merged pull requests:**
+
+- OPENEUROPA-1813: Upgrade to 8.7. [\#10](https://github.com/openeuropa/oe_corporate_blocks/pull/10) ([upchuk](https://github.com/upchuk))
+
 ## [1.0.1](https://github.com/openeuropa/oe_corporate_blocks/tree/1.0.1) (2019-05-06)
 [Full Changelog](https://github.com/openeuropa/oe_corporate_blocks/compare/1.0.0...1.0.1)
 
 **Merged pull requests:**
 
+- OPENEUROPA-1813: Create release 1.0.1. [\#11](https://github.com/openeuropa/oe_corporate_blocks/pull/11) ([voidtek](https://github.com/voidtek))
 - OPENEUROPA-1792: Fix Slovak translation. [\#9](https://github.com/openeuropa/oe_corporate_blocks/pull/9) ([sergepavle](https://github.com/sergepavle))
 - Updating dependencies [\#8](https://github.com/openeuropa/oe_corporate_blocks/pull/8) ([upchuk](https://github.com/upchuk))
 
