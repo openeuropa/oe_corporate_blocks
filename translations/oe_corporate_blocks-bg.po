@@ -1,0 +1,81 @@
+
+msgid "European Commission"
+msgstr "Европейска комисия"
+
+msgid "https://ec.europa.eu/commission/index_en"
+msgstr "https://ec.europa.eu/commission/index_bg"
+
+msgid "Commission and its priorities"
+msgstr "Комисията и нейните приоритети"
+
+msgid "https://ec.europa.eu/info/index_en"
+msgstr "https://ec.europa.eu/info/index_bg"
+
+msgid "Policies, information and services"
+msgstr "Политики, информация и услуги"
+
+msgid "Follow the European Commission"
+msgstr "Следвайте Европейската комисия"
+
+msgid "https://europa.eu/european-union/contact/social-networks_en#n:+i:4+e:1+t:+s"
+msgstr "https://europa.eu/european-union/contact/social-networks_bg#n:+i:4+e:1+t:+s"
+
+msgid "Other social media"
+msgstr "Други социални мрежи"
+
+msgid "European Union"
+msgstr "Европейски съюз"
+
+msgid "https://europa.eu/european-union/about-eu/institutions-bodies_en"
+msgstr "https://europa.eu/european-union/about-eu/institutions-bodies_bg"
+
+msgid "EU institutions"
+msgstr "Институции на ЕС"
+
+msgid "https://europa.eu/european-union/index_en"
+msgstr "https://europa.eu/european-union/index_bg"
+
+msgid "https://ec.europa.eu/info/about-commissions-new-web-presence_en"
+msgstr "https://ec.europa.eu/info/about-commissions-new-web-presence_bg"
+
+msgid "About the Commission's new web presence"
+msgstr ""
+"За новото присъствие на Комисията в "
+"интернет"
+
+msgid "https://ec.europa.eu/info/language-policy_en"
+msgstr "http://ec.europa.eu/info/resources-partners_bg"
+
+msgid "Language policy"
+msgstr "Ресурси за партньори"
+
+msgid "https://ec.europa.eu/info/resources-partners_en"
+msgstr "https://ec.europa.eu/info/language-policy_bg"
+
+msgid "Resources for partners"
+msgstr "Езикова политика"
+
+msgid "https://ec.europa.eu/info/cookies_en"
+msgstr "https://ec.europa.eu/info/cookies_bg"
+
+msgid "Cookies"
+msgstr "Бисквитки"
+
+msgid "https://ec.europa.eu/info/privacy-policy_en"
+msgstr "https://ec.europa.eu/info/privacy-policy_bg"
+
+msgid "Privacy policy"
+msgstr "Политика за поверителност"
+
+msgid "https://ec.europa.eu/info/legal-notice_en"
+msgstr "https://ec.europa.eu/info/legal-notice_bg"
+
+msgid "Legal notice"
+msgstr "Правна информация"
+
+msgid "https://ec.europa.eu/info/contact_en"
+msgstr "https://ec.europa.eu/info/contact_bg"
+
+msgid "Contact"
+msgstr "За контакти"
+

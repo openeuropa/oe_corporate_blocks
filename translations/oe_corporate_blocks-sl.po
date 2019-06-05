@@ -1,0 +1,79 @@
+
+msgid "European Commission"
+msgstr "Evropska komisija"
+
+msgid "https://ec.europa.eu/commission/index_en"
+msgstr "https://ec.europa.eu/commission/index_sl"
+
+msgid "Commission and its priorities"
+msgstr "Komisija in njene prednostne naloge"
+
+msgid "https://ec.europa.eu/info/index_en"
+msgstr "https://ec.europa.eu/info/index_sl"
+
+msgid "Policies, information and services"
+msgstr "Politike, informacije in službe"
+
+msgid "Follow the European Commission"
+msgstr "Spremljajte Evropsko komisijo"
+
+msgid "https://europa.eu/european-union/contact/social-networks_en#n:+i:4+e:1+t:+s"
+msgstr "https://europa.eu/european-union/contact/social-networks_sl#n:+i:4+e:1+t:+s"
+
+msgid "Other social media"
+msgstr "Druga družbena omrežja"
+
+msgid "European Union"
+msgstr "Evropska unija"
+
+msgid "https://europa.eu/european-union/about-eu/institutions-bodies_en"
+msgstr "https://europa.eu/european-union/about-eu/institutions-bodies_sl"
+
+msgid "EU institutions"
+msgstr "Institucije EU"
+
+msgid "https://europa.eu/european-union/index_en"
+msgstr "https://europa.eu/european-union/index_sl"
+
+msgid "https://ec.europa.eu/info/about-commissions-new-web-presence_en"
+msgstr "https://ec.europa.eu/info/about-commissions-new-web-presence_sl"
+
+msgid "About the Commission's new web presence"
+msgstr "O novi spletni prisotnosti Evropske komisije"
+
+msgid "https://ec.europa.eu/info/language-policy_en"
+msgstr "https://ec.europa.eu/info/language-policy_sl"
+
+msgid "Language policy"
+msgstr "Jezikovna politika"
+
+msgid "https://ec.europa.eu/info/resources-partners_en"
+msgstr "http://ec.europa.eu/info/resources-partners_sl"
+
+msgid "Resources for partners"
+msgstr "Viri za partnerje"
+
+msgid "https://ec.europa.eu/info/cookies_en"
+msgstr "https://ec.europa.eu/info/cookies_sl"
+
+msgid "Cookies"
+msgstr "Piškotki"
+
+msgid "https://ec.europa.eu/info/privacy-policy_en"
+msgstr "https://ec.europa.eu/info/privacy-policy_sl"
+
+msgid "Privacy policy"
+msgstr "Varstvo zasebnosti"
+
+msgid "https://ec.europa.eu/info/legal-notice_en"
+msgstr "https://ec.europa.eu/info/legal-notice_sl"
+
+msgid "Legal notice"
+msgstr "Pravno obvestilo"
+
+msgid "https://ec.europa.eu/info/contact_en"
+msgstr "https://ec.europa.eu/info/contact_sl"
+
+msgid "Contact"
+msgstr "Kontakt"
+

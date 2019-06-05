@@ -1,0 +1,79 @@
+
+msgid "European Commission"
+msgstr "Europska komisija"
+
+msgid "https://ec.europa.eu/commission/index_en"
+msgstr "https://ec.europa.eu/commission/index_hr"
+
+msgid "Commission and its priorities"
+msgstr "Prioriteti Komisije"
+
+msgid "https://ec.europa.eu/info/index_en"
+msgstr "https://ec.europa.eu/info/index_hr"
+
+msgid "Policies, information and services"
+msgstr "Politike, informacije i službe"
+
+msgid "Follow the European Commission"
+msgstr "Pratite Europsku komisiju"
+
+msgid "https://europa.eu/european-union/contact/social-networks_en#n:+i:4+e:1+t:+s"
+msgstr "https://europa.eu/european-union/contact/social-networks_hr#n:+i:4+e:1+t:+s"
+
+msgid "Other social media"
+msgstr "Ostale društvene mreže"
+
+msgid "European Union"
+msgstr "Europske unije"
+
+msgid "https://europa.eu/european-union/about-eu/institutions-bodies_en"
+msgstr "https://europa.eu/european-union/about-eu/institutions-bodies_hr"
+
+msgid "EU institutions"
+msgstr "Institucijama EU-a"
+
+msgid "https://europa.eu/european-union/index_en"
+msgstr "https://europa.eu/european-union/index_hr"
+
+msgid "https://ec.europa.eu/info/about-commissions-new-web-presence_en"
+msgstr "https://ec.europa.eu/info/about-commissions-new-web-presence_hr"
+
+msgid "About the Commission's new web presence"
+msgstr "O novim internetskim stranicama Komisije"
+
+msgid "https://ec.europa.eu/info/language-policy_en"
+msgstr "https://ec.europa.eu/info/language-policy_hr"
+
+msgid "Language policy"
+msgstr "Jezična politika"
+
+msgid "https://ec.europa.eu/info/resources-partners_en"
+msgstr "http://ec.europa.eu/info/resources-partners_hr"
+
+msgid "Resources for partners"
+msgstr "Resursi za partnere"
+
+msgid "https://ec.europa.eu/info/cookies_en"
+msgstr "https://ec.europa.eu/info/cookies_hr"
+
+msgid "Cookies"
+msgstr "Kolačići"
+
+msgid "https://ec.europa.eu/info/privacy-policy_en"
+msgstr "https://ec.europa.eu/info/privacy-policy_hr"
+
+msgid "Privacy policy"
+msgstr "Politika zaštite privatnosti"
+
+msgid "https://ec.europa.eu/info/legal-notice_en"
+msgstr "https://ec.europa.eu/info/legal-notice_hr"
+
+msgid "Legal notice"
+msgstr "Kolačići"
+
+msgid "https://ec.europa.eu/info/contact_en"
+msgstr "https://ec.europa.eu/info/contact_hr"
+
+msgid "Contact"
+msgstr "Kontakt"
+

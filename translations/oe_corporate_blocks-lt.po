@@ -1,0 +1,79 @@
+
+msgid "European Commission"
+msgstr "Europos Komisija"
+
+msgid "https://ec.europa.eu/commission/index_en"
+msgstr "https://ec.europa.eu/commission/index_lt"
+
+msgid "Commission and its priorities"
+msgstr "Komisija ir jos prioritetai"
+
+msgid "https://ec.europa.eu/info/index_en"
+msgstr "https://ec.europa.eu/info/index_lt"
+
+msgid "Policies, information and services"
+msgstr "Politika, informacija ir paslaugos"
+
+msgid "Follow the European Commission"
+msgstr "Sekite Europos Komisijos naujienas"
+
+msgid "https://europa.eu/european-union/contact/social-networks_en#n:+i:4+e:1+t:+s"
+msgstr "https://europa.eu/european-union/contact/social-networks_lt#n:+i:4+e:1+t:+s"
+
+msgid "Other social media"
+msgstr "Kiti socialiniai tinklai"
+
+msgid "European Union"
+msgstr "Europos Sąjunga"
+
+msgid "https://europa.eu/european-union/about-eu/institutions-bodies_en"
+msgstr "https://europa.eu/european-union/about-eu/institutions-bodies_lt"
+
+msgid "EU institutions"
+msgstr "ES institucijоs"
+
+msgid "https://europa.eu/european-union/index_en"
+msgstr "https://europa.eu/european-union/index_lt"
+
+msgid "https://ec.europa.eu/info/about-commissions-new-web-presence_en"
+msgstr "https://ec.europa.eu/info/about-commissions-new-web-presence_lt"
+
+msgid "About the Commission's new web presence"
+msgstr "Apie naują Komisijos interneto svetainę"
+
+msgid "https://ec.europa.eu/info/language-policy_en"
+msgstr "https://ec.europa.eu/info/language-policy_lt"
+
+msgid "Language policy"
+msgstr "Kalbų politika"
+
+msgid "https://ec.europa.eu/info/resources-partners_en"
+msgstr "http://ec.europa.eu/info/resources-partners_lt"
+
+msgid "Resources for partners"
+msgstr "Ištekliai partneriams"
+
+msgid "https://ec.europa.eu/info/cookies_en"
+msgstr "https://ec.europa.eu/info/cookies_lt"
+
+msgid "Cookies"
+msgstr "Slapukai"
+
+msgid "https://ec.europa.eu/info/privacy-policy_en"
+msgstr "https://ec.europa.eu/info/privacy-policy_lt"
+
+msgid "Privacy policy"
+msgstr "Privatumo politika"
+
+msgid "https://ec.europa.eu/info/legal-notice_en"
+msgstr "https://ec.europa.eu/info/legal-notice_lt"
+
+msgid "Legal notice"
+msgstr "Teisinė informacija"
+
+msgid "https://ec.europa.eu/info/contact_en"
+msgstr "https://ec.europa.eu/info/contact_lt"
+
+msgid "Contact"
+msgstr "Kontaktai"
+

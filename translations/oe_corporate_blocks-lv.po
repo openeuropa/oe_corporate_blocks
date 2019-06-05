@@ -1,0 +1,79 @@
+
+msgid "European Commission"
+msgstr "Eiropas Komisija"
+
+msgid "https://ec.europa.eu/commission/index_en"
+msgstr "https://ec.europa.eu/commission/index_lv"
+
+msgid "Commission and its priorities"
+msgstr "Komisija un tās prioritātes"
+
+msgid "https://ec.europa.eu/info/index_en"
+msgstr "https://ec.europa.eu/info/index_lv"
+
+msgid "Policies, information and services"
+msgstr "Politikas jomas, informācija un dienesti"
+
+msgid "Follow the European Commission"
+msgstr "Sekojiet Eiropas Komisijai"
+
+msgid "https://europa.eu/european-union/contact/social-networks_en#n:+i:4+e:1+t:+s"
+msgstr "https://europa.eu/european-union/contact/social-networks_lv#n:+i:4+e:1+t:+s"
+
+msgid "Other social media"
+msgstr "Citi sociālie tīkli"
+
+msgid "European Union"
+msgstr "Eiropas Savienība"
+
+msgid "https://europa.eu/european-union/about-eu/institutions-bodies_en"
+msgstr "https://europa.eu/european-union/about-eu/institutions-bodies_lv"
+
+msgid "EU institutions"
+msgstr "ES iestādēm"
+
+msgid "https://europa.eu/european-union/index_en"
+msgstr "https://europa.eu/european-union/index_lv"
+
+msgid "https://ec.europa.eu/info/about-commissions-new-web-presence_en"
+msgstr "https://ec.europa.eu/info/about-commissions-new-web-presence_lv"
+
+msgid "About the Commission's new web presence"
+msgstr "Par Komisijas jauno tīmekļa vietni"
+
+msgid "https://ec.europa.eu/info/language-policy_en"
+msgstr "http://ec.europa.eu/info/resources-partners_lv"
+
+msgid "Language policy"
+msgstr "Resursi partneriem"
+
+msgid "https://ec.europa.eu/info/resources-partners_en"
+msgstr "https://ec.europa.eu/info/language-policy_lv"
+
+msgid "Resources for partners"
+msgstr "Valodu politika"
+
+msgid "https://ec.europa.eu/info/cookies_en"
+msgstr "https://ec.europa.eu/info/cookies_lv"
+
+msgid "Cookies"
+msgstr "Sīkdatnes"
+
+msgid "https://ec.europa.eu/info/privacy-policy_en"
+msgstr "https://ec.europa.eu/info/privacy-policy_lv"
+
+msgid "Privacy policy"
+msgstr "Privātuma aizsardzība"
+
+msgid "https://ec.europa.eu/info/legal-notice_en"
+msgstr "https://ec.europa.eu/info/legal-notice_lv"
+
+msgid "Legal notice"
+msgstr "Juridisks paziņojums"
+
+msgid "https://ec.europa.eu/info/contact_en"
+msgstr "https://ec.europa.eu/info/contact_lv"
+
+msgid "Contact"
+msgstr "Kontakti"
+

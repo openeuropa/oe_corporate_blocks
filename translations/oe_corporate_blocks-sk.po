@@ -1,0 +1,79 @@
+
+msgid "European Commission"
+msgstr "Európska komisia"
+
+msgid "https://ec.europa.eu/commission/index_en"
+msgstr "https://ec.europa.eu/commission/index_sk"
+
+msgid "Commission and its priorities"
+msgstr "Komisia a jej priority"
+
+msgid "https://ec.europa.eu/info/index_en"
+msgstr "https://ec.europa.eu/info/index_sk"
+
+msgid "Policies, information and services"
+msgstr "Politiky, informácie a služby"
+
+msgid "Follow the European Commission"
+msgstr "Sledujte Európsku komisiu"
+
+msgid "https://europa.eu/european-union/contact/social-networks_en#n:+i:4+e:1+t:+s"
+msgstr "https://europa.eu/european-union/contact/social-networks_sk#n:+i:4+e:1+t:+s"
+
+msgid "Other social media"
+msgstr "Iné sociálne siete"
+
+msgid "European Union"
+msgstr "Európska únia"
+
+msgid "https://europa.eu/european-union/about-eu/institutions-bodies_en"
+msgstr "https://europa.eu/european-union/about-eu/institutions-bodies_sk"
+
+msgid "EU institutions"
+msgstr "Inštitúcie EÚ"
+
+msgid "https://europa.eu/european-union/index_en"
+msgstr "https://europa.eu/european-union/index_sk"
+
+msgid "https://ec.europa.eu/info/about-commissions-new-web-presence_en"
+msgstr "https://ec.europa.eu/info/about-commissions-new-web-presence_sk"
+
+msgid "About the Commission's new web presence"
+msgstr "Nová prezentácia Komisie na internete"
+
+msgid "https://ec.europa.eu/info/language-policy_en"
+msgstr "https://ec.europa.eu/info/language-policy_sk"
+
+msgid "Language policy"
+msgstr "Jazyková politika"
+
+msgid "https://ec.europa.eu/info/resources-partners_en"
+msgstr "http://ec.europa.eu/info/resources-partners_sk"
+
+msgid "Resources for partners"
+msgstr "Materiály pre partnerov"
+
+msgid "https://ec.europa.eu/info/cookies_en"
+msgstr "https://ec.europa.eu/info/cookies_sk"
+
+msgid "Cookies"
+msgstr "Súbory cookie"
+
+msgid "https://ec.europa.eu/info/privacy-policy_en"
+msgstr "https://ec.europa.eu/info/privacy-policy_sk"
+
+msgid "Privacy policy"
+msgstr "Politika ochrany osobných údajov"
+
+msgid "https://ec.europa.eu/info/legal-notice_en"
+msgstr "https://ec.europa.eu/info/legal-notice_sk"
+
+msgid "Legal notice"
+msgstr "Právne upozornenie"
+
+msgid "https://ec.europa.eu/info/contact_en"
+msgstr "https://ec.europa.eu/info/contact_sk"
+
+msgid "Contact"
+msgstr "Kontaktné údaje"
+

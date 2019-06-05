@@ -4,3 +4,6 @@ package: OpenEuropa
 type: module
 core: 8.x
 configure: oe_corporate_blocks.settings_index
+
+'interface translation project': oe_corporate_blocks
+'interface translation server pattern': modules/custom/oe_corporate_blocks/translations/%project-%language.po

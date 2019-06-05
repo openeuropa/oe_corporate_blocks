@@ -1,0 +1,79 @@
+
+msgid "European Commission"
+msgstr "Európai Bizottság"
+
+msgid "https://ec.europa.eu/commission/index_en"
+msgstr "https://ec.europa.eu/commission/index_hu"
+
+msgid "Commission and its priorities"
+msgstr "A Bizottság és prioritásai"
+
+msgid "https://ec.europa.eu/info/index_en"
+msgstr "https://ec.europa.eu/info/index_hu"
+
+msgid "Policies, information and services"
+msgstr "Szakpolitikák, információk és szolgálatok"
+
+msgid "Follow the European Commission"
+msgstr "Kövessen bennünket!"
+
+msgid "https://europa.eu/european-union/contact/social-networks_en#n:+i:4+e:1+t:+s"
+msgstr "https://europa.eu/european-union/contact/social-networks_hu#n:+i:4+e:1+t:+s"
+
+msgid "Other social media"
+msgstr "Egyéb közösségi hálózatok"
+
+msgid "European Union"
+msgstr "Európai Unió"
+
+msgid "https://europa.eu/european-union/about-eu/institutions-bodies_en"
+msgstr "https://europa.eu/european-union/about-eu/institutions-bodies_hu"
+
+msgid "EU institutions"
+msgstr "EU intézményei"
+
+msgid "https://europa.eu/european-union/index_en"
+msgstr "https://europa.eu/european-union/index_hu"
+
+msgid "https://ec.europa.eu/info/about-commissions-new-web-presence_en"
+msgstr "https://ec.europa.eu/info/about-commissions-new-web-presence_hu"
+
+msgid "About the Commission's new web presence"
+msgstr "A Bizottság új webes jelenléte"
+
+msgid "https://ec.europa.eu/info/language-policy_en"
+msgstr "https://ec.europa.eu/info/language-policy_hu"
+
+msgid "Language policy"
+msgstr "Nyelvpolitika"
+
+msgid "https://ec.europa.eu/info/resources-partners_en"
+msgstr "http://ec.europa.eu/info/resources-partners_hu"
+
+msgid "Resources for partners"
+msgstr "Erőforrások, segédeszközök"
+
+msgid "https://ec.europa.eu/info/cookies_en"
+msgstr "https://ec.europa.eu/info/cookies_hu"
+
+msgid "Cookies"
+msgstr "Cookie-k"
+
+msgid "https://ec.europa.eu/info/privacy-policy_en"
+msgstr "https://ec.europa.eu/info/privacy-policy_hu"
+
+msgid "Privacy policy"
+msgstr "Adatvédelmi politika"
+
+msgid "https://ec.europa.eu/info/legal-notice_en"
+msgstr "https://ec.europa.eu/info/legal-notice_hu"
+
+msgid "Legal notice"
+msgstr "Jogi nyilatkozat"
+
+msgid "https://ec.europa.eu/info/contact_en"
+msgstr "https://ec.europa.eu/info/contact_hu"
+
+msgid "Contact"
+msgstr "Kapcsolatfelvétel"
+
