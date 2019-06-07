@@ -22,6 +22,23 @@ class CorporateBlocksContext extends RawDrupalContext {
   protected $configContext;
 
   /**
+   * A list of css selectors needed by this context, keyed by name.
+   *
+   * @var array
+   */
+  protected $selectors = [];
+
+  /**
+   * CorporateBlocksContext constructor.
+   *
+   * @param array $selectors
+   *   An array of css selectors, keyed by name.
+   */
+  public function __construct(array $selectors) {
+    $this->selectors = $selectors;
+  }
+
+  /**
    * Gather external contexts.
    *
    * @param \Behat\Behat\Hook\Scope\BeforeScenarioScope $scope
@@ -76,7 +93,7 @@ class CorporateBlocksContext extends RawDrupalContext {
    * @Then no site switcher link should be set as active
    */
   public function assertNotActiveSiteSwitcherLink(): void {
-    $this->assertSession()->elementNotExists('css', '.site-switcher a.active');
+    $this->assertSession()->elementNotExists('css', $this->getSelector('site switcher active link'));
   }
 
   /**
@@ -85,10 +102,14 @@ class CorporateBlocksContext extends RawDrupalContext {
    * @param string $label
    *   Link label.
    *
+   * @throws \Exception
+   *   Thrown when the site switcher link is not found or the wrong one is
+   *   active.
+   *
    * @Then the :label site switcher link should be set as active
    */
   public function assertActiveSiteSwitcherLink(string $label): void {
-    $link = $this->getSession()->getPage()->find('css', '.site-switcher a.active');
+    $link = $this->getSession()->getPage()->find('css', $this->getSelector('site switcher active link'));
     if (!$link) {
       throw new \Exception("Site switcher link '{$label}' not found.");
     }
@@ -96,6 +117,26 @@ class CorporateBlocksContext extends RawDrupalContext {
     if ($link->getText() !== $label) {
       throw new \Exception("Site switcher link '{$label}' is not active.");
     }
+  }
+
+  /**
+   * Returns a css selector from the context configuration.
+   *
+   * @param string $name
+   *   The selector name.
+   *
+   * @return string
+   *   The css selector.
+   *
+   * @throws \Exception
+   *   Thrown when the selector is not found.
+   */
+  protected function getSelector(string $name): string {
+    if (!array_key_exists($name, $this->selectors)) {
+      throw new \Exception(sprintf('Missing selector "%s".', $name));
+    }
+
+    return $this->selectors[$name];
   }
 
 }
