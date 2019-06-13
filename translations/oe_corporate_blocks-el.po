@@ -40,6 +40,9 @@ msgstr "https://europa.eu/european-union/index_el"
 msgid "https://ec.europa.eu/info/about-commissions-new-web-presence_en"
 msgstr "https://ec.europa.eu/info/about-commissions-new-web-presence_el"
 
+msgid "About the Commission's new web presence"
+msgstr "Σχετικά με τη νέα διαδικτυακή παρουσία της Ευρωπαϊκής Επιτροπής"
+
 msgid "https://ec.europa.eu/info/language-policy_en"
 msgstr "http://ec.europa.eu/info/resources-partners_el"
 
