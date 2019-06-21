@@ -1,0 +1,79 @@
+
+msgid "European Commission"
+msgstr "Euroopan komissio"
+
+msgid "https://ec.europa.eu/commission/index_en"
+msgstr "https://ec.europa.eu/commission/index_fi"
+
+msgid "Commission and its priorities"
+msgstr "Komissio ja sen toiminnan painopisteet"
+
+msgid "https://ec.europa.eu/info/index_en"
+msgstr "https://ec.europa.eu/info/index_fi"
+
+msgid "Policies, information and services"
+msgstr "Politiikan alat, palvelut, tietolähteet"
+
+msgid "Follow the European Commission"
+msgstr "Seuraa Euroopan komissiota"
+
+msgid "https://europa.eu/european-union/contact/social-networks_en#n:+i:4+e:1+t:+s"
+msgstr "https://europa.eu/european-union/contact/social-networks_fi#n:+i:4+e:1+t:+s"
+
+msgid "Other social media"
+msgstr "Muut yhteisöpalvelut"
+
+msgid "European Union"
+msgstr "Euroopan unioni"
+
+msgid "https://europa.eu/european-union/about-eu/institutions-bodies_en"
+msgstr "https://europa.eu/european-union/about-eu/institutions-bodies_fi"
+
+msgid "EU institutions"
+msgstr "EU:n toimielimeti"
+
+msgid "https://europa.eu/european-union/index_en"
+msgstr "https://europa.eu/european-union/index_fi"
+
+msgid "https://ec.europa.eu/info/about-commissions-new-web-presence_en"
+msgstr "https://ec.europa.eu/info/about-commissions-new-web-presence_fi"
+
+msgid "About the Commission's new web presence"
+msgstr "Tietoa komission verkkosivujen uudistuksesta"
+
+msgid "https://ec.europa.eu/info/language-policy_en"
+msgstr "https://ec.europa.eu/info/language-policy_fi"
+
+msgid "Language policy"
+msgstr "Kielipolitiikka"
+
+msgid "https://ec.europa.eu/info/resources-partners_en"
+msgstr "http://ec.europa.eu/info/resources-partners_fi"
+
+msgid "Resources for partners"
+msgstr "Apuvälineitä yhteistyökumppaneille"
+
+msgid "https://ec.europa.eu/info/cookies_en"
+msgstr "https://ec.europa.eu/info/cookies_fi"
+
+msgid "Cookies"
+msgstr "Evästeet"
+
+msgid "https://ec.europa.eu/info/privacy-policy_en"
+msgstr "https://ec.europa.eu/info/privacy-policy_fi"
+
+msgid "Privacy policy"
+msgstr "Yksityisyydensuoja"
+
+msgid "https://ec.europa.eu/info/legal-notice_en"
+msgstr "https://ec.europa.eu/info/legal-notice_fi"
+
+msgid "Legal notice"
+msgstr "Oikeudellinen huomautus"
+
+msgid "https://ec.europa.eu/info/contact_en"
+msgstr "https://ec.europa.eu/info/contact_fi"
+
+msgid "Contact"
+msgstr "Yhteydenotot"
+

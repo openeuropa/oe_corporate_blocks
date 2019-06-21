@@ -1,0 +1,76 @@
+
+msgid "European Commission"
+msgstr "Europäische Kommission"
+
+msgid "https://ec.europa.eu/commission/index_en"
+msgstr "https://ec.europa.eu/commission/index_de"
+
+msgid "Commission and its priorities"
+msgstr "Prioritäten der Kommission"
+
+msgid "https://ec.europa.eu/info/index_en"
+msgstr "https://ec.europa.eu/info/index_de"
+
+msgid "Policies, information and services"
+msgstr "Politikfelder, Informationen und Dienste"
+
+msgid "Follow the European Commission"
+msgstr "Folgen Sie der Europäischen Kommission"
+
+msgid "https://europa.eu/european-union/contact/social-networks_en#n:+i:4+e:1+t:+s"
+msgstr "https://europa.eu/european-union/contact/social-networks_de#n:+i:4+e:1+t:+s"
+
+msgid "Other social media"
+msgstr "Andere soziale Medien"
+
+msgid "European Union"
+msgstr "Europäische Union"
+
+msgid "https://europa.eu/european-union/about-eu/institutions-bodies_en"
+msgstr "https://europa.eu/european-union/about-eu/institutions-bodies_de"
+
+msgid "EU institutions"
+msgstr "EU-Institutionen"
+
+msgid "https://europa.eu/european-union/index_en"
+msgstr "https://europa.eu/european-union/index_de"
+
+msgid "https://ec.europa.eu/info/about-commissions-new-web-presence_en"
+msgstr "https://ec.europa.eu/info/about-commissions-new-web-presence_de"
+
+msgid "About the Commission's new web presence"
+msgstr "Über den neuen Internetauftritt der Kommission"
+
+msgid "https://ec.europa.eu/info/language-policy_en"
+msgstr "http://ec.europa.eu/info/resources-partners_de"
+
+msgid "Language policy"
+msgstr "Ressourcen für Partner"
+
+msgid "https://ec.europa.eu/info/resources-partners_en"
+msgstr "https://ec.europa.eu/info/language-policy_de"
+
+msgid "Resources for partners"
+msgstr "Sprachenpolitik"
+
+msgid "https://ec.europa.eu/info/cookies_en"
+msgstr "https://ec.europa.eu/info/cookies_de"
+
+msgid "https://ec.europa.eu/info/privacy-policy_en"
+msgstr "https://ec.europa.eu/info/privacy-policy_de"
+
+msgid "Privacy policy"
+msgstr "Datenschutz"
+
+msgid "https://ec.europa.eu/info/legal-notice_en"
+msgstr "https://ec.europa.eu/info/legal-notice_de"
+
+msgid "Legal notice"
+msgstr "Rechtlicher Hinweis"
+
+msgid "https://ec.europa.eu/info/contact_en"
+msgstr "https://ec.europa.eu/info/contact_de"
+
+msgid "Contact"
+msgstr "Kontakt"
+

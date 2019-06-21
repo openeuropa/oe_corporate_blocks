@@ -1,0 +1,79 @@
+
+msgid "European Commission"
+msgstr "Euroopa Komisjon"
+
+msgid "https://ec.europa.eu/commission/index_en"
+msgstr "https://ec.europa.eu/commission/index_et"
+
+msgid "Commission and its priorities"
+msgstr "Komisjon ja tema prioriteedid"
+
+msgid "https://ec.europa.eu/info/index_en"
+msgstr "https://ec.europa.eu/info/index_et"
+
+msgid "Policies, information and services"
+msgstr "Poliitikavaldkonnad, teave ja teenused"
+
+msgid "Follow the European Commission"
+msgstr "Jälgige Euroopa Komisjoni"
+
+msgid "https://europa.eu/european-union/contact/social-networks_en#n:+i:4+e:1+t:+s"
+msgstr "https://europa.eu/european-union/contact/social-networks_et#n:+i:4+e:1+t:+s"
+
+msgid "Other social media"
+msgstr "Muud sotsiaalvõrgustikud"
+
+msgid "European Union"
+msgstr "Euroopa Liit"
+
+msgid "https://europa.eu/european-union/about-eu/institutions-bodies_en"
+msgstr "https://europa.eu/european-union/about-eu/institutions-bodies_et"
+
+msgid "EU institutions"
+msgstr "ELi institutsioonid"
+
+msgid "https://europa.eu/european-union/index_en"
+msgstr "https://europa.eu/european-union/index_et"
+
+msgid "https://ec.europa.eu/info/about-commissions-new-web-presence_en"
+msgstr "https://ec.europa.eu/info/about-commissions-new-web-presence_et"
+
+msgid "About the Commission's new web presence"
+msgstr "Komisjoni uue veebikeskkonna tutvustus"
+
+msgid "https://ec.europa.eu/info/language-policy_en"
+msgstr "https://ec.europa.eu/info/language-policy_et"
+
+msgid "Language policy"
+msgstr "EKeelepoliitika"
+
+msgid "https://ec.europa.eu/info/resources-partners_en"
+msgstr "http://ec.europa.eu/info/resources-partners_et"
+
+msgid "Resources for partners"
+msgstr "Materjalid partneritele"
+
+msgid "https://ec.europa.eu/info/cookies_en"
+msgstr "https://ec.europa.eu/info/cookies_et"
+
+msgid "Cookies"
+msgstr "Küpsised"
+
+msgid "https://ec.europa.eu/info/privacy-policy_en"
+msgstr "https://ec.europa.eu/info/privacy-policy_et"
+
+msgid "Privacy policy"
+msgstr "Isikuandmete kaitse"
+
+msgid "https://ec.europa.eu/info/legal-notice_en"
+msgstr "https://ec.europa.eu/info/legal-notice_et"
+
+msgid "Legal notice"
+msgstr "Õigusteave"
+
+msgid "https://ec.europa.eu/info/contact_en"
+msgstr "https://ec.europa.eu/info/contact_et"
+
+msgid "Contact"
+msgstr "Kontakt"
+

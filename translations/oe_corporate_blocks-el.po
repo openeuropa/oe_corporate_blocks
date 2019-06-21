@@ -1,0 +1,80 @@
+
+msgid "European Commission"
+msgstr "Ευρωπαϊκή Επιτροπή"
+
+msgid "https://ec.europa.eu/commission/index_en"
+msgstr "https://ec.europa.eu/commission/index_el"
+
+msgid "Commission and its priorities"
+msgstr ""
+"Η Ευρωπαϊκή Επιτροπή και οι "
+"προτεραιότητές της"
+
+msgid "https://ec.europa.eu/info/index_en"
+msgstr "https://ec.europa.eu/info/index_el"
+
+msgid "Policies, information and services"
+msgstr "Πολιτικές, πληροφορίες και υπηρεσίες"
+
+msgid "Follow the European Commission"
+msgstr "Ακολουθήστε την Ευρωπαϊκή Επιτροπή"
+
+msgid "https://europa.eu/european-union/contact/social-networks_en#n:+i:4+e:1+t:+s"
+msgstr "https://europa.eu/european-union/contact/social-networks_el#n:+i:4+e:1+t:+s"
+
+msgid "Other social media"
+msgstr "Άλλα μέσα κοινωνικής δικτύωσης"
+
+msgid "European Union"
+msgstr "Ευρωπαϊκή Ένωση"
+
+msgid "https://europa.eu/european-union/about-eu/institutions-bodies_en"
+msgstr "https://europa.eu/european-union/about-eu/institutions-bodies_el"
+
+msgid "EU institutions"
+msgstr "Όργανα της ΕΕ"
+
+msgid "https://europa.eu/european-union/index_en"
+msgstr "https://europa.eu/european-union/index_el"
+
+msgid "https://ec.europa.eu/info/about-commissions-new-web-presence_en"
+msgstr "https://ec.europa.eu/info/about-commissions-new-web-presence_el"
+
+msgid "About the Commission's new web presence"
+msgstr "Σχετικά με τη νέα διαδικτυακή παρουσία της Ευρωπαϊκής Επιτροπής"
+
+msgid "https://ec.europa.eu/info/language-policy_en"
+msgstr "http://ec.europa.eu/info/resources-partners_el"
+
+msgid "Language policy"
+msgstr "Πόροι για εταίρους"
+
+msgid "https://ec.europa.eu/info/resources-partners_en"
+msgstr "https://ec.europa.eu/info/language-policy_el"
+
+msgid "Resources for partners"
+msgstr "Γλωσσική πολιτική"
+
+msgid "https://ec.europa.eu/info/cookies_en"
+msgstr "https://ec.europa.eu/info/cookies_el"
+
+msgid "https://ec.europa.eu/info/privacy-policy_en"
+msgstr "https://ec.europa.eu/info/privacy-policy_el"
+
+msgid "Privacy policy"
+msgstr ""
+"Πολιτική προστασίας της ιδιωτικής "
+"ζωής"
+
+msgid "https://ec.europa.eu/info/legal-notice_en"
+msgstr "https://ec.europa.eu/info/legal-notice_el"
+
+msgid "Legal notice"
+msgstr "Ανακοίνωση νομικού περιεχομένου"
+
+msgid "https://ec.europa.eu/info/contact_en"
+msgstr "https://ec.europa.eu/info/contact_el"
+
+msgid "Contact"
+msgstr "Επικοινωνία"
+

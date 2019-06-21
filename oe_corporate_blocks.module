@@ -27,50 +27,8 @@ function oe_corporate_blocks_theme() {
 }
 
 /**
- * Implements hook_modules_installed().
+ * Implements hook_locale_translation_projects_alter().
  */
-function oe_corporate_blocks_modules_installed($modules) {
-  if (!in_array('oe_multilingual', $modules)) {
-    return;
-  }
-
-  // Triggers the config override localisation if the oe_multilingual is
-  // installed. See also oe_corporate_blocks_install().
-  _oe_corporate_blocks_ensure_config_translations();
-}
-
-/**
- * Ensures that local entries exist for the configuration translations.
- *
- * Because we are shipping with pre-existing config translations,
- * we need to also ensure that upon install, corresponding locale entries are
- * created for all the translatable values found in them. See
- * \Drupal\locale\LocaleConfigSubscriber for the logic that does this normally
- * and onto which we rely by simply saving the config translations.
- *
- * In addition, since the aforementioned logic only happens if the site is NOT
- * currently in the process of being installed, we need to "trick" it into
- * believing otherwise for the cases in which the module is being installed
- * as part of a site install (such as profile dependency).
- */
-function _oe_corporate_blocks_ensure_config_translations(): void {
-  $backup = isset($GLOBALS['install_state']) ? $GLOBALS['install_state'] : NULL;
-  if ($backup) {
-    unset($GLOBALS['install_state']);
-  }
-
-  $language_manager = \Drupal::languageManager();
-  foreach ($language_manager->getLanguages() as $language) {
-    if ($language->getId() === 'en') {
-      continue;
-    }
-
-    /** @var \Drupal\language\ConfigurableLanguageInterface $config */
-    $config = $language_manager->getLanguageConfigOverride($language->getId(), 'oe_corporate_blocks.data.footer');
-    $config->save();
-  }
-
-  if ($backup) {
-    $GLOBALS['install_state'] = $backup;
-  }
+function oe_corporate_blocks_locale_translation_projects_alter(&$projects) {
+  $projects['oe_corporate_blocks']['info']['interface translation server pattern'] = drupal_get_path('module', 'oe_corporate_blocks') . '/translations/%project-%language.po';
 }

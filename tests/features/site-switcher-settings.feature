@@ -6,10 +6,6 @@ Feature: Site switcher settings.
 
   @preserve-site-switcher-configuration
   Scenario Outline: Privileged users can set which site switcher block link is active.
-    Given the following languages are available:
-      | languages |
-      | en        |
-      | fr        |
     When I am on the homepage
     Then no site switcher link should be set as active
 
@@ -24,7 +20,7 @@ Feature: Site switcher settings.
     And I am on the homepage
     Then the "<active label english>" site switcher link should be set as active
 
-    When I click "French" in the "header"
+    When I click "français" in the "header"
     Then the "<active label french>" site switcher link should be set as active
 
     Examples:

@@ -1,0 +1,79 @@
+
+msgid "European Commission"
+msgstr "An Coimisiún Eorpach"
+
+msgid "https://ec.europa.eu/commission/index_en"
+msgstr "https://ec.europa.eu/commission/index_ga"
+
+msgid "Commission and its priorities"
+msgstr "An Coimisiún agus a thosaíochtaí"
+
+msgid "https://ec.europa.eu/info/index_en"
+msgstr "https://ec.europa.eu/info/index_ga"
+
+msgid "Policies, information and services"
+msgstr "Beartais, eolas agus seirbhísí"
+
+msgid "Follow the European Commission"
+msgstr "An Coimisiún Eorpach a leanúint"
+
+msgid "https://europa.eu/european-union/contact/social-networks_en#n:+i:4+e:1+t:+s"
+msgstr "https://europa.eu/european-union/contact/social-networks_ga#n:+i:4+e:1+t:+s"
+
+msgid "Other social media"
+msgstr "Líonraí sóisialta eile"
+
+msgid "European Union"
+msgstr "Aontais Eorpaigh"
+
+msgid "https://europa.eu/european-union/about-eu/institutions-bodies_en"
+msgstr "https://europa.eu/european-union/about-eu/institutions-bodies_ga"
+
+msgid "EU institutions"
+msgstr "Institiúidí an Aontais Eorpaigh"
+
+msgid "https://europa.eu/european-union/index_en"
+msgstr "https://europa.eu/european-union/index_ga"
+
+msgid "https://ec.europa.eu/info/about-commissions-new-web-presence_en"
+msgstr "https://ec.europa.eu/info/about-commissions-new-web-presence_ga"
+
+msgid "About the Commission's new web presence"
+msgstr "Eolas faoi láithreacht nua an Choimisiúin Eorpaigh ar an idirlíon"
+
+msgid "https://ec.europa.eu/info/language-policy_en"
+msgstr "https://ec.europa.eu/info/language-policy_ga"
+
+msgid "Language policy"
+msgstr "Beartas teanga"
+
+msgid "https://ec.europa.eu/info/resources-partners_en"
+msgstr "http://ec.europa.eu/info/resources-partners_ga"
+
+msgid "Resources for partners"
+msgstr "Acmhainní le haghaidh comhpháirtithe"
+
+msgid "https://ec.europa.eu/info/cookies_en"
+msgstr "https://ec.europa.eu/info/cookies_ga"
+
+msgid "Cookies"
+msgstr "Fianáin"
+
+msgid "https://ec.europa.eu/info/privacy-policy_en"
+msgstr "https://ec.europa.eu/info/privacy-policy_ga"
+
+msgid "Privacy policy"
+msgstr "Beartas príobháideachais"
+
+msgid "https://ec.europa.eu/info/legal-notice_en"
+msgstr "https://ec.europa.eu/info/legal-notice_ga"
+
+msgid "Legal notice"
+msgstr "Fógra dlíthiúil"
+
+msgid "https://ec.europa.eu/info/contact_en"
+msgstr "https://ec.europa.eu/info/contact_ga"
+
+msgid "Contact"
+msgstr "Teagmháil"
+
