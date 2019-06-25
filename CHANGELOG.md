@@ -1,10 +1,20 @@
 # Change Log
 
+## [1.2.0](https://github.com/openeuropa/oe_corporate_blocks/tree/1.2.0) (2019-06-25)
+[Full Changelog](https://github.com/openeuropa/oe_corporate_blocks/compare/1.1.0...1.2.0)
+
+**Merged pull requests:**
+
+- OPENEUROPA-1922: Move string translations to po files. [\#15](https://github.com/openeuropa/oe_corporate_blocks/pull/15) ([imanoleguskiza](https://github.com/imanoleguskiza))
+- OPENEUROPA-1897: Use ci image. [\#14](https://github.com/openeuropa/oe_corporate_blocks/pull/14) ([imanoleguskiza](https://github.com/imanoleguskiza))
+- OPENEUROPA-1561: Allow to specify the css selectors for the corporate blocks context [\#13](https://github.com/openeuropa/oe_corporate_blocks/pull/13) ([brummbar](https://github.com/brummbar))
+
 ## [1.1.0](https://github.com/openeuropa/oe_corporate_blocks/tree/1.1.0) (2019-05-07)
 [Full Changelog](https://github.com/openeuropa/oe_corporate_blocks/compare/1.0.1...1.1.0)
 
 **Merged pull requests:**
 
+- OPENEUROPA-1813: Create release 1.1.0. [\#12](https://github.com/openeuropa/oe_corporate_blocks/pull/12) ([voidtek](https://github.com/voidtek))
 - OPENEUROPA-1813: Upgrade to 8.7. [\#10](https://github.com/openeuropa/oe_corporate_blocks/pull/10) ([upchuk](https://github.com/upchuk))
 
 ## [1.0.1](https://github.com/openeuropa/oe_corporate_blocks/tree/1.0.1) (2019-05-06)
