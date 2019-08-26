@@ -114,6 +114,12 @@ To run the behat tests:
 docker-compose exec web ./vendor/bin/behat
 ```
 
+#### Upgrade from 1.x to 2.x
+
+Note that the following blocks are deprecated after upgrading from 1.x to 2.x:
+
+- `Site Switcher`
+
 ## Contributing
 
 Please read [the full documentation](https://github.com/openeuropa/openeuropa) for details on our code of conduct, and the process for submitting pull requests to us.
