@@ -52,19 +52,6 @@ class CorporateBlocksContext extends RawDrupalContext {
   }
 
   /**
-   * Backup site configuration.
-   *
-   * @param \Behat\Behat\Hook\Scope\BeforeScenarioScope $scope
-   *   The scenario scope.
-   *
-   * @beforeScenario @preserve-site-switcher-configuration
-   */
-  public function backupSiteSwitcherConfiguration(BeforeScenarioScope $scope): void {
-    $value = \Drupal::config('oe_corporate_blocks.data.site_switcher')->get('active');
-    $this->configContext->setConfig('oe_corporate_blocks.data.site_switcher', 'active', $value);
-  }
-
-  /**
    * Assertion of links in region.
    *
    * @Then Links in the :region region contains the links:
