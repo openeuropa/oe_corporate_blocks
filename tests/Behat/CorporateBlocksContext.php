@@ -22,23 +22,6 @@ class CorporateBlocksContext extends RawDrupalContext {
   protected $configContext;
 
   /**
-   * A list of css selectors needed by this context, keyed by name.
-   *
-   * @var array
-   */
-  protected $selectors = [];
-
-  /**
-   * CorporateBlocksContext constructor.
-   *
-   * @param array $selectors
-   *   An array of css selectors, keyed by name.
-   */
-  public function __construct(array $selectors) {
-    $this->selectors = $selectors;
-  }
-
-  /**
    * Gather external contexts.
    *
    * @param \Behat\Behat\Hook\Scope\BeforeScenarioScope $scope
@@ -72,26 +55,6 @@ class CorporateBlocksContext extends RawDrupalContext {
       }
 
     }
-  }
-
-  /**
-   * Returns a css selector from the context configuration.
-   *
-   * @param string $name
-   *   The selector name.
-   *
-   * @return string
-   *   The css selector.
-   *
-   * @throws \Exception
-   *   Thrown when the selector is not found.
-   */
-  protected function getSelector(string $name): string {
-    if (!array_key_exists($name, $this->selectors)) {
-      throw new \Exception(sprintf('Missing selector "%s".', $name));
-    }
-
-    return $this->selectors[$name];
   }
 
 }
