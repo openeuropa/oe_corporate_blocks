@@ -1,3 +1,0 @@
-configure site switcher block:
-  title: 'Configure site switcher block'
-  restrict access: true
