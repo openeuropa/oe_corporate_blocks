@@ -15,7 +15,7 @@ function oe_corporate_blocks_post_update_00001_delete_all_of_site_switcher() {
   \Drupal::configFactory()->getEditable('oe_corporate_blocks.data.site_switcher')
     ->delete();
 
-  // Delete the menu
+  // Delete the menu.
   \Drupal::entityTypeManager()->getStorage('menu_link_content')
     ->load('oe_corporate_blocks.site_switcher_settings')
     ->delete();
