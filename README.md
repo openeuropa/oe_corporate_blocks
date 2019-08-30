@@ -116,9 +116,7 @@ docker-compose exec web ./vendor/bin/behat
 
 #### Upgrade from 1.x to 2.x
 
-Note that the following elements are deprecated after upgrading from 1.x to 2.x:
-
-- `Site Switcher` block and the permission `configure site switcher block`
+`Site Switcher` block has been removed.
 
 ## Contributing
 
