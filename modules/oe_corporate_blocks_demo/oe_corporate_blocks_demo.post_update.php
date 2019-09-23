@@ -12,7 +12,7 @@ use Drupal\block\Entity\Block;
 /**
  * Delete the block siteswitcherblock.
  */
-function oe_corporate_blocks_demo_post_update_00001_delete_the_siteswitcherblock() {
+function oe_corporate_blocks_demo_post_update_00001() {
   $block = Block::load('siteswitcherblock');
 
   if (!$block) {
