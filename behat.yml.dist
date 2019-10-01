@@ -6,14 +6,11 @@ default:
       contexts:
         - Drupal\DrupalExtension\Context\MinkContext
         - Drupal\DrupalExtension\Context\DrupalContext
-        - Drupal\Tests\oe_corporate_blocks\Behat\CorporateBlocksContext:
-            selectors:
-              site switcher active link: '.site-switcher a.active'
         - Drupal\DrupalExtension\Context\ConfigContext
+        - Drupal\Tests\oe_corporate_blocks\Behat\CorporateBlocksContext
         - OpenEuropa\Behat\TransformationContext:
             pages:
               login: "user/login"
-              site switcher block settings: 'admin/config/corporate-blocks/site-switcher'
 
   extensions:
     Drupal\MinkExtension:
