@@ -12,7 +12,7 @@
 
 ## Description
 
-This is a Drupal module built to contain EC corporate blocks. This currently contains only the Footer. Others 
+OpenEuropa Corporate Blocks is a Drupal module built to contain EC corporate blocks. This currently contains only the Footer. Others 
 will be added as requirements emerge.
 
 ## Installation
