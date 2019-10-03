@@ -4,10 +4,18 @@
 
 **Table of contents:**
 
+- [Description](#description)
 - [Installation](#installation)
 - [Development setup](#development-setup)
 - [Contributing](#contributing)
 - [Versioning](#versioning)
+
+## Description
+
+This is a Drupal module that contains the EC corporate blocks. These are currently the Footer and Site Switcher. 
+The Site Switcher is deprecated and will be removed in version 2.x.
+Others will be added as requirements emerge.
+
 
 ## Installation
 
