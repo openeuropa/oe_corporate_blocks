@@ -15,10 +15,9 @@
 This is a Drupal module built to contain EC corporate blocks. This currently contains only the Footer. Others 
 will be added as requirements emerge.
 
-
 ## Installation
 
-The recommended way of installing the OpenEuropa Corporate Blocks module is via [Composer][1].
+The recommended way of installing the OpenEuropa Corporate Blocks module is via [Composer](https://getcomposer.org/doc/00-intro.md#installation-linux-unix-osx).
 
 ```bash
 composer require openeuropa/oe_corporate_blocks
