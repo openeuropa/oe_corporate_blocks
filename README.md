@@ -16,10 +16,9 @@ This is a Drupal module that contains the EC corporate blocks. These are current
 The Site Switcher is deprecated and will be removed in version 2.x.
 Others will be added as requirements emerge.
 
-
 ## Installation
 
-The recommended way of installing the OpenEuropa Corporate Blocks module is via [Composer][1].
+The recommended way of installing the OpenEuropa Corporate Blocks module is via [Composer](https://getcomposer.org/doc/00-intro.md#installation-linux-unix-osx).
 
 ```bash
 composer require openeuropa/oe_corporate_blocks
