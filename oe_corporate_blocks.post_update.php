@@ -26,7 +26,7 @@ function oe_corporate_blocks_post_update_20002(&$sandbox) {
     [
       'href' => 'https://ec.europa.eu/info/index_en',
       'label' => 'European Commission website',
-    ]
+    ],
   ]);
   $config->save();
 }
