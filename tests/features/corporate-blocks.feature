@@ -8,13 +8,11 @@ Feature: Corporate blocks feature
     When I am on "the <path> page"
 
     Then Links in the "header" region contains the links:
-      | Commission and its priorities      | https://ec.europa.eu/commission/index_en |
-      | Policies, information and services | https://ec.europa.eu/info/index_en       |
+      | European Commission website | https://ec.europa.eu/info/index_en       |
 
     When I click "français" in the "header"
     Then Links in the "header" region contains the links:
-      | La Commission et ses priorités       | https://ec.europa.eu/commission/index_fr |
-      | Politiques, informations et services | https://ec.europa.eu/info/index_fr       |
+      | Site web de la Commission européenne | https://ec.europa.eu/info/index_fr       |
 
     Examples:
       | path  |
@@ -31,8 +29,7 @@ Feature: Corporate blocks feature
     And I should see "Follow the European Commission" in the "footer" region
     And I should see "European Union" in the "footer" region
     And Links in the "footer" region contains the links:
-    | Commission and its priorities           | https://ec.europa.eu/commission/index_en                                    |
-    | Policies, information and services      | https://ec.europa.eu/info/index_en                                          |
+    | European Commission website             | https://ec.europa.eu/info/index_en                                          |
     | Facebook                                | https://www.facebook.com/EuropeanCommission                                 |
     | Twitter                                 | https://twitter.com/EU_commission                                           |
     | Other social media                      | https://europa.eu/european-union/contact/social-networks_en#n:+i:4+e:1+t:+s |
@@ -51,8 +48,7 @@ Feature: Corporate blocks feature
     And I should see "Suivre la Commission européenne" in the "footer" region
     And I should see "Union européenne" in the "footer" region
     And Links in the "footer" region contains the links:
-    | La Commission et ses priorités                               | https://ec.europa.eu/commission/index_fr                                    |
-    | Politiques, informations et services                         | https://ec.europa.eu/info/index_fr                                          |
+    | Site web de la Commission européenne                         | https://ec.europa.eu/info/index_fr                                          |
     | Facebook                                                     | https://www.facebook.com/EuropeanCommission                                 |
     | Twitter                                                      | https://twitter.com/EU_commission                                           |
     | Autres réseaux sociaux                                       | https://europa.eu/european-union/contact/social-networks_fr#n:+i:4+e:1+t:+s |
