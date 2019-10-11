@@ -2,11 +2,20 @@
 msgid "European Commission"
 msgstr "Euroopa Komisjon"
 
+msgid "https://ec.europa.eu/commission/index_en"
+msgstr "https://ec.europa.eu/commission/index_et"
+
+msgid "Commission and its priorities"
+msgstr "Komisjon ja tema prioriteedid"
+
 msgid "https://ec.europa.eu/info/index_en"
 msgstr "https://ec.europa.eu/info/index_et"
 
 msgid "European Commission website"
 msgstr "Euroopa Komisjoni veebisait"
+
+msgid "Policies, information and services"
+msgstr "Poliitikavaldkonnad, teave ja teenused"
 
 msgid "Follow the European Commission"
 msgstr "Jälgige Euroopa Komisjoni"
