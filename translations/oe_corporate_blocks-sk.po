@@ -2,12 +2,6 @@
 msgid "European Commission"
 msgstr "Európska komisia"
 
-msgid "https://ec.europa.eu/commission/index_en"
-msgstr "https://ec.europa.eu/commission/index_sk"
-
-msgid "Commission and its priorities"
-msgstr "Komisia a jej priority"
-
 msgid "https://ec.europa.eu/info/index_en"
 msgstr "https://ec.europa.eu/info/index_sk"
 
