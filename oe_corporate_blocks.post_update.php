@@ -18,7 +18,7 @@ function oe_corporate_blocks_post_update_20001() {
 }
 
 /**
- * Update corporate footer.
+ * Only display "European Commission website" link in footer.
  */
 function oe_corporate_blocks_post_update_20002(&$sandbox) {
   $config = \Drupal::configFactory()->getEditable('oe_corporate_blocks.data.footer');
@@ -30,12 +30,12 @@ function oe_corporate_blocks_post_update_20002(&$sandbox) {
   ]);
   $config->save();
 
-  // Workaround for forcing config translation.
+  // Allow for config translation re-import when running
+  // "drush oe-multilingual:import-local-translations".
   /** @var \Drupal\locale\StringDatabaseStorage $storage */
   $storage = \Drupal::service('locale.storage');
   $string = $storage->findString(['source' => 'https://ec.europa.eu/info/index_en']);
   $storage->delete($string);
   $string = $storage->findString(['source' => 'European Commission website']);
   $storage->delete($string);
-
 }
