@@ -11,6 +11,9 @@ msgstr "Kommissionen och dess prioriteringar"
 msgid "https://ec.europa.eu/info/index_en"
 msgstr "https://ec.europa.eu/info/index_sv"
 
+msgid "European Commission website"
+msgstr "Europeiska kommissionens webbplats"
+
 msgid "Policies, information and services"
 msgstr "Politikområden, information och tjänster"
 

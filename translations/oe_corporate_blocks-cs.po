@@ -11,6 +11,9 @@ msgstr "Komise a její priority"
 msgid "https://ec.europa.eu/info/index_en"
 msgstr "https://ec.europa.eu/info/index_cs"
 
+msgid "European Commission website"
+msgstr "Internetové stránky Evropské komise"
+
 msgid "Policies, information and services"
 msgstr "Oblasti politiky, informace a služby"
 

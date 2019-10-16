@@ -11,6 +11,9 @@ msgstr "Komisija in njene prednostne naloge"
 msgid "https://ec.europa.eu/info/index_en"
 msgstr "https://ec.europa.eu/info/index_sl"
 
+msgid "European Commission website"
+msgstr "Spletišče Evropske komisije"
+
 msgid "Policies, information and services"
 msgstr "Politike, informacije in službe"
 

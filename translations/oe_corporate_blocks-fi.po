@@ -11,6 +11,9 @@ msgstr "Komissio ja sen toiminnan painopisteet"
 msgid "https://ec.europa.eu/info/index_en"
 msgstr "https://ec.europa.eu/info/index_fi"
 
+msgid "European Commission website"
+msgstr "Euroopan komission verkkosivusto"
+
 msgid "Policies, information and services"
 msgstr "Politiikan alat, palvelut, tietolähteet"
 

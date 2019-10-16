@@ -11,6 +11,9 @@ msgstr "Komisija ir jos prioritetai"
 msgid "https://ec.europa.eu/info/index_en"
 msgstr "https://ec.europa.eu/info/index_lt"
 
+msgid "European Commission website"
+msgstr "Europos Komisijos interneto svetainė"
+
 msgid "Policies, information and services"
 msgstr "Politika, informacija ir paslaugos"
 

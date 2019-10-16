@@ -11,6 +11,9 @@ msgstr "Le priorità della Commissione"
 msgid "https://ec.europa.eu/info/index_en"
 msgstr "https://ec.europa.eu/info/index_it"
 
+msgid "European Commission website"
+msgstr "Sito web della Commissione europea"
+
 msgid "Policies, information and services"
 msgstr "Politiche, informazioni e servizi"
 

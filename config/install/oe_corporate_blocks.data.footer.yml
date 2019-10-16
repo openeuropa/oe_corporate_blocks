@@ -1,10 +1,8 @@
 langcode: en
 about_ec_title: European Commission
 about_ec_links:
-  - href: https://ec.europa.eu/commission/index_en
-    label: Commission and its priorities
   - href: https://ec.europa.eu/info/index_en
-    label: Policies, information and services
+    label: European Commission website
 social_media_title: Follow the European Commission
 social_media_links:
   - type: social-network

@@ -11,6 +11,9 @@ msgstr "A Bizottság és prioritásai"
 msgid "https://ec.europa.eu/info/index_en"
 msgstr "https://ec.europa.eu/info/index_hu"
 
+msgid "European Commission website"
+msgstr "Az Európai Bizottság honlapja"
+
 msgid "Policies, information and services"
 msgstr "Szakpolitikák, információk és szolgálatok"
 
