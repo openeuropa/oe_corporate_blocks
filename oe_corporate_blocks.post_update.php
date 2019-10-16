@@ -32,6 +32,7 @@ function oe_corporate_blocks_post_update_20002(&$sandbox) {
 
   // Allow for config translation re-import when running
   // "drush oe-multilingual:import-local-translations".
+  // @see https://webgate.ec.europa.eu/CITnet/jira/browse/OPENEUROPA-2407
   /** @var \Drupal\locale\StringDatabaseStorage $storage */
   $storage = \Drupal::service('locale.storage');
   $string = $storage->findString(['source' => 'https://ec.europa.eu/info/index_en']);
