@@ -1,10 +1,19 @@
 # Change Log
 
+## [1.3.0](https://github.com/openeuropa/oe_corporate_blocks/tree/1.3.0) (2019-10-16)
+[Full Changelog](https://github.com/openeuropa/oe_corporate_blocks/compare/1.2.0...1.3.0)
+
+**Merged pull requests:**
+
+- OPENEUROPA-2394: Update footer links for 1.x. [\#24](https://github.com/openeuropa/oe_corporate_blocks/pull/24) ([sergepavle](https://github.com/sergepavle))
+- OPENEUROPA-2127-1: Add description to README and fix composer link. [\#23](https://github.com/openeuropa/oe_corporate_blocks/pull/23) ([richardcanoe](https://github.com/richardcanoe))
+
 ## [1.2.0](https://github.com/openeuropa/oe_corporate_blocks/tree/1.2.0) (2019-06-25)
 [Full Changelog](https://github.com/openeuropa/oe_corporate_blocks/compare/1.1.0...1.2.0)
 
 **Merged pull requests:**
 
+- Update CHANGELOG.md for release 1.2.0. [\#16](https://github.com/openeuropa/oe_corporate_blocks/pull/16) ([ademarco](https://github.com/ademarco))
 - OPENEUROPA-1922: Move string translations to po files. [\#15](https://github.com/openeuropa/oe_corporate_blocks/pull/15) ([imanoleguskiza](https://github.com/imanoleguskiza))
 - OPENEUROPA-1897: Use ci image. [\#14](https://github.com/openeuropa/oe_corporate_blocks/pull/14) ([imanoleguskiza](https://github.com/imanoleguskiza))
 - OPENEUROPA-1561: Allow to specify the css selectors for the corporate blocks context [\#13](https://github.com/openeuropa/oe_corporate_blocks/pull/13) ([brummbar](https://github.com/brummbar))
