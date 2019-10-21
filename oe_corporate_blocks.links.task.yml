@@ -1,0 +1,39 @@
+entity.footer_general_link.collection:
+  title: 'Footer general links'
+  route_name: entity.footer_general_link.collection
+  base_route: entity.footer_general_link.collection
+
+entity.footer_general_link.view:
+  title: 'Edit'
+  route_name: entity.footer_general_link.edit_form
+  base_route: entity.footer_general_link.edit_form
+
+entity.footer_general_link.edit_form:
+  title: 'Edit'
+  route_name: entity.footer_general_link.edit_form
+  parent_id: entity.footer_general_link.view
+
+entity.footer_general_link.config_translation_overview:
+  title: 'Translate'
+  route_name: entity.footer_general_link.config_translation_overview
+  parent_id: entity.footer_general_link.edit_form
+
+entity.footer_social_link.collection:
+  title: 'Footer social links'
+  route_name: entity.footer_social_link.collection
+  base_route: entity.footer_general_link.collection
+
+entity.footer_social_link.view:
+  title: 'Edit'
+  route_name: entity.footer_social_link.edit_form
+  base_route: entity.footer_social_link.edit_form
+
+entity.footer_social_link.edit_form:
+  title: 'Edit'
+  route_name: entity.footer_social_link.edit_form
+  parent_id: entity.footer_social_link.view
+
+entity.footer_social_link.config_translation_overview:
+  title: 'Translate'
+  route_name: entity.footer_social_link.config_translation_overview
+  parent_id: entity.footer_social_link.edit_form

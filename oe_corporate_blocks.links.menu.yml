@@ -11,3 +11,9 @@ oe_corporate_blocks.site_switcher_settings:
   description: 'Configure site switcher block.'
   weight: -10
   route_name: oe_corporate_blocks.site_switcher_settings
+entity.footer_general_link.collection:
+  title: 'Footer link manager'
+  route_name: entity.footer_general_link.collection
+  description: 'List footer links'
+  parent: system.admin_structure
+  weight: 99
