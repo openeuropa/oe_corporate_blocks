@@ -1,3 +1,9 @@
 configure site switcher block:
   title: 'Configure site switcher block'
   restrict access: true
+administer footer general link:
+  title: 'Administer footer general link'
+  restrict access: true
+administer footer social link:
+  title: 'Administer footer social link'
+  restrict access: true
