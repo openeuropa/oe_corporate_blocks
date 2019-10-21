@@ -1,0 +1,7 @@
+langcode: en
+status: true
+dependencies: {  }
+id: contact
+label: 'Custom Contact'
+url: 'https://ec.europa.eu/info/contact_en'
+weight: -10
