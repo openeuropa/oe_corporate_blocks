@@ -1,0 +1,11 @@
+entity.footer_general_link.add_form:
+  route_name: entity.footer_general_link.add_form
+  title: 'Add footer general link'
+  appears_on:
+    - entity.footer_general_link.collection
+
+entity.footer_sicial_link.add_form:
+  route_name: entity.footer_social_link.add_form
+  title: 'Add footer social link'
+  appears_on:
+    - entity.footer_social_link.collection
