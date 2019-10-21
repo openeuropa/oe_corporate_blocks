@@ -21,32 +21,32 @@
 #}
 
 {%  if custom_footer is not empty %}
-  <div class="ecl-footer__custom">
-    {%  if custom_footer.site_identity is not empty %}
-      <h2 class="footer__custom-title-identity">{{ custom_footer.site_identity }}</h2>
+  <div class="footer__custom">
+    {%  if custom_footer.identity is not empty %}
+      <h2 class="footer__custom-title-identity">{{ custom_footer.identity }}</h2>
     {% endif %}
     {%  if custom_footer.social_links is not empty %}
       <p class="footer__custom-label">Follow us:</p>
       <ul class="footer__list">
-        {% for menu_item in custom_footer.social_links %}
+        {% for menu_item in custom_footer.social_links.links %}
           <li class="footer__list-item">
-            {{ link(menu_item.label, menu_item.href, create_attribute({'class': ['menu_item.social_network']})) }}
+            {{ link(menu_item.link.label, menu_item.link.href, create_attribute({'class': [menu_item.social_network]})) }}
           </li>
         {% endfor %}
       </ul>
     {% endif %}
     {%  if custom_footer.other_links is not empty %}
       <ul class="footer__list">
-        {% for menu_item in custom_footer.other_links %}
+        {% for menu_item in custom_footer.other_links.links %}
           <li class="footer__list-item">
-            {{ link(menu_item.label, menu_item.href) }}
+            {{ link(menu_item.link.label, menu_item.link.href) }}
           </li>
         {% endfor %}
       </ul>
     {% endif %}
   </div>
 {% endif %}
-<div class="ecl-footer__corporate">
+<div class="footer__corporate">
   <div class="footer__corporate-top">
   {% if corporate_footer.about_ec.items is defined and corporate_footer.about_ec.items is not empty %}
     <h2 class="footer__column-title">{{ corporate_footer.about_ec.title }}</h2>

@@ -100,7 +100,7 @@ class FooterBlock extends BlockBase implements ContainerFactoryPluginInterface {
     $site_identity = $site_info_config->get('name');
 
     if (!empty($site_identity) && !empty($social_links) && !empty($other_links)) {
-      NestedArray::setValue($build, ['#custom_footer', 'site_identity'], $site_identity);
+      NestedArray::setValue($build, ['#custom_footer', 'identity'], $site_identity);
       NestedArray::setValue($build, ['#custom_footer', 'social_links'], $social_links);
       NestedArray::setValue($build, ['#custom_footer', 'other_links'], $other_links);
     }
@@ -141,7 +141,7 @@ class FooterBlock extends BlockBase implements ContainerFactoryPluginInterface {
           $link['social_network'] = $link_entity->getSocialNetwork();
         }
 
-        $links[] = $link;
+        $links['links'][] = ['link' => $link];
       }
     }
 
