@@ -14,7 +14,8 @@ default:
             pages:
               login: "user/login"
               site switcher block settings: 'admin/config/corporate-blocks/site-switcher'
-
+              footer links manager: 'admin/structure/footer-general-link'
+              footer social links manager: 'admin/structure/footer-social-link'
   extensions:
     Drupal\MinkExtension:
       goutte: ~
