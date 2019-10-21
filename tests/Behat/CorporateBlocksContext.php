@@ -57,4 +57,23 @@ class CorporateBlocksContext extends RawDrupalContext {
     }
   }
 
+  /**
+   * Assertion that there are no links in region.
+   *
+   * @Then Links in the :region region do not contains the links:
+   *
+   * @throws \Exception
+   */
+  public function assertNoCorporateBlockLinksUrls(string $region, TableNode $links): void {
+    $regionObj = $this->getSession()->getPage()->find('region', $region);
+    foreach ($links->getRows() as $row) {
+      $linkObj = $regionObj->findLink($row[0]);
+
+      if (!empty($linkObj) && $linkObj->getAttribute('href') === $row[1]) {
+        throw new \Exception(sprintf('The link "%s" was found in the region "%s" on the page %s', $row[0], $region, $this->getSession()->getCurrentUrl()));
+      }
+
+    }
+  }
+
 }
