@@ -68,3 +68,23 @@ Feature: Corporate blocks feature
       | path  |
       | home  |
       | login |
+
+  Scenario Outline: The custom footer block shows the correct links in different languages
+    Given I am on "the <path> page"
+    And Links in the "footer" region contains the links:
+      | Custom Contact            | https://ec.europa.eu/info/contact_en                                        |
+      | Custom Legal notice       | https://ec.europa.eu/info/legal-notice_en                                   |
+      | Custom Facebook           | https://www.facebook.com/EuropeanCommission                                 |
+      | Custom Twitter            | https://twitter.com/EU_commission                                           |
+      | Custom Other social media | https://europa.eu/european-union/contact/social-networks_en#n:+i:4+e:1+t:+s |
+
+    When I click "français" in the "header"
+    And Links in the "footer" region contains the links:
+      | Custom Contact FR            | https://ec.europa.eu/info/contact_fr                                        |
+      | Custom Legal notice FR       | https://ec.europa.eu/info/legal-notice_fr                                   |
+      | Custom Other social media FR | https://europa.eu/european-union/contact/social-networks_fr#n:+i:4+e:1+t:+s |
+
+    Examples:
+      | path  |
+      | home  |
+      | login |
