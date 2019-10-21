@@ -4,16 +4,48 @@
  * Default theme implementation for rendering corporate blocks footer.
  *
  * Available variables:
- * - corporate_footer: Array with structure compatible to ECL ec-components-footer component.
+ * - custom_footer: Array (optional) with structure of custom footer compatible to ECL ec-components-footer component.
+ *   - site_identity: Site identity for custom footer.
+ *   - social_links: Social media links for custom footer.
+ *   - other_links: Other links for custom footer.
+ * - corporate_footer: Array with structure of corporate footer compatible to ECL ec-components-footer component.
  *   - about_ec: Data about EC for corporate footer.
  *   - social_media: Social media links for corporate footer.
  *   - about_eu: Data about EU for corporate footer.
+ *   - bottom_links: Data about EU for corporate footer.
  *
  * @ingroup themeable
  */
 #}
 
-<div class="footer__corporate-top">
+{%  if custom_footer is not empty %}
+  <div class="ecl-footer__custom">
+    {%  if custom_footer.site_identity is not empty %}
+      <h2 class="footer__custom-title-identity">{{ custom_footer.site_identity }}</h2>
+    {% endif %}
+    {%  if custom_footer.social_links is not empty %}
+      <p class="footer__custom-label">Follow us:</p>
+      <ul class="footer__list">
+        {% for menu_item in custom_footer.social_links %}
+          <li class="footer__list-item">
+            {{ link(menu_item.label, menu_item.href, create_attribute({'class': ['menu_item.social_network']})) }}
+          </li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+    {%  if custom_footer.other_links is not empty %}
+      <ul class="footer__list">
+        {% for menu_item in custom_footer.other_links %}
+          <li class="footer__list-item">
+            {{ link(menu_item.label, menu_item.href) }}
+          </li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+  </div>
+{% endif %}
+<div class="ecl-footer__corporate">
+  <div class="footer__corporate-top">
   {% if corporate_footer.about_ec.items is defined and corporate_footer.about_ec.items is not empty %}
     <h2 class="footer__column-title">{{ corporate_footer.about_ec.title }}</h2>
     <ul class="footer__list">
@@ -45,7 +77,7 @@
     </ul>
   {% endif %}
 </div>
-<div class="footer__corporate-bottom">
+  <div class="footer__corporate-bottom">
   {% if corporate_footer.bottom_links is defined and corporate_footer.bottom_links is not empty %}
     <ul class="footer__list">
       {% for menu_item in corporate_footer.bottom_links %}
@@ -55,4 +87,5 @@
       {% endfor %}
     </ul>
   {% endif %}
+</div>
 </div>
