@@ -92,3 +92,46 @@ oe_corporate_blocks.eu_data.footer:
       label: 'EU other links'
       sequence:
         type: oe_corporate_blocks.footer.link
+
+oe_corporate_blocks.footer_link.generic.*:
+  type: config_entity
+  label: 'General link for custom footer'
+  mapping:
+    id:
+      type: string
+      label: 'ID'
+    label:
+      type: label
+      label: 'Label'
+      translatable: true
+    url:
+      type: string
+      label: 'URL'
+      translatable: true
+      form_element_class: '\Drupal\config_translation\FormElement\Textfield'
+    weight:
+      type: integer
+      label: 'Weight'
+
+oe_corporate_blocks.footer_link.social.*:
+  type: config_entity
+  label: 'Social link for custom footer'
+  mapping:
+    id:
+      type: string
+      label: 'ID'
+    label:
+      type: label
+      label: 'Label'
+      translatable: true
+    social_network:
+      type: string
+      label: 'Social network'
+    url:
+      type: string
+      label: 'URL'
+      translatable: true
+      form_element_class: '\Drupal\config_translation\FormElement\Textfield'
+    weight:
+      type: integer
+      label: 'Weight'
