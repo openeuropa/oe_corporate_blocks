@@ -1,6 +1,6 @@
 @api
 Feature: Custom footer settings.
-  In order to be able to custom footer content
+  In order to be able to expose custom footer content
   As a privileged user
   I want to be able to access the custom footer management page and update its values
 
