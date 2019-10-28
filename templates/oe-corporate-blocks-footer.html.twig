@@ -26,7 +26,7 @@
       <h2 class="footer__custom-title-identity">{{ custom_footer.identity }}</h2>
     {% endif %}
     {%  if custom_footer.social_links is not empty %}
-      <p class="footer__custom-label">Follow us:</p>
+      <p class="footer__custom-label">{{ 'Follow us:'|t }}</p>
       <ul class="footer__list">
         {% for menu_item in custom_footer.social_links.links %}
           <li class="footer__list-item">

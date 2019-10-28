@@ -5,7 +5,6 @@ declare(strict_types = 1);
 namespace Drupal\oe_corporate_blocks\Form;
 
 use Drupal\Core\Form\FormStateInterface;
-use Drupal\Core\Url;
 
 /**
  * Form class for the breadcrumb root item configuration entity.
@@ -45,24 +44,6 @@ class FooterSocialLinkForm extends FooterGeneralLinkForm {
     $form['id']['#machine_name']['exists'] = '\Drupal\oe_corporate_blocks\Entity\FooterSocialLink::load';
 
     return $form;
-  }
-
-  /**
-   * {@inheritdoc}
-   */
-  public function validateForm(array &$form, FormStateInterface $form_state) {
-    $url = $form_state->getValue('url');
-    if (parse_url($url, PHP_URL_SCHEME) !== NULL) {
-      // We have nothing to validate on external URLs.
-      return;
-    }
-
-    try {
-      Url::fromUserInput($url);
-    }
-    catch (\InvalidArgumentException $exception) {
-      $form_state->setErrorByName('url', $exception->getMessage());
-    }
   }
 
   /**

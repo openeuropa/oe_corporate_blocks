@@ -6,7 +6,7 @@ use Drupal\Core\Config\Entity\ConfigEntityBase;
 use Drupal\Core\Url;
 
 /**
- * Defines the footer link configuration entity.
+ * Defines the footer general link configuration entity.
  *
  * @ConfigEntityType(
  *   id = "footer_general_link",
@@ -23,7 +23,7 @@ use Drupal\Core\Url;
  *       "delete" = "Drupal\oe_corporate_blocks\Form\FooterGeneralLinkDeleteForm"
  *     }
  *   },
- *   config_prefix = "footer_link.generic",
+ *   config_prefix = "footer_link.general",
  *   admin_permission = "administer footer general link",
  *   entity_keys = {
  *     "id" = "id",
@@ -62,10 +62,7 @@ class FooterGeneralLink extends ConfigEntityBase implements FooterLinkInterface 
   protected $weight;
 
   /**
-   * Get the footer link URL.
-   *
-   * @return \Drupal\Core\Url
-   *   The footer link item URL.
+   * {@inheritdoc}
    */
   public function getUrl(): Url {
     $input = trim($this->get('url'));
@@ -76,10 +73,7 @@ class FooterGeneralLink extends ConfigEntityBase implements FooterLinkInterface 
   }
 
   /**
-   * Get the footer link weight.
-   *
-   * @return int
-   *   The footer link item weight.
+   * {@inheritdoc}
    */
   public function getWeight(): int {
     return $this->get('weight');

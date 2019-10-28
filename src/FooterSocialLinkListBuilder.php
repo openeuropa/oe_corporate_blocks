@@ -4,13 +4,12 @@ declare(strict_types = 1);
 
 namespace Drupal\oe_corporate_blocks;
 
-use Drupal\Core\Config\Entity\DraggableListBuilder;
 use Drupal\Core\Entity\EntityInterface;
 
 /**
- * Provides a listing of Footer link item entities.
+ * Provides a listing of Footer social link item entities.
  */
-class FooterSocialLinkListBuilder extends DraggableListBuilder {
+class FooterSocialLinkListBuilder extends FooterGeneralLinkListBuilder {
 
   /**
    * {@inheritdoc}
@@ -23,26 +22,33 @@ class FooterSocialLinkListBuilder extends DraggableListBuilder {
    * {@inheritdoc}
    */
   public function buildHeader() {
-    $header['label'] = $this->t('Label');
-    $header['url'] = $this->t('URL');
-    $header['social_network'] = $this->t('Social Network');
+    // Injecting of social network column.
+    $header = parent::buildHeader();
 
-    return $header + parent::buildHeader();
+    $first_element = array_slice($header, 0, 1);
+    $header = ['social_network' => $this->t('Social Network')] + $header;
+    $header = $first_element + $header;
+
+    return $header;
   }
 
   /**
    * {@inheritdoc}
    */
   public function buildRow(EntityInterface $entity) {
-    $row['label'] = $entity->label();
-    $row['url'] = [
-      '#markup' => $entity->getUrl()->toString(),
-    ];
-    $row['social_network'] = [
-      '#markup' => $entity->getSocialNetwork(),
-    ];
+    // Injecting of social network column.
+    $row = parent::buildRow($entity);
 
-    return $row + parent::buildRow($entity);
+    $first_element = array_slice($row, 0, 1);
+
+    $row = [
+      'social_network' => [
+        '#markup' => $entity->getSocialNetwork(),
+      ],
+    ] + $row;
+    $row = $first_element + $row;
+
+    return $row;
   }
 
 }
