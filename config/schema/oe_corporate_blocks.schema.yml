@@ -93,7 +93,7 @@ oe_corporate_blocks.eu_data.footer:
       sequence:
         type: oe_corporate_blocks.footer.link
 
-oe_corporate_blocks.footer_link.generic.*:
+oe_corporate_blocks.footer_link.general.*:
   type: config_entity
   label: 'General link for custom footer'
   mapping:
@@ -112,26 +112,10 @@ oe_corporate_blocks.footer_link.generic.*:
     weight:
       type: integer
       label: 'Weight'
-
 oe_corporate_blocks.footer_link.social.*:
-  type: config_entity
+  type: oe_corporate_blocks.footer_link.general.*
   label: 'Social link for custom footer'
   mapping:
-    id:
-      type: string
-      label: 'ID'
-    label:
-      type: label
-      label: 'Label'
-      translatable: true
     social_network:
       type: string
       label: 'Social network'
-    url:
-      type: string
-      label: 'URL'
-      translatable: true
-      form_element_class: '\Drupal\config_translation\FormElement\Textfield'
-    weight:
-      type: integer
-      label: 'Weight'

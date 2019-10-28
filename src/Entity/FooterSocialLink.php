@@ -3,7 +3,7 @@
 namespace Drupal\oe_corporate_blocks\Entity;
 
 /**
- * Defines the footer link configuration entity.
+ * Defines the footer social link configuration entity.
  *
  * @ConfigEntityType(
  *   id = "footer_social_link",
@@ -44,7 +44,7 @@ namespace Drupal\oe_corporate_blocks\Entity;
  *   }
  * )
  */
-class FooterSocialLink extends FooterGeneralLink implements FooterLinkInterface {
+class FooterSocialLink extends FooterGeneralLink implements FooterSocialLinkInterface {
 
   /**
    * Get the footer link social network name.

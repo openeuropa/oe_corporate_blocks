@@ -35,9 +35,9 @@ class CorporateBlocksContext extends RawDrupalContext {
   }
 
   /**
-   * Assertion of links in region.
+   * Asserts that certain links available in a region.
    *
-   * @Then Links in the :region region contains the links:
+   * @Then the region :region contains the links:
    *
    * @throws \Exception
    */
@@ -58,13 +58,13 @@ class CorporateBlocksContext extends RawDrupalContext {
   }
 
   /**
-   * Assertion that there are no links in region.
+   * Asserts that certain links are not available in a region.
    *
-   * @Then Links in the :region region do not contains the links:
+   * @Then the region :region does not contain the links:
    *
    * @throws \Exception
    */
-  public function assertNoCorporateBlockLinksUrls(string $region, TableNode $links): void {
+  public function assertNoLinksInRegion(string $region, TableNode $links): void {
     $regionObj = $this->getSession()->getPage()->find('region', $region);
     foreach ($links->getRows() as $row) {
       $linkObj = $regionObj->findLink($row[0]);

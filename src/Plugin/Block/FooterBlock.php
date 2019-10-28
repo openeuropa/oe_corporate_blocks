@@ -93,16 +93,16 @@ class FooterBlock extends BlockBase implements ContainerFactoryPluginInterface {
 
     NestedArray::setValue($build, ['#corporate_footer', 'bottom_links'], $config->get('bottom_links'));
 
-    $other_links = $this->retriveCustomFooterLinks('footer_general_link', $cache);
+    $general_links = $this->retriveCustomFooterLinks('footer_general_link', $cache);
     $social_links = $this->retriveCustomFooterLinks('footer_social_link', $cache);
     $site_info_config = $this->configFactory->get('system.site');
     $cache->addCacheableDependency($site_info_config);
     $site_identity = $site_info_config->get('name');
 
-    if (!empty($site_identity) && !empty($social_links) && !empty($other_links)) {
+    if (!empty($site_identity) && !empty($social_links) && !empty($general_links)) {
       NestedArray::setValue($build, ['#custom_footer', 'site_identity'], $site_identity);
       NestedArray::setValue($build, ['#custom_footer', 'social_links'], $social_links);
-      NestedArray::setValue($build, ['#custom_footer', 'other_links'], $other_links);
+      NestedArray::setValue($build, ['#custom_footer', 'other_links'], $general_links);
     }
 
     $cache->applyTo($build);
@@ -111,7 +111,7 @@ class FooterBlock extends BlockBase implements ContainerFactoryPluginInterface {
   }
 
   /**
-   * Retrive links from a configs.
+   * Retrieve a list of custom footer link configuration entities.
    *
    * @param string $type
    *   Type of configs.

@@ -8,7 +8,7 @@ use Drupal\Core\Config\Entity\DraggableListBuilder;
 use Drupal\Core\Entity\EntityInterface;
 
 /**
- * Provides a listing of Footer link item entities.
+ * Provides a listing of Footer general link item entities.
  */
 class FooterGeneralLinkListBuilder extends DraggableListBuilder {
 

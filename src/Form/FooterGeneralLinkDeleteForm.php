@@ -40,7 +40,8 @@ class FooterGeneralLinkDeleteForm extends EntityConfirmFormBase {
   public function submitForm(array &$form, FormStateInterface $form_state) {
     $this->entity->delete();
 
-    $this->messenger()->addStatus($this->t('Footer general link has been deleted: @label.', [
+    $this->messenger()->addStatus($this->t('@link_type has been deleted: @label.', [
+      '@link_type' => $this->entity->getEntityType()->getLabel(),
       '@label' => $this->entity->label(),
     ]));
 
