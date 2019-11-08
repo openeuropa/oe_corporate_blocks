@@ -1,6 +1,6 @@
 oe_corporate_blocks.data.footer:
   type: config_object
-  label: 'Data for corporate bocks.'
+  label: 'Data for EC corporate bocks.'
   mapping:
     about_ec_title:
       type: string
@@ -54,3 +54,38 @@ oe_corporate_blocks.footer.link:
       type: string
       label: 'The link label'
       translatable: true
+
+oe_corporate_blocks.eu_data.footer:
+  type: config_object
+  label: 'Data for EU corporate bocks.'
+  mapping:
+    contact:
+      type: oe_corporate_blocks.footer.contact
+    social_media:
+      type: sequence
+      label: 'EU social media'
+      sequence:
+        type: oe_corporate_blocks.footer.link
+    institution_links:
+      type: sequence
+      label: 'EU institution links'
+      sequence:
+        type: oe_corporate_blocks.footer.link
+    other_links:
+      type: sequence
+      label: 'EU other links'
+      sequence:
+        type: oe_corporate_blocks.footer.link
+
+oe_corporate_blocks.footer.contact:
+  type: mapping
+  label: 'Contact links'
+  mapping:
+    call_us:
+      type: oe_corporate_blocks.footer.link
+    use_other:
+      type: oe_corporate_blocks.footer.link
+    contact_form:
+      type: oe_corporate_blocks.footer.link
+    meet_us:
+      type: oe_corporate_blocks.footer.link
