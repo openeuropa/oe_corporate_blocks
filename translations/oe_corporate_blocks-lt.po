@@ -1,15 +1,143 @@
+msgid ""
+msgstr ""
+
+msgid "https://europa.eu/european-union/contact/call-us_en"
+msgstr "https://europa.eu/european-union/contact/call-us_lt"
+
+msgid "telephone options"
+msgstr "telefoninio ryšio"
+
+msgid "https://europa.eu/european-union/contact/write-to-us_en"
+msgstr "https://europa.eu/european-union/contact/write-to-us_lt"
+
+msgid "contact form"
+msgstr "kontaktine forma"
+
+msgid "https://europa.eu/european-union/contact/meet-us_en"
+msgstr "https://europa.eu/european-union/contact/meet-us_lt"
+
+msgid "local EU office"
+msgstr "vietiniame ES biure"
+
+msgid "Search for EU social media channels"
+msgstr "ES socialinės žiniasklaidos kanalai"
+
+msgid "https://europa.eu/european-union/contact/social-networks_en"
+msgstr "https://europa.eu/european-union/contact/social-networks_lt"
+
+msgid "European Parliament"
+msgstr "Europos Parlamentas"
+
+msgid "http://www.europarl.europa.eu/portal/"
+msgstr "http://www.europarl.europa.eu/portal/lt/"
+
+msgid "European Council"
+msgstr "Europos Vadovų Taryba"
+
+msgid "http://www.consilium.europa.eu/en/european-council/"
+msgstr "http://www.consilium.europa.eu/lt/european-council/"
+
+msgid "Council of the European Union"
+msgstr "Europos Sąjungos Taryba"
+
+msgid "http://www.consilium.europa.eu/en/home/"
+msgstr "http://www.consilium.europa.eu/lt/home/"
+
+msgid "Presidency of the Council of the EU"
+msgstr "Pirmininkavimas ES"
 
 msgid "European Commission"
 msgstr "Europos Komisija"
+
+msgid "https://ec.europa.eu/commission/index_en"
+msgstr "http://ec.europa.eu/index_lt.htm"
+
+msgid "Court of Justice of the European Union (CJEU)"
+msgstr "Europos Sąjungos Teisingumo Teismas"
+
+msgid "http://curia.europa.eu/jcms/jcms/j_6/en/"
+msgstr "http://curia.europa.eu/jcms/jcms/j_6/lt/"
+
+msgid "European Central Bank (ECB)"
+msgstr "Europos Centrinis Bankas (ECB)"
+
+msgid "https://www.ecb.europa.eu/home/html/index.en.html"
+msgstr "https://www.ecb.europa.eu/home/languagepolicy/html/index.lt.html"
+
+msgid "European Court of Auditors (ECA)"
+msgstr "Europos Audito Rūmai"
+
+msgid "http://www.eca.europa.eu/en"
+msgstr "http://www.eca.europa.eu/lt"
+
+msgid "European External Action Service (EEAS)"
+msgstr "Europos išorės veiksmų tarnyba (EIVT)"
+
+msgid "https://eeas.europa.eu/headquarters/headquarters-homepage_en"
+msgstr "http://eeas.europa.eu/index_lt.htm"
+
+msgid "European Economic and Social Committee (EESC)"
+msgstr "Europos ekonomikos ir socialinių reikalų komitetas (EESRK)"
+
+msgid "http://www.eesc.europa.eu/?i=portal.en.home"
+msgstr "http://www.eesc.europa.eu/?i=portal.lt.home"
+
+msgid "European Committee of the Regions (CoR)"
+msgstr "Europos regionų komitetas"
+
+msgid "http://cor.europa.eu/en/"
+msgstr "http://cor.europa.eu/lt/"
+
+msgid "European Investment Bank (EIB)"
+msgstr "Europos investicijų bankas (EIB)"
+
+msgid "European Data Protection Supervisor (EDPS)"
+msgstr "Europos duomenų apsaugos priežiūros pareigūnas (EDAPP)"
+
+msgid "https://secure.edps.europa.eu/EDPSWEB/edps/EDPS?lang=en"
+msgstr "https://secure.edps.europa.eu/EDPSWEB/edps/EDPS?lang=lt"
+
+msgid "Sitemap"
+msgstr "Svetainės struktūra"
+
+msgid "/european-union/abouteuropa/sitemap_en"
+msgstr "/european-union/abouteuropa/sitemap_lt"
+
+msgid "About this site"
+msgstr "Apie šią svetainę"
+
+msgid "/european-union/abouteuropa_en"
+msgstr "/european-union/abouteuropa_lt"
+
+msgid "Language policy"
+msgstr "Kalbų politika"
+
+msgid "/european-union/abouteuropa/language-policy_en"
+msgstr "/european-union/abouteuropa/language-policy_lt"
+
+msgid "Privacy policy"
+msgstr "Privatumo politika"
+
+msgid "/european-union/abouteuropa/privacy-policy_en"
+msgstr "/european-union/abouteuropa/privacy-policy_lt"
+
+msgid "Legal notice"
+msgstr "Teisinis pranešimas"
+
+msgid "/european-union/abouteuropa/legal_notices_en"
+msgstr "/european-union/abouteuropa/legal_notices_lt"
+
+msgid "Cookies"
+msgstr "Slapukai"
+
+msgid "/european-union/abouteuropa/cookies_en"
+msgstr "/european-union/abouteuropa/cookies_lt"
 
 msgid "https://ec.europa.eu/info/index_en"
 msgstr "https://ec.europa.eu/info/index_lt"
 
 msgid "European Commission website"
 msgstr "Europos Komisijos interneto svetainė"
-
-msgid "Policies, information and services"
-msgstr "Politika, informacija ir paslaugos"
 
 msgid "Follow the European Commission"
 msgstr "Sekite Europos Komisijos naujienas"
@@ -41,9 +169,6 @@ msgstr "Apie naują Komisijos interneto svetainę"
 msgid "https://ec.europa.eu/info/language-policy_en"
 msgstr "https://ec.europa.eu/info/language-policy_lt"
 
-msgid "Language policy"
-msgstr "Kalbų politika"
-
 msgid "https://ec.europa.eu/info/resources-partners_en"
 msgstr "http://ec.europa.eu/info/resources-partners_lt"
 
@@ -53,20 +178,11 @@ msgstr "Ištekliai partneriams"
 msgid "https://ec.europa.eu/info/cookies_en"
 msgstr "https://ec.europa.eu/info/cookies_lt"
 
-msgid "Cookies"
-msgstr "Slapukai"
-
 msgid "https://ec.europa.eu/info/privacy-policy_en"
 msgstr "https://ec.europa.eu/info/privacy-policy_lt"
 
-msgid "Privacy policy"
-msgstr "Privatumo politika"
-
 msgid "https://ec.europa.eu/info/legal-notice_en"
 msgstr "https://ec.europa.eu/info/legal-notice_lt"
-
-msgid "Legal notice"
-msgstr "Teisinė informacija"
 
 msgid "https://ec.europa.eu/info/contact_en"
 msgstr "https://ec.europa.eu/info/contact_lt"
@@ -74,3 +190,5 @@ msgstr "https://ec.europa.eu/info/contact_lt"
 msgid "Contact"
 msgstr "Kontaktai"
 
+msgid "Policies, information and services"
+msgstr "Politika, informacija ir paslaugos"

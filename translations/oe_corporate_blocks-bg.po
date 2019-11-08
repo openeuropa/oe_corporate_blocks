@@ -1,6 +1,141 @@
+msgid ""
+msgstr ""
+
+msgid "https://europa.eu/european-union/contact/call-us_en"
+msgstr "https://europa.eu/european-union/contact/call-us_bg"
+
+msgid "telephone options"
+msgstr "телефонни номера"
+
+msgid "https://europa.eu/european-union/contact/write-to-us_en"
+msgstr "https://europa.eu/european-union/contact/write-to-us_bg"
+
+msgid "contact form"
+msgstr "формуляра за връзка"
+
+msgid "https://europa.eu/european-union/contact/meet-us_en"
+msgstr "https://europa.eu/european-union/contact/meet-us_bg"
+
+msgid "local EU office"
+msgstr "местен център на ЕС"
+
+msgid "Search for EU social media channels"
+msgstr "ЕС в социалните медии "
+
+msgid "https://europa.eu/european-union/contact/social-networks_en"
+msgstr "https://europa.eu/european-union/contact/social-networks_bg"
+
+msgid "European Parliament"
+msgstr "Европейски парламент"
+
+msgid "http://www.europarl.europa.eu/portal/"
+msgstr "http://www.europarl.europa.eu/portal/bg"
+
+msgid "European Council"
+msgstr "Европейски съвет"
+
+msgid "http://www.consilium.europa.eu/en/european-council/"
+msgstr "http://www.consilium.europa.eu/bg/european-council/"
+
+msgid "Council of the European Union"
+msgstr "Съвет на Европейския съюз"
+
+msgid "http://www.consilium.europa.eu/en/home/"
+msgstr "http://www.consilium.europa.eu/bg/home/"
+
+msgid "Presidency of the Council of the EU"
+msgstr "Председателство на Съвета на ЕС"
+
+msgid "https://www.romania2019.eu/home/"
+msgstr ""
 
 msgid "European Commission"
 msgstr "Европейска комисия"
+
+msgid "https://ec.europa.eu/commission/index_en"
+msgstr "https://ec.europa.eu/info/index_en"
+
+msgid "Court of Justice of the European Union (CJEU)"
+msgstr "Съд на Европейския съюз"
+
+msgid "http://curia.europa.eu/jcms/jcms/j_6/en/"
+msgstr "http://curia.europa.eu/jcms/jcms/j_6/bg/"
+
+msgid "European Central Bank (ECB)"
+msgstr "Европейска централна банка (ЕЦБ)"
+
+msgid "https://www.ecb.europa.eu/home/html/index.en.html"
+msgstr "https://www.ecb.europa.eu/home/languagepolicy/html/index.bg.html"
+
+msgid "European Court of Auditors (ECA)"
+msgstr "Европейска сметна палата"
+
+msgid "http://www.eca.europa.eu/en"
+msgstr "http://www.eca.europa.eu/bg"
+
+msgid "European External Action Service (EEAS)"
+msgstr "Европейска служба за външна дейност (ЕСВД)"
+
+msgid "https://eeas.europa.eu/headquarters/headquarters-homepage_en"
+msgstr ""
+msgid "European Economic and Social Committee (EESC)"
+msgstr "Европейски икономически и социален комитет (ЕИСК)"
+
+msgid "http://www.eesc.europa.eu/?i=portal.en.home"
+msgstr "http://www.eesc.europa.eu/?i=portal.bg.home"
+
+msgid "European Committee of the Regions (CoR)"
+msgstr "Европейски комитет на регионите"
+
+msgid "http://cor.europa.eu/en/"
+msgstr "https://cor.europa.eu/bg"
+
+msgid "European Investment Bank (EIB)"
+msgstr "Европейска инвестиционна банка (ЕИБ)"
+
+msgid "https://www.eib.org/en/index.htm"
+msgstr ""
+msgid "European Data Protection Supervisor (EDPS)"
+msgstr "Европейски надзорен орган по защита на данните (ЕНОЗД)"
+
+msgid "https://secure.edps.europa.eu/EDPSWEB/edps/EDPS?lang=en"
+msgstr "https://secure.edps.europa.eu/EDPSWEB/edps/EDPS?lang=bg"
+
+msgid "Sitemap"
+msgstr "Карта на сайта"
+
+msgid "/european-union/abouteuropa/sitemap_en"
+msgstr "/european-union/abouteuropa/sitemap_bg"
+
+msgid "About this site"
+msgstr "За този сайт"
+
+msgid "/european-union/abouteuropa_en"
+msgstr "/european-union/abouteuropa_bg"
+
+msgid "Language policy"
+msgstr "Езикова политика"
+
+msgid "/european-union/abouteuropa/language-policy_en"
+msgstr "/european-union/abouteuropa/language-policy_bg"
+
+msgid "Privacy policy"
+msgstr "Политика за поверителност"
+
+msgid "/european-union/abouteuropa/privacy-policy_en"
+msgstr "/european-union/abouteuropa/privacy-policy_bg"
+
+msgid "Legal notice"
+msgstr "Правна информация"
+
+msgid "/european-union/abouteuropa/legal_notices_en"
+msgstr "/european-union/abouteuropa/legal_notices_bg"
+
+msgid "Cookies"
+msgstr "Бисквитки"
+
+msgid "/european-union/abouteuropa/cookies_en"
+msgstr "/european-union/abouteuropa/cookies_bg"
 
 msgid "https://ec.europa.eu/info/index_en"
 msgstr "https://ec.europa.eu/info/index_bg"
@@ -41,9 +176,6 @@ msgstr "За новото присъствие на Комисията в инт
 msgid "https://ec.europa.eu/info/language-policy_en"
 msgstr "http://ec.europa.eu/info/resources-partners_bg"
 
-msgid "Language policy"
-msgstr "Ресурси за партньори"
-
 msgid "https://ec.europa.eu/info/resources-partners_en"
 msgstr "https://ec.europa.eu/info/language-policy_bg"
 
@@ -53,24 +185,14 @@ msgstr "Езикова политика"
 msgid "https://ec.europa.eu/info/cookies_en"
 msgstr "https://ec.europa.eu/info/cookies_bg"
 
-msgid "Cookies"
-msgstr "Бисквитки"
-
 msgid "https://ec.europa.eu/info/privacy-policy_en"
 msgstr "https://ec.europa.eu/info/privacy-policy_bg"
 
-msgid "Privacy policy"
-msgstr "Политика за поверителност"
-
 msgid "https://ec.europa.eu/info/legal-notice_en"
 msgstr "https://ec.europa.eu/info/legal-notice_bg"
-
-msgid "Legal notice"
-msgstr "Правна информация"
 
 msgid "https://ec.europa.eu/info/contact_en"
 msgstr "https://ec.europa.eu/info/contact_bg"
 
 msgid "Contact"
 msgstr "За контакти"
-

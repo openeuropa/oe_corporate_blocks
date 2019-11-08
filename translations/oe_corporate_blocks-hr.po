@@ -1,16 +1,140 @@
+msgid ""
+msgstr ""
+
+msgid "https://europa.eu/european-union/contact/call-us_en"
+msgstr "https://europa.eu/european-union/contact/call-us_hr"
+
+msgid "telephone options"
+msgstr "telefonsku vezu na drugi način"
+
+msgid "https://europa.eu/european-union/contact/write-to-us_en"
+msgstr "https://europa.eu/european-union/contact/write-to-us_hr"
+
+msgid "contact form"
+msgstr "obrascem za kontakt"
+
+msgid "https://europa.eu/european-union/contact/meet-us_en"
+msgstr "https://europa.eu/european-union/contact/meet-us_hr"
+
+msgid "local EU office"
+msgstr "u lokalnom uredu EU-a"
+
+msgid "Search for EU social media channels"
+msgstr "Pronađite EU na društvenim mrežama"
+
+msgid "https://europa.eu/european-union/contact/social-networks_en"
+msgstr "https://europa.eu/european-union/contact/social-networks_hr"
+
+msgid "European Parliament"
+msgstr "Europski parlament"
+
+msgid "http://www.europarl.europa.eu/portal/"
+msgstr "http://www.europarl.europa.eu/portal/hr"
+
+msgid "European Council"
+msgstr "Europsko vijeće"
+
+msgid "http://www.consilium.europa.eu/en/european-council/"
+msgstr "http://www.consilium.europa.eu/hr/european-council/"
+
+msgid "Council of the European Union"
+msgstr "Vijeće Europske unije"
+
+msgid "http://www.consilium.europa.eu/en/home/"
+msgstr "http://www.consilium.europa.eu/hr/home/"
+
+msgid "Presidency of the Council of the EU"
+msgstr "Predsjedništvo Vijeća EU-a"
 
 msgid "European Commission"
 msgstr "Europska komisija"
 
+msgid "https://ec.europa.eu/commission/index_en"
+msgstr "https://ec.europa.eu/commission/index_hr"
+
+msgid "http://curia.europa.eu/jcms/jcms/j_6/en/"
+msgstr "http://curia.europa.eu/jcms/jcms/j_6/hr/"
+
+msgid "European Central Bank (ECB)"
+msgstr "Europska središnja banka (ESB)"
+
+msgid "https://www.ecb.europa.eu/home/html/index.en.html"
+msgstr "https://www.ecb.europa.eu/home/languagepolicy/html/index.hr.html"
+
+msgid "European Court of Auditors (ECA)"
+msgstr "Europski revizorski sud (ERS)"
+
+msgid "http://www.eca.europa.eu/en"
+msgstr "http://www.eca.europa.eu/hr"
+
+msgid "European External Action Service (EEAS)"
+msgstr "Europska služba za vanjsko djelovanje (ESVD)"
+
+msgid "https://eeas.europa.eu/headquarters/headquarters-homepage_en"
+msgstr "http://eeas.europa.eu/index_hr.htm"
+
+msgid "European Economic and Social Committee (EESC)"
+msgstr "Europski gospodarski i socijalni odbor (EGSO)"
+
+msgid "http://www.eesc.europa.eu/?i=portal.en.home"
+msgstr "http://www.eesc.europa.eu/?i=portal.hr.home"
+
+msgid "European Committee of the Regions (CoR)"
+msgstr "Europski odbor regija (OR)"
+
+msgid "http://cor.europa.eu/en/"
+msgstr "http://cor.europa.eu/hr/"
+
+msgid "European Investment Bank (EIB)"
+msgstr "Europska investicijska banka (EIB)"
+
+msgid "European Data Protection Supervisor (EDPS)"
+msgstr "Europski nadzornik za zaštitu podataka (EDPS)"
+
+msgid "https://secure.edps.europa.eu/EDPSWEB/edps/EDPS?lang=en"
+msgstr "https://secure.edps.europa.eu/EDPSWEB/edps/EDPS?lang=hr"
+
+msgid "Sitemap"
+msgstr "Plan stranice"
+
+msgid "/european-union/abouteuropa/sitemap_en"
+msgstr "/european-union/abouteuropa/sitemap_hr"
+
+msgid "About this site"
+msgstr "O ovoj stranici"
+
+msgid "/european-union/abouteuropa_en"
+msgstr "/european-union/abouteuropa_hr"
+
+msgid "Language policy"
+msgstr "Jezična politika"
+
+msgid "/european-union/abouteuropa/language-policy_en"
+msgstr "/european-union/abouteuropa/language-policy_hr"
+
+msgid "Privacy policy"
+msgstr "Politika zaštite privatnosti"
+
+msgid "/european-union/abouteuropa/privacy-policy_en"
+msgstr "/european-union/abouteuropa/privacy-policy_hr"
+
+msgid "Legal notice"
+msgstr "Pravna obavijest"
+
+msgid "/european-union/abouteuropa/legal_notices_en"
+msgstr "/european-union/abouteuropa/legal_notices_hr"
+
+msgid "Cookies"
+msgstr "Kolačići"
+
+msgid "/european-union/abouteuropa/cookies_en"
+msgstr "/european-union/abouteuropa/cookies_hr"
 
 msgid "https://ec.europa.eu/info/index_en"
 msgstr "https://ec.europa.eu/info/index_hr"
 
 msgid "European Commission website"
 msgstr "Internetske stranice Europske komisije"
-
-msgid "Policies, information and services"
-msgstr "Politike, informacije i službe"
 
 msgid "Follow the European Commission"
 msgstr "Pratite Europsku komisiju"
@@ -42,9 +166,6 @@ msgstr "O novim internetskim stranicama Komisije"
 msgid "https://ec.europa.eu/info/language-policy_en"
 msgstr "https://ec.europa.eu/info/language-policy_hr"
 
-msgid "Language policy"
-msgstr "Jezična politika"
-
 msgid "https://ec.europa.eu/info/resources-partners_en"
 msgstr "http://ec.europa.eu/info/resources-partners_hr"
 
@@ -54,20 +175,11 @@ msgstr "Resursi za partnere"
 msgid "https://ec.europa.eu/info/cookies_en"
 msgstr "https://ec.europa.eu/info/cookies_hr"
 
-msgid "Cookies"
-msgstr "Kolačići"
-
 msgid "https://ec.europa.eu/info/privacy-policy_en"
 msgstr "https://ec.europa.eu/info/privacy-policy_hr"
 
-msgid "Privacy policy"
-msgstr "Politika zaštite privatnosti"
-
 msgid "https://ec.europa.eu/info/legal-notice_en"
 msgstr "https://ec.europa.eu/info/legal-notice_hr"
-
-msgid "Legal notice"
-msgstr "Kolačići"
 
 msgid "https://ec.europa.eu/info/contact_en"
 msgstr "https://ec.europa.eu/info/contact_hr"
@@ -75,3 +187,5 @@ msgstr "https://ec.europa.eu/info/contact_hr"
 msgid "Contact"
 msgstr "Kontakt"
 
+msgid "Policies, information and services"
+msgstr "Politike, informacije i službe"

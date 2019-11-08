@@ -1,15 +1,137 @@
+msgid ""
+msgstr ""
+
+msgid "https://europa.eu/european-union/contact/call-us_en"
+msgstr "https://europa.eu/european-union/contact/call-us_nl"
+
+msgid "telephone options"
+msgstr "andere manier"
+
+msgid "https://europa.eu/european-union/contact/write-to-us_en"
+msgstr "https://europa.eu/european-union/contact/write-to-us_nl"
+
+msgid "contact form"
+msgstr "contactformulier"
+
+msgid "https://europa.eu/european-union/contact/meet-us_en"
+msgstr "https://europa.eu/european-union/contact/meet-us_nl"
+
+msgid "local EU office"
+msgstr "EU in uw land"
+
+msgid "Search for EU social media channels"
+msgstr "Zoek naar accounts van de EU op sociale media"
+
+msgid "https://europa.eu/european-union/contact/social-networks_en"
+msgstr "https://europa.eu/european-union/contact/social-networks_nl"
+
+msgid "European Parliament"
+msgstr "Europees Parlement"
+
+msgid "http://www.europarl.europa.eu/portal/"
+msgstr "http://www.europarl.europa.eu/portal/nl"
+
+msgid "European Council"
+msgstr "Europese Raad"
+
+msgid "http://www.consilium.europa.eu/en/european-council/"
+msgstr "http://www.consilium.europa.eu/nl/european-council/"
+
+msgid "Council of the European Union"
+msgstr "Raad van de Europese Unie"
+
+msgid "http://www.consilium.europa.eu/en/home/"
+msgstr "http://www.consilium.europa.eu/nl/home/"
+
+msgid "Presidency of the Council of the EU"
+msgstr "Voorzitterschap van de Raad van de EU"
 
 msgid "European Commission"
 msgstr "Europese Commissie"
+
+msgid "https://ec.europa.eu/commission/index_en"
+msgstr "http://ec.europa.eu/index_nl.htm"
+
+msgid "Court of Justice of the European Union (CJEU)"
+msgstr "Hof van Justitie van de Europese Unie (HvJ-EU)"
+
+msgid "http://curia.europa.eu/jcms/jcms/j_6/en/"
+msgstr "http://curia.europa.eu/jcms/jcms/j_6/nl/"
+
+msgid "European Central Bank (ECB)"
+msgstr "Europese Centrale Bank (ECB)"
+
+msgid "https://www.ecb.europa.eu/home/html/index.en.html"
+msgstr "https://www.ecb.europa.eu/home/languagepolicy/html/index.nl.html"
+
+msgid "European Court of Auditors (ECA)"
+msgstr "Europese Rekenkamer"
+
+msgid "http://www.eca.europa.eu/en"
+msgstr "http://www.eca.europa.eu/nl"
+
+msgid "European External Action Service (EEAS)"
+msgstr "Europese Dienst voor extern optreden (EDEO)"
+
+msgid "https://eeas.europa.eu/headquarters/headquarters-homepage_en"
+msgstr "http://eeas.europa.eu/index_nl.htm"
+
+msgid "European Economic and Social Committee (EESC)"
+msgstr "Europees Economisch en Sociaal Comité (EESC)"
+
+msgid "http://www.eesc.europa.eu/?i=portal.en.home"
+msgstr "http://www.eesc.europa.eu/?i=portal.nl.home"
+
+msgid "European Committee of the Regions (CoR)"
+msgstr "Europees Comité van de Regio's (CvdR)"
+
+msgid "http://cor.europa.eu/en/"
+msgstr "http://cor.europa.eu/nl/"
+
+msgid "European Investment Bank (EIB)"
+msgstr "Europese Investeringsbank (EIB)"
+
+msgid "European Data Protection Supervisor (EDPS)"
+msgstr "Europese Toezichthouder voor gegevensbescherming (EDPS)"
+
+msgid "https://secure.edps.europa.eu/EDPSWEB/edps/EDPS?lang=en"
+msgstr "https://secure.edps.europa.eu/EDPSWEB/edps/EDPS?lang=nl"
+
+msgid "/european-union/abouteuropa/sitemap_en"
+msgstr "/european-union/abouteuropa/sitemap_nl"
+
+msgid "About this site"
+msgstr "Over deze site"
+
+msgid "/european-union/abouteuropa_en"
+msgstr "/european-union/abouteuropa_nl"
+
+msgid "Language policy"
+msgstr "Talenbeleid op de Europa-website"
+
+msgid "/european-union/abouteuropa/language-policy_en"
+msgstr "/european-union/abouteuropa/language-policy_nl"
+
+msgid "Privacy policy"
+msgstr "Privacybeleid"
+
+msgid "/european-union/abouteuropa/privacy-policy_en"
+msgstr "/european-union/abouteuropa/privacy-policy_nl"
+
+msgid "Legal notice"
+msgstr "Juridische mededeling"
+
+msgid "/european-union/abouteuropa/legal_notices_en"
+msgstr "/european-union/abouteuropa/legal_notices_nl"
+
+msgid "/european-union/abouteuropa/cookies_en"
+msgstr "/european-union/abouteuropa/cookies_nl"
 
 msgid "https://ec.europa.eu/info/index_en"
 msgstr "https://ec.europa.eu/info/index_nl"
 
 msgid "European Commission website"
 msgstr "Website van de Europese Commissie"
-
-msgid "Policies, information and services"
-msgstr "Beleid, informatie en diensten"
 
 msgid "Follow the European Commission"
 msgstr "Volg de Europese Commissie"
@@ -41,9 +163,6 @@ msgstr "Over de nieuwe website van de Europese Commissie"
 msgid "https://ec.europa.eu/info/language-policy_en"
 msgstr "http://ec.europa.eu/info/resources-partners_nl"
 
-msgid "Language policy"
-msgstr "Bronmateriaal voor partners"
-
 msgid "https://ec.europa.eu/info/resources-partners_en"
 msgstr "https://ec.europa.eu/info/language-policy_nl"
 
@@ -56,15 +175,11 @@ msgstr "https://ec.europa.eu/info/cookies_nl"
 msgid "https://ec.europa.eu/info/privacy-policy_en"
 msgstr "https://ec.europa.eu/info/privacy-policy_nl"
 
-msgid "Privacy policy"
-msgstr "Privacybeleid"
-
 msgid "https://ec.europa.eu/info/legal-notice_en"
 msgstr "https://ec.europa.eu/info/legal-notice_nl"
-
-msgid "Legal notice"
-msgstr "Juridische mededeling"
 
 msgid "https://ec.europa.eu/info/contact_en"
 msgstr "https://ec.europa.eu/info/contact_nl"
 
+msgid "Policies, information and services"
+msgstr "Beleid, informatie en diensten"
