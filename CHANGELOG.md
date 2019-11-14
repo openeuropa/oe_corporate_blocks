@@ -1,8 +1,16 @@
 # Change Log
 
+## [2.0.1](https://github.com/openeuropa/oe_corporate_blocks/tree/2.0.1) (2019-11-14)
+[Full Changelog](https://github.com/openeuropa/oe_corporate_blocks/compare/2.0.0...2.0.1)
+
+**Merged pull requests:**
+
+- OPENEUROPA-2481: Add missing post update. [\#36](https://github.com/openeuropa/oe_corporate_blocks/pull/36) ([sergepavle](https://github.com/sergepavle))
+
 ## [2.0.0](https://github.com/openeuropa/oe_corporate_blocks/tree/2.0.0) (2019-11-14)
 **Merged pull requests:**
 
+- OPENEUROPA-2481: Update CHANGELOG.md file for release 2.0.0. [\#35](https://github.com/openeuropa/oe_corporate_blocks/pull/35) ([sergepavle](https://github.com/sergepavle))
 - OPENEUROPA-2258: Undo use of PHP 7.2. [\#33](https://github.com/openeuropa/oe_corporate_blocks/pull/33) ([dxvargas](https://github.com/dxvargas))
 - OPENEUROPA-2464: Use PHP 7.1 in docker-compose. [\#32](https://github.com/openeuropa/oe_corporate_blocks/pull/32) ([dxvargas](https://github.com/dxvargas))
 - OPENEUROPA-2258: Use PHP 7.2 in drone and docker image [\#30](https://github.com/openeuropa/oe_corporate_blocks/pull/30) ([dxvargas](https://github.com/dxvargas))
