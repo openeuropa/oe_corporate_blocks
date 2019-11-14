@@ -1,39 +1,14 @@
 # Change Log
 
-## [1.2.0](https://github.com/openeuropa/oe_corporate_blocks/tree/1.2.0) (2019-06-25)
-[Full Changelog](https://github.com/openeuropa/oe_corporate_blocks/compare/1.1.0...1.2.0)
-
+## [2.0.0](https://github.com/openeuropa/oe_corporate_blocks/tree/2.0.0) (2019-11-14)
 **Merged pull requests:**
 
-- OPENEUROPA-1922: Move string translations to po files. [\#15](https://github.com/openeuropa/oe_corporate_blocks/pull/15) ([imanoleguskiza](https://github.com/imanoleguskiza))
-- OPENEUROPA-1897: Use ci image. [\#14](https://github.com/openeuropa/oe_corporate_blocks/pull/14) ([imanoleguskiza](https://github.com/imanoleguskiza))
-- OPENEUROPA-1561: Allow to specify the css selectors for the corporate blocks context [\#13](https://github.com/openeuropa/oe_corporate_blocks/pull/13) ([brummbar](https://github.com/brummbar))
-
-## [1.1.0](https://github.com/openeuropa/oe_corporate_blocks/tree/1.1.0) (2019-05-07)
-[Full Changelog](https://github.com/openeuropa/oe_corporate_blocks/compare/1.0.1...1.1.0)
-
-**Merged pull requests:**
-
-- OPENEUROPA-1813: Create release 1.1.0. [\#12](https://github.com/openeuropa/oe_corporate_blocks/pull/12) ([voidtek](https://github.com/voidtek))
-- OPENEUROPA-1813: Upgrade to 8.7. [\#10](https://github.com/openeuropa/oe_corporate_blocks/pull/10) ([upchuk](https://github.com/upchuk))
-
-## [1.0.1](https://github.com/openeuropa/oe_corporate_blocks/tree/1.0.1) (2019-05-06)
-[Full Changelog](https://github.com/openeuropa/oe_corporate_blocks/compare/1.0.0...1.0.1)
-
-**Merged pull requests:**
-
-- OPENEUROPA-1813: Create release 1.0.1. [\#11](https://github.com/openeuropa/oe_corporate_blocks/pull/11) ([voidtek](https://github.com/voidtek))
-- OPENEUROPA-1792: Fix Slovak translation. [\#9](https://github.com/openeuropa/oe_corporate_blocks/pull/9) ([sergepavle](https://github.com/sergepavle))
-- Updating dependencies [\#8](https://github.com/openeuropa/oe_corporate_blocks/pull/8) ([upchuk](https://github.com/upchuk))
-
-## [1.0.0](https://github.com/openeuropa/oe_corporate_blocks/tree/1.0.0) (2019-04-25)
-**Merged pull requests:**
-
-- Update CHANGELOG.md for release 1.0.0. [\#7](https://github.com/openeuropa/oe_corporate_blocks/pull/7) ([ademarco](https://github.com/ademarco))
-- OPENEUROPA-1792: Translate string 'Resources for partners'. [\#6](https://github.com/openeuropa/oe_corporate_blocks/pull/6) ([imanoleguskiza](https://github.com/imanoleguskiza))
-- OPENEUROPA-1743: Add site switcher configuration and form. [\#3](https://github.com/openeuropa/oe_corporate_blocks/pull/3) ([ademarco](https://github.com/ademarco))
-- OPENEUROPA-1695: Implement footer block. [\#2](https://github.com/openeuropa/oe_corporate_blocks/pull/2) ([sergepavle](https://github.com/sergepavle))
-- OPENEUROPA-1694: Create oe\_corporate\_blocks component. [\#1](https://github.com/openeuropa/oe_corporate_blocks/pull/1) ([nagyad](https://github.com/nagyad))
+- OPENEUROPA-2258: Undo use of PHP 7.2. [\#33](https://github.com/openeuropa/oe_corporate_blocks/pull/33) ([dxvargas](https://github.com/dxvargas))
+- OPENEUROPA-2464: Use PHP 7.1 in docker-compose. [\#32](https://github.com/openeuropa/oe_corporate_blocks/pull/32) ([dxvargas](https://github.com/dxvargas))
+- OPENEUROPA-2258: Use PHP 7.2 in drone and docker image [\#30](https://github.com/openeuropa/oe_corporate_blocks/pull/30) ([dxvargas](https://github.com/dxvargas))
+- OPENEUROPA-2394: Update footer links for 2.x. [\#26](https://github.com/openeuropa/oe_corporate_blocks/pull/26) ([sergepavle](https://github.com/sergepavle))
+- OPENEUROPA-2159: Remove site switcher configuration. [\#19](https://github.com/openeuropa/oe_corporate_blocks/pull/19) ([ademarco](https://github.com/ademarco))
+- OPENEUROPA-2159: Create OpenEuropa Corporate Blocks 2.x [\#17](https://github.com/openeuropa/oe_corporate_blocks/pull/17) ([voidtek](https://github.com/voidtek))
 
 
 
