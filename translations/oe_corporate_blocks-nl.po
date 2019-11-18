@@ -1,23 +1,17 @@
 msgid ""
 msgstr ""
 
-msgid "https://europa.eu/european-union/contact/call-us_en"
-msgstr "https://europa.eu/european-union/contact/call-us_nl"
+msgid "Call us <a href=\"tel:0080067891011\">00 800 6 7 8 9 10 11</a>"
+msgstr "Bel ons gratis op <a href=\"tel:0080067891011\">00 800 6 7 8 9 10 11</a>"
 
-msgid "telephone options"
-msgstr "andere manier"
+msgid "Use other <a href=\"https://europa.eu/european-union/contact/call-us_en\">telephone options</a>"
+msgstr "Bel ons op een <a href=\"https://europa.eu/european-union/contact/call-us_nl\">andere manier</a>"
 
-msgid "https://europa.eu/european-union/contact/write-to-us_en"
-msgstr "https://europa.eu/european-union/contact/write-to-us_nl"
+msgid "Write to us via our <a href=\"https://europa.eu/european-union/contact/write-to-us_en\">contact form</a>"
+msgstr "Schrijf ons via het <a href=\"https://europa.eu/european-union/contact/write-to-us_nl\">contactformulier</a>"
 
-msgid "contact form"
-msgstr "contactformulier"
-
-msgid "https://europa.eu/european-union/contact/meet-us_en"
-msgstr "https://europa.eu/european-union/contact/meet-us_nl"
-
-msgid "local EU office"
-msgstr "EU in uw land"
+msgid "Meet us at a <a href=\"https://europa.eu/european-union/contact/meet-us_en\">local EU office</a>"
+msgstr "Kom langs bij de <a href=\"https://europa.eu/european-union/contact/meet-us_nl\">EU in uw land</a>"
 
 msgid "Search for EU social media channels"
 msgstr "Zoek naar accounts van de EU op sociale media"

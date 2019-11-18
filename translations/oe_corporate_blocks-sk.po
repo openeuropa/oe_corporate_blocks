@@ -1,23 +1,17 @@
 msgid ""
 msgstr ""
 
-msgid "https://europa.eu/european-union/contact/call-us_en"
-msgstr "https://europa.eu/european-union/contact/call-us_sk"
+msgid "Call us <a href=\"tel:0080067891011\">00 800 6 7 8 9 10 11</a>"
+msgstr "Volajte nám na číslo <a href=\"tel:0080067891011\">00 800 6 7 8 9 10 11</a>"
 
-msgid "telephone options"
-msgstr "telefonického kontaktu"
+msgid "Use other <a href=\"https://europa.eu/european-union/contact/call-us_en\">telephone options</a>"
+msgstr "Využite iné možnosti <a href=\"https://europa.eu/european-union/contact/call-us_sk\">telefonického kontaktu</a>"
 
-msgid "https://europa.eu/european-union/contact/write-to-us_en"
-msgstr "https://europa.eu/european-union/contact/write-to-us_sk"
+msgid "Write to us via our <a href=\"https://europa.eu/european-union/contact/write-to-us_en\">contact form</a>"
+msgstr "Píšte nám prostredníctvom <a href=\"https://europa.eu/european-union/contact/write-to-us_sk\">kontaktného formulára</a>"
 
-msgid "contact form"
-msgstr "kontaktného formulára"
-
-msgid "https://europa.eu/european-union/contact/meet-us_en"
-msgstr "https://europa.eu/european-union/contact/meet-us_sk"
-
-msgid "local EU office"
-msgstr "lokálnych kancelárií EÚ"
+msgid "Meet us at a <a href=\"https://europa.eu/european-union/contact/meet-us_en\">local EU office</a>"
+msgstr "Navštívte nás v niektorej z <a href=\"https://europa.eu/european-union/contact/meet-us_sk\">lokálnych kancelárií EÚ</a>"
 
 msgid "Search for EU social media channels"
 msgstr "Hľadajte EÚ na sociálnych médiách"

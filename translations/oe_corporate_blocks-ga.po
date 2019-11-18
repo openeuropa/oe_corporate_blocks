@@ -1,23 +1,17 @@
 msgid ""
 msgstr ""
 
-msgid "https://europa.eu/european-union/contact/call-us_en"
-msgstr "https://europa.eu/european-union/contact/call-us_ga"
+msgid "Call us <a href=\"tel:0080067891011\">00 800 6 7 8 9 10 11</a>"
+msgstr "Glaoigh orainn ar <a href=\"tel:0080067891011\">00 800 6 7 8 9 10 11</a>"
 
-msgid "telephone options"
-msgstr "roghanna teileafóin eile"
+msgid "Use other <a href=\"https://europa.eu/european-union/contact/call-us_en\">telephone options</a>"
+msgstr "Úsáid <a href=\"https://europa.eu/european-union/contact/call-us_ga\">roghanna teileafóin eile</a>"
 
-msgid "https://europa.eu/european-union/contact/write-to-us_en"
-msgstr "https://europa.eu/european-union/contact/write-to-us_ga"
+msgid "Write to us via our <a href=\"https://europa.eu/european-union/contact/write-to-us_en\">contact form</a>"
+msgstr "Scríobh chugainn tríd an <a href=\"https://europa.eu/european-union/contact/write-to-us_ga\">bhfoirm theagmhála</a>"
 
-msgid "contact form"
-msgstr "bhfoirm theagmhála"
-
-msgid "https://europa.eu/european-union/contact/meet-us_en"
-msgstr "https://europa.eu/european-union/contact/meet-us_ga"
-
-msgid "local EU office"
-msgstr "oifig áitiúil de chuid an Aontais"
+msgid "Meet us at a <a href=\"https://europa.eu/european-union/contact/meet-us_en\">local EU office</a>"
+msgstr "Buail linn in <a href=\"https://europa.eu/european-union/contact/meet-us_ga\">oifig áitiúil de chuid an Aontais</a>"
 
 msgid "Search for EU social media channels"
 msgstr "Cainéil an Aontais Eorpaigh ar na meáin shóisialta a chuardach"

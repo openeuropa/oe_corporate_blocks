@@ -1,23 +1,17 @@
 msgid ""
 msgstr ""
 
-msgid "https://europa.eu/european-union/contact/call-us_en"
-msgstr "https://europa.eu/european-union/contact/call-us_el"
+msgid "Call us <a href=\"tel:0080067891011\">00 800 6 7 8 9 10 11</a>"
+msgstr "Τηλεφωνήστε μας στο <a href=\"tel:0080067891011\">00 800 6 7 8 9 10 11</a>"
 
-msgid "telephone options"
-msgstr "τηλεφωνικές επιλογές"
+msgid "Use other <a href=\"https://europa.eu/european-union/contact/call-us_en\">telephone options</a>"
+msgstr "Χρησιμοποιήστε άλλες <a href=\"https://europa.eu/european-union/contact/call-us_el\">τηλεφωνικές επιλογές</a>"
 
-msgid "https://europa.eu/european-union/contact/write-to-us_en"
-msgstr "https://europa.eu/european-union/contact/write-to-us_el"
+msgid "Write to us via our <a href=\"https://europa.eu/european-union/contact/write-to-us_en\">contact form</a>"
+msgstr "Γράψτε μας μέσω <a href=\"https://europa.eu/european-union/contact/write-to-us_el\">του δελτίου επικοινωνίας</a>"
 
-msgid "contact form"
-msgstr "του δελτίου επικοινωνίας"
-
-msgid "https://europa.eu/european-union/contact/meet-us_en"
-msgstr "https://europa.eu/european-union/contact/meet-us_el"
-
-msgid "local EU office"
-msgstr "τοπικό γραφείο της ΕΕ"
+msgid "Meet us at a <a href=\"https://europa.eu/european-union/contact/meet-us_en\">local EU office</a>"
+msgstr "Συναντήστε μας σε <a href=\"https://europa.eu/european-union/contact/meet-us_el\">τοπικό γραφείο της ΕΕ</a>"
 
 msgid "Search for EU social media channels"
 msgstr "Αναζητήστε τις σελίδες της ΕΕ στα μέσα κοινωνικής δικτύωσης"

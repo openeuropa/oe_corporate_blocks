@@ -1,23 +1,17 @@
 msgid ""
 msgstr ""
 
-msgid "https://europa.eu/european-union/contact/call-us_en"
-msgstr "https://europa.eu/european-union/contact/call-us_lv"
+msgid "Call us <a href=\"tel:0080067891011\">00 800 6 7 8 9 10 11</a>"
+msgstr "Zvaniet mums <a href=\"tel:0080067891011\">00 800 6 7 8 9 10 11</a>"
 
-msgid "telephone options"
-msgstr "citas tālruņa līnijas"
+msgid "Use other <a href=\"https://europa.eu/european-union/contact/call-us_en\">telephone options</a>"
+msgstr "Izmantojiet <a href=\"https://europa.eu/european-union/contact/call-us_lv\">citas tālruņa līnijas</a>"
 
-msgid "https://europa.eu/european-union/contact/write-to-us_en"
-msgstr "https://europa.eu/european-union/contact/write-to-us_lv"
+msgid "Write to us via our <a href=\"https://europa.eu/european-union/contact/write-to-us_en\">contact form</a>"
+msgstr "Rakstiet, izmantojot <a href=\"https://europa.eu/european-union/contact/write-to-us_lv\">saziņas veidlapu</a>"
 
-msgid "contact form"
-msgstr "saziņas veidlapu"
-
-msgid "https://europa.eu/european-union/contact/meet-us_en"
-msgstr "https://europa.eu/european-union/contact/meet-us_lv"
-
-msgid "local EU office"
-msgstr "vietējo ES biroju"
+msgid "Meet us at a <a href=\"https://europa.eu/european-union/contact/meet-us_en\">local EU office</a>"
+msgstr "Nāciet uz <a href=\"https://europa.eu/european-union/contact/meet-us_lv\">vietējo ES biroju</a>"
 
 msgid "Search for EU social media channels"
 msgstr "ES sociālajos tīklos"

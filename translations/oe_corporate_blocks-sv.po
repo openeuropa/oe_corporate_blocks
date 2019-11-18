@@ -1,23 +1,17 @@
 msgid ""
 msgstr ""
 
-msgid "https://europa.eu/european-union/contact/call-us_en"
-msgstr "https://europa.eu/european-union/contact/call-us_sv"
+msgid "Call us <a href=\"tel:0080067891011\">00 800 6 7 8 9 10 11</a>"
+msgstr "Ring <a href=\"tel:0080067891011\">00 800 6 7 8 9 10 11</a>"
 
-msgid "telephone options"
-msgstr "telefonalternativ"
+msgid "Use other <a href=\"https://europa.eu/european-union/contact/call-us_en\">telephone options</a>"
+msgstr "Använd andra <a href=\"https://europa.eu/european-union/contact/call-us_sv\">telefonalternativ</a>"
 
-msgid "https://europa.eu/european-union/contact/write-to-us_en"
-msgstr "https://europa.eu/european-union/contact/write-to-us_sv"
+msgid "Write to us via our <a href=\"https://europa.eu/european-union/contact/write-to-us_en\">contact form</a>"
+msgstr "Skriv till oss via <a href=\"https://europa.eu/european-union/contact/write-to-us_sv\">kontaktformuläret</a>"
 
-msgid "contact form"
-msgstr "kontaktformuläret"
-
-msgid "https://europa.eu/european-union/contact/meet-us_en"
-msgstr "https://europa.eu/european-union/contact/meet-us_sv"
-
-msgid "local EU office"
-msgstr "lokalt EU-kontor"
+msgid "Meet us at a <a href=\"https://europa.eu/european-union/contact/meet-us_en\">local EU office</a>"
+msgstr "Besök ett <a href=\"https://europa.eu/european-union/contact/meet-us_sv\">lokalt EU-kontor</a>"
 
 msgid "Search for EU social media channels"
 msgstr "Hitta oss i sociala medier"

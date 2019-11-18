@@ -1,23 +1,17 @@
 msgid ""
 msgstr ""
 
-msgid "https://europa.eu/european-union/contact/call-us_en"
-msgstr "https://europa.eu/european-union/contact/call-us_it"
+msgid "Call us <a href=\"tel:0080067891011\">00 800 6 7 8 9 10 11</a>"
+msgstr "Telefonaci allo <a href=\"tel:0080067891011\">00 800 6 7 8 9 10 11</a>"
 
-msgid "telephone options"
-msgstr "opzioni telefoniche"
+msgid "Use other <a href=\"https://europa.eu/european-union/contact/call-us_en\">telephone options</a>"
+msgstr "Scegli altre <a href=\"https://europa.eu/european-union/contact/call-us_it\">opzioni telefoniche</a>"
 
-msgid "https://europa.eu/european-union/contact/write-to-us_en"
-msgstr "https://europa.eu/european-union/contact/write-to-us_it"
+msgid "Write to us via our <a href=\"https://europa.eu/european-union/contact/write-to-us_en\">contact form</a>"
+msgstr "Scrivici - compila il <a href=\"https://europa.eu/european-union/contact/write-to-us_it\">modulo di contatto</a>"
 
-msgid "contact form"
-msgstr "modulo di contatto"
-
-msgid "https://europa.eu/european-union/contact/meet-us_en"
-msgstr "https://europa.eu/european-union/contact/meet-us_it"
-
-msgid "local EU office"
-msgstr "ufficio dell'UE"
+msgid "Meet us at a <a href=\"https://europa.eu/european-union/contact/meet-us_en\">local EU office</a>"
+msgstr "Vieni a trovarci nell'<a href=\"https://europa.eu/european-union/contact/meet-us_it\">ufficio dell'UE</a> più vicino"
 
 msgid "Search for EU social media channels"
 msgstr "Cerca i canali dell'UE sui social media"
