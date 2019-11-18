@@ -60,7 +60,11 @@ oe_corporate_blocks.eu_data.footer:
   label: 'Data for EU corporate bocks.'
   mapping:
     contact:
-      type: oe_corporate_blocks.footer.contact
+      type: sequence
+      label: 'Contact information'
+      sequence:
+        translatable: true
+        type: string
     social_media:
       type: sequence
       label: 'EU social media'
@@ -76,16 +80,3 @@ oe_corporate_blocks.eu_data.footer:
       label: 'EU other links'
       sequence:
         type: oe_corporate_blocks.footer.link
-
-oe_corporate_blocks.footer.contact:
-  type: mapping
-  label: 'Contact links'
-  mapping:
-    call_us:
-      type: oe_corporate_blocks.footer.link
-    use_other:
-      type: oe_corporate_blocks.footer.link
-    contact_form:
-      type: oe_corporate_blocks.footer.link
-    meet_us:
-      type: oe_corporate_blocks.footer.link
