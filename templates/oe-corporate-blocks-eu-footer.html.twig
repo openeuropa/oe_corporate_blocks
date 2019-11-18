@@ -19,18 +19,11 @@
 <div class="footer__corporate-top--eu">
   {% if corporate_footer.contact %}
     <ul class="footer__list">
+      {% for menu_item in corporate_footer.contact %}
         <li class="footer__list-item">
-          {{ link(corporate_footer.contact.call_us.label, corporate_footer.contact.call_us.href) }}
+          {{ menu_item|raw }}
         </li>
-        <li class="footer__list-item">
-          {{ link(corporate_footer.contact.use_other.label, corporate_footer.contact.use_other.href) }}
-        </li>
-        <li class="footer__list-item">
-          {{ link(corporate_footer.contact.contact_form.label, corporate_footer.contact.contact_form.href) }}
-        </li>
-        <li class="footer__list-item">
-          {{ link(corporate_footer.contact.meet_us.label, corporate_footer.contact.meet_us.href) }}
-        </li>
+      {% endfor %}
     </ul>
   {% endif %}
   {% if corporate_footer.social_media %}
