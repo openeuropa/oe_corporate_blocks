@@ -52,7 +52,7 @@ Feature: Corporate blocks feature
       | home  |
       | login |
 
-  Scenario Outline: On any pages we have correct urls in EU corporate footer block for many languages
+  Scenario Outline: Urls are correctly shown in the EU corporate footer block when page and language are changed.
     Given the following languages are available:
       | languages |
       | en        |
