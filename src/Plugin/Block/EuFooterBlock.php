@@ -31,7 +31,16 @@ class EuFooterBlock extends FooterBlockBase implements ContainerFactoryPluginInt
 
     $build['#theme'] = 'oe_corporate_blocks_eu_footer';
 
-    NestedArray::setValue($build, ['#corporate_footer'], $config->get());
+    $data = $config->get();
+    if ($data['contact']) {
+      foreach ($data['contact'] as &$contact_item) {
+        $contact_item = [
+          '#markup' => $contact_item,
+        ];
+      }
+    }
+
+    NestedArray::setValue($build, ['#corporate_footer'], $data);
 
     $cache->applyTo($build);
 
