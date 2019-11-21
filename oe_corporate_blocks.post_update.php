@@ -7,6 +7,9 @@
 
 declare(strict_types = 1);
 
+use Drupal\Core\Config\FileStorage;
+use Drupal\locale\Locale;
+
 /**
  * Delete the config for Site Switcher.
  */
@@ -39,4 +42,17 @@ function oe_corporate_blocks_post_update_10001(&$sandbox): void {
   $storage->delete($string);
   $string = $storage->findString(['source' => 'European Commission website']);
   $storage->delete($string);
+}
+
+/**
+ * Import new config with translations.
+ */
+function oe_corporate_blocks_post_update_20002(&$sandbox): void {
+  $config_path = drupal_get_path('module', 'oe_corporate_blocks') . '/config/install';
+  $source = new FileStorage($config_path);
+  $config_storage = \Drupal::service('config.storage');
+  $config_storage->write('oe_corporate_blocks.eu_data.footer', $source->read('oe_corporate_blocks.eu_data.footer'));
+
+  $langcodes = array_keys(\Drupal::languageManager()->getLanguages());
+  Locale::config()->updateConfigTranslations(['oe_corporate_blocks'], $langcodes);
 }
