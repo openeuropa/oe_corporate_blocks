@@ -12,7 +12,7 @@ use Drupal\Core\Plugin\ContainerFactoryPluginInterface;
  * Provides the corporate EU footer block.
  *
  * @Block(
- *   id = "oe_eu_footer",
+ *   id = "oe_corporate_blocks_eu_footer",
  *   admin_label = @Translation("EU Footer block"),
  *   category = @Translation("Corporate blocks"),
  * )
