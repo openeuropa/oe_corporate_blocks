@@ -24,8 +24,8 @@ default:
       drupal:
         drupal_root: "${drupal.root}"
       region_map:
-        ec_footer: "div.block-oe-footer"
-        eu_footer: "div.block-oe-eu-footer"
+        ec_footer: "div.block-oe-corporate-blocks-ec-footer"
+        eu_footer: "div.block-oe-corporate-blocks-eu-footer"
         header: "div.region-header"
   formatters:
     progress: ~
