@@ -4,15 +4,15 @@
  * Default theme implementation for rendering corporate blocks footer.
  *
  * Available variables:
- * - custom_footer: Array (optional) with structure of custom footer compatible to ECL ec-components-footer component.
+ * - custom_footer: Array (optional) with structure of the custom footer compatible with the ECL ec-components-footer component.
  *   - site_identity: Site identity for custom footer.
  *   - social_links: Social media links for custom footer.
  *   - other_links: Other links for custom footer.
- * - corporate_footer: Array with structure of corporate footer compatible to ECL ec-components-footer component.
+ * - corporate_footer: Array with structure of corporate footer compatible with the ECL ec-components-footer component.
  *   - about_ec: Data about EC for corporate footer.
  *   - social_media: Social media links for corporate footer.
  *   - about_eu: Data about EU for corporate footer.
- *   - bottom_links: Data about EU for corporate footer.
+ *   - bottom_links: Other links for corporate footer.
  *
  * @ingroup themeable
  */
@@ -26,9 +26,9 @@
     {%  if custom_footer.social_links is not empty %}
       <p class="footer__custom-label">{{ 'Follow us:'|t }}</p>
       <ul class="footer__list">
-        {% for menu_item in custom_footer.social_links %}
+        {% for social_link in custom_footer.social_links %}
           <li class="footer__list-item">
-            {{ link(menu_item.label, menu_item.href, create_attribute({'class': ['menu_item.social_network']})) }}
+            {{ link(social_link.label, social_link.href, create_attribute({'class': ['menu_item.social_network']})) }}
           </li>
         {% endfor %}
       </ul>

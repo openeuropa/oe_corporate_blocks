@@ -5,9 +5,10 @@ oe_corporate_blocks.settings_index:
   description: 'Configure corporate blocks.'
   position: left
   weight: -10
-entity.footer_general_link.collection:
-  title: 'Footer link manager'
-  route_name: entity.footer_general_link.collection
-  description: 'List footer links'
-  parent: system.admin_structure
+
+entity.footer_link_general.collection:
+  title: 'Footer links'
+  route_name: entity.footer_link_general.collection
+  description: 'List of Footer links'
+  parent: system.admin_config_system
   weight: 99

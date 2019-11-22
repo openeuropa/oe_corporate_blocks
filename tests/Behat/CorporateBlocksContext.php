@@ -65,11 +65,11 @@ class CorporateBlocksContext extends RawDrupalContext {
    * @throws \Exception
    */
   public function assertNoLinksInRegion(string $region, TableNode $links): void {
-    $regionObj = $this->getSession()->getPage()->find('region', $region);
+    $region_object = $this->getSession()->getPage()->find('region', $region);
     foreach ($links->getRows() as $row) {
-      $linkObj = $regionObj->findLink($row[0]);
+      $link_object = $region_object->findLink($row[0]);
 
-      if (!empty($linkObj) && $linkObj->getAttribute('href') === $row[1]) {
+      if (!empty($link_object) && $link_object->getAttribute('href') === $row[1]) {
         throw new \Exception(sprintf('The link "%s" was found in the region "%s" on the page %s', $row[0], $region, $this->getSession()->getCurrentUrl()));
       }
 

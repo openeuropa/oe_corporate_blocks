@@ -1,17 +1,17 @@
-@api
+@api @cf
 Feature: Custom footer settings.
   In order to be able to expose custom footer content
   As a privileged user
   I want to be able to access the custom footer management page and update its values
 
   Scenario: Privileged users can control General links in Custom footer through Footer links manager page.
-    Given I am logged in as a user with the "access administration pages, administer footer general link" permissions
+    Given I am logged in as a user with the "access administration pages, administer footer link general" permissions
 
     # Add new link for custom footer
     When I am on "the footer links manager page"
-    Then I should see the heading "Footer general link entities"
-    When I click "Add footer general link"
-    Then I should see the heading "Add footer general link"
+    Then I should see the heading "Footer Link General entities"
+    When I click "Add Footer Link General"
+    Then I should see the heading "Add Footer Link General"
     When I fill in "Label" with "00000 European Commission, official website"
     And I fill in "Machine-readable name" with "00000_eurpoean_commission_official_website"
     And I fill in "URL" with "https://ec.europa.eu/info/index_en"

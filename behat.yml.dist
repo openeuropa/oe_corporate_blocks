@@ -11,8 +11,8 @@ default:
         - OpenEuropa\Behat\TransformationContext:
             pages:
               login: "user/login"
-              footer links manager: 'admin/structure/footer-general-link'
-              footer social links manager: 'admin/structure/footer-social-link'
+              footer links manager: 'admin/config/footer-link-general'
+              footer social links manager: 'admin/config/footer-link-social'
   extensions:
     Drupal\MinkExtension:
       goutte: ~
