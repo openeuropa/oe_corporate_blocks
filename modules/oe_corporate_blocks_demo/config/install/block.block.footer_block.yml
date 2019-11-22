@@ -10,9 +10,9 @@ theme: bartik
 region: footer_fifth
 weight: 0
 provider: null
-plugin: oe_footer
+plugin: oe_corporate_blocks_ec_footer
 settings:
-  id: oe_footer
+  id: oe_corporate_blocks_ec_footer
   label: 'OpenEuropa Footer block'
   provider: oe_corporate_blocks
   label_display: '0'
