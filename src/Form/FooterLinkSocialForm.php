@@ -5,36 +5,25 @@ declare(strict_types = 1);
 namespace Drupal\oe_corporate_blocks\Form;
 
 use Drupal\Core\Form\FormStateInterface;
+use Drupal\oe_corporate_blocks\Entity\FooterLinkSocial;
 
 /**
- * Form class for the breadcrumb root item configuration entity.
+ * Form class for the Footer Link Social configuration entity.
  */
-class FooterSocialLinkForm extends FooterGeneralLinkForm {
-
-  /**
-   * The list of allowed social networks.
-   *
-   * @var array
-   */
-  protected $allowedSocialNetworks = [
-    'twitter' => 'Twitter',
-    'facebook' => 'Facebook',
-    'instagram' => 'Instagram',
-    'linkedin' => 'Linkedin',
-  ];
+class FooterLinkSocialForm extends FooterLinkGeneralForm {
 
   /**
    * {@inheritdoc}
    */
   public function form(array $form, FormStateInterface $form_state) {
-    /** @var \Drupal\oe_corporate_blocks\Entity\FooterLinkInterface $footer_social_link */
-    $footer_social_link = $this->entity;
+    /** @var \Drupal\oe_corporate_blocks\Entity\FooterLinkInterface $footer_link_social */
+    $footer_link_social = $this->entity;
     $form['social_network'] = [
       '#type' => 'select',
       '#title' => $this->t('Social network'),
-      '#default_value' => $footer_social_link->get('social_network'),
+      '#default_value' => $footer_link_social->get('social_network'),
       '#description' => $this->t('Footer general link label. Accepts tokens.'),
-      '#options' => $this->allowedSocialNetworks,
+      '#options' => FooterLinkSocial::$allowedSocialNetworks,
       '#required' => FALSE,
       '#empty_value' => '',
     ];
@@ -50,22 +39,22 @@ class FooterSocialLinkForm extends FooterGeneralLinkForm {
    * {@inheritdoc}
    */
   public function save(array $form, FormStateInterface $form_state) {
-    $footer_general_link = $this->entity;
-    $status = $footer_general_link->save();
+    $footer_link_general = $this->entity;
+    $status = $footer_link_general->save();
 
     switch ($status) {
       case SAVED_NEW:
         $this->messenger->addStatus($this->t('The "%label" social footer link has been created.', [
-          '%label' => $footer_general_link->label(),
+          '%label' => $footer_link_general->label(),
         ]));
         break;
 
       default:
         $this->messenger->addStatus($this->t('The "%label" social footer link has been updated.', [
-          '%label' => $footer_general_link->label(),
+          '%label' => $footer_link_general->label(),
         ]));
     }
-    $form_state->setRedirectUrl($footer_general_link->toUrl('collection'));
+    $form_state->setRedirectUrl($footer_link_general->toUrl('collection'));
   }
 
 }

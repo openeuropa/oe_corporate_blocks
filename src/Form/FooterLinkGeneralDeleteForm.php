@@ -9,9 +9,9 @@ use Drupal\Core\Form\FormStateInterface;
 use Drupal\Core\Url;
 
 /**
- * Builds the form to delete footer general link entities.
+ * Builds the form to delete Footer Link General entities.
  */
-class FooterGeneralLinkDeleteForm extends EntityConfirmFormBase {
+class FooterLinkGeneralDeleteForm extends EntityConfirmFormBase {
 
   /**
    * {@inheritdoc}
@@ -24,7 +24,7 @@ class FooterGeneralLinkDeleteForm extends EntityConfirmFormBase {
    * {@inheritdoc}
    */
   public function getCancelUrl() {
-    return new Url('entity.footer_general_link.collection');
+    return new Url('entity.footer_link_general.collection');
   }
 
   /**
@@ -40,7 +40,7 @@ class FooterGeneralLinkDeleteForm extends EntityConfirmFormBase {
   public function submitForm(array &$form, FormStateInterface $form_state) {
     $this->entity->delete();
 
-    $this->messenger()->addStatus($this->t('@link_type has been deleted: @label.', [
+    $this->messenger->addStatus($this->t('@link_type has been deleted: @label.', [
       '@link_type' => $this->entity->getEntityType()->getLabel(),
       '@label' => $this->entity->label(),
     ]));
