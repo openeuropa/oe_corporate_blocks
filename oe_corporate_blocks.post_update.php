@@ -45,9 +45,22 @@ function oe_corporate_blocks_post_update_10001(&$sandbox): void {
 }
 
 /**
- * Import new config with translations.
+ * Update existing blocks for EC corporate footer and import new configs.
  */
-function oe_corporate_blocks_post_update_20002(&$sandbox): void {
+function oe_corporate_blocks_post_update_20003(&$sandbox): void {
+  // Replacing plugin for existing footer.
+  $block_storage = \Drupal::entityTypeManager()->getStorage('block');
+  $block_ids = $block_storage->getQuery()->condition('plugin', 'oe_footer')->execute();
+  foreach ($block_ids as $block_id) {
+    /** @var \Drupal\block\Entity\Block $block */
+    $block = $block_storage->load($block_id);
+    $block->set('plugin', 'oe_corporate_blocks_ec_footer');
+    $settings = $block->get('settings');
+    $settings['id'] = 'oe_corporate_blocks_ec_footer';
+    $block->set('settings', $settings);
+    $block->save();
+  }
+
   $config_path = drupal_get_path('module', 'oe_corporate_blocks') . '/config/install';
   $source = new FileStorage($config_path);
   $config_storage = \Drupal::service('config.storage');
