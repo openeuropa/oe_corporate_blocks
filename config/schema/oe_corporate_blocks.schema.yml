@@ -112,6 +112,7 @@ oe_corporate_blocks.footer_link.general.*:
     weight:
       type: integer
       label: 'Weight'
+
 oe_corporate_blocks.footer_link.social.*:
   type: oe_corporate_blocks.footer_link.general.*
   label: 'Social link for custom footer'
