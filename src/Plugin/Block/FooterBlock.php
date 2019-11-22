@@ -93,13 +93,13 @@ class FooterBlock extends BlockBase implements ContainerFactoryPluginInterface {
 
     NestedArray::setValue($build, ['#corporate_footer', 'bottom_links'], $config->get('bottom_links'));
 
-    $general_links = $this->retriveCustomFooterLinks('footer_general_link', $cache);
-    $social_links = $this->retriveCustomFooterLinks('footer_social_link', $cache);
+    $general_links = $this->getCustomFooterLinks('footer_link_general', $cache);
+    $social_links = $this->getCustomFooterLinks('footer_link_social', $cache);
     $site_info_config = $this->configFactory->get('system.site');
     $cache->addCacheableDependency($site_info_config);
     $site_identity = $site_info_config->get('name');
 
-    if (!empty($site_identity) && !empty($social_links) && !empty($general_links)) {
+    if (!empty($site_identity) && (!empty($social_links) || !empty($general_links))) {
       NestedArray::setValue($build, ['#custom_footer', 'site_identity'], $site_identity);
       NestedArray::setValue($build, ['#custom_footer', 'social_links'], $social_links);
       NestedArray::setValue($build, ['#custom_footer', 'other_links'], $general_links);
@@ -121,13 +121,13 @@ class FooterBlock extends BlockBase implements ContainerFactoryPluginInterface {
    * @return array
    *   The array of links.
    */
-  protected function retriveCustomFooterLinks(string $type, CacheableMetadata &$cache): array {
+  protected function getCustomFooterLinks(string $type, CacheableMetadata &$cache): array {
     $links = [];
     /** @var \Drupal\Core\Entity\EntityStorageInterface $links_storage */
     $links_storage = $this->entityTypeManager->getStorage($type);
     $cache->addCacheTags($links_storage->getEntityType()->getListCacheTags());
-    if ($links_storage->getQuery()->count()->execute() > 0) {
-      $link_ids = $links_storage->getQuery()->sort('weight')->execute();
+    $link_ids = $links_storage->getQuery()->sort('weight')->execute();
+    if (count($link_ids) > 0) {
       /** @var \Drupal\oe_corporate_blocks\Entity\FooterLinkInterface $link_entity */
       foreach ($links_storage->loadMultiple($link_ids) as $link_entity) {
         $cache->addCacheableDependency($link_entity);
@@ -137,7 +137,7 @@ class FooterBlock extends BlockBase implements ContainerFactoryPluginInterface {
           'label' => $link_entity->label(),
         ];
 
-        if ($type === 'footer_social_link') {
+        if ($type === 'footer_link_social') {
           $link['social_network'] = $link_entity->getSocialNetwork();
         }
 
