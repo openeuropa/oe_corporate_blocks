@@ -121,6 +121,9 @@ msgstr "/european-union/abouteuropa/legal_notices_et"
 msgid "Cookies"
 msgstr "Küpsised"
 
+msgid "European Commission"
+msgstr "Euroopa Komisjon"
+
 msgid "/european-union/abouteuropa/cookies_en"
 msgstr "/european-union/abouteuropa/cookies_et"
 

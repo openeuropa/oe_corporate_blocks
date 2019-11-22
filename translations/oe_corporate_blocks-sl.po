@@ -121,6 +121,9 @@ msgstr "Piškotki"
 msgid "/european-union/abouteuropa/cookies_en"
 msgstr "/european-union/abouteuropa/cookies_sl"
 
+msgid "European Commission"
+msgstr "Evropska komisija"
+
 msgid "https://ec.europa.eu/info/index_en"
 msgstr "https://ec.europa.eu/info/index_sl"
 
