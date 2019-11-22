@@ -48,6 +48,9 @@ function oe_corporate_blocks_post_update_10001(&$sandbox): void {
  * Update existing blocks for EC corporate footer and import new configs.
  */
 function oe_corporate_blocks_post_update_20002(&$sandbox): void {
+  // Clear cached block definition as we have renamed EC footer base class.
+  \Drupal::service('plugin.manager.block')->clearCachedDefinitions();
+
   // Replacing plugin for existing footer.
   $block_storage = \Drupal::entityTypeManager()->getStorage('block');
   $block_ids = $block_storage->getQuery()->condition('plugin', 'oe_footer')->execute();
