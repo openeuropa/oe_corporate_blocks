@@ -1,4 +1,4 @@
-@api @cf
+@api
 Feature: Custom footer settings.
   In order to be able to expose custom footer content
   As a privileged user
@@ -11,20 +11,20 @@ Feature: Custom footer settings.
     When I am on "the footer links manager page"
     Then I should see the heading "Footer Link General entities"
     When I click "Add Footer Link General"
-    Then I should see the heading "Add Footer Link General"
+    Then I should see the heading "Add footer link general"
     When I fill in "Label" with "00000 European Commission, official website"
     And I fill in "Machine-readable name" with "00000_eurpoean_commission_official_website"
     And I fill in "URL" with "https://ec.europa.eu/info/index_en"
     And I press "Save"
-    Then I should see the heading "Footer general link entities"
+    Then I should see the heading "Footer Link General entities"
 
-    When I click "Add footer general link"
-    Then I should see the heading "Add footer general link"
+    When I click "Add Footer Link General"
+    Then I should see the heading "Add footer link general"
     When I fill in "Label" with "00001 About the European Commission"
     And I fill in "Machine-readable name" with "00001_about_the_european_commission"
     And I fill in "URL" with "https://ec.europa.eu/info/strategy_en"
     And I press "Save"
-    Then I should see the heading "Footer general link entities"
+    Then I should see the heading "Footer Link General entities"
 
     # Make sure that caching work correctly for anonymous user.
     When I log out
@@ -39,10 +39,10 @@ Feature: Custom footer settings.
       | 00001 About the European Commission         | https://ec.europa.eu/info/strategy_en |
 
     # Translate links for French language.
-    When I am logged in as a user with the "access administration pages, administer footer general link, translate configuration" permissions
+    When I am logged in as a user with the "access administration pages, administer footer link general, translate configuration" permissions
     And I am on "the footer links manager page"
     And I click "Translate" in the "00000 European Commission, official website" row
-    Then I should see "Translations for 00000 European Commission, official website footer general link"
+    Then I should see "Translations for 00000 European Commission, official website footer link general"
     When I click "Add" in the "French" row
     And I fill in "Label" with "00000 European Commission, official website FR"
     And I fill in "URL" with "https://ec.europa.eu/info/index_fr"
@@ -78,7 +78,7 @@ Feature: Custom footer settings.
       | 00001 About the European Commission FR         | https://ec.europa.eu/info/strategy_fr |
 
     # Delete the general links.
-    When I am logged in as a user with the "access administration pages, administer footer general link, translate configuration" permissions
+    When I am logged in as a user with the "access administration pages, administer footer link general, translate configuration" permissions
     And I am on "the footer links manager page"
     And I click "Delete" in the "00000 European Commission, official website EN" row
     And I press "Delete"
@@ -98,19 +98,19 @@ Feature: Custom footer settings.
       | 00001 About the European Commission FR         | https://ec.europa.eu/info/strategy_fr |
 
   Scenario: Privileged users can control Social links in Custom footer through Footer links manager page.
-    Given I am logged in as a user with the "access administration pages, administer footer social link" permissions
+    Given I am logged in as a user with the "access administration pages, administer footer link social" permissions
 
     # Add new link for custom footer
     When I am on "the footer social links manager page"
-    Then I should see the heading "Footer social link entities"
-    When I click "Add footer social link"
-    Then I should see the heading "Add footer social link"
+    Then I should see the heading "Footer Link Social entities"
+    When I click "Add Footer Link Social"
+    Then I should see the heading "Add footer link social"
     When I fill in "Label" with "00000 Instagram"
     And I fill in "Machine-readable name" with "00000_instagram"
     And I fill in "URL" with "https://www.instagram.com/europeancommission"
     And I select "Instagram" from "Social network"
     And I press "Save"
-    Then I should see the heading "Footer social link entities"
+    Then I should see the heading "Footer Link Social entities"
 
     # Make sure that caching work correctly for anonymous user.
     When I log out
@@ -123,10 +123,10 @@ Feature: Custom footer settings.
       | 00000 Instagram | https://www.instagram.com/europeancommission |
 
     # Translate links for French language.
-    When I am logged in as a user with the "access administration pages, administer footer social link, translate configuration" permissions
+    When I am logged in as a user with the "access administration pages, administer footer link social, translate configuration" permissions
     And I am on "the footer social links manager page"
     And I click "Translate" in the "00000 Instagram" row
-    Then I should see "Translations for 00000 Instagram footer social link"
+    Then I should see "Translations for 00000 Instagram footer link social"
     When I click "Add" in the "French" row
     And I fill in "Label" with "00000 Instagram FR"
     And I fill in "URL" with "https://www.instagram.com/europeancommission?hl=fr"
@@ -149,7 +149,7 @@ Feature: Custom footer settings.
       | 00000 Instagram FR | https://www.instagram.com/europeancommission?hl=fr |
 
     # Delete the social links.
-    When I am logged in as a user with the "access administration pages, administer footer social link, translate configuration" permissions
+    When I am logged in as a user with the "access administration pages, administer footer link social, translate configuration" permissions
     And I am on "the footer social links manager page"
     And I click "Delete" in the "00000 Instagram EN" row
     And I press "Delete"

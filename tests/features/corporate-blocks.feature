@@ -132,12 +132,6 @@ Feature: Corporate blocks feature
       | Custom Twitter            | https://twitter.com/EU_commission                                           |
       | Custom Other social media | https://europa.eu/european-union/contact/social-networks_en#n:+i:4+e:1+t:+s |
 
-    When I click "français" in the "header"
-    And the region "ec_footer" contains the links:
-      | Custom Contact FR            | https://ec.europa.eu/info/contact_fr                                        |
-      | Custom Legal notice FR       | https://ec.europa.eu/info/legal-notice_fr                                   |
-      | Custom Other social media FR | https://europa.eu/european-union/contact/social-networks_fr#n:+i:4+e:1+t:+s |
-
     Examples:
       | path  |
       | home  |
