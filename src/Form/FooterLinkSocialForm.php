@@ -44,13 +44,13 @@ class FooterLinkSocialForm extends FooterLinkGeneralForm {
 
     switch ($status) {
       case SAVED_NEW:
-        $this->messenger->addStatus($this->t('The "%label" social footer link has been created.', [
+        $this->messenger()->addStatus($this->t('The "%label" social footer link has been created.', [
           '%label' => $footer_link_general->label(),
         ]));
         break;
 
       default:
-        $this->messenger->addStatus($this->t('The "%label" social footer link has been updated.', [
+        $this->messenger()->addStatus($this->t('The "%label" social footer link has been updated.', [
           '%label' => $footer_link_general->label(),
         ]));
     }

@@ -6,33 +6,12 @@ namespace Drupal\oe_corporate_blocks\Form;
 
 use Drupal\Core\Entity\EntityForm;
 use Drupal\Core\Form\FormStateInterface;
-use Drupal\Core\Messenger\MessengerInterface;
 use Drupal\Core\Url;
-use Symfony\Component\DependencyInjection\ContainerInterface;
 
 /**
  * Form class for the Footer Link General configuration entity.
  */
 class FooterLinkGeneralForm extends EntityForm {
-
-  /**
-   * The constructor.
-   *
-   * @param \Drupal\Core\Messenger\MessengerInterface $messenger
-   *   The messenger service.
-   */
-  public function __construct(MessengerInterface $messenger) {
-    $this->messenger = $messenger;
-  }
-
-  /**
-   * {@inheritdoc}
-   */
-  public static function create(ContainerInterface $container) {
-    return new static(
-      $container->get('messenger')
-    );
-  }
 
   /**
    * {@inheritdoc}
@@ -99,13 +78,13 @@ class FooterLinkGeneralForm extends EntityForm {
 
     switch ($status) {
       case SAVED_NEW:
-        $this->messenger->addStatus($this->t('The "%label" general footer link has been created.', [
+        $this->messenger()->addStatus($this->t('The "%label" general footer link has been created.', [
           '%label' => $footer_link_general->label(),
         ]));
         break;
 
       default:
-        $this->messenger->addStatus($this->t('The "%label" general footer link has been updated.', [
+        $this->messenger()->addStatus($this->t('The "%label" general footer link has been updated.', [
           '%label' => $footer_link_general->label(),
         ]));
     }
