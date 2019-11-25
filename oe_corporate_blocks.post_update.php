@@ -45,30 +45,37 @@ function oe_corporate_blocks_post_update_20001(&$sandbox): void {
 }
 
 /**
- * Update existing blocks for EC corporate footer and import new configs.
+ * Remove current footer data.
  */
 function oe_corporate_blocks_post_update_20002(&$sandbox): void {
+  \Drupal::configFactory()
+    ->getEditable('oe_corporate_blocks.data.footer')
+    ->delete();
+}
+
+/**
+ * Import EC and EU footer data, along with their translations.
+ */
+function oe_corporate_blocks_post_update_20003(&$sandbox): void {
   // Clear cached block definition as we have renamed EC footer base class.
   \Drupal::service('plugin.manager.block')->clearCachedDefinitions();
-
-  // Replacing plugin for existing footer.
-  $block_storage = \Drupal::entityTypeManager()->getStorage('block');
-  $block_ids = $block_storage->getQuery()->condition('plugin', 'oe_footer')->execute();
-  foreach ($block_ids as $block_id) {
-    /** @var \Drupal\block\Entity\Block $block */
-    $block = $block_storage->load($block_id);
-    $block->set('plugin', 'oe_corporate_blocks_ec_footer');
-    $settings = $block->get('settings');
-    $settings['id'] = 'oe_corporate_blocks_ec_footer';
-    $block->set('settings', $settings);
-    $block->save();
-  }
 
   $config_path = drupal_get_path('module', 'oe_corporate_blocks') . '/config/install';
   $source = new FileStorage($config_path);
   $config_storage = \Drupal::service('config.storage');
-  $config_storage->write('oe_corporate_blocks.eu_data.footer', $source->read('oe_corporate_blocks.eu_data.footer'));
+  $config_factory = \Drupal::configFactory();
 
+  $configs = [
+    'oe_corporate_blocks.eu_data.footer',
+    'oe_corporate_blocks.ec_data.footer',
+  ];
+
+  foreach ($configs as $config) {
+    $config_storage->write($config, $source->read($config));
+    $config_factory->getEditable($config)->save();
+  }
+
+  // Import translations.
   $langcodes = array_keys(\Drupal::languageManager()->getLanguages());
   Locale::config()->updateConfigTranslations(['oe_corporate_blocks'], $langcodes);
 }
