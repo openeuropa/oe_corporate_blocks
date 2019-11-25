@@ -21,7 +21,7 @@ namespace Drupal\oe_corporate_blocks\Entity;
  *     }
  *   },
  *   config_prefix = "footer_link.social",
- *   admin_permission = "administer footer link social",
+ *   admin_permission = "administer site specific footer links",
  *   entity_keys = {
  *     "id" = "id",
  *     "label" = "label",
@@ -37,10 +37,10 @@ namespace Drupal\oe_corporate_blocks\Entity;
  *     "weight"
  *   },
  *   links = {
- *     "add-form" = "/admin/config/footer-link-social/add",
- *     "edit-form" = "/admin/config/footer-link-social/{footer_link_social}/edit",
- *     "delete-form" = "/admin/config/footer-link-social/{footer_link_social}/delete",
- *     "collection" = "/admin/config/footer-link-social"
+ *     "add-form" = "/admin/config/footer_link_social/add",
+ *     "edit-form" = "/admin/config/footer_link_social/{footer_link_social}/edit",
+ *     "delete-form" = "/admin/config/footer_link_social/{footer_link_social}/delete",
+ *     "collection" = "/admin/config/footer_link_social"
  *   }
  * )
  */

@@ -24,7 +24,7 @@ use Drupal\Core\Url;
  *     }
  *   },
  *   config_prefix = "footer_link.general",
- *   admin_permission = "administer footer link general",
+ *   admin_permission = "administer site specific footer links",
  *   entity_keys = {
  *     "id" = "id",
  *     "label" = "label",
@@ -38,10 +38,10 @@ use Drupal\Core\Url;
  *     "weight"
  *   },
  *   links = {
- *     "add-form" = "/admin/config/footer-link-general/add",
- *     "edit-form" = "/admin/config/footer-link-general/{footer_link_general}/edit",
- *     "delete-form" = "/admin/config/footer-link-general/{footer_link_general}/delete",
- *     "collection" = "/admin/config/footer-link-general"
+ *     "add-form" = "/admin/config/footer_link_general/add",
+ *     "edit-form" = "/admin/config/footer_link_general/{footer_link_general}/edit",
+ *     "delete-form" = "/admin/config/footer_link_general/{footer_link_general}/delete",
+ *     "collection" = "/admin/config/footer_link_general"
  *   }
  * )
  */

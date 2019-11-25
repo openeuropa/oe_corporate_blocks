@@ -94,16 +94,16 @@ class FooterBlock extends BlockBase implements ContainerFactoryPluginInterface {
 
     NestedArray::setValue($build, ['#corporate_footer', 'bottom_links'], $config->get('bottom_links'));
 
-    $general_links = $this->getCustomFooterLinks('footer_link_general', $cache);
-    $social_links = $this->getCustomFooterLinks('footer_link_social', $cache);
+    $general_links = $this->getSiteSpecificFooterLinks('footer_link_general', $cache);
+    $social_links = $this->getSiteSpecificFooterLinks('footer_link_social', $cache);
     $site_info_config = $this->configFactory->get('system.site');
     $cache->addCacheableDependency($site_info_config);
     $site_identity = $site_info_config->get('name');
 
     if (!empty($social_links) || !empty($general_links)) {
-      NestedArray::setValue($build, ['#custom_footer', 'site_identity'], $site_identity);
-      NestedArray::setValue($build, ['#custom_footer', 'social_links'], $social_links);
-      NestedArray::setValue($build, ['#custom_footer', 'other_links'], $general_links);
+      NestedArray::setValue($build, ['#site_specific_footer', 'site_identity'], $site_identity);
+      NestedArray::setValue($build, ['#site_specific_footer', 'social_links'], $social_links);
+      NestedArray::setValue($build, ['#site_specific_footer', 'other_links'], $general_links);
     }
 
     $cache->applyTo($build);
@@ -122,7 +122,7 @@ class FooterBlock extends BlockBase implements ContainerFactoryPluginInterface {
    * @return array
    *   The array of links.
    */
-  protected function getCustomFooterLinks(string $type, CacheableMetadata &$cache): array {
+  protected function getSiteSpecificFooterLinks(string $type, CacheableMetadata &$cache): array {
     $links = [];
     /** @var \Drupal\Core\Entity\EntityStorageInterface $links_storage */
     $links_storage = $this->entityTypeManager->getStorage($type);
