@@ -1,15 +1,143 @@
+msgid ""
+msgstr ""
+
+msgid "Contact the EU"
+msgstr "Kontakt EU"
+
+msgid "Find a social media account"
+msgstr "Find en konto på de sociale medier"
+
+msgid "EU institutions"
+msgstr "Kontakt EU"
+
+msgid "Call us <a href=\"tel:0080067891011\">00 800 6 7 8 9 10 11</a>"
+msgstr "Ring til os på <a href=\"tel:0080067891011\">00 800 6 7 8 9 10 11</a>"
+
+msgid "Use other <a href=\"https://europa.eu/european-union/contact/call-us_en\">telephone options</a>"
+msgstr "Brug andre muligheder for <a href=\"https://europa.eu/european-union/contact/call-us_da\">telefonhenvendelse</a>"
+
+msgid "Write to us via our <a href=\"https://europa.eu/european-union/contact/write-to-us_en\">contact form</a>"
+msgstr "Skriv til os via <a href=\"https://europa.eu/european-union/contact/write-to-us_da\">kontaktformularen</a>"
+
+msgid "Meet us at a <a href=\"https://europa.eu/european-union/contact/meet-us_en\">local EU office</a>"
+msgstr "Mød os på et <a href=\"https://europa.eu/european-union/contact/meet-us_da\">lokalt EU-kontor</a>"
+
+msgid "Search for EU social media channels"
+msgstr "Find EU på de sociale medier"
+
+msgid "https://europa.eu/european-union/contact/social-networks_en"
+msgstr "https://europa.eu/european-union/contact/social-networks_da"
+
+msgid "European Parliament"
+msgstr "Europa-Parlamentet"
+
+msgid "http://www.europarl.europa.eu/portal/"
+msgstr "http://www.europarl.europa.eu/portal/da"
+
+msgid "European Council"
+msgstr "Det Europæiske Råd"
+
+msgid "http://www.consilium.europa.eu/en/european-council/"
+msgstr "http://www.consilium.europa.eu/da/european-council/"
+
+msgid "Council of the European Union"
+msgstr "Rådet for Den Europæiske Union"
+
+msgid "http://www.consilium.europa.eu/en/home/"
+msgstr "http://www.consilium.europa.eu/da/home/"
+
+msgid "Presidency of the Council of the EU"
+msgstr "Formandskabet for EU-Rådet"
 
 msgid "European Commission"
 msgstr "Europa-Kommissionen"
+
+msgid "https://ec.europa.eu/commission/index_en"
+msgstr "https://ec.europa.eu/commission/index_da"
+
+msgid "Court of Justice of the European Union (CJEU)"
+msgstr "Den Europæiske Unions Domstol (EU-Domstolen)"
+
+msgid "http://curia.europa.eu/jcms/jcms/j_6/en/"
+msgstr "http://curia.europa.eu/jcms/jcms/j_6/da/"
+
+msgid "European Central Bank (ECB)"
+msgstr "Den Europæiske Centralbank (ECB)"
+
+msgid "https://www.ecb.europa.eu/home/html/index.en.html"
+msgstr "https://www.ecb.europa.eu/home/languagepolicy/html/index.da.html"
+
+msgid "European Court of Auditors (ECA)"
+msgstr "Den Europæiske Revisionsret"
+
+msgid "http://www.eca.europa.eu/en"
+msgstr "http://www.eca.europa.eu/da"
+
+msgid "European External Action Service (EEAS)"
+msgstr "Tjenesten for EU's Optræden Udadtil (EU-Udenrigstjenesten)"
+
+msgid "https://eeas.europa.eu/headquarters/headquarters-homepage_en"
+msgstr "http://eeas.europa.eu/index_da.htm"
+
+msgid "European Economic and Social Committee (EESC)"
+msgstr "Det Europæiske Økonomiske og Sociale Udvalg (EØSU)"
+
+msgid "http://www.eesc.europa.eu/?i=portal.en.home"
+msgstr "http://www.eesc.europa.eu/?i=portal.da.home"
+
+msgid "European Committee of the Regions (CoR)"
+msgstr "Det Europæiske Regionsudvalg"
+
+msgid "http://cor.europa.eu/en/"
+msgstr "https://cor.europa.eu/da"
+
+msgid "European Investment Bank (EIB)"
+msgstr "Den Europæiske Investeringsbank (EIB)"
+
+msgid "European Data Protection Supervisor (EDPS)"
+msgstr "Den Europæiske Tilsynsførende for Databeskyttelse (EDPS)"
+
+msgid "https://secure.edps.europa.eu/EDPSWEB/edps/EDPS?lang=en"
+msgstr "https://secure.edps.europa.eu/EDPSWEB/edps/EDPS?lang=da"
+
+msgid "Sitemap"
+msgstr "Oversigt"
+
+msgid "/european-union/abouteuropa/sitemap_en"
+msgstr "/european-union/abouteuropa/sitemap_da"
+
+msgid "About this site"
+msgstr "Om dette websted"
+
+msgid "/european-union/abouteuropa_en"
+msgstr "/european-union/abouteuropa_da"
+
+msgid "Language policy"
+msgstr "Sprogpolitik"
+
+msgid "/european-union/abouteuropa/language-policy_en"
+msgstr "/european-union/abouteuropa/language-policy_da"
+
+msgid "Privacy policy"
+msgstr "Databeskyttelsespolitik"
+
+msgid "/european-union/abouteuropa/privacy-policy_en"
+msgstr "/european-union/abouteuropa/privacy-policy_da"
+
+msgid "Legal notice"
+msgstr "Juridisk meddelelse"
+
+msgid "/european-union/abouteuropa/legal_notices_en"
+msgstr "/european-union/abouteuropa/legal_notices_da"
+
+msgid "/european-union/abouteuropa/cookies_en"
+msgstr "/european-union/abouteuropa/cookies_da"
 
 msgid "https://ec.europa.eu/info/index_en"
 msgstr "https://ec.europa.eu/info/index_da"
 
 msgid "European Commission website"
 msgstr "Europa-Kommissionens eget website"
-
-msgid "Policies, information and services"
-msgstr "Politikker, oplysninger og tjenester"
 
 msgid "Follow the European Commission"
 msgstr "Følg Europa-Kommissionen"
@@ -39,16 +167,13 @@ msgid "About the Commission's new web presence"
 msgstr "Om Kommissionens nye website"
 
 msgid "https://ec.europa.eu/info/language-policy_en"
-msgstr "http://ec.europa.eu/info/resources-partners_da"
-
-msgid "Language policy"
-msgstr "Ressourcer for partnere"
-
-msgid "https://ec.europa.eu/info/resources-partners_en"
 msgstr "https://ec.europa.eu/info/language-policy_da"
 
+msgid "https://ec.europa.eu/info/resources-partners_en"
+msgstr "http://ec.europa.eu/info/resources-partners_da"
+
 msgid "Resources for partners"
-msgstr "Sprogpolitik"
+msgstr "Ressourcer for partnere"
 
 msgid "https://ec.europa.eu/info/cookies_en"
 msgstr "https://ec.europa.eu/info/cookies_da"
@@ -56,14 +181,8 @@ msgstr "https://ec.europa.eu/info/cookies_da"
 msgid "https://ec.europa.eu/info/privacy-policy_en"
 msgstr "https://ec.europa.eu/info/privacy-policy_da"
 
-msgid "Privacy policy"
-msgstr "Politik for databeskyttelse"
-
 msgid "https://ec.europa.eu/info/legal-notice_en"
 msgstr "https://ec.europa.eu/info/legal-notice_da"
-
-msgid "Legal notice"
-msgstr "Juridisk meddelelse"
 
 msgid "https://ec.europa.eu/info/contact_en"
 msgstr "https://ec.europa.eu/info/contact_da"
@@ -71,3 +190,5 @@ msgstr "https://ec.europa.eu/info/contact_da"
 msgid "Contact"
 msgstr "Kontakt"
 
+msgid "Policies, information and services"
+msgstr "Politikker, oplysninger og tjenester"

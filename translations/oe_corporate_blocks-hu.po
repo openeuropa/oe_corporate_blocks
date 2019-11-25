@@ -1,15 +1,142 @@
+msgid ""
+msgstr ""
+
+msgid "Contact the EU"
+msgstr "Kapcsolatfelvétel"
+
+msgid "Find a social media account"
+msgstr "Az EU intézményei, szervei és ügynökségei a közösségi oldalakon"
+
+msgid "EU institutions"
+msgstr "Uniós intézmények"
+
+msgid "Call us <a href=\"tel:0080067891011\">00 800 6 7 8 9 10 11</a>"
+msgstr "Hívjon minket! Telefonszámunk <a href=\"tel:0080067891011\">00 800 6 7 8 9 10 11</a>"
+
+msgid "Use other <a href=\"https://europa.eu/european-union/contact/call-us_en\">telephone options</a>"
+msgstr "Válasszon a többi telefonos <a href=\"https://europa.eu/european-union/contact/call-us_hu\">kapcsolatfelvételi lehetőség közül!</a>"
+
+msgid "Write to us via our <a href=\"https://europa.eu/european-union/contact/write-to-us_en\">contact form</a>"
+msgstr "Írjon nekünk <a href=\"https://europa.eu/european-union/contact/write-to-us_hu\">kapcsolatfelvételi űrlapunk</a> kitöltésével!"
+
+msgid "Meet us at a <a href=\"https://europa.eu/european-union/contact/meet-us_en\">local EU office</a>"
+msgstr "Jöjjön el személyesen <a href=\"https://europa.eu/european-union/contact/meet-us_hu\">helyi irodáink</a> valamelyikébe!"
+
+msgid "Search for EU social media channels"
+msgstr "Kövesse az EU közösségi oldalait"
+
+msgid "https://europa.eu/european-union/contact/social-networks_en"
+msgstr "https://europa.eu/european-union/contact/social-networks_hu"
+
+msgid "http://www.europarl.europa.eu/portal/"
+msgstr "http://www.europarl.europa.eu/portal/hu"
+
+msgid "European Council"
+msgstr "Európai Tanács"
+
+msgid "http://www.consilium.europa.eu/en/european-council/"
+msgstr "http://www.consilium.europa.eu/hu/european-council/"
+
+msgid "Council of the European Union"
+msgstr "Az Európai Unió Tanácsa"
+
+msgid "http://www.consilium.europa.eu/en/home/"
+msgstr "http://www.consilium.europa.eu/hu/home/"
+
+msgid "Presidency of the Council of the EU"
+msgstr "Az EU Tanácsának elnöksége"
 
 msgid "European Commission"
 msgstr "Európai Bizottság"
+
+msgid "https://ec.europa.eu/commission/index_en"
+msgstr "https://ec.europa.eu/commission/index_hu"
+
+msgid "Court of Justice of the European Union (CJEU)"
+msgstr "Az Európai Unió Bírósága (EUB)"
+
+msgid "http://curia.europa.eu/jcms/jcms/j_6/en/"
+msgstr "http://curia.europa.eu/jcms/jcms/j_6/hu/"
+
+msgid "European Central Bank (ECB)"
+msgstr "Európai Központi Bank (EKB)"
+
+msgid "https://www.ecb.europa.eu/home/html/index.en.html"
+msgstr "https://www.ecb.europa.eu/home/languagepolicy/html/index.hu.html"
+
+msgid "European Court of Auditors (ECA)"
+msgstr "Európai Számvevőszék"
+
+msgid "http://www.eca.europa.eu/en"
+msgstr "http://www.eca.europa.eu/hu"
+
+msgid "European External Action Service (EEAS)"
+msgstr "Európai Külügyi Szolgálat (EKSZ)"
+
+msgid "https://eeas.europa.eu/headquarters/headquarters-homepage_en"
+msgstr "http://eeas.europa.eu/index_hu.htm"
+
+msgid "http://www.eesc.europa.eu/?i=portal.en.home"
+msgstr "http://www.eesc.europa.eu/?i=portal.hu.home"
+
+msgid "European Committee of the Regions (CoR)"
+msgstr "Régiók Európai Bizottsága"
+
+msgid "http://cor.europa.eu/en/"
+msgstr "http://cor.europa.eu/hu/"
+
+msgid "European Investment Bank (EIB)"
+msgstr "Európai Beruházási Bank (EBB)"
+
+msgid "https://www.eib.org/en/index.htm"
+msgstr ""
+msgid "European Data Protection Supervisor (EDPS)"
+msgstr "Európai adatvédelmi biztos"
+
+msgid "https://secure.edps.europa.eu/EDPSWEB/edps/EDPS?lang=en"
+msgstr "https://secure.edps.europa.eu/EDPSWEB/edps/EDPS?lang=hu"
+
+msgid "Sitemap"
+msgstr "Honlaptérkép"
+
+msgid "/european-union/abouteuropa/sitemap_en"
+msgstr "/european-union/abouteuropa/sitemap_hu"
+
+msgid "About this site"
+msgstr "A honlapról"
+
+msgid "/european-union/abouteuropa_en"
+msgstr "/european-union/abouteuropa_hu"
+
+msgid "Language policy"
+msgstr "Nyelvpolitika"
+
+msgid "/european-union/abouteuropa/language-policy_en"
+msgstr "/european-union/abouteuropa/language-policy_hu"
+
+msgid "Privacy policy"
+msgstr "Adatvédelem"
+
+msgid "/european-union/abouteuropa/privacy-policy_en"
+msgstr "/european-union/abouteuropa/privacy-policy_hu"
+
+msgid "Legal notice"
+msgstr "Jogi nyilatkozat"
+
+msgid "/european-union/abouteuropa/legal_notices_en"
+msgstr "/european-union/abouteuropa/legal_notices_hu"
+
+msgid "Cookies"
+msgstr "Cookie-k"
+
+msgid "/european-union/abouteuropa/cookies_en"
+msgstr "/european-union/abouteuropa/cookies_hu"
 
 msgid "https://ec.europa.eu/info/index_en"
 msgstr "https://ec.europa.eu/info/index_hu"
 
 msgid "European Commission website"
 msgstr "Az Európai Bizottság honlapja"
-
-msgid "Policies, information and services"
-msgstr "Szakpolitikák, információk és szolgálatok"
 
 msgid "Follow the European Commission"
 msgstr "Kövessen bennünket!"
@@ -41,9 +168,6 @@ msgstr "A Bizottság új webes jelenléte"
 msgid "https://ec.europa.eu/info/language-policy_en"
 msgstr "https://ec.europa.eu/info/language-policy_hu"
 
-msgid "Language policy"
-msgstr "Nyelvpolitika"
-
 msgid "https://ec.europa.eu/info/resources-partners_en"
 msgstr "http://ec.europa.eu/info/resources-partners_hu"
 
@@ -53,20 +177,11 @@ msgstr "Erőforrások, segédeszközök"
 msgid "https://ec.europa.eu/info/cookies_en"
 msgstr "https://ec.europa.eu/info/cookies_hu"
 
-msgid "Cookies"
-msgstr "Cookie-k"
-
 msgid "https://ec.europa.eu/info/privacy-policy_en"
 msgstr "https://ec.europa.eu/info/privacy-policy_hu"
 
-msgid "Privacy policy"
-msgstr "Adatvédelmi politika"
-
 msgid "https://ec.europa.eu/info/legal-notice_en"
 msgstr "https://ec.europa.eu/info/legal-notice_hu"
-
-msgid "Legal notice"
-msgstr "Jogi nyilatkozat"
 
 msgid "https://ec.europa.eu/info/contact_en"
 msgstr "https://ec.europa.eu/info/contact_hu"
@@ -74,3 +189,5 @@ msgstr "https://ec.europa.eu/info/contact_hu"
 msgid "Contact"
 msgstr "Kapcsolatfelvétel"
 
+msgid "Policies, information and services"
+msgstr "Szakpolitikák, információk és szolgálatok"

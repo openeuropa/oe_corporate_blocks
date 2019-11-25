@@ -1,0 +1,59 @@
+{#
+/**
+ * @file
+ * Default theme implementation for rendering corporate blocks footer.
+ *
+ * Available variables:
+ * - corporate_footer: Array with structure compatible to ECL ec-components-footer component.
+ *   - contact: EU contact data for corporate footer.
+ *   - social_media: Social media links for corporate footer.
+ *   - institution_links: Data about EU for corporate footer.
+ *   - other_links: Data about EU for corporate footer.
+ *
+ * @ingroup themeable
+ */
+#}
+
+<div class="footer__corporate-top--eu">
+  {% if corporate_footer.contact %}
+    <h3>{{ corporate_footer.contact_title }}</h3>
+    <ul class="footer__list">
+      {% for menu_item in corporate_footer.contact %}
+        <li class="footer__list-item">
+          {{ menu_item }}
+        </li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+  {% if corporate_footer.social_media %}
+    <h3>{{ corporate_footer.social_media_title }}</h3>
+    <ul class="footer__list">
+      {% for menu_item in corporate_footer.social_media %}
+        <li class="footer__list-item">
+          {{ link(menu_item.label, menu_item.href) }}
+        </li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+  {% if corporate_footer.institution_links %}
+    <h3>{{ corporate_footer.institution_links_title }}</h3>
+    <ul class="footer__list">
+      {% for menu_item in corporate_footer.institution_links %}
+        <li class="footer__list-item">
+          {{ link(menu_item.label, menu_item.href) }}
+        </li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+</div>
+<div class="footer__corporate-bottom--eu">
+  {% if corporate_footer.other_links %}
+    <ul class="footer__list">
+      {% for menu_item in corporate_footer.other_links %}
+        <li class="footer__list-item">
+          <a href="{{ menu_item.href }}">{{ menu_item.label }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+</div>

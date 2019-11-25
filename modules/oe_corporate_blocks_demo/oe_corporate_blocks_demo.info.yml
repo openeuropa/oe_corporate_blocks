@@ -5,4 +5,5 @@ type: module
 config_devel:
   install:
   - block.block.footer_block
+  - block.block.eufooterblock
   - block.block.languageswitcher

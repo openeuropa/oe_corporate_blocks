@@ -5,15 +5,15 @@ dependencies:
     - oe_corporate_blocks
   theme:
     - bartik
-id: footer_block
+id: ec_footer_block
 theme: bartik
 region: footer_fifth
 weight: 0
 provider: null
-plugin: oe_footer
+plugin: oe_corporate_blocks_ec_footer
 settings:
-  id: oe_footer
-  label: 'OpenEuropa Footer block'
+  id: oe_corporate_blocks_ec_footer
+  label: 'European Commission demo footer block'
   provider: oe_corporate_blocks
   label_display: '0'
 visibility: {  }

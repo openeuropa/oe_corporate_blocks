@@ -1,15 +1,143 @@
+msgid ""
+msgstr ""
+
+msgid "Contact the EU"
+msgstr "Επικοινωνήστε με την ΕΕ"
+
+msgid "Find a social media account"
+msgstr "Βρείτε έναν λογαριασμό σε κοινωνικό δίκτυο"
+
+msgid "EU institutions"
+msgstr "Θεσμικά όργανα της ΕΕ"
+
+msgid "Call us <a href=\"tel:0080067891011\">00 800 6 7 8 9 10 11</a>"
+msgstr "Τηλεφωνήστε μας στο <a href=\"tel:0080067891011\">00 800 6 7 8 9 10 11</a>"
+
+msgid "Use other <a href=\"https://europa.eu/european-union/contact/call-us_en\">telephone options</a>"
+msgstr "Χρησιμοποιήστε άλλες <a href=\"https://europa.eu/european-union/contact/call-us_el\">τηλεφωνικές επιλογές</a>"
+
+msgid "Write to us via our <a href=\"https://europa.eu/european-union/contact/write-to-us_en\">contact form</a>"
+msgstr "Γράψτε μας μέσω <a href=\"https://europa.eu/european-union/contact/write-to-us_el\">του δελτίου επικοινωνίας</a>"
+
+msgid "Meet us at a <a href=\"https://europa.eu/european-union/contact/meet-us_en\">local EU office</a>"
+msgstr "Συναντήστε μας σε <a href=\"https://europa.eu/european-union/contact/meet-us_el\">τοπικό γραφείο της ΕΕ</a>"
+
+msgid "Search for EU social media channels"
+msgstr "Αναζητήστε τις σελίδες της ΕΕ στα μέσα κοινωνικής δικτύωσης"
+
+msgid "https://europa.eu/european-union/contact/social-networks_en"
+msgstr "https://europa.eu/european-union/contact/social-networks_el"
+
+msgid "European Parliament"
+msgstr "Ευρωπαϊκό Κοινοβούλιο"
+
+msgid "http://www.europarl.europa.eu/portal/"
+msgstr "http://www.europarl.europa.eu/portal/el"
+
+msgid "European Council"
+msgstr "Ευρωπαϊκό Συμβούλιο"
+
+msgid "http://www.consilium.europa.eu/en/european-council/"
+msgstr "http://www.consilium.europa.eu/el/european-council/"
+
+msgid "Council of the European Union"
+msgstr "Συμβούλιο της Ευρωπαϊκής Ένωσης"
+
+msgid "http://www.consilium.europa.eu/en/home/"
+msgstr "http://www.consilium.europa.eu/el/home/"
+
+msgid "Presidency of the Council of the EU"
+msgstr "Προεδρία του Συμβουλίου της ΕΕ"
 
 msgid "European Commission"
 msgstr "Ευρωπαϊκή Επιτροπή"
+
+msgid "https://ec.europa.eu/commission/index_en"
+msgstr "https://ec.europa.eu/commission/index_el"
+
+msgid "Court of Justice of the European Union (CJEU)"
+msgstr "Δικαστήριο της Ευρωπαϊκής Ένωσης (ΔΕΕ)"
+
+msgid "http://curia.europa.eu/jcms/jcms/j_6/en/"
+msgstr "http://curia.europa.eu/jcms/jcms/j_6/el/"
+
+msgid "European Central Bank (ECB)"
+msgstr "Ευρωπαϊκή Κεντρική Τράπεζα (ΕΚΤ)"
+
+msgid "https://www.ecb.europa.eu/home/html/index.en.html"
+msgstr "https://www.ecb.europa.eu/home/languagepolicy/html/index.el.html"
+
+msgid "European Court of Auditors (ECA)"
+msgstr "Ευρωπαϊκό Ελεγκτικό Συνέδριο (ΕΕΣ)"
+
+msgid "http://www.eca.europa.eu/en"
+msgstr "http://www.eca.europa.eu/el"
+
+msgid "European External Action Service (EEAS)"
+msgstr "Ευρωπαϊκή Υπηρεσία Εξωτερικής Δράσης (ΕΥΕΔ)"
+
+msgid "https://eeas.europa.eu/headquarters/headquarters-homepage_en"
+msgstr "http://eeas.europa.eu/index_el.htm"
+
+msgid "European Economic and Social Committee (EESC)"
+msgstr "Ευρωπαϊκή Οικονομική και Κοινωνική Επιτροπή (ΕΟΚΕ)"
+
+msgid "http://www.eesc.europa.eu/?i=portal.en.home"
+msgstr "http://www.eesc.europa.eu/?i=portal.el.home"
+
+msgid "European Committee of the Regions (CoR)"
+msgstr "Ευρωπαϊκή Επιτροπή των Περιφερειών (ΕτΠ)"
+
+msgid "http://cor.europa.eu/en/"
+msgstr "https://cor.europa.eu/el"
+
+msgid "European Investment Bank (EIB)"
+msgstr "Ευρωπαϊκή Τράπεζα Επενδύσεων (ΕΤΕ)"
+
+msgid "European Data Protection Supervisor (EDPS)"
+msgstr "Ευρωπαίος Επόπτης Προστασίας Δεδομένων (ΕΕΠΔ)"
+
+msgid "https://secure.edps.europa.eu/EDPSWEB/edps/EDPS?lang=en"
+msgstr "https://secure.edps.europa.eu/EDPSWEB/edps/EDPS?lang=el"
+
+msgid "Sitemap"
+msgstr "Περιεχόμενα"
+
+msgid "/european-union/abouteuropa/sitemap_en"
+msgstr "/european-union/abouteuropa/sitemap_el"
+
+msgid "About this site"
+msgstr "Γενικά"
+
+msgid "/european-union/abouteuropa_en"
+msgstr "/european-union/abouteuropa_el"
+
+msgid "Language policy"
+msgstr "Γλωσσική πολιτική"
+
+msgid "/european-union/abouteuropa/language-policy_en"
+msgstr "/european-union/abouteuropa/language-policy_el"
+
+msgid "Privacy policy"
+msgstr "Πολιτική απορρήτου"
+
+msgid "/european-union/abouteuropa/privacy-policy_en"
+msgstr "/european-union/abouteuropa/privacy-policy_el"
+
+msgid "Legal notice"
+msgstr "Νομική ανακοίνωση"
+
+msgid "/european-union/abouteuropa/legal_notices_en"
+msgstr "/european-union/abouteuropa/legal_notices_el"
+
+msgid "/european-union/abouteuropa/cookies_en"
+msgstr "/european-union/abouteuropa/cookies_el"
 
 msgid "https://ec.europa.eu/info/index_en"
 msgstr "https://ec.europa.eu/info/index_el"
 
 msgid "European Commission website"
 msgstr "Ιστότοπος της Ευρωπαϊκής Επιτροπής"
-
-msgid "Policies, information and services"
-msgstr "Πολιτικές, πληροφορίες και υπηρεσίες"
 
 msgid "Follow the European Commission"
 msgstr "Ακολουθήστε την Ευρωπαϊκή Επιτροπή"
@@ -39,16 +167,13 @@ msgid "About the Commission's new web presence"
 msgstr "Σχετικά με τη νέα διαδικτυακή παρουσία της Ευρωπαϊκής Επιτροπής"
 
 msgid "https://ec.europa.eu/info/language-policy_en"
-msgstr "http://ec.europa.eu/info/resources-partners_el"
-
-msgid "Language policy"
-msgstr "Πόροι για εταίρους"
-
-msgid "https://ec.europa.eu/info/resources-partners_en"
 msgstr "https://ec.europa.eu/info/language-policy_el"
 
+msgid "https://ec.europa.eu/info/resources-partners_en"
+msgstr "http://ec.europa.eu/info/resources-partners_el"
+
 msgid "Resources for partners"
-msgstr "Γλωσσική πολιτική"
+msgstr "Πόροι για εταίρους"
 
 msgid "https://ec.europa.eu/info/cookies_en"
 msgstr "https://ec.europa.eu/info/cookies_el"
@@ -56,16 +181,8 @@ msgstr "https://ec.europa.eu/info/cookies_el"
 msgid "https://ec.europa.eu/info/privacy-policy_en"
 msgstr "https://ec.europa.eu/info/privacy-policy_el"
 
-msgid "Privacy policy"
-msgstr ""
-"Πολιτική προστασίας της ιδιωτικής "
-"ζωής"
-
 msgid "https://ec.europa.eu/info/legal-notice_en"
 msgstr "https://ec.europa.eu/info/legal-notice_el"
-
-msgid "Legal notice"
-msgstr "Ανακοίνωση νομικού περιεχομένου"
 
 msgid "https://ec.europa.eu/info/contact_en"
 msgstr "https://ec.europa.eu/info/contact_el"
@@ -73,3 +190,5 @@ msgstr "https://ec.europa.eu/info/contact_el"
 msgid "Contact"
 msgstr "Επικοινωνία"
 
+msgid "Policies, information and services"
+msgstr "Πολιτικές, πληροφορίες και υπηρεσίες"

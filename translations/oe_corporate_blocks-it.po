@@ -1,15 +1,143 @@
+msgid ""
+msgstr ""
+
+msgid "Contact the EU"
+msgstr "Contatta l'UE"
+
+msgid "Find a social media account"
+msgstr "Trova un account sui social media"
+
+msgid "EU institutions"
+msgstr "Istituzioni dell’UE"
+
+msgid "Call us <a href=\"tel:0080067891011\">00 800 6 7 8 9 10 11</a>"
+msgstr "Telefonaci allo <a href=\"tel:0080067891011\">00 800 6 7 8 9 10 11</a>"
+
+msgid "Use other <a href=\"https://europa.eu/european-union/contact/call-us_en\">telephone options</a>"
+msgstr "Scegli altre <a href=\"https://europa.eu/european-union/contact/call-us_it\">opzioni telefoniche</a>"
+
+msgid "Write to us via our <a href=\"https://europa.eu/european-union/contact/write-to-us_en\">contact form</a>"
+msgstr "Scrivici - compila il <a href=\"https://europa.eu/european-union/contact/write-to-us_it\">modulo di contatto</a>"
+
+msgid "Meet us at a <a href=\"https://europa.eu/european-union/contact/meet-us_en\">local EU office</a>"
+msgstr "Vieni a trovarci nell'<a href=\"https://europa.eu/european-union/contact/meet-us_it\">ufficio dell'UE</a> più vicino"
+
+msgid "Search for EU social media channels"
+msgstr "Cerca i canali dell'UE sui social media"
+
+msgid "https://europa.eu/european-union/contact/social-networks_en"
+msgstr "https://europa.eu/european-union/contact/social-networks_it"
+
+msgid "European Parliament"
+msgstr "Parlamento europeo"
+
+msgid "http://www.europarl.europa.eu/portal/"
+msgstr "http://www.europarl.europa.eu/portal/it"
+
+msgid "European Council"
+msgstr "Consiglio europeo"
+
+msgid "http://www.consilium.europa.eu/en/european-council/"
+msgstr "http://www.consilium.europa.eu/it/european-council/"
+
+msgid "http://www.consilium.europa.eu/en/home/"
+msgstr "http://www.consilium.europa.eu/it/home/"
+
+msgid "Presidency of the Council of the EU"
+msgstr "Presidenza del Consiglio dell'UE"
 
 msgid "European Commission"
 msgstr "Commissione europea"
+
+msgid "https://ec.europa.eu/commission/index_en"
+msgstr "https://ec.europa.eu/commission/index_it"
+
+msgid "Court of Justice of the European Union (CJEU)"
+msgstr "Corte di giustizia dell'Unione europea (CGUE)"
+
+msgid "http://curia.europa.eu/jcms/jcms/j_6/en/"
+msgstr "http://curia.europa.eu/jcms/jcms/j_6/it/"
+
+msgid "European Central Bank (ECB)"
+msgstr "Banca centrale europea (BCE)"
+
+msgid "https://www.ecb.europa.eu/home/html/index.en.html"
+msgstr "https://www.ecb.europa.eu/home/languagepolicy/html/index.it.html"
+
+msgid "European Court of Auditors (ECA)"
+msgstr "Corte dei conti europea"
+
+msgid "http://www.eca.europa.eu/en"
+msgstr "http://www.eca.europa.eu/it"
+
+msgid "European External Action Service (EEAS)"
+msgstr "Servizio europeo per l’azione esterna (SEAE)"
+
+msgid "https://eeas.europa.eu/headquarters/headquarters-homepage_en"
+msgstr "http://eeas.europa.eu/index_it.htm"
+
+msgid "European Economic and Social Committee (EESC)"
+msgstr "Comitato economico e sociale europeo (CESE)"
+
+msgid "http://www.eesc.europa.eu/?i=portal.en.home"
+msgstr "http://www.eesc.europa.eu/?i=portal.it.home"
+
+msgid "European Committee of the Regions (CoR)"
+msgstr "Comitato europeo delle regioni (CdR)"
+
+msgid "http://cor.europa.eu/en/"
+msgstr "http://cor.europa.eu/it/"
+
+msgid "European Investment Bank (EIB)"
+msgstr "Banca europea per gli investimenti (BEI)"
+
+msgid "European Data Protection Supervisor (EDPS)"
+msgstr "Garante europeo della protezione dei dati (GEPD)"
+
+msgid "https://secure.edps.europa.eu/EDPSWEB/edps/EDPS?lang=en"
+msgstr "https://secure.edps.europa.eu/EDPSWEB/edps/EDPS?lang=it"
+
+msgid "Sitemap"
+msgstr "Mappa del sito"
+
+msgid "/european-union/abouteuropa/sitemap_en"
+msgstr "/european-union/abouteuropa/sitemap_it"
+
+msgid "About this site"
+msgstr "Informazioni sul sito"
+
+msgid "/european-union/abouteuropa_en"
+msgstr "/european-union/abouteuropa_it"
+
+msgid "Language policy"
+msgstr "Politica linguistica"
+
+msgid "/european-union/abouteuropa/language-policy_en"
+msgstr "/european-union/abouteuropa/language-policy_it"
+
+msgid "Privacy policy"
+msgstr "Politica in materia di privacy"
+
+msgid "/european-union/abouteuropa/privacy-policy_en"
+msgstr "/european-union/abouteuropa/privacy-policy_it"
+
+msgid "Legal notice"
+msgstr "Note legali"
+
+msgid "/european-union/abouteuropa/legal_notices_en"
+msgstr "/european-union/abouteuropa/legal_notices_it"
+
+msgid "Cookies"
+msgstr "Cookie"
+
+msgid "/european-union/abouteuropa/cookies_en"
+msgstr "/european-union/abouteuropa/cookies_it"
 
 msgid "https://ec.europa.eu/info/index_en"
 msgstr "https://ec.europa.eu/info/index_it"
 
 msgid "European Commission website"
 msgstr "Sito web della Commissione europea"
-
-msgid "Policies, information and services"
-msgstr "Politiche, informazioni e servizi"
 
 msgid "Follow the European Commission"
 msgstr "Segui la Commissione europea"
@@ -41,9 +169,6 @@ msgstr "La nuova presenza online della Commissione"
 msgid "https://ec.europa.eu/info/language-policy_en"
 msgstr "https://ec.europa.eu/info/language-policy_it"
 
-msgid "Language policy"
-msgstr "Politica linguistica"
-
 msgid "https://ec.europa.eu/info/resources-partners_en"
 msgstr "http://ec.europa.eu/info/resources-partners_it"
 
@@ -56,14 +181,8 @@ msgstr "https://ec.europa.eu/info/cookies_it"
 msgid "https://ec.europa.eu/info/privacy-policy_en"
 msgstr "https://ec.europa.eu/info/privacy-policy_it"
 
-msgid "Privacy policy"
-msgstr "Politica in materia di privacy"
-
 msgid "https://ec.europa.eu/info/legal-notice_en"
 msgstr "https://ec.europa.eu/info/legal-notice_it"
-
-msgid "Legal notice"
-msgstr "Note legali"
 
 msgid "https://ec.europa.eu/info/contact_en"
 msgstr "https://ec.europa.eu/info/contact_it"
@@ -71,3 +190,5 @@ msgstr "https://ec.europa.eu/info/contact_it"
 msgid "Contact"
 msgstr "Contatti"
 
+msgid "Policies, information and services"
+msgstr "Politiche, informazioni e servizi"

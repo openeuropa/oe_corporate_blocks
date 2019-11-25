@@ -1,15 +1,140 @@
+msgid ""
+msgstr ""
+
+msgid "Contact the EU"
+msgstr "Jak kontaktovat EU"
+
+msgid "Find a social media account"
+msgstr "Vyhledat účet na sociálních médiích"
+
+msgid "EU institutions"
+msgstr "Orgány EU"
+
+msgid "Call us <a href=\"tel:0080067891011\">00 800 6 7 8 9 10 11</a>"
+msgstr "Zavolejte nám na linku <a href=\"tel:0080067891011\">00 800 6 7 8 9 10 11</a>"
+
+msgid "Use other <a href=\"https://europa.eu/european-union/contact/call-us_en\">telephone options</a>"
+msgstr "Kontaktujte nás na <a href=\"https://europa.eu/european-union/contact/call-us_cs\">jiném čísle</a>"
+
+msgid "Write to us via our <a href=\"https://europa.eu/european-union/contact/write-to-us_en\">contact form</a>"
+msgstr "Napište nám pomocí <a href=\"https://europa.eu/european-union/contact/write-to-us_cs\">kontaktního formuláře</a>"
+
+msgid "Meet us at a <a href=\"https://europa.eu/european-union/contact/meet-us_en\">local EU office</a>"
+msgstr "Přijďte osobně do <a href=\"https://europa.eu/european-union/contact/meet-us_cs\">nejbližší kanceláře EU</a>"
+
+msgid "Search for EU social media channels"
+msgstr "Vyhledávání informačních kanálů EU v sociálních médiích"
+
+msgid "https://europa.eu/european-union/contact/social-networks_en"
+msgstr "https://europa.eu/european-union/contact/social-networks_cs"
+
+msgid "European Parliament"
+msgstr "Evropský parlament"
+
+msgid "http://www.europarl.europa.eu/portal/"
+msgstr "http://www.europarl.europa.eu/portal/cs"
+
+msgid "European Council"
+msgstr "Evropská rada"
+
+msgid "http://www.consilium.europa.eu/en/european-council/"
+msgstr "http://www.consilium.europa.eu/cs/european-council/"
+
+msgid "Council of the European Union"
+msgstr "Rada Evropské unie"
+
+msgid "http://www.consilium.europa.eu/en/home/"
+msgstr "http://www.consilium.europa.eu/cs/home/"
+
+msgid "Presidency of the Council of the EU"
+msgstr "Předsednictví Rady EU"
 
 msgid "European Commission"
 msgstr "Evropská komise"
+
+msgid "https://ec.europa.eu/commission/index_en"
+msgstr "https://ec.europa.eu/info/index_cs"
+
+msgid "Court of Justice of the European Union (CJEU)"
+msgstr "Soudní dvůr Evropské unie"
+
+msgid "http://curia.europa.eu/jcms/jcms/j_6/en/"
+msgstr "http://curia.europa.eu/jcms/jcms/j_6/cs/"
+
+msgid "European Central Bank (ECB)"
+msgstr "Evropská centrální banka (ECB)"
+
+msgid "https://www.ecb.europa.eu/home/html/index.en.html"
+msgstr "https://www.ecb.europa.eu/home/languagepolicy/html/index.cs.html"
+
+msgid "European Court of Auditors (ECA)"
+msgstr "Evropský účetní dvůr (EÚD)"
+
+msgid "http://www.eca.europa.eu/en"
+msgstr "http://www.eca.europa.eu/cs"
+
+msgid "European External Action Service (EEAS)"
+msgstr "Evropská služba pro vnější činnost (ESVČ)"
+
+msgid "European Economic and Social Committee (EESC)"
+msgstr "Evropský hospodářský a sociální výbor (EHSV)"
+
+msgid "http://www.eesc.europa.eu/?i=portal.en.home"
+msgstr "http://www.eesc.europa.eu/?i=portal.cs.home"
+
+msgid "European Committee of the Regions (CoR)"
+msgstr "Evropský výbor regionů"
+
+msgid "http://cor.europa.eu/en/"
+msgstr "https://cor.europa.eu/cs"
+
+msgid "European Investment Bank (EIB)"
+msgstr "Evropská investiční banka (EIB)"
+
+msgid "European Data Protection Supervisor (EDPS)"
+msgstr "Evropský inspektor ochrany údajů"
+
+msgid "https://secure.edps.europa.eu/EDPSWEB/edps/EDPS?lang=en"
+msgstr "https://secure.edps.europa.eu/EDPSWEB/edps/EDPS?lang=cs"
+
+msgid "Sitemap"
+msgstr "Mapa stránek"
+
+msgid "/european-union/abouteuropa/sitemap_en"
+msgstr "/european-union/abouteuropa/sitemap_cs"
+
+msgid "About this site"
+msgstr "O těchto stránkách"
+
+msgid "/european-union/abouteuropa_en"
+msgstr "/european-union/abouteuropa_cs"
+
+msgid "Language policy"
+msgstr "Jazyková politika"
+
+msgid "/european-union/abouteuropa/language-policy_en"
+msgstr "/european-union/abouteuropa/language-policy_cs"
+
+msgid "Privacy policy"
+msgstr "Politika ochrany soukromí"
+
+msgid "/european-union/abouteuropa/privacy-policy_en"
+msgstr "/european-union/abouteuropa/privacy-policy_cs"
+
+msgid "Legal notice"
+msgstr "Právní upozornění"
+
+msgid "/european-union/abouteuropa/legal_notices_en"
+msgstr "/european-union/abouteuropa/legal_notices_cs"
+
+msgid "/european-union/abouteuropa/cookies_en"
+msgstr "/european-union/abouteuropa/cookies_cs"
 
 msgid "https://ec.europa.eu/info/index_en"
 msgstr "https://ec.europa.eu/info/index_cs"
 
 msgid "European Commission website"
 msgstr "Internetové stránky Evropské komise"
-
-msgid "Policies, information and services"
-msgstr "Oblasti politiky, informace a služby"
 
 msgid "Follow the European Commission"
 msgstr "Sledujte Evropskou komisi"
@@ -41,9 +166,6 @@ msgstr "Ostatní sociální sítě"
 msgid "https://ec.europa.eu/info/language-policy_en"
 msgstr "https://ec.europa.eu/info/language-policy_cs"
 
-msgid "Language policy"
-msgstr "Jazyková politika"
-
 msgid "https://ec.europa.eu/info/resources-partners_en"
 msgstr "http://ec.europa.eu/info/resources-partners_cs"
 
@@ -56,14 +178,8 @@ msgstr "https://ec.europa.eu/info/cookies_cs"
 msgid "https://ec.europa.eu/info/privacy-policy_en"
 msgstr "https://ec.europa.eu/info/privacy-policy_cs"
 
-msgid "Privacy policy"
-msgstr "Ochrana osobních údajů"
-
 msgid "https://ec.europa.eu/info/legal-notice_en"
 msgstr "https://ec.europa.eu/info/legal-notice_cs"
-
-msgid "Legal notice"
-msgstr "Právní upozornění"
 
 msgid "https://ec.europa.eu/info/contact_en"
 msgstr "https://ec.europa.eu/info/contact_cs"
@@ -71,3 +187,5 @@ msgstr "https://ec.europa.eu/info/contact_cs"
 msgid "Contact"
 msgstr "Kontakt"
 
+msgid "Policies, information and services"
+msgstr "Oblasti politiky, informace a služby"

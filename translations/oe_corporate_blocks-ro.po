@@ -1,15 +1,146 @@
+msgid ""
+msgstr ""
+
+msgid "Contact the EU"
+msgstr "Contactați UE"
+
+msgid "Find a social media account"
+msgstr "Găsiți un cont pe platformele de comunicare socială"
+
+msgid "EU institutions"
+msgstr "Instituțiile UE"
+
+msgid "Call us <a href=\"tel:0080067891011\">00 800 6 7 8 9 10 11</a>"
+msgstr "Apelați numărul <a href=\"tel:0080067891011\">00 800 6 7 8 9 10 11</a>"
+
+msgid "Use other <a href=\"https://europa.eu/european-union/contact/call-us_en\">telephone options</a>"
+msgstr "Utilizați alte <a href=\"https://europa.eu/european-union/contact/call-us_ro\">opțiuni telefonice</a>"
+
+msgid "Write to us via our <a href=\"https://europa.eu/european-union/contact/write-to-us_en\">contact form</a>"
+msgstr "Scrieți-ne completând <a href=\"https://europa.eu/european-union/contact/write-to-us_ro\">formularul de contact</a>"
+
+msgid "Meet us at a <a href=\"https://europa.eu/european-union/contact/meet-us_en\">local EU office</a>"
+msgstr "Veniți într-un birou <a href=\"https://europa.eu/european-union/contact/meet-us_ro\">local al UE</a>"
+
+msgid "Search for EU social media channels"
+msgstr "Căutați canalele UE pe rețelele sociale"
+
+msgid "https://europa.eu/european-union/contact/social-networks_en"
+msgstr "https://europa.eu/european-union/contact/social-networks_ro"
+
+msgid "European Parliament"
+msgstr "Parlamentul European"
+
+msgid "http://www.europarl.europa.eu/portal/"
+msgstr "http://www.europarl.europa.eu/portal/ro"
+
+msgid "European Council"
+msgstr "Consiliul European"
+
+msgid "http://www.consilium.europa.eu/en/european-council/"
+msgstr "http://www.consilium.europa.eu/ro/european-council/"
+
+msgid "Council of the European Union"
+msgstr "Consiliul Uniunii Europene"
+
+msgid "http://www.consilium.europa.eu/en/home/"
+msgstr "http://www.consilium.europa.eu/ro/home/"
+
+msgid "https://www.romania2019.eu/home/"
+msgstr "https://www.romania2019.eu/"
 
 msgid "European Commission"
 msgstr "Comisia Europeană"
+
+msgid "https://ec.europa.eu/commission/index_en"
+msgstr "http://ec.europa.eu/index_ro.htm"
+
+msgid "Court of Justice of the European Union (CJEU)"
+msgstr "Curtea de Justiție a Uniunii Europene (CJUE)"
+
+msgid "http://curia.europa.eu/jcms/jcms/j_6/en/"
+msgstr "http://curia.europa.eu/jcms/jcms/j_6/ro/"
+
+msgid "European Central Bank (ECB)"
+msgstr "Banca Centrală Europeană (BCE)"
+
+msgid "https://www.ecb.europa.eu/home/html/index.en.html"
+msgstr "https://www.ecb.europa.eu/home/languagepolicy/html/index.ro.html"
+
+msgid "European Court of Auditors (ECA)"
+msgstr "Curtea Europeană de Conturi"
+
+msgid "http://www.eca.europa.eu/en"
+msgstr "http://www.eca.europa.eu/ro"
+
+msgid "European External Action Service (EEAS)"
+msgstr "Serviciul European de Acțiune Externă (SEAE)"
+
+msgid "https://eeas.europa.eu/headquarters/headquarters-homepage_en"
+msgstr "http://eeas.europa.eu/index_ro.htm"
+
+msgid "European Economic and Social Committee (EESC)"
+msgstr "Comitetul Economic și Social European (CESE)"
+
+msgid "http://www.eesc.europa.eu/?i=portal.en.home"
+msgstr "http://www.eesc.europa.eu/?i=portal.ro.home"
+
+msgid "European Committee of the Regions (CoR)"
+msgstr "Comitetul European al Regiunilor (CoR)"
+
+msgid "http://cor.europa.eu/en/"
+msgstr "http://cor.europa.eu/ro/"
+
+msgid "European Investment Bank (EIB)"
+msgstr "Banca Europeană de Investiții (BEI)"
+
+msgid "European Data Protection Supervisor (EDPS)"
+msgstr "Autoritatea Europeană pentru Protecția Datelor (AEPD)"
+
+msgid "https://secure.edps.europa.eu/EDPSWEB/edps/EDPS?lang=en"
+msgstr "https://secure.edps.europa.eu/EDPSWEB/edps/EDPS?lang=ro"
+
+msgid "Sitemap"
+msgstr "Hartă site"
+
+msgid "/european-union/abouteuropa/sitemap_en"
+msgstr "/european-union/abouteuropa/sitemap_ro"
+
+msgid "About this site"
+msgstr "Despre site"
+
+msgid "/european-union/abouteuropa_en"
+msgstr "/european-union/abouteuropa_ro"
+
+msgid "Language policy"
+msgstr "Politica lingvistică"
+
+msgid "/european-union/abouteuropa/language-policy_en"
+msgstr "/european-union/abouteuropa/language-policy_ro"
+
+msgid "Privacy policy"
+msgstr "Politica de confidențialitate"
+
+msgid "/european-union/abouteuropa/privacy-policy_en"
+msgstr "/european-union/abouteuropa/privacy-policy_ro"
+
+msgid "Legal notice"
+msgstr "Aviz juridic"
+
+msgid "/european-union/abouteuropa/legal_notices_en"
+msgstr "/european-union/abouteuropa/legal_notices_ro"
+
+msgid "Cookies"
+msgstr "Cookie-urile"
+
+msgid "/european-union/abouteuropa/cookies_en"
+msgstr "/european-union/abouteuropa/cookies_ro"
 
 msgid "https://ec.europa.eu/info/index_en"
 msgstr "https://ec.europa.eu/info/index_ro"
 
 msgid "European Commission website"
 msgstr "Site-ul Comisiei Europene"
-
-msgid "Policies, information and services"
-msgstr "Informații și domenii de interes"
 
 msgid "Follow the European Commission"
 msgstr "Urmăriți Comisia Europeană"
@@ -41,9 +172,6 @@ msgstr "Despre noul portal al Comisiei"
 msgid "https://ec.europa.eu/info/language-policy_en"
 msgstr "https://ec.europa.eu/info/language-policy_ro"
 
-msgid "Language policy"
-msgstr "Politica lingvistică"
-
 msgid "https://ec.europa.eu/info/resources-partners_en"
 msgstr "http://ec.europa.eu/info/resources-partners_ro"
 
@@ -53,21 +181,14 @@ msgstr "Resurse pentru parteneri"
 msgid "https://ec.europa.eu/info/cookies_en"
 msgstr "https://ec.europa.eu/info/cookies_ro"
 
-msgid "Cookies"
-msgstr "Cookie-urile"
-
 msgid "https://ec.europa.eu/info/privacy-policy_en"
 msgstr "https://ec.europa.eu/info/privacy-policy_ro"
-
-msgid "Privacy policy"
-msgstr "Politica de confidențialitate"
 
 msgid "https://ec.europa.eu/info/legal-notice_en"
 msgstr "https://ec.europa.eu/info/legal-notice_ro"
 
-msgid "Legal notice"
-msgstr "Aviz juridic"
-
 msgid "https://ec.europa.eu/info/contact_en"
 msgstr "https://ec.europa.eu/info/contact_ro"
 
+msgid "Policies, information and services"
+msgstr "Informații și domenii de interes"
