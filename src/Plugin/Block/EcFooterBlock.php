@@ -26,10 +26,10 @@ class EcFooterBlock extends FooterBlockBase implements ContainerFactoryPluginInt
     $cache = new CacheableMetadata();
     $cache->addCacheContexts(['languages:language_interface']);
 
-    $config = $this->configFactory->get('oe_corporate_blocks.data.footer');
+    $config = $this->configFactory->get('oe_corporate_blocks.ec_data.footer');
     $cache->addCacheableDependency($config);
 
-    $build['#theme'] = 'oe_corporate_blocks_footer';
+    $build['#theme'] = 'oe_corporate_blocks_ec_footer';
 
     NestedArray::setValue($build, ['#corporate_footer', 'about_ec', 'title'], $config->get('about_ec_title'));
     NestedArray::setValue($build, ['#corporate_footer', 'about_ec', 'items'], $config->get('about_ec_links'));
