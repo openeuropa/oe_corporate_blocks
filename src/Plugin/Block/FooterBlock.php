@@ -10,6 +10,7 @@ use Drupal\Core\Cache\CacheableMetadata;
 use Drupal\Core\Config\ConfigFactoryInterface;
 use Drupal\Core\Entity\EntityTypeManagerInterface;
 use Drupal\Core\Plugin\ContainerFactoryPluginInterface;
+use Drupal\oe_corporate_blocks\Entity\FooterLinkSocialInterface;
 use Symfony\Component\DependencyInjection\ContainerInterface;
 
 /**
@@ -99,7 +100,7 @@ class FooterBlock extends BlockBase implements ContainerFactoryPluginInterface {
     $cache->addCacheableDependency($site_info_config);
     $site_identity = $site_info_config->get('name');
 
-    if (!empty($site_identity) && (!empty($social_links) || !empty($general_links))) {
+    if (!empty($social_links) || !empty($general_links)) {
       NestedArray::setValue($build, ['#custom_footer', 'site_identity'], $site_identity);
       NestedArray::setValue($build, ['#custom_footer', 'social_links'], $social_links);
       NestedArray::setValue($build, ['#custom_footer', 'other_links'], $general_links);
@@ -137,7 +138,7 @@ class FooterBlock extends BlockBase implements ContainerFactoryPluginInterface {
           'label' => $link_entity->label(),
         ];
 
-        if ($type === 'footer_link_social') {
+        if ($link_entity instanceof FooterLinkSocialInterface) {
           $link['social_network'] = $link_entity->getSocialNetwork();
         }
 

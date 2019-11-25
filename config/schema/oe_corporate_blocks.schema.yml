@@ -103,7 +103,6 @@ oe_corporate_blocks.footer_link.general.*:
     label:
       type: label
       label: 'Label'
-      translatable: true
     url:
       type: string
       label: 'URL'
