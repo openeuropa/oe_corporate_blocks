@@ -11,16 +11,6 @@ use Drupal\Core\Config\FileStorage;
 use Drupal\locale\Locale;
 
 /**
- * Delete the config for Site Switcher.
- */
-function oe_corporate_blocks_post_update_20001(&$sandbox): void {
-  // Delete the config.
-  \Drupal::configFactory()
-    ->getEditable('oe_corporate_blocks.data.site_switcher')
-    ->delete();
-}
-
-/**
  * Only display "European Commission website" link in footer.
  */
 function oe_corporate_blocks_post_update_10001(&$sandbox): void {
@@ -42,6 +32,16 @@ function oe_corporate_blocks_post_update_10001(&$sandbox): void {
   $storage->delete($string);
   $string = $storage->findString(['source' => 'European Commission website']);
   $storage->delete($string);
+}
+
+/**
+ * Delete the config for Site Switcher.
+ */
+function oe_corporate_blocks_post_update_20001(&$sandbox): void {
+  // Delete the config.
+  \Drupal::configFactory()
+    ->getEditable('oe_corporate_blocks.data.site_switcher')
+    ->delete();
 }
 
 /**
