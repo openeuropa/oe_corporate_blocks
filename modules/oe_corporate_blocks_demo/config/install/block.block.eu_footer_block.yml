@@ -5,7 +5,7 @@ dependencies:
     - oe_corporate_blocks
   theme:
     - bartik
-id: eufooterblock
+id: eu_footer_block
 theme: bartik
 region: footer_fifth
 weight: -4
