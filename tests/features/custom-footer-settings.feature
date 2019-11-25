@@ -29,12 +29,12 @@ Feature: Custom footer settings.
     # Make sure that caching work correctly for anonymous user.
     When I log out
     And I am on the homepage
-    Then the region "footer" contains the links:
+    Then the region "ec_footer" contains the links:
       | 00000 European Commission, official website | https://ec.europa.eu/info/index_en    |
       | 00001 About the European Commission         | https://ec.europa.eu/info/strategy_en |
     # We should see the links which is not translated yet.
     And I click "français" in the "header"
-    And the region "footer" contains the links:
+    And the region "ec_footer" contains the links:
       | 00000 European Commission, official website | https://ec.europa.eu/info/index_en    |
       | 00001 About the European Commission         | https://ec.europa.eu/info/strategy_en |
 
@@ -68,12 +68,12 @@ Feature: Custom footer settings.
     # Make sure that caching work correctly for anonymous user.
     And I log out
     And I am on the homepage
-    Then the region "footer" contains the links:
+    Then the region "ec_footer" contains the links:
       | 00000 European Commission, official website EN | https://ec.europa.eu/info/index_en    |
       | 00001 About the European Commission EN         | https://ec.europa.eu/info/strategy_en |
     # We shouldn't see the translated links.
     And I click "français" in the "header"
-    And the region "footer" contains the links:
+    And the region "ec_footer" contains the links:
       | 00000 European Commission, official website FR | https://ec.europa.eu/info/index_fr    |
       | 00001 About the European Commission FR         | https://ec.europa.eu/info/strategy_fr |
 
@@ -88,12 +88,12 @@ Feature: Custom footer settings.
     # Make sure that caching work correctly for anonymous user.
     And I log out
     And I am on the homepage
-    Then the region "footer" does not contain the links:
+    Then the region "ec_footer" does not contain the links:
       | 00000 European Commission, official website EN | https://ec.europa.eu/info/index_en    |
       | 00001 About the European Commission EN         | https://ec.europa.eu/info/strategy_en |
     # We shouldn't see the translated links.
     And I click "français" in the "header"
-    And the region "footer" does not contain the links:
+    And the region "ec_footer" does not contain the links:
       | 00000 European Commission, official website FR | https://ec.europa.eu/info/index_fr    |
       | 00001 About the European Commission FR         | https://ec.europa.eu/info/strategy_fr |
 
@@ -115,11 +115,11 @@ Feature: Custom footer settings.
     # Make sure that caching work correctly for anonymous user.
     When I log out
     And I am on the homepage
-    Then the region "footer" contains the links:
+    Then the region "ec_footer" contains the links:
       | 00000 Instagram | https://www.instagram.com/europeancommission |
     # We should see the links which is not translated yet.
     And I click "français" in the "header"
-    And the region "footer" contains the links:
+    And the region "ec_footer" contains the links:
       | 00000 Instagram | https://www.instagram.com/europeancommission |
 
     # Translate links for French language.
@@ -141,11 +141,11 @@ Feature: Custom footer settings.
     # Make sure that caching work correctly for anonymous user.
     And I log out
     And I am on the homepage
-    Then the region "footer" contains the links:
+    Then the region "ec_footer" contains the links:
       | 00000 Instagram EN | https://www.instagram.com/europeancommission |
     # We shouldn't see the translated links.
     And I click "français" in the "header"
-    And the region "footer" contains the links:
+    And the region "ec_footer" contains the links:
       | 00000 Instagram FR | https://www.instagram.com/europeancommission?hl=fr |
 
     # Delete the social links.
@@ -157,9 +157,9 @@ Feature: Custom footer settings.
     And I log out
     And I am on the homepage
     # Links shouldn't be available.
-    Then the region "footer" does not contain the links:
+    Then the region "ec_footer" does not contain the links:
       | 00000 Instagram EN | https://www.instagram.com/europeancommission |
     # We shouldn't see the translated links.
     And I click "français" in the "header"
-    And the region "footer" does not contain the links:
+    And the region "ec_footer" does not contain the links:
       | 00000 Instagram FR | https://www.instagram.com/europeancommission?hl=fr |
