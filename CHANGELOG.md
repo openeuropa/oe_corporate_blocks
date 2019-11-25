@@ -1,10 +1,18 @@
 # Change Log
 
+## [2.1.0](https://github.com/openeuropa/oe_corporate_blocks/tree/2.1.0) (2019-11-25)
+[Full Changelog](https://github.com/openeuropa/oe_corporate_blocks/compare/2.0.1...2.1.0)
+
+**Merged pull requests:**
+
+- OPENEUROPA-2391: Add EU footer to corporate blocks. [\#34](https://github.com/openeuropa/oe_corporate_blocks/pull/34) ([sergepavle](https://github.com/sergepavle))
+
 ## [2.0.1](https://github.com/openeuropa/oe_corporate_blocks/tree/2.0.1) (2019-11-14)
 [Full Changelog](https://github.com/openeuropa/oe_corporate_blocks/compare/2.0.0...2.0.1)
 
 **Merged pull requests:**
 
+- OPENEUROPA-2481: Update CHANGELOG.md for patch release 2.0.1. [\#37](https://github.com/openeuropa/oe_corporate_blocks/pull/37) ([sergepavle](https://github.com/sergepavle))
 - OPENEUROPA-2481: Add missing post update. [\#36](https://github.com/openeuropa/oe_corporate_blocks/pull/36) ([sergepavle](https://github.com/sergepavle))
 
 ## [2.0.0](https://github.com/openeuropa/oe_corporate_blocks/tree/2.0.0) (2019-11-14)
