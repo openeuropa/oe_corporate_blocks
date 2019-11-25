@@ -167,13 +167,13 @@ msgid "About the Commission's new web presence"
 msgstr "Σχετικά με τη νέα διαδικτυακή παρουσία της Ευρωπαϊκής Επιτροπής"
 
 msgid "https://ec.europa.eu/info/language-policy_en"
-msgstr "http://ec.europa.eu/info/resources-partners_el"
-
-msgid "https://ec.europa.eu/info/resources-partners_en"
 msgstr "https://ec.europa.eu/info/language-policy_el"
 
+msgid "https://ec.europa.eu/info/resources-partners_en"
+msgstr "http://ec.europa.eu/info/resources-partners_el"
+
 msgid "Resources for partners"
-msgstr "Γλωσσική πολιτική"
+msgstr "Πόροι για εταίρους"
 
 msgid "https://ec.europa.eu/info/cookies_en"
 msgstr "https://ec.europa.eu/info/cookies_el"

@@ -94,6 +94,9 @@ msgstr "Europska investicijska banka (EIB)"
 msgid "European Data Protection Supervisor (EDPS)"
 msgstr "Europski nadzornik za zaštitu podataka (EDPS)"
 
+msgid "Court of Justice of the European Union (CJEU)"
+msgstr "Sud Europske unije"
+
 msgid "https://secure.edps.europa.eu/EDPSWEB/edps/EDPS?lang=en"
 msgstr "https://secure.edps.europa.eu/EDPSWEB/edps/EDPS?lang=hr"
 
