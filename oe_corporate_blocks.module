@@ -12,7 +12,7 @@ declare(strict_types = 1);
  */
 function oe_corporate_blocks_theme() {
   return [
-    'oe_corporate_blocks_footer' => [
+    'oe_corporate_blocks_ec_footer' => [
       'variables' => [
         'corporate_footer' => [],
         'custom_footer' => [],
