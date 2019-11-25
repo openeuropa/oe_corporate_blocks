@@ -4,14 +4,29 @@
 
 **Table of contents:**
 
+- [Description](#description)
 - [Installation](#installation)
 - [Development setup](#development-setup)
 - [Contributing](#contributing)
 - [Versioning](#versioning)
 
+## Description
+
+OpenEuropa Corporate Blocks is a Drupal module built to contain European Commission corporate blocks.
+
+This currently contains:
+
+- [The European Commission footer](./src/Plugin/Block/EcFooterBlock.php): ships with a set of links and references that
+  must be present on all European Commission sites. 
+- [The European Union footer](./src/Plugin/Block/EuFooterBlock.php): ships with a set of links and references that must
+  be present on all European Union sites. 
+ 
+Both footer blocks will received the proper styling when used in conjunction with the
+[OpenEuropa Theme](https://github.com/openeuropa/oe_theme/) component, version 2.x.
+
 ## Installation
 
-The recommended way of installing the OpenEuropa Corporate Blocks module is via [Composer][1].
+The recommended way of installing the OpenEuropa Corporate Blocks module is via [Composer](https://getcomposer.org/doc/00-intro.md#installation-linux-unix-osx).
 
 ```bash
 composer require openeuropa/oe_corporate_blocks
