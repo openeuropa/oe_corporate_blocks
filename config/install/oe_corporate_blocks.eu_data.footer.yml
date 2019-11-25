@@ -1,13 +1,16 @@
 langcode: en
+contact_title: 'Contact the EU'
 contact:
   - 'Call us <a href="tel:0080067891011">00 800 6 7 8 9 10 11</a>'
   - 'Use other <a href="https://europa.eu/european-union/contact/call-us_en">telephone options</a>'
   - 'Write to us via our <a href="https://europa.eu/european-union/contact/write-to-us_en">contact form</a>'
   - 'Meet us at a <a href="https://europa.eu/european-union/contact/meet-us_en">local EU office</a>'
+social_media_title: 'Find a social media account'
 social_media:
   -
     label: 'Search for EU social media channels'
     href: 'https://europa.eu/european-union/contact/social-networks_en'
+institution_links_title: 'EU institutions'
 institution_links:
   -
     label: 'European Parliament'

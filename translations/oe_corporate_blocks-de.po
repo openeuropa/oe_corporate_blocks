@@ -1,6 +1,15 @@
 msgid ""
 msgstr ""
 
+msgid "Contact the EU"
+msgstr "Kontakt"
+
+msgid "Find a social media account"
+msgstr "Die EU in den sozialen Medien"
+
+msgid "EU institutions"
+msgstr "EU-Institutionen"
+
 msgid "Call us <a href=\"tel:0080067891011\">00 800 6 7 8 9 10 11</a>"
 msgstr "Rufen Sie uns an unter <a href=\"tel:0080067891011\">00 800 6 7 8 9 10 11</a>"
 

@@ -1,6 +1,15 @@
 msgid ""
 msgstr ""
 
+msgid "Contact the EU"
+msgstr "За контакти с ЕС"
+
+msgid "Find a social media account"
+msgstr "Намерете профил в социална медия"
+
+msgid "EU institutions"
+msgstr "Институции на ЕС"
+
 msgid "Call us <a href=\"tel:0080067891011\">00 800 6 7 8 9 10 11</a>"
 msgstr "Обадете ни се на <a href=\"tel:0080067891011\">00 800 6 7 8 9 10 11</a>"
 
@@ -72,6 +81,7 @@ msgstr "Европейска служба за външна дейност (ЕС
 
 msgid "https://eeas.europa.eu/headquarters/headquarters-homepage_en"
 msgstr ""
+
 msgid "European Economic and Social Committee (EESC)"
 msgstr "Европейски икономически и социален комитет (ЕИСК)"
 
@@ -89,6 +99,7 @@ msgstr "Европейска инвестиционна банка (ЕИБ)"
 
 msgid "https://www.eib.org/en/index.htm"
 msgstr ""
+
 msgid "European Data Protection Supervisor (EDPS)"
 msgstr "Европейски надзорен орган по защита на данните (ЕНОЗД)"
 
@@ -168,13 +179,13 @@ msgid "About the Commission's new web presence"
 msgstr "За новото присъствие на Комисията в интернет"
 
 msgid "https://ec.europa.eu/info/language-policy_en"
-msgstr "http://ec.europa.eu/info/resources-partners_bg"
-
-msgid "https://ec.europa.eu/info/resources-partners_en"
 msgstr "https://ec.europa.eu/info/language-policy_bg"
 
+msgid "https://ec.europa.eu/info/resources-partners_en"
+msgstr "http://ec.europa.eu/info/resources-partners_bg"
+
 msgid "Resources for partners"
-msgstr "Езикова политика"
+msgstr "Ресурси за партньори"
 
 msgid "https://ec.europa.eu/info/cookies_en"
 msgstr "https://ec.europa.eu/info/cookies_bg"

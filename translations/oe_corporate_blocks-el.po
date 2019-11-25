@@ -1,6 +1,15 @@
 msgid ""
 msgstr ""
 
+msgid "Contact the EU"
+msgstr "Επικοινωνήστε με την ΕΕ"
+
+msgid "Find a social media account"
+msgstr "Βρείτε έναν λογαριασμό σε κοινωνικό δίκτυο"
+
+msgid "EU institutions"
+msgstr "Θεσμικά όργανα της ΕΕ"
+
 msgid "Call us <a href=\"tel:0080067891011\">00 800 6 7 8 9 10 11</a>"
 msgstr "Τηλεφωνήστε μας στο <a href=\"tel:0080067891011\">00 800 6 7 8 9 10 11</a>"
 

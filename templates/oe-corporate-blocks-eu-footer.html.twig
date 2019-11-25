@@ -16,6 +16,7 @@
 
 <div class="footer__corporate-top--eu">
   {% if corporate_footer.contact %}
+    <h3>{{ corporate_footer.contact_title }}</h3>
     <ul class="footer__list">
       {% for menu_item in corporate_footer.contact %}
         <li class="footer__list-item">
@@ -25,6 +26,7 @@
     </ul>
   {% endif %}
   {% if corporate_footer.social_media %}
+    <h3>{{ corporate_footer.social_media_title }}</h3>
     <ul class="footer__list">
       {% for menu_item in corporate_footer.social_media %}
         <li class="footer__list-item">
@@ -34,6 +36,7 @@
     </ul>
   {% endif %}
   {% if corporate_footer.institution_links %}
+    <h3>{{ corporate_footer.institution_links_title }}</h3>
     <ul class="footer__list">
       {% for menu_item in corporate_footer.institution_links %}
         <li class="footer__list-item">

@@ -1,6 +1,15 @@
 msgid ""
 msgstr ""
 
+msgid "Contact the EU"
+msgstr "Võtke ELiga ühendust"
+
+msgid "Find a social media account"
+msgstr "Leidke sotsiaalmeediakonto"
+
+msgid "EU institutions"
+msgstr "ELi institutsioonid"
+
 msgid "Call us <a href=\"tel:0080067891011\">00 800 6 7 8 9 10 11</a>"
 msgstr "Helistage meile <a href=\"tel:0080067891011\">00 800 6 7 8 9 10 11</a>"
 

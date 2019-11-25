@@ -1,6 +1,15 @@
 msgid ""
 msgstr ""
 
+msgid "Contact the EU"
+msgstr "Déan teagmháil leis an Aontas Eorpach"
+
+msgid "Find a social media account"
+msgstr "Cuntas sna meáin shóisialta a aimsiú"
+
+msgid "EU institutions"
+msgstr "Institiúidí an Aontais Eorpaigh"
+
 msgid "Call us <a href=\"tel:0080067891011\">00 800 6 7 8 9 10 11</a>"
 msgstr "Glaoigh orainn ar <a href=\"tel:0080067891011\">00 800 6 7 8 9 10 11</a>"
 
