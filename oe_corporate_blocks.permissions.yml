@@ -1,6 +1,3 @@
-administer footer link general:
-  title: 'Administer footer link general'
-  restrict access: true
-administer footer link social:
-  title: 'Administer footer link social'
+administer site specific footer links:
+  title: 'Administer site specific footer links'
   restrict access: true

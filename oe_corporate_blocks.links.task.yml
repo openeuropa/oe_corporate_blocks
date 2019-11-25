@@ -1,5 +1,5 @@
 entity.footer_link_general.collection:
-  title: 'Footer general links'
+  title: 'Footer links'
   route_name: entity.footer_link_general.collection
   base_route: entity.footer_link_general.collection
 
@@ -19,7 +19,7 @@ entity.footer_link_general.config_translation_overview:
   parent_id: entity.footer_link_general.edit_form
 
 entity.footer_link_social.collection:
-  title: 'Footer social links'
+  title: 'Social media footer links'
   route_name: entity.footer_link_social.collection
   base_route: entity.footer_link_general.collection
 

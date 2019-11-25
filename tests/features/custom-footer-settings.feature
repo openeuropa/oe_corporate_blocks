@@ -5,12 +5,12 @@ Feature: Custom footer settings.
   I want to be able to access the custom footer management page and update its values
 
   Scenario: Privileged users can control General links in Custom footer through Footer links manager page.
-    Given I am logged in as a user with the "access administration pages, administer footer link general" permissions
+    Given I am logged in as a user with the "access administration pages, administer site specific footer links" permissions
 
     # Add new link for custom footer
     When I am on "the footer links manager page"
     Then I should see the heading "Footer Link General entities"
-    When I click "Add Footer Link General"
+    When I click "Add footer link"
     Then I should see the heading "Add footer link general"
     When I fill in "Label" with "00000 European Commission, official website"
     And I fill in "Machine-readable name" with "00000_eurpoean_commission_official_website"
@@ -18,7 +18,7 @@ Feature: Custom footer settings.
     And I press "Save"
     Then I should see the heading "Footer Link General entities"
 
-    When I click "Add Footer Link General"
+    When I click "Add footer link"
     Then I should see the heading "Add footer link general"
     When I fill in "Label" with "00001 About the European Commission"
     And I fill in "Machine-readable name" with "00001_about_the_european_commission"
@@ -39,7 +39,7 @@ Feature: Custom footer settings.
       | 00001 About the European Commission         | https://ec.europa.eu/info/strategy_en |
 
     # Translate links for French language.
-    When I am logged in as a user with the "access administration pages, administer footer link general, translate configuration" permissions
+    When I am logged in as a user with the "access administration pages, administer site specific footer links, translate configuration" permissions
     And I am on "the footer links manager page"
     And I click "Translate" in the "00000 European Commission, official website" row
     Then I should see "Translations for 00000 European Commission, official website footer link general"
@@ -78,7 +78,7 @@ Feature: Custom footer settings.
       | 00001 About the European Commission FR         | https://ec.europa.eu/info/strategy_fr |
 
     # Delete the general links.
-    When I am logged in as a user with the "access administration pages, administer footer link general, translate configuration" permissions
+    When I am logged in as a user with the "access administration pages, administer site specific footer links, translate configuration" permissions
     And I am on "the footer links manager page"
     And I click "Delete" in the "00000 European Commission, official website EN" row
     And I press "Delete"
@@ -98,12 +98,12 @@ Feature: Custom footer settings.
       | 00001 About the European Commission FR         | https://ec.europa.eu/info/strategy_fr |
 
   Scenario: Privileged users can control Social links in Custom footer through Footer links manager page.
-    Given I am logged in as a user with the "access administration pages, administer footer link social" permissions
+    Given I am logged in as a user with the "access administration pages, administer site specific footer links" permissions
 
     # Add new link for custom footer
     When I am on "the footer social links manager page"
     Then I should see the heading "Footer Link Social entities"
-    When I click "Add Footer Link Social"
+    When I click "Add social media footer link"
     Then I should see the heading "Add footer link social"
     When I fill in "Label" with "00000 Instagram"
     And I fill in "Machine-readable name" with "00000_instagram"
@@ -123,7 +123,7 @@ Feature: Custom footer settings.
       | 00000 Instagram | https://www.instagram.com/europeancommission |
 
     # Translate links for French language.
-    When I am logged in as a user with the "access administration pages, administer footer link social, translate configuration" permissions
+    When I am logged in as a user with the "access administration pages, administer site specific footer links, translate configuration" permissions
     And I am on "the footer social links manager page"
     And I click "Translate" in the "00000 Instagram" row
     Then I should see "Translations for 00000 Instagram footer link social"
@@ -149,7 +149,7 @@ Feature: Custom footer settings.
       | 00000 Instagram FR | https://www.instagram.com/europeancommission?hl=fr |
 
     # Delete the social links.
-    When I am logged in as a user with the "access administration pages, administer footer link social, translate configuration" permissions
+    When I am logged in as a user with the "access administration pages, administer site specific footer links, translate configuration" permissions
     And I am on "the footer social links manager page"
     And I click "Delete" in the "00000 Instagram EN" row
     And I press "Delete"

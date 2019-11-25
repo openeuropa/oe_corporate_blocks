@@ -4,7 +4,7 @@
  * Default theme implementation for rendering corporate blocks footer.
  *
  * Available variables:
- * - custom_footer: Array (optional) with structure of the custom footer compatible with the ECL ec-components-footer component.
+ * - site_specific_footer: Array (optional) with structure of the site specific footer compatible with the ECL ec-components-footer component.
  *   - site_identity: Site identity for custom footer.
  *   - social_links: Social media links for custom footer.
  *   - other_links: Other links for custom footer.
@@ -18,24 +18,24 @@
  */
 #}
 
-{%  if custom_footer is not empty %}
+{%  if site_specific_footer is not empty %}
   <div class="ecl-footer__custom">
-    {%  if custom_footer.site_identity is not empty %}
-      <h2 class="footer__custom-title-identity">{{ custom_footer.site_identity }}</h2>
+    {%  if site_specific_footer.site_identity is not empty %}
+      <h2 class="footer__custom-title-identity">{{ site_specific_footer.site_identity }}</h2>
     {% endif %}
-    {%  if custom_footer.social_links is not empty %}
+    {%  if site_specific_footer.social_links is not empty %}
       <p class="footer__custom-label">{{ 'Follow us:'|t }}</p>
       <ul class="footer__list">
-        {% for social_link in custom_footer.social_links %}
+        {% for social_link in site_specific_footer.social_links %}
           <li class="footer__list-item">
             {{ link(social_link.label, social_link.href, create_attribute({'class': ['menu_item.social_network']})) }}
           </li>
         {% endfor %}
       </ul>
     {% endif %}
-    {%  if custom_footer.other_links is not empty %}
+    {%  if site_specific_footer.other_links is not empty %}
       <ul class="footer__list">
-        {% for menu_item in custom_footer.other_links %}
+        {% for menu_item in site_specific_footer.other_links %}
           <li class="footer__list-item">
             {{ link(menu_item.label, menu_item.href) }}
           </li>

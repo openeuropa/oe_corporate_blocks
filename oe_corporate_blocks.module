@@ -15,7 +15,7 @@ function oe_corporate_blocks_theme() {
     'oe_corporate_blocks_ec_footer' => [
       'variables' => [
         'corporate_footer' => [],
-        'custom_footer' => [],
+        'site_specific_footer' => [],
       ],
     ],
     'oe_corporate_blocks_eu_footer' => [

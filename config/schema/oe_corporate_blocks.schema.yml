@@ -95,7 +95,7 @@ oe_corporate_blocks.eu_data.footer:
 
 oe_corporate_blocks.footer_link.general.*:
   type: config_entity
-  label: 'General link for custom footer'
+  label: 'General link for site specific footer'
   mapping:
     id:
       type: string
@@ -114,7 +114,7 @@ oe_corporate_blocks.footer_link.general.*:
 
 oe_corporate_blocks.footer_link.social.*:
   type: oe_corporate_blocks.footer_link.general.*
-  label: 'Social link for custom footer'
+  label: 'Social link for site specific footer'
   mapping:
     social_network:
       type: string

@@ -1,11 +1,11 @@
 entity.footer_link_general.add_form:
   route_name: entity.footer_link_general.add_form
-  title: 'Add Footer Link General'
+  title: 'Add footer link'
   appears_on:
     - entity.footer_link_general.collection
 
 entity.footer_link_social.add_form:
   route_name: entity.footer_link_social.add_form
-  title: 'Add Footer Link Social'
+  title: 'Add social media footer link'
   appears_on:
     - entity.footer_link_social.collection
