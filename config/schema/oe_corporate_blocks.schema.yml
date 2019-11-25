@@ -1,4 +1,4 @@
-oe_corporate_blocks.data.footer:
+oe_corporate_blocks.ec_data.footer:
   type: config_object
   label: 'Data for EC corporate bocks.'
   mapping:
