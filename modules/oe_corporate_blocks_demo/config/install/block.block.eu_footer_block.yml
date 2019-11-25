@@ -8,12 +8,12 @@ dependencies:
 id: eu_footer_block
 theme: bartik
 region: footer_fifth
-weight: -4
+weight: 1
 provider: null
 plugin: oe_corporate_blocks_eu_footer
 settings:
   id: oe_corporate_blocks_eu_footer
-  label: 'EU Footer block'
+  label: 'European Union demo footer block'
   provider: oe_corporate_blocks
-  label_display: visible
+  label_display: '0'
 visibility: {  }

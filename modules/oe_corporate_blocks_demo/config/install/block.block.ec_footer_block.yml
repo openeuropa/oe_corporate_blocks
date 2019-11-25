@@ -13,7 +13,7 @@ provider: null
 plugin: oe_corporate_blocks_ec_footer
 settings:
   id: oe_corporate_blocks_ec_footer
-  label: 'OpenEuropa Footer block'
+  label: 'European Commission demo footer block'
   provider: oe_corporate_blocks
   label_display: '0'
 visibility: {  }
