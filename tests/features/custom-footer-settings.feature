@@ -1,13 +1,13 @@
 @api
-Feature: Custom footer settings.
-  In order to be able to expose custom footer content
+Feature: Site specific footer links management.
+  In order to be able to manage site specific footer links
   As a privileged user
-  I want to be able to access the custom footer management page and update its values
+  I want to be able to access the site specific footer management page and update its values
 
-  Scenario: Privileged users can control General links in Custom footer through Footer links manager page.
+  Scenario: Privileged users can control General links in Site specific footer through Footer links manager page.
     Given I am logged in as a user with the "access administration pages, administer site specific footer links" permissions
 
-    # Add new link for custom footer
+    # Add new link for site specific footer
     When I am on "the footer links manager page"
     Then I should see the heading "Footer Link General entities"
     When I click "Add footer link"
@@ -97,10 +97,10 @@ Feature: Custom footer settings.
       | 00000 European Commission, official website FR | https://ec.europa.eu/info/index_fr    |
       | 00001 About the European Commission FR         | https://ec.europa.eu/info/strategy_fr |
 
-  Scenario: Privileged users can control Social links in Custom footer through Footer links manager page.
+  Scenario: Privileged users can control Social links in Site specific footer through Footer links manager page.
     Given I am logged in as a user with the "access administration pages, administer site specific footer links" permissions
 
-    # Add new link for custom footer
+    # Add new link for site specific footer
     When I am on "the footer social links manager page"
     Then I should see the heading "Footer Link Social entities"
     When I click "Add social media footer link"

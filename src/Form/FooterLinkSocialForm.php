@@ -30,7 +30,7 @@ class FooterLinkSocialForm extends FooterLinkGeneralForm {
 
     $form = parent::form($form, $form_state);
 
-    $form['id']['#machine_name']['exists'] = '\Drupal\oe_corporate_blocks\Entity\FooterSocialLink::load';
+    $form['id']['#machine_name']['exists'] = '\Drupal\oe_corporate_blocks\Entity\FooterLinkSocial::load';
 
     return $form;
   }

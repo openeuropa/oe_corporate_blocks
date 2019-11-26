@@ -34,7 +34,7 @@ class FooterLinkGeneralForm extends EntityForm {
       '#type' => 'machine_name',
       '#default_value' => $footer_link_general->id(),
       '#machine_name' => [
-        'exists' => '\Drupal\oe_corporate_blocks\Entity\FooterGeneralLink::load',
+        'exists' => '\Drupal\oe_corporate_blocks\Entity\FooterLinkGeneral::load',
       ],
       '#disabled' => !$footer_link_general->isNew(),
     ];
