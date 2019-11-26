@@ -4,7 +4,7 @@ Feature: Site specific footer links management.
   As a privileged user
   I want to be able to access the site specific footer management page and update its values
 
-  Scenario: Privileged users can control General links in Site specific footer through Footer links manager page.
+  Scenario Outline: Privileged users can control General links in Site specific footer through Footer links manager page.
     Given I am logged in as a user with the "access administration pages, administer site specific footer links" permissions
 
     # Add new link for site specific footer
@@ -29,12 +29,12 @@ Feature: Site specific footer links management.
     # Make sure that caching work correctly for anonymous user.
     When I log out
     And I am on the homepage
-    Then the region "ec_footer" contains the links:
+    Then the region "<region>" contains the links:
       | 00000 European Commission, official website | https://ec.europa.eu/info/index_en    |
       | 00001 About the European Commission         | https://ec.europa.eu/info/strategy_en |
     # We should see the links which is not translated yet.
     And I click "français" in the "header"
-    And the region "ec_footer" contains the links:
+    And the region "<region>" contains the links:
       | 00000 European Commission, official website | https://ec.europa.eu/info/index_en    |
       | 00001 About the European Commission         | https://ec.europa.eu/info/strategy_en |
 
@@ -68,12 +68,12 @@ Feature: Site specific footer links management.
     # Make sure that caching work correctly for anonymous user.
     And I log out
     And I am on the homepage
-    Then the region "ec_footer" contains the links:
+    Then the region "<region>" contains the links:
       | 00000 European Commission, official website EN | https://ec.europa.eu/info/index_en    |
       | 00001 About the European Commission EN         | https://ec.europa.eu/info/strategy_en |
     # We shouldn't see the translated links.
     And I click "français" in the "header"
-    And the region "ec_footer" contains the links:
+    And the region "<region>" contains the links:
       | 00000 European Commission, official website FR | https://ec.europa.eu/info/index_fr    |
       | 00001 About the European Commission FR         | https://ec.europa.eu/info/strategy_fr |
 
@@ -88,16 +88,21 @@ Feature: Site specific footer links management.
     # Make sure that caching work correctly for anonymous user.
     And I log out
     And I am on the homepage
-    Then the region "ec_footer" does not contain the links:
+    Then the region "<region>" does not contain the links:
       | 00000 European Commission, official website EN | https://ec.europa.eu/info/index_en    |
       | 00001 About the European Commission EN         | https://ec.europa.eu/info/strategy_en |
     # We shouldn't see the translated links.
     And I click "français" in the "header"
-    And the region "ec_footer" does not contain the links:
+    And the region "<region>" does not contain the links:
       | 00000 European Commission, official website FR | https://ec.europa.eu/info/index_fr    |
       | 00001 About the European Commission FR         | https://ec.europa.eu/info/strategy_fr |
 
-  Scenario: Privileged users can control Social links in Site specific footer through Footer links manager page.
+    Examples:
+      | region    |
+      | ec_footer |
+      | eu_footer |
+
+  Scenario Outline: Privileged users can control Social links in Site specific footer through Footer links manager page.
     Given I am logged in as a user with the "access administration pages, administer site specific footer links" permissions
 
     # Add new link for site specific footer
@@ -115,11 +120,11 @@ Feature: Site specific footer links management.
     # Make sure that caching work correctly for anonymous user.
     When I log out
     And I am on the homepage
-    Then the region "ec_footer" contains the links:
+    Then the region "<region>" contains the links:
       | 00000 Instagram | https://www.instagram.com/europeancommission |
     # We should see the links which is not translated yet.
     And I click "français" in the "header"
-    And the region "ec_footer" contains the links:
+    And the region "<region>" contains the links:
       | 00000 Instagram | https://www.instagram.com/europeancommission |
 
     # Translate links for French language.
@@ -141,11 +146,11 @@ Feature: Site specific footer links management.
     # Make sure that caching work correctly for anonymous user.
     And I log out
     And I am on the homepage
-    Then the region "ec_footer" contains the links:
+    Then the region "<region>" contains the links:
       | 00000 Instagram EN | https://www.instagram.com/europeancommission |
     # We shouldn't see the translated links.
     And I click "français" in the "header"
-    And the region "ec_footer" contains the links:
+    And the region "<region>" contains the links:
       | 00000 Instagram FR | https://www.instagram.com/europeancommission?hl=fr |
 
     # Delete the social links.
@@ -157,9 +162,14 @@ Feature: Site specific footer links management.
     And I log out
     And I am on the homepage
     # Links shouldn't be available.
-    Then the region "ec_footer" does not contain the links:
+    Then the region "<region>" does not contain the links:
       | 00000 Instagram EN | https://www.instagram.com/europeancommission |
     # We shouldn't see the translated links.
     And I click "français" in the "header"
-    And the region "ec_footer" does not contain the links:
+    And the region "<region>" does not contain the links:
       | 00000 Instagram FR | https://www.instagram.com/europeancommission?hl=fr |
+
+    Examples:
+      | region    |
+      | ec_footer |
+      | eu_footer |
