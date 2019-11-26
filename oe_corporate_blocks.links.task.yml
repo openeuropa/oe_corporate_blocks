@@ -13,11 +13,6 @@ entity.footer_link_general.edit_form:
   route_name: entity.footer_link_general.edit_form
   parent_id: entity.footer_link_general.view
 
-entity.footer_link_general.config_translation_overview:
-  title: 'Translate'
-  route_name: entity.footer_link_general.config_translation_overview
-  parent_id: entity.footer_link_general.edit_form
-
 entity.footer_link_social.collection:
   title: 'Social media footer links'
   route_name: entity.footer_link_social.collection
@@ -32,8 +27,3 @@ entity.footer_link_social.edit_form:
   title: 'Edit'
   route_name: entity.footer_link_social.edit_form
   parent_id: entity.footer_link_social.view
-
-entity.footer_link_social.config_translation_overview:
-  title: 'Translate'
-  route_name: entity.footer_link_social.config_translation_overview
-  parent_id: entity.footer_link_social.edit_form
