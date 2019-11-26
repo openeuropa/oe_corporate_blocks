@@ -22,7 +22,6 @@ class FooterLinkSocialForm extends FooterLinkGeneralForm {
       '#type' => 'select',
       '#title' => $this->t('Social network'),
       '#default_value' => $footer_link_social->get('social_network'),
-      '#description' => $this->t('Footer general link label. Accepts tokens.'),
       '#options' => FooterLinkSocial::$allowedSocialNetworks,
       '#required' => FALSE,
       '#empty_value' => '',
