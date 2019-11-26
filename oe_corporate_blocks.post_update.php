@@ -29,9 +29,13 @@ function oe_corporate_blocks_post_update_10001(&$sandbox): void {
   /** @var \Drupal\locale\StringDatabaseStorage $storage */
   $storage = \Drupal::service('locale.storage');
   $string = $storage->findString(['source' => 'https://ec.europa.eu/info/index_en']);
-  $storage->delete($string);
+  if ($string !== NULL) {
+    $storage->delete($string);
+  }
   $string = $storage->findString(['source' => 'European Commission website']);
-  $storage->delete($string);
+  if ($string !== NULL) {
+    $storage->delete($string);
+  }
 }
 
 /**
