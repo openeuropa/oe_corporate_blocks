@@ -1,0 +1,7 @@
+langcode: en
+status: true
+dependencies: {  }
+id: legal_notice
+label: 'Custom Legal notice'
+url: 'https://ec.europa.eu/info/legal-notice_en'
+weight: -10

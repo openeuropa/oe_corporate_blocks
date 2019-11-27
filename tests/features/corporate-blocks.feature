@@ -13,7 +13,7 @@ Feature: Corporate blocks feature
     Then I should see "European Commission" in the "ec_footer" region
     And I should see "Follow the European Commission" in the "ec_footer" region
     And I should see "European Union" in the "ec_footer" region
-    And Links in the "ec_footer" region contains the links:
+    And the region "ec_footer" contains the links:
       | European Commission website             | https://ec.europa.eu/info/index_en                                          |
       | Facebook                                | https://www.facebook.com/EuropeanCommission                                 |
       | Twitter                                 | https://twitter.com/EU_commission                                           |
@@ -32,7 +32,7 @@ Feature: Corporate blocks feature
     Then I should see "Commission européenne" in the "ec_footer" region
     And I should see "Suivre la Commission européenne" in the "ec_footer" region
     And I should see "Union européenne" in the "ec_footer" region
-    And Links in the "ec_footer" region contains the links:
+    And the region "ec_footer" contains the links:
       | Site web de la Commission européenne                         | https://ec.europa.eu/info/index_fr                                          |
       | Facebook                                                     | https://www.facebook.com/EuropeanCommission                                 |
       | Twitter                                                      | https://twitter.com/EU_commission                                           |
@@ -58,7 +58,7 @@ Feature: Corporate blocks feature
       | en        |
       | fr        |
     When I am on "the <path> page"
-    And Links in the "eu_footer" region contains the links:
+    And the region "eu_footer" contains the links:
       | 00 800 6 7 8 9 10 11                          | tel:0080067891011                                            |
       | telephone options                             | https://europa.eu/european-union/contact/call-us_en          |
       | contact form                                  | https://europa.eu/european-union/contact/write-to-us_en      |
@@ -88,7 +88,7 @@ Feature: Corporate blocks feature
       | Cookies                                       | /european-union/abouteuropa/cookies_en                       |
 
     When I click "français" in the "header"
-    And Links in the "eu_footer" region contains the links:
+    And the region "eu_footer" contains the links:
       | 00 800 6 7 8 9 10 11                                   | tel:0080067891011                                                |
       | options téléphoniques                                  | https://europa.eu/european-union/contact/call-us_fr              |
       | formulaire de contact                                  | https://europa.eu/european-union/contact/write-to-us_fr          |
@@ -122,3 +122,17 @@ Feature: Corporate blocks feature
       | home  |
       | login |
 
+
+  Scenario Outline: The custom footer block shows the correct links in different languages
+    Given I am on "the <path> page"
+    And the region "ec_footer" contains the links:
+      | Custom Contact            | https://ec.europa.eu/info/contact_en                                        |
+      | Custom Legal notice       | https://ec.europa.eu/info/legal-notice_en                                   |
+      | Custom Facebook           | https://www.facebook.com/EuropeanCommission                                 |
+      | Custom Twitter            | https://twitter.com/EU_commission                                           |
+      | Custom Other social media | https://europa.eu/european-union/contact/social-networks_en#n:+i:4+e:1+t:+s |
+
+    Examples:
+      | path  |
+      | home  |
+      | login |

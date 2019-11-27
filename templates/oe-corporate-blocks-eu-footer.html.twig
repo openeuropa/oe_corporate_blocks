@@ -13,7 +13,32 @@
  * @ingroup themeable
  */
 #}
-
+{%  if site_specific_footer is not empty %}
+  <div class="ecl-footer__custom">
+    {%  if site_specific_footer.site_identity is not empty %}
+      <h2 class="footer__custom-title-identity">{{ site_specific_footer.site_identity }}</h2>
+    {% endif %}
+    {%  if site_specific_footer.social_links is not empty %}
+      <p class="footer__custom-label">{{ 'Follow us:'|t }}</p>
+      <ul class="footer__list">
+        {% for social_link in site_specific_footer.social_links %}
+          <li class="footer__list-item">
+            {{ link(social_link.label, social_link.href, create_attribute({'class': ['menu_item.social_network']})) }}
+          </li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+    {%  if site_specific_footer.other_links is not empty %}
+      <ul class="footer__list">
+        {% for menu_item in site_specific_footer.other_links %}
+          <li class="footer__list-item">
+            {{ link(menu_item.label, menu_item.href) }}
+          </li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+  </div>
+{% endif %}
 <div class="footer__corporate-top--eu">
   {% if corporate_footer.contact %}
     <h3>{{ corporate_footer.contact_title }}</h3>

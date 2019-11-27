@@ -1,0 +1,8 @@
+langcode: en
+status: true
+dependencies: {  }
+id: facebook
+label: 'Custom Facebook'
+social_network: facebook
+url: 'https://www.facebook.com/EuropeanCommission'
+weight: -10

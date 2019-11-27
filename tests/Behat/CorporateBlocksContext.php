@@ -35,9 +35,9 @@ class CorporateBlocksContext extends RawDrupalContext {
   }
 
   /**
-   * Assertion of links in region.
+   * Asserts that certain links available in a region.
    *
-   * @Then Links in the :region region contains the links:
+   * @Then the region :region contains the links:
    *
    * @throws \Exception
    */
@@ -52,6 +52,25 @@ class CorporateBlocksContext extends RawDrupalContext {
 
       if ($linkObj->getAttribute('href') !== $row[1]) {
         throw new \Exception(sprintf('The link "%s" in the region "%s" have not correct url %s. Should be %s', $row[0], $region, $linkObj->getAttribute('href'), $row[1]));
+      }
+
+    }
+  }
+
+  /**
+   * Asserts that certain links are not available in a region.
+   *
+   * @Then the region :region does not contain the links:
+   *
+   * @throws \Exception
+   */
+  public function assertNoLinksInRegion(string $region, TableNode $links): void {
+    $region_object = $this->getSession()->getPage()->find('region', $region);
+    foreach ($links->getRows() as $row) {
+      $link_object = $region_object->findLink($row[0]);
+
+      if (!empty($link_object) && $link_object->getAttribute('href') === $row[1]) {
+        throw new \Exception(sprintf('The link "%s" was found in the region "%s" on the page %s', $row[0], $region, $this->getSession()->getCurrentUrl()));
       }
 
     }

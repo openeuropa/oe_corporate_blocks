@@ -1,0 +1,3 @@
+administer site specific footer links:
+  title: 'Administer site specific footer links'
+  restrict access: true

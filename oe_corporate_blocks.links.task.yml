@@ -1,0 +1,29 @@
+entity.footer_link_general.collection:
+  title: 'Footer links'
+  route_name: entity.footer_link_general.collection
+  base_route: entity.footer_link_general.collection
+
+entity.footer_link_general.view:
+  title: 'Edit'
+  route_name: entity.footer_link_general.edit_form
+  base_route: entity.footer_link_general.edit_form
+
+entity.footer_link_general.edit_form:
+  title: 'Edit'
+  route_name: entity.footer_link_general.edit_form
+  parent_id: entity.footer_link_general.view
+
+entity.footer_link_social.collection:
+  title: 'Social media footer links'
+  route_name: entity.footer_link_social.collection
+  base_route: entity.footer_link_general.collection
+
+entity.footer_link_social.view:
+  title: 'Edit'
+  route_name: entity.footer_link_social.edit_form
+  base_route: entity.footer_link_social.edit_form
+
+entity.footer_link_social.edit_form:
+  title: 'Edit'
+  route_name: entity.footer_link_social.edit_form
+  parent_id: entity.footer_link_social.view

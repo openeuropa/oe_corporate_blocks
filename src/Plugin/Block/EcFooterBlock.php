@@ -42,6 +42,8 @@ class EcFooterBlock extends FooterBlockBase implements ContainerFactoryPluginInt
 
     NestedArray::setValue($build, ['#corporate_footer', 'bottom_links'], $config->get('bottom_links'));
 
+    $this->setSiteSpecificFooter($build, $cache);
+
     $cache->applyTo($build);
 
     return $build;
