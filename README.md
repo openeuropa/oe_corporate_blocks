@@ -24,6 +24,18 @@ This currently contains:
 Both footer blocks will received the proper styling when used in conjunction with the
 [OpenEuropa Theme](https://github.com/openeuropa/oe_theme/) component, version 2.x.
 
+### Site specific footer links
+
+The OpenEuropa Corporate Blocks also allows site builders to display a set of site specific links in the footer.
+Such links can be of two types:
+
+- Generic links, such as a contact or legal disclaimer link. Generic links can be managed at the following page:
+  `/admin/config/footer_link_general`
+- Social media footer links, such as a link to a Facebook page or a Twitter account. Social media footer links can be
+  managed at the following page: `/admin/config/footer_link_social`
+
+Site specific links can be managed by roles having the `Administer site specific footer links` permission.
+
 ## Installation
 
 The recommended way of installing the OpenEuropa Corporate Blocks module is via [Composer](https://getcomposer.org/doc/00-intro.md#installation-linux-unix-osx).
