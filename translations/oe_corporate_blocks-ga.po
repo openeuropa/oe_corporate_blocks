@@ -46,9 +46,6 @@ msgstr "Comhairle an Aontais Eorpaigh"
 msgid "http://www.consilium.europa.eu/en/home/"
 msgstr "http://www.consilium.europa.eu/ga/home/"
 
-msgid "Presidency of the Council of the EU"
-msgstr "Uachtaránacht Chomhairle an AE"
-
 msgid "European Commission"
 msgstr "An Coimisiún Eorpach"
 

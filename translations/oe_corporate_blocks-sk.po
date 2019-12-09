@@ -46,9 +46,6 @@ msgstr "Rada Európskej únie"
 msgid "http://www.consilium.europa.eu/en/home/"
 msgstr "http://www.consilium.europa.eu/sk/home/"
 
-msgid "Presidency of the Council of the EU"
-msgstr "Predsedníctvo Rady EÚ"
-
 msgid "European Commission"
 msgstr "Európska komisia"
 

@@ -46,9 +46,6 @@ msgstr "Consiliul Uniunii Europene"
 msgid "http://www.consilium.europa.eu/en/home/"
 msgstr "http://www.consilium.europa.eu/ro/home/"
 
-msgid "https://www.romania2019.eu/home/"
-msgstr "https://www.romania2019.eu/"
-
 msgid "European Commission"
 msgstr "Comisia Europeană"
 

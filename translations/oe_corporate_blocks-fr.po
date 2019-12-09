@@ -43,12 +43,6 @@ msgstr "Conseil de l'Union européenne"
 msgid "http://www.consilium.europa.eu/en/home/"
 msgstr "http://www.consilium.europa.eu/fr/home/"
 
-msgid "Presidency of the Council of the EU"
-msgstr "Présidence du Conseil de l'UE"
-
-msgid "https://www.romania2019.eu/home/"
-msgstr "https://www.romania2019.eu/page-daccueil/"
-
 msgid "European Commission"
 msgstr "Commission européenne"
 

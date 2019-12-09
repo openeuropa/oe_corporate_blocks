@@ -46,9 +46,6 @@ msgstr "Europos Sąjungos Taryba"
 msgid "http://www.consilium.europa.eu/en/home/"
 msgstr "http://www.consilium.europa.eu/lt/home/"
 
-msgid "Presidency of the Council of the EU"
-msgstr "Pirmininkavimas ES"
-
 msgid "European Commission"
 msgstr "Europos Komisija"
 
