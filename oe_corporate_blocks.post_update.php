@@ -85,14 +85,16 @@ function oe_corporate_blocks_post_update_20003(&$sandbox): void {
 }
 
 /**
- * Remove 'Presidency of the Council of the EU' inside UE footer.
+ * Remove 'Presidency of the Council of the EU' from EU footer.
  */
 function oe_corporate_blocks_post_update_20004(&$sandbox): void {
   $config = \Drupal::configFactory()->getEditable('oe_corporate_blocks.eu_data.footer');
   $institution_links = $config->get('institution_links');
   foreach ($institution_links as $key => $link) {
-    if ($link['label'] === 'Presidency of the Council of the EU' &&
-      $link['href'] === 'https://www.romania2019.eu/home/') {
+    if (
+      $link['label'] === 'Presidency of the Council of the EU' &&
+      $link['href'] === 'https://www.romania2019.eu/home/'
+    ) {
       unset($institution_links[$key]);
     }
   }
