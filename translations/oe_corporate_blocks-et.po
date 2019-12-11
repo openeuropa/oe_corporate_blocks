@@ -46,9 +46,6 @@ msgstr "Euroopa Liidu Nõukogu"
 msgid "http://www.consilium.europa.eu/en/home/"
 msgstr "http://www.consilium.europa.eu/et/home/"
 
-msgid "Presidency of the Council of the EU"
-msgstr "Euroopa Liidu Nõukogu eesistujariik"
-
 msgid "https://ec.europa.eu/commission/index_en"
 msgstr "https://ec.europa.eu/commission/index_et"
 

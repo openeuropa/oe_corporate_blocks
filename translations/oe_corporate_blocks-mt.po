@@ -46,9 +46,6 @@ msgstr "Il-Kunsill tal-Unjoni Ewropea"
 msgid "http://www.consilium.europa.eu/en/home/"
 msgstr "http://www.consilium.europa.eu/mt/home/"
 
-msgid "Presidency of the Council of the EU"
-msgstr "Presidenza tal-Kunsill tal-UE"
-
 msgid "European Commission"
 msgstr "Il-Kummissjoni Ewropea"
 

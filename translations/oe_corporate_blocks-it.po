@@ -43,9 +43,6 @@ msgstr "http://www.consilium.europa.eu/it/european-council/"
 msgid "http://www.consilium.europa.eu/en/home/"
 msgstr "http://www.consilium.europa.eu/it/home/"
 
-msgid "Presidency of the Council of the EU"
-msgstr "Presidenza del Consiglio dell'UE"
-
 msgid "European Commission"
 msgstr "Commissione europea"
 

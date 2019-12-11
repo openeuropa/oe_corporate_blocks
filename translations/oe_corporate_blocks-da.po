@@ -46,9 +46,6 @@ msgstr "Rådet for Den Europæiske Union"
 msgid "http://www.consilium.europa.eu/en/home/"
 msgstr "http://www.consilium.europa.eu/da/home/"
 
-msgid "Presidency of the Council of the EU"
-msgstr "Formandskabet for EU-Rådet"
-
 msgid "European Commission"
 msgstr "Europa-Kommissionen"
 

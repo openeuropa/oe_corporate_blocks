@@ -46,9 +46,6 @@ msgstr "Eiropas Savienības Padome"
 msgid "http://www.consilium.europa.eu/en/home/"
 msgstr "http://www.consilium.europa.eu/lv/home/"
 
-msgid "Presidency of the Council of the EU"
-msgstr "ES Padomes prezidentūra"
-
 msgid "European Commission"
 msgstr "Eiropas Komisija"
 

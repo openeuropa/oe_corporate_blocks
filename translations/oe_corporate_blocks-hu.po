@@ -43,9 +43,6 @@ msgstr "Az Európai Unió Tanácsa"
 msgid "http://www.consilium.europa.eu/en/home/"
 msgstr "http://www.consilium.europa.eu/hu/home/"
 
-msgid "Presidency of the Council of the EU"
-msgstr "Az EU Tanácsának elnöksége"
-
 msgid "European Commission"
 msgstr "Európai Bizottság"
 

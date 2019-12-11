@@ -69,7 +69,6 @@ Feature: Corporate blocks feature
       | European Parliament                           | http://www.europarl.europa.eu/portal/                        |
       | European Council                              | http://www.consilium.europa.eu/en/european-council/          |
       | Council of the European Union                 | http://www.consilium.europa.eu/en/home/                      |
-      | Presidency of the Council of the EU           | https://www.romania2019.eu/home/                             |
       | European Commission                           | https://ec.europa.eu/commission/index_en                     |
       | Court of Justice of the European Union (CJEU) | http://curia.europa.eu/jcms/jcms/j_6/en/                     |
       | European Central Bank (ECB)                   | https://www.ecb.europa.eu/home/html/index.en.html            |
@@ -86,6 +85,8 @@ Feature: Corporate blocks feature
       | Privacy policy                                | /european-union/abouteuropa/privacy-policy_en                |
       | Legal notice                                  | /european-union/abouteuropa/legal_notices_en                 |
       | Cookies                                       | /european-union/abouteuropa/cookies_en                       |
+    And the region "eu_footer" does not contain the links:
+      | Presidency of the Council of the EU           | https://www.romania2019.eu/home/                             |
 
     When I click "français" in the "header"
     And the region "eu_footer" contains the links:
@@ -99,7 +100,6 @@ Feature: Corporate blocks feature
       | European Parliament                                    | http://www.europarl.europa.eu/portal/fr                          |
       | Conseil européen                                       | http://www.consilium.europa.eu/fr/european-council/              |
       | Conseil de l'Union européenne                          | http://www.consilium.europa.eu/fr/home/                          |
-      | Présidence du Conseil de l'UE                          | https://www.romania2019.eu/page-daccueil/                        |
       | Commission européenne                                  | https://ec.europa.eu/commission/index_fr                         |
       | Cour de justice de l'Union européenne (CJUE)           | http://curia.europa.eu/jcms/jcms/j_6/fr/                         |
       | Banque centrale européenne (BCE)                       | https://www.ecb.europa.eu/home/languagepolicy/html/index.fr.html |
@@ -116,6 +116,8 @@ Feature: Corporate blocks feature
       | Protection de la vie privée                            | /european-union/abouteuropa/privacy-policy_fr                    |
       | Avis juridique                                         | /european-union/abouteuropa/legal_notices_fr                     |
       | Cookies                                                | /european-union/abouteuropa/cookies_fr                           |
+    And the region "eu_footer" does not contain the links:
+      | Présidence du Conseil de l'UE                          | https://www.romania2019.eu/page-daccueil/                        |
 
     Examples:
       | path  |
