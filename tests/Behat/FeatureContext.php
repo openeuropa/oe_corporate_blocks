@@ -6,16 +6,16 @@ namespace Drupal\Tests\oe_corporate_blocks\Behat;
 
 use Behat\Gherkin\Node\TableNode;
 use Behat\Mink\Exception\ExpectationException;
-use Drupal\DrupalExtension\Context\RawDrupalContext;
+use Behat\MinkExtension\Context\RawMinkContext;
 use PHPUnit\Framework\Assert;
 
 /**
- * Defines generic step definitions.
+ * Defines module-specific step definitions.
  *
  * This context contains step definitions that are supposed to be used only
  * when testing this module, do not reuse it in your project.
  */
-class DrupalContext extends RawDrupalContext {
+class FeatureContext extends RawMinkContext {
 
   /**
    * Checks that the given select field has the options listed in the table.
