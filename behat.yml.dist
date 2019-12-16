@@ -8,6 +8,7 @@ default:
         - Drupal\DrupalExtension\Context\DrupalContext
         - Drupal\DrupalExtension\Context\ConfigContext
         - Drupal\Tests\oe_corporate_blocks\Behat\CorporateBlocksContext
+        - Drupal\Tests\oe_corporate_blocks\Behat\DrupalContext
         - OpenEuropa\Behat\TransformationContext:
             pages:
               login: "user/login"
