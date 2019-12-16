@@ -1,10 +1,19 @@
 # Change Log
 
+## [2.3.0](https://github.com/openeuropa/oe_corporate_blocks/tree/2.3.0) (2019-12-16)
+[Full Changelog](https://github.com/openeuropa/oe_corporate_blocks/compare/2.2.0...2.3.0)
+
+**Merged pull requests:**
+
+- OPENEUROPA-2632: Add more social link options in FooterLinkSocial. [\#44](https://github.com/openeuropa/oe_corporate_blocks/pull/44) ([dxvargas](https://github.com/dxvargas))
+- OPENEUROPA-2630: Remove item from EU corporate footer. [\#43](https://github.com/openeuropa/oe_corporate_blocks/pull/43) ([sergepavle](https://github.com/sergepavle))
+
 ## [2.2.0](https://github.com/openeuropa/oe_corporate_blocks/tree/2.2.0) (2019-11-27)
 [Full Changelog](https://github.com/openeuropa/oe_corporate_blocks/compare/2.1.1...2.2.0)
 
 **Merged pull requests:**
 
+- Update CHANGELOG.md and README.md for release 2.2.0. [\#42](https://github.com/openeuropa/oe_corporate_blocks/pull/42) ([ademarco](https://github.com/ademarco))
 - OPENEUROPA-2340: Implement site specific footer for v2.x [\#29](https://github.com/openeuropa/oe_corporate_blocks/pull/29) ([sergepavle](https://github.com/sergepavle))
 
 ## [2.1.1](https://github.com/openeuropa/oe_corporate_blocks/tree/2.1.1) (2019-11-26)
