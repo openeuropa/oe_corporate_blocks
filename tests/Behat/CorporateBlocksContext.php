@@ -9,6 +9,7 @@ use Behat\Gherkin\Node\TableNode;
 use Drupal\DrupalExtension\Context\ConfigContext;
 use Drupal\DrupalExtension\Context\RawDrupalContext;
 use PHPUnit\Framework\Assert;
+use Behat\Mink\Exception\ExpectationException;
 
 /**
  * Defines step which used for behat test of Corporate blocks.
@@ -65,7 +66,9 @@ class CorporateBlocksContext extends RawDrupalContext {
    * | option 2 |
    * |   ...    |
    *
-   * @Then I should have the following options for the :select select:
+   * @todo: move this into a reusable trait / context.
+   *
+   * @Then the :select select should have the following options:
    */
   public function assertSelectOptions(string $select, TableNode $options): void {
     // Retrieve the specified field.

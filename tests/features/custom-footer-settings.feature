@@ -110,7 +110,7 @@ Feature: Site specific footer links management.
     Then I should see the heading "Footer Link Social entities"
     When I click "Add social media footer link"
     Then I should see the heading "Add footer link social"
-    And I should have the following options for the "Social network" select:
+    And the "Social network" select should have the following options:
       | - None -  |
       | Facebook  |
       | Instagram |
