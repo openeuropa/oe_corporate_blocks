@@ -8,7 +8,6 @@ use Behat\Behat\Hook\Scope\BeforeScenarioScope;
 use Behat\Gherkin\Node\TableNode;
 use Drupal\DrupalExtension\Context\ConfigContext;
 use Drupal\DrupalExtension\Context\RawDrupalContext;
-use PHPUnit\Framework\Assert;
 
 /**
  * Defines step which used for behat test of Corporate blocks.
@@ -56,38 +55,6 @@ class CorporateBlocksContext extends RawDrupalContext {
       }
 
     }
-  }
-
-  /**
-   * Checks that the given select field has the options listed in the table.
-   *
-   * | option 1 |
-   * | option 2 |
-   * |   ...    |
-   *
-   * @Then I should have the following options for the :select select:
-   */
-  public function assertSelectOptions(string $select, TableNode $options): void {
-    // Retrieve the specified field.
-    if (!$field = $this->getSession()->getPage()->findField($select)) {
-      throw new ExpectationException("Field '$select' not found.", $this->getSession());
-    }
-
-    // Retrieve the options table from the test scenario and flatten it.
-    $expected_options = $options->getRows();
-    array_walk($expected_options, function (&$value) {
-      $value = reset($value);
-    });
-
-    // Retrieve the actual options that are shown in the select field.
-    $actual_options = $field->findAll('css', 'option');
-
-    // Convert into a flat list of option text strings.
-    array_walk($actual_options, function (&$value) {
-      $value = $value->getText();
-    });
-
-    Assert::assertEquals($expected_options, $actual_options);
   }
 
   /**
