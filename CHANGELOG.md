@@ -1,10 +1,18 @@
 # Change Log
 
+## [2.3.1](https://github.com/openeuropa/oe_corporate_blocks/tree/2.3.1) (2019-12-17)
+[Full Changelog](https://github.com/openeuropa/oe_corporate_blocks/compare/2.3.0...2.3.1)
+
+**Merged pull requests:**
+
+- OPENEUROPA-2632: Move Behat step to a module-specific context [\#46](https://github.com/openeuropa/oe_corporate_blocks/pull/46) ([ademarco](https://github.com/ademarco))
+
 ## [2.3.0](https://github.com/openeuropa/oe_corporate_blocks/tree/2.3.0) (2019-12-16)
 [Full Changelog](https://github.com/openeuropa/oe_corporate_blocks/compare/2.2.0...2.3.0)
 
 **Merged pull requests:**
 
+- Update CHANGELOG.md for release 2.3.0. [\#45](https://github.com/openeuropa/oe_corporate_blocks/pull/45) ([sergepavle](https://github.com/sergepavle))
 - OPENEUROPA-2632: Add more social link options in FooterLinkSocial. [\#44](https://github.com/openeuropa/oe_corporate_blocks/pull/44) ([dxvargas](https://github.com/dxvargas))
 - OPENEUROPA-2630: Remove item from EU corporate footer. [\#43](https://github.com/openeuropa/oe_corporate_blocks/pull/43) ([sergepavle](https://github.com/sergepavle))
 
