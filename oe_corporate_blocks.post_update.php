@@ -23,6 +23,10 @@ function oe_corporate_blocks_post_update_10001(&$sandbox): void {
   ]);
   $config->save();
 
+  if (!\Drupal::hasService('locale.storage')) {
+    return;
+  }
+
   // Allow for config translation re-import when running
   // "drush oe-multilingual:import-local-translations".
   // @see https://webgate.ec.europa.eu/CITnet/jira/browse/OPENEUROPA-2407
@@ -77,6 +81,10 @@ function oe_corporate_blocks_post_update_20003(&$sandbox): void {
   foreach ($configs as $config) {
     $config_storage->write($config, $source->read($config));
     $config_factory->getEditable($config)->save();
+  }
+
+  if (!\Drupal::hasService('locale.storage')) {
+    return;
   }
 
   // Import translations.
