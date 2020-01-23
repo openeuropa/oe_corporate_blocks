@@ -1,5 +1,13 @@
 # Change Log
 
+## [1.3.1](https://github.com/openeuropa/oe_corporate_blocks/tree/1.3.1) (2020-01-23)
+[Full Changelog](https://github.com/openeuropa/oe_corporate_blocks/compare/2.3.1...1.3.1)
+
+**Merged pull requests:**
+
+- OPENEUROPA- 2738: Fix upgrade path for not multilingual for 1.x. [\#50](https://github.com/openeuropa/oe_corporate_blocks/pull/50) ([sergepavle](https://github.com/se
+rgepavle))
+
 ## [1.3.0](https://github.com/openeuropa/oe_corporate_blocks/tree/1.3.0) (2019-10-16)
 [Full Changelog](https://github.com/openeuropa/oe_corporate_blocks/compare/1.2.0...1.3.0)
 
