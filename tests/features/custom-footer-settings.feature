@@ -183,3 +183,22 @@ Feature: Site specific footer links management.
       | region    |
       | ec_footer |
       | eu_footer |
+
+  Scenario Outline: Invalid URLs should not be saved in the footer.
+    Given I am logged in as a user with the "access administration pages, administer site specific footer links" permissions
+    When I am on "the footer links manager page"
+    And I click "Add footer link"
+    And I fill in "Label" with "Test"
+    And I fill in "Machine-readable name" with "test"
+    And I fill in "URL" with "<url>"
+    And I press "Save"
+    Then I should see the following error messages:
+      | error messages |
+      | <message>      |
+
+    Examples:
+      | url                | message                                                                                                          |
+      | http://example:com | The path http://example:com is invalid.                                                                          |
+      | htp://example.com  | The path htp://example.com is invalid.                                                                           |
+      | node/1             | The specified target is invalid. Manually entered paths should start with one of the following characters: / ? # |
+      | //                 | The path // is invalid.                                                                                          |

@@ -4,6 +4,7 @@ declare(strict_types = 1);
 
 namespace Drupal\oe_corporate_blocks\Form;
 
+use Drupal\Component\Utility\UrlHelper;
 use Drupal\Core\Entity\EntityForm;
 use Drupal\Core\Form\FormStateInterface;
 use Drupal\Core\Url;
@@ -53,19 +54,36 @@ class FooterLinkGeneralForm extends EntityForm {
 
   /**
    * {@inheritdoc}
+   *
+   * @SuppressWarnings(PHPMD.CyclomaticComplexity)
    */
   public function validateForm(array &$form, FormStateInterface $form_state) {
-    $url = $form_state->getValue('url');
-    if (parse_url($url, PHP_URL_SCHEME) !== NULL) {
-      // We have nothing to validate on external URLs.
+    $uri = trim($form['url']['#value']);
+
+    if (parse_url($uri, PHP_URL_SCHEME) === NULL) {
+      if (strpos($uri, '<front>') === 0) {
+        $uri = '/' . substr($uri, strlen('<front>'));
+      }
+      $uri = 'internal:' . $uri;
+    }
+
+    // @see \Drupal\link\Plugin\Field\FieldWidget\LinkWidget::validateUriElement()
+    if (parse_url($uri, PHP_URL_SCHEME) === 'internal' &&
+      !in_array($form['url']['#value'][0], ['/', '?', '#'], TRUE) &&
+      substr($form['url']['#value'], 0, strlen('<front>')) !== '<front>') {
+      $form_state->setError($form['url'], t('The specified target is invalid. Manually entered paths should start with one of the following characters: / ? #'));
       return;
     }
 
     try {
-      Url::fromUserInput($url);
+      $url = Url::fromUri($uri);
     }
     catch (\InvalidArgumentException $exception) {
-      $form_state->setErrorByName('url', $exception->getMessage());
+      // Mark the url as invalid.
+      $url = FALSE;
+    }
+    if ($url === FALSE || ($url->isExternal() && !in_array(parse_url($url->getUri(), PHP_URL_SCHEME), UrlHelper::getAllowedProtocols()))) {
+      $form_state->setError($form['url'], t('The path %uri is invalid.', ['%uri' => $uri]));
     }
   }
 
@@ -73,8 +91,8 @@ class FooterLinkGeneralForm extends EntityForm {
    * {@inheritdoc}
    */
   public function save(array $form, FormStateInterface $form_state) {
+    $status = parent::save($form, $form_state);
     $footer_link_general = $this->entity;
-    $status = $footer_link_general->save();
 
     switch ($status) {
       case SAVED_NEW:

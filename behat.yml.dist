@@ -7,6 +7,7 @@ default:
         - Drupal\DrupalExtension\Context\MinkContext
         - Drupal\DrupalExtension\Context\DrupalContext
         - Drupal\DrupalExtension\Context\ConfigContext
+        - Drupal\DrupalExtension\Context\MessageContext
         - Drupal\Tests\oe_corporate_blocks\Behat\CorporateBlocksContext
         - Drupal\Tests\oe_corporate_blocks\Behat\FeatureContext
         - OpenEuropa\Behat\TransformationContext:
@@ -29,5 +30,9 @@ default:
         ec_footer: "div.block-oe-corporate-blocks-ec-footer"
         eu_footer: "div.block-oe-corporate-blocks-eu-footer"
         header: "div.region-header"
+      selectors:
+        message_selector: ".messages"
+        error_message_selector: ".messages.messages--error"
+        success_message_selector: ".messages.messages--status"
   formatters:
     progress: ~
