@@ -56,11 +56,18 @@ class FooterLinkGeneralForm extends EntityForm {
    * {@inheritdoc}
    *
    * @SuppressWarnings(PHPMD.CyclomaticComplexity)
+   * @SuppressWarnings(PHPMD.NPathComplexity)
    */
   public function validateForm(array &$form, FormStateInterface $form_state) {
     $uri = trim($form['url']['#value']);
 
     if (parse_url($uri, PHP_URL_SCHEME) === NULL) {
+      if (strpos($uri, '<front>') !== FALSE && $uri !== '<front>') {
+        // Only support the <front> token if it's on its own.
+        $form_state->setError($form['url'], t('The path %uri is invalid.', ['%uri' => $uri]));
+        return;
+      }
+
       if (strpos($uri, '<front>') === 0) {
         $uri = '/' . substr($uri, strlen('<front>'));
       }

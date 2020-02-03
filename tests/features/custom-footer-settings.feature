@@ -202,3 +202,6 @@ Feature: Site specific footer links management.
       | htp://example.com  | The path htp://example.com is invalid.                                                                           |
       | node/1             | The specified target is invalid. Manually entered paths should start with one of the following characters: / ? # |
       | //                 | The path // is invalid.                                                                                          |
+      | /<front>/node/1    | The path /<front>/node/1 is invalid.                                                                             |
+      | <front>/node/1     | The path <front>/node/1 is invalid.                                                                              |
+      | /<front>           | The path /<front> is invalid.                                                                                    |
