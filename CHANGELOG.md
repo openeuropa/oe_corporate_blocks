@@ -1,10 +1,23 @@
 # Change Log
 
+## [2.3.2](https://github.com/openeuropa/oe_corporate_blocks/tree/2.3.2) (2020-02-04)
+[Full Changelog](https://github.com/openeuropa/oe_corporate_blocks/compare/2.3.1...2.3.2)
+
+**Fixed bugs:**
+
+- Post update hook fails when Interface translation is not enabled. [\#48](https://github.com/openeuropa/oe_corporate_blocks/issues/48)
+
+**Merged pull requests:**
+
+- OPENEUROPA-2800: Fixing footer link URL validation. [\#53](https://github.com/openeuropa/oe_corporate_blocks/pull/53) ([upchuk](https://github.com/upchuk))
+- OPENEUROPA-2738: Fix upgrade path for not multilingual for 2.x. [\#49](https://github.com/openeuropa/oe_corporate_blocks/pull/49) ([sergepavle](https://github.com/sergepavle))
+
 ## [2.3.1](https://github.com/openeuropa/oe_corporate_blocks/tree/2.3.1) (2019-12-17)
 [Full Changelog](https://github.com/openeuropa/oe_corporate_blocks/compare/2.3.0...2.3.1)
 
 **Merged pull requests:**
 
+- Update CHANGELOG.md for release 2.3.1. [\#47](https://github.com/openeuropa/oe_corporate_blocks/pull/47) ([ademarco](https://github.com/ademarco))
 - OPENEUROPA-2632: Move Behat step to a module-specific context [\#46](https://github.com/openeuropa/oe_corporate_blocks/pull/46) ([ademarco](https://github.com/ademarco))
 
 ## [2.3.0](https://github.com/openeuropa/oe_corporate_blocks/tree/2.3.0) (2019-12-16)
