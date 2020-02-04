@@ -66,6 +66,9 @@ class FooterLinkGeneral extends ConfigEntityBase implements FooterLinkInterface 
    */
   public function getUrl(): Url {
     $input = trim($this->get('url'));
+    if ($input === '<front>') {
+      $input = 'internal:/';
+    }
     if (parse_url($input, PHP_URL_SCHEME) === NULL) {
       $input = 'internal:' . $input;
     }

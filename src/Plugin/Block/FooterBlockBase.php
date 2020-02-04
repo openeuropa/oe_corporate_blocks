@@ -110,7 +110,7 @@ abstract class FooterBlockBase extends BlockBase implements ContainerFactoryPlug
         $cache->addCacheableDependency($link_entity);
 
         $link = [
-          'href' => $link_entity->getUrl()->toString(),
+          'href' => $link_entity->getUrl(),
           'label' => $link_entity->label(),
         ];
 
