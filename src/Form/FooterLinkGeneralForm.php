@@ -84,9 +84,11 @@ class FooterLinkGeneralForm extends EntityForm {
 
     try {
       $url = Url::fromUri($uri);
+      $url->toString(TRUE);
     }
-    catch (\InvalidArgumentException $exception) {
-      // Mark the url as invalid.
+    catch (\Exception $exception) {
+      // Mark the url as invalid if any kind of exception is being thrown by
+      // the Url class.
       $url = FALSE;
     }
     if ($url === FALSE || ($url->isExternal() && !in_array(parse_url($url->getUri(), PHP_URL_SCHEME), UrlHelper::getAllowedProtocols()))) {
