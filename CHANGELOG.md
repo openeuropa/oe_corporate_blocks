@@ -1,5 +1,14 @@
 # Change Log
 
+## [2.4.0](https://github.com/openeuropa/oe_corporate_blocks/tree/2.4.0) (2020-04-08)
+[Full Changelog](https://github.com/openeuropa/oe_corporate_blocks/compare/2.3.2...2.4.0)
+
+**Merged pull requests:**
+
+- OPENEUROPA-0000: Use drupal/core instead of drupal/core-recommended. [\#57](https://github.com/openeuropa/oe_corporate_blocks/pull/57) ([22Alexandra](https://github.com/22Alexandra))
+- OPENEUROPA-2943: Upgrade to PHP 7.3. [\#56](https://github.com/openeuropa/oe_corporate_blocks/pull/56) ([sergepavle](https://github.com/sergepavle))
+- OPENEUROPA-2604: Drupal 8 recommended project. [\#55](https://github.com/openeuropa/oe_corporate_blocks/pull/55) ([upchuk](https://github.com/upchuk))
+
 ## [2.3.2](https://github.com/openeuropa/oe_corporate_blocks/tree/2.3.2) (2020-02-04)
 [Full Changelog](https://github.com/openeuropa/oe_corporate_blocks/compare/2.3.1...2.3.2)
 
@@ -9,6 +18,7 @@
 
 **Merged pull requests:**
 
+- OPENEUROPA-1766: Update CHANGELOG.md for release 2.3.2. [\#54](https://github.com/openeuropa/oe_corporate_blocks/pull/54) ([dxvargas](https://github.com/dxvargas))
 - OPENEUROPA-2800: Fixing footer link URL validation. [\#53](https://github.com/openeuropa/oe_corporate_blocks/pull/53) ([upchuk](https://github.com/upchuk))
 - OPENEUROPA-2738: Fix upgrade path for not multilingual for 2.x. [\#49](https://github.com/openeuropa/oe_corporate_blocks/pull/49) ([sergepavle](https://github.com/sergepavle))
 
