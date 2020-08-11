@@ -2,38 +2,17 @@ oe_corporate_blocks.ec_data.footer:
   type: config_object
   label: 'Data for EC corporate bocks.'
   mapping:
-    about_ec_title:
+    site_name:
+      type: oe_corporate_blocks.footer.link
+    content_owner_details:
       type: string
-      label: 'About EC title'
+      label: 'Content owner details'
       translatable: true
-    about_ec_links:
+    class_navigation:
       type: oe_corporate_blocks.footer.links
-    social_media_title:
-      type: string
-      label: 'Social media title'
-      translatable: true
-    social_media_links:
-      type: sequence
-      label: 'Social media links'
-      sequence:
-        type: mapping
-        label: 'Social media link data'
-        mapping:
-          type:
-            type: string
-            label: 'The type of the social media link'
-          icon:
-            type: string
-            label: 'The icon of the social media link'
-          link:
-            type: oe_corporate_blocks.footer.link
-    about_eu_title:
-      type: string
-      label: 'About EU title'
-      translatable: true
-    about_eu_links:
+    service_navigation:
       type: oe_corporate_blocks.footer.links
-    bottom_links:
+    legal_navigation:
       type: oe_corporate_blocks.footer.links
 
 oe_corporate_blocks.footer.links:
@@ -46,6 +25,9 @@ oe_corporate_blocks.footer.link:
   type: mapping
   label: 'Footer link'
   mapping:
+    external:
+      type: boolean
+      label: 'Is external link.'
     href:
       type: string
       label: 'Link URL'
@@ -59,6 +41,9 @@ oe_corporate_blocks.eu_data.footer:
   type: config_object
   label: 'Data for EU corporate bocks.'
   mapping:
+    content_owner_details:
+      type: string
+      label: 'Content owner details'
     contact_title:
       type: string
       label: 'Title of contact column'
@@ -87,9 +72,12 @@ oe_corporate_blocks.eu_data.footer:
       label: 'EU institution links'
       sequence:
         type: oe_corporate_blocks.footer.link
-    other_links:
+    legal_links_title:
+      type: string
+      label: 'Title of legal links column'
+    legal_links:
       type: sequence
-      label: 'EU other links'
+      label: 'Legal links'
       sequence:
         type: oe_corporate_blocks.footer.link
 
