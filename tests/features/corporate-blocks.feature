@@ -10,43 +10,64 @@ Feature: Corporate blocks feature
       | en        |
       | fr        |
     When I am on "the <path> page"
-    Then I should see "European Commission" in the "ec_footer" region
-    And I should see "Follow the European Commission" in the "ec_footer" region
-    And I should see "European Union" in the "ec_footer" region
+    Then I should see "This site is managed by the Directorate-General for Communication" in the "ec_footer" region
     And the region "ec_footer" contains the links:
-      | European Commission website             | https://ec.europa.eu/info/index_en                                          |
-      | Facebook                                | https://www.facebook.com/EuropeanCommission                                 |
-      | Twitter                                 | https://twitter.com/EU_commission                                           |
-      | Other social media                      | https://europa.eu/european-union/contact/social-networks_en#n:+i:4+e:1+t:+s |
-      | EU institutions                         | https://europa.eu/european-union/about-eu/institutions-bodies_en            |
-      | European Union                          | https://europa.eu/european-union/index_en                                   |
-      | About the Commission's new web presence | https://ec.europa.eu/info/about-commissions-new-web-presence_en             |
-      | Language policy                         | https://ec.europa.eu/info/language-policy_en                                |
-      | Resources for partners                  | https://ec.europa.eu/info/resources-partners_en                             |
-      | Cookies                                 | https://ec.europa.eu/info/cookies_en                                        |
-      | Privacy policy                          | https://ec.europa.eu/info/privacy-policy_en                                 |
-      | Legal notice                            | https://ec.europa.eu/info/legal-notice_en                                   |
-      | Contact                                 | https://ec.europa.eu/info/contact_en                                        |
+      | European Commission website                      | https://ec.europa.eu/info/index_en                                          |
+      | Strategy                                         | https://ec.europa.eu/info/strategy_en                                       |
+      | About the European Commission                    | https://ec.europa.eu/info/about-european-commission_en                      |
+      | Business, Economy, Euro                          | https://ec.europa.eu/info/business-economy-euro_en                          |
+      | Live, work, travel in the EU                     | https://ec.europa.eu/info/live-work-travel-eu_en                            |
+      | Law                                              | https://ec.europa.eu/info/law_en                                            |
+      | Funding, Tenders                                 | https://ec.europa.eu/info/funding-tenders_en                                |
+      | Research and innovation                          | https://ec.europa.eu/info/research-and-innovation_en                        |
+      | Energy, Climate change, Environment              | https://ec.europa.eu/info/energy-climate-change-environment_en              |
+      | Education                                        | https://ec.europa.eu/info/education_en                                      |
+      | Aid, Development cooperation, Fundamental rights | https://ec.europa.eu/info/aid-development-cooperation-fundamental-rights_en |
+      | Food, Farming, Fisheries                         | https://ec.europa.eu/info/food-farming-fisheries_en                         |
+      | EU regional and urban development                | https://ec.europa.eu/info/eu-regional-and-urban-development_en              |
+      | Jobs at the European Commission                  | https://ec.europa.eu/info/jobs-european-commission_en                       |
+      | Statistics                                       | https://ec.europa.eu/info/statistics_en                                     |
+      | News                                             | https://ec.europa.eu/commission/presscorner/home/en                         |
+      | Events                                           | https://ec.europa.eu/info/events_en                                         |
+      | Publications                                     | https://ec.europa.eu/info/publications_en                                   |
+      | Contact the European Commission                  | https://ec.europa.eu/info/about-european-commission/contact_en              |
+      | Follow the European Commission on social media   | https://europa.eu/european-union/contact/social-networks_en#n:+i:4+e:1+t:+s |
+      | Resources for partners                           | https://ec.europa.eu/info/resources-partners_en                             |
+      | Language policy                                  | https://ec.europa.eu/info/language-policy_en                                |
+      | Cookies                                          | https://ec.europa.eu/info/cookies_en                                        |
+      | Privacy policy                                   | https://ec.europa.eu/info/privacy-policy_en                                 |
+      | Legal notice                                     | https://ec.europa.eu/info/legal-notice_en                                   |
+      | Brexit content disclaimer                        | https://ec.europa.eu/info/brexit-content-disclaimer_en                      |
 
     When I click "français" in the "header"
-    Then I should see "Commission européenne" in the "ec_footer" region
-    And I should see "Suivre la Commission européenne" in the "ec_footer" region
-    And I should see "Union européenne" in the "ec_footer" region
+    Then I should see "Ce site est géré par la direction générale de la communication" in the "ec_footer" region
     And the region "ec_footer" contains the links:
-      | Site web de la Commission européenne                         | https://ec.europa.eu/info/index_fr                                          |
-      | Facebook                                                     | https://www.facebook.com/EuropeanCommission                                 |
-      | Twitter                                                      | https://twitter.com/EU_commission                                           |
-      | Autres réseaux sociaux                                       | https://europa.eu/european-union/contact/social-networks_fr#n:+i:4+e:1+t:+s |
-      | Institutions de l’UE                                         | https://europa.eu/european-union/about-eu/institutions-bodies_fr            |
-      | Union européenne                                             | https://europa.eu/european-union/index_fr                                   |
-      | À propos de la nouvelle présence de la Commission sur le web | https://ec.europa.eu/info/about-commissions-new-web-presence_fr             |
-      | Politique linguistique                                       | https://ec.europa.eu/info/language-policy_fr                                |
-      | Ressources pour les partenaires                              | http://ec.europa.eu/info/resources-partners_fr                              |
-      | Cookies                                                      | https://ec.europa.eu/info/cookies_fr                                        |
-      | Protection de la vie privée                                  | https://ec.europa.eu/info/privacy-policy_fr                                 |
-      | Avis juridique                                               | https://ec.europa.eu/info/legal-notice_fr                                   |
-      | Contact                                                      | https://ec.europa.eu/info/contact_fr                                        |
-
+      | Site web de la Commission européenne                      | https://ec.europa.eu/info/index_fr                                          |
+      | Stratégie                                                 | https://ec.europa.eu/info/strategy_fr                                       |
+      | À propos de la Commission européenne                      | https://ec.europa.eu/info/about-european-commission_fr                      |
+      | Entreprises, économie et euro                             | https://ec.europa.eu/info/business-economy-euro_fr                          |
+      | Vivre, travailler et voyager dans l’UE                    | https://ec.europa.eu/info/live-work-travel-eu_fr                            |
+      | Législation                                               | https://ec.europa.eu/info/law_fr                                            |
+      | Financement, appels d’offres                              | https://ec.europa.eu/info/funding-tenders_fr                                |
+      | Recherche et innovation                                   | https://ec.europa.eu/info/research-and-innovation_fr                        |
+      | Énergie, changement climatique, environnement             | https://ec.europa.eu/info/energy-climate-change-environment_fr              |
+      | Éducation                                                 | https://ec.europa.eu/info/education_fr                                      |
+      | Aide, coopération au développement et droits fondamentaux | https://ec.europa.eu/info/aid-development-cooperation-fundamental-rights_fr |
+      | Alimentation, agriculture et pêche                        | https://ec.europa.eu/info/food-farming-fisheries_fr                         |
+      | Développement régional et urbain de l’UE                  | https://ec.europa.eu/info/eu-regional-and-urban-development_fr              |
+      | Travailler à la Commission européenne                     | https://ec.europa.eu/info/jobs-european-commission_fr                       |
+      | Statistiques                                              | https://ec.europa.eu/info/statistics_fr                                     |
+      | Actualité                                                 | https://ec.europa.eu/commission/presscorner/home/fr                         |
+      | Événements                                                | https://ec.europa.eu/info/events_fr                                         |
+      | Publications                                              | https://ec.europa.eu/info/publications_fr                                   |
+      | Contacter la Commission européenne                        | https://ec.europa.eu/info/about-european-commission/contact_fr              |
+      | Suivre la Commission européenne sur les médias sociaux    | https://europa.eu/european-union/contact/social-networks_fr#n:+i:4+e:1+t:+s |
+      | Ressources pour les partenaires                           | https://ec.europa.eu/info/resources-partners_fr                             |
+      | Politique linguistique                                    | https://ec.europa.eu/info/language-policy_fr                                |
+      | Cookies                                                   | https://ec.europa.eu/info/cookies_fr                                        |
+      | Protection de la vie privée                               | https://ec.europa.eu/info/privacy-policy_fr                                 |
+      | Avis juridique                                            | https://ec.europa.eu/info/legal-notice_fr                                   |
+      | Brexit: clause de non-responsabilité                      | https://ec.europa.eu/info/brexit-content-disclaimer_fr                      |
     Examples:
       | path  |
       | home  |
@@ -58,6 +79,10 @@ Feature: Corporate blocks feature
       | en        |
       | fr        |
     When I am on "the <path> page"
+    Then I should see "This site is managed by the European Commission, Directorate-General for Communication (DG COMM)" in the "eu_footer" region
+    And I should see "Social media" in the "eu_footer" region
+    And I should see "EU institutions" in the "eu_footer" region
+    And I should see "Legal" in the "eu_footer_bottom_title" region
     And the region "eu_footer" contains the links:
       | 00 800 6 7 8 9 10 11                          | tel:0080067891011                                            |
       | telephone options                             | https://europa.eu/european-union/contact/call-us_en          |
@@ -79,16 +104,17 @@ Feature: Corporate blocks feature
       | European Investment Bank (EIB)                | https://www.eib.org/en/index.htm                             |
       | European Data Protection Supervisor (EDPS)    | https://secure.edps.europa.eu/EDPSWEB/edps/EDPS?lang=en      |
 
-      | Sitemap                                       | /european-union/abouteuropa/sitemap_en                       |
-      | About this site                               | /european-union/abouteuropa_en                               |
-      | Language policy                               | /european-union/abouteuropa/language-policy_en               |
-      | Privacy policy                                | /european-union/abouteuropa/privacy-policy_en                |
-      | Legal notice                                  | /european-union/abouteuropa/legal_notices_en                 |
-      | Cookies                                       | /european-union/abouteuropa/cookies_en                       |
+      | About this site                               | https://europa.eu/european-union/abouteuropa_en                               |
+      | Language policy                               | https://europa.eu/european-union/abouteuropa/language-policy_en               |
+      | Privacy policy                                | https://europa.eu/european-union/abouteuropa/privacy-policy_en                |
+      | Legal notice                                  | https://europa.eu/european-union/abouteuropa/legal_notices_en                 |
+      | Brexit content disclaimer                     | https://europa.eu/european-union/brexit-content-disclaimer_en                 |
+      | Cookies                                       | https://europa.eu/european-union/abouteuropa/cookies_en                       |
     And the region "eu_footer" does not contain the links:
-      | Presidency of the Council of the EU           | https://www.romania2019.eu/home/                             |
+      | Presidency of the Council of the EU | https://www.romania2019.eu/home/ |
 
     When I click "français" in the "header"
+    Then I should see "Institutions de l’UE" in the "eu_footer" region
     And the region "eu_footer" contains the links:
       | 00 800 6 7 8 9 10 11                                   | tel:0080067891011                                                |
       | options téléphoniques                                  | https://europa.eu/european-union/contact/call-us_fr              |
@@ -110,14 +136,14 @@ Feature: Corporate blocks feature
       | Banque européenne d'investissement (BEI)               | https://www.eib.org/fr/index.htm                                 |
       | Contrôleur européen de la protection des données       | https://secure.edps.europa.eu/EDPSWEB/edps/EDPS?lang=fr          |
 
-      | Plan du site                                           | /european-union/abouteuropa/sitemap_fr                           |
-      | À propos de ce site                                    | /european-union/abouteuropa_fr                                   |
-      | Politique linguistique                                 | /european-union/abouteuropa/language-policy_fr                   |
-      | Protection de la vie privée                            | /european-union/abouteuropa/privacy-policy_fr                    |
-      | Avis juridique                                         | /european-union/abouteuropa/legal_notices_fr                     |
-      | Cookies                                                | /european-union/abouteuropa/cookies_fr                           |
+      | À propos de ce site                                    | https://europa.eu/european-union/abouteuropa_fr                                   |
+      | Politique linguistique                                 | https://europa.eu/european-union/abouteuropa/language-policy_fr                   |
+      | Protection de la vie privée                            | https://europa.eu/european-union/abouteuropa/privacy-policy_fr                    |
+      | Avis juridique                                         | https://europa.eu/european-union/abouteuropa/legal_notices_fr                     |
+      | Brexit: clause de non-responsabilité                   | https://europa.eu/european-union/brexit-content-disclaimer_fr                 |
+      | Cookies                                                | https://europa.eu/european-union/abouteuropa/cookies_fr                           |
     And the region "eu_footer" does not contain the links:
-      | Présidence du Conseil de l'UE                          | https://www.romania2019.eu/page-daccueil/                        |
+      | Présidence du Conseil de l'UE | https://www.romania2019.eu/page-daccueil/ |
 
     Examples:
       | path  |
