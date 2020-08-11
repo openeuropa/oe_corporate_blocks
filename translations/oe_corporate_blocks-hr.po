@@ -94,41 +94,38 @@ msgstr "Europski nadzornik za zaštitu podataka (EDPS)"
 msgid "https://secure.edps.europa.eu/EDPSWEB/edps/EDPS?lang=en"
 msgstr "https://secure.edps.europa.eu/EDPSWEB/edps/EDPS?lang=hr"
 
-msgid "Sitemap"
-msgstr "Plan stranice"
-
-msgid "/european-union/abouteuropa/sitemap_en"
-msgstr "/european-union/abouteuropa/sitemap_hr"
-
 msgid "About this site"
 msgstr "O ovoj stranici"
 
-msgid "/european-union/abouteuropa_en"
-msgstr "/european-union/abouteuropa_hr"
+msgid "https://europa.eu/european-union/abouteuropa_en"
+msgstr "https://europa.eu/european-union/abouteuropa_hr"
 
 msgid "Language policy"
 msgstr "Jezična politika"
 
-msgid "/european-union/abouteuropa/language-policy_en"
-msgstr "/european-union/abouteuropa/language-policy_hr"
+msgid "https://europa.eu/european-union/abouteuropa/language-policy_en"
+msgstr "https://europa.eu/european-union/abouteuropa/language-policy_hr"
 
 msgid "Privacy policy"
 msgstr "Politika zaštite privatnosti"
 
-msgid "/european-union/abouteuropa/privacy-policy_en"
-msgstr "/european-union/abouteuropa/privacy-policy_hr"
+msgid "https://europa.eu/european-union/abouteuropa/privacy-policy_en"
+msgstr "https://europa.eu/european-union/abouteuropa/privacy-policy_hr"
 
 msgid "Legal notice"
 msgstr "Pravna obavijest"
 
-msgid "/european-union/abouteuropa/legal_notices_en"
-msgstr "/european-union/abouteuropa/legal_notices_hr"
+msgid "https://europa.eu/european-union/abouteuropa/legal_notices_en"
+msgstr "https://europa.eu/european-union/abouteuropa/legal_notices_hr"
+
+msgid "https://europa.eu/european-union/brexit-content-disclaimer_en"
+msgstr "https://europa.eu/european-union/brexit-content-disclaimer_hr"
 
 msgid "Cookies"
 msgstr "Kolačići"
 
-msgid "/european-union/abouteuropa/cookies_en"
-msgstr "/european-union/abouteuropa/cookies_hr"
+msgid "https://europa.eu/european-union/abouteuropa/cookies_en"
+msgstr "https://europa.eu/european-union/abouteuropa/cookies_hr"
 
 msgid "https://ec.europa.eu/info/index_en"
 msgstr "https://ec.europa.eu/info/index_hr"
@@ -136,41 +133,131 @@ msgstr "https://ec.europa.eu/info/index_hr"
 msgid "European Commission website"
 msgstr "Internetske stranice Europske komisije"
 
-msgid "Follow the European Commission"
-msgstr "Pratite Europsku komisiju"
+msgid "This site is managed by the Directorate-General for Communication"
+msgstr "Ovim stranicama upravlja Glavna uprava za komunikaciju"
+
+msgid "https://ec.europa.eu/info/strategy_en"
+msgstr "https://ec.europa.eu/info/strategy_hr"
+
+msgid "Strategy"
+msgstr "Strategija"
+
+msgid "https://ec.europa.eu/info/about-european-commission_en"
+msgstr "https://ec.europa.eu/info/about-european-commission_hr"
+
+msgid "About the European Commission"
+msgstr "O Europskoj komisiji"
+
+msgid "https://ec.europa.eu/info/business-economy-euro_en"
+msgstr "https://ec.europa.eu/info/business-economy-euro_hr"
+
+msgid "Business, Economy, Euro"
+msgstr "Poslovanje, gospodarstvo, euro"
+
+msgid "https://ec.europa.eu/info/live-work-travel-eu_en"
+msgstr "https://ec.europa.eu/info/live-work-travel-eu_hr"
+
+msgid "Live, work, travel in the EU"
+msgstr "Život, rad, putovanje u EU-u"
+
+msgid "https://ec.europa.eu/info/law_en"
+msgstr "https://ec.europa.eu/info/law_hr"
+
+msgid "Law"
+msgstr "Pravo"
+
+msgid "https://ec.europa.eu/info/funding-tenders_en"
+msgstr "https://ec.europa.eu/info/funding-tenders_hr"
+
+msgid "Funding, Tenders"
+msgstr "Financiranje, natječaji"
+
+msgid "https://ec.europa.eu/info/research-and-innovation_en"
+msgstr "https://ec.europa.eu/info/research-and-innovation_hr"
+
+msgid "Research and innovation"
+msgstr "Istraživanje i inovacije"
+
+msgid "https://ec.europa.eu/info/energy-climate-change-environment_en"
+msgstr "https://ec.europa.eu/info/energy-climate-change-environment_hr"
+
+msgid "Energy, Climate change, Environment"
+msgstr "Energija, klimatske promjene i okoliš"
+
+msgid "https://ec.europa.eu/info/education_en"
+msgstr "https://ec.europa.eu/info/education_hr"
+
+msgid "Education"
+msgstr "Obrazovanje"
+
+msgid "https://ec.europa.eu/info/aid-development-cooperation-fundamental-rights_en"
+msgstr "https://ec.europa.eu/info/aid-development-cooperation-fundamental-rights_hr"
+
+msgid "Aid, Development cooperation, Fundamental rights"
+msgstr "Pomoć, razvojna suradnja, temeljna prava"
+
+msgid "https://ec.europa.eu/info/food-farming-fisheries_en"
+msgstr "https://ec.europa.eu/info/food-farming-fisheries_hr"
+
+msgid "Food, Farming, Fisheries"
+msgstr "Hrana, poljoprivreda, ribarstvo"
+
+msgid "https://ec.europa.eu/info/eu-regional-and-urban-development_en"
+msgstr "https://ec.europa.eu/info/eu-regional-and-urban-development_hr"
+
+msgid "EU regional and urban development"
+msgstr "Regionalni i urbani razvoj EU-a"
+
+msgid "https://ec.europa.eu/info/jobs-european-commission_en"
+msgstr "https://ec.europa.eu/info/jobs-european-commission_hr"
+
+msgid "Jobs at the European Commission"
+msgstr "Radna mjesta u Europskoj komisiji"
+
+msgid "https://ec.europa.eu/info/statistics_en"
+msgstr "https://ec.europa.eu/info/statistics_hr"
+
+msgid "Statistics"
+msgstr "Statistike"
+
+msgid "https://ec.europa.eu/commission/presscorner/home/en"
+msgstr "https://ec.europa.eu/commission/presscorner/home/hr"
+
+msgid "News"
+msgstr "Novosti"
+
+msgid "https://ec.europa.eu/info/events_en"
+msgstr "https://ec.europa.eu/info/events_hr"
+
+msgid "Events"
+msgstr "Događanja"
+
+msgid "https://ec.europa.eu/info/publications_en"
+msgstr "https://ec.europa.eu/info/publications_hr"
+
+msgid "Publications"
+msgstr "Publikacije"
+
+msgid "https://ec.europa.eu/info/about-european-commission/contact_en"
+msgstr "https://ec.europa.eu/info/about-european-commission/contact_hr"
+
+msgid "Contact the European Commission"
+msgstr "Obratite se Europskoj komisiji"
 
 msgid "https://europa.eu/european-union/contact/social-networks_en#n:+i:4+e:1+t:+s"
 msgstr "https://europa.eu/european-union/contact/social-networks_hr#n:+i:4+e:1+t:+s"
 
-msgid "Other social media"
-msgstr "Ostale društvene mreže"
-
-msgid "European Union"
-msgstr "Europske unije"
-
-msgid "https://europa.eu/european-union/about-eu/institutions-bodies_en"
-msgstr "https://europa.eu/european-union/about-eu/institutions-bodies_hr"
-
-msgid "EU institutions"
-msgstr "Institucijama EU-a"
-
-msgid "https://europa.eu/european-union/index_en"
-msgstr "https://europa.eu/european-union/index_hr"
-
-msgid "https://ec.europa.eu/info/about-commissions-new-web-presence_en"
-msgstr "https://ec.europa.eu/info/about-commissions-new-web-presence_hr"
-
-msgid "About the Commission's new web presence"
-msgstr "O novim internetskim stranicama Komisije"
-
-msgid "https://ec.europa.eu/info/language-policy_en"
-msgstr "https://ec.europa.eu/info/language-policy_hr"
+msgid "Follow the European Commission on social media"
+msgstr "Pratite Europsku komisiju na društvenim mrežama"
 
 msgid "https://ec.europa.eu/info/resources-partners_en"
-msgstr "http://ec.europa.eu/info/resources-partners_hr"
+msgstr "https://ec.europa.eu/info/resources-partners_hr"
 
 msgid "Resources for partners"
 msgstr "Resursi za partnere"
+
+msgid "https://ec.europa.eu/info/language-policy_en"
+msgstr "https://ec.europa.eu/info/language-policy_hr"
 
 msgid "https://ec.europa.eu/info/cookies_en"
 msgstr "https://ec.europa.eu/info/cookies_hr"
@@ -181,11 +268,9 @@ msgstr "https://ec.europa.eu/info/privacy-policy_hr"
 msgid "https://ec.europa.eu/info/legal-notice_en"
 msgstr "https://ec.europa.eu/info/legal-notice_hr"
 
-msgid "https://ec.europa.eu/info/contact_en"
-msgstr "https://ec.europa.eu/info/contact_hr"
+msgid "https://ec.europa.eu/info/brexit-content-disclaimer_en"
+msgstr "https://ec.europa.eu/info/brexit-content-disclaimer_hr"
 
-msgid "Contact"
-msgstr "Kontakt"
+msgid "Brexit content disclaimer"
+msgstr "Brexit - izjava o ograničenju odgovornosti"
 
-msgid "Policies, information and services"
-msgstr "Politike, informacije i službe"

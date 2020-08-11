@@ -97,35 +97,35 @@ msgstr "Europese Toezichthouder voor gegevensbescherming (EDPS)"
 msgid "https://secure.edps.europa.eu/EDPSWEB/edps/EDPS?lang=en"
 msgstr "https://secure.edps.europa.eu/EDPSWEB/edps/EDPS?lang=nl"
 
-msgid "/european-union/abouteuropa/sitemap_en"
-msgstr "/european-union/abouteuropa/sitemap_nl"
-
 msgid "About this site"
 msgstr "Over deze site"
 
-msgid "/european-union/abouteuropa_en"
-msgstr "/european-union/abouteuropa_nl"
+msgid "https://europa.eu/european-union/abouteuropa_en"
+msgstr "https://europa.eu/european-union/abouteuropa_nl"
 
 msgid "Language policy"
 msgstr "Talenbeleid op de Europa-website"
 
-msgid "/european-union/abouteuropa/language-policy_en"
-msgstr "/european-union/abouteuropa/language-policy_nl"
+msgid "https://europa.eu/european-union/abouteuropa/language-policy_en"
+msgstr "https://europa.eu/european-union/abouteuropa/language-policy_nl"
 
 msgid "Privacy policy"
 msgstr "Privacybeleid"
 
-msgid "/european-union/abouteuropa/privacy-policy_en"
-msgstr "/european-union/abouteuropa/privacy-policy_nl"
+msgid "https://europa.eu/european-union/abouteuropa/privacy-policy_en"
+msgstr "https://europa.eu/european-union/abouteuropa/privacy-policy_nl"
 
 msgid "Legal notice"
 msgstr "Juridische mededeling"
 
-msgid "/european-union/abouteuropa/legal_notices_en"
-msgstr "/european-union/abouteuropa/legal_notices_nl"
+msgid "https://europa.eu/european-union/abouteuropa/legal_notices_en"
+msgstr "https://europa.eu/european-union/abouteuropa/legal_notices_nl"
 
-msgid "/european-union/abouteuropa/cookies_en"
-msgstr "/european-union/abouteuropa/cookies_nl"
+msgid "https://europa.eu/european-union/brexit-content-disclaimer_en"
+msgstr "https://europa.eu/european-union/brexit-content-disclaimer_nl"
+
+msgid "https://europa.eu/european-union/abouteuropa/cookies_en"
+msgstr "https://europa.eu/european-union/abouteuropa/cookies_nl"
 
 msgid "https://ec.europa.eu/info/index_en"
 msgstr "https://ec.europa.eu/info/index_nl"
@@ -133,41 +133,131 @@ msgstr "https://ec.europa.eu/info/index_nl"
 msgid "European Commission website"
 msgstr "Website van de Europese Commissie"
 
-msgid "Follow the European Commission"
-msgstr "Volg de Europese Commissie"
+msgid "This site is managed by the Directorate-General for Communication"
+msgstr "Deze website wordt beheerd door het directoraat-generaal Communicatie"
+
+msgid "https://ec.europa.eu/info/strategy_en"
+msgstr "https://ec.europa.eu/info/strategy_nl"
+
+msgid "Strategy"
+msgstr "Strategie"
+
+msgid "https://ec.europa.eu/info/about-european-commission_en"
+msgstr "https://ec.europa.eu/info/about-european-commission_nl"
+
+msgid "About the European Commission"
+msgstr "Over de Europese Commissie"
+
+msgid "https://ec.europa.eu/info/business-economy-euro_en"
+msgstr "https://ec.europa.eu/info/business-economy-euro_nl"
+
+msgid "Business, Economy, Euro"
+msgstr "Handel, economie, euro"
+
+msgid "https://ec.europa.eu/info/live-work-travel-eu_en"
+msgstr "https://ec.europa.eu/info/live-work-travel-eu_nl"
+
+msgid "Live, work, travel in the EU"
+msgstr "Wonen, werken en reizen in de EU"
+
+msgid "https://ec.europa.eu/info/law_en"
+msgstr "https://ec.europa.eu/info/law_nl"
+
+msgid "Law"
+msgstr "Wetgeving"
+
+msgid "https://ec.europa.eu/info/funding-tenders_en"
+msgstr "https://ec.europa.eu/info/funding-tenders_nl"
+
+msgid "Funding, Tenders"
+msgstr "Subsidies, leningen, aanbestedingen"
+
+msgid "https://ec.europa.eu/info/research-and-innovation_en"
+msgstr "https://ec.europa.eu/info/research-and-innovation_nl"
+
+msgid "Research and innovation"
+msgstr "Onderzoek en innovatie"
+
+msgid "https://ec.europa.eu/info/energy-climate-change-environment_en"
+msgstr "https://ec.europa.eu/info/energy-climate-change-environment_nl"
+
+msgid "Energy, Climate change, Environment"
+msgstr "Energie, klimaatverandering, milieu"
+
+msgid "https://ec.europa.eu/info/education_en"
+msgstr "https://ec.europa.eu/info/education_nl"
+
+msgid "Education"
+msgstr "Onderwijs"
+
+msgid "https://ec.europa.eu/info/aid-development-cooperation-fundamental-rights_en"
+msgstr "https://ec.europa.eu/info/aid-development-cooperation-fundamental-rights_nl"
+
+msgid "Aid, Development cooperation, Fundamental rights"
+msgstr "Noodhulp, ontwikkelingssamenwerking, grondrechten"
+
+msgid "https://ec.europa.eu/info/food-farming-fisheries_en"
+msgstr "https://ec.europa.eu/info/food-farming-fisheries_nl"
+
+msgid "Food, Farming, Fisheries"
+msgstr "Voedsel, landbouw, visserij"
+
+msgid "https://ec.europa.eu/info/eu-regional-and-urban-development_en"
+msgstr "https://ec.europa.eu/info/eu-regional-and-urban-development_nl"
+
+msgid "EU regional and urban development"
+msgstr "Platteland, steden, regio's"
+
+msgid "https://ec.europa.eu/info/jobs-european-commission_en"
+msgstr "https://ec.europa.eu/info/jobs-european-commission_nl"
+
+msgid "Jobs at the European Commission"
+msgstr "Werken voor de Europese Commissie"
+
+msgid "https://ec.europa.eu/info/statistics_en"
+msgstr "https://ec.europa.eu/info/statistics_nl"
+
+msgid "Statistics"
+msgstr "Statistieken"
+
+msgid "https://ec.europa.eu/commission/presscorner/home/en"
+msgstr "https://ec.europa.eu/commission/presscorner/home/nl"
+
+msgid "News"
+msgstr "Nieuws"
+
+msgid "https://ec.europa.eu/info/events_en"
+msgstr "https://ec.europa.eu/info/events_nl"
+
+msgid "Events"
+msgstr "Evenementen"
+
+msgid "https://ec.europa.eu/info/publications_en"
+msgstr "https://ec.europa.eu/info/publications_nl"
+
+msgid "Publications"
+msgstr "Publicaties"
+
+msgid "https://ec.europa.eu/info/about-european-commission/contact_en"
+msgstr "https://ec.europa.eu/info/about-european-commission/contact_nl"
+
+msgid "Contact the European Commission"
+msgstr "Contact met de Europese Commissie"
 
 msgid "https://europa.eu/european-union/contact/social-networks_en#n:+i:4+e:1+t:+s"
 msgstr "https://europa.eu/european-union/contact/social-networks_nl#n:+i:4+e:1+t:+s"
 
-msgid "Other social media"
-msgstr "Overige sociale netwerken"
+msgid "Follow the European Commission on social media"
+msgstr "Volg de Europese Commissie op sociale media"
 
-msgid "European Union"
-msgstr "Europese Unie"
+msgid "https://ec.europa.eu/info/resources-partners_en"
+msgstr "https://ec.europa.eu/info/resources-partners_nl"
 
-msgid "https://europa.eu/european-union/about-eu/institutions-bodies_en"
-msgstr "https://europa.eu/european-union/about-eu/institutions-bodies_nl"
-
-msgid "EU institutions"
-msgstr "EU-instellingen"
-
-msgid "https://europa.eu/european-union/index_en"
-msgstr "https://europa.eu/european-union/index_nl"
-
-msgid "https://ec.europa.eu/info/about-commissions-new-web-presence_en"
-msgstr "https://ec.europa.eu/info/about-commissions-new-web-presence_nl"
-
-msgid "About the Commission's new web presence"
-msgstr "Over de nieuwe website van de Europese Commissie"
+msgid "Resources for partners"
+msgstr "Bronmateriaal voor partners"
 
 msgid "https://ec.europa.eu/info/language-policy_en"
 msgstr "https://ec.europa.eu/info/language-policy_nl"
-
-msgid "https://ec.europa.eu/info/resources-partners_en"
-msgstr "http://ec.europa.eu/info/resources-partners_nl"
-
-msgid "Resources for partners"
-msgstr "Talenbeleid"
 
 msgid "https://ec.europa.eu/info/cookies_en"
 msgstr "https://ec.europa.eu/info/cookies_nl"
@@ -178,8 +268,9 @@ msgstr "https://ec.europa.eu/info/privacy-policy_nl"
 msgid "https://ec.europa.eu/info/legal-notice_en"
 msgstr "https://ec.europa.eu/info/legal-notice_nl"
 
-msgid "https://ec.europa.eu/info/contact_en"
-msgstr "https://ec.europa.eu/info/contact_nl"
+msgid "https://ec.europa.eu/info/brexit-content-disclaimer_en"
+msgstr "https://ec.europa.eu/info/brexit-content-disclaimer_nl"
 
-msgid "Policies, information and services"
-msgstr "Beleid, informatie en diensten"
+msgid "Brexit content disclaimer"
+msgstr "Brexit: disclaimer"
+

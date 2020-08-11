@@ -97,41 +97,38 @@ msgstr "Euroopan tietosuojavaltuutettu"
 msgid "https://secure.edps.europa.eu/EDPSWEB/edps/EDPS?lang=en"
 msgstr "https://secure.edps.europa.eu/EDPSWEB/edps/EDPS?lang=fi"
 
-msgid "Sitemap"
-msgstr "Sivukartta"
-
-msgid "/european-union/abouteuropa/sitemap_en"
-msgstr "/european-union/abouteuropa/sitemap_fi"
-
 msgid "About this site"
 msgstr "Tietoa sivustosta"
 
-msgid "/european-union/abouteuropa_en"
-msgstr "/european-union/abouteuropa_fi"
+msgid "https://europa.eu/european-union/abouteuropa_en"
+msgstr "https://europa.eu/european-union/abouteuropa_fi"
 
 msgid "Language policy"
 msgstr "Kielipolitiikka"
 
-msgid "/european-union/abouteuropa/language-policy_en"
-msgstr "/european-union/abouteuropa/language-policy_fi"
+msgid "https://europa.eu/european-union/abouteuropa/language-policy_en"
+msgstr "https://europa.eu/european-union/abouteuropa/language-policy_fi"
 
 msgid "Privacy policy"
 msgstr "Tietosuojaperiaatteet"
 
-msgid "/european-union/abouteuropa/privacy-policy_en"
-msgstr "/european-union/abouteuropa/privacy-policy_fi"
+msgid "https://europa.eu/european-union/abouteuropa/privacy-policy_en"
+msgstr "https://europa.eu/european-union/abouteuropa/privacy-policy_fi"
 
 msgid "Legal notice"
 msgstr "Oikeudellinen huomautus"
 
-msgid "/european-union/abouteuropa/legal_notices_en"
-msgstr "/european-union/abouteuropa/legal_notices_fi"
+msgid "https://europa.eu/european-union/abouteuropa/legal_notices_en"
+msgstr "https://europa.eu/european-union/abouteuropa/legal_notices_fi"
+
+msgid "https://europa.eu/european-union/brexit-content-disclaimer_en"
+msgstr "https://europa.eu/european-union/brexit-content-disclaimer_fi"
 
 msgid "Cookies"
 msgstr "Evästeet"
 
-msgid "/european-union/abouteuropa/cookies_en"
-msgstr "/european-union/abouteuropa/cookies_fi"
+msgid "https://europa.eu/european-union/abouteuropa/cookies_en"
+msgstr "https://europa.eu/european-union/abouteuropa/cookies_fi"
 
 msgid "https://ec.europa.eu/info/index_en"
 msgstr "https://ec.europa.eu/info/index_fi"
@@ -139,41 +136,131 @@ msgstr "https://ec.europa.eu/info/index_fi"
 msgid "European Commission website"
 msgstr "Euroopan komission verkkosivusto"
 
-msgid "Follow the European Commission"
-msgstr "Seuraa Euroopan komissiota"
+msgid "This site is managed by the Directorate-General for Communication"
+msgstr "Tätä sivustoa hallinnoi komission viestinnän pääosasto"
+
+msgid "https://ec.europa.eu/info/strategy_en"
+msgstr "https://ec.europa.eu/info/strategy_fi"
+
+msgid "Strategy"
+msgstr "EU:n strategia"
+
+msgid "https://ec.europa.eu/info/about-european-commission_en"
+msgstr "https://ec.europa.eu/info/about-european-commission_fi"
+
+msgid "About the European Commission"
+msgstr "Perustietoa Euroopan komissiosta"
+
+msgid "https://ec.europa.eu/info/business-economy-euro_en"
+msgstr "https://ec.europa.eu/info/business-economy-euro_fi"
+
+msgid "Business, Economy, Euro"
+msgstr "Yritystoiminta, talous, euro"
+
+msgid "https://ec.europa.eu/info/live-work-travel-eu_en"
+msgstr "https://ec.europa.eu/info/live-work-travel-eu_fi"
+
+msgid "Live, work, travel in the EU"
+msgstr "Asuminen, työnteko ja matkustaminen EU:ssa"
+
+msgid "https://ec.europa.eu/info/law_en"
+msgstr "https://ec.europa.eu/info/law_fi"
+
+msgid "Law"
+msgstr "Lainsäädäntö"
+
+msgid "https://ec.europa.eu/info/funding-tenders_en"
+msgstr "https://ec.europa.eu/info/funding-tenders_fi"
+
+msgid "Funding, Tenders"
+msgstr "Rahoitus, avustukset ja tarjouskilpailut"
+
+msgid "https://ec.europa.eu/info/research-and-innovation_en"
+msgstr "https://ec.europa.eu/info/research-and-innovation_fi"
+
+msgid "Research and innovation"
+msgstr "Tutkimus ja innovointi"
+
+msgid "https://ec.europa.eu/info/energy-climate-change-environment_en"
+msgstr "https://ec.europa.eu/info/energy-climate-change-environment_fi"
+
+msgid "Energy, Climate change, Environment"
+msgstr "Energia, ilmastonmuutos ja ympäristö"
+
+msgid "https://ec.europa.eu/info/education_en"
+msgstr "https://ec.europa.eu/info/education_fi"
+
+msgid "Education"
+msgstr "Koulutus"
+
+msgid "https://ec.europa.eu/info/aid-development-cooperation-fundamental-rights_en"
+msgstr "https://ec.europa.eu/info/aid-development-cooperation-fundamental-rights_fi"
+
+msgid "Aid, Development cooperation, Fundamental rights"
+msgstr "Kansainvälinen apu, kehitysyhteistyö ja perusoikeudet"
+
+msgid "https://ec.europa.eu/info/food-farming-fisheries_en"
+msgstr "https://ec.europa.eu/info/food-farming-fisheries_fi"
+
+msgid "Food, Farming, Fisheries"
+msgstr "Elintarvikkeet, maatalous, kalatalous"
+
+msgid "https://ec.europa.eu/info/eu-regional-and-urban-development_en"
+msgstr "https://ec.europa.eu/info/eu-regional-and-urban-development_fi"
+
+msgid "EU regional and urban development"
+msgstr "EU:n tuki alueille ja kaupungeille"
+
+msgid "https://ec.europa.eu/info/jobs-european-commission_en"
+msgstr "https://ec.europa.eu/info/jobs-european-commission_fi"
+
+msgid "Jobs at the European Commission"
+msgstr "Työpaikat EU:n toimielimissä"
+
+msgid "https://ec.europa.eu/info/statistics_en"
+msgstr "https://ec.europa.eu/info/statistics_fi"
+
+msgid "Statistics"
+msgstr "Tilastot"
+
+msgid "https://ec.europa.eu/commission/presscorner/home/en"
+msgstr "https://ec.europa.eu/commission/presscorner/home/fi"
+
+msgid "News"
+msgstr "Uutiset"
+
+msgid "https://ec.europa.eu/info/events_en"
+msgstr "https://ec.europa.eu/info/events_fi"
+
+msgid "Events"
+msgstr "Tapahtumat"
+
+msgid "https://ec.europa.eu/info/publications_en"
+msgstr "https://ec.europa.eu/info/publications_fi"
+
+msgid "Publications"
+msgstr "Julkaisut"
+
+msgid "https://ec.europa.eu/info/about-european-commission/contact_en"
+msgstr "https://ec.europa.eu/info/about-european-commission/contact_fi"
+
+msgid "Contact the European Commission"
+msgstr "Yhteydenotot Euroopan komissioon"
 
 msgid "https://europa.eu/european-union/contact/social-networks_en#n:+i:4+e:1+t:+s"
 msgstr "https://europa.eu/european-union/contact/social-networks_fi#n:+i:4+e:1+t:+s"
 
-msgid "Other social media"
-msgstr "Muut yhteisöpalvelut"
-
-msgid "European Union"
-msgstr "Euroopan unioni"
-
-msgid "https://europa.eu/european-union/about-eu/institutions-bodies_en"
-msgstr "https://europa.eu/european-union/about-eu/institutions-bodies_fi"
-
-msgid "EU institutions"
-msgstr "EU:n toimielimeti"
-
-msgid "https://europa.eu/european-union/index_en"
-msgstr "https://europa.eu/european-union/index_fi"
-
-msgid "https://ec.europa.eu/info/about-commissions-new-web-presence_en"
-msgstr "https://ec.europa.eu/info/about-commissions-new-web-presence_fi"
-
-msgid "About the Commission's new web presence"
-msgstr "Tietoa komission verkkosivujen uudistuksesta"
-
-msgid "https://ec.europa.eu/info/language-policy_en"
-msgstr "https://ec.europa.eu/info/language-policy_fi"
+msgid "Follow the European Commission on social media"
+msgstr "Seuraa Euroopan komissiota sosiaalisessa mediassa"
 
 msgid "https://ec.europa.eu/info/resources-partners_en"
-msgstr "http://ec.europa.eu/info/resources-partners_fi"
+msgstr "https://ec.europa.eu/info/resources-partners_fi"
 
 msgid "Resources for partners"
 msgstr "Apuvälineitä yhteistyökumppaneille"
+
+msgid "https://ec.europa.eu/info/language-policy_en"
+msgstr "https://ec.europa.eu/info/language-policy_fi"
 
 msgid "https://ec.europa.eu/info/cookies_en"
 msgstr "https://ec.europa.eu/info/cookies_fi"
@@ -184,11 +271,9 @@ msgstr "https://ec.europa.eu/info/privacy-policy_fi"
 msgid "https://ec.europa.eu/info/legal-notice_en"
 msgstr "https://ec.europa.eu/info/legal-notice_fi"
 
-msgid "https://ec.europa.eu/info/contact_en"
-msgstr "https://ec.europa.eu/info/contact_fi"
+msgid "https://ec.europa.eu/info/brexit-content-disclaimer_en"
+msgstr "https://ec.europa.eu/info/brexit-content-disclaimer_fi"
 
-msgid "Contact"
-msgstr "Yhteydenotot"
+msgid "Brexit content disclaimer"
+msgstr "Brexit – sisällön vastuuvapauslauseke"
 
-msgid "Policies, information and services"
-msgstr "Politiikan alat, palvelut, tietolähteet"
