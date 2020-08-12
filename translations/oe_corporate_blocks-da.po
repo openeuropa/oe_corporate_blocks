@@ -4,29 +4,41 @@ msgstr ""
 msgid "Contact the EU"
 msgstr "Kontakt EU"
 
+msgid "tel:0080067891011"
+msgstr "tel:0080067891011"
+
+msgid "Call us 00 800 6 7 8 9 10 11"
+msgstr "Ring til os på 00 800 6 7 8 9 10 11"
+
+msgid "https://europa.eu/european-union/contact/call-us_en"
+msgstr "https://europa.eu/european-union/contact/call-us_da"
+
+msgid "Use other telephone options"
+msgstr "Brug andre muligheder for telefonhenvendelse"
+
+msgid "https://europa.eu/european-union/contact/write-to-us_en"
+msgstr "https://europa.eu/european-union/contact/write-to-us_da"
+
+msgid "Write to us via our contact form"
+msgstr "Skriv til os via kontaktformularen"
+
+msgid "https://europa.eu/european-union/contact/meet-us_en"
+msgstr "https://europa.eu/european-union/contact/meet-us_da"
+
+msgid "Meet us at a local EU office"
+msgstr "Mød os på et lokalt EU-kontor"
+
 msgid "Find a social media account"
 msgstr "Find en konto på de sociale medier"
-
-msgid "EU institutions"
-msgstr "Kontakt EU"
-
-msgid "Call us <a href=\"tel:0080067891011\">00 800 6 7 8 9 10 11</a>"
-msgstr "Ring til os på <a href=\"tel:0080067891011\">00 800 6 7 8 9 10 11</a>"
-
-msgid "Use other <a href=\"https://europa.eu/european-union/contact/call-us_en\">telephone options</a>"
-msgstr "Brug andre muligheder for <a href=\"https://europa.eu/european-union/contact/call-us_da\">telefonhenvendelse</a>"
-
-msgid "Write to us via our <a href=\"https://europa.eu/european-union/contact/write-to-us_en\">contact form</a>"
-msgstr "Skriv til os via <a href=\"https://europa.eu/european-union/contact/write-to-us_da\">kontaktformularen</a>"
-
-msgid "Meet us at a <a href=\"https://europa.eu/european-union/contact/meet-us_en\">local EU office</a>"
-msgstr "Mød os på et <a href=\"https://europa.eu/european-union/contact/meet-us_da\">lokalt EU-kontor</a>"
 
 msgid "Search for EU social media channels"
 msgstr "Find EU på de sociale medier"
 
 msgid "https://europa.eu/european-union/contact/social-networks_en"
 msgstr "https://europa.eu/european-union/contact/social-networks_da"
+
+msgid "EU institutions"
+msgstr "Kontakt EU"
 
 msgid "European Parliament"
 msgstr "Europa-Parlamentet"

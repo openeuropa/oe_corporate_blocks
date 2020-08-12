@@ -52,8 +52,7 @@ oe_corporate_blocks.eu_data.footer:
       type: sequence
       label: 'Contact information'
       sequence:
-        translatable: true
-        type: string
+        type: oe_corporate_blocks.footer.link
     social_media_title:
       type: string
       label: 'Title of social media column'

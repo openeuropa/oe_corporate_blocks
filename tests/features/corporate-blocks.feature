@@ -84,42 +84,42 @@ Feature: Corporate blocks feature
     And I should see "EU institutions" in the "eu_footer" region
     And I should see "Legal" in the "eu_footer_bottom_title" region
     And the region "eu_footer" contains the links:
-      | 00 800 6 7 8 9 10 11                          | tel:0080067891011                                            |
-      | telephone options                             | https://europa.eu/european-union/contact/call-us_en          |
-      | contact form                                  | https://europa.eu/european-union/contact/write-to-us_en      |
-      | local EU office                               | https://europa.eu/european-union/contact/meet-us_en          |
+      | Call us 00 800 6 7 8 9 10 11                  | tel:0080067891011                                               |
+      | Use other telephone options                   | https://europa.eu/european-union/contact/call-us_en             |
+      | Write to us via our contact form              | https://europa.eu/european-union/contact/write-to-us_en         |
+      | Meet us at a local EU office                  | https://europa.eu/european-union/contact/meet-us_en             |
 
-      | Search for EU social media channels           | https://europa.eu/european-union/contact/social-networks_en  |
+      | Search for EU social media channels           | https://europa.eu/european-union/contact/social-networks_en     |
 
-      | European Parliament                           | http://www.europarl.europa.eu/portal/                        |
-      | European Council                              | http://www.consilium.europa.eu/en/european-council/          |
-      | Council of the European Union                 | http://www.consilium.europa.eu/en/home/                      |
-      | European Commission                           | https://ec.europa.eu/commission/index_en                     |
-      | Court of Justice of the European Union (CJEU) | http://curia.europa.eu/jcms/jcms/j_6/en/                     |
-      | European Central Bank (ECB)                   | https://www.ecb.europa.eu/home/html/index.en.html            |
-      | European Court of Auditors (ECA)              | http://www.eca.europa.eu/en                                  |
-      | European External Action Service (EEAS)       | https://eeas.europa.eu/headquarters/headquarters-homepage_en |
-      | European Economic and Social Committee (EESC) | http://www.eesc.europa.eu/?i=portal.en.home                  |
-      | European Committee of the Regions (CoR)       | http://cor.europa.eu/en/                                     |
-      | European Investment Bank (EIB)                | https://www.eib.org/en/index.htm                             |
-      | European Data Protection Supervisor (EDPS)    | https://secure.edps.europa.eu/EDPSWEB/edps/EDPS?lang=en      |
+      | European Parliament                           | http://www.europarl.europa.eu/portal/                           |
+      | European Council                              | http://www.consilium.europa.eu/en/european-council/             |
+      | Council of the European Union                 | http://www.consilium.europa.eu/en/home/                         |
+      | European Commission                           | https://ec.europa.eu/commission/index_en                        |
+      | Court of Justice of the European Union (CJEU) | http://curia.europa.eu/jcms/jcms/j_6/en/                        |
+      | European Central Bank (ECB)                   | https://www.ecb.europa.eu/home/html/index.en.html               |
+      | European Court of Auditors (ECA)              | http://www.eca.europa.eu/en                                     |
+      | European External Action Service (EEAS)       | https://eeas.europa.eu/headquarters/headquarters-homepage_en    |
+      | European Economic and Social Committee (EESC) | http://www.eesc.europa.eu/?i=portal.en.home                     |
+      | European Committee of the Regions (CoR)       | http://cor.europa.eu/en/                                        |
+      | European Investment Bank (EIB)                | https://www.eib.org/en/index.htm                                |
+      | European Data Protection Supervisor (EDPS)    | https://secure.edps.europa.eu/EDPSWEB/edps/EDPS?lang=en         |
 
-      | About this site                               | https://europa.eu/european-union/abouteuropa_en                               |
-      | Language policy                               | https://europa.eu/european-union/abouteuropa/language-policy_en               |
-      | Privacy policy                                | https://europa.eu/european-union/abouteuropa/privacy-policy_en                |
-      | Legal notice                                  | https://europa.eu/european-union/abouteuropa/legal_notices_en                 |
-      | Brexit content disclaimer                     | https://europa.eu/european-union/brexit-content-disclaimer_en                 |
-      | Cookies                                       | https://europa.eu/european-union/abouteuropa/cookies_en                       |
+      | About this site                               | https://europa.eu/european-union/abouteuropa_en                 |
+      | Language policy                               | https://europa.eu/european-union/abouteuropa/language-policy_en |
+      | Privacy policy                                | https://europa.eu/european-union/abouteuropa/privacy-policy_en  |
+      | Legal notice                                  | https://europa.eu/european-union/abouteuropa/legal_notices_en   |
+      | Brexit content disclaimer                     | https://europa.eu/european-union/brexit-content-disclaimer_en   |
+      | Cookies                                       | https://europa.eu/european-union/abouteuropa/cookies_en         |
     And the region "eu_footer" does not contain the links:
       | Presidency of the Council of the EU | https://www.romania2019.eu/home/ |
 
     When I click "français" in the "header"
     Then I should see "Institutions de l’UE" in the "eu_footer" region
     And the region "eu_footer" contains the links:
-      | 00 800 6 7 8 9 10 11                                   | tel:0080067891011                                                |
-      | options téléphoniques                                  | https://europa.eu/european-union/contact/call-us_fr              |
-      | formulaire de contact                                  | https://europa.eu/european-union/contact/write-to-us_fr          |
-      | bureau local de l’UE                                   | https://europa.eu/european-union/contact/meet-us_fr              |
+      | Appelez-nous au 00 800 6 7 8 9 10 11                   | tel:0080067891011                                                |
+      | Utilisez d'autres options téléphoniques                | https://europa.eu/european-union/contact/call-us_fr              |
+      | Écrivez-nous au moyen de notre formulaire de contact   | https://europa.eu/european-union/contact/write-to-us_fr          |
+      | Rencontrez-nous dans un bureau local de l’UE           | https://europa.eu/european-union/contact/meet-us_fr              |
 
       | Rechercher les comptes de l’UE sur les réseaux sociaux | https://europa.eu/european-union/contact/social-networks_fr      |
 
@@ -136,12 +136,12 @@ Feature: Corporate blocks feature
       | Banque européenne d'investissement (BEI)               | https://www.eib.org/fr/index.htm                                 |
       | Contrôleur européen de la protection des données       | https://secure.edps.europa.eu/EDPSWEB/edps/EDPS?lang=fr          |
 
-      | À propos de ce site                                    | https://europa.eu/european-union/abouteuropa_fr                                   |
-      | Politique linguistique                                 | https://europa.eu/european-union/abouteuropa/language-policy_fr                   |
-      | Protection de la vie privée                            | https://europa.eu/european-union/abouteuropa/privacy-policy_fr                    |
-      | Avis juridique                                         | https://europa.eu/european-union/abouteuropa/legal_notices_fr                     |
-      | Brexit: clause de non-responsabilité                   | https://europa.eu/european-union/brexit-content-disclaimer_fr                 |
-      | Cookies                                                | https://europa.eu/european-union/abouteuropa/cookies_fr                           |
+      | À propos de ce site                                    | https://europa.eu/european-union/abouteuropa_fr                  |
+      | Politique linguistique                                 | https://europa.eu/european-union/abouteuropa/language-policy_fr  |
+      | Protection de la vie privée                            | https://europa.eu/european-union/abouteuropa/privacy-policy_fr   |
+      | Avis juridique                                         | https://europa.eu/european-union/abouteuropa/legal_notices_fr    |
+      | Brexit: clause de non-responsabilité                   | https://europa.eu/european-union/brexit-content-disclaimer_fr    |
+      | Cookies                                                | https://europa.eu/european-union/abouteuropa/cookies_fr          |
     And the region "eu_footer" does not contain the links:
       | Présidence du Conseil de l'UE | https://www.romania2019.eu/page-daccueil/ |
 

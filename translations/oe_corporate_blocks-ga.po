@@ -4,29 +4,41 @@ msgstr ""
 msgid "Contact the EU"
 msgstr "Déan teagmháil leis an Aontas Eorpach"
 
+msgid "tel:0080067891011"
+msgstr "tel:0080067891011"
+
+msgid "Call us 00 800 6 7 8 9 10 11"
+msgstr "Glaoigh orainn ar 00 800 6 7 8 9 10 11"
+
+msgid "https://europa.eu/european-union/contact/call-us_en"
+msgstr "https://europa.eu/european-union/contact/call-us_ga"
+
+msgid "Use other telephone options"
+msgstr "Úsáid roghanna teileafóin eile"
+
+msgid "https://europa.eu/european-union/contact/write-to-us_en"
+msgstr "https://europa.eu/european-union/contact/write-to-us_ga"
+
+msgid "Write to us via our contact form"
+msgstr "Scríobh chugainn tríd an bhfoirm theagmhála"
+
+msgid "https://europa.eu/european-union/contact/meet-us_en"
+msgstr "https://europa.eu/european-union/contact/meet-us_ga"
+
+msgid "Meet us at a local EU office"
+msgstr "Buail linn in oifig áitiúil de chuid an Aontais"
+
 msgid "Find a social media account"
 msgstr "Cuntas sna meáin shóisialta a aimsiú"
-
-msgid "EU institutions"
-msgstr "Institiúidí an Aontais Eorpaigh"
-
-msgid "Call us <a href=\"tel:0080067891011\">00 800 6 7 8 9 10 11</a>"
-msgstr "Glaoigh orainn ar <a href=\"tel:0080067891011\">00 800 6 7 8 9 10 11</a>"
-
-msgid "Use other <a href=\"https://europa.eu/european-union/contact/call-us_en\">telephone options</a>"
-msgstr "Úsáid <a href=\"https://europa.eu/european-union/contact/call-us_ga\">roghanna teileafóin eile</a>"
-
-msgid "Write to us via our <a href=\"https://europa.eu/european-union/contact/write-to-us_en\">contact form</a>"
-msgstr "Scríobh chugainn tríd an <a href=\"https://europa.eu/european-union/contact/write-to-us_ga\">bhfoirm theagmhála</a>"
-
-msgid "Meet us at a <a href=\"https://europa.eu/european-union/contact/meet-us_en\">local EU office</a>"
-msgstr "Buail linn in <a href=\"https://europa.eu/european-union/contact/meet-us_ga\">oifig áitiúil de chuid an Aontais</a>"
 
 msgid "Search for EU social media channels"
 msgstr "Cainéil an Aontais Eorpaigh ar na meáin shóisialta a chuardach"
 
 msgid "https://europa.eu/european-union/contact/social-networks_en"
 msgstr "https://europa.eu/european-union/contact/social-networks_ga"
+
+msgid "EU institutions"
+msgstr "Institiúidí an Aontais Eorpaigh"
 
 msgid "European Parliament"
 msgstr "Parlaimint na hEorpa"

@@ -4,29 +4,41 @@ msgstr ""
 msgid "Contact the EU"
 msgstr "Võtke ELiga ühendust"
 
+msgid "tel:0080067891011"
+msgstr "tel:0080067891011"
+
+msgid "Call us 00 800 6 7 8 9 10 11"
+msgstr "Helistage meile 00 800 6 7 8 9 10 11"
+
+msgid "https://europa.eu/european-union/contact/call-us_en"
+msgstr "https://europa.eu/european-union/contact/call-us_et"
+
+msgid "Use other telephone options"
+msgstr "Kasutage ka muid helistamisvõimalusi"
+
+msgid "https://europa.eu/european-union/contact/write-to-us_en"
+msgstr "https://europa.eu/european-union/contact/write-to-us_et"
+
+msgid "Write to us via our contact form"
+msgstr "Kirjutage meile kontaktvormi vahendusel"
+
+msgid "https://europa.eu/european-union/contact/meet-us_en"
+msgstr "https://europa.eu/european-union/contact/meet-us_et"
+
+msgid "Meet us at a local EU office"
+msgstr "Külastage meid kohalikus ELi esinduses"
+
 msgid "Find a social media account"
 msgstr "Leidke sotsiaalmeediakonto"
-
-msgid "EU institutions"
-msgstr "ELi institutsioonid"
-
-msgid "Call us <a href=\"tel:0080067891011\">00 800 6 7 8 9 10 11</a>"
-msgstr "Helistage meile <a href=\"tel:0080067891011\">00 800 6 7 8 9 10 11</a>"
-
-msgid "Use other <a href=\"https://europa.eu/european-union/contact/call-us_en\">telephone options</a>"
-msgstr "Kasutage ka muid <a href=\"https://europa.eu/european-union/contact/call-us_et\">helistamisvõimalusi</a>"
-
-msgid "Write to us via our <a href=\"https://europa.eu/european-union/contact/write-to-us_en\">contact form</a>"
-msgstr "Kirjutage meile <a href=\"https://europa.eu/european-union/contact/write-to-us_et\">kontaktvormi vahendusel</a>"
-
-msgid "Meet us at a <a href=\"https://europa.eu/european-union/contact/meet-us_en\">local EU office</a>"
-msgstr "Külastage meid <a href=\"https://europa.eu/european-union/contact/meet-us_et\">kohalikus ELi esinduses</a>"
 
 msgid "Search for EU social media channels"
 msgstr "Kasutage ELi sotsiaalmeedia kanaleid"
 
 msgid "https://europa.eu/european-union/contact/social-networks_en"
 msgstr "https://europa.eu/european-union/contact/social-networks_et"
+
+msgid "EU institutions"
+msgstr "ELi institutsioonid"
 
 msgid "European Parliament"
 msgstr "Euroopa Parlament"

@@ -4,29 +4,41 @@ msgstr ""
 msgid "Contact the EU"
 msgstr "За контакти с ЕС"
 
+msgid "tel:0080067891011"
+msgstr "tel:0080067891011"
+
+msgid "Call us 00 800 6 7 8 9 10 11"
+msgstr "Обадете ни се на 00 800 6 7 8 9 10 11"
+
+msgid "https://europa.eu/european-union/contact/call-us_en"
+msgstr "https://europa.eu/european-union/contact/call-us_bg"
+
+msgid "Use other telephone options"
+msgstr "Използвайте други телефонни номера"
+
+msgid "https://europa.eu/european-union/contact/write-to-us_en"
+msgstr "https://europa.eu/european-union/contact/write-to-us_bg"
+
+msgid "Write to us via our contact form"
+msgstr "Пишете ни чрез формуляра за връзка"
+
+msgid "https://europa.eu/european-union/contact/meet-us_en"
+msgstr "https://europa.eu/european-union/contact/meet-us_bg"
+
+msgid "Meet us at a local EU office"
+msgstr "Постете ни в местен център на ЕС"
+
 msgid "Find a social media account"
 msgstr "Намерете профил в социална медия"
 
-msgid "EU institutions"
-msgstr "Институции на ЕС"
-
-msgid "Call us <a href=\"tel:0080067891011\">00 800 6 7 8 9 10 11</a>"
-msgstr "Обадете ни се на <a href=\"tel:0080067891011\">00 800 6 7 8 9 10 11</a>"
-
-msgid "Use other <a href=\"https://europa.eu/european-union/contact/call-us_en\">telephone options</a>"
-msgstr "Използвайте други <a href=\"https://europa.eu/european-union/contact/call-us_bg\">телефонни номера</a>"
-
-msgid "Write to us via our <a href=\"https://europa.eu/european-union/contact/write-to-us_en\">contact form</a>"
-msgstr "Пишете ни чрез <a href=\"https://europa.eu/european-union/contact/write-to-us_bg\">формуляра за връзка</a>"
-
-msgid "Meet us at a <a href=\"https://europa.eu/european-union/contact/meet-us_en\">local EU office</a>"
-msgstr "Постете ни в <a href=\"https://europa.eu/european-union/contact/meet-us_bg\">местен център на ЕС</a>"
-
 msgid "Search for EU social media channels"
-msgstr "ЕС в социалните медии "
+msgstr "ЕС в социалните медии"
 
 msgid "https://europa.eu/european-union/contact/social-networks_en"
 msgstr "https://europa.eu/european-union/contact/social-networks_bg"
+
+msgid "EU institutions"
+msgstr "Институции на ЕС"
 
 msgid "European Parliament"
 msgstr "Европейски парламент"

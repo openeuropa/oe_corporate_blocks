@@ -32,13 +32,6 @@ class EuFooterBlock extends FooterBlockBase implements ContainerFactoryPluginInt
     $build['#theme'] = 'oe_corporate_blocks_eu_footer';
 
     $data = $config->get();
-    if (!empty($data['contact'])) {
-      foreach ($data['contact'] as &$contact_item) {
-        $contact_item = [
-          '#markup' => $contact_item,
-        ];
-      }
-    }
     if (!empty($data['content_owner_details'])) {
       $data['content_owner_details'] = [
         '#markup' => $data['content_owner_details'],

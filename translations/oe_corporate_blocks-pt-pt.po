@@ -4,29 +4,41 @@ msgstr ""
 msgid "Contact the EU"
 msgstr "Contacte a UE"
 
+msgid "tel:0080067891011"
+msgstr "tel:0080067891011"
+
+msgid "Call us 00 800 6 7 8 9 10 11"
+msgstr "Ligue para o 00 800 6 7 8 9 10 11"
+
+msgid "https://europa.eu/european-union/contact/call-us_en"
+msgstr "https://europa.eu/european-union/contact/call-us_pt"
+
+msgid "Use other telephone options"
+msgstr "Use outros números"
+
+msgid "https://europa.eu/european-union/contact/write-to-us_en"
+msgstr "https://europa.eu/european-union/contact/write-to-us_pt"
+
+msgid "Write to us via our contact form"
+msgstr "Contacte-nos através do formulário"
+
+msgid "https://europa.eu/european-union/contact/meet-us_en"
+msgstr "https://europa.eu/european-union/contact/meet-us_pt"
+
+msgid "Meet us at a local EU office"
+msgstr "Contacte-nos no gabinete local da UE"
+
 msgid "Find a social media account"
 msgstr "A UE nas redes sociais"
-
-msgid "EU institutions"
-msgstr "Instituições da UE"
-
-msgid "Call us <a href=\"tel:0080067891011\">00 800 6 7 8 9 10 11</a>"
-msgstr "Ligue para o <a href=\"tel:0080067891011\">00 800 6 7 8 9 10 11</a>"
-
-msgid "Use other <a href=\"https://europa.eu/european-union/contact/call-us_en\">telephone options</a>"
-msgstr "Use outros <a href=\"https://europa.eu/european-union/contact/call-us_pt\">números</a>"
-
-msgid "Write to us via our <a href=\"https://europa.eu/european-union/contact/write-to-us_en\">contact form</a>"
-msgstr "Contacte-nos através do <a href=\"https://europa.eu/european-union/contact/write-to-us_pt\">formulário</a>"
-
-msgid "Meet us at a <a href=\"https://europa.eu/european-union/contact/meet-us_en\">local EU office</a>"
-msgstr "Contacte-nos no <a href=\"https://europa.eu/european-union/contact/meet-us_pt\">gabinete local da UE</a>"
 
 msgid "Search for EU social media channels"
 msgstr "Procure as contas da UE nas redes sociais"
 
 msgid "https://europa.eu/european-union/contact/social-networks_en"
 msgstr "https://europa.eu/european-union/contact/social-networks_pt"
+
+msgid "EU institutions"
+msgstr "Instituições da UE"
 
 msgid "European Parliament"
 msgstr "Parlamento Europeu"

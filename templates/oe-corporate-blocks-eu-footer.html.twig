@@ -51,7 +51,7 @@
     <ul class="footer__list">
       {% for menu_item in corporate_footer.contact %}
         <li class="footer__list-item">
-          {{ menu_item }}
+          {{ link(menu_item.label, menu_item.href) }}
         </li>
       {% endfor %}
     </ul>

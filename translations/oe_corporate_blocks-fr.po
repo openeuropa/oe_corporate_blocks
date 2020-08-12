@@ -4,29 +4,44 @@ msgstr ""
 msgid "Contact the EU"
 msgstr "Contacter l'UE"
 
+msgid "tel:0080067891011"
+msgstr "tel:0080067891011"
+
+msgid "Call us 00 800 6 7 8 9 10 11"
+msgstr "Appelez-nous au 00 800 6 7 8 9 10 11"
+
+msgid "https://europa.eu/european-union/contact/call-us_en"
+msgstr "https://europa.eu/european-union/contact/call-us_fr"
+
+msgid "Use other telephone options"
+msgstr "Utilisez d'autres options téléphoniques"
+
+msgid "https://europa.eu/european-union/contact/write-to-us_en"
+msgstr "https://europa.eu/european-union/contact/write-to-us_fr"
+
+msgid "Write to us via our contact form"
+msgstr "Écrivez-nous au moyen de notre formulaire de contact"
+
+msgid "https://europa.eu/european-union/contact/meet-us_en"
+msgstr "https://europa.eu/european-union/contact/meet-us_fr"
+
+msgid "Meet us at a local EU office"
+msgstr "Rencontrez-nous dans un bureau local de l’UE"
+
 msgid "Find a social media account"
 msgstr "Réseaux sociaux: trouver un compte"
-
-msgid "EU institutions"
-msgstr "Institutions de l’UE"
-
-msgid "Call us <a href=\"tel:0080067891011\">00 800 6 7 8 9 10 11</a>"
-msgstr "Appelez-nous au <a href=\"tel:0080067891011\">00 800 6 7 8 9 10 11</a>"
-
-msgid "Use other <a href=\"https://europa.eu/european-union/contact/call-us_en\">telephone options</a>"
-msgstr "Utilisez d'autres <a href=\"https://europa.eu/european-union/contact/call-us_fr\">options téléphoniques</a>"
-
-msgid "Write to us via our <a href=\"https://europa.eu/european-union/contact/write-to-us_en\">contact form</a>"
-msgstr "Écrivez-nous au moyen de notre <a href=\"https://europa.eu/european-union/contact/write-to-us_fr\">formulaire de contact</a>"
-
-msgid "Meet us at a <a href=\"https://europa.eu/european-union/contact/meet-us_en\">local EU office</a>"
-msgstr "Rencontrez-nous dans un <a href=\"https://europa.eu/european-union/contact/meet-us_fr\">bureau local de l’UE</a>"
 
 msgid "Search for EU social media channels"
 msgstr "Rechercher les comptes de l’UE sur les réseaux sociaux"
 
 msgid "https://europa.eu/european-union/contact/social-networks_en"
 msgstr "https://europa.eu/european-union/contact/social-networks_fr"
+
+msgid "EU institutions"
+msgstr "Institutions de l’UE"
+
+msgid "European Parliament"
+msgstr "Parlement européen"
 
 msgid "http://www.europarl.europa.eu/portal/"
 msgstr "http://www.europarl.europa.eu/portal/fr"
