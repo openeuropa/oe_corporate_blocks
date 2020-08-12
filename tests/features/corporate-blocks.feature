@@ -123,7 +123,7 @@ Feature: Corporate blocks feature
 
       | Rechercher les comptes de l’UE sur les réseaux sociaux | https://europa.eu/european-union/contact/social-networks_fr      |
 
-      | European Parliament                                    | http://www.europarl.europa.eu/portal/fr                          |
+      | Parlement européen                                     | http://www.europarl.europa.eu/portal/fr                          |
       | Conseil européen                                       | http://www.consilium.europa.eu/fr/european-council/              |
       | Conseil de l'Union européenne                          | http://www.consilium.europa.eu/fr/home/                          |
       | Commission européenne                                  | https://ec.europa.eu/commission/index_fr                         |
