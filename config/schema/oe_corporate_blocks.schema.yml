@@ -108,6 +108,9 @@ oe_corporate_blocks.footer_link.general.*:
       label: 'URL'
       translatable: true
       form_element_class: '\Drupal\config_translation\FormElement\Textfield'
+    section:
+      type: label
+      label: 'Section'
     weight:
       type: integer
       label: 'Weight'
