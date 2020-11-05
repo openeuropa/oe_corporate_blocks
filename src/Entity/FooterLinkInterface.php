@@ -21,6 +21,22 @@ interface FooterLinkInterface extends ConfigEntityInterface {
   public function getUrl(): Url;
 
   /**
+   * Get the footer link section.
+   *
+   * @return string
+   *   The footer link section.
+   */
+  public function getSection(): string;
+
+  /**
+   * Set the footer link section.
+   *
+   * @param string $section
+   *   The section of footer link.
+   */
+  public function setSection(string $section): void;
+
+  /**
    * Get the footer link weight.
    *
    * @return int

@@ -29,12 +29,14 @@ use Drupal\Core\Url;
  *     "id" = "id",
  *     "label" = "label",
  *     "uuid" = "uuid",
+ *     "section" = "section",
  *     "weight" = "weight"
  *   },
  *   config_export = {
  *     "id",
  *     "label",
  *     "url",
+ *     "section" = "section",
  *     "weight"
  *   },
  *   links = {
@@ -73,6 +75,20 @@ class FooterLinkGeneral extends ConfigEntityBase implements FooterLinkInterface 
       $input = 'internal:' . $input;
     }
     return Url::fromUri($input);
+  }
+
+  /**
+   * {@inheritdoc}
+   */
+  public function getSection(): string {
+    return $this->get('section');
+  }
+
+  /**
+   * {@inheritdoc}
+   */
+  public function setSection($section): void {
+    $this->set($section);
   }
 
   /**
