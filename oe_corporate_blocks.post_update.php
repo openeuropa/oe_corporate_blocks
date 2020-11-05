@@ -109,3 +109,16 @@ function oe_corporate_blocks_post_update_20004(&$sandbox): void {
   $config->set('institution_links', $institution_links);
   $config->save();
 }
+
+/**
+ * Add for all existing Footer General Links default section "Related sites".
+ */
+function oe_corporate_blocks_post_update_20005(&$sandbox): void {
+  /** @var \Drupal\oe_corporate_blocks\Entity\FooterLinkGeneral[] $general_links */
+  $general_links = \Drupal::entityTypeManager()->getStorage('footer_link_general')->loadMultiple();
+  foreach ($general_links as $general_link) {
+    $general_link->setSection('related_sites');
+    $general_link->save();
+  }
+
+}
