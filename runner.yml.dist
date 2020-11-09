@@ -10,6 +10,9 @@ drupal:
     name: "oe_corporate_blocks"
     user: "root"
     password: ""
+  sparql:
+    host: "sparql"
+    port: "8890"
   post_install:
     # Prepare the instance.
     - "./vendor/bin/drush en toolbar -y"
@@ -34,6 +37,14 @@ drupal:
         - "bower_components"
         - "vendor"
         - "${drupal.root}"
+    databases:
+      sparql_default:
+        default:
+          prefix: ""
+          host: ${drupal.sparql.host}
+          port: ${drupal.sparql.port}
+          namespace: 'Drupal\Driver\Database\sparql'
+          driver: 'sparql'
 
 commands:
   drupal:site-setup:
@@ -46,3 +57,11 @@ commands:
     - { task: "process", source: "phpunit.xml.dist", destination: "phpunit.xml" }
   setup:behat:
     - { task: "process", source: "behat.yml.dist", destination: "behat.yml" }
+  # Use the following commands only if you can run Task Runner commands on your host machine.
+  sparql:purge:
+    - "docker-compose exec sparql ./vendor/bin/robo purge"
+  sparql:import:
+    - "docker-compose exec sparql ./vendor/bin/robo import"
+  sparql:reset:
+    - { task: "run", command: "sparql:purge" }
+    - { task: "run", command: "sparql:import" }
