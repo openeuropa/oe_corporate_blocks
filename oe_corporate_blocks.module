@@ -33,3 +33,27 @@ function oe_corporate_blocks_theme() {
 function oe_corporate_blocks_locale_translation_projects_alter(&$projects) {
   $projects['oe_corporate_blocks']['info']['interface translation server pattern'] = drupal_get_path('module', 'oe_corporate_blocks') . '/translations/%project-%language.po';
 }
+
+/**
+ * Implements hook_preprocess().
+ */
+function template_preprocess_oe_corporate_blocks_ec_footer(array &$variables): void {
+  $site_owner = \Drupal::configFactory()->get('oe_corporate_site_info.settings')->get('site_owner');
+  if ($site_owner) {
+    $entity = \Drupal::entityTypeManager()->getStorage('skos_concept')->load($site_owner);
+    $translation = \Drupal::service('entity.repository')->getTranslationFromContext($entity);
+    $variables['site_owner'] = t('This site is managed by the @name', ['@name' => $translation->label()]);
+  }
+}
+
+/**
+ * Implements hook_preprocess().
+ */
+function template_preprocess_oe_corporate_blocks_eu_footer(array &$variables): void {
+  $site_owner = \Drupal::configFactory()->get('oe_corporate_site_info.settings')->get('site_owner');
+  if ($site_owner) {
+    $entity = \Drupal::entityTypeManager()->getStorage('skos_concept')->load($site_owner);
+    $translation = \Drupal::service('entity.repository')->getTranslationFromContext($entity);
+    $variables['site_owner'] = t('This site is managed by the European Commission, @name', ['@name' => $translation->label()]);
+  }
+}

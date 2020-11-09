@@ -40,7 +40,7 @@ Feature: Corporate blocks feature
       | Brexit content disclaimer                        | https://ec.europa.eu/info/brexit-content-disclaimer_en                      |
 
     When I click "français" in the "header"
-    Then I should see "Ce site est géré par la direction générale de la communication" in the "ec_footer" region
+    Then I should see "Ce site est géré par la Direction générale de la communication" in the "ec_footer" region
     And the region "ec_footer" contains the links:
       | Site web de la Commission européenne                      | https://ec.europa.eu/info/index_fr                                          |
       | Stratégie                                                 | https://ec.europa.eu/info/strategy_fr                                       |
@@ -79,7 +79,7 @@ Feature: Corporate blocks feature
       | en        |
       | fr        |
     When I am on "the <path> page"
-    Then I should see "This site is managed by the European Commission, Directorate-General for Communication (DG COMM)" in the "eu_footer" region
+    Then I should see "This site is managed by the European Commission, Directorate-General for Communication" in the "eu_footer" region
     And I should see "Social media" in the "eu_footer" region
     And I should see "EU institutions" in the "eu_footer" region
     And I should see "Legal" in the "eu_footer_bottom_title" region
@@ -149,7 +149,6 @@ Feature: Corporate blocks feature
       | path  |
       | home  |
       | login |
-
 
   Scenario Outline: The custom footer block shows the correct links in different languages
     Given I am on "the <path> page"
