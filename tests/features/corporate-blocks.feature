@@ -9,8 +9,9 @@ Feature: Corporate blocks feature
       | languages |
       | en        |
       | fr        |
+    And I set the site owner to "Directorate-General for Informatics"
     When I am on "the <path> page"
-    Then I should see "This site is managed by the Directorate-General for Communication" in the "ec_footer" region
+    Then I should see "This site is managed by the Directorate-General for Informatics" in the "ec_footer" region
     And the region "ec_footer" contains the links:
       | European Commission website                      | https://ec.europa.eu/info/index_en                                          |
       | Strategy                                         | https://ec.europa.eu/info/strategy_en                                       |
@@ -40,7 +41,7 @@ Feature: Corporate blocks feature
       | Brexit content disclaimer                        | https://ec.europa.eu/info/brexit-content-disclaimer_en                      |
 
     When I click "français" in the "header"
-    Then I should see "Ce site est géré par la Direction générale de la communication" in the "ec_footer" region
+    Then I should see "Ce site est géré par la Direction générale de l'informatique" in the "ec_footer" region
     And the region "ec_footer" contains the links:
       | Site web de la Commission européenne                      | https://ec.europa.eu/info/index_fr                                          |
       | Stratégie                                                 | https://ec.europa.eu/info/strategy_fr                                       |
@@ -78,8 +79,9 @@ Feature: Corporate blocks feature
       | languages |
       | en        |
       | fr        |
+    And I set the site owner to "Directorate-General for Informatics"
     When I am on "the <path> page"
-    Then I should see "This site is managed by the European Commission, Directorate-General for Communication" in the "eu_footer" region
+    Then I should see "This site is managed by the European Commission, Directorate-General for Informatics" in the "eu_footer" region
     And I should see "Social media" in the "eu_footer" region
     And I should see "EU institutions" in the "eu_footer" region
     And I should see "Legal" in the "eu_footer_bottom_title" region

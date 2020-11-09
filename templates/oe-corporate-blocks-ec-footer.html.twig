@@ -51,7 +51,7 @@
       <h4 class="footer__site-name">{{ link(corporate_footer.site_name.label, corporate_footer.site_name.href) }}</h4>
     {% endif %}
     {% if site_owner is not empty %}
-      <span class="footer__content-owner-details">{{ site_owner }}</span>
+      <span class="footer__content-owner-details">{{ 'This site is managed by the @name'|t({'@name': site_owner}) }}</span>
     {% endif %}
     {% if corporate_footer.class_navigation is not empty %}
       <ul class="footer__list footer__class-navigation">

@@ -7,6 +7,8 @@
 
 declare(strict_types = 1);
 
+use Drupal\Core\Cache\CacheableMetadata;
+
 /**
  * Implements hook_theme().
  */
@@ -17,11 +19,17 @@ function oe_corporate_blocks_theme() {
         'corporate_footer' => [],
         'site_specific_footer' => [],
       ],
+      'preprocess functions' => [
+        'oe_corporate_blocks_preprocess_set_site_owner',
+      ],
     ],
     'oe_corporate_blocks_eu_footer' => [
       'variables' => [
         'corporate_footer' => [],
         'site_specific_footer' => [],
+      ],
+      'preprocess functions' => [
+        'oe_corporate_blocks_preprocess_set_site_owner',
       ],
     ],
   ];
@@ -35,25 +43,28 @@ function oe_corporate_blocks_locale_translation_projects_alter(&$projects) {
 }
 
 /**
- * Implements hook_preprocess().
+ * Set site owner on given render array, if any.
+ *
+ * This is set as preprocess function on oe_corporate_blocks_theme().
+ *
+ * @see oe_corporate_blocks_theme()
+ *
+ * @param array $variables
+ *   Render array variables.
  */
-function template_preprocess_oe_corporate_blocks_ec_footer(array &$variables): void {
-  $site_owner = \Drupal::configFactory()->get('oe_corporate_site_info.settings')->get('site_owner');
-  if ($site_owner) {
-    $entity = \Drupal::entityTypeManager()->getStorage('skos_concept')->load($site_owner);
-    $translation = \Drupal::service('entity.repository')->getTranslationFromContext($entity);
-    $variables['site_owner'] = t('This site is managed by the @name', ['@name' => $translation->label()]);
-  }
-}
+function oe_corporate_blocks_preprocess_set_site_owner(array &$variables): void {
+  $cacheability = CacheableMetadata::createFromRenderArray($variables);
+  $configuration = \Drupal::configFactory()->get('oe_corporate_site_info.settings');
+  $cacheability->addCacheableDependency($configuration);
 
-/**
- * Implements hook_preprocess().
- */
-function template_preprocess_oe_corporate_blocks_eu_footer(array &$variables): void {
-  $site_owner = \Drupal::configFactory()->get('oe_corporate_site_info.settings')->get('site_owner');
-  if ($site_owner) {
-    $entity = \Drupal::entityTypeManager()->getStorage('skos_concept')->load($site_owner);
-    $translation = \Drupal::service('entity.repository')->getTranslationFromContext($entity);
-    $variables['site_owner'] = t('This site is managed by the European Commission, @name', ['@name' => $translation->label()]);
+  /** @var \Drupal\oe_corporate_site_info\SiteInformationInterface $site_information */
+  $site_information = \Drupal::service('oe_corporate_site_info.site_information');
+  if (!$site_information->hasSiteOwner()) {
+    return;
   }
+
+  $entity = $site_information->getSiteOwner();
+  $translation = \Drupal::service('entity.repository')->getTranslationFromContext($entity);
+  $variables['site_owner'] = $translation->label();
+  $cacheability->addCacheableDependency($entity)->applyTo($variables);
 }
