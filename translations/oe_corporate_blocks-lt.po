@@ -148,8 +148,8 @@ msgstr "https://ec.europa.eu/info/index_lt"
 msgid "European Commission website"
 msgstr "Europos Komisijos interneto svetainė"
 
-msgid "This site is managed by the Directorate-General for Communication"
-msgstr "Šią svetainę tvarko Komunikacijos generalinis direktoratas"
+msgid "This site is managed by the @name"
+msgstr "Šią svetainę tvarko @name"
 
 msgid "https://ec.europa.eu/info/strategy_en"
 msgstr "https://ec.europa.eu/info/strategy_lt"

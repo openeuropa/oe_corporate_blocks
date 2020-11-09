@@ -142,8 +142,8 @@ msgstr "https://ec.europa.eu/info/index_cs"
 msgid "European Commission website"
 msgstr "Internetové stránky Evropské komise"
 
-msgid "This site is managed by the Directorate-General for Communication"
-msgstr "Tyto stránky spravuje Generální ředitelství pro komunikaci"
+msgid "This site is managed by the @name"
+msgstr "Tyto stránky spravuje @name"
 
 msgid "https://ec.europa.eu/info/strategy_en"
 msgstr "https://ec.europa.eu/info/strategy_cs"

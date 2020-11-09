@@ -1,20 +1,3 @@
-oe_corporate_blocks.ec_data.footer:
-  type: config_object
-  label: 'Data for EC corporate bocks.'
-  mapping:
-    site_name:
-      type: oe_corporate_blocks.footer.link
-    content_owner_details:
-      type: string
-      label: 'Content owner details'
-      translatable: true
-    class_navigation:
-      type: oe_corporate_blocks.footer.links
-    service_navigation:
-      type: oe_corporate_blocks.footer.links
-    legal_navigation:
-      type: oe_corporate_blocks.footer.links
-
 oe_corporate_blocks.footer.links:
   type: sequence
   label: 'A list of footer links'
@@ -37,13 +20,23 @@ oe_corporate_blocks.footer.link:
       label: 'The link label'
       translatable: true
 
+oe_corporate_blocks.ec_data.footer:
+  type: config_object
+  label: 'Data for EC corporate bocks.'
+  mapping:
+    site_name:
+      type: oe_corporate_blocks.footer.link
+    class_navigation:
+      type: oe_corporate_blocks.footer.links
+    service_navigation:
+      type: oe_corporate_blocks.footer.links
+    legal_navigation:
+      type: oe_corporate_blocks.footer.links
+
 oe_corporate_blocks.eu_data.footer:
   type: config_object
   label: 'Data for EU corporate bocks.'
   mapping:
-    content_owner_details:
-      type: string
-      label: 'Content owner details'
     contact_title:
       type: string
       label: 'Title of contact column'

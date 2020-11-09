@@ -1,7 +1,7 @@
+langcode: en
 site_name:
   href: 'https://ec.europa.eu/info/index_en'
   label: 'European Commission website'
-content_owner_details: 'This site is managed by the Directorate-General for Communication'
 class_navigation:
   -
     href: 'https://ec.europa.eu/info/strategy_en'

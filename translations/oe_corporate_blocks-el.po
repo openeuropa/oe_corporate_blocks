@@ -155,11 +155,8 @@ msgstr "https://ec.europa.eu/info/index_el"
 msgid "European Commission website"
 msgstr "Ιστότοπος της Ευρωπαϊκής Επιτροπής"
 
-msgid "This site is managed by the Directorate-General for Communication"
-msgstr ""
-"Αρμόδια για τη διαχείριση του "
-"ιστοτόπου είναι η Γενική Διεύθυνση "
-"Επικοινωνίας"
+msgid "This site is managed by the @name"
+msgstr "Αρμόδια για τη διαχείριση του ιστοτόπου είναι η @name"
 
 msgid "https://ec.europa.eu/info/strategy_en"
 msgstr "https://ec.europa.eu/info/strategy_el"

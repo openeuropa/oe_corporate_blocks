@@ -142,10 +142,8 @@ msgstr "https://ec.europa.eu/info/index_ga"
 msgid "European Commission website"
 msgstr "Suíomh gréasáin an Choimisiúin Eorpaigh"
 
-msgid "This site is managed by the Directorate-General for Communication"
-msgstr ""
-"Tá an suíomh seo á bhainistiú ag Ard-Stiúrthóireacht na "
-"Cumarsáide"
+msgid "This site is managed by the @name"
+msgstr "Tá an suíomh seo á bhainistiú ag @name"
 
 msgid "https://ec.europa.eu/info/strategy_en"
 msgstr "https://ec.europa.eu/info/strategy_ga"

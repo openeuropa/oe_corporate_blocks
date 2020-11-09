@@ -151,10 +151,8 @@ msgstr "https://ec.europa.eu/info/index_bg"
 msgid "European Commission website"
 msgstr "Уебсайт на Европейската комисия"
 
-msgid "This site is managed by the Directorate-General for Communication"
-msgstr ""
-"Този сайт се поддържа от генерална "
-"дирекция „Комуникации“"
+msgid "This site is managed by the @name"
+msgstr "Този сайт се поддържа от @name"
 
 msgid "https://ec.europa.eu/info/strategy_en"
 msgstr "https://ec.europa.eu/info/strategy_bg"

@@ -149,8 +149,8 @@ msgstr "https://ec.europa.eu/info/index_hu"
 msgid "European Commission website"
 msgstr "Az Európai Bizottság honlapja"
 
-msgid "This site is managed by the Directorate-General for Communication"
-msgstr "Ezt a honlapot a Kommunikációs Főigazgatóság kezeli"
+msgid "This site is managed by the @name"
+msgstr "Ezt a honlapot a @name kezeli"
 
 msgid "https://ec.europa.eu/info/strategy_en"
 msgstr "https://ec.europa.eu/info/strategy_hu"

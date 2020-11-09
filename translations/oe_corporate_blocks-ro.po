@@ -148,8 +148,8 @@ msgstr "https://ec.europa.eu/info/index_ro"
 msgid "European Commission website"
 msgstr "Site-ul Comisiei Europene"
 
-msgid "This site is managed by the Directorate-General for Communication"
-msgstr "Site administrat de Direcția Generală Comunicare"
+msgid "This site is managed by the @name"
+msgstr "Site administrat de @name"
 
 msgid "https://ec.europa.eu/info/strategy_en"
 msgstr "https://ec.europa.eu/info/strategy_ro"
