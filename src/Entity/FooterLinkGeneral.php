@@ -87,8 +87,8 @@ class FooterLinkGeneral extends ConfigEntityBase implements FooterLinkInterface 
   /**
    * {@inheritdoc}
    */
-  public function setSection($section): void {
-    $this->set($section);
+  public function setSection(string $section): void {
+    $this->set('section', $section);
   }
 
   /**
