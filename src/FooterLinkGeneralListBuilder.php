@@ -6,12 +6,48 @@ namespace Drupal\oe_corporate_blocks;
 
 use Drupal\Core\Config\Entity\DraggableListBuilder;
 use Drupal\Core\Entity\EntityInterface;
+use Drupal\Core\Entity\EntityStorageInterface;
+use Drupal\Core\Entity\EntityTypeInterface;
 use Drupal\Core\Form\FormStateInterface;
+use Symfony\Component\DependencyInjection\ContainerInterface;
 
 /**
  * Provides a listing of Footer general link item entities.
  */
 class FooterLinkGeneralListBuilder extends DraggableListBuilder {
+
+  /**
+   * Footer link section entity storage.
+   *
+   * @var \Drupal\Core\Entity\EntityStorageInterface
+   */
+  protected $sectionStorage;
+
+  /**
+   * FooterLinkGeneralListBuilder constructor.
+   *
+   * @param \Drupal\Core\Entity\EntityTypeInterface $entity_type
+   *   The entity type definition.
+   * @param \Drupal\Core\Entity\EntityStorageInterface $storage
+   *   The entity storage.
+   * @param \Drupal\Core\Entity\EntityStorageInterface $section_storage
+   *   The footer link section entity storage.
+   */
+  public function __construct(EntityTypeInterface $entity_type, EntityStorageInterface $storage, EntityStorageInterface $section_storage) {
+    parent::__construct($entity_type, $storage);
+    $this->sectionStorage = $section_storage;
+  }
+
+  /**
+   * {@inheritdoc}
+   */
+  public static function createInstance(ContainerInterface $container, EntityTypeInterface $entity_type) {
+    return new static(
+      $entity_type,
+      $container->get('entity_type.manager')->getStorage($entity_type->id()),
+      $container->get('entity_type.manager')->getStorage('footer_link_section')
+    );
+  }
 
   /**
    * {@inheritdoc}
@@ -111,11 +147,13 @@ class FooterLinkGeneralListBuilder extends DraggableListBuilder {
    *   Return declared regions of table.
    */
   public function getSections(): array {
-    return [
-      'contact_us' => $this->t('Contact us'),
-      'about_us' => $this->t('About us'),
-      'related_sites' => $this->t('Related sites'),
-    ];
+    $sections = [];
+    $entities = $this->sectionStorage->loadMultiple();
+    foreach ($entities as $entity) {
+      $sections[$entity->id()] = $entity->label();
+    }
+
+    return $sections;
   }
 
 }

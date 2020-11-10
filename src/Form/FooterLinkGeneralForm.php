@@ -4,12 +4,40 @@ declare(strict_types = 1);
 
 namespace Drupal\oe_corporate_blocks\Form;
 
+use Drupal\Core\Entity\EntityStorageInterface;
 use Drupal\Core\Form\FormStateInterface;
+use Symfony\Component\DependencyInjection\ContainerInterface;
 
 /**
  * Form class for the Footer Link General configuration entity.
  */
 class FooterLinkGeneralForm extends FooterLinkFormBase {
+
+  /**
+   * Footer link section entity storage.
+   *
+   * @var \Drupal\Core\Entity\EntityStorageInterface
+   */
+  protected $sectionStorage;
+
+  /**
+   * FooterLinkGeneralForm constructor.
+   *
+   * @param \Drupal\Core\Entity\EntityStorageInterface $section_storage
+   *   The footer link section entity storage.
+   */
+  public function __construct(EntityStorageInterface $section_storage) {
+    $this->sectionStorage = $section_storage;
+  }
+
+  /**
+   * {@inheritdoc}
+   */
+  public static function create(ContainerInterface $container) {
+    return new static(
+      $container->get('entity_type.manager')->getStorage('footer_link_section')
+    );
+  }
 
   /**
    * {@inheritdoc}
@@ -23,11 +51,7 @@ class FooterLinkGeneralForm extends FooterLinkFormBase {
     $form['section'] = [
       '#type' => 'select',
       '#title' => $this->t('Section'),
-      '#options' => [
-        'contact_us' => $this->t('Contact us'),
-        'about_us' => $this->t('About us'),
-        'related_sites' => $this->t('Related sites'),
-      ],
+      '#options' => $this->getSections(),
       '#default_value' => $footer_link_general->get('section'),
       '#description' => $this->t('Footer general link Section. We have to use only predefined sections of general links.'),
       '#required' => TRUE,
@@ -57,6 +81,22 @@ class FooterLinkGeneralForm extends FooterLinkFormBase {
         ]));
     }
     $form_state->setRedirectUrl($footer_link_general->toUrl('collection'));
+  }
+
+  /**
+   * Get the sections of footer links.
+   *
+   * @return array
+   *   Return declared regions of table.
+   */
+  protected function getSections(): array {
+    $sections = [];
+    $entities = $this->sectionStorage->loadMultiple();
+    foreach ($entities as $entity) {
+      $sections[$entity->id()] = $entity->label();
+    }
+
+    return $sections;
   }
 
 }

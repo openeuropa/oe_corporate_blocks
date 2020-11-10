@@ -29,14 +29,13 @@ use Drupal\Core\Url;
  *     "id" = "id",
  *     "label" = "label",
  *     "uuid" = "uuid",
- *     "section" = "section",
  *     "weight" = "weight"
  *   },
  *   config_export = {
  *     "id",
  *     "label",
  *     "url",
- *     "section" = "section",
+ *     "section",
  *     "weight"
  *   },
  *   links = {
