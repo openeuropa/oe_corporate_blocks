@@ -1,3 +1,6 @@
 administer site specific footer links:
   title: 'Administer site specific footer links'
   restrict access: true
+administer site specific footer link sections:
+  title: 'Administer site specific footer link sections'
+  restrict access: true
