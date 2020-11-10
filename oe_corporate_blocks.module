@@ -47,8 +47,6 @@ function oe_corporate_blocks_locale_translation_projects_alter(&$projects) {
  *
  * This is set as preprocess function on oe_corporate_blocks_theme().
  *
- * @see oe_corporate_blocks_theme()
- *
  * @param array $variables
  *   Render array variables.
  */
