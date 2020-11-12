@@ -3,6 +3,7 @@
 namespace Drupal\oe_corporate_blocks\Entity;
 
 use Drupal\Core\Config\Entity\ConfigEntityBase;
+use Drupal\Core\Entity\EntityStorageInterface;
 
 /**
  * Defines the footer link section configuration entity.
@@ -57,6 +58,25 @@ class FooterLinkSection extends ConfigEntityBase implements FooterLinkSectionInt
    */
   public function getWeight(): int {
     return $this->get('weight');
+  }
+
+  /**
+   * {@inheritdoc}
+   */
+  public static function preDelete(EntityStorageInterface $storage, array $entities) {
+    parent::preDelete($storage, $entities);
+
+    // Make sure links do not reference to non-existing sections.
+    foreach ($entities as $entity) {
+      $link_storage = \Drupal::entityTypeManager()->getStorage('footer_link_general');
+      $link_ids = $link_storage->getQuery()
+        ->condition('section', $entity->id())
+        ->execute();
+      foreach ($link_storage->loadMultiple($link_ids) as $link) {
+        $link->set('section', '');
+        $link->save();
+      }
+    }
   }
 
 }

@@ -53,7 +53,7 @@ class FooterLinkGeneralForm extends FooterLinkFormBase {
       '#title' => $this->t('Section'),
       '#options' => $this->getSections(),
       '#default_value' => $footer_link_general->get('section'),
-      '#description' => $this->t('Footer general link Section. We have to use only predefined sections of general links.'),
+      '#description' => $this->t('The section the link will appear under.'),
       '#required' => TRUE,
       '#weight' => -1,
     ];

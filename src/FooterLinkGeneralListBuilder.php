@@ -9,6 +9,8 @@ use Drupal\Core\Entity\EntityInterface;
 use Drupal\Core\Entity\EntityStorageInterface;
 use Drupal\Core\Entity\EntityTypeInterface;
 use Drupal\Core\Form\FormStateInterface;
+use Drupal\Core\Render\Element;
+use Drupal\Core\StringTranslation\TranslatableMarkup;
 use Symfony\Component\DependencyInjection\ContainerInterface;
 
 /**
@@ -53,7 +55,7 @@ class FooterLinkGeneralListBuilder extends DraggableListBuilder {
    * {@inheritdoc}
    */
   public function getFormId() {
-    return 'footer_link_generals_overview_form';
+    return 'footer_link_general_overview_form';
   }
 
   /**
@@ -62,6 +64,7 @@ class FooterLinkGeneralListBuilder extends DraggableListBuilder {
   public function buildHeader() {
     $header['label'] = $this->t('Label');
     $header['url'] = $this->t('URL');
+    $header['section'] = $this->t('Section');
 
     return $header + parent::buildHeader();
   }
@@ -74,6 +77,14 @@ class FooterLinkGeneralListBuilder extends DraggableListBuilder {
     $row['url'] = [
       '#markup' => $entity->getUrl()->toString(),
     ];
+    $row['section'] = [
+      '#type' => 'select',
+      '#options' => $this->getSectionsAsOptions(),
+      '#default_value' => $entity->get('section'),
+      '#attributes' => [
+        'class' => ['section'],
+      ],
+    ];
 
     return $row + parent::buildRow($entity);
   }
@@ -82,74 +93,133 @@ class FooterLinkGeneralListBuilder extends DraggableListBuilder {
    * {@inheritdoc}
    */
   public function buildForm(array $form, FormStateInterface $form_state) {
+    $form['description'] = [
+      '#type' => 'item',
+      '#markup' => $this->t('Organise site specific footer links per section. Sections without links will not be displayed. To hide a link move it in the "Disabled" section.'),
+    ];
     $form = parent::buildForm($form, $form_state);
+    $table = &$form[$this->entitiesKey];
 
-    foreach ($this->getSections() as $section_key => $section) {
-      $form[$section_key] = [
-        '#type' => 'table',
-        '#header' => $this->buildHeader(),
-        '#empty' => t('There are no @label yet.', ['@label' => $this->entityType->getPluralLabel()]),
-        '#tabledrag' => [
-          [
-            'action' => 'order',
-            'relationship' => 'sibling',
-            'group' => 'weight',
-          ],
-        ],
-      ];
-      $this->entities = $this->loadSectionLinks($section_key);
-      $delta = 10;
-      // Change the delta of the weight field if have more than 20 entities.
-      if (!empty($this->weightKey)) {
-        $count = count($this->entities);
-        if ($count > 20) {
-          $delta = ceil($count / 2);
-        }
-      }
-      foreach ($this->entities as $entity) {
-        $row = $this->buildRow($entity);
-        if (isset($row['label'])) {
-          $row['label'] = ['#markup' => $row['label']];
-        }
-        if (isset($row['weight'])) {
-          $row['weight']['#delta'] = $delta;
-        }
-        $form[$section_key][$entity->id()] = $row;
+    // Extract table rows, so we can print them in the proper order.
+    $entity_rows = [];
+    foreach (Element::children($table) as $id) {
+      $entity_rows[$id] = $table[$id];
+      unset($table[$id]);
+    }
+
+    // Re-compose the table by stacking rows in the correct order.
+    foreach ($this->getSections() as $section) {
+      $label = $this->t('@name section', ['@name' => $section->label()]);
+      $table['section.' . $section->id()] = $this->buildSectionRow($label, $section->id());
+      foreach ($this->getLinksBySection($section->id()) as $entity) {
+        $table[$entity->id()] = $entity_rows[$entity->id()];
       }
     }
+
+    // Stack links without section in the "Disabled" area.
+    $table['section.hidden'] = $this->buildSectionRow($this->t('Disabled'), '');
+    foreach ($this->getLinksWithoutSection() as $entity) {
+      $table[$entity->id()] = $entity_rows[$entity->id()];
+    }
+
+    // Include library that sets regions when rearranging links.
+    $table['#attached']['library'][] = 'oe_corporate_blocks/footer_link_general_list_builder';
     return $form;
   }
 
   /**
-   * Load the links within specific section.
-   *
-   * @param string $section
-   *   The section's name.
-   *
-   * @return array
-   *   List of footer links.
+   * {@inheritdoc}
    */
-  public function loadSectionLinks(string $section): array {
-    $query = $this->getStorage()->getQuery()->condition('section', $section)->sort($this->entityType->getKey('weight'));
-    $entity_ids = $query->execute();
-    $entities = $this->storage->loadMultipleOverrideFree($entity_ids);
-
-    // Sort the entities using the entity class's sort() method.
-    // See \Drupal\Core\Config\Entity\ConfigEntityBase::sort().
-    uasort($entities, [$this->entityType->getClass(), 'sort']);
-    return $entities;
+  public function submitForm(array &$form, FormStateInterface $form_state) {
+    parent::submitForm($form, $form_state);
+    foreach ($form_state->getValue($this->entitiesKey) as $id => $value) {
+      if (isset($this->entities[$id])) {
+        $this->entities[$id]->set('section', $value['section']);
+        $this->entities[$id]->save();
+      }
+    }
   }
 
   /**
-   * Get the sections of footer links.
+   * Build a table section row.
+   *
+   * @param \Drupal\Core\StringTranslation\TranslatableMarkup $label
+   *   Section label.
+   * @param string $id
+   *   Section ID.
    *
    * @return array
-   *   Return declared regions of table.
+   *   Table row array.
+   */
+  protected function buildSectionRow(TranslatableMarkup $label, string $id): array {
+    $row['label'] = [
+      '#markup' => "<b>{$label}</b>",
+    ];
+    $row['url'] = [];
+    $row['section'] = [];
+    $row['weight'] = [
+      '#type' => 'weight',
+      '#default_value' => 0,
+      '#attributes' => ['class' => ['weight']],
+    ];
+    $row['operations'] = [];
+    $row['#attributes']['class'][] = 'tabledrag-root';
+    $row['#attributes']['data-link-section-id'] = $id;
+
+    return $row;
+  }
+
+  /**
+   * Load section entities, sorted by their weight.
+   *
+   * @return \Drupal\Core\Entity\EntityInterface[]
+   *   Section entities, sorted by weight.
    */
   public function getSections(): array {
-    $sections = [];
-    $entities = $this->sectionStorage->loadMultiple();
-    foreach ($entities as $entity) {
+    $entity_ids = $this->sectionStorage->getQuery()->sort('weight')->execute();
+    return $this->sectionStorage->loadMultiple($entity_ids);
+  }
+
+  /**
+   * Get links by section, sorted by their weight.
+   *
+   * @param string $section
+   *   Section ID.
+   *
+   * @return \Drupal\Core\Entity\EntityInterface[]
+   *   Link entities, sorted by weight.
+   */
+  public function getLinksBySection(string $section): array {
+    $entity_ids = $this->storage->getQuery()
+      ->condition('section', $section)
+      ->sort('weight')
+      ->execute();
+    return $this->storage->loadMultiple($entity_ids);
+  }
+
+  /**
+   * Get links without a section, sorted by their weight.
+   *
+   * @return \Drupal\Core\Entity\EntityInterface[]
+   *   Link entities, sorted by weight.
+   */
+  public function getLinksWithoutSection(): array {
+    $entity_ids = $this->storage->getQuery()
+      ->condition('section', NULL)
+      ->sort('weight')
+      ->execute();
+    return $this->storage->loadMultiple($entity_ids);
+  }
+
+  /**
+   * Get the sections suitable for a select "#options" property.
+   *
+   * @return array
+   *   List of section names, keyed by their ID.
+   */
+  public function getSectionsAsOptions(): array {
+    $sections = ['' => $this->t('- Disabled -')];
+    foreach ($this->getSections() as $entity) {
       $sections[$entity->id()] = $entity->label();
     }
 
