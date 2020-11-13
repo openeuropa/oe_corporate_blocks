@@ -6,12 +6,15 @@ namespace Drupal\Tests\oe_corporate_blocks\Functional;
 
 use Behat\Mink\Element\NodeElement;
 use Drupal\Core\Entity\EntityInterface;
+use Drupal\Core\Test\RefreshVariablesTrait;
 use Drupal\FunctionalJavascriptTests\WebDriverTestBase;
 
 /**
  * Tests the footer link general overview page.
  */
 class FooterLinkGeneralListBuilderTest extends WebDriverTestBase {
+
+  use RefreshVariablesTrait;
 
   /**
    * {@inheritdoc}
@@ -72,9 +75,9 @@ class FooterLinkGeneralListBuilderTest extends WebDriverTestBase {
     // Save current link disposition.
     $this->getSession()->getPage()->pressButton('Save');
 
-    // @todo Fix assertion below, it fails as cache gets in the way.
     // Assert that "Link 2" has has been correctly saved.
-    // $this->assertLinkEntity(2, '', -4);
+    $this->assertLinkEntity(2, '', -4);
+
     // Delete all sections.
     $section_storage = \Drupal::entityTypeManager()->getStorage('footer_link_section');
     $sections = $section_storage->loadMultiple();
@@ -84,14 +87,14 @@ class FooterLinkGeneralListBuilderTest extends WebDriverTestBase {
     // Assert that all links have been assigned to the "Disabled" section.
     $this->assertLinkEntity(0, '', -9);
     $this->assertLinkEntity(1, '', -7);
-    $this->assertLinkEntity(2, '', -5);
+    $this->assertLinkEntity(2, '', -4);
     $this->assertLinkEntity(3, '', -3);
     $this->assertLinkEntity(4, '', -2);
 
     // Assert that all link entities contains the correct values.
     $this->assertLinkRow($this->findLinkRow(0), '', -9);
     $this->assertLinkRow($this->findLinkRow(1), '', -7);
-    $this->assertLinkRow($this->findLinkRow(2), '', -5);
+    $this->assertLinkRow($this->findLinkRow(2), '', -4);
     $this->assertLinkRow($this->findLinkRow(3), '', -3);
     $this->assertLinkRow($this->findLinkRow(4), '', -2);
   }
@@ -148,8 +151,8 @@ class FooterLinkGeneralListBuilderTest extends WebDriverTestBase {
    *   Link weight.
    */
   protected function assertLinkEntity(int $value, string $section, int $weight): void {
+    $this->refreshVariables();
     $storage = \Drupal::entityTypeManager()->getStorage('footer_link_general');
-    $storage->resetCache();
     $link = $storage->load("link_{$value}");
     $this->assertEqual($link->get('section'), $section, "Link {$value} section was expected to be set to '{$section}', but '{$link->get('section')}' was found.");
     $this->assertEqual($link->get('weight'), $weight, "Link {$value} weight was expected to be set to '{$weight}', but '{$link->get('weight')}' was found.");
