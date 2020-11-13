@@ -54,7 +54,6 @@ class FooterLinkGeneralForm extends FooterLinkFormBase {
       '#options' => $this->getSections(),
       '#default_value' => $footer_link_general->get('section'),
       '#description' => $this->t('The section the link will appear under.'),
-      '#required' => TRUE,
       '#weight' => -1,
     ];
 
@@ -90,7 +89,7 @@ class FooterLinkGeneralForm extends FooterLinkFormBase {
    *   Return declared regions of table.
    */
   protected function getSections(): array {
-    $sections = [];
+    $sections = ['' => $this->t('- Disabled -')];
     $entities = $this->sectionStorage->loadMultiple();
     foreach ($entities as $entity) {
       $sections[$entity->id()] = $entity->label();

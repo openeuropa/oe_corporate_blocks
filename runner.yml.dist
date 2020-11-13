@@ -35,6 +35,11 @@ drupal:
         - "vendor"
         - "${drupal.root}"
 
+selenium:
+  host: "http://selenium"
+  port: "4444"
+  browser: "chrome"
+
 commands:
   drupal:site-setup:
     - { task: "symlink", from: "../../..", to: "${drupal.root}/modules/custom/oe_corporate_blocks" }

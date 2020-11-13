@@ -85,6 +85,8 @@ class FooterLinkGeneralListBuilder extends DraggableListBuilder {
         'class' => ['section'],
       ],
     ];
+    $row['#attributes']['class'][] = 'tabledrag-leaf';
+    $row['#attributes']['class'][] = 'draggable';
 
     return $row + parent::buildRow($entity);
   }
