@@ -100,7 +100,16 @@ class FooterLinkGeneralListBuilder extends DraggableListBuilder {
     $form = parent::buildForm($form, $form_state);
     $table = &$form[$this->entitiesKey];
 
-    // Extract table rows, so we can print them in the proper order.
+    // The following tabledrag action has no effect on the form, it is only used
+    // to hide the section select field when "Show row weights" is toggled off.
+    $table['#tabledrag'][] = [
+      'action' => 'match',
+      'relationship' => 'parent',
+      'group' => 'section',
+      'hidden' => TRUE,
+    ];
+
+    // Extract table rows, so we can display them in the proper order.
     $entity_rows = [];
     foreach (Element::children($table) as $id) {
       $entity_rows[$id] = $table[$id];
@@ -110,20 +119,21 @@ class FooterLinkGeneralListBuilder extends DraggableListBuilder {
     // Re-compose the table by stacking rows in the correct order.
     foreach ($this->getSections() as $section) {
       $label = $this->t('@name section', ['@name' => $section->label()]);
-      $table['section.' . $section->id()] = $this->buildSectionRow($label, $section->id());
+      $table[] = $this->buildSectionRow($label, $section->id());
       foreach ($this->getLinksBySection($section->id()) as $entity) {
         $table[$entity->id()] = $entity_rows[$entity->id()];
       }
     }
 
-    // Stack links without section in the "Disabled" area.
-    $table['section.hidden'] = $this->buildSectionRow($this->t('Disabled'), '');
+    // Stack links without section below the "Disabled" section.
+    $table[] = $this->buildSectionRow($this->t('Disabled'), '');
     foreach ($this->getLinksWithoutSection() as $entity) {
       $table[$entity->id()] = $entity_rows[$entity->id()];
     }
 
-    // Include library that sets regions when rearranging links.
+    // Include library that assigns links to sections when rearranging them.
     $table['#attached']['library'][] = 'oe_corporate_blocks/footer_link_general_list_builder';
+    $table['#attached']['drupalSettings']['footerLinkGeneralListBuilder']['entitiesKey'] = $this->entitiesKey;
     return $form;
   }
 
