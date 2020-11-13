@@ -19,11 +19,11 @@ use Symfony\Component\DependencyInjection\ContainerInterface;
 class FooterLinkGeneralListBuilder extends DraggableListBuilder {
 
   /**
-   * Footer link section entity storage.
+   * Footer link manager service.
    *
-   * @var \Drupal\Core\Entity\EntityStorageInterface
+   * @var \Drupal\oe_corporate_blocks\FooterLinkManagerInterface
    */
-  protected $sectionStorage;
+  protected $linkManager;
 
   /**
    * FooterLinkGeneralListBuilder constructor.
@@ -32,12 +32,12 @@ class FooterLinkGeneralListBuilder extends DraggableListBuilder {
    *   The entity type definition.
    * @param \Drupal\Core\Entity\EntityStorageInterface $storage
    *   The entity storage.
-   * @param \Drupal\Core\Entity\EntityStorageInterface $section_storage
-   *   The footer link section entity storage.
+   * @param \Drupal\oe_corporate_blocks\FooterLinkManagerInterface $link_manager
+   *   The footer link manager service.
    */
-  public function __construct(EntityTypeInterface $entity_type, EntityStorageInterface $storage, EntityStorageInterface $section_storage) {
+  public function __construct(EntityTypeInterface $entity_type, EntityStorageInterface $storage, FooterLinkManagerInterface $link_manager) {
     parent::__construct($entity_type, $storage);
-    $this->sectionStorage = $section_storage;
+    $this->linkManager = $link_manager;
   }
 
   /**
@@ -47,7 +47,7 @@ class FooterLinkGeneralListBuilder extends DraggableListBuilder {
     return new static(
       $entity_type,
       $container->get('entity_type.manager')->getStorage($entity_type->id()),
-      $container->get('entity_type.manager')->getStorage('footer_link_section')
+      $container->get('oe_corporate_blocks.footer_link_manager')
     );
   }
 
@@ -79,7 +79,7 @@ class FooterLinkGeneralListBuilder extends DraggableListBuilder {
     ];
     $row['section'] = [
       '#type' => 'select',
-      '#options' => $this->getSectionsAsOptions(),
+      '#options' => $this->linkManager->getSectionsAsOptions(),
       '#default_value' => $entity->get('section'),
       '#attributes' => [
         'class' => ['section'],
@@ -119,17 +119,17 @@ class FooterLinkGeneralListBuilder extends DraggableListBuilder {
     }
 
     // Re-compose the table by stacking rows in the correct order.
-    foreach ($this->getSections() as $section) {
+    foreach ($this->linkManager->getSections() as $section) {
       $label = $this->t('@name section', ['@name' => $section->label()]);
       $table[] = $this->buildSectionRow($label, $section->id());
-      foreach ($this->getLinksBySection($section->id()) as $entity) {
+      foreach ($this->linkManager->getLinksBySection($section->id()) as $entity) {
         $table[$entity->id()] = $entity_rows[$entity->id()];
       }
     }
 
     // Stack links without section below the "Disabled" section.
     $table[] = $this->buildSectionRow($this->t('Disabled'), '');
-    foreach ($this->getLinksWithoutSection() as $entity) {
+    foreach ($this->linkManager->getLinksWithoutSection() as $entity) {
       $table[$entity->id()] = $entity_rows[$entity->id()];
     }
 
@@ -179,63 +179,6 @@ class FooterLinkGeneralListBuilder extends DraggableListBuilder {
     $row['#attributes']['data-link-section-id'] = $id;
 
     return $row;
-  }
-
-  /**
-   * Load section entities, sorted by their weight.
-   *
-   * @return \Drupal\Core\Entity\EntityInterface[]
-   *   Section entities, sorted by weight.
-   */
-  public function getSections(): array {
-    $entity_ids = $this->sectionStorage->getQuery()->sort('weight')->execute();
-    return $this->sectionStorage->loadMultiple($entity_ids);
-  }
-
-  /**
-   * Get links by section, sorted by their weight.
-   *
-   * @param string $section
-   *   Section ID.
-   *
-   * @return \Drupal\Core\Entity\EntityInterface[]
-   *   Link entities, sorted by weight.
-   */
-  public function getLinksBySection(string $section): array {
-    $entity_ids = $this->storage->getQuery()
-      ->condition('section', $section)
-      ->sort('weight')
-      ->execute();
-    return $this->storage->loadMultiple($entity_ids);
-  }
-
-  /**
-   * Get links without a section, sorted by their weight.
-   *
-   * @return \Drupal\Core\Entity\EntityInterface[]
-   *   Link entities, sorted by weight.
-   */
-  public function getLinksWithoutSection(): array {
-    $entity_ids = $this->storage->getQuery()
-      ->condition('section', NULL)
-      ->sort('weight')
-      ->execute();
-    return $this->storage->loadMultiple($entity_ids);
-  }
-
-  /**
-   * Get the sections suitable for a select "#options" property.
-   *
-   * @return array
-   *   List of section names, keyed by their ID.
-   */
-  public function getSectionsAsOptions(): array {
-    $sections = ['' => $this->t('- Disabled -')];
-    foreach ($this->getSections() as $entity) {
-      $sections[$entity->id()] = $entity->label();
-    }
-
-    return $sections;
   }
 
 }

@@ -46,7 +46,7 @@ use Drupal\Core\Url;
  *   }
  * )
  */
-class FooterLinkGeneral extends ConfigEntityBase implements FooterLinkInterface {
+class FooterLinkGeneral extends ConfigEntityBase implements FooterLinkGeneralInterface {
 
   /**
    * The footer link URL.

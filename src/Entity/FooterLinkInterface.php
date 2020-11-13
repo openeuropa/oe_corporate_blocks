@@ -8,7 +8,7 @@ use Drupal\Core\Config\Entity\ConfigEntityInterface;
 use Drupal\Core\Url;
 
 /**
- * Provides an interface for defining Footer link entities.
+ * Interface for footer link entities.
  */
 interface FooterLinkInterface extends ConfigEntityInterface {
 
@@ -19,22 +19,6 @@ interface FooterLinkInterface extends ConfigEntityInterface {
    *   The footer link URL.
    */
   public function getUrl(): Url;
-
-  /**
-   * Get the footer link section.
-   *
-   * @return string
-   *   The footer link section.
-   */
-  public function getSection(): string;
-
-  /**
-   * Set the footer link section.
-   *
-   * @param string $section
-   *   The section of footer link.
-   */
-  public function setSection(string $section): void;
 
   /**
    * Get the footer link weight.

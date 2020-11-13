@@ -4,8 +4,8 @@ declare(strict_types = 1);
 
 namespace Drupal\oe_corporate_blocks\Form;
 
-use Drupal\Core\Entity\EntityStorageInterface;
 use Drupal\Core\Form\FormStateInterface;
+use Drupal\oe_corporate_blocks\FooterLinkManagerInterface;
 use Symfony\Component\DependencyInjection\ContainerInterface;
 
 /**
@@ -14,20 +14,20 @@ use Symfony\Component\DependencyInjection\ContainerInterface;
 class FooterLinkGeneralForm extends FooterLinkFormBase {
 
   /**
-   * Footer link section entity storage.
+   * Footer link manager service.
    *
-   * @var \Drupal\Core\Entity\EntityStorageInterface
+   * @var \Drupal\oe_corporate_blocks\FooterLinkManagerInterface
    */
-  protected $sectionStorage;
+  protected $linkManager;
 
   /**
    * FooterLinkGeneralForm constructor.
    *
-   * @param \Drupal\Core\Entity\EntityStorageInterface $section_storage
-   *   The footer link section entity storage.
+   * @param \Drupal\oe_corporate_blocks\FooterLinkManagerInterface $link_manager
+   *   The footer link manager service.
    */
-  public function __construct(EntityStorageInterface $section_storage) {
-    $this->sectionStorage = $section_storage;
+  public function __construct(FooterLinkManagerInterface $link_manager) {
+    $this->linkManager = $link_manager;
   }
 
   /**
@@ -35,7 +35,7 @@ class FooterLinkGeneralForm extends FooterLinkFormBase {
    */
   public static function create(ContainerInterface $container) {
     return new static(
-      $container->get('entity_type.manager')->getStorage('footer_link_section')
+      $container->get('oe_corporate_blocks.footer_link_manager')
     );
   }
 
@@ -51,7 +51,7 @@ class FooterLinkGeneralForm extends FooterLinkFormBase {
     $form['section'] = [
       '#type' => 'select',
       '#title' => $this->t('Section'),
-      '#options' => $this->getSections(),
+      '#options' => $this->linkManager->getSectionsAsOptions(),
       '#default_value' => $footer_link_general->get('section'),
       '#description' => $this->t('The section the link will appear under.'),
       '#weight' => -1,
@@ -80,22 +80,6 @@ class FooterLinkGeneralForm extends FooterLinkFormBase {
         ]));
     }
     $form_state->setRedirectUrl($footer_link_general->toUrl('collection'));
-  }
-
-  /**
-   * Get the sections of footer links.
-   *
-   * @return array
-   *   Return declared regions of table.
-   */
-  protected function getSections(): array {
-    $sections = ['' => $this->t('- Disabled -')];
-    $entities = $this->sectionStorage->loadMultiple();
-    foreach ($entities as $entity) {
-      $sections[$entity->id()] = $entity->label();
-    }
-
-    return $sections;
   }
 
 }
