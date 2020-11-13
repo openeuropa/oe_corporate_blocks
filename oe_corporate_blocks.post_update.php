@@ -9,6 +9,7 @@ declare(strict_types = 1);
 
 use Drupal\Core\Config\FileStorage;
 use Drupal\locale\Locale;
+use Drupal\Component\Utility\Crypt;
 
 /**
  * Only display "European Commission website" link in footer.
@@ -111,14 +112,46 @@ function oe_corporate_blocks_post_update_20004(&$sandbox): void {
 }
 
 /**
- * Add for all existing Footer General Links default section "Related sites".
+ * Create default footer link sections.
  */
-function oe_corporate_blocks_post_update_20005(&$sandbox): void {
+function oe_corporate_blocks_post_update_30001(): void {
+  $storage = \Drupal::entityTypeManager()->getStorage('footer_link_section');
+  $sections = [
+    [
+      'id' => 'contact_us',
+      'label' => 'Contact us',
+      'weight' => -10,
+    ],
+    [
+      'id' => 'about_us',
+      'label' => 'About us',
+      'weight' => -9,
+    ],
+    [
+      'id' => 'related_sites',
+      'label' => 'Related sites',
+      'weight' => -8,
+    ],
+  ];
+
+  foreach ($sections as $config) {
+    // We are creating the config which means that we are also shipping
+    // it in the config/install folder so we want to make sure it gets the hash
+    // so Drupal treats it as a shipped config. This means that it gets exposed
+    // to be translated via the locale system as well.
+    $config['_core']['default_config_hash'] = Crypt::hashBase64(serialize($config));
+    $storage->create($config)->save();
+  }
+}
+
+/**
+ * Set "Related sites" as default section for existing general links.
+ */
+function oe_corporate_blocks_post_update_30002(): void {
   /** @var \Drupal\oe_corporate_blocks\Entity\FooterLinkGeneral[] $general_links */
   $general_links = \Drupal::entityTypeManager()->getStorage('footer_link_general')->loadMultiple();
   foreach ($general_links as $general_link) {
     $general_link->setSection('related_sites');
     $general_link->save();
   }
-
 }
