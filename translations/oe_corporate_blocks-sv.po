@@ -130,9 +130,6 @@ msgstr "Rättsligt meddelande"
 msgid "https://europa.eu/european-union/abouteuropa/legal_notices_en"
 msgstr "https://europa.eu/european-union/abouteuropa/legal_notices_sv"
 
-msgid "https://europa.eu/european-union/brexit-content-disclaimer_en"
-msgstr "https://europa.eu/european-union/brexit-content-disclaimer_sv"
-
 msgid "Cookies"
 msgstr "Kakor (cookies)"
 
@@ -279,10 +276,3 @@ msgstr "https://ec.europa.eu/info/privacy-policy_sv"
 
 msgid "https://ec.europa.eu/info/legal-notice_en"
 msgstr "https://ec.europa.eu/info/legal-notice_sv"
-
-msgid "https://ec.europa.eu/info/brexit-content-disclaimer_en"
-msgstr "https://ec.europa.eu/info/brexit-content-disclaimer_sv"
-
-msgid "Brexit content disclaimer"
-msgstr "Brexit – ansvarsfriskrivning för innehållet"
-

@@ -133,9 +133,6 @@ msgstr "Juridische mededeling"
 msgid "https://europa.eu/european-union/abouteuropa/legal_notices_en"
 msgstr "https://europa.eu/european-union/abouteuropa/legal_notices_nl"
 
-msgid "https://europa.eu/european-union/brexit-content-disclaimer_en"
-msgstr "https://europa.eu/european-union/brexit-content-disclaimer_nl"
-
 msgid "https://europa.eu/european-union/abouteuropa/cookies_en"
 msgstr "https://europa.eu/european-union/abouteuropa/cookies_nl"
 
@@ -279,10 +276,3 @@ msgstr "https://ec.europa.eu/info/privacy-policy_nl"
 
 msgid "https://ec.europa.eu/info/legal-notice_en"
 msgstr "https://ec.europa.eu/info/legal-notice_nl"
-
-msgid "https://ec.europa.eu/info/brexit-content-disclaimer_en"
-msgstr "https://ec.europa.eu/info/brexit-content-disclaimer_nl"
-
-msgid "Brexit content disclaimer"
-msgstr "Brexit: disclaimer"
-

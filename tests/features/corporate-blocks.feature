@@ -38,7 +38,6 @@ Feature: Corporate blocks feature
       | Cookies                                          | https://ec.europa.eu/info/cookies_en                                        |
       | Privacy policy                                   | https://ec.europa.eu/info/privacy-policy_en                                 |
       | Legal notice                                     | https://ec.europa.eu/info/legal-notice_en                                   |
-      | Brexit content disclaimer                        | https://ec.europa.eu/info/brexit-content-disclaimer_en                      |
 
     When I click "français" in the "header"
     Then I should see "Ce site est géré par la Direction générale de l'informatique" in the "ec_footer" region
@@ -68,7 +67,6 @@ Feature: Corporate blocks feature
       | Cookies                                                   | https://ec.europa.eu/info/cookies_fr                                        |
       | Protection de la vie privée                               | https://ec.europa.eu/info/privacy-policy_fr                                 |
       | Avis juridique                                            | https://ec.europa.eu/info/legal-notice_fr                                   |
-      | Brexit: clause de non-responsabilité                      | https://ec.europa.eu/info/brexit-content-disclaimer_fr                      |
     Examples:
       | path  |
       | home  |
@@ -110,7 +108,6 @@ Feature: Corporate blocks feature
       | Language policy                               | https://europa.eu/european-union/abouteuropa/language-policy_en |
       | Privacy policy                                | https://europa.eu/european-union/abouteuropa/privacy-policy_en  |
       | Legal notice                                  | https://europa.eu/european-union/abouteuropa/legal_notices_en   |
-      | Brexit content disclaimer                     | https://europa.eu/european-union/brexit-content-disclaimer_en   |
       | Cookies                                       | https://europa.eu/european-union/abouteuropa/cookies_en         |
     And the region "eu_footer" does not contain the links:
       | Presidency of the Council of the EU | https://www.romania2019.eu/home/ |
@@ -142,7 +139,6 @@ Feature: Corporate blocks feature
       | Politique linguistique                                 | https://europa.eu/european-union/abouteuropa/language-policy_fr  |
       | Protection de la vie privée                            | https://europa.eu/european-union/abouteuropa/privacy-policy_fr   |
       | Avis juridique                                         | https://europa.eu/european-union/abouteuropa/legal_notices_fr    |
-      | Brexit: clause de non-responsabilité                   | https://europa.eu/european-union/brexit-content-disclaimer_fr    |
       | Cookies                                                | https://europa.eu/european-union/abouteuropa/cookies_fr          |
     And the region "eu_footer" does not contain the links:
       | Présidence du Conseil de l'UE | https://www.romania2019.eu/page-daccueil/ |

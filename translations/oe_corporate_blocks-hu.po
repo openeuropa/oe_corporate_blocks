@@ -134,9 +134,6 @@ msgstr "Jogi nyilatkozat"
 msgid "https://europa.eu/european-union/abouteuropa/legal_notices_en"
 msgstr "https://europa.eu/european-union/abouteuropa/legal_notices_hu"
 
-msgid "https://europa.eu/european-union/brexit-content-disclaimer_en"
-msgstr "https://europa.eu/european-union/brexit-content-disclaimer_hu"
-
 msgid "Cookies"
 msgstr "Cookie-k"
 
@@ -283,10 +280,3 @@ msgstr "https://ec.europa.eu/info/privacy-policy_hu"
 
 msgid "https://ec.europa.eu/info/legal-notice_en"
 msgstr "https://ec.europa.eu/info/legal-notice_hu"
-
-msgid "https://ec.europa.eu/info/brexit-content-disclaimer_en"
-msgstr "https://ec.europa.eu/info/brexit-content-disclaimer_hu"
-
-msgid "Brexit content disclaimer"
-msgstr "Felelősségkizáró nyilatkozat (brexit)"
-

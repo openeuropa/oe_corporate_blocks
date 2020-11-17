@@ -133,9 +133,6 @@ msgstr "Teisinis pranešimas"
 msgid "https://europa.eu/european-union/abouteuropa/legal_notices_en"
 msgstr "https://europa.eu/european-union/abouteuropa/legal_notices_lt"
 
-msgid "https://europa.eu/european-union/brexit-content-disclaimer_en"
-msgstr "https://europa.eu/european-union/brexit-content-disclaimer_lt"
-
 msgid "Cookies"
 msgstr "Slapukai"
 
@@ -284,10 +281,3 @@ msgstr "https://ec.europa.eu/info/privacy-policy_lt"
 
 msgid "https://ec.europa.eu/info/legal-notice_en"
 msgstr "https://ec.europa.eu/info/legal-notice_lt"
-
-msgid "https://ec.europa.eu/info/brexit-content-disclaimer_en"
-msgstr "https://ec.europa.eu/info/brexit-content-disclaimer_lt"
-
-msgid "Brexit content disclaimer"
-msgstr "Atsakomybės ribojimas dėl „Brexit‘o“"
-

@@ -136,9 +136,6 @@ msgstr "Küpsised"
 msgid "European Commission"
 msgstr "Euroopa Komisjon"
 
-msgid "https://europa.eu/european-union/brexit-content-disclaimer_en"
-msgstr "https://europa.eu/european-union/brexit-content-disclaimer_et"
-
 msgid "https://europa.eu/european-union/abouteuropa/cookies_en"
 msgstr "https://europa.eu/european-union/abouteuropa/cookies_et"
 
@@ -282,10 +279,3 @@ msgstr "https://ec.europa.eu/info/privacy-policy_et"
 
 msgid "https://ec.europa.eu/info/legal-notice_en"
 msgstr "https://ec.europa.eu/info/legal-notice_et"
-
-msgid "https://ec.europa.eu/info/brexit-content-disclaimer_en"
-msgstr "https://ec.europa.eu/info/brexit-content-disclaimer_et"
-
-msgid "Brexit content disclaimer"
-msgstr "Brexiti info – vastutuse välistamine"
-

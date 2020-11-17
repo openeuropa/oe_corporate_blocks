@@ -127,9 +127,6 @@ msgstr "Pravno obvestilo"
 msgid "https://europa.eu/european-union/abouteuropa/legal_notices_en"
 msgstr "https://europa.eu/european-union/abouteuropa/legal_notices_sl"
 
-msgid "https://europa.eu/european-union/brexit-content-disclaimer_en"
-msgstr "https://europa.eu/european-union/brexit-content-disclaimer_sl"
-
 msgid "Cookies"
 msgstr "Piškotki"
 
@@ -279,10 +276,3 @@ msgstr "https://ec.europa.eu/info/privacy-policy_sl"
 
 msgid "https://ec.europa.eu/info/legal-notice_en"
 msgstr "https://ec.europa.eu/info/legal-notice_sl"
-
-msgid "https://ec.europa.eu/info/brexit-content-disclaimer_en"
-msgstr "https://ec.europa.eu/info/brexit-content-disclaimer_sl"
-
-msgid "Brexit content disclaimer"
-msgstr "Izjava o omejitvi odgovornosti – brexit"
-

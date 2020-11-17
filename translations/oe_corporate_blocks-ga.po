@@ -127,9 +127,6 @@ msgstr "Fógra dlíthiúil"
 msgid "https://europa.eu/european-union/abouteuropa/legal_notices_en"
 msgstr "https://europa.eu/european-union/abouteuropa/legal_notices_ga"
 
-msgid "https://europa.eu/european-union/brexit-content-disclaimer_en"
-msgstr "https://europa.eu/european-union/brexit-content-disclaimer_ga"
-
 msgid "Cookies"
 msgstr "Fianáin"
 
@@ -276,10 +273,3 @@ msgstr "https://ec.europa.eu/info/privacy-policy_ga"
 
 msgid "https://ec.europa.eu/info/legal-notice_en"
 msgstr "https://ec.europa.eu/info/legal-notice_ga"
-
-msgid "https://ec.europa.eu/info/brexit-content-disclaimer_en"
-msgstr "https://ec.europa.eu/info/brexit-content-disclaimer_ga"
-
-msgid "Brexit content disclaimer"
-msgstr "Séanadh maidir le hábhar Brexit"
-

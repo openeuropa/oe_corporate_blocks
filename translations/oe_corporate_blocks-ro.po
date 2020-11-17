@@ -133,9 +133,6 @@ msgstr "Aviz juridic"
 msgid "https://europa.eu/european-union/abouteuropa/legal_notices_en"
 msgstr "https://europa.eu/european-union/abouteuropa/legal_notices_ro"
 
-msgid "https://europa.eu/european-union/brexit-content-disclaimer_en"
-msgstr "https://europa.eu/european-union/brexit-content-disclaimer_ro"
-
 msgid "Cookies"
 msgstr "Cookie-urile"
 
@@ -282,10 +279,3 @@ msgstr "https://ec.europa.eu/info/privacy-policy_ro"
 
 msgid "https://ec.europa.eu/info/legal-notice_en"
 msgstr "https://ec.europa.eu/info/legal-notice_ro"
-
-msgid "https://ec.europa.eu/info/brexit-content-disclaimer_en"
-msgstr "https://ec.europa.eu/info/brexit-content-disclaimer_ro"
-
-msgid "Brexit content disclaimer"
-msgstr "Info Brexit – declinarea responsabilității"
-

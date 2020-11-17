@@ -127,9 +127,6 @@ msgstr "Privātuma aizsardzība"
 msgid "https://europa.eu/european-union/abouteuropa/privacy-policy_en"
 msgstr "https://europa.eu/european-union/abouteuropa/privacy-policy_lv"
 
-msgid "https://europa.eu/european-union/brexit-content-disclaimer_en"
-msgstr "https://europa.eu/european-union/brexit-content-disclaimer_lv"
-
 msgid "Legal notice"
 msgstr "Juridisks paziņojums"
 
@@ -282,10 +279,3 @@ msgstr "https://ec.europa.eu/info/privacy-policy_lv"
 
 msgid "https://ec.europa.eu/info/legal-notice_en"
 msgstr "https://ec.europa.eu/info/legal-notice_lv"
-
-msgid "https://ec.europa.eu/info/brexit-content-disclaimer_en"
-msgstr "https://ec.europa.eu/info/brexit-content-disclaimer_lv"
-
-msgid "Brexit content disclaimer"
-msgstr "“Brexit” atruna"
-

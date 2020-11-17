@@ -133,9 +133,6 @@ msgstr "Oikeudellinen huomautus"
 msgid "https://europa.eu/european-union/abouteuropa/legal_notices_en"
 msgstr "https://europa.eu/european-union/abouteuropa/legal_notices_fi"
 
-msgid "https://europa.eu/european-union/brexit-content-disclaimer_en"
-msgstr "https://europa.eu/european-union/brexit-content-disclaimer_fi"
-
 msgid "Cookies"
 msgstr "Evästeet"
 
@@ -282,10 +279,3 @@ msgstr "https://ec.europa.eu/info/privacy-policy_fi"
 
 msgid "https://ec.europa.eu/info/legal-notice_en"
 msgstr "https://ec.europa.eu/info/legal-notice_fi"
-
-msgid "https://ec.europa.eu/info/brexit-content-disclaimer_en"
-msgstr "https://ec.europa.eu/info/brexit-content-disclaimer_fi"
-
-msgid "Brexit content disclaimer"
-msgstr "Brexit – sisällön vastuuvapauslauseke"
-

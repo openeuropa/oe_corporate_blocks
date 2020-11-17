@@ -136,9 +136,6 @@ msgstr "Правна информация"
 msgid "https://europa.eu/european-union/abouteuropa/legal_notices_en"
 msgstr "https://europa.eu/european-union/abouteuropa/legal_notices_bg"
 
-msgid "https://europa.eu/european-union/brexit-content-disclaimer_en"
-msgstr "https://europa.eu/european-union/brexit-content-disclaimer_bg"
-
 msgid "Cookies"
 msgstr "Бисквитки"
 
@@ -291,12 +288,3 @@ msgstr "https://ec.europa.eu/info/privacy-policy_bg"
 
 msgid "https://ec.europa.eu/info/legal-notice_en"
 msgstr "https://ec.europa.eu/info/legal-notice_bg"
-
-msgid "https://ec.europa.eu/info/brexit-content-disclaimer_en"
-msgstr "https://ec.europa.eu/info/brexit-content-disclaimer_bg"
-
-msgid "Brexit content disclaimer"
-msgstr ""
-"Брексит – отказ от отговорност за "
-"съдържание"
-

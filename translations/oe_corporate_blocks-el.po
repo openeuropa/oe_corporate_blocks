@@ -143,9 +143,6 @@ msgstr "Νομική ανακοίνωση"
 msgid "https://europa.eu/european-union/abouteuropa/legal_notices_en"
 msgstr "https://europa.eu/european-union/abouteuropa/legal_notices_el"
 
-msgid "https://europa.eu/european-union/brexit-content-disclaimer_en"
-msgstr "https://europa.eu/european-union/brexit-content-disclaimer_el"
-
 msgid "https://europa.eu/european-union/abouteuropa/cookies_en"
 msgstr "https://europa.eu/european-union/abouteuropa/cookies_el"
 
@@ -301,12 +298,3 @@ msgstr "https://ec.europa.eu/info/privacy-policy_el"
 
 msgid "https://ec.europa.eu/info/legal-notice_en"
 msgstr "https://ec.europa.eu/info/legal-notice_el"
-
-msgid "https://ec.europa.eu/info/brexit-content-disclaimer_en"
-msgstr "https://ec.europa.eu/info/brexit-content-disclaimer_el"
-
-msgid "Brexit content disclaimer"
-msgstr ""
-"Αποποίηση ευθύνης για το περιεχόμενο "
-"Brexit"
-
