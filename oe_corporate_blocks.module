@@ -8,6 +8,7 @@
 declare(strict_types = 1);
 
 use Drupal\Core\Cache\CacheableMetadata;
+use Drupal\oe_corporate_site_info\SiteInformationInterface;
 
 /**
  * Implements hook_theme().
@@ -52,7 +53,7 @@ function oe_corporate_blocks_locale_translation_projects_alter(&$projects) {
  */
 function oe_corporate_blocks_preprocess_set_site_owner(array &$variables): void {
   $cacheability = CacheableMetadata::createFromRenderArray($variables);
-  $configuration = \Drupal::configFactory()->get('oe_corporate_site_info.settings');
+  $configuration = \Drupal::configFactory()->get(SiteInformationInterface::CONFIG_NAME);
   $cacheability->addCacheableDependency($configuration);
 
   /** @var \Drupal\oe_corporate_site_info\SiteInformationInterface $site_information */

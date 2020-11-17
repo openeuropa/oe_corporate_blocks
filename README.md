@@ -57,7 +57,7 @@ To do this, add the image to your `docker-compose.yml` file:
       - "8890:8890"
 ```
 
-Otherwise, make sure you have the triple store instance running and have imported those vocabularies.
+Otherwise, make sure you have the triple store instance running and have imported the ["Corporate body" vocabulary](https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/corporate-body).
 
 Next, if you are using the Task Runner to set up your site, add the `runner.yml` configuration for connecting to the
 triple store. Under the `drupal` key:
