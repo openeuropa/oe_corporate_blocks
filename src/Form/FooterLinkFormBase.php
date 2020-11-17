@@ -49,6 +49,11 @@ abstract class FooterLinkFormBase extends EntityForm {
       '#required' => TRUE,
     ];
 
+    $form['weight'] = [
+      '#type' => 'hidden',
+      '#value' => $this->t('weight') ?? 0,
+    ];
+
     return $form;
   }
 

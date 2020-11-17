@@ -38,6 +38,11 @@ class FooterLinkSectionForm extends EntityForm {
       '#disabled' => !$section->isNew(),
     ];
 
+    $form['weight'] = [
+      '#type' => 'hidden',
+      '#value' => $this->t('weight') ?? 0,
+    ];
+
     return $form;
   }
 
