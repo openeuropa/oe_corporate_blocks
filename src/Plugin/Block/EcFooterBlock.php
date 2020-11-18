@@ -31,7 +31,7 @@ class EcFooterBlock extends FooterBlockBase implements ContainerFactoryPluginInt
 
     $build['#theme'] = 'oe_corporate_blocks_ec_footer';
 
-    NestedArray::setValue($build, ['#corporate_footer', 'site_name'], $config->get('site_name'));
+    NestedArray::setValue($build, ['#corporate_footer', 'corporate_site_link'], $config->get('corporate_site_link'));
     NestedArray::setValue($build, ['#corporate_footer', 'content_owner_details'], $config->get('content_owner_details'));
 
     NestedArray::setValue($build, ['#corporate_footer', 'class_navigation'], $config->get('class_navigation'));

@@ -24,7 +24,7 @@ oe_corporate_blocks.ec_data.footer:
   type: config_object
   label: 'Data for EC corporate bocks.'
   mapping:
-    site_name:
+    corporate_site_link:
       type: oe_corporate_blocks.footer.link
     class_navigation:
       type: oe_corporate_blocks.footer.links

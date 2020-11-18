@@ -10,7 +10,7 @@
  *   - social_links: Social media links for custom footer.
  *   - other_links: Other links for custom footer.
  * - corporate_footer: Array with structure of corporate footer compatible with the ECL ec-components-footer component.
- *   - site_name: Site's name.
+ *   - corporate_site_link: Corporate site link.
  *   - class_navigation: Provides the user with navigation through class names.
  *   - service_navigation: Contains services links - consistent throughout the family sites.
  *   - legal_navigation: Contains legal information links - consistent throughout the family sites.
@@ -47,8 +47,8 @@
 {% endif %}
 <div class="footer__corporate">
   <div class="footer__corporate-top">
-    {% if corporate_footer.site_name is not empty %}
-      <h4 class="footer__site-name">{{ link(corporate_footer.site_name.label, corporate_footer.site_name.href) }}</h4>
+    {% if corporate_footer.corporate_site_link is not empty %}
+      <h4 class="footer__site-name">{{ link(corporate_footer.corporate_site_link.label, corporate_footer.corporate_site_link.href) }}</h4>
     {% endif %}
     {% if site_owner is not empty %}
       <span class="footer__content-owner-details">{{ 'This site is managed by the @name'|t({'@name': site_owner}) }}</span>
