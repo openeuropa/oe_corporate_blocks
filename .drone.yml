@@ -16,6 +16,12 @@ services:
     environment:
       - DISPLAY=:99
       - SE_OPTS=-debug
+  sparql:
+    image: openeuropa/triple-store-dev
+    pull: true
+    environment:
+      - SPARQL_UPDATE=true
+      - DBA_PASSWORD=dba
 
 pipeline:
   composer-install-lowest:

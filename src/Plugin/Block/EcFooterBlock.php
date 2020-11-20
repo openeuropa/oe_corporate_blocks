@@ -31,16 +31,14 @@ class EcFooterBlock extends FooterBlockBase implements ContainerFactoryPluginInt
 
     $build['#theme'] = 'oe_corporate_blocks_ec_footer';
 
-    NestedArray::setValue($build, ['#corporate_footer', 'about_ec', 'title'], $config->get('about_ec_title'));
-    NestedArray::setValue($build, ['#corporate_footer', 'about_ec', 'items'], $config->get('about_ec_links'));
+    NestedArray::setValue($build, ['#corporate_footer', 'corporate_site_link'], $config->get('corporate_site_link'));
+    NestedArray::setValue($build, ['#corporate_footer', 'content_owner_details'], $config->get('content_owner_details'));
 
-    NestedArray::setValue($build, ['#corporate_footer', 'social_media', 'title'], $config->get('social_media_title'));
-    NestedArray::setValue($build, ['#corporate_footer', 'social_media', 'items'], $config->get('social_media_links'));
+    NestedArray::setValue($build, ['#corporate_footer', 'class_navigation'], $config->get('class_navigation'));
 
-    NestedArray::setValue($build, ['#corporate_footer', 'about_eu', 'title'], $config->get('about_eu_title'));
-    NestedArray::setValue($build, ['#corporate_footer', 'about_eu', 'items'], $config->get('about_eu_links'));
+    NestedArray::setValue($build, ['#corporate_footer', 'service_navigation'], $config->get('service_navigation'));
 
-    NestedArray::setValue($build, ['#corporate_footer', 'bottom_links'], $config->get('bottom_links'));
+    NestedArray::setValue($build, ['#corporate_footer', 'legal_navigation'], $config->get('legal_navigation'));
 
     $this->setSiteSpecificFooter($build, $cache);
 

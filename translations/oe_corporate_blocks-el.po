@@ -4,29 +4,51 @@ msgstr ""
 msgid "Contact the EU"
 msgstr "Επικοινωνήστε με την ΕΕ"
 
+msgid "tel:0080067891011"
+msgstr "tel:0080067891011"
+
+msgid "Call us 00 800 6 7 8 9 10 11"
+msgstr "Τηλεφωνήστε μας στο 00 800 6 7 8 9 10 11"
+
+msgid "https://europa.eu/european-union/contact/call-us_en"
+msgstr "https://europa.eu/european-union/contact/call-us_el"
+
+msgid "Use other telephone options"
+msgstr ""
+"Χρησιμοποιήστε άλλες τηλεφωνικές "
+"επιλογές"
+
+msgid "https://europa.eu/european-union/contact/write-to-us_en"
+msgstr "https://europa.eu/european-union/contact/write-to-us_el"
+
+msgid "Write to us via our contact form"
+msgstr ""
+"Γράψτε μας μέσω του δελτίου "
+"επικοινωνίας"
+
+msgid "https://europa.eu/european-union/contact/meet-us_en"
+msgstr "https://europa.eu/european-union/contact/meet-us_el"
+
+msgid "Meet us at a local EU office"
+msgstr ""
+"Συναντήστε μας σε τοπικό γραφείο της "
+"ΕΕ"
+
 msgid "Find a social media account"
-msgstr "Βρείτε έναν λογαριασμό σε κοινωνικό δίκτυο"
-
-msgid "EU institutions"
-msgstr "Θεσμικά όργανα της ΕΕ"
-
-msgid "Call us <a href=\"tel:0080067891011\">00 800 6 7 8 9 10 11</a>"
-msgstr "Τηλεφωνήστε μας στο <a href=\"tel:0080067891011\">00 800 6 7 8 9 10 11</a>"
-
-msgid "Use other <a href=\"https://europa.eu/european-union/contact/call-us_en\">telephone options</a>"
-msgstr "Χρησιμοποιήστε άλλες <a href=\"https://europa.eu/european-union/contact/call-us_el\">τηλεφωνικές επιλογές</a>"
-
-msgid "Write to us via our <a href=\"https://europa.eu/european-union/contact/write-to-us_en\">contact form</a>"
-msgstr "Γράψτε μας μέσω <a href=\"https://europa.eu/european-union/contact/write-to-us_el\">του δελτίου επικοινωνίας</a>"
-
-msgid "Meet us at a <a href=\"https://europa.eu/european-union/contact/meet-us_en\">local EU office</a>"
-msgstr "Συναντήστε μας σε <a href=\"https://europa.eu/european-union/contact/meet-us_el\">τοπικό γραφείο της ΕΕ</a>"
+msgstr ""
+"Βρείτε έναν λογαριασμό σε κοινωνικό "
+"δίκτυο"
 
 msgid "Search for EU social media channels"
-msgstr "Αναζητήστε τις σελίδες της ΕΕ στα μέσα κοινωνικής δικτύωσης"
+msgstr ""
+"Αναζητήστε τις σελίδες της ΕΕ στα μέσα "
+"κοινωνικής δικτύωσης"
 
 msgid "https://europa.eu/european-union/contact/social-networks_en"
 msgstr "https://europa.eu/european-union/contact/social-networks_el"
+
+msgid "EU institutions"
+msgstr "Θεσμικά όργανα της ΕΕ"
 
 msgid "European Parliament"
 msgstr "Ευρωπαϊκό Κοινοβούλιο"
@@ -97,38 +119,32 @@ msgstr "Ευρωπαίος Επόπτης Προστασίας Δεδομένω�
 msgid "https://secure.edps.europa.eu/EDPSWEB/edps/EDPS?lang=en"
 msgstr "https://secure.edps.europa.eu/EDPSWEB/edps/EDPS?lang=el"
 
-msgid "Sitemap"
-msgstr "Περιεχόμενα"
-
-msgid "/european-union/abouteuropa/sitemap_en"
-msgstr "/european-union/abouteuropa/sitemap_el"
-
 msgid "About this site"
 msgstr "Γενικά"
 
-msgid "/european-union/abouteuropa_en"
-msgstr "/european-union/abouteuropa_el"
+msgid "https://europa.eu/european-union/abouteuropa_en"
+msgstr "https://europa.eu/european-union/abouteuropa_el"
 
 msgid "Language policy"
 msgstr "Γλωσσική πολιτική"
 
-msgid "/european-union/abouteuropa/language-policy_en"
-msgstr "/european-union/abouteuropa/language-policy_el"
+msgid "https://europa.eu/european-union/abouteuropa/language-policy_en"
+msgstr "https://europa.eu/european-union/abouteuropa/language-policy_el"
 
 msgid "Privacy policy"
 msgstr "Πολιτική απορρήτου"
 
-msgid "/european-union/abouteuropa/privacy-policy_en"
-msgstr "/european-union/abouteuropa/privacy-policy_el"
+msgid "https://europa.eu/european-union/abouteuropa/privacy-policy_en"
+msgstr "https://europa.eu/european-union/abouteuropa/privacy-policy_el"
 
 msgid "Legal notice"
 msgstr "Νομική ανακοίνωση"
 
-msgid "/european-union/abouteuropa/legal_notices_en"
-msgstr "/european-union/abouteuropa/legal_notices_el"
+msgid "https://europa.eu/european-union/abouteuropa/legal_notices_en"
+msgstr "https://europa.eu/european-union/abouteuropa/legal_notices_el"
 
-msgid "/european-union/abouteuropa/cookies_en"
-msgstr "/european-union/abouteuropa/cookies_el"
+msgid "https://europa.eu/european-union/abouteuropa/cookies_en"
+msgstr "https://europa.eu/european-union/abouteuropa/cookies_el"
 
 msgid "https://ec.europa.eu/info/index_en"
 msgstr "https://ec.europa.eu/info/index_el"
@@ -136,41 +152,143 @@ msgstr "https://ec.europa.eu/info/index_el"
 msgid "European Commission website"
 msgstr "Ιστότοπος της Ευρωπαϊκής Επιτροπής"
 
-msgid "Follow the European Commission"
-msgstr "Ακολουθήστε την Ευρωπαϊκή Επιτροπή"
+msgid "This site is managed by the @name"
+msgstr "Αρμόδια για τη διαχείριση του ιστοτόπου είναι η @name"
+
+msgid "https://ec.europa.eu/info/strategy_en"
+msgstr "https://ec.europa.eu/info/strategy_el"
+
+msgid "Strategy"
+msgstr "Στρατηγική"
+
+msgid "https://ec.europa.eu/info/about-european-commission_en"
+msgstr "https://ec.europa.eu/info/about-european-commission_el"
+
+msgid "About the European Commission"
+msgstr "Λίγα λόγια για την Ευρωπαϊκή Επιτροπή"
+
+msgid "https://ec.europa.eu/info/business-economy-euro_en"
+msgstr "https://ec.europa.eu/info/business-economy-euro_el"
+
+msgid "Business, Economy, Euro"
+msgstr "Επιχειρήσεις, οικονομία, ευρώ"
+
+msgid "https://ec.europa.eu/info/live-work-travel-eu_en"
+msgstr "https://ec.europa.eu/info/live-work-travel-eu_el"
+
+msgid "Live, work, travel in the EU"
+msgstr "Ζωή, εργασία, ταξίδια στην ΕΕ"
+
+msgid "https://ec.europa.eu/info/law_en"
+msgstr "https://ec.europa.eu/info/law_el"
+
+msgid "Law"
+msgstr "Δίκαιο"
+
+msgid "https://ec.europa.eu/info/funding-tenders_en"
+msgstr "https://ec.europa.eu/info/funding-tenders_el"
+
+msgid "Funding, Tenders"
+msgstr ""
+"Χρηματοδότηση, προσκλήσεις υποβολής "
+"προσφορών"
+
+msgid "https://ec.europa.eu/info/research-and-innovation_en"
+msgstr "https://ec.europa.eu/info/research-and-innovation_el"
+
+msgid "Research and innovation"
+msgstr "Έρευνα και καινοτομία"
+
+msgid "https://ec.europa.eu/info/energy-climate-change-environment_en"
+msgstr "https://ec.europa.eu/info/energy-climate-change-environment_el"
+
+msgid "Energy, Climate change, Environment"
+msgstr ""
+"Ενέργεια, κλιματική αλλαγή, "
+"περιβάλλον"
+
+msgid "https://ec.europa.eu/info/education_en"
+msgstr "https://ec.europa.eu/info/education_el"
+
+msgid "Education"
+msgstr "Εκπαίδευση"
+
+msgid "https://ec.europa.eu/info/aid-development-cooperation-fundamental-rights_en"
+msgstr "https://ec.europa.eu/info/aid-development-cooperation-fundamental-rights_el"
+
+msgid "Aid, Development cooperation, Fundamental rights"
+msgstr ""
+"Βοήθεια, αναπτυξιακή συνεργασία, "
+"θεμελιώδη δικαιώματα"
+
+msgid "https://ec.europa.eu/info/food-farming-fisheries_en"
+msgstr "https://ec.europa.eu/info/food-farming-fisheries_el"
+
+msgid "Food, Farming, Fisheries"
+msgstr "Τρόφιμα, γεωργία, αλιεία"
+
+msgid "https://ec.europa.eu/info/eu-regional-and-urban-development_en"
+msgstr "https://ec.europa.eu/info/eu-regional-and-urban-development_el"
+
+msgid "EU regional and urban development"
+msgstr ""
+"Περιφερειακή και αστική ανάπτυξη στην "
+"ΕΕ"
+
+msgid "https://ec.europa.eu/info/jobs-european-commission_en"
+msgstr "https://ec.europa.eu/info/jobs-european-commission_el"
+
+msgid "Jobs at the European Commission"
+msgstr ""
+"Θέσεις εργασίας στην Ευρωπαϊκή "
+"Επιτροπή"
+
+msgid "https://ec.europa.eu/info/statistics_en"
+msgstr "https://ec.europa.eu/info/statistics_el"
+
+msgid "Statistics"
+msgstr "Στατιστικά"
+
+msgid "https://ec.europa.eu/commission/presscorner/home/en"
+msgstr "https://ec.europa.eu/commission/presscorner/home/el"
+
+msgid "News"
+msgstr "Ειδήσεις"
+
+msgid "https://ec.europa.eu/info/events_en"
+msgstr "https://ec.europa.eu/info/events_el"
+
+msgid "Events"
+msgstr "Εκδηλώσεις"
+
+msgid "https://ec.europa.eu/info/publications_en"
+msgstr "https://ec.europa.eu/info/publications_el"
+
+msgid "Publications"
+msgstr "Εκδόσεις"
+
+msgid "https://ec.europa.eu/info/about-european-commission/contact_en"
+msgstr "https://ec.europa.eu/info/about-european-commission/contact_el"
+
+msgid "Contact the European Commission"
+msgstr "Επικοινωνία με την Ευρωπαϊκή Επιτροπή"
 
 msgid "https://europa.eu/european-union/contact/social-networks_en#n:+i:4+e:1+t:+s"
 msgstr "https://europa.eu/european-union/contact/social-networks_el#n:+i:4+e:1+t:+s"
 
-msgid "Other social media"
-msgstr "Άλλα μέσα κοινωνικής δικτύωσης"
-
-msgid "European Union"
-msgstr "Ευρωπαϊκή Ένωση"
-
-msgid "https://europa.eu/european-union/about-eu/institutions-bodies_en"
-msgstr "https://europa.eu/european-union/about-eu/institutions-bodies_el"
-
-msgid "EU institutions"
-msgstr "Όργανα της ΕΕ"
-
-msgid "https://europa.eu/european-union/index_en"
-msgstr "https://europa.eu/european-union/index_el"
-
-msgid "https://ec.europa.eu/info/about-commissions-new-web-presence_en"
-msgstr "https://ec.europa.eu/info/about-commissions-new-web-presence_el"
-
-msgid "About the Commission's new web presence"
-msgstr "Σχετικά με τη νέα διαδικτυακή παρουσία της Ευρωπαϊκής Επιτροπής"
-
-msgid "https://ec.europa.eu/info/language-policy_en"
-msgstr "https://ec.europa.eu/info/language-policy_el"
+msgid "Follow the European Commission on social media"
+msgstr ""
+"Ακολουθήστε την Ευρωπαϊκή Επιτροπή "
+"στα μέσα κοινωνικής δικτύωσης"
 
 msgid "https://ec.europa.eu/info/resources-partners_en"
-msgstr "http://ec.europa.eu/info/resources-partners_el"
+msgstr "https://ec.europa.eu/info/resources-partners_el"
 
 msgid "Resources for partners"
 msgstr "Πόροι για εταίρους"
+
+msgid "https://ec.europa.eu/info/language-policy_en"
+msgstr "https://ec.europa.eu/info/language-policy_el"
 
 msgid "https://ec.europa.eu/info/cookies_en"
 msgstr "https://ec.europa.eu/info/cookies_el"
@@ -180,12 +298,3 @@ msgstr "https://ec.europa.eu/info/privacy-policy_el"
 
 msgid "https://ec.europa.eu/info/legal-notice_en"
 msgstr "https://ec.europa.eu/info/legal-notice_el"
-
-msgid "https://ec.europa.eu/info/contact_en"
-msgstr "https://ec.europa.eu/info/contact_el"
-
-msgid "Contact"
-msgstr "Επικοινωνία"
-
-msgid "Policies, information and services"
-msgstr "Πολιτικές, πληροφορίες και υπηρεσίες"

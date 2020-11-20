@@ -4,29 +4,41 @@ msgstr ""
 msgid "Contact the EU"
 msgstr "Kontakt"
 
+msgid "tel:0080067891011"
+msgstr "tel:0080067891011"
+
+msgid "Call us 00 800 6 7 8 9 10 11"
+msgstr "Rufen Sie uns an unter 00 800 6 7 8 9 10 11"
+
+msgid "https://europa.eu/european-union/contact/call-us_en"
+msgstr "https://europa.eu/european-union/contact/call-us_de"
+
+msgid "Use other telephone options"
+msgstr "Rufen Sie uns unter einer anderen Nummer an"
+
+msgid "https://europa.eu/european-union/contact/write-to-us_en"
+msgstr "https://europa.eu/european-union/contact/write-to-us_de"
+
+msgid "Write to us via our contact form"
+msgstr "Schreiben Sie uns (Kontaktformular)"
+
+msgid "https://europa.eu/european-union/contact/meet-us_en"
+msgstr "https://europa.eu/european-union/contact/meet-us_de"
+
+msgid "Meet us at a local EU office"
+msgstr "Kommen Sie in einem unserer EU-Büros vor Ort vorbei"
+
 msgid "Find a social media account"
 msgstr "Die EU in den sozialen Medien"
-
-msgid "EU institutions"
-msgstr "EU-Institutionen"
-
-msgid "Call us <a href=\"tel:0080067891011\">00 800 6 7 8 9 10 11</a>"
-msgstr "Rufen Sie uns an unter <a href=\"tel:0080067891011\">00 800 6 7 8 9 10 11</a>"
-
-msgid "Use other <a href=\"https://europa.eu/european-union/contact/call-us_en\">telephone options</a>"
-msgstr "Rufen Sie uns unter <a href=\"https://europa.eu/european-union/contact/call-us_de\">einer anderen Nummer an</a>"
-
-msgid "Write to us via our <a href=\"https://europa.eu/european-union/contact/write-to-us_en\">contact form</a>"
-msgstr "Schreiben Sie uns (<a href=\"https://europa.eu/european-union/contact/write-to-us_de\">Kontaktformular</a>)"
-
-msgid "Meet us at a <a href=\"https://europa.eu/european-union/contact/meet-us_en\">local EU office</a>"
-msgstr "Kommen Sie in einem unserer <a href=\"https://europa.eu/european-union/contact/meet-us_de\">EU-Büros vor Ort</a> vorbei"
 
 msgid "Search for EU social media channels"
 msgstr "EU in den sozialen Medien"
 
 msgid "https://europa.eu/european-union/contact/social-networks_en"
 msgstr "https://europa.eu/european-union/contact/social-networks_de"
+
+msgid "EU institutions"
+msgstr "EU-Institutionen"
 
 msgid "European Parliament"
 msgstr "Europäisches Parlament"
@@ -100,38 +112,32 @@ msgstr "Europäischer Datenschutzbeauftragter (EDSB)"
 msgid "https://secure.edps.europa.eu/EDPSWEB/edps/EDPS?lang=en"
 msgstr "https://secure.edps.europa.eu/EDPSWEB/edps/EDPS?lang=de"
 
-msgid "Sitemap"
-msgstr "Wegweiser"
-
-msgid "/european-union/abouteuropa/sitemap_en"
-msgstr "/european-union/abouteuropa/sitemap_de"
-
 msgid "About this site"
 msgstr "Über diese Website"
 
-msgid "/european-union/abouteuropa_en"
-msgstr "/european-union/abouteuropa_de"
+msgid "https://europa.eu/european-union/abouteuropa_en"
+msgstr "https://europa.eu/european-union/abouteuropa_de"
 
 msgid "Language policy"
 msgstr "Sprachenpolitik"
 
-msgid "/european-union/abouteuropa/language-policy_en"
-msgstr "/european-union/abouteuropa/language-policy_de"
+msgid "https://europa.eu/european-union/abouteuropa/language-policy_en"
+msgstr "https://europa.eu/european-union/abouteuropa/language-policy_de"
 
 msgid "Privacy policy"
 msgstr "Schutz der Privatsphäre"
 
-msgid "/european-union/abouteuropa/privacy-policy_en"
-msgstr "/european-union/abouteuropa/privacy-policy_de"
+msgid "https://europa.eu/european-union/abouteuropa/privacy-policy_en"
+msgstr "https://europa.eu/european-union/abouteuropa/privacy-policy_de"
 
 msgid "Legal notice"
 msgstr "Rechtlicher Hinweis"
 
-msgid "/european-union/abouteuropa/legal_notices_en"
-msgstr "/european-union/abouteuropa/legal_notices_de"
+msgid "https://europa.eu/european-union/abouteuropa/legal_notices_en"
+msgstr "https://europa.eu/european-union/abouteuropa/legal_notices_de"
 
-msgid "/european-union/abouteuropa/cookies_en"
-msgstr "/european-union/abouteuropa/cookies_de"
+msgid "https://europa.eu/european-union/abouteuropa/cookies_en"
+msgstr "https://europa.eu/european-union/abouteuropa/cookies_de"
 
 msgid "https://ec.europa.eu/info/index_en"
 msgstr "https://ec.europa.eu/info/index_de"
@@ -139,41 +145,131 @@ msgstr "https://ec.europa.eu/info/index_de"
 msgid "European Commission website"
 msgstr "Website der Europäischen Kommission"
 
-msgid "Follow the European Commission"
-msgstr "Folgen Sie der Europäischen Kommission"
+msgid "This site is managed by the @name"
+msgstr "Diese Website wird von der @name"
+
+msgid "https://ec.europa.eu/info/strategy_en"
+msgstr "https://ec.europa.eu/info/strategy_de"
+
+msgid "Strategy"
+msgstr "Strategie"
+
+msgid "https://ec.europa.eu/info/about-european-commission_en"
+msgstr "https://ec.europa.eu/info/about-european-commission_de"
+
+msgid "About the European Commission"
+msgstr "Informationen über die Europäische Kommission"
+
+msgid "https://ec.europa.eu/info/business-economy-euro_en"
+msgstr "https://ec.europa.eu/info/business-economy-euro_de"
+
+msgid "Business, Economy, Euro"
+msgstr "Geschäftswelt, Wirtschaft, Euro"
+
+msgid "https://ec.europa.eu/info/live-work-travel-eu_en"
+msgstr "https://ec.europa.eu/info/live-work-travel-eu_de"
+
+msgid "Live, work, travel in the EU"
+msgstr "Leben, Arbeiten und Reisen in der EU"
+
+msgid "https://ec.europa.eu/info/law_en"
+msgstr "https://ec.europa.eu/info/law_de"
+
+msgid "Law"
+msgstr "Rechtsakt"
+
+msgid "https://ec.europa.eu/info/funding-tenders_en"
+msgstr "https://ec.europa.eu/info/funding-tenders_de"
+
+msgid "Funding, Tenders"
+msgstr "Finanzierung, Ausschreibungen"
+
+msgid "https://ec.europa.eu/info/research-and-innovation_en"
+msgstr "https://ec.europa.eu/info/research-and-innovation_de"
+
+msgid "Research and innovation"
+msgstr "Forschung und Innovation"
+
+msgid "https://ec.europa.eu/info/energy-climate-change-environment_en"
+msgstr "https://ec.europa.eu/info/energy-climate-change-environment_de"
+
+msgid "Energy, Climate change, Environment"
+msgstr "Energie, Klimawandel, Umwelt"
+
+msgid "https://ec.europa.eu/info/education_en"
+msgstr "https://ec.europa.eu/info/education_de"
+
+msgid "Education"
+msgstr "Bildung"
+
+msgid "https://ec.europa.eu/info/aid-development-cooperation-fundamental-rights_en"
+msgstr "https://ec.europa.eu/info/aid-development-cooperation-fundamental-rights_de"
+
+msgid "Aid, Development cooperation, Fundamental rights"
+msgstr "Hilfe, Entwicklungszusammenarbeit, Grundrechte"
+
+msgid "https://ec.europa.eu/info/food-farming-fisheries_en"
+msgstr "https://ec.europa.eu/info/food-farming-fisheries_de"
+
+msgid "Food, Farming, Fisheries"
+msgstr "Lebens- und Nahrungsmittel, Landwirtschaft, Fischerei"
+
+msgid "https://ec.europa.eu/info/eu-regional-and-urban-development_en"
+msgstr "https://ec.europa.eu/info/eu-regional-and-urban-development_de"
+
+msgid "EU regional and urban development"
+msgstr "EU-Investitionen in Regionen und Städte"
+
+msgid "https://ec.europa.eu/info/jobs-european-commission_en"
+msgstr "https://ec.europa.eu/info/jobs-european-commission_de"
+
+msgid "Jobs at the European Commission"
+msgstr "Stellen bei der Europäischen Kommission"
+
+msgid "https://ec.europa.eu/info/statistics_en"
+msgstr "https://ec.europa.eu/info/statistics_de"
+
+msgid "Statistics"
+msgstr "Statistiken"
+
+msgid "https://ec.europa.eu/commission/presscorner/home/en"
+msgstr "https://ec.europa.eu/commission/presscorner/home/de"
+
+msgid "News"
+msgstr "Nachrichten"
+
+msgid "https://ec.europa.eu/info/events_en"
+msgstr "https://ec.europa.eu/info/events_de"
+
+msgid "Events"
+msgstr "Veranstaltungen"
+
+msgid "https://ec.europa.eu/info/publications_en"
+msgstr "https://ec.europa.eu/info/publications_de"
+
+msgid "Publications"
+msgstr "Veröffentlichungen"
+
+msgid "https://ec.europa.eu/info/about-european-commission/contact_en"
+msgstr "https://ec.europa.eu/info/about-european-commission/contact_de"
+
+msgid "Contact the European Commission"
+msgstr "Kontakt zur Europäischen Kommission"
 
 msgid "https://europa.eu/european-union/contact/social-networks_en#n:+i:4+e:1+t:+s"
 msgstr "https://europa.eu/european-union/contact/social-networks_de#n:+i:4+e:1+t:+s"
 
-msgid "Other social media"
-msgstr "Andere soziale Medien"
-
-msgid "European Union"
-msgstr "Europäische Union"
-
-msgid "https://europa.eu/european-union/about-eu/institutions-bodies_en"
-msgstr "https://europa.eu/european-union/about-eu/institutions-bodies_de"
-
-msgid "EU institutions"
-msgstr "EU-Institutionen"
-
-msgid "https://europa.eu/european-union/index_en"
-msgstr "https://europa.eu/european-union/index_de"
-
-msgid "https://ec.europa.eu/info/about-commissions-new-web-presence_en"
-msgstr "https://ec.europa.eu/info/about-commissions-new-web-presence_de"
-
-msgid "About the Commission's new web presence"
-msgstr "Über den neuen Internetauftritt der Kommission"
-
-msgid "https://ec.europa.eu/info/language-policy_en"
-msgstr "https://ec.europa.eu/info/language-policy_de"
+msgid "Follow the European Commission on social media"
+msgstr "Folgen Sie der Europäischen Kommission in den sozialen Medien"
 
 msgid "https://ec.europa.eu/info/resources-partners_en"
-msgstr "http://ec.europa.eu/info/resources-partners_de"
+msgstr "https://ec.europa.eu/info/resources-partners_de"
 
 msgid "Resources for partners"
 msgstr "Ressourcen für Partner"
+
+msgid "https://ec.europa.eu/info/language-policy_en"
+msgstr "https://ec.europa.eu/info/language-policy_de"
 
 msgid "https://ec.europa.eu/info/cookies_en"
 msgstr "https://ec.europa.eu/info/cookies_de"
@@ -183,12 +279,3 @@ msgstr "https://ec.europa.eu/info/privacy-policy_de"
 
 msgid "https://ec.europa.eu/info/legal-notice_en"
 msgstr "https://ec.europa.eu/info/legal-notice_de"
-
-msgid "https://ec.europa.eu/info/contact_en"
-msgstr "https://ec.europa.eu/info/contact_de"
-
-msgid "Contact"
-msgstr "Kontakt"
-
-msgid "Policies, information and services"
-msgstr "Politikfelder, Informationen und Dienste"

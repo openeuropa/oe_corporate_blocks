@@ -1,41 +1,3 @@
-oe_corporate_blocks.ec_data.footer:
-  type: config_object
-  label: 'Data for EC corporate bocks.'
-  mapping:
-    about_ec_title:
-      type: string
-      label: 'About EC title'
-      translatable: true
-    about_ec_links:
-      type: oe_corporate_blocks.footer.links
-    social_media_title:
-      type: string
-      label: 'Social media title'
-      translatable: true
-    social_media_links:
-      type: sequence
-      label: 'Social media links'
-      sequence:
-        type: mapping
-        label: 'Social media link data'
-        mapping:
-          type:
-            type: string
-            label: 'The type of the social media link'
-          icon:
-            type: string
-            label: 'The icon of the social media link'
-          link:
-            type: oe_corporate_blocks.footer.link
-    about_eu_title:
-      type: string
-      label: 'About EU title'
-      translatable: true
-    about_eu_links:
-      type: oe_corporate_blocks.footer.links
-    bottom_links:
-      type: oe_corporate_blocks.footer.links
-
 oe_corporate_blocks.footer.links:
   type: sequence
   label: 'A list of footer links'
@@ -46,6 +8,9 @@ oe_corporate_blocks.footer.link:
   type: mapping
   label: 'Footer link'
   mapping:
+    external:
+      type: boolean
+      label: 'Is external link.'
     href:
       type: string
       label: 'Link URL'
@@ -54,6 +19,19 @@ oe_corporate_blocks.footer.link:
       type: string
       label: 'The link label'
       translatable: true
+
+oe_corporate_blocks.ec_data.footer:
+  type: config_object
+  label: 'Data for EC corporate bocks.'
+  mapping:
+    corporate_site_link:
+      type: oe_corporate_blocks.footer.link
+    class_navigation:
+      type: oe_corporate_blocks.footer.links
+    service_navigation:
+      type: oe_corporate_blocks.footer.links
+    legal_navigation:
+      type: oe_corporate_blocks.footer.links
 
 oe_corporate_blocks.eu_data.footer:
   type: config_object
@@ -67,8 +45,7 @@ oe_corporate_blocks.eu_data.footer:
       type: sequence
       label: 'Contact information'
       sequence:
-        translatable: true
-        type: string
+        type: oe_corporate_blocks.footer.link
     social_media_title:
       type: string
       label: 'Title of social media column'
@@ -87,9 +64,12 @@ oe_corporate_blocks.eu_data.footer:
       label: 'EU institution links'
       sequence:
         type: oe_corporate_blocks.footer.link
-    other_links:
+    legal_links_title:
+      type: string
+      label: 'Title of legal links column'
+    legal_links:
       type: sequence
-      label: 'EU other links'
+      label: 'Legal links'
       sequence:
         type: oe_corporate_blocks.footer.link
 

@@ -4,29 +4,41 @@ msgstr ""
 msgid "Contact the EU"
 msgstr "Déan teagmháil leis an Aontas Eorpach"
 
+msgid "tel:0080067891011"
+msgstr "tel:0080067891011"
+
+msgid "Call us 00 800 6 7 8 9 10 11"
+msgstr "Glaoigh orainn ar 00 800 6 7 8 9 10 11"
+
+msgid "https://europa.eu/european-union/contact/call-us_en"
+msgstr "https://europa.eu/european-union/contact/call-us_ga"
+
+msgid "Use other telephone options"
+msgstr "Úsáid roghanna teileafóin eile"
+
+msgid "https://europa.eu/european-union/contact/write-to-us_en"
+msgstr "https://europa.eu/european-union/contact/write-to-us_ga"
+
+msgid "Write to us via our contact form"
+msgstr "Scríobh chugainn tríd an bhfoirm theagmhála"
+
+msgid "https://europa.eu/european-union/contact/meet-us_en"
+msgstr "https://europa.eu/european-union/contact/meet-us_ga"
+
+msgid "Meet us at a local EU office"
+msgstr "Buail linn in oifig áitiúil de chuid an Aontais"
+
 msgid "Find a social media account"
 msgstr "Cuntas sna meáin shóisialta a aimsiú"
-
-msgid "EU institutions"
-msgstr "Institiúidí an Aontais Eorpaigh"
-
-msgid "Call us <a href=\"tel:0080067891011\">00 800 6 7 8 9 10 11</a>"
-msgstr "Glaoigh orainn ar <a href=\"tel:0080067891011\">00 800 6 7 8 9 10 11</a>"
-
-msgid "Use other <a href=\"https://europa.eu/european-union/contact/call-us_en\">telephone options</a>"
-msgstr "Úsáid <a href=\"https://europa.eu/european-union/contact/call-us_ga\">roghanna teileafóin eile</a>"
-
-msgid "Write to us via our <a href=\"https://europa.eu/european-union/contact/write-to-us_en\">contact form</a>"
-msgstr "Scríobh chugainn tríd an <a href=\"https://europa.eu/european-union/contact/write-to-us_ga\">bhfoirm theagmhála</a>"
-
-msgid "Meet us at a <a href=\"https://europa.eu/european-union/contact/meet-us_en\">local EU office</a>"
-msgstr "Buail linn in <a href=\"https://europa.eu/european-union/contact/meet-us_ga\">oifig áitiúil de chuid an Aontais</a>"
 
 msgid "Search for EU social media channels"
 msgstr "Cainéil an Aontais Eorpaigh ar na meáin shóisialta a chuardach"
 
 msgid "https://europa.eu/european-union/contact/social-networks_en"
 msgstr "https://europa.eu/european-union/contact/social-networks_ga"
+
+msgid "EU institutions"
+msgstr "Institiúidí an Aontais Eorpaigh"
 
 msgid "European Parliament"
 msgstr "Parlaimint na hEorpa"
@@ -91,41 +103,35 @@ msgstr "An Maoirseoir Eorpach ar Chosaint Sonraí (MECS)"
 msgid "https://secure.edps.europa.eu/EDPSWEB/edps/EDPS?lang=en"
 msgstr "https://secure.edps.europa.eu/EDPSWEB/edps/EDPS?lang=ga"
 
-msgid "Sitemap"
-msgstr "Mapa suímh"
-
-msgid "/european-union/abouteuropa/sitemap_en"
-msgstr "/european-union/abouteuropa/sitemap_ga"
-
 msgid "About this site"
 msgstr "Faoin suíomh seo"
 
-msgid "/european-union/abouteuropa_en"
-msgstr "/european-union/abouteuropa_ga"
+msgid "https://europa.eu/european-union/abouteuropa_en"
+msgstr "https://europa.eu/european-union/abouteuropa_ga"
 
 msgid "Language policy"
 msgstr "Beartas teanga"
 
-msgid "/european-union/abouteuropa/language-policy_en"
-msgstr "/european-union/abouteuropa/language-policy_ga"
+msgid "https://europa.eu/european-union/abouteuropa/language-policy_en"
+msgstr "https://europa.eu/european-union/abouteuropa/language-policy_ga"
 
 msgid "Privacy policy"
 msgstr "Beartas príobháideachais"
 
-msgid "/european-union/abouteuropa/privacy-policy_en"
-msgstr "/european-union/abouteuropa/privacy-policy_ga"
+msgid "https://europa.eu/european-union/abouteuropa/privacy-policy_en"
+msgstr "https://europa.eu/european-union/abouteuropa/privacy-policy_ga"
 
 msgid "Legal notice"
 msgstr "Fógra dlíthiúil"
 
-msgid "/european-union/abouteuropa/legal_notices_en"
-msgstr "/european-union/abouteuropa/legal_notices_ga"
+msgid "https://europa.eu/european-union/abouteuropa/legal_notices_en"
+msgstr "https://europa.eu/european-union/abouteuropa/legal_notices_ga"
 
 msgid "Cookies"
 msgstr "Fianáin"
 
-msgid "/european-union/abouteuropa/cookies_en"
-msgstr "/european-union/abouteuropa/cookies_ga"
+msgid "https://europa.eu/european-union/abouteuropa/cookies_en"
+msgstr "https://europa.eu/european-union/abouteuropa/cookies_ga"
 
 msgid "https://ec.europa.eu/info/index_en"
 msgstr "https://ec.europa.eu/info/index_ga"
@@ -133,41 +139,131 @@ msgstr "https://ec.europa.eu/info/index_ga"
 msgid "European Commission website"
 msgstr "Suíomh gréasáin an Choimisiúin Eorpaigh"
 
-msgid "Follow the European Commission"
-msgstr "An Coimisiún Eorpach a leanúint"
+msgid "This site is managed by the @name"
+msgstr "Tá an suíomh seo á bhainistiú ag @name"
+
+msgid "https://ec.europa.eu/info/strategy_en"
+msgstr "https://ec.europa.eu/info/strategy_ga"
+
+msgid "Strategy"
+msgstr "Straitéis"
+
+msgid "https://ec.europa.eu/info/about-european-commission_en"
+msgstr "https://ec.europa.eu/info/about-european-commission_ga"
+
+msgid "About the European Commission"
+msgstr "Eolas faoin gCoimisiún Eorpach"
+
+msgid "https://ec.europa.eu/info/business-economy-euro_en"
+msgstr "https://ec.europa.eu/info/business-economy-euro_ga"
+
+msgid "Business, Economy, Euro"
+msgstr "Gnó, an geilleagar, an euro"
+
+msgid "https://ec.europa.eu/info/live-work-travel-eu_en"
+msgstr "https://ec.europa.eu/info/live-work-travel-eu_ga"
+
+msgid "Live, work, travel in the EU"
+msgstr "Cúrsaí saoil, oibre agus taistil san Aontas Eorpach"
+
+msgid "https://ec.europa.eu/info/law_en"
+msgstr "https://ec.europa.eu/info/law_ga"
+
+msgid "Law"
+msgstr "An dlí"
+
+msgid "https://ec.europa.eu/info/funding-tenders_en"
+msgstr "https://ec.europa.eu/info/funding-tenders_ga"
+
+msgid "Funding, Tenders"
+msgstr "Maoiniú, Glaonna ar Thairiscintí"
+
+msgid "https://ec.europa.eu/info/research-and-innovation_en"
+msgstr "https://ec.europa.eu/info/research-and-innovation_ga"
+
+msgid "Research and innovation"
+msgstr "Taighde agus nuálaíocht"
+
+msgid "https://ec.europa.eu/info/energy-climate-change-environment_en"
+msgstr "https://ec.europa.eu/info/energy-climate-change-environment_ga"
+
+msgid "Energy, Climate change, Environment"
+msgstr "Fuinneamh, an t-athrú aeráide, an comhshaol"
+
+msgid "https://ec.europa.eu/info/education_en"
+msgstr "https://ec.europa.eu/info/education_ga"
+
+msgid "Education"
+msgstr "Oideachas"
+
+msgid "https://ec.europa.eu/info/aid-development-cooperation-fundamental-rights_en"
+msgstr "https://ec.europa.eu/info/aid-development-cooperation-fundamental-rights_ga"
+
+msgid "Aid, Development cooperation, Fundamental rights"
+msgstr "Cabhair, comhar don fhorbairt, cearta bunúsacha"
+
+msgid "https://ec.europa.eu/info/food-farming-fisheries_en"
+msgstr "https://ec.europa.eu/info/food-farming-fisheries_ga"
+
+msgid "Food, Farming, Fisheries"
+msgstr "Bia, Feirmeoireacht, Iascaigh"
+
+msgid "https://ec.europa.eu/info/eu-regional-and-urban-development_en"
+msgstr "https://ec.europa.eu/info/eu-regional-and-urban-development_ga"
+
+msgid "EU regional and urban development"
+msgstr "Infheistíocht réigiúnach agus uirbeach an Aontais"
+
+msgid "https://ec.europa.eu/info/jobs-european-commission_en"
+msgstr "https://ec.europa.eu/info/jobs-european-commission_ga"
+
+msgid "Jobs at the European Commission"
+msgstr "Poist leis an gCoimisiún Eorpach"
+
+msgid "https://ec.europa.eu/info/statistics_en"
+msgstr "https://ec.europa.eu/info/statistics_ga"
+
+msgid "Statistics"
+msgstr "Statisticí"
+
+msgid "https://ec.europa.eu/commission/presscorner/home/en"
+msgstr "https://ec.europa.eu/commission/presscorner/home/ga"
+
+msgid "News"
+msgstr "Nuacht"
+
+msgid "https://ec.europa.eu/info/events_en"
+msgstr "https://ec.europa.eu/info/events_ga"
+
+msgid "Events"
+msgstr "Imeachtaí"
+
+msgid "https://ec.europa.eu/info/publications_en"
+msgstr "https://ec.europa.eu/info/publications_ga"
+
+msgid "Publications"
+msgstr "Foilseacháin"
+
+msgid "https://ec.europa.eu/info/about-european-commission/contact_en"
+msgstr "https://ec.europa.eu/info/about-european-commission/contact_ga"
+
+msgid "Contact the European Commission"
+msgstr "Teagmháil a dhéanamh leis an gCoimisiún Eorpach"
 
 msgid "https://europa.eu/european-union/contact/social-networks_en#n:+i:4+e:1+t:+s"
 msgstr "https://europa.eu/european-union/contact/social-networks_ga#n:+i:4+e:1+t:+s"
 
-msgid "Other social media"
-msgstr "Líonraí sóisialta eile"
-
-msgid "European Union"
-msgstr "Aontais Eorpaigh"
-
-msgid "https://europa.eu/european-union/about-eu/institutions-bodies_en"
-msgstr "https://europa.eu/european-union/about-eu/institutions-bodies_ga"
-
-msgid "EU institutions"
-msgstr "Institiúidí an Aontais Eorpaigh"
-
-msgid "https://europa.eu/european-union/index_en"
-msgstr "https://europa.eu/european-union/index_ga"
-
-msgid "https://ec.europa.eu/info/about-commissions-new-web-presence_en"
-msgstr "https://ec.europa.eu/info/about-commissions-new-web-presence_ga"
-
-msgid "About the Commission's new web presence"
-msgstr "Eolas faoi láithreacht nua an Choimisiúin Eorpaigh ar an idirlíon"
-
-msgid "https://ec.europa.eu/info/language-policy_en"
-msgstr "https://ec.europa.eu/info/language-policy_ga"
+msgid "Follow the European Commission on social media"
+msgstr "Lean an Coimisiún Eorpach ar na meáin shóisialta"
 
 msgid "https://ec.europa.eu/info/resources-partners_en"
-msgstr "http://ec.europa.eu/info/resources-partners_ga"
+msgstr "https://ec.europa.eu/info/resources-partners_ga"
 
 msgid "Resources for partners"
 msgstr "Acmhainní le haghaidh comhpháirtithe"
+
+msgid "https://ec.europa.eu/info/language-policy_en"
+msgstr "https://ec.europa.eu/info/language-policy_ga"
 
 msgid "https://ec.europa.eu/info/cookies_en"
 msgstr "https://ec.europa.eu/info/cookies_ga"
@@ -177,12 +273,3 @@ msgstr "https://ec.europa.eu/info/privacy-policy_ga"
 
 msgid "https://ec.europa.eu/info/legal-notice_en"
 msgstr "https://ec.europa.eu/info/legal-notice_ga"
-
-msgid "https://ec.europa.eu/info/contact_en"
-msgstr "https://ec.europa.eu/info/contact_ga"
-
-msgid "Contact"
-msgstr "Teagmháil"
-
-msgid "Policies, information and services"
-msgstr "Beartais, eolas agus seirbhísí"

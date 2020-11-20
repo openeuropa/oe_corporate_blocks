@@ -4,29 +4,41 @@ msgstr ""
 msgid "Contact the EU"
 msgstr "Contactați UE"
 
+msgid "tel:0080067891011"
+msgstr "tel:0080067891011"
+
+msgid "Call us 00 800 6 7 8 9 10 11"
+msgstr "Apelați numărul 00 800 6 7 8 9 10 11"
+
+msgid "https://europa.eu/european-union/contact/call-us_en"
+msgstr "https://europa.eu/european-union/contact/call-us_ro"
+
+msgid "Use other telephone options"
+msgstr "Utilizați alte opțiuni telefonice"
+
+msgid "https://europa.eu/european-union/contact/write-to-us_en"
+msgstr "https://europa.eu/european-union/contact/write-to-us_ro"
+
+msgid "Write to us via our contact form"
+msgstr "Scrieți-ne completând formularul de contact"
+
+msgid "https://europa.eu/european-union/contact/meet-us_en"
+msgstr "https://europa.eu/european-union/contact/meet-us_ro"
+
+msgid "Meet us at a local EU office"
+msgstr "Veniți într-un birou local al UE"
+
 msgid "Find a social media account"
 msgstr "Găsiți un cont pe platformele de comunicare socială"
-
-msgid "EU institutions"
-msgstr "Instituțiile UE"
-
-msgid "Call us <a href=\"tel:0080067891011\">00 800 6 7 8 9 10 11</a>"
-msgstr "Apelați numărul <a href=\"tel:0080067891011\">00 800 6 7 8 9 10 11</a>"
-
-msgid "Use other <a href=\"https://europa.eu/european-union/contact/call-us_en\">telephone options</a>"
-msgstr "Utilizați alte <a href=\"https://europa.eu/european-union/contact/call-us_ro\">opțiuni telefonice</a>"
-
-msgid "Write to us via our <a href=\"https://europa.eu/european-union/contact/write-to-us_en\">contact form</a>"
-msgstr "Scrieți-ne completând <a href=\"https://europa.eu/european-union/contact/write-to-us_ro\">formularul de contact</a>"
-
-msgid "Meet us at a <a href=\"https://europa.eu/european-union/contact/meet-us_en\">local EU office</a>"
-msgstr "Veniți într-un birou <a href=\"https://europa.eu/european-union/contact/meet-us_ro\">local al UE</a>"
 
 msgid "Search for EU social media channels"
 msgstr "Căutați canalele UE pe rețelele sociale"
 
 msgid "https://europa.eu/european-union/contact/social-networks_en"
 msgstr "https://europa.eu/european-union/contact/social-networks_ro"
+
+msgid "EU institutions"
+msgstr "Instituțiile UE"
 
 msgid "European Parliament"
 msgstr "Parlamentul European"
@@ -97,41 +109,35 @@ msgstr "Autoritatea Europeană pentru Protecția Datelor (AEPD)"
 msgid "https://secure.edps.europa.eu/EDPSWEB/edps/EDPS?lang=en"
 msgstr "https://secure.edps.europa.eu/EDPSWEB/edps/EDPS?lang=ro"
 
-msgid "Sitemap"
-msgstr "Hartă site"
-
-msgid "/european-union/abouteuropa/sitemap_en"
-msgstr "/european-union/abouteuropa/sitemap_ro"
-
 msgid "About this site"
 msgstr "Despre site"
 
-msgid "/european-union/abouteuropa_en"
-msgstr "/european-union/abouteuropa_ro"
+msgid "https://europa.eu/european-union/abouteuropa_en"
+msgstr "https://europa.eu/european-union/abouteuropa_ro"
 
 msgid "Language policy"
 msgstr "Politica lingvistică"
 
-msgid "/european-union/abouteuropa/language-policy_en"
-msgstr "/european-union/abouteuropa/language-policy_ro"
+msgid "https://europa.eu/european-union/abouteuropa/language-policy_en"
+msgstr "https://europa.eu/european-union/abouteuropa/language-policy_ro"
 
 msgid "Privacy policy"
 msgstr "Politica de confidențialitate"
 
-msgid "/european-union/abouteuropa/privacy-policy_en"
-msgstr "/european-union/abouteuropa/privacy-policy_ro"
+msgid "https://europa.eu/european-union/abouteuropa/privacy-policy_en"
+msgstr "https://europa.eu/european-union/abouteuropa/privacy-policy_ro"
 
 msgid "Legal notice"
 msgstr "Aviz juridic"
 
-msgid "/european-union/abouteuropa/legal_notices_en"
-msgstr "/european-union/abouteuropa/legal_notices_ro"
+msgid "https://europa.eu/european-union/abouteuropa/legal_notices_en"
+msgstr "https://europa.eu/european-union/abouteuropa/legal_notices_ro"
 
 msgid "Cookies"
 msgstr "Cookie-urile"
 
-msgid "/european-union/abouteuropa/cookies_en"
-msgstr "/european-union/abouteuropa/cookies_ro"
+msgid "https://europa.eu/european-union/abouteuropa/cookies_en"
+msgstr "https://europa.eu/european-union/abouteuropa/cookies_ro"
 
 msgid "https://ec.europa.eu/info/index_en"
 msgstr "https://ec.europa.eu/info/index_ro"
@@ -139,41 +145,131 @@ msgstr "https://ec.europa.eu/info/index_ro"
 msgid "European Commission website"
 msgstr "Site-ul Comisiei Europene"
 
-msgid "Follow the European Commission"
-msgstr "Urmăriți Comisia Europeană"
+msgid "This site is managed by the @name"
+msgstr "Site administrat de @name"
+
+msgid "https://ec.europa.eu/info/strategy_en"
+msgstr "https://ec.europa.eu/info/strategy_ro"
+
+msgid "Strategy"
+msgstr "Strategie"
+
+msgid "https://ec.europa.eu/info/about-european-commission_en"
+msgstr "https://ec.europa.eu/info/about-european-commission_ro"
+
+msgid "About the European Commission"
+msgstr "Despre Comisia Europeană"
+
+msgid "https://ec.europa.eu/info/business-economy-euro_en"
+msgstr "https://ec.europa.eu/info/business-economy-euro_ro"
+
+msgid "Business, Economy, Euro"
+msgstr "Întreprinderi, economie, moneda euro"
+
+msgid "https://ec.europa.eu/info/live-work-travel-eu_en"
+msgstr "https://ec.europa.eu/info/live-work-travel-eu_ro"
+
+msgid "Live, work, travel in the EU"
+msgstr "Viața, munca și călătoriile în UE"
+
+msgid "https://ec.europa.eu/info/law_en"
+msgstr "https://ec.europa.eu/info/law_ro"
+
+msgid "Law"
+msgstr "Reglementare"
+
+msgid "https://ec.europa.eu/info/funding-tenders_en"
+msgstr "https://ec.europa.eu/info/funding-tenders_ro"
+
+msgid "Funding, Tenders"
+msgstr "Finanțare, licitații"
+
+msgid "https://ec.europa.eu/info/research-and-innovation_en"
+msgstr "https://ec.europa.eu/info/research-and-innovation_ro"
+
+msgid "Research and innovation"
+msgstr "Cercetare și inovare"
+
+msgid "https://ec.europa.eu/info/energy-climate-change-environment_en"
+msgstr "https://ec.europa.eu/info/energy-climate-change-environment_ro"
+
+msgid "Energy, Climate change, Environment"
+msgstr "Energie, schimbări climatice, mediu"
+
+msgid "https://ec.europa.eu/info/education_en"
+msgstr "https://ec.europa.eu/info/education_ro"
+
+msgid "Education"
+msgstr "Educație"
+
+msgid "https://ec.europa.eu/info/aid-development-cooperation-fundamental-rights_en"
+msgstr "https://ec.europa.eu/info/aid-development-cooperation-fundamental-rights_ro"
+
+msgid "Aid, Development cooperation, Fundamental rights"
+msgstr "Ajutor extern, cooperare pentru dezvoltare, drepturi fundamentale"
+
+msgid "https://ec.europa.eu/info/food-farming-fisheries_en"
+msgstr "https://ec.europa.eu/info/food-farming-fisheries_ro"
+
+msgid "Food, Farming, Fisheries"
+msgstr "Alimentație, agricultură, pescuit"
+
+msgid "https://ec.europa.eu/info/eu-regional-and-urban-development_en"
+msgstr "https://ec.europa.eu/info/eu-regional-and-urban-development_ro"
+
+msgid "EU regional and urban development"
+msgstr "Dezvoltare regională și urbană în UE"
+
+msgid "https://ec.europa.eu/info/jobs-european-commission_en"
+msgstr "https://ec.europa.eu/info/jobs-european-commission_ro"
+
+msgid "Jobs at the European Commission"
+msgstr "Posturi la Comisia Europeană"
+
+msgid "https://ec.europa.eu/info/statistics_en"
+msgstr "https://ec.europa.eu/info/statistics_ro"
+
+msgid "Statistics"
+msgstr "Statistici"
+
+msgid "https://ec.europa.eu/commission/presscorner/home/en"
+msgstr "https://ec.europa.eu/commission/presscorner/home/ro"
+
+msgid "News"
+msgstr "Noutăți"
+
+msgid "https://ec.europa.eu/info/events_en"
+msgstr "https://ec.europa.eu/info/events_ro"
+
+msgid "Events"
+msgstr "Evenimente"
+
+msgid "https://ec.europa.eu/info/publications_en"
+msgstr "https://ec.europa.eu/info/publications_ro"
+
+msgid "Publications"
+msgstr "Publicații"
+
+msgid "https://ec.europa.eu/info/about-european-commission/contact_en"
+msgstr "https://ec.europa.eu/info/about-european-commission/contact_ro"
+
+msgid "Contact the European Commission"
+msgstr "Contactați Comisia Europeană"
 
 msgid "https://europa.eu/european-union/contact/social-networks_en#n:+i:4+e:1+t:+s"
 msgstr "https://europa.eu/european-union/contact/social-networks_ro#n:+i:4+e:1+t:+s"
 
-msgid "Other social media"
-msgstr "Alte rețele sociale"
-
-msgid "European Union"
-msgstr "Uniunea Europeană"
-
-msgid "https://europa.eu/european-union/about-eu/institutions-bodies_en"
-msgstr "https://europa.eu/european-union/about-eu/institutions-bodies_ro"
-
-msgid "EU institutions"
-msgstr "Instituțiile UE"
-
-msgid "https://europa.eu/european-union/index_en"
-msgstr "https://europa.eu/european-union/index_ro"
-
-msgid "https://ec.europa.eu/info/about-commissions-new-web-presence_en"
-msgstr "https://ec.europa.eu/info/about-commissions-new-web-presence_ro"
-
-msgid "About the Commission's new web presence"
-msgstr "Despre noul portal al Comisiei"
-
-msgid "https://ec.europa.eu/info/language-policy_en"
-msgstr "https://ec.europa.eu/info/language-policy_ro"
+msgid "Follow the European Commission on social media"
+msgstr "Urmăriți Comisia Europeană pe platformele de comunicare socială"
 
 msgid "https://ec.europa.eu/info/resources-partners_en"
-msgstr "http://ec.europa.eu/info/resources-partners_ro"
+msgstr "https://ec.europa.eu/info/resources-partners_ro"
 
 msgid "Resources for partners"
 msgstr "Resurse pentru parteneri"
+
+msgid "https://ec.europa.eu/info/language-policy_en"
+msgstr "https://ec.europa.eu/info/language-policy_ro"
 
 msgid "https://ec.europa.eu/info/cookies_en"
 msgstr "https://ec.europa.eu/info/cookies_ro"
@@ -183,9 +279,3 @@ msgstr "https://ec.europa.eu/info/privacy-policy_ro"
 
 msgid "https://ec.europa.eu/info/legal-notice_en"
 msgstr "https://ec.europa.eu/info/legal-notice_ro"
-
-msgid "https://ec.europa.eu/info/contact_en"
-msgstr "https://ec.europa.eu/info/contact_ro"
-
-msgid "Policies, information and services"
-msgstr "Informații și domenii de interes"

@@ -10,6 +10,7 @@ default:
         - Drupal\DrupalExtension\Context\MessageContext
         - Drupal\Tests\oe_corporate_blocks\Behat\CorporateBlocksContext
         - Drupal\Tests\oe_corporate_blocks\Behat\FeatureContext
+        - Drupal\Tests\oe_corporate_site_info\Behat\CorporateSiteInformationContext
         - OpenEuropa\Behat\TransformationContext:
             pages:
               login: "user/login"
@@ -29,6 +30,7 @@ default:
       region_map:
         ec_footer: "div.block-oe-corporate-blocks-ec-footer"
         eu_footer: "div.block-oe-corporate-blocks-eu-footer"
+        eu_footer_bottom_title: "div.block-oe-corporate-blocks-eu-footer .footer__corporate-bottom--eu-title"
         header: "div.region-header"
       selectors:
         message_selector: ".messages"

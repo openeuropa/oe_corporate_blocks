@@ -5,6 +5,9 @@ type: module
 core: 8.x
 configure: oe_corporate_blocks.settings_index
 
+dependencies:
+  - oe_corporate_site_info:oe_corporate_site_info
+
 config_devel:
   install:
     - oe_corporate_blocks.footer_link.section.about_us

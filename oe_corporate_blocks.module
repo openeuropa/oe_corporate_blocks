@@ -7,6 +7,9 @@
 
 declare(strict_types = 1);
 
+use Drupal\Core\Cache\CacheableMetadata;
+use Drupal\oe_corporate_site_info\SiteInformation;
+
 /**
  * Implements hook_theme().
  */
@@ -17,11 +20,17 @@ function oe_corporate_blocks_theme() {
         'corporate_footer' => [],
         'site_specific_footer' => [],
       ],
+      'preprocess functions' => [
+        'oe_corporate_blocks_preprocess_set_site_owner',
+      ],
     ],
     'oe_corporate_blocks_eu_footer' => [
       'variables' => [
         'corporate_footer' => [],
         'site_specific_footer' => [],
+      ],
+      'preprocess functions' => [
+        'oe_corporate_blocks_preprocess_set_site_owner',
       ],
     ],
   ];
@@ -32,4 +41,29 @@ function oe_corporate_blocks_theme() {
  */
 function oe_corporate_blocks_locale_translation_projects_alter(&$projects) {
   $projects['oe_corporate_blocks']['info']['interface translation server pattern'] = drupal_get_path('module', 'oe_corporate_blocks') . '/translations/%project-%language.po';
+}
+
+/**
+ * Set site owner on given render array, if any.
+ *
+ * This is set as preprocess function on oe_corporate_blocks_theme().
+ *
+ * @param array $variables
+ *   Render array variables.
+ */
+function oe_corporate_blocks_preprocess_set_site_owner(array &$variables): void {
+  $cacheability = CacheableMetadata::createFromRenderArray($variables);
+  $configuration = \Drupal::configFactory()->get(SiteInformation::CONFIG_NAME);
+  $cacheability->addCacheableDependency($configuration);
+
+  /** @var \Drupal\oe_corporate_site_info\SiteInformationInterface $site_information */
+  $site_information = \Drupal::service('oe_corporate_site_info.site_information');
+  if (!$site_information->hasSiteOwner()) {
+    return;
+  }
+
+  $entity = $site_information->getSiteOwner();
+  $translation = \Drupal::service('entity.repository')->getTranslationFromContext($entity);
+  $variables['site_owner'] = $translation->label();
+  $cacheability->addCacheableDependency($entity)->applyTo($variables);
 }

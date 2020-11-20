@@ -63,12 +63,9 @@ function oe_corporate_blocks_post_update_20002(&$sandbox): void {
 }
 
 /**
- * Import EC and EU footer data, along with their translations.
+ * Helper function: import corporate links.
  */
-function oe_corporate_blocks_post_update_20003(&$sandbox): void {
-  // Clear cached block definition as we have renamed EC footer base class.
-  \Drupal::service('plugin.manager.block')->clearCachedDefinitions();
-
+function _oe_corporate_blocks_import_corporate_links(): void {
   $config_path = drupal_get_path('module', 'oe_corporate_blocks') . '/config/install';
   $source = new FileStorage($config_path);
   $config_storage = \Drupal::service('config.storage');
@@ -94,6 +91,15 @@ function oe_corporate_blocks_post_update_20003(&$sandbox): void {
 }
 
 /**
+ * Import EC and EU footer data, along with their translations.
+ */
+function oe_corporate_blocks_post_update_20003(&$sandbox): void {
+  // Clear cached block definition as we have renamed EC footer base class.
+  \Drupal::service('plugin.manager.block')->clearCachedDefinitions();
+  _oe_corporate_blocks_import_corporate_links();
+}
+
+/**
  * Remove 'Presidency of the Council of the EU' from EU footer.
  */
 function oe_corporate_blocks_post_update_20004(&$sandbox): void {
@@ -112,9 +118,23 @@ function oe_corporate_blocks_post_update_20004(&$sandbox): void {
 }
 
 /**
- * Create default footer link sections.
+ * Install "OpenEuropa Corporate Site Information" module.
  */
 function oe_corporate_blocks_post_update_30001(): void {
+  \Drupal::service('module_installer')->install(['oe_corporate_site_info']);
+}
+
+/**
+ * Import updated EC and EU footer data, along with their translations.
+ */
+function oe_corporate_blocks_post_update_30002(): void {
+  _oe_corporate_blocks_import_corporate_links();
+}
+
+/**
+ * Create default footer link sections.
+ */
+function oe_corporate_blocks_post_update_30003(): void {
   $storage = \Drupal::entityTypeManager()->getStorage('footer_link_section');
   $sections = [
     [
@@ -147,7 +167,7 @@ function oe_corporate_blocks_post_update_30001(): void {
 /**
  * Set "Related sites" as default section for existing general links.
  */
-function oe_corporate_blocks_post_update_30002(): void {
+function oe_corporate_blocks_post_update_30004(): void {
   /** @var \Drupal\oe_corporate_blocks\Entity\FooterLinkGeneral[] $general_links */
   $general_links = \Drupal::entityTypeManager()->getStorage('footer_link_general')->loadMultiple();
   foreach ($general_links as $general_link) {
