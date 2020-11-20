@@ -50,10 +50,6 @@ class FooterLinkManagementTest extends BrowserTestBase {
     // Assert that section is correctly displayed on the overview page.
     $this->findRowByLabel('Section 1');
 
-    // Assert new weight when saving the overview page.
-    $page->pressButton('Save');
-    $this->assertLinkSectionEntity('Section 1', 0);
-
     // Assert that general links can be assigned to a section.
     $this->drupalLogout();
     $user = $this->createUser([
