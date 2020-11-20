@@ -18,7 +18,7 @@ class FooterLinkSectionForm extends EntityForm {
   public function form(array $form, FormStateInterface $form_state) {
     $form = parent::form($form, $form_state);
 
-    /** @var \Drupal\Core\Config\Entity\ConfigEntityInterface $section */
+    /** @var \Drupal\oe_corporate_blocks\Entity\FooterLinkSectionInterface $section */
     $section = $this->entity;
     $form['label'] = [
       '#type' => 'textfield',
@@ -40,7 +40,7 @@ class FooterLinkSectionForm extends EntityForm {
 
     $form['weight'] = [
       '#type' => 'hidden',
-      '#value' => $this->t('weight') ?? 0,
+      '#value' => $section->getWeight() ?? 0,
     ];
 
     return $form;

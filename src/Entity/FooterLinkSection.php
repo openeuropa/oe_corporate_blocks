@@ -57,7 +57,7 @@ class FooterLinkSection extends ConfigEntityBase implements FooterLinkSectionInt
    * {@inheritdoc}
    */
   public function getWeight(): int {
-    return $this->get('weight');
+    return (int) $this->get('weight');
   }
 
   /**

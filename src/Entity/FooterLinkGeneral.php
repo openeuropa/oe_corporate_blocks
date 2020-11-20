@@ -94,7 +94,7 @@ class FooterLinkGeneral extends ConfigEntityBase implements FooterLinkGeneralInt
    * {@inheritdoc}
    */
   public function getWeight(): int {
-    return $this->get('weight');
+    return (int) $this->get('weight');
   }
 
 }
