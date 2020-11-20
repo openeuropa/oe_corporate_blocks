@@ -9,9 +9,9 @@ use Drupal\Core\Form\FormStateInterface;
 use Drupal\Core\Url;
 
 /**
- * Builds the form to delete Footer Link General entities.
+ * Build delete form for footer link entities.
  */
-class FooterLinkGeneralDeleteForm extends EntityConfirmFormBase {
+class FooterLinkDeleteForm extends EntityConfirmFormBase {
 
   /**
    * {@inheritdoc}
@@ -24,7 +24,7 @@ class FooterLinkGeneralDeleteForm extends EntityConfirmFormBase {
    * {@inheritdoc}
    */
   public function getCancelUrl() {
-    return new Url('entity.footer_link_general.collection');
+    return new Url("entity.{$this->entity->getEntityTypeId()}.collection");
   }
 
   /**

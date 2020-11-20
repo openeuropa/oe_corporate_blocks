@@ -20,7 +20,7 @@ use Drupal\Core\Url;
  *     "form" = {
  *       "add" = "Drupal\oe_corporate_blocks\Form\FooterLinkGeneralForm",
  *       "edit" = "Drupal\oe_corporate_blocks\Form\FooterLinkGeneralForm",
- *       "delete" = "Drupal\oe_corporate_blocks\Form\FooterLinkGeneralDeleteForm"
+ *       "delete" = "Drupal\oe_corporate_blocks\Form\FooterLinkDeleteForm"
  *     }
  *   },
  *   config_prefix = "footer_link.general",

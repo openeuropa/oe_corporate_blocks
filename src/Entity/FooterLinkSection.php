@@ -20,7 +20,7 @@ use Drupal\Core\Entity\EntityStorageInterface;
  *     "form" = {
  *       "add" = "Drupal\oe_corporate_blocks\Form\FooterLinkSectionForm",
  *       "edit" = "Drupal\oe_corporate_blocks\Form\FooterLinkSectionForm",
- *       "delete" = "Drupal\oe_corporate_blocks\Form\FooterLinkGeneralDeleteForm"
+ *       "delete" = "Drupal\oe_corporate_blocks\Form\FooterLinkDeleteForm"
  *     }
  *   },
  *   config_prefix = "footer_link.section",
