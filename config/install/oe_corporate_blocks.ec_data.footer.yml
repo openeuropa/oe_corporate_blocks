@@ -1,42 +1,80 @@
 langcode: en
-about_ec_title: European Commission
-about_ec_links:
-  - href: https://ec.europa.eu/info/index_en
-    label: European Commission website
-social_media_title: Follow the European Commission
-social_media_links:
-  - type: social-network
-    icon: facebook
-    link:
-      href: "https://www.facebook.com/EuropeanCommission"
-      label: Facebook
-  - type: social-network
-    icon: twitter
-    link:
-      href: "https://twitter.com/EU_commission"
-      label: Twitter
-  - type: external
-    link:
-      href: "https://europa.eu/european-union/contact/social-networks_en#n:+i:4+e:1+t:+s"
-      label: Other social media
-about_eu_title: European Union
-about_eu_links:
-  - href: "https://europa.eu/european-union/about-eu/institutions-bodies_en"
-    label: EU institutions
-  - href: "https://europa.eu/european-union/index_en"
-    label: European Union
-bottom_links:
-  - href: https://ec.europa.eu/info/about-commissions-new-web-presence_en
-    label: About the Commission's new web presence
-  - href: https://ec.europa.eu/info/language-policy_en
-    label: Language policy
-  - href: https://ec.europa.eu/info/resources-partners_en
-    label: Resources for partners
-  - href: https://ec.europa.eu/info/cookies_en
+corporate_site_link:
+  href: 'https://ec.europa.eu/info/index_en'
+  label: 'European Commission website'
+class_navigation:
+  -
+    href: 'https://ec.europa.eu/info/strategy_en'
+    label: Strategy
+  -
+    href: 'https://ec.europa.eu/info/about-european-commission_en'
+    label: 'About the European Commission'
+  -
+    href: 'https://ec.europa.eu/info/business-economy-euro_en'
+    label: 'Business, Economy, Euro'
+  -
+    href: 'https://ec.europa.eu/info/live-work-travel-eu_en'
+    label: 'Live, work, travel in the EU'
+  -
+    href: 'https://ec.europa.eu/info/law_en'
+    label: Law
+  -
+    href: 'https://ec.europa.eu/info/funding-tenders_en'
+    label: 'Funding, Tenders'
+  -
+    href: 'https://ec.europa.eu/info/research-and-innovation_en'
+    label: 'Research and innovation'
+  -
+    href: 'https://ec.europa.eu/info/energy-climate-change-environment_en'
+    label: 'Energy, Climate change, Environment'
+  -
+    href: 'https://ec.europa.eu/info/education_en'
+    label: Education
+  -
+    href: 'https://ec.europa.eu/info/aid-development-cooperation-fundamental-rights_en'
+    label: 'Aid, Development cooperation, Fundamental rights'
+  -
+    href: 'https://ec.europa.eu/info/food-farming-fisheries_en'
+    label: 'Food, Farming, Fisheries'
+  -
+    href: 'https://ec.europa.eu/info/eu-regional-and-urban-development_en'
+    label: 'EU regional and urban development'
+  -
+    href: 'https://ec.europa.eu/info/jobs-european-commission_en'
+    label: 'Jobs at the European Commission'
+  -
+    href: 'https://ec.europa.eu/info/statistics_en'
+    label: Statistics
+  -
+    href: 'https://ec.europa.eu/commission/presscorner/home/en'
+    label: News
+  -
+    href: 'https://ec.europa.eu/info/events_en'
+    label: Events
+  -
+    href: 'https://ec.europa.eu/info/publications_en'
+    label: Publications
+service_navigation:
+  -
+    href: 'https://ec.europa.eu/info/about-european-commission/contact_en'
+    label: 'Contact the European Commission'
+  -
+    external: true
+    href: 'https://europa.eu/european-union/contact/social-networks_en#n:+i:4+e:1+t:+s'
+    label: 'Follow the European Commission on social media'
+  -
+    href: 'https://ec.europa.eu/info/resources-partners_en'
+    label: 'Resources for partners'
+legal_navigation:
+  -
+    href: 'https://ec.europa.eu/info/language-policy_en'
+    label: 'Language policy'
+  -
+    href: 'https://ec.europa.eu/info/cookies_en'
     label: Cookies
-  - href: https://ec.europa.eu/info/privacy-policy_en
-    label: Privacy policy
-  - href: https://ec.europa.eu/info/legal-notice_en
-    label: Legal notice
-  - href: https://ec.europa.eu/info/contact_en
-    label: Contact
+  -
+    href: 'https://ec.europa.eu/info/privacy-policy_en'
+    label: 'Privacy policy'
+  -
+    href: 'https://ec.europa.eu/info/legal-notice_en'
+    label: 'Legal notice'

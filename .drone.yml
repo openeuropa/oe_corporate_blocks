@@ -11,6 +11,12 @@ services:
     image: percona/percona-server:5.6
     environment:
       - MYSQL_ALLOW_EMPTY_PASSWORD=yes
+  sparql:
+    image: openeuropa/triple-store-dev:1.5.0
+    pull: true
+    environment:
+      - SPARQL_UPDATE=true
+      - DBA_PASSWORD=dba
 
 pipeline:
   composer-install-lowest:

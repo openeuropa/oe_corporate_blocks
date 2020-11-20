@@ -7,7 +7,9 @@
     "prefer-stable": true,
     "require": {
         "php": ">=7.2",
-        "drupal/core": "^8.7"
+        "drupal/core": "^8.7",
+        "easyrdf/easyrdf": "0.10.0-alpha.1 as 0.9.1",
+        "openeuropa/oe_corporate_site_info": "dev-master"
     },
     "require-dev": {
         "composer/installers": "~1.5",
@@ -42,7 +44,8 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Drupal\\Tests\\oe_corporate_blocks\\": "./tests/"
+            "Drupal\\Tests\\oe_corporate_blocks\\": "./tests/",
+            "Drupal\\Tests\\oe_corporate_site_info\\": "./build/modules/contrib/oe_corporate_site_info/tests/src/"
         }
     },
     "extra": {

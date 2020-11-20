@@ -62,12 +62,9 @@ function oe_corporate_blocks_post_update_20002(&$sandbox): void {
 }
 
 /**
- * Import EC and EU footer data, along with their translations.
+ * Helper function: import corporate links.
  */
-function oe_corporate_blocks_post_update_20003(&$sandbox): void {
-  // Clear cached block definition as we have renamed EC footer base class.
-  \Drupal::service('plugin.manager.block')->clearCachedDefinitions();
-
+function _oe_corporate_blocks_import_corporate_links(): void {
   $config_path = drupal_get_path('module', 'oe_corporate_blocks') . '/config/install';
   $source = new FileStorage($config_path);
   $config_storage = \Drupal::service('config.storage');
@@ -93,6 +90,15 @@ function oe_corporate_blocks_post_update_20003(&$sandbox): void {
 }
 
 /**
+ * Import EC and EU footer data, along with their translations.
+ */
+function oe_corporate_blocks_post_update_20003(&$sandbox): void {
+  // Clear cached block definition as we have renamed EC footer base class.
+  \Drupal::service('plugin.manager.block')->clearCachedDefinitions();
+  _oe_corporate_blocks_import_corporate_links();
+}
+
+/**
  * Remove 'Presidency of the Council of the EU' from EU footer.
  */
 function oe_corporate_blocks_post_update_20004(&$sandbox): void {
@@ -108,4 +114,18 @@ function oe_corporate_blocks_post_update_20004(&$sandbox): void {
   }
   $config->set('institution_links', $institution_links);
   $config->save();
+}
+
+/**
+ * Install "OpenEuropa Corporate Site Information" module.
+ */
+function oe_corporate_blocks_post_update_30001(): void {
+  \Drupal::service('module_installer')->install(['oe_corporate_site_info']);
+}
+
+/**
+ * Import updated EC and EU footer data, along with their translations.
+ */
+function oe_corporate_blocks_post_update_30002(): void {
+  _oe_corporate_blocks_import_corporate_links();
 }

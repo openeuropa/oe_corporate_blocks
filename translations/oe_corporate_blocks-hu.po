@@ -4,29 +4,46 @@ msgstr ""
 msgid "Contact the EU"
 msgstr "Kapcsolatfelvétel"
 
+msgid "tel:0080067891011"
+msgstr "tel:0080067891011"
+
+msgid "Call us 00 800 6 7 8 9 10 11"
+msgstr "Hívjon minket! Telefonszámunk 00 800 6 7 8 9 10 11"
+
+msgid "https://europa.eu/european-union/contact/call-us_en"
+msgstr "https://europa.eu/european-union/contact/call-us_hu"
+
+msgid "Use other telephone options"
+msgstr "Válasszon a többi telefonos kapcsolatfelvételi lehetőség közül!"
+
+msgid "https://europa.eu/european-union/contact/write-to-us_en"
+msgstr "https://europa.eu/european-union/contact/write-to-us_hu"
+
+msgid "Write to us via our contact form"
+msgstr "Írjon nekünk kapcsolatfelvételi űrlapunk kitöltésével!"
+
+msgid "https://europa.eu/european-union/contact/meet-us_en"
+msgstr "https://europa.eu/european-union/contact/meet-us_hu"
+
+msgid "Meet us at a local EU office"
+msgstr "Jöjjön el személyesen helyi irodáink valamelyikébe!"
+
 msgid "Find a social media account"
-msgstr "Az EU intézményei, szervei és ügynökségei a közösségi oldalakon"
-
-msgid "EU institutions"
-msgstr "Uniós intézmények"
-
-msgid "Call us <a href=\"tel:0080067891011\">00 800 6 7 8 9 10 11</a>"
-msgstr "Hívjon minket! Telefonszámunk <a href=\"tel:0080067891011\">00 800 6 7 8 9 10 11</a>"
-
-msgid "Use other <a href=\"https://europa.eu/european-union/contact/call-us_en\">telephone options</a>"
-msgstr "Válasszon a többi telefonos <a href=\"https://europa.eu/european-union/contact/call-us_hu\">kapcsolatfelvételi lehetőség közül!</a>"
-
-msgid "Write to us via our <a href=\"https://europa.eu/european-union/contact/write-to-us_en\">contact form</a>"
-msgstr "Írjon nekünk <a href=\"https://europa.eu/european-union/contact/write-to-us_hu\">kapcsolatfelvételi űrlapunk</a> kitöltésével!"
-
-msgid "Meet us at a <a href=\"https://europa.eu/european-union/contact/meet-us_en\">local EU office</a>"
-msgstr "Jöjjön el személyesen <a href=\"https://europa.eu/european-union/contact/meet-us_hu\">helyi irodáink</a> valamelyikébe!"
+msgstr ""
+"Az EU intézményei, szervei és ügynökségei a közösségi "
+"oldalakon"
 
 msgid "Search for EU social media channels"
 msgstr "Kövesse az EU közösségi oldalait"
 
 msgid "https://europa.eu/european-union/contact/social-networks_en"
 msgstr "https://europa.eu/european-union/contact/social-networks_hu"
+
+msgid "EU institutions"
+msgstr "Uniós intézmények"
+
+msgid "European Parliament"
+msgstr "Európai Parlament"
 
 msgid "http://www.europarl.europa.eu/portal/"
 msgstr "http://www.europarl.europa.eu/portal/hu"
@@ -93,41 +110,35 @@ msgstr "Európai adatvédelmi biztos"
 msgid "https://secure.edps.europa.eu/EDPSWEB/edps/EDPS?lang=en"
 msgstr "https://secure.edps.europa.eu/EDPSWEB/edps/EDPS?lang=hu"
 
-msgid "Sitemap"
-msgstr "Honlaptérkép"
-
-msgid "/european-union/abouteuropa/sitemap_en"
-msgstr "/european-union/abouteuropa/sitemap_hu"
-
 msgid "About this site"
 msgstr "A honlapról"
 
-msgid "/european-union/abouteuropa_en"
-msgstr "/european-union/abouteuropa_hu"
+msgid "https://europa.eu/european-union/abouteuropa_en"
+msgstr "https://europa.eu/european-union/abouteuropa_hu"
 
 msgid "Language policy"
 msgstr "Nyelvpolitika"
 
-msgid "/european-union/abouteuropa/language-policy_en"
-msgstr "/european-union/abouteuropa/language-policy_hu"
+msgid "https://europa.eu/european-union/abouteuropa/language-policy_en"
+msgstr "https://europa.eu/european-union/abouteuropa/language-policy_hu"
 
 msgid "Privacy policy"
 msgstr "Adatvédelem"
 
-msgid "/european-union/abouteuropa/privacy-policy_en"
-msgstr "/european-union/abouteuropa/privacy-policy_hu"
+msgid "https://europa.eu/european-union/abouteuropa/privacy-policy_en"
+msgstr "https://europa.eu/european-union/abouteuropa/privacy-policy_hu"
 
 msgid "Legal notice"
 msgstr "Jogi nyilatkozat"
 
-msgid "/european-union/abouteuropa/legal_notices_en"
-msgstr "/european-union/abouteuropa/legal_notices_hu"
+msgid "https://europa.eu/european-union/abouteuropa/legal_notices_en"
+msgstr "https://europa.eu/european-union/abouteuropa/legal_notices_hu"
 
 msgid "Cookies"
 msgstr "Cookie-k"
 
-msgid "/european-union/abouteuropa/cookies_en"
-msgstr "/european-union/abouteuropa/cookies_hu"
+msgid "https://europa.eu/european-union/abouteuropa/cookies_en"
+msgstr "https://europa.eu/european-union/abouteuropa/cookies_hu"
 
 msgid "https://ec.europa.eu/info/index_en"
 msgstr "https://ec.europa.eu/info/index_hu"
@@ -135,41 +146,131 @@ msgstr "https://ec.europa.eu/info/index_hu"
 msgid "European Commission website"
 msgstr "Az Európai Bizottság honlapja"
 
-msgid "Follow the European Commission"
-msgstr "Kövessen bennünket!"
+msgid "This site is managed by the @name"
+msgstr "Ezt a honlapot a @name kezeli"
+
+msgid "https://ec.europa.eu/info/strategy_en"
+msgstr "https://ec.europa.eu/info/strategy_hu"
+
+msgid "Strategy"
+msgstr "Stratégia"
+
+msgid "https://ec.europa.eu/info/about-european-commission_en"
+msgstr "https://ec.europa.eu/info/about-european-commission_hu"
+
+msgid "About the European Commission"
+msgstr "Az Európai Bizottságról"
+
+msgid "https://ec.europa.eu/info/business-economy-euro_en"
+msgstr "https://ec.europa.eu/info/business-economy-euro_hu"
+
+msgid "Business, Economy, Euro"
+msgstr "Vállalkozások, gazdaság, euró"
+
+msgid "https://ec.europa.eu/info/live-work-travel-eu_en"
+msgstr "https://ec.europa.eu/info/live-work-travel-eu_hu"
+
+msgid "Live, work, travel in the EU"
+msgstr "Élet, munka, utazás az EU-ban"
+
+msgid "https://ec.europa.eu/info/law_en"
+msgstr "https://ec.europa.eu/info/law_hu"
+
+msgid "Law"
+msgstr "Jogszabályok"
+
+msgid "https://ec.europa.eu/info/funding-tenders_en"
+msgstr "https://ec.europa.eu/info/funding-tenders_hu"
+
+msgid "Funding, Tenders"
+msgstr "Finanszírozási lehetőségek, felhívások"
+
+msgid "https://ec.europa.eu/info/research-and-innovation_en"
+msgstr "https://ec.europa.eu/info/research-and-innovation_hu"
+
+msgid "Research and innovation"
+msgstr "Kutatás és innováció"
+
+msgid "https://ec.europa.eu/info/energy-climate-change-environment_en"
+msgstr "https://ec.europa.eu/info/energy-climate-change-environment_hu"
+
+msgid "Energy, Climate change, Environment"
+msgstr "Energiaunió, éghajlat-politika, környezet"
+
+msgid "https://ec.europa.eu/info/education_en"
+msgstr "https://ec.europa.eu/info/education_hu"
+
+msgid "Education"
+msgstr "Oktatás"
+
+msgid "https://ec.europa.eu/info/aid-development-cooperation-fundamental-rights_en"
+msgstr "https://ec.europa.eu/info/aid-development-cooperation-fundamental-rights_hu"
+
+msgid "Aid, Development cooperation, Fundamental rights"
+msgstr "Segítségnyújtás, fejlesztési együttműködés, alapvető jogok"
+
+msgid "https://ec.europa.eu/info/food-farming-fisheries_en"
+msgstr "https://ec.europa.eu/info/food-farming-fisheries_hu"
+
+msgid "Food, Farming, Fisheries"
+msgstr "Élelmiszeripar, mezőgazdaság, halászat"
+
+msgid "https://ec.europa.eu/info/eu-regional-and-urban-development_en"
+msgstr "https://ec.europa.eu/info/eu-regional-and-urban-development_hu"
+
+msgid "EU regional and urban development"
+msgstr "Uniós regionális és várospolitika"
+
+msgid "https://ec.europa.eu/info/jobs-european-commission_en"
+msgstr "https://ec.europa.eu/info/jobs-european-commission_hu"
+
+msgid "Jobs at the European Commission"
+msgstr "Álláslehetőségek az Európai Bizottságnál"
+
+msgid "https://ec.europa.eu/info/statistics_en"
+msgstr "https://ec.europa.eu/info/statistics_hu"
+
+msgid "Statistics"
+msgstr "Statisztikák"
+
+msgid "https://ec.europa.eu/commission/presscorner/home/en"
+msgstr "https://ec.europa.eu/commission/presscorner/home/hu"
+
+msgid "News"
+msgstr "Hírek"
+
+msgid "https://ec.europa.eu/info/events_en"
+msgstr "https://ec.europa.eu/info/events_hu"
+
+msgid "Events"
+msgstr "Események"
+
+msgid "https://ec.europa.eu/info/publications_en"
+msgstr "https://ec.europa.eu/info/publications_hu"
+
+msgid "Publications"
+msgstr "Kiadványok"
+
+msgid "https://ec.europa.eu/info/about-european-commission/contact_en"
+msgstr "https://ec.europa.eu/info/about-european-commission/contact_hu"
+
+msgid "Contact the European Commission"
+msgstr "Fel szeretné venni a kapcsolatot az Európai Bizottsággal?"
 
 msgid "https://europa.eu/european-union/contact/social-networks_en#n:+i:4+e:1+t:+s"
 msgstr "https://europa.eu/european-union/contact/social-networks_hu#n:+i:4+e:1+t:+s"
 
-msgid "Other social media"
-msgstr "Egyéb közösségi hálózatok"
-
-msgid "European Union"
-msgstr "Európai Unió"
-
-msgid "https://europa.eu/european-union/about-eu/institutions-bodies_en"
-msgstr "https://europa.eu/european-union/about-eu/institutions-bodies_hu"
-
-msgid "EU institutions"
-msgstr "EU intézményei"
-
-msgid "https://europa.eu/european-union/index_en"
-msgstr "https://europa.eu/european-union/index_hu"
-
-msgid "https://ec.europa.eu/info/about-commissions-new-web-presence_en"
-msgstr "https://ec.europa.eu/info/about-commissions-new-web-presence_hu"
-
-msgid "About the Commission's new web presence"
-msgstr "A Bizottság új webes jelenléte"
-
-msgid "https://ec.europa.eu/info/language-policy_en"
-msgstr "https://ec.europa.eu/info/language-policy_hu"
+msgid "Follow the European Commission on social media"
+msgstr "Az Európai Bizottság a közösségi média felületein"
 
 msgid "https://ec.europa.eu/info/resources-partners_en"
-msgstr "http://ec.europa.eu/info/resources-partners_hu"
+msgstr "https://ec.europa.eu/info/resources-partners_hu"
 
 msgid "Resources for partners"
 msgstr "Erőforrások, segédeszközök"
+
+msgid "https://ec.europa.eu/info/language-policy_en"
+msgstr "https://ec.europa.eu/info/language-policy_hu"
 
 msgid "https://ec.europa.eu/info/cookies_en"
 msgstr "https://ec.europa.eu/info/cookies_hu"
@@ -179,12 +280,3 @@ msgstr "https://ec.europa.eu/info/privacy-policy_hu"
 
 msgid "https://ec.europa.eu/info/legal-notice_en"
 msgstr "https://ec.europa.eu/info/legal-notice_hu"
-
-msgid "https://ec.europa.eu/info/contact_en"
-msgstr "https://ec.europa.eu/info/contact_hu"
-
-msgid "Contact"
-msgstr "Kapcsolatfelvétel"
-
-msgid "Policies, information and services"
-msgstr "Szakpolitikák, információk és szolgálatok"
