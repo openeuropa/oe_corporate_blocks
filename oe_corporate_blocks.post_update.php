@@ -175,3 +175,10 @@ function oe_corporate_blocks_post_update_30004(): void {
     $general_link->save();
   }
 }
+
+/**
+ * Invalidate kernel container to make site info service available.
+ */
+function oe_corporate_blocks_post_update_30005(): void {
+  \Drupal::service('kernel')->invalidateContainer();
+}
