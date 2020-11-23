@@ -1,0 +1,4 @@
+services:
+  oe_corporate_blocks.footer_link_manager:
+    class: Drupal\oe_corporate_blocks\FooterLinkManager
+    arguments: ['@entity_type.manager']

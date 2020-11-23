@@ -10,7 +10,7 @@ use Drupal\oe_corporate_blocks\Entity\FooterLinkSocial;
 /**
  * Form class for the Footer Link Social configuration entity.
  */
-class FooterLinkSocialForm extends FooterLinkGeneralForm {
+class FooterLinkSocialForm extends FooterLinkFormBase {
 
   /**
    * {@inheritdoc}

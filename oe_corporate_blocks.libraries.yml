@@ -1,0 +1,6 @@
+footer_link_general_list_builder:
+  js:
+    js/footer_link_general_list_builder.js: {}
+  dependencies:
+    - core/drupal.tabledrag
+    - core/drupalSettings

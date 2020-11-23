@@ -8,7 +8,7 @@ use Drupal\Core\Config\Entity\ConfigEntityInterface;
 use Drupal\Core\Url;
 
 /**
- * Provides an interface for defining Footer link entities.
+ * Interface for footer link entities.
  */
 interface FooterLinkInterface extends ConfigEntityInterface {
 

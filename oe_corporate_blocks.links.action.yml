@@ -9,3 +9,9 @@ entity.footer_link_social.add_form:
   title: 'Add social media footer link'
   appears_on:
     - entity.footer_link_social.collection
+
+entity.footer_link_section.add_form:
+  route_name: entity.footer_link_section.add_form
+  title: 'Add footer link section'
+  appears_on:
+    - entity.footer_link_section.collection

@@ -27,3 +27,18 @@ entity.footer_link_social.edit_form:
   title: 'Edit'
   route_name: entity.footer_link_social.edit_form
   parent_id: entity.footer_link_social.view
+
+entity.footer_link_section.collection:
+  title: 'Footer link sections'
+  route_name: entity.footer_link_section.collection
+  base_route: entity.footer_link_general.collection
+
+entity.footer_link_section.view:
+  title: 'Edit'
+  route_name: entity.footer_link_section.edit_form
+  base_route: entity.footer_link_section.edit_form
+
+entity.footer_link_section.edit_form:
+  title: 'Edit'
+  route_name: entity.footer_link_section.edit_form
+  parent_id: entity.footer_link_section.view

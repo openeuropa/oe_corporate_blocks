@@ -17,7 +17,7 @@ namespace Drupal\oe_corporate_blocks\Entity;
  *     "form" = {
  *       "add" = "Drupal\oe_corporate_blocks\Form\FooterLinkSocialForm",
  *       "edit" = "Drupal\oe_corporate_blocks\Form\FooterLinkSocialForm",
- *       "delete" = "Drupal\oe_corporate_blocks\Form\FooterLinkGeneralDeleteForm"
+ *       "delete" = "Drupal\oe_corporate_blocks\Form\FooterLinkDeleteForm"
  *     }
  *   },
  *   config_prefix = "footer_link.social",

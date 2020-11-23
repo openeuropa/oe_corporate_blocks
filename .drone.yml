@@ -11,8 +11,13 @@ services:
     image: percona/percona-server:5.6
     environment:
       - MYSQL_ALLOW_EMPTY_PASSWORD=yes
+  selenium:
+    image: selenium/standalone-chrome:3.11
+    environment:
+      - DISPLAY=:99
+      - SE_OPTS=-debug
   sparql:
-    image: openeuropa/triple-store-dev:1.5.0
+    image: openeuropa/triple-store-dev
     pull: true
     environment:
       - SPARQL_UPDATE=true

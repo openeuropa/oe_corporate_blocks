@@ -88,6 +88,9 @@ oe_corporate_blocks.footer_link.general.*:
       label: 'URL'
       translatable: true
       form_element_class: '\Drupal\config_translation\FormElement\Textfield'
+    section:
+      type: string
+      label: 'Section'
     weight:
       type: integer
       label: 'Weight'
@@ -99,3 +102,17 @@ oe_corporate_blocks.footer_link.social.*:
     social_network:
       type: string
       label: 'Social network'
+
+oe_corporate_blocks.footer_link.section.*:
+  type: config_entity
+  label: 'Section for site specific footer links'
+  mapping:
+    id:
+      type: string
+      label: 'ID'
+    label:
+      type: label
+      label: 'Label'
+    weight:
+      type: integer
+      label: 'Weight'

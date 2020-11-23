@@ -20,7 +20,7 @@ use Drupal\Core\Url;
  *     "form" = {
  *       "add" = "Drupal\oe_corporate_blocks\Form\FooterLinkGeneralForm",
  *       "edit" = "Drupal\oe_corporate_blocks\Form\FooterLinkGeneralForm",
- *       "delete" = "Drupal\oe_corporate_blocks\Form\FooterLinkGeneralDeleteForm"
+ *       "delete" = "Drupal\oe_corporate_blocks\Form\FooterLinkDeleteForm"
  *     }
  *   },
  *   config_prefix = "footer_link.general",
@@ -35,6 +35,7 @@ use Drupal\Core\Url;
  *     "id",
  *     "label",
  *     "url",
+ *     "section",
  *     "weight"
  *   },
  *   links = {
@@ -45,7 +46,7 @@ use Drupal\Core\Url;
  *   }
  * )
  */
-class FooterLinkGeneral extends ConfigEntityBase implements FooterLinkInterface {
+class FooterLinkGeneral extends ConfigEntityBase implements FooterLinkGeneralInterface {
 
   /**
    * The footer link URL.
@@ -78,8 +79,22 @@ class FooterLinkGeneral extends ConfigEntityBase implements FooterLinkInterface 
   /**
    * {@inheritdoc}
    */
+  public function getSection(): string {
+    return $this->get('section');
+  }
+
+  /**
+   * {@inheritdoc}
+   */
+  public function setSection(string $section): void {
+    $this->set('section', $section);
+  }
+
+  /**
+   * {@inheritdoc}
+   */
   public function getWeight(): int {
-    return $this->get('weight');
+    return (int) $this->get('weight');
   }
 
 }
