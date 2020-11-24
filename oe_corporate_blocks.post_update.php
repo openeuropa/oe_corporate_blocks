@@ -122,6 +122,8 @@ function oe_corporate_blocks_post_update_20004(&$sandbox): void {
  */
 function oe_corporate_blocks_post_update_30001(): void {
   \Drupal::service('module_installer')->install(['oe_corporate_site_info']);
+  // Invalidate kernel container to make site info service available.
+  \Drupal::service('kernel')->invalidateContainer();
 }
 
 /**

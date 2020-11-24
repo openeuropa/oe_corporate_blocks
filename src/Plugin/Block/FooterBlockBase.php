@@ -79,9 +79,9 @@ abstract class FooterBlockBase extends BlockBase implements ContainerFactoryPlug
     $site_info_config = $this->configFactory->get('system.site');
     $cache->addCacheableDependency($site_info_config);
     $site_identity = $site_info_config->get('name');
+    NestedArray::setValue($build, ['#site_specific_footer', 'site_identity'], $site_identity);
 
     if (!empty($social_links) || !empty($general_links)) {
-      NestedArray::setValue($build, ['#site_specific_footer', 'site_identity'], $site_identity);
       NestedArray::setValue($build, ['#site_specific_footer', 'social_links'], $social_links);
       NestedArray::setValue($build, ['#site_specific_footer', 'other_links'], $general_links);
     }
