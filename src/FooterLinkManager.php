@@ -81,4 +81,14 @@ class FooterLinkManager implements FooterLinkManagerInterface {
     return $sections;
   }
 
+  /**
+   * {@inheritdoc}
+   */
+  public function getListCacheTags(): array {
+    return array_merge(
+      $this->linkStorage->getEntityType()->getListCacheTags(),
+      $this->sectionStorage->getEntityType()->getListCacheTags()
+    );
+  }
+
 }

@@ -10,8 +10,8 @@ use Drupal\Core\Cache\CacheableMetadata;
 use Drupal\Core\Config\ConfigFactoryInterface;
 use Drupal\Core\Entity\EntityTypeManagerInterface;
 use Drupal\Core\Plugin\ContainerFactoryPluginInterface;
-use Drupal\oe_corporate_blocks\Entity\FooterLinkSocialInterface;
 use Symfony\Component\DependencyInjection\ContainerInterface;
+use Drupal\oe_corporate_blocks\FooterLinkManagerInterface;
 
 /**
  * Provides Base the corporate footer block.
@@ -33,6 +33,13 @@ abstract class FooterBlockBase extends BlockBase implements ContainerFactoryPlug
   protected $entityTypeManager;
 
   /**
+   * Footer link manager service.
+   *
+   * @var \Drupal\oe_corporate_blocks\FooterLinkManagerInterface
+   */
+  protected $linkManager;
+
+  /**
    * Construct the footer block object.
    *
    * @param array $configuration
@@ -45,11 +52,14 @@ abstract class FooterBlockBase extends BlockBase implements ContainerFactoryPlug
    *   The config factory.
    * @param \Drupal\Core\Entity\EntityTypeManagerInterface $entity_type_manager
    *   The entity type manager.
+   * @param \Drupal\oe_corporate_blocks\FooterLinkManagerInterface $link_manager
+   *   The footer link manager service.
    */
-  public function __construct(array $configuration, $plugin_id, $plugin_definition, ConfigFactoryInterface $config_factory, EntityTypeManagerInterface $entity_type_manager) {
+  public function __construct(array $configuration, $plugin_id, $plugin_definition, ConfigFactoryInterface $config_factory, EntityTypeManagerInterface $entity_type_manager, FooterLinkManagerInterface $link_manager) {
     parent::__construct($configuration, $plugin_id, $plugin_definition);
     $this->configFactory = $config_factory;
     $this->entityTypeManager = $entity_type_manager;
+    $this->linkManager = $link_manager;
   }
 
   /**
@@ -61,7 +71,8 @@ abstract class FooterBlockBase extends BlockBase implements ContainerFactoryPlug
       $plugin_id,
       $plugin_definition,
       $container->get('config.factory'),
-      $container->get('entity_type.manager')
+      $container->get('entity_type.manager'),
+      $container->get('oe_corporate_blocks.footer_link_manager')
     );
   }
 
@@ -74,8 +85,8 @@ abstract class FooterBlockBase extends BlockBase implements ContainerFactoryPlug
    *   The Cacheable metadata abject.
    */
   protected function setSiteSpecificFooter(array &$build, CacheableMetadata &$cache): void {
-    $general_links = $this->getSiteSpecificFooterLinks('footer_link_general', $cache);
-    $social_links = $this->getSiteSpecificFooterLinks('footer_link_social', $cache);
+    $general_links = $this->getGeneralFooterLinks($cache);
+    $social_links = $this->getSocialFooterLinks($cache);
     $site_info_config = $this->configFactory->get('system.site');
     $cache->addCacheableDependency($site_info_config);
     $site_identity = $site_info_config->get('name');
@@ -90,18 +101,49 @@ abstract class FooterBlockBase extends BlockBase implements ContainerFactoryPlug
   /**
    * Retrieve a list of custom footer link configuration entities.
    *
-   * @param string $type
-   *   Type of configs.
    * @param \Drupal\Core\Cache\CacheableMetadata $cache
    *   The Cacheable metadata abject.
    *
    * @return array
    *   The array of links.
    */
-  protected function getSiteSpecificFooterLinks(string $type, CacheableMetadata &$cache): array {
+  protected function getGeneralFooterLinks(CacheableMetadata &$cache): array {
+    $cache->addCacheTags($this->linkManager->getListCacheTags());
+    $links = [];
+    foreach ($this->linkManager->getSections() as $section) {
+      $cache->addCacheableDependency($section);
+      $links[$section->id()] = [
+        'label' => $section->label(),
+        'links' => [],
+      ];
+
+      foreach ($this->linkManager->getLinksBySection($section->id()) as $entity) {
+        $cache->addCacheableDependency($entity);
+        $link = [
+          'href' => $entity->getUrl(),
+          'label' => $entity->label(),
+        ];
+
+        $links[$section->id()]['links'][] = $link;
+      }
+    }
+
+    return $links;
+  }
+
+  /**
+   * Retrieve a list of custom footer link configuration entities.
+   *
+   * @param \Drupal\Core\Cache\CacheableMetadata $cache
+   *   The Cacheable metadata abject.
+   *
+   * @return array
+   *   The array of links.
+   */
+  protected function getSocialFooterLinks(CacheableMetadata &$cache): array {
     $links = [];
     /** @var \Drupal\Core\Entity\EntityStorageInterface $links_storage */
-    $links_storage = $this->entityTypeManager->getStorage($type);
+    $links_storage = $this->entityTypeManager->getStorage('footer_link_social');
     $cache->addCacheTags($links_storage->getEntityType()->getListCacheTags());
     $link_ids = $links_storage->getQuery()->sort('weight')->execute();
     if (count($link_ids) > 0) {
@@ -112,11 +154,8 @@ abstract class FooterBlockBase extends BlockBase implements ContainerFactoryPlug
         $link = [
           'href' => $link_entity->getUrl(),
           'label' => $link_entity->label(),
+          'social_network' => $link_entity->getSocialNetwork(),
         ];
-
-        if ($link_entity instanceof FooterLinkSocialInterface) {
-          $link['social_network'] = $link_entity->getSocialNetwork();
-        }
 
         $links[] = $link;
       }

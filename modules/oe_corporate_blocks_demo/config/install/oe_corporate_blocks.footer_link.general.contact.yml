@@ -4,4 +4,5 @@ dependencies: {  }
 id: contact
 label: 'Custom Contact'
 url: 'https://ec.europa.eu/info/contact_en'
+section: contact_us
 weight: -10
