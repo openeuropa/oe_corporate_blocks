@@ -78,7 +78,6 @@ function _oe_corporate_blocks_import_corporate_links(): void {
 
   foreach ($configs as $config) {
     $config_storage->write($config, $source->read($config));
-    $config_factory->getEditable($config)->save();
   }
 
   if (!\Drupal::hasService('locale.storage')) {
@@ -87,7 +86,7 @@ function _oe_corporate_blocks_import_corporate_links(): void {
 
   // Import translations.
   $langcodes = array_keys(\Drupal::languageManager()->getLanguages());
-  Locale::config()->updateConfigTranslations(['oe_corporate_blocks'], $langcodes);
+  Locale::config()->updateConfigTranslations($configs, $langcodes);
 }
 
 /**
