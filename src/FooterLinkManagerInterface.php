@@ -44,15 +44,4 @@ interface FooterLinkManagerInterface {
    */
   public function getSectionsAsOptions(): array;
 
-  /**
-   * The list cache tags associated with this entity type.
-   *
-   * Enables code listing entities of this type to ensure that newly created
-   * entities show up immediately.
-   *
-   * @return array
-   *   The list cache tags.
-   */
-  public function getListCacheTags(): array;
-
 }

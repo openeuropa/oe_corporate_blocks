@@ -108,7 +108,11 @@ abstract class FooterBlockBase extends BlockBase implements ContainerFactoryPlug
    *   The array of links.
    */
   protected function getGeneralFooterLinks(CacheableMetadata &$cache): array {
-    $cache->addCacheTags($this->linkManager->getListCacheTags());
+    /** @var \Drupal\Core\Entity\EntityStorageInterface $storage */
+    $storage = $this->entityTypeManager->getStorage('footer_link_general');
+    $cache->addCacheTags($storage->getEntityType()->getListCacheTags());
+    $storage = $this->entityTypeManager->getStorage('footer_link_section');
+    $cache->addCacheTags($storage->getEntityType()->getListCacheTags());
     $links = [];
     foreach ($this->linkManager->getSections() as $section) {
       $cache->addCacheableDependency($section);
