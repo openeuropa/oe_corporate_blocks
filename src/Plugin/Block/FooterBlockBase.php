@@ -115,13 +115,19 @@ abstract class FooterBlockBase extends BlockBase implements ContainerFactoryPlug
     $cache->addCacheTags($storage->getEntityType()->getListCacheTags());
     $links = [];
     foreach ($this->linkManager->getSections() as $section) {
+      $section_links = $this->linkManager->getLinksBySection($section->id());
+
+      if (empty($section_links)) {
+        continue;
+      }
+
       $cache->addCacheableDependency($section);
       $links[$section->id()] = [
         'label' => $section->label(),
         'links' => [],
       ];
 
-      foreach ($this->linkManager->getLinksBySection($section->id()) as $entity) {
+      foreach ($section_links as $entity) {
         $cache->addCacheableDependency($entity);
         $link = [
           'href' => $entity->getUrl(),
