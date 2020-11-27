@@ -34,15 +34,17 @@
         {% endfor %}
       </ul>
     {% endif %}
-    {% if site_specific_footer.other_links is not empty %}
-      <ul class="footer__list">
-        {% for menu_item in site_specific_footer.other_links %}
-          <li class="footer__list-item">
-            {{ link(menu_item.label, menu_item.href) }}
-          </li>
-        {% endfor %}
-      </ul>
-    {% endif %}
+    {% for section in site_specific_footer.other_links %}
+      {% if section.links is not empty %}
+        <ul class="footer__list">
+          {% for menu_item in section.links %}
+            <li class="footer__list-item">
+              {{ link(menu_item.label, menu_item.href) }}
+            </li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+    {% endfor %}
   </div>
 {% endif %}
 <div class="footer__corporate">

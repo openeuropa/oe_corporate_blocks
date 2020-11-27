@@ -4,4 +4,5 @@ dependencies: {  }
 id: legal_notice
 label: 'Custom Legal notice'
 url: 'https://ec.europa.eu/info/legal-notice_en'
+section: about_us
 weight: -10
