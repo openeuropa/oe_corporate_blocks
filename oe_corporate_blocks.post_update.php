@@ -64,9 +64,14 @@ function oe_corporate_blocks_post_update_20002(&$sandbox): void {
 
 /**
  * Helper function: import corporate links.
+ *
+ * @param string $config_path
+ *   The config path.
  */
-function _oe_corporate_blocks_import_corporate_links(): void {
-  $config_path = drupal_get_path('module', 'oe_corporate_blocks') . '/config/install';
+function _oe_corporate_blocks_import_corporate_links(string $config_path = ''): void {
+  if (empty($config_path)) {
+    $config_path = drupal_get_path('module', 'oe_corporate_blocks') . '/config/install';
+  }
   $source = new FileStorage($config_path);
   $config_storage = \Drupal::service('config.storage');
 
@@ -77,6 +82,9 @@ function _oe_corporate_blocks_import_corporate_links(): void {
 
   foreach ($configs as $config) {
     $config_storage->write($config, $source->read($config));
+    // All records in cache.config have empty cache tags column. In this case,
+    // we have to remove cache by cache id.
+    \Drupal::cache('config')->delete($config);
   }
 
   if (!\Drupal::hasService('locale.storage')) {
@@ -128,7 +136,8 @@ function oe_corporate_blocks_post_update_30001(): void {
  * Import updated EC and EU footer data, along with their translations.
  */
 function oe_corporate_blocks_post_update_30002(): void {
-  _oe_corporate_blocks_import_corporate_links();
+  $config_path = drupal_get_path('module', 'oe_corporate_blocks') . '/config/post_update/30002';
+  _oe_corporate_blocks_import_corporate_links($config_path);
 }
 
 /**
