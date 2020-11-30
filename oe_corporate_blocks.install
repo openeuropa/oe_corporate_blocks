@@ -6,3 +6,47 @@
  */
 
 declare(strict_types = 1);
+
+use Drupal\Core\Config\Entity\ConfigEntityType;
+use Drupal\Core\StringTranslation\TranslatableMarkup;
+
+/**
+ * Install new 'Footer Link Section' config entity type.
+ */
+function oe_corporate_blocks_update_8301(&$sandbox): void {
+  \Drupal::entityDefinitionUpdateManager()->installEntityType(new ConfigEntityType([
+    'id' => 'footer_link_section',
+    'label' => new TranslatableMarkup('Footer Link Section'),
+    'handlers' => [
+      'view_builder' => 'Drupal\Core\Entity\EntityViewBuilder',
+      'list_builder' => 'Drupal\oe_corporate_blocks\FooterLinkSectionListBuilder',
+      'route_provider' => [
+        'html' => 'Drupal\Core\Entity\Routing\AdminHtmlRouteProvider',
+      ],
+      'form' => [
+        'add' => 'Drupal\oe_corporate_blocks\Form\FooterLinkSectionForm',
+        'edit' => 'Drupal\oe_corporate_blocks\Form\FooterLinkSectionForm',
+        'delete' => 'Drupal\oe_corporate_blocks\Form\FooterLinkDeleteForm'
+      ]
+    ],
+    'config_prefix' => 'footer_link.section',
+    'admin_permission' => 'administer site specific footer link sections',
+    'entity_keys' => [
+      'id' => 'id',
+      'label' => 'label',
+      'uuid' => 'uuid',
+      'weight' => 'weight'
+    ],
+    'config_export' => [
+      'id',
+      'label',
+      'weight'
+    ],
+    'links' => [
+      'add-form' => '/admin/config/footer_link_section/add',
+      'edit-form' => '/admin/config/footer_link_section/{footer_link_section}/edit',
+      'delete-form' => '/admin/config/footer_link_section/{footer_link_section}/delete',
+      'collection' => '/admin/config/footer_link_section'
+    ]
+  ]));
+}

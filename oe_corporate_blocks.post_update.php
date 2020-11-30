@@ -141,18 +141,9 @@ function oe_corporate_blocks_post_update_30002(): void {
 }
 
 /**
- * Introduce new entity type and create default footer link sections.
+ * Create default footer link sections.
  */
 function oe_corporate_blocks_post_update_30003(): void {
-  // Install new 'Footer Link Section' config entity type.
-  $update_manager = \Drupal::entityDefinitionUpdateManager();
-  $footer_link_section = \Drupal::entityTypeManager()->getDefinition('footer_link_section');
-  $update_manager->installEntityType($footer_link_section);
-
-  // Update skos entity definition.
-  $update_manager = \Drupal::service('rdf_skos.skos_entity_definition_update_manager');
-  $update_manager->installFieldDefinitions();
-
   $storage = \Drupal::entityTypeManager()->getStorage('footer_link_section');
   $sections = [
     [
