@@ -109,14 +109,3 @@ function oe_corporate_blocks_post_update_20004(&$sandbox): void {
   $config->set('institution_links', $institution_links);
   $config->save();
 }
-
-/**
- * Install Footer Link General and Footer Link Social entity types.
- */
-function oe_corporate_blocks_post_update_20005(&$sandbox): void {
-  $update_manager = \Drupal::entityDefinitionUpdateManager();
-  foreach (['footer_link_general', 'footer_link_social'] as $entity_type_id) {
-    $entity_type = \Drupal::entityTypeManager()->getDefinition($entity_type_id);
-    $update_manager->installEntityType($entity_type);
-  }
-}
