@@ -1,0 +1,149 @@
+<?php
+
+/**
+ * @file
+ * Install, update and uninstall functions for the oe_corporate_blocks module.
+ */
+
+declare(strict_types = 1);
+
+use Drupal\Core\Config\Entity\ConfigEntityType;
+use Drupal\Core\Entity\EntityDefinitionUpdateManager;
+use Drupal\Core\StringTranslation\TranslatableMarkup;
+
+/**
+ * Install Footer Link entity types.
+ *
+ * Since we are running this update hook after the entity types have been
+ * defined, we need to check if they have not been already installed. If they
+ * have, we bail out and don't fail the update path.
+ */
+function oe_corporate_blocks_update_8301(&$sandbox): TranslatableMarkup {
+  $update_manager = \Drupal::entityDefinitionUpdateManager();
+
+  $definitions = [
+    'footer_link_general' => [
+      'id' => 'footer_link_general',
+      'label' => new TranslatableMarkup('Footer Link General'),
+      'handlers' => [
+        'view_builder' => 'Drupal\Core\Entity\EntityViewBuilder',
+        'list_builder' => 'Drupal\oe_corporate_blocks\FooterLinkGeneralListBuilder',
+        'route_provider' => [
+          'html' => 'Drupal\Core\Entity\Routing\AdminHtmlRouteProvider',
+        ],
+        'form' => [
+          'add' => 'Drupal\oe_corporate_blocks\Form\FooterLinkGeneralForm',
+          'edit' => 'Drupal\oe_corporate_blocks\Form\FooterLinkGeneralForm',
+          'delete' => 'Drupal\oe_corporate_blocks\Form\FooterLinkGeneralDeleteForm',
+        ],
+      ],
+      'config_prefix' => 'footer_link.general',
+      'admin_permission' => 'administer site specific footer links',
+      'entity_keys' => [
+        'id' => 'id',
+        'label' => 'label',
+        'uuid' => 'uuid',
+        'weight' => 'weight',
+      ],
+      'config_export' => [
+        'id',
+        'label',
+        'url',
+        'weight',
+      ],
+      'links' => [
+        'add-form' => '/admin/config/footer_link_general/add',
+        'edit-form' => '/admin/config/footer_link_general/{footer_link_general}/edit',
+        'delete-form' => '/admin/config/footer_link_general/{footer_link_general}/delete',
+        'collection' => '/admin/config/footer_link_general',
+      ],
+    ],
+    'footer_link_social' => [
+      'id' => 'footer_link_social',
+      'label' => new TranslatableMarkup('Footer Link Social'),
+      'handlers' => [
+        'view_builder' => 'Drupal\Core\Entity\EntityViewBuilder',
+        'list_builder' => 'Drupal\oe_corporate_blocks\FooterLinkSocialListBuilder',
+        'route_provider' => [
+          'html' => 'Drupal\Core\Entity\Routing\AdminHtmlRouteProvider',
+        ],
+        'form' => [
+          'add' => 'Drupal\oe_corporate_blocks\Form\FooterLinkSocialForm',
+          'edit' => 'Drupal\oe_corporate_blocks\Form\FooterLinkSocialForm',
+          'delete' => 'Drupal\oe_corporate_blocks\Form\FooterLinkGeneralDeleteForm',
+        ],
+      ],
+      'config_prefix' => 'footer_link.social',
+      'admin_permission' => 'administer site specific footer links',
+      'entity_keys' => [
+        'id' => 'id',
+        'label' => 'label',
+        'social_network' => 'social_network',
+        'uuid' => 'uuid',
+        'weight' => 'weight',
+      ],
+      'config_export' => [
+        'id',
+        'label',
+        'social_network',
+        'url',
+        'weight',
+      ],
+      'links' => [
+        'add-form' => '/admin/config/footer_link_social/add',
+        'edit-form' => '/admin/config/footer_link_social/{footer_link_social}/edit',
+        'delete-form' => '/admin/config/footer_link_social/{footer_link_social}/delete',
+        'collection' => '/admin/config/footer_link_social',
+      ],
+    ],
+    'footer_link_section' => [
+      'id' => 'footer_link_section',
+      'label' => new TranslatableMarkup('Footer Link Section'),
+      'handlers' => [
+        'view_builder' => 'Drupal\Core\Entity\EntityViewBuilder',
+        'list_builder' => 'Drupal\oe_corporate_blocks\FooterLinkSectionListBuilder',
+        'route_provider' => [
+          'html' => 'Drupal\Core\Entity\Routing\AdminHtmlRouteProvider',
+        ],
+        'form' => [
+          'add' => 'Drupal\oe_corporate_blocks\Form\FooterLinkSectionForm',
+          'edit' => 'Drupal\oe_corporate_blocks\Form\FooterLinkSectionForm',
+          'delete' => 'Drupal\oe_corporate_blocks\Form\FooterLinkDeleteForm',
+        ],
+      ],
+      'config_prefix' => 'footer_link.section',
+      'admin_permission' => 'administer site specific footer link sections',
+      'entity_keys' => [
+        'id' => 'id',
+        'label' => 'label',
+        'uuid' => 'uuid',
+        'weight' => 'weight',
+      ],
+      'config_export' => [
+        'id',
+        'label',
+        'weight',
+      ],
+      'links' => [
+        'add-form' => '/admin/config/footer_link_section/add',
+        'edit-form' => '/admin/config/footer_link_section/{footer_link_section}/edit',
+        'delete-form' => '/admin/config/footer_link_section/{footer_link_section}/delete',
+        'collection' => '/admin/config/footer_link_section',
+      ],
+    ],
+  ];
+
+  $change_list = $update_manager->getChangeList();
+  $installed = [];
+
+  foreach ($definitions as $entity_type => $definition) {
+    if (!isset($change_list[$entity_type]) || !isset($change_list[$entity_type]['entity_type']) || $change_list[$entity_type]['entity_type'] !== EntityDefinitionUpdateManager::DEFINITION_CREATED) {
+      continue;
+    }
+
+    $update_manager->installEntityType(new ConfigEntityType($definition));
+    $installed[] = $entity_type;
+  }
+
+  return $installed ? t('The following entity type definitions have been installed: @definitions.', ['@definitions' => implode(', ', $installed)]) : t('No entity type definitions had to be installed.');
+}
