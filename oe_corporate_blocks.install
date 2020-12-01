@@ -49,6 +49,7 @@ function oe_corporate_blocks_update_8301(&$sandbox): TranslatableMarkup {
         'id',
         'label',
         'url',
+        'section',
         'weight',
       ],
       'links' => [
@@ -70,7 +71,7 @@ function oe_corporate_blocks_update_8301(&$sandbox): TranslatableMarkup {
         'form' => [
           'add' => 'Drupal\oe_corporate_blocks\Form\FooterLinkSocialForm',
           'edit' => 'Drupal\oe_corporate_blocks\Form\FooterLinkSocialForm',
-          'delete' => 'Drupal\oe_corporate_blocks\Form\FooterLinkGeneralDeleteForm',
+          'delete' => 'Drupal\oe_corporate_blocks\Form\FooterLinkDeleteForm',
         ],
       ],
       'config_prefix' => 'footer_link.social',
@@ -137,7 +138,7 @@ function oe_corporate_blocks_update_8301(&$sandbox): TranslatableMarkup {
   $installed = [];
 
   foreach ($definitions as $entity_type => $definition) {
-    if (!isset($change_list[$entity_type]) || !isset($change_list[$entity_type]['entity_type']) || $change_list[$entity_type]['entity_type'] !== EntityDefinitionUpdateManager::DEFINITION_CREATED) {
+    if (!isset($change_list[$entity_type]['entity_type']) || $change_list[$entity_type]['entity_type'] !== EntityDefinitionUpdateManager::DEFINITION_CREATED) {
       continue;
     }
 
