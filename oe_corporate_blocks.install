@@ -13,7 +13,7 @@ use Drupal\Core\StringTranslation\TranslatableMarkup;
 /**
  * Install new 'Footer Link Section' config entity type.
  */
-function oe_corporate_blocks_update_8301(&$sandbox): void {
+function oe_corporate_blocks_update_8301(): void {
   \Drupal::entityDefinitionUpdateManager()->installEntityType(new ConfigEntityType([
     'id' => 'footer_link_section',
     'label' => new TranslatableMarkup('Footer Link Section'),
