@@ -19,8 +19,8 @@ use Drupal\Component\Utility\Crypt;
  */
 function _oe_corporate_blocks_import_corporate_links(string $config_path): void {
   $source = new FileStorage($config_path);
+  /** @var Drupal\Core\Config\StorageInterface $config_storage */
   $config_storage = \Drupal::service('config.storage');
-  $config_factory = \Drupal::configFactory();
 
   $configs = [
     'oe_corporate_blocks.eu_data.footer',
@@ -29,7 +29,6 @@ function _oe_corporate_blocks_import_corporate_links(string $config_path): void 
 
   foreach ($configs as $config) {
     $config_storage->write($config, $source->read($config));
-    $config_factory->getEditable($config)->save();
   }
 
   if (!\Drupal::hasService('locale.storage')) {
@@ -38,7 +37,7 @@ function _oe_corporate_blocks_import_corporate_links(string $config_path): void 
 
   // Import translations.
   $langcodes = array_keys(\Drupal::languageManager()->getLanguages());
-  Locale::config()->updateConfigTranslations(['oe_corporate_blocks'], $langcodes);
+  Locale::config()->updateConfigTranslations($configs, $langcodes);
 }
 
 /**
