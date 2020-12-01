@@ -12,6 +12,35 @@ use Drupal\locale\Locale;
 use Drupal\Component\Utility\Crypt;
 
 /**
+ * Helper function: import corporate links.
+ *
+ * @param string $config_path
+ *   The config path.
+ */
+function _oe_corporate_blocks_import_corporate_links(string $config_path): void {
+  $source = new FileStorage($config_path);
+  /** @var Drupal\Core\Config\StorageInterface $config_storage */
+  $config_storage = \Drupal::service('config.storage');
+
+  $configs = [
+    'oe_corporate_blocks.eu_data.footer',
+    'oe_corporate_blocks.ec_data.footer',
+  ];
+
+  foreach ($configs as $config) {
+    $config_storage->write($config, $source->read($config));
+  }
+
+  if (!\Drupal::hasService('locale.storage')) {
+    return;
+  }
+
+  // Import translations.
+  $langcodes = array_keys(\Drupal::languageManager()->getLanguages());
+  Locale::config()->updateConfigTranslations($configs, $langcodes);
+}
+
+/**
  * Only display "European Commission website" link in footer.
  */
 function oe_corporate_blocks_post_update_10001(&$sandbox): void {
@@ -63,40 +92,13 @@ function oe_corporate_blocks_post_update_20002(&$sandbox): void {
 }
 
 /**
- * Helper function: import corporate links.
- */
-function _oe_corporate_blocks_import_corporate_links(): void {
-  $config_path = drupal_get_path('module', 'oe_corporate_blocks') . '/config/install';
-  $source = new FileStorage($config_path);
-  $config_storage = \Drupal::service('config.storage');
-  $config_factory = \Drupal::configFactory();
-
-  $configs = [
-    'oe_corporate_blocks.eu_data.footer',
-    'oe_corporate_blocks.ec_data.footer',
-  ];
-
-  foreach ($configs as $config) {
-    $config_storage->write($config, $source->read($config));
-    $config_factory->getEditable($config)->save();
-  }
-
-  if (!\Drupal::hasService('locale.storage')) {
-    return;
-  }
-
-  // Import translations.
-  $langcodes = array_keys(\Drupal::languageManager()->getLanguages());
-  Locale::config()->updateConfigTranslations(['oe_corporate_blocks'], $langcodes);
-}
-
-/**
  * Import EC and EU footer data, along with their translations.
  */
 function oe_corporate_blocks_post_update_20003(&$sandbox): void {
   // Clear cached block definition as we have renamed EC footer base class.
   \Drupal::service('plugin.manager.block')->clearCachedDefinitions();
-  _oe_corporate_blocks_import_corporate_links();
+  $config_path = drupal_get_path('module', 'oe_corporate_blocks') . '/config/post_update/20003_update_footer_data';
+  _oe_corporate_blocks_import_corporate_links($config_path);
 }
 
 /**
@@ -130,7 +132,8 @@ function oe_corporate_blocks_post_update_30001(): void {
  * Import updated EC and EU footer data, along with their translations.
  */
 function oe_corporate_blocks_post_update_30002(): void {
-  _oe_corporate_blocks_import_corporate_links();
+  $config_path = drupal_get_path('module', 'oe_corporate_blocks') . '/config/post_update/30002_update_footer_data';
+  _oe_corporate_blocks_import_corporate_links($config_path);
 }
 
 /**
