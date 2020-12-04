@@ -1,87 +1,26 @@
-# Change Log
+# Changelog
 
-## [2.4.0](https://github.com/openeuropa/oe_corporate_blocks/tree/2.4.0) (2020-04-08)
-[Full Changelog](https://github.com/openeuropa/oe_corporate_blocks/compare/2.3.2...2.4.0)
+## [3.0.0-beta2](https://github.com/openeuropa/oe_corporate_blocks/tree/3.0.0-beta2) (2020-12-04)
 
-**Merged pull requests:**
-
-- OPENEUROPA-0000: Use drupal/core instead of drupal/core-recommended. [\#57](https://github.com/openeuropa/oe_corporate_blocks/pull/57) ([22Alexandra](https://github.com/22Alexandra))
-- OPENEUROPA-2943: Upgrade to PHP 7.3. [\#56](https://github.com/openeuropa/oe_corporate_blocks/pull/56) ([sergepavle](https://github.com/sergepavle))
-- OPENEUROPA-2604: Drupal 8 recommended project. [\#55](https://github.com/openeuropa/oe_corporate_blocks/pull/55) ([upchuk](https://github.com/upchuk))
-
-## [2.3.2](https://github.com/openeuropa/oe_corporate_blocks/tree/2.3.2) (2020-02-04)
-[Full Changelog](https://github.com/openeuropa/oe_corporate_blocks/compare/2.3.1...2.3.2)
-
-**Fixed bugs:**
-
-- Post update hook fails when Interface translation is not enabled. [\#48](https://github.com/openeuropa/oe_corporate_blocks/issues/48)
+[Full Changelog](https://github.com/openeuropa/oe_corporate_blocks/compare/3.0.0-beta1...3.0.0-beta2)
 
 **Merged pull requests:**
 
-- OPENEUROPA-1766: Update CHANGELOG.md for release 2.3.2. [\#54](https://github.com/openeuropa/oe_corporate_blocks/pull/54) ([dxvargas](https://github.com/dxvargas))
-- OPENEUROPA-2800: Fixing footer link URL validation. [\#53](https://github.com/openeuropa/oe_corporate_blocks/pull/53) ([upchuk](https://github.com/upchuk))
-- OPENEUROPA-2738: Fix upgrade path for not multilingual for 2.x. [\#49](https://github.com/openeuropa/oe_corporate_blocks/pull/49) ([sergepavle](https://github.com/sergepavle))
+- EWPP: Use release of oe\_corporate\_site\_info. [\#71](https://github.com/openeuropa/oe_corporate_blocks/pull/71) ([imanoleguskiza](https://github.com/imanoleguskiza))
 
-## [2.3.1](https://github.com/openeuropa/oe_corporate_blocks/tree/2.3.1) (2019-12-17)
-[Full Changelog](https://github.com/openeuropa/oe_corporate_blocks/compare/2.3.0...2.3.1)
+## [3.0.0-beta1](https://github.com/openeuropa/oe_corporate_blocks/tree/3.0.0-beta1) (2020-12-02)
 
-**Merged pull requests:**
-
-- Update CHANGELOG.md for release 2.3.1. [\#47](https://github.com/openeuropa/oe_corporate_blocks/pull/47) ([ademarco](https://github.com/ademarco))
-- OPENEUROPA-2632: Move Behat step to a module-specific context [\#46](https://github.com/openeuropa/oe_corporate_blocks/pull/46) ([ademarco](https://github.com/ademarco))
-
-## [2.3.0](https://github.com/openeuropa/oe_corporate_blocks/tree/2.3.0) (2019-12-16)
-[Full Changelog](https://github.com/openeuropa/oe_corporate_blocks/compare/2.2.0...2.3.0)
+[Full Changelog](https://github.com/openeuropa/oe_corporate_blocks/compare/2.4.0...3.0.0-beta1)
 
 **Merged pull requests:**
 
-- Update CHANGELOG.md for release 2.3.0. [\#45](https://github.com/openeuropa/oe_corporate_blocks/pull/45) ([sergepavle](https://github.com/sergepavle))
-- OPENEUROPA-2632: Add more social link options in FooterLinkSocial. [\#44](https://github.com/openeuropa/oe_corporate_blocks/pull/44) ([dxvargas](https://github.com/dxvargas))
-- OPENEUROPA-2630: Remove item from EU corporate footer. [\#43](https://github.com/openeuropa/oe_corporate_blocks/pull/43) ([sergepavle](https://github.com/sergepavle))
-
-## [2.2.0](https://github.com/openeuropa/oe_corporate_blocks/tree/2.2.0) (2019-11-27)
-[Full Changelog](https://github.com/openeuropa/oe_corporate_blocks/compare/2.1.1...2.2.0)
-
-**Merged pull requests:**
-
-- Update CHANGELOG.md and README.md for release 2.2.0. [\#42](https://github.com/openeuropa/oe_corporate_blocks/pull/42) ([ademarco](https://github.com/ademarco))
-- OPENEUROPA-2340: Implement site specific footer for v2.x [\#29](https://github.com/openeuropa/oe_corporate_blocks/pull/29) ([sergepavle](https://github.com/sergepavle))
-
-## [2.1.1](https://github.com/openeuropa/oe_corporate_blocks/tree/2.1.1) (2019-11-26)
-[Full Changelog](https://github.com/openeuropa/oe_corporate_blocks/compare/2.1.0...2.1.1)
-
-**Merged pull requests:**
-
-- OPENEUROPA-0000: Prepare 2.1.1 release. [\#41](https://github.com/openeuropa/oe_corporate_blocks/pull/41) ([imanoleguskiza](https://github.com/imanoleguskiza))
-- OPENEUROPA-0000: Fix update hook 10001. [\#40](https://github.com/openeuropa/oe_corporate_blocks/pull/40) ([ademarco](https://github.com/ademarco))
-
-## [2.1.0](https://github.com/openeuropa/oe_corporate_blocks/tree/2.1.0) (2019-11-25)
-[Full Changelog](https://github.com/openeuropa/oe_corporate_blocks/compare/2.0.1...2.1.0)
-
-**Merged pull requests:**
-
-- Update CHANGELOG.md for release 2.1.0. [\#39](https://github.com/openeuropa/oe_corporate_blocks/pull/39) ([ademarco](https://github.com/ademarco))
-- OPENEUROPA-2391: Add EU footer to corporate blocks. [\#34](https://github.com/openeuropa/oe_corporate_blocks/pull/34) ([sergepavle](https://github.com/sergepavle))
-
-## [2.0.1](https://github.com/openeuropa/oe_corporate_blocks/tree/2.0.1) (2019-11-14)
-[Full Changelog](https://github.com/openeuropa/oe_corporate_blocks/compare/2.0.0...2.0.1)
-
-**Merged pull requests:**
-
-- OPENEUROPA-2481: Update CHANGELOG.md for patch release 2.0.1. [\#37](https://github.com/openeuropa/oe_corporate_blocks/pull/37) ([sergepavle](https://github.com/sergepavle))
-- OPENEUROPA-2481: Add missing post update. [\#36](https://github.com/openeuropa/oe_corporate_blocks/pull/36) ([sergepavle](https://github.com/sergepavle))
-
-## [2.0.0](https://github.com/openeuropa/oe_corporate_blocks/tree/2.0.0) (2019-11-14)
-**Merged pull requests:**
-
-- OPENEUROPA-2481: Update CHANGELOG.md file for release 2.0.0. [\#35](https://github.com/openeuropa/oe_corporate_blocks/pull/35) ([sergepavle](https://github.com/sergepavle))
-- OPENEUROPA-2258: Undo use of PHP 7.2. [\#33](https://github.com/openeuropa/oe_corporate_blocks/pull/33) ([dxvargas](https://github.com/dxvargas))
-- OPENEUROPA-2464: Use PHP 7.1 in docker-compose. [\#32](https://github.com/openeuropa/oe_corporate_blocks/pull/32) ([dxvargas](https://github.com/dxvargas))
-- OPENEUROPA-2258: Use PHP 7.2 in drone and docker image [\#30](https://github.com/openeuropa/oe_corporate_blocks/pull/30) ([dxvargas](https://github.com/dxvargas))
-- OPENEUROPA-2394: Update footer links for 2.x. [\#26](https://github.com/openeuropa/oe_corporate_blocks/pull/26) ([sergepavle](https://github.com/sergepavle))
-- OPENEUROPA-2159: Remove site switcher configuration. [\#19](https://github.com/openeuropa/oe_corporate_blocks/pull/19) ([ademarco](https://github.com/ademarco))
-- OPENEUROPA-2159: Create OpenEuropa Corporate Blocks 2.x [\#17](https://github.com/openeuropa/oe_corporate_blocks/pull/17) ([voidtek](https://github.com/voidtek))
+- EWPP-564: Install footer entity types. [\#69](https://github.com/openeuropa/oe_corporate_blocks/pull/69) ([drishu](https://github.com/drishu))
+- EWPP-485: Fix upgrade path. [\#67](https://github.com/openeuropa/oe_corporate_blocks/pull/67) ([sergepavle](https://github.com/sergepavle))
+- EWPP-516: Update docker images. [\#66](https://github.com/openeuropa/oe_corporate_blocks/pull/66) ([22Alexandra](https://github.com/22Alexandra))
+- EWPP-468: Add sections to site\_specific\_footer. [\#64](https://github.com/openeuropa/oe_corporate_blocks/pull/64) ([drishu](https://github.com/drishu))
+- EWPP-131: Always set site\_identity and invalidate container after enabling oe\_corporate\_site\_info. [\#63](https://github.com/openeuropa/oe_corporate_blocks/pull/63) ([drishu](https://github.com/drishu))
+- EWPP-467: Add footer link sections [\#61](https://github.com/openeuropa/oe_corporate_blocks/pull/61) ([ademarco](https://github.com/ademarco))
+- EWPP-129: Update corporate footer links. [\#59](https://github.com/openeuropa/oe_corporate_blocks/pull/59) ([sergepavle](https://github.com/sergepavle))
 
 
-
-\* *This Change Log was automatically generated by [github_changelog_generator](https://github.com/skywinder/Github-Changelog-Generator)*
+\* *This Changelog was automatically generated by [github_changelog_generator](https://github.com/github-changelog-generator/github-changelog-generator)*
