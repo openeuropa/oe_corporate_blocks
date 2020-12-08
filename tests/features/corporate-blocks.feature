@@ -40,8 +40,7 @@ Feature: Corporate blocks feature
       | Legal notice                                     | https://ec.europa.eu/info/legal-notice_en                                   |
 
     When I click "français" in the "header"
-    Then I should see "This site is managed by the Direction générale de l'informatique" in the "ec_footer" region
-    And the region "ec_footer" contains the links:
+    Then the region "ec_footer" contains the links:
       | Site web de la Commission européenne                      | https://ec.europa.eu/info/index_fr                                          |
       | Stratégie                                                 | https://ec.europa.eu/info/strategy_fr                                       |
       | À propos de la Commission européenne                      | https://ec.europa.eu/info/about-european-commission_fr                      |
