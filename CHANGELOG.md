@@ -1,11 +1,20 @@
 # Changelog
 
+## [3.0.0-beta3](https://github.com/openeuropa/oe_corporate_blocks/tree/3.0.0-beta3) (2020-12-09)
+
+[Full Changelog](https://github.com/openeuropa/oe_corporate_blocks/compare/3.0.0-beta2...3.0.0-beta3)
+
+**Merged pull requests:**
+
+- EWPP-604: Footer translation fixes [\#73](https://github.com/openeuropa/oe_corporate_blocks/pull/73) ([yenyasinn](https://github.com/yenyasinn))
+
 ## [3.0.0-beta2](https://github.com/openeuropa/oe_corporate_blocks/tree/3.0.0-beta2) (2020-12-04)
 
 [Full Changelog](https://github.com/openeuropa/oe_corporate_blocks/compare/3.0.0-beta1...3.0.0-beta2)
 
 **Merged pull requests:**
 
+- Prepare release 3.0.0-beta2 [\#72](https://github.com/openeuropa/oe_corporate_blocks/pull/72) ([imanoleguskiza](https://github.com/imanoleguskiza))
 - EWPP: Use release of oe\_corporate\_site\_info. [\#71](https://github.com/openeuropa/oe_corporate_blocks/pull/71) ([imanoleguskiza](https://github.com/imanoleguskiza))
 
 ## [3.0.0-beta1](https://github.com/openeuropa/oe_corporate_blocks/tree/3.0.0-beta1) (2020-12-02)
