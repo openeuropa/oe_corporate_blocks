@@ -142,9 +142,6 @@ msgstr "https://ec.europa.eu/info/index_es"
 msgid "European Commission website"
 msgstr "Sitio web de la Comisión Europea"
 
-msgid "This site is managed by the @name"
-msgstr "Gestionada por la @name"
-
 msgid "https://ec.europa.eu/info/strategy_en"
 msgstr "https://ec.europa.eu/info/strategy_es"
 

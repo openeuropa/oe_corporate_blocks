@@ -145,9 +145,6 @@ msgstr "https://ec.europa.eu/info/index_fi"
 msgid "European Commission website"
 msgstr "Euroopan komission verkkosivusto"
 
-msgid "This site is managed by the @name"
-msgstr "Tätä sivustoa hallinnoi @name"
-
 msgid "https://ec.europa.eu/info/strategy_en"
 msgstr "https://ec.europa.eu/info/strategy_fi"
 
