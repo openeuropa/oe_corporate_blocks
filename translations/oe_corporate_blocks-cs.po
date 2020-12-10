@@ -124,6 +124,9 @@ msgstr "Politika ochrany soukromí"
 msgid "https://europa.eu/european-union/abouteuropa/privacy-policy_en"
 msgstr "https://europa.eu/european-union/abouteuropa/privacy-policy_cs"
 
+msgid "Legal"
+msgstr "Právní informace"
+
 msgid "Legal notice"
 msgstr "Právní upozornění"
 

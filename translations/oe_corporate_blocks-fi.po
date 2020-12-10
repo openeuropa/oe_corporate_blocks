@@ -127,6 +127,9 @@ msgstr "Tietosuojaperiaatteet"
 msgid "https://europa.eu/european-union/abouteuropa/privacy-policy_en"
 msgstr "https://europa.eu/european-union/abouteuropa/privacy-policy_fi"
 
+msgid "Legal"
+msgstr "Oikeudelliset ilmoitukset"
+
 msgid "Legal notice"
 msgstr "Oikeudellinen huomautus"
 

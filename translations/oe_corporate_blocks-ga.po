@@ -121,6 +121,9 @@ msgstr "Beartas príobháideachais"
 msgid "https://europa.eu/european-union/abouteuropa/privacy-policy_en"
 msgstr "https://europa.eu/european-union/abouteuropa/privacy-policy_ga"
 
+msgid "Legal"
+msgstr "Fógraí Dlíthiúla"
+
 msgid "Legal notice"
 msgstr "Fógra dlíthiúil"
 

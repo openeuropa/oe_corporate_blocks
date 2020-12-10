@@ -124,6 +124,9 @@ msgstr "Isikuandmete kaitse"
 msgid "https://europa.eu/european-union/abouteuropa/privacy-policy_en"
 msgstr "https://europa.eu/european-union/abouteuropa/privacy-policy_et"
 
+msgid "Legal"
+msgstr "Õigusteave"
+
 msgid "Legal notice"
 msgstr "Õigusteave"
 

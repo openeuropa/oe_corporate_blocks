@@ -130,6 +130,9 @@ msgstr "Schutz der Privatsphäre"
 msgid "https://europa.eu/european-union/abouteuropa/privacy-policy_en"
 msgstr "https://europa.eu/european-union/abouteuropa/privacy-policy_de"
 
+msgid "Legal"
+msgstr "Rechtliche Hinweise"
+
 msgid "Legal notice"
 msgstr "Rechtlicher Hinweis"
 

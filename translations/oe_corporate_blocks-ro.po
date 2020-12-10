@@ -127,6 +127,9 @@ msgstr "Politica de confidențialitate"
 msgid "https://europa.eu/european-union/abouteuropa/privacy-policy_en"
 msgstr "https://europa.eu/european-union/abouteuropa/privacy-policy_ro"
 
+msgid "Legal"
+msgstr "Aviz juridic"
+
 msgid "Legal notice"
 msgstr "Aviz juridic"
 
