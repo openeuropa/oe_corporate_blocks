@@ -67,6 +67,7 @@ oe_corporate_blocks.eu_data.footer:
     legal_links_title:
       type: string
       label: 'Title of legal links column'
+      translatable: true
     legal_links:
       type: sequence
       label: 'Legal links'
