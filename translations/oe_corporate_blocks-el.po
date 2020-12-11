@@ -137,6 +137,9 @@ msgstr "Πολιτική απορρήτου"
 msgid "https://europa.eu/european-union/abouteuropa/privacy-policy_en"
 msgstr "https://europa.eu/european-union/abouteuropa/privacy-policy_el"
 
+msgid "Legal"
+msgstr "Νομικό πλαίσιο"
+
 msgid "Legal notice"
 msgstr "Νομική ανακοίνωση"
 

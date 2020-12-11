@@ -130,6 +130,9 @@ msgstr "Политика за поверителност"
 msgid "https://europa.eu/european-union/abouteuropa/privacy-policy_en"
 msgstr "https://europa.eu/european-union/abouteuropa/privacy-policy_bg"
 
+msgid "Legal"
+msgstr "Правни аспекти"
+
 msgid "Legal notice"
 msgstr "Правна информация"
 

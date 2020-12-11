@@ -127,6 +127,9 @@ msgstr "Privatumo politika"
 msgid "https://europa.eu/european-union/abouteuropa/privacy-policy_en"
 msgstr "https://europa.eu/european-union/abouteuropa/privacy-policy_lt"
 
+msgid "Legal"
+msgstr "Teisinis pranešimas"
+
 msgid "Legal notice"
 msgstr "Teisinis pranešimas"
 

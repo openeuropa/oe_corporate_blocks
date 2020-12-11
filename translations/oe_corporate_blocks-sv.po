@@ -124,6 +124,9 @@ msgstr "Integritetspolicy"
 msgid "https://europa.eu/european-union/abouteuropa/privacy-policy_en"
 msgstr "https://europa.eu/european-union/abouteuropa/privacy-policy_sv"
 
+msgid "Legal"
+msgstr "Rättsliga frågor"
+
 msgid "Legal notice"
 msgstr "Rättsligt meddelande"
 
