@@ -127,6 +127,9 @@ msgstr "Politika ta’ privatezza"
 msgid "https://europa.eu/european-union/abouteuropa/privacy-policy_en"
 msgstr "https://europa.eu/european-union/abouteuropa/privacy-policy_mt"
 
+msgid "Legal"
+msgstr "Legali"
+
 msgid "Legal notice"
 msgstr "Avviż legali"
 
@@ -141,9 +144,6 @@ msgstr "https://ec.europa.eu/info/index_mt"
 
 msgid "European Commission website"
 msgstr "Is-sit web tal-Kummissjoni Ewropea"
-
-msgid "This site is managed by the @name"
-msgstr "Dan is-sit huwa ġestit mid-@name"
 
 msgid "https://ec.europa.eu/info/strategy_en"
 msgstr "https://ec.europa.eu/info/strategy_mt"

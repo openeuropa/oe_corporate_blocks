@@ -130,6 +130,9 @@ msgstr "Политика за поверителност"
 msgid "https://europa.eu/european-union/abouteuropa/privacy-policy_en"
 msgstr "https://europa.eu/european-union/abouteuropa/privacy-policy_bg"
 
+msgid "Legal"
+msgstr "Правни аспекти"
+
 msgid "Legal notice"
 msgstr "Правна информация"
 
@@ -147,9 +150,6 @@ msgstr "https://ec.europa.eu/info/index_bg"
 
 msgid "European Commission website"
 msgstr "Уебсайт на Европейската комисия"
-
-msgid "This site is managed by the @name"
-msgstr "Този сайт се поддържа от @name"
 
 msgid "https://ec.europa.eu/info/strategy_en"
 msgstr "https://ec.europa.eu/info/strategy_bg"

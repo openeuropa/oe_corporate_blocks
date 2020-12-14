@@ -127,6 +127,9 @@ msgstr "Privacybeleid"
 msgid "https://europa.eu/european-union/abouteuropa/privacy-policy_en"
 msgstr "https://europa.eu/european-union/abouteuropa/privacy-policy_nl"
 
+msgid "Legal"
+msgstr "Juridische informatie"
+
 msgid "Legal notice"
 msgstr "Juridische mededeling"
 
@@ -141,9 +144,6 @@ msgstr "https://ec.europa.eu/info/index_nl"
 
 msgid "European Commission website"
 msgstr "Website van de Europese Commissie"
-
-msgid "This site is managed by the @name"
-msgstr "Deze website wordt beheerd door het @name"
 
 msgid "https://ec.europa.eu/info/strategy_en"
 msgstr "https://ec.europa.eu/info/strategy_nl"

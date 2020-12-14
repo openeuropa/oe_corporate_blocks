@@ -127,6 +127,9 @@ msgstr "Privātuma aizsardzība"
 msgid "https://europa.eu/european-union/abouteuropa/privacy-policy_en"
 msgstr "https://europa.eu/european-union/abouteuropa/privacy-policy_lv"
 
+msgid "Legal"
+msgstr "Juridiski paziņojumi"
+
 msgid "Legal notice"
 msgstr "Juridisks paziņojums"
 
@@ -144,9 +147,6 @@ msgstr "https://ec.europa.eu/info/index_lv"
 
 msgid "European Commission website"
 msgstr "Eiropas Komisijas tīmekļa vietne"
-
-msgid "This site is managed by the @name"
-msgstr "Šo vietni uztur @name"
 
 msgid "https://ec.europa.eu/info/strategy_en"
 msgstr "https://ec.europa.eu/info/strategy_lv"

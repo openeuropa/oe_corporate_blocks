@@ -124,6 +124,9 @@ msgstr "Politika ochrany osobných údajov"
 msgid "https://europa.eu/european-union/abouteuropa/privacy-policy_en"
 msgstr "https://europa.eu/european-union/abouteuropa/privacy-policy_sk"
 
+msgid "Legal"
+msgstr "Právna informácia"
+
 msgid "Legal notice"
 msgstr "Právne upozornenie"
 
@@ -141,9 +144,6 @@ msgstr "https://ec.europa.eu/info/index_sk"
 
 msgid "European Commission website"
 msgstr "Internetové stránky Európskej komisie"
-
-msgid "This site is managed by the @name"
-msgstr "Tieto stránky spravuje @name"
 
 msgid "https://ec.europa.eu/info/strategy_en"
 msgstr "https://ec.europa.eu/info/strategy_sk"

@@ -128,6 +128,9 @@ msgstr "Adatvédelem"
 msgid "https://europa.eu/european-union/abouteuropa/privacy-policy_en"
 msgstr "https://europa.eu/european-union/abouteuropa/privacy-policy_hu"
 
+msgid "Legal"
+msgstr "Jogi információk"
+
 msgid "Legal notice"
 msgstr "Jogi nyilatkozat"
 
@@ -145,9 +148,6 @@ msgstr "https://ec.europa.eu/info/index_hu"
 
 msgid "European Commission website"
 msgstr "Az Európai Bizottság honlapja"
-
-msgid "This site is managed by the @name"
-msgstr "Ezt a honlapot a @name kezeli"
 
 msgid "https://ec.europa.eu/info/strategy_en"
 msgstr "https://ec.europa.eu/info/strategy_hu"

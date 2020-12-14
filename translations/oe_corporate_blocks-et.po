@@ -124,6 +124,9 @@ msgstr "Isikuandmete kaitse"
 msgid "https://europa.eu/european-union/abouteuropa/privacy-policy_en"
 msgstr "https://europa.eu/european-union/abouteuropa/privacy-policy_et"
 
+msgid "Legal"
+msgstr "Õigusteave"
+
 msgid "Legal notice"
 msgstr "Õigusteave"
 
@@ -144,9 +147,6 @@ msgstr "https://ec.europa.eu/info/index_et"
 
 msgid "European Commission website"
 msgstr "Euroopa Komisjoni veebisait"
-
-msgid "This site is managed by the @name"
-msgstr "Veebisaiti haldab @name"
 
 msgid "https://ec.europa.eu/info/strategy_en"
 msgstr "https://ec.europa.eu/info/strategy_et"
