@@ -9,7 +9,7 @@
         "php": ">=7.2",
         "drupal/core": "^8.7",
         "easyrdf/easyrdf": "1.0.0 as 0.9.1",
-        "openeuropa/oe_corporate_site_info": "dev-EWPP-109"
+        "openeuropa/oe_corporate_site_info": "~1.0"
     },
     "require-dev": {
         "composer/installers": "~1.5",
