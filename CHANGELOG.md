@@ -1,12 +1,24 @@
-# Change Log
+# Changelog
 
-## [3.1.0](https://github.com/openeuropa/oe_corporate_blocks/tree/3.1.0) (2021-01-22)
+## [3.1.1](https://github.com/openeuropa/oe_corporate_blocks/tree/3.1.1) (2021-03-12)
+
+[Full Changelog](https://github.com/openeuropa/oe_corporate_blocks/compare/3.1.0...3.1.1)
+
+**Merged pull requests:**
+
+- EWPP-0000: Update minimum site info to use 0.3.1. [\#85](https://github.com/openeuropa/oe_corporate_blocks/pull/85) ([imanoleguskiza](https://github.com/imanoleguskiza))
+- EWPP-000: Update corporate site info version and remove patch fixing. [\#84](https://github.com/openeuropa/oe_corporate_blocks/pull/84) ([imanoleguskiza](https://github.com/imanoleguskiza))
+
+## [3.1.0](https://github.com/openeuropa/oe_corporate_blocks/tree/3.1.0) (2021-01-25)
+
 [Full Changelog](https://github.com/openeuropa/oe_corporate_blocks/compare/3.0.0...3.1.0)
 
 **Merged pull requests:**
 
+- EWPP-0000: Update changelog for release 3.1.0. [\#82](https://github.com/openeuropa/oe_corporate_blocks/pull/82) ([22Alexandra](https://github.com/22Alexandra))
 - EWPP-615: Updating oe corporate site info. [\#81](https://github.com/openeuropa/oe_corporate_blocks/pull/81) ([upchuk](https://github.com/upchuk))
 - EWPP-529: Replace scaffold library. [\#80](https://github.com/openeuropa/oe_corporate_blocks/pull/80) ([sergepavle](https://github.com/sergepavle))
+- Release 3.0.x to 3.x [\#76](https://github.com/openeuropa/oe_corporate_blocks/pull/76) ([nagyad](https://github.com/nagyad))
 
 ## [3.0.0](https://github.com/openeuropa/oe_corporate_blocks/tree/3.0.0) (2020-12-11)
 
@@ -14,6 +26,7 @@
 
 **Merged pull requests:**
 
+- Release-3.0.0: Update changelog. [\#77](https://github.com/openeuropa/oe_corporate_blocks/pull/77) ([nagyad](https://github.com/nagyad))
 - EWPP-628: Translations of string "Legal" missing from EU footer [\#75](https://github.com/openeuropa/oe_corporate_blocks/pull/75) ([yenyasinn](https://github.com/yenyasinn))
 
 ## [3.0.0-beta3](https://github.com/openeuropa/oe_corporate_blocks/tree/3.0.0-beta3) (2020-12-09)
