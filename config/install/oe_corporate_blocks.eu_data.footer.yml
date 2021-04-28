@@ -54,8 +54,23 @@ institution_links:
     label: 'European Investment Bank (EIB)'
     href: 'https://www.eib.org/en/index.htm'
   -
+    label: 'European Ombudsman'
+    href: 'https://www.ombudsman.europa.eu/en/home'
+  -
     label: 'European Data Protection Supervisor (EDPS)'
     href: 'https://secure.edps.europa.eu/EDPSWEB/edps/EDPS?lang=en'
+  -
+    label: 'European Data Protection Board'
+    href: 'https://edpb.europa.eu/edpb_en'
+  -
+    label: 'European Personnel Selection Office'
+    href: 'https://epso.europa.eu/home_en'
+  -
+    label: 'Publications Office of the European Union'
+    href: 'https://op.europa.eu/en/home'
+  -
+    label: 'Agencies'
+    href: 'https://europa.eu/european-union/about-eu/agencies_en'
 legal_links_title: Legal
 legal_links:
   -
