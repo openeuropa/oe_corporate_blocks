@@ -102,6 +102,11 @@ Feature: Corporate blocks feature
       | European Committee of the Regions (CoR)       | http://cor.europa.eu/en/                                        |
       | European Investment Bank (EIB)                | https://www.eib.org/en/index.htm                                |
       | European Data Protection Supervisor (EDPS)    | https://secure.edps.europa.eu/EDPSWEB/edps/EDPS?lang=en         |
+      | European Ombudsman                            | https://www.ombudsman.europa.eu/en/home                         |
+      | European Data Protection Board                | https://edpb.europa.eu/edpb_en                                  |
+      | European Personnel Selection Office           | https://epso.europa.eu/home_en                                  |
+      | Publications Office of the European Union     | https://op.europa.eu/en/home                                    |
+      | Agencies                                      | https://europa.eu/european-union/about-eu/agencies_en           |
 
       | About this site                               | https://europa.eu/european-union/abouteuropa_en                 |
       | Language policy                               | https://europa.eu/european-union/abouteuropa/language-policy_en |
@@ -133,6 +138,11 @@ Feature: Corporate blocks feature
       | Comité européen des régions (CdR)                      | https://cor.europa.eu/fr                                         |
       | Banque européenne d'investissement (BEI)               | https://www.eib.org/fr/index.htm                                 |
       | Contrôleur européen de la protection des données       | https://secure.edps.europa.eu/EDPSWEB/edps/EDPS?lang=fr          |
+      | Médiateur européen                                     | https://www.ombudsman.europa.eu/fr/home                          |
+      | Comité européen de la protection des données           | https://edpb.europa.eu/edpb_fr                                   |
+      | Office européen de sélection du personnel              | https://epso.europa.eu/home_fr                                   |
+      | Office des publications de l’Union européenne          | https://op.europa.eu/fr/home                                     |
+      | Agences                                                | https://europa.eu/european-union/about-eu/agencies_fr            |
 
       | À propos de ce site                                    | https://europa.eu/european-union/abouteuropa_fr                  |
       | Politique linguistique                                 | https://europa.eu/european-union/abouteuropa/language-policy_fr  |
