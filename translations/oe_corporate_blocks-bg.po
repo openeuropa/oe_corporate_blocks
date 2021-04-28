@@ -106,6 +106,36 @@ msgstr "Европейска инвестиционна банка (ЕИБ)"
 msgid "https://www.eib.org/en/index.htm"
 msgstr ""
 
+msgid "European Ombudsman"
+msgstr "Европейски омбудсман"
+
+msgid "https://www.ombudsman.europa.eu/en/home"
+msgstr "https://www.ombudsman.europa.eu/bg/home"
+
+msgid "European Data Protection Board"
+msgstr "Европейският комитет по защита на данните (ЕКЗД)"
+
+msgid "https://edpb.europa.eu/edpb_en"
+msgstr "https://edpb.europa.eu/edpb_bg"
+
+msgid "European Personnel Selection Office"
+msgstr "Европейска служба за подбор на персонал"
+
+msgid "https://epso.europa.eu/home_en"
+msgstr "https://epso.europa.eu/home_bg"
+
+msgid "Publications Office of the European Union"
+msgstr "Служба за публикации на Европейския съюз"
+
+msgid "https://op.europa.eu/en/home"
+msgstr "https://op.europa.eu/bg/home"
+
+msgid "Agencies"
+msgstr "Агенции"
+
+msgid "https://europa.eu/european-union/about-eu/agencies_en"
+msgstr "https://europa.eu/european-union/about-eu/agencies_bg"
+
 msgid "European Data Protection Supervisor (EDPS)"
 msgstr "Европейски надзорен орган по защита на данните (ЕНОЗД)"
 

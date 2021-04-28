@@ -109,6 +109,36 @@ msgstr "Autoritatea Europeană pentru Protecția Datelor (AEPD)"
 msgid "https://secure.edps.europa.eu/EDPSWEB/edps/EDPS?lang=en"
 msgstr "https://secure.edps.europa.eu/EDPSWEB/edps/EDPS?lang=ro"
 
+msgid "European Ombudsman"
+msgstr "Ombudsmanul European"
+
+msgid "https://www.ombudsman.europa.eu/en/home"
+msgstr "https://www.ombudsman.europa.eu/ro/home"
+
+msgid "European Data Protection Board"
+msgstr "Comitetul european pentru protecția datelor (CEPD)"
+
+msgid "https://edpb.europa.eu/edpb_en"
+msgstr "https://edpb.europa.eu/edpb_ro"
+
+msgid "European Personnel Selection Office"
+msgstr "Oficiul European pentru Selecţia Personalului"
+
+msgid "https://epso.europa.eu/home_en"
+msgstr "https://epso.europa.eu/home_ro"
+
+msgid "Publications Office of the European Union"
+msgstr "Oficiul pentru Publicații al Uniunii Europene"
+
+msgid "https://op.europa.eu/en/home"
+msgstr "https://op.europa.eu/ro/home"
+
+msgid "Agencies"
+msgstr "Agenţii"
+
+msgid "https://europa.eu/european-union/about-eu/agencies_en"
+msgstr "https://europa.eu/european-union/about-eu/agencies_ro"
+
 msgid "About this site"
 msgstr "Despre site"
 

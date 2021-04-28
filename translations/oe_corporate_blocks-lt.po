@@ -109,6 +109,36 @@ msgstr "Europos duomenų apsaugos priežiūros pareigūnas (EDAPP)"
 msgid "https://secure.edps.europa.eu/EDPSWEB/edps/EDPS?lang=en"
 msgstr "https://secure.edps.europa.eu/EDPSWEB/edps/EDPS?lang=lt"
 
+msgid "European Ombudsman"
+msgstr "Europos ombudsmenas"
+
+msgid "https://www.ombudsman.europa.eu/en/home"
+msgstr "https://www.ombudsman.europa.eu/lt/home"
+
+msgid "European Data Protection Board"
+msgstr "Eiropas Datu aizsardzības kolēģija (EDAK)"
+
+msgid "https://edpb.europa.eu/edpb_en"
+msgstr "https://edpb.europa.eu/edpb_lt"
+
+msgid "European Personnel Selection Office"
+msgstr "Europos personalo atrankos tarnyba"
+
+msgid "https://epso.europa.eu/home_en"
+msgstr "https://epso.europa.eu/home_lt"
+
+msgid "Publications Office of the European Union"
+msgstr "Europos Sąjungos leidinių biuras"
+
+msgid "https://op.europa.eu/en/home"
+msgstr "https://op.europa.eu/lt/home"
+
+msgid "Agencies"
+msgstr "Agentūros"
+
+msgid "https://europa.eu/european-union/about-eu/agencies_en"
+msgstr "https://europa.eu/european-union/about-eu/agencies_lt"
+
 msgid "About this site"
 msgstr "Apie šią svetainę"
 

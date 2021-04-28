@@ -109,6 +109,36 @@ msgstr "Eiropas Datu aizsardzības uzraudzītājs (EDAU)"
 msgid "https://secure.edps.europa.eu/EDPSWEB/edps/EDPS?lang=en"
 msgstr "https://secure.edps.europa.eu/EDPSWEB/edps/EDPS?lang=lv"
 
+msgid "European Ombudsman"
+msgstr "Eiropas Ombuds"
+
+msgid "https://www.ombudsman.europa.eu/en/home"
+msgstr "https://www.ombudsman.europa.eu/lv/home"
+
+msgid "European Data Protection Board"
+msgstr "Eiropas Datu aizsardzības kolēģija (EDAK)"
+
+msgid "https://edpb.europa.eu/edpb_en"
+msgstr "https://edpb.europa.eu/edpb_lv"
+
+msgid "European Personnel Selection Office"
+msgstr "Eiropas Kopienu Personāla atlases birojs"
+
+msgid "https://epso.europa.eu/home_en"
+msgstr "https://epso.europa.eu/home_lv"
+
+msgid "Publications Office of the European Union"
+msgstr "Eiropas Savienības Publikāciju birojs"
+
+msgid "https://op.europa.eu/en/home"
+msgstr "https://op.europa.eu/lv/home"
+
+msgid "Agencies"
+msgstr "Agenzie"
+
+msgid "https://europa.eu/european-union/about-eu/agencies_en"
+msgstr "https://europa.eu/european-union/about-eu/agencies_lv"
+
 msgid "About this site"
 msgstr "Par šo vietni"
 

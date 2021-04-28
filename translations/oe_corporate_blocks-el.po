@@ -119,6 +119,36 @@ msgstr "Ευρωπαίος Επόπτης Προστασίας Δεδομένω�
 msgid "https://secure.edps.europa.eu/EDPSWEB/edps/EDPS?lang=en"
 msgstr "https://secure.edps.europa.eu/EDPSWEB/edps/EDPS?lang=el"
 
+msgid "European Ombudsman"
+msgstr "Ευρωπαίος Διαμεσολαβητής"
+
+msgid "https://www.ombudsman.europa.eu/en/home"
+msgstr "https://www.ombudsman.europa.eu/el/home"
+
+msgid "European Data Protection Board"
+msgstr "Ευρωπαϊκό Συμβούλιο Προστασίας Δεδομένων (ΕΣΠΔ)"
+
+msgid "https://edpb.europa.eu/edpb_en"
+msgstr "https://edpb.europa.eu/edpb_el"
+
+msgid "European Personnel Selection Office"
+msgstr "Η Ευρωπαϊκή Υπηρεσία Επιλογής Προσωπικού"
+
+msgid "https://epso.europa.eu/home_en"
+msgstr "https://epso.europa.eu/home_el"
+
+msgid "Publications Office of the European Union"
+msgstr "Υπηρεσία Εκδόσεων της Ευρωπαϊκής Ένωσης"
+
+msgid "https://op.europa.eu/en/home"
+msgstr "https://op.europa.eu/el/home"
+
+msgid "Agencies"
+msgstr "Οργανισμοί"
+
+msgid "https://europa.eu/european-union/about-eu/agencies_en"
+msgstr "https://europa.eu/european-union/about-eu/agencies_el"
+
 msgid "About this site"
 msgstr "Γενικά"
 

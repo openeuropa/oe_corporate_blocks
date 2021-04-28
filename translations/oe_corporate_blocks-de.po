@@ -112,6 +112,36 @@ msgstr "Europäischer Datenschutzbeauftragter (EDSB)"
 msgid "https://secure.edps.europa.eu/EDPSWEB/edps/EDPS?lang=en"
 msgstr "https://secure.edps.europa.eu/EDPSWEB/edps/EDPS?lang=de"
 
+msgid "European Ombudsman"
+msgstr "Europäischer Bürgerbeauftragter"
+
+msgid "https://www.ombudsman.europa.eu/en/home"
+msgstr "https://www.ombudsman.europa.eu/de/home"
+
+msgid "European Data Protection Board"
+msgstr "Der Europäische Datenschutzausschuss (EDSA)"
+
+msgid "https://edpb.europa.eu/edpb_en"
+msgstr "https://edpb.europa.eu/edpb_de"
+
+msgid "European Personnel Selection Office"
+msgstr "Europäisches Amt für Personalauswahl"
+
+msgid "https://epso.europa.eu/home_en"
+msgstr "https://epso.europa.eu/home_de"
+
+msgid "Publications Office of the European Union"
+msgstr "Amt für Veröffentlichungen der Europäischen Union"
+
+msgid "https://op.europa.eu/en/home"
+msgstr "https://op.europa.eu/de/home"
+
+msgid "Agencies"
+msgstr "Agenturen"
+
+msgid "https://europa.eu/european-union/about-eu/agencies_en"
+msgstr "https://europa.eu/european-union/about-eu/agencies_de"
+
 msgid "About this site"
 msgstr "Über diese Website"
 

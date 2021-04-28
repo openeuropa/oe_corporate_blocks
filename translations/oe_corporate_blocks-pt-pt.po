@@ -106,6 +106,36 @@ msgstr "Autoridade Europeia para a Proteção de Dados (AEPD)"
 msgid "https://secure.edps.europa.eu/EDPSWEB/edps/EDPS?lang=en"
 msgstr "https://secure.edps.europa.eu/EDPSWEB/edps/EDPS?lang=pt"
 
+msgid "European Ombudsman"
+msgstr "Provedor de Justiça Europeu"
+
+msgid "https://www.ombudsman.europa.eu/en/home"
+msgstr "https://www.ombudsman.europa.eu/pt/home"
+
+msgid "European Data Protection Board"
+msgstr "Comité Europeu para a Proteção de Dados (CEPD)"
+
+msgid "https://edpb.europa.eu/edpb_en"
+msgstr "https://edpb.europa.eu/edpb_pt"
+
+msgid "European Personnel Selection Office"
+msgstr "Serviço Europeu de Selecção do Pessoal das Comunidades Europeias"
+
+msgid "https://epso.europa.eu/home_en"
+msgstr "https://epso.europa.eu/home_pt"
+
+msgid "Publications Office of the European Union"
+msgstr "Serviço das Publicações da União Europeia"
+
+msgid "https://op.europa.eu/en/home"
+msgstr "https://op.europa.eu/pt/home"
+
+msgid "Agencies"
+msgstr "Agências"
+
+msgid "https://europa.eu/european-union/about-eu/agencies_en"
+msgstr "https://europa.eu/european-union/about-eu/agencies_pt"
+
 msgid "About this site"
 msgstr "Acerca deste sítio"
 

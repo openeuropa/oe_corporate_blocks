@@ -103,6 +103,36 @@ msgstr "An Maoirseoir Eorpach ar Chosaint Sonraí (MECS)"
 msgid "https://secure.edps.europa.eu/EDPSWEB/edps/EDPS?lang=en"
 msgstr "https://secure.edps.europa.eu/EDPSWEB/edps/EDPS?lang=ga"
 
+msgid "European Ombudsman"
+msgstr "An tOmbudsman Eorpach"
+
+msgid "https://www.ombudsman.europa.eu/en/home"
+msgstr "https://www.ombudsman.europa.eu/ga/home"
+
+msgid "European Data Protection Board"
+msgstr "An Bord Eorpach um Chosaint Sonraí (EDPB)"
+
+msgid "https://edpb.europa.eu/edpb_en"
+msgstr "https://edpb.europa.eu/edpb_ga"
+
+msgid "European Personnel Selection Office"
+msgstr "An Oifig Eorpach um Roghnú Foirne"
+
+msgid "https://epso.europa.eu/home_en"
+msgstr "https://epso.europa.eu/home_ga"
+
+msgid "Publications Office of the European Union"
+msgstr "Oifig Foilseachán an Aontais Eorpaigh"
+
+msgid "https://op.europa.eu/en/home"
+msgstr "https://op.europa.eu/ga/home"
+
+msgid "Agencies"
+msgstr "Gníomhaireachtaí"
+
+msgid "https://europa.eu/european-union/about-eu/agencies_en"
+msgstr "https://europa.eu/european-union/about-eu/agencies_ga"
+
 msgid "About this site"
 msgstr "Faoin suíomh seo"
 

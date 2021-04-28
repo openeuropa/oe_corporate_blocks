@@ -109,6 +109,36 @@ msgstr "Euroopan tietosuojavaltuutettu"
 msgid "https://secure.edps.europa.eu/EDPSWEB/edps/EDPS?lang=en"
 msgstr "https://secure.edps.europa.eu/EDPSWEB/edps/EDPS?lang=fi"
 
+msgid "European Ombudsman"
+msgstr "Euroopan oikeusasiamies"
+
+msgid "https://www.ombudsman.europa.eu/en/home"
+msgstr "https://www.ombudsman.europa.eu/fi/home"
+
+msgid "European Data Protection Board"
+msgstr "Euroopan tietosuojaneuvosto"
+
+msgid "https://edpb.europa.eu/edpb_en"
+msgstr "https://edpb.europa.eu/edpb_fi"
+
+msgid "European Personnel Selection Office"
+msgstr "Europees Bureau voor personeelsselectie"
+
+msgid "https://epso.europa.eu/home_en"
+msgstr "https://epso.europa.eu/home_fi"
+
+msgid "Publications Office of the European Union"
+msgstr "Euroopan unionin julkaisutoimisto"
+
+msgid "https://op.europa.eu/en/home"
+msgstr "https://op.europa.eu/fi/home"
+
+msgid "Agencies"
+msgstr "Erillisvirastot"
+
+msgid "https://europa.eu/european-union/about-eu/agencies_en"
+msgstr "https://europa.eu/european-union/about-eu/agencies_fi"
+
 msgid "About this site"
 msgstr "Tietoa sivustosta"
 

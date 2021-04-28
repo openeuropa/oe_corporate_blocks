@@ -106,6 +106,36 @@ msgstr "Európsky dozorný úradník pre ochranu údajov (EDPS)"
 msgid "https://secure.edps.europa.eu/EDPSWEB/edps/EDPS?lang=en"
 msgstr "https://secure.edps.europa.eu/EDPSWEB/edps/EDPS?lang=sk"
 
+msgid "European Ombudsman"
+msgstr "Európsky ombudsman"
+
+msgid "https://www.ombudsman.europa.eu/en/home"
+msgstr "https://www.ombudsman.europa.eu/sk/home"
+
+msgid "European Data Protection Board"
+msgstr "Európsky výbor pre ochranu údajov (EDPB)"
+
+msgid "https://edpb.europa.eu/edpb_en"
+msgstr "https://edpb.europa.eu/edpb_sk"
+
+msgid "European Personnel Selection Office"
+msgstr "Európsky úrad pre výber pracovníkov"
+
+msgid "https://epso.europa.eu/home_en"
+msgstr "https://epso.europa.eu/home_sk"
+
+msgid "Publications Office of the European Union"
+msgstr "Úrad pre vydávanie publikácií Európskej únie"
+
+msgid "https://op.europa.eu/en/home"
+msgstr "https://op.europa.eu/sk/home"
+
+msgid "Agencies"
+msgstr "Agentúry"
+
+msgid "https://europa.eu/european-union/about-eu/agencies_en"
+msgstr "https://europa.eu/european-union/about-eu/agencies_sk"
+
 msgid "About this site"
 msgstr "O tejto lokalite"
 

@@ -106,6 +106,36 @@ msgstr "Euroopa Andmekaitseinspektor"
 msgid "https://secure.edps.europa.eu/EDPSWEB/edps/EDPS?lang=en"
 msgstr "https://secure.edps.europa.eu/EDPSWEB/edps/EDPS?lang=et"
 
+msgid "European Ombudsman"
+msgstr "Euroopa Ombudsman"
+
+msgid "https://www.ombudsman.europa.eu/en/home"
+msgstr "https://www.ombudsman.europa.eu/et/home"
+
+msgid "European Data Protection Board"
+msgstr "Euroopa Andmekaitsenõukogu"
+
+msgid "https://edpb.europa.eu/edpb_en"
+msgstr "https://edpb.europa.eu/edpb_et"
+
+msgid "European Personnel Selection Office"
+msgstr "Euroopa Personalivaliku Amet"
+
+msgid "https://epso.europa.eu/home_en"
+msgstr "https://epso.europa.eu/home_et"
+
+msgid "Publications Office of the European Union"
+msgstr "Euroopa Liidu Väljaannete Talitus"
+
+msgid "https://op.europa.eu/en/home"
+msgstr "https://op.europa.eu/et/home"
+
+msgid "Agencies"
+msgstr "Asutused ja ametid"
+
+msgid "https://europa.eu/european-union/about-eu/agencies_en"
+msgstr "https://europa.eu/european-union/about-eu/agencies_et"
+
 msgid "About this site"
 msgstr "Selle saidi kohta"
 

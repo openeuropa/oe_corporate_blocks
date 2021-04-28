@@ -110,6 +110,36 @@ msgstr "Európai adatvédelmi biztos"
 msgid "https://secure.edps.europa.eu/EDPSWEB/edps/EDPS?lang=en"
 msgstr "https://secure.edps.europa.eu/EDPSWEB/edps/EDPS?lang=hu"
 
+msgid "European Ombudsman"
+msgstr "Európai ombudsman"
+
+msgid "https://www.ombudsman.europa.eu/en/home"
+msgstr "https://www.ombudsman.europa.eu/hu/home"
+
+msgid "European Data Protection Board"
+msgstr "Az Európai Adatvédelmi Testület"
+
+msgid "https://edpb.europa.eu/edpb_en"
+msgstr "https://edpb.europa.eu/edpb_hu"
+
+msgid "European Personnel Selection Office"
+msgstr "Európai Személyzeti Felvételi Hivatal"
+
+msgid "https://epso.europa.eu/home_en"
+msgstr "https://epso.europa.eu/home_hu"
+
+msgid "Publications Office of the European Union"
+msgstr "Az Európai Unió Kiadóhivatala"
+
+msgid "https://op.europa.eu/en/home"
+msgstr "https://op.europa.eu/hu/home"
+
+msgid "Agencies"
+msgstr "Ügynökségek"
+
+msgid "https://europa.eu/european-union/about-eu/agencies_en"
+msgstr "https://europa.eu/european-union/about-eu/agencies_hu"
+
 msgid "About this site"
 msgstr "A honlapról"
 

@@ -103,6 +103,36 @@ msgstr "Evropski nadzornik za varstvo podatkov"
 msgid "https://secure.edps.europa.eu/EDPSWEB/edps/EDPS?lang=en"
 msgstr "https://secure.edps.europa.eu/EDPSWEB/edps/EDPS?lang=sl"
 
+msgid "European Ombudsman"
+msgstr "Evropski varuh človekovih pravic"
+
+msgid "https://www.ombudsman.europa.eu/en/home"
+msgstr "https://www.ombudsman.europa.eu/sl/home"
+
+msgid "European Data Protection Board"
+msgstr "Evropski odbor za varstvo podatkov"
+
+msgid "https://edpb.europa.eu/edpb_en"
+msgstr "https://edpb.europa.eu/edpb_sl"
+
+msgid "European Personnel Selection Office"
+msgstr "Evropski urad za izbor osebja"
+
+msgid "https://epso.europa.eu/home_en"
+msgstr "https://epso.europa.eu/home_sl"
+
+msgid "Publications Office of the European Union"
+msgstr "Urad za publikacije Evropske unije"
+
+msgid "https://op.europa.eu/en/home"
+msgstr "https://op.europa.eu/sl/home"
+
+msgid "Agencies"
+msgstr "Agencije"
+
+msgid "https://europa.eu/european-union/about-eu/agencies_en"
+msgstr "https://europa.eu/european-union/about-eu/agencies_sl"
+
 msgid "About this site"
 msgstr "O spletišču"
 
