@@ -28,7 +28,9 @@ function _oe_corporate_blocks_import_corporate_links(string $config_path): void 
   ];
 
   foreach ($configs as $config) {
-    $config_storage->write($config, $source->read($config));
+    if ($data = $source->read($config)) {
+      $config_storage->write($config, $data);
+    }
   }
 
   if (!\Drupal::hasService('locale.storage')) {
@@ -179,4 +181,12 @@ function oe_corporate_blocks_post_update_30004(): void {
     $general_link->setSection('related_sites');
     $general_link->save();
   }
+}
+
+/**
+ * Updates EU footer data.
+ */
+function oe_corporate_blocks_post_update_40001(): void {
+  $config_path = drupal_get_path('module', 'oe_corporate_blocks') . '/config/post_update/40001_update_eu_footer_data';
+  _oe_corporate_blocks_import_corporate_links($config_path);
 }
