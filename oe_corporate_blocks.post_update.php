@@ -28,9 +28,7 @@ function _oe_corporate_blocks_import_corporate_links(string $config_path): void 
   ];
 
   foreach ($configs as $config) {
-    if ($data = $source->read($config)) {
-      $config_storage->write($config, $data);
-    }
+    $config_storage->write($config, $source->read($config));
   }
 
   if (!\Drupal::hasService('locale.storage')) {
