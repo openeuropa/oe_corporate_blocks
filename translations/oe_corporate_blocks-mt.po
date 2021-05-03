@@ -109,6 +109,36 @@ msgstr "Kontrollur Ewropew għall-Protezzjoni tad-Data (KEPD)"
 msgid "https://secure.edps.europa.eu/EDPSWEB/edps/EDPS?lang=en"
 msgstr "https://secure.edps.europa.eu/EDPSWEB/edps/EDPS?lang=mt"
 
+msgid "European Ombudsman"
+msgstr "L-Ombudsman Ewropew"
+
+msgid "https://www.ombudsman.europa.eu/en/home"
+msgstr "https://www.ombudsman.europa.eu/mt/home"
+
+msgid "European Data Protection Board"
+msgstr "Il-Bord Ewropew għall-Protezzjoni tad-Data (EDPB)"
+
+msgid "https://edpb.europa.eu/edpb_en"
+msgstr "https://edpb.europa.eu/edpb_mt"
+
+msgid "European Personnel Selection Office"
+msgstr "L-Uffiċċju Ewropew għas-Selezzjoni tal-Persunal"
+
+msgid "https://epso.europa.eu/home_en"
+msgstr "https://epso.europa.eu/home_mt"
+
+msgid "Publications Office of the European Union"
+msgstr "l-Uffiċċju tal-Pubblikazzjonijiet tal-Unjoni Ewropea"
+
+msgid "https://op.europa.eu/en/home"
+msgstr "https://op.europa.eu/mt/home"
+
+msgid "Agencies"
+msgstr "Aġenziji"
+
+msgid "https://europa.eu/european-union/about-eu/agencies_en"
+msgstr "https://europa.eu/european-union/about-eu/agencies_mt"
+
 msgid "About this site"
 msgstr "Dwar dan is-sit"
 

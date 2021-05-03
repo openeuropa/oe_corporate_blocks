@@ -109,6 +109,36 @@ msgstr "Europejski Inspektor Ochrony Danych (EIOD)"
 msgid "https://secure.edps.europa.eu/EDPSWEB/edps/EDPS?lang=en"
 msgstr "https://secure.edps.europa.eu/EDPSWEB/edps/EDPS?lang=pl"
 
+msgid "European Ombudsman"
+msgstr "Europejski Rzecznik Praw Obywatelskich"
+
+msgid "https://www.ombudsman.europa.eu/en/home"
+msgstr "https://www.ombudsman.europa.eu/pl/home"
+
+msgid "European Data Protection Board"
+msgstr "Europejska Rada Ochrony Danych (EROD)"
+
+msgid "https://edpb.europa.eu/edpb_en"
+msgstr "https://edpb.europa.eu/edpb_pl"
+
+msgid "European Personnel Selection Office"
+msgstr "Europejski Urząd Doboru Kadr"
+
+msgid "https://epso.europa.eu/home_en"
+msgstr "https://epso.europa.eu/home_pl"
+
+msgid "Publications Office of the European Union"
+msgstr "Urząd Publikacji Unii Europejskiej"
+
+msgid "https://op.europa.eu/en/home"
+msgstr "https://op.europa.eu/pl/home"
+
+msgid "Agencies"
+msgstr "Agencje"
+
+msgid "https://europa.eu/european-union/about-eu/agencies_en"
+msgstr "https://europa.eu/european-union/about-eu/agencies_pl"
+
 msgid "About this site"
 msgstr "Informacje o stronie"
 

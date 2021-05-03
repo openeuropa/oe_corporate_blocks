@@ -109,6 +109,36 @@ msgstr "Europese Toezichthouder voor gegevensbescherming (EDPS)"
 msgid "https://secure.edps.europa.eu/EDPSWEB/edps/EDPS?lang=en"
 msgstr "https://secure.edps.europa.eu/EDPSWEB/edps/EDPS?lang=nl"
 
+msgid "European Ombudsman"
+msgstr "Europese Ombudsman"
+
+msgid "https://www.ombudsman.europa.eu/en/home"
+msgstr "https://www.ombudsman.europa.eu/nl/home"
+
+msgid "European Data Protection Board"
+msgstr "Europees Comité voor gegevensbescherming (EDPB)"
+
+msgid "https://edpb.europa.eu/edpb_en"
+msgstr "https://edpb.europa.eu/edpb_nl"
+
+msgid "European Personnel Selection Office"
+msgstr "Europees Bureau voor personeelsselectie"
+
+msgid "https://epso.europa.eu/home_en"
+msgstr "https://epso.europa.eu/home_nl"
+
+msgid "Publications Office of the European Union"
+msgstr "Bureau voor publicaties van de Europese Unie"
+
+msgid "https://op.europa.eu/en/home"
+msgstr "https://op.europa.eu/nl/home"
+
+msgid "Agencies"
+msgstr "Instanties"
+
+msgid "https://europa.eu/european-union/about-eu/agencies_en"
+msgstr "https://europa.eu/european-union/about-eu/agencies_nl"
+
 msgid "About this site"
 msgstr "Over deze site"
 

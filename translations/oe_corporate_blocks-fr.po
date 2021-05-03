@@ -112,6 +112,36 @@ msgstr "Contrôleur européen de la protection des données"
 msgid "https://secure.edps.europa.eu/EDPSWEB/edps/EDPS?lang=en"
 msgstr "https://secure.edps.europa.eu/EDPSWEB/edps/EDPS?lang=fr"
 
+msgid "European Ombudsman"
+msgstr "Médiateur européen"
+
+msgid "https://www.ombudsman.europa.eu/en/home"
+msgstr "https://www.ombudsman.europa.eu/fr/home"
+
+msgid "European Data Protection Board"
+msgstr "Comité européen de la protection des données"
+
+msgid "https://edpb.europa.eu/edpb_en"
+msgstr "https://edpb.europa.eu/edpb_fr"
+
+msgid "European Personnel Selection Office"
+msgstr "Office européen de sélection du personnel"
+
+msgid "https://epso.europa.eu/home_en"
+msgstr "https://epso.europa.eu/home_fr"
+
+msgid "Publications Office of the European Union"
+msgstr "Office des publications de l’Union européenne"
+
+msgid "https://op.europa.eu/en/home"
+msgstr "https://op.europa.eu/fr/home"
+
+msgid "Agencies"
+msgstr "Agences"
+
+msgid "https://europa.eu/european-union/about-eu/agencies_en"
+msgstr "https://europa.eu/european-union/about-eu/agencies_fr"
+
 msgid "About this site"
 msgstr "À propos de ce site"
 

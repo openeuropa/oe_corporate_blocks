@@ -106,6 +106,36 @@ msgstr "Garante europeo della protezione dei dati (GEPD)"
 msgid "https://secure.edps.europa.eu/EDPSWEB/edps/EDPS?lang=en"
 msgstr "https://secure.edps.europa.eu/EDPSWEB/edps/EDPS?lang=it"
 
+msgid "European Ombudsman"
+msgstr "Mediatore europeo"
+
+msgid "https://www.ombudsman.europa.eu/en/home"
+msgstr "https://www.ombudsman.europa.eu/it/home"
+
+msgid "European Data Protection Board"
+msgstr "Comitato europeo per la protezione dei dati (EDPB)"
+
+msgid "https://edpb.europa.eu/edpb_en"
+msgstr "https://edpb.europa.eu/edpb_it"
+
+msgid "European Personnel Selection Office"
+msgstr "L'Ufficio europeo di selezione del personale"
+
+msgid "https://epso.europa.eu/home_en"
+msgstr "https://epso.europa.eu/home_it"
+
+msgid "Publications Office of the European Union"
+msgstr "Ufficio delle pubblicazioni dell’Unione europea"
+
+msgid "https://op.europa.eu/en/home"
+msgstr "https://op.europa.eu/it/home"
+
+msgid "Agencies"
+msgstr "Agenzie"
+
+msgid "https://europa.eu/european-union/about-eu/agencies_en"
+msgstr "https://europa.eu/european-union/about-eu/agencies_it"
+
 msgid "About this site"
 msgstr "Informazioni sul sito"
 
