@@ -1,11 +1,20 @@
 # Changelog
 
+## [4.1.0](https://github.com/openeuropa/oe_corporate_blocks/tree/4.1.0) (2021-05-04)
+
+[Full Changelog](https://github.com/openeuropa/oe_corporate_blocks/compare/4.0.0...4.1.0)
+
+**Merged pull requests:**
+
+- EWPP-1065: Add links to EU footer. [\#88](https://github.com/openeuropa/oe_corporate_blocks/pull/88) ([sergepavle](https://github.com/sergepavle))
+
 ## [4.0.0](https://github.com/openeuropa/oe_corporate_blocks/tree/4.0.0) (2021-03-22)
 
 [Full Changelog](https://github.com/openeuropa/oe_corporate_blocks/compare/3.1.1...4.0.0)
 
 **Merged pull requests:**
 
+- Prepare release 4.0.0. [\#87](https://github.com/openeuropa/oe_corporate_blocks/pull/87) ([imanoleguskiza](https://github.com/imanoleguskiza))
 - EWPP-109: Use sparql storage branch. [\#78](https://github.com/openeuropa/oe_corporate_blocks/pull/78) ([imanoleguskiza](https://github.com/imanoleguskiza))
 
 
