@@ -8,8 +8,6 @@
     "require": {
         "php": ">=7.3",
         "drupal/core": "^8.9 || ^9.1",
-        "drupal/upgrade_status": "^3.4",
-        "mglaman/drupal-check": "^1.1.8",
         "easyrdf/easyrdf": "1.0.0 as 0.9.1",
         "openeuropa/oe_corporate_site_info": "dev-EWPP-1137"
     },
