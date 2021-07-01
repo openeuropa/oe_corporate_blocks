@@ -24,6 +24,11 @@ class FooterLinkManagementTest extends BrowserTestBase {
   ];
 
   /**
+   * {@inheritdoc}
+   */
+  protected $defaultTheme = 'stark';
+
+  /**
    * Test general link creation.
    */
   public function testGeneralLinkCreation(): void {

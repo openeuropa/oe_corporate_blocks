@@ -27,6 +27,11 @@ class FooterLinkGeneralListBuilderTest extends WebDriverTestBase {
   ];
 
   /**
+   * {@inheritdoc}
+   */
+  protected $defaultTheme = 'stark';
+
+  /**
    * Test general footer link drag-and-drop management UI.
    */
   public function testGeneralLinkUi(): void {
