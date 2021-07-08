@@ -86,7 +86,7 @@ msgid "European External Action Service (EEAS)"
 msgstr "Evropská služba pro vnější činnost (ESVČ)"
 
 msgid "European Economic and Social Committee (EESC)"
-msgstr "Evropský hospodářský a sociální výbor (EHSV)"
+msgstr "Evropský hospodářský a sociální výbor"
 
 msgid "http://www.eesc.europa.eu/?i=portal.en.home"
 msgstr "http://www.eesc.europa.eu/?i=portal.cs.home"

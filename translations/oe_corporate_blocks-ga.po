@@ -65,7 +65,7 @@ msgid "https://ec.europa.eu/commission/index_en"
 msgstr "https://ec.europa.eu/commission/index_ga"
 
 msgid "Court of Justice of the European Union (CJEU)"
-msgstr "Cúirt Bhreithiúnais an Aontais Eorpaigh"
+msgstr "Cúirt Bhreithiúnais an Aontais Eorpaigh (CBAE)"
 
 msgid "European Central Bank (ECB)"
 msgstr "an Banc Ceannais Eorpach (BCE)"
@@ -93,6 +93,9 @@ msgstr "http://www.eesc.europa.eu/?i=portal.ga.home"
 
 msgid "http://cor.europa.eu/en/"
 msgstr "http://cor.europa.eu/ga/"
+
+msgid "European Committee of the Regions (CoR)"
+msgstr "Coiste Eorpach na Réigiún (CoR)"
 
 msgid "European Investment Bank (EIB)"
 msgstr "An Banc Eorpach Infheistíochta (BEI)"

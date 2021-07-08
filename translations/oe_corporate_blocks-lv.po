@@ -95,7 +95,7 @@ msgid "http://www.eesc.europa.eu/?i=portal.en.home"
 msgstr "http://www.eesc.europa.eu/?i=portal.lv.home"
 
 msgid "European Committee of the Regions (CoR)"
-msgstr "Eiropas Reģionu komiteja (RK)"
+msgstr "Eiropas Reģionu komiteja"
 
 msgid "http://cor.europa.eu/en/"
 msgstr "http://cor.europa.eu/lv/"

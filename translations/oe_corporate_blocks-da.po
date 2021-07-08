@@ -65,7 +65,7 @@ msgid "https://ec.europa.eu/commission/index_en"
 msgstr "https://ec.europa.eu/commission/index_da"
 
 msgid "Court of Justice of the European Union (CJEU)"
-msgstr "Den Europæiske Unions Domstol (EU-Domstolen)"
+msgstr "Den Europæiske Unions Domstol"
 
 msgid "http://curia.europa.eu/jcms/jcms/j_6/en/"
 msgstr "http://curia.europa.eu/jcms/jcms/j_6/da/"
@@ -95,7 +95,7 @@ msgid "http://www.eesc.europa.eu/?i=portal.en.home"
 msgstr "http://www.eesc.europa.eu/?i=portal.da.home"
 
 msgid "European Committee of the Regions (CoR)"
-msgstr "Det Europæiske Regionsudvalg"
+msgstr "Det Europæiske Regionsudvalg (RU)"
 
 msgid "http://cor.europa.eu/en/"
 msgstr "https://cor.europa.eu/da"

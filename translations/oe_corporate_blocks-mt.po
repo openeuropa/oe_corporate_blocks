@@ -65,7 +65,7 @@ msgid "https://ec.europa.eu/commission/index_en"
 msgstr "http://ec.europa.eu/index_mt.htm"
 
 msgid "Court of Justice of the European Union (CJEU)"
-msgstr "Il-Qorti tal-Ġustizzja tal-Unjoni Ewropea (QtĠ-UE)"
+msgstr "Il-Qorti tal-Ġustizzja tal-Unjoni Ewropea (QĠUE)"
 
 msgid "http://curia.europa.eu/jcms/jcms/j_6/en/"
 msgstr "http://curia.europa.eu/jcms/jcms/j_6/mt/"
@@ -95,7 +95,7 @@ msgid "http://www.eesc.europa.eu/?i=portal.en.home"
 msgstr "http://www.eesc.europa.eu/?i=portal.mt.home"
 
 msgid "European Committee of the Regions (CoR)"
-msgstr "Il-Kumitat tar-Reġjuni tal-Unjoni Ewropea (KtR)"
+msgstr "Il-Kumitat Ewropew tar-Reġjuni (KtR)"
 
 msgid "http://cor.europa.eu/en/"
 msgstr "http://cor.europa.eu/mt/"
