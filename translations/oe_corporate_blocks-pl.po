@@ -161,7 +161,7 @@ msgid "Legal"
 msgstr "Treści prawne"
 
 msgid "Legal notice"
-msgstr "Informacja prawna"
+msgstr "Zastrzeżenia prawne"
 
 msgid "https://europa.eu/european-union/abouteuropa/legal_notices_en"
 msgstr "https://europa.eu/european-union/abouteuropa/legal_notices_pl"

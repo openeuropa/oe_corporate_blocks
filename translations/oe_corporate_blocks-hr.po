@@ -64,6 +64,9 @@ msgstr "Europska komisija"
 msgid "https://ec.europa.eu/commission/index_en"
 msgstr "https://ec.europa.eu/commission/index_hr"
 
+msgid "Court of Justice of the European Union (CJEU)"
+msgstr "Sud Europske unije"
+
 msgid "http://curia.europa.eu/jcms/jcms/j_6/en/"
 msgstr "http://curia.europa.eu/jcms/jcms/j_6/hr/"
 

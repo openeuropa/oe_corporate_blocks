@@ -65,7 +65,7 @@ msgid "https://ec.europa.eu/commission/index_en"
 msgstr "http://ec.europa.eu/index_nl.htm"
 
 msgid "Court of Justice of the European Union (CJEU)"
-msgstr "Hof van Justitie van de Europese Unie (HvJ-EU)"
+msgstr "Hof van Justitie van de Europese Unie"
 
 msgid "http://curia.europa.eu/jcms/jcms/j_6/en/"
 msgstr "http://curia.europa.eu/jcms/jcms/j_6/nl/"
@@ -89,13 +89,13 @@ msgid "https://eeas.europa.eu/headquarters/headquarters-homepage_en"
 msgstr "http://eeas.europa.eu/index_nl.htm"
 
 msgid "European Economic and Social Committee (EESC)"
-msgstr "Europees Economisch en Sociaal Comité (EESC)"
+msgstr "Europees Economisch en Sociaal Comité"
 
 msgid "http://www.eesc.europa.eu/?i=portal.en.home"
 msgstr "http://www.eesc.europa.eu/?i=portal.nl.home"
 
 msgid "European Committee of the Regions (CoR)"
-msgstr "Europees Comité van de Regio's (CvdR)"
+msgstr "Europees Comité van de Regio's"
 
 msgid "http://cor.europa.eu/en/"
 msgstr "http://cor.europa.eu/nl/"

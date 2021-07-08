@@ -303,3 +303,9 @@ msgstr "https://ec.europa.eu/info/privacy-policy_pt"
 
 msgid "https://ec.europa.eu/info/legal-notice_en"
 msgstr "https://ec.europa.eu/info/legal-notice_pt"
+
+msgid "European Committee of the Regions (CoR)"
+msgstr "Comité das Regiões Europeu (CR)"
+
+msgid "Council of the European Union"
+msgstr "Conselho da União Europeia"

@@ -269,7 +269,7 @@ msgid "https://ec.europa.eu/info/events_en"
 msgstr "https://ec.europa.eu/info/events_es"
 
 msgid "Events"
-msgstr "Actos"
+msgstr "Eventos"
 
 msgid "https://ec.europa.eu/info/publications_en"
 msgstr "https://ec.europa.eu/info/publications_es"
