@@ -306,3 +306,6 @@ msgstr "https://ec.europa.eu/info/privacy-policy_it"
 
 msgid "https://ec.europa.eu/info/legal-notice_en"
 msgstr "https://ec.europa.eu/info/legal-notice_it"
+
+msgid "Council of the European Union"
+msgstr "Consiglio dell'Unione europea"

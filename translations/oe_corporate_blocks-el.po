@@ -171,7 +171,7 @@ msgid "Legal"
 msgstr "Νομικό πλαίσιο"
 
 msgid "Legal notice"
-msgstr "Νομική ανακοίνωση"
+msgstr "Ανακοίνωση νομικού περιεχομένου"
 
 msgid "https://europa.eu/european-union/abouteuropa/legal_notices_en"
 msgstr "https://europa.eu/european-union/abouteuropa/legal_notices_el"

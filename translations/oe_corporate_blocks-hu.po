@@ -94,7 +94,7 @@ msgid "http://www.eesc.europa.eu/?i=portal.en.home"
 msgstr "http://www.eesc.europa.eu/?i=portal.hu.home"
 
 msgid "European Committee of the Regions (CoR)"
-msgstr "Régiók Európai Bizottsága"
+msgstr "Régiók Európai Bizottsága (RB)"
 
 msgid "http://cor.europa.eu/en/"
 msgstr "http://cor.europa.eu/hu/"
@@ -310,3 +310,6 @@ msgstr "https://ec.europa.eu/info/privacy-policy_hu"
 
 msgid "https://ec.europa.eu/info/legal-notice_en"
 msgstr "https://ec.europa.eu/info/legal-notice_hu"
+
+msgid "European Economic and Social Committee (EESC)"
+msgstr "Európai Gazdasági és Szociális Bizottság (EGSZB)"

@@ -167,7 +167,7 @@ msgid "https://europa.eu/european-union/abouteuropa/legal_notices_en"
 msgstr "https://europa.eu/european-union/abouteuropa/legal_notices_ro"
 
 msgid "Cookies"
-msgstr "Cookie-urile"
+msgstr "Cookie-uri"
 
 msgid "https://europa.eu/european-union/abouteuropa/cookies_en"
 msgstr "https://europa.eu/european-union/abouteuropa/cookies_ro"

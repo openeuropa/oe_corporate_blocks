@@ -65,7 +65,7 @@ msgid "https://ec.europa.eu/commission/index_en"
 msgstr "http://ec.europa.eu/index_lt.htm"
 
 msgid "Court of Justice of the European Union (CJEU)"
-msgstr "Europos Sąjungos Teisingumo Teismas"
+msgstr "Europos Sąjungos Teisingumo Teismas (ESTT)"
 
 msgid "http://curia.europa.eu/jcms/jcms/j_6/en/"
 msgstr "http://curia.europa.eu/jcms/jcms/j_6/lt/"
@@ -95,7 +95,7 @@ msgid "http://www.eesc.europa.eu/?i=portal.en.home"
 msgstr "http://www.eesc.europa.eu/?i=portal.lt.home"
 
 msgid "European Committee of the Regions (CoR)"
-msgstr "Europos regionų komitetas"
+msgstr "Europos regionų komitetas (RK)"
 
 msgid "http://cor.europa.eu/en/"
 msgstr "http://cor.europa.eu/lt/"
