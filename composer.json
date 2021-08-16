@@ -21,7 +21,7 @@
         "openeuropa/code-review": "^1.6",
         "openeuropa/drupal-core-require-dev": "^8.9 || ^9.1",
         "openeuropa/task-runner-drupal-project-symlink": "^1.0",
-        "openeuropa/oe_multilingual": "dev-master",
+        "openeuropa/oe_multilingual": "^1.8",
         "phpspec/prophecy-phpunit": "^1 || ^2"
     },
     "scripts": {
