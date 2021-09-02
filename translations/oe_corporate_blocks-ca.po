@@ -1,0 +1,161 @@
+msgid ""
+msgstr ""
+
+msgid "Contact the EU"
+msgstr "Contacteu amb la UE"
+
+msgid "tel:0080067891011"
+msgstr "Tel. 0080067891011"
+
+msgid "Call us 00 800 6 7 8 9 10 11"
+msgstr "Truqueu-nos al 00 800 6 7 8 9 10 11"
+
+msgid "Use other telephone options"
+msgstr "Altres opcions telefòniques"
+
+msgid "Write to us via our contact form"
+msgstr "Formulari de contacte"
+
+msgid "Meet us at a local EU office"
+msgstr "Oficines locals de la UE"
+
+msgid "Find a social media account"
+msgstr "Xarxes socials"
+
+msgid "Search for EU social media channels"
+msgstr "Canals de la UE a les xarxes socials"
+
+msgid "EU institutions"
+msgstr "Institucions de la UE"
+
+msgid "European Parliament"
+msgstr "Parlament Europeu"
+
+msgid "European Council"
+msgstr "Consell Europeu"
+
+msgid "Council of the European Union"
+msgstr "Consell de la Unió Europea"
+
+msgid "European Commission"
+msgstr "Comissió Europea"
+
+msgid "Court of Justice of the European Union (CJEU)"
+msgstr "Tribunal de Justícia de la Unió Europea (TJUE)"
+
+msgid "European Central Bank (ECB)"
+msgstr "Banc Central Europeu (BCE)"
+
+msgid "European Court of Auditors (ECA)"
+msgstr "Tribunal de Comptes Europeu (TCE)"
+
+msgid "European External Action Service (EEAS)"
+msgstr "Servei Europeu d'Acció Exterior (SEAE)"
+
+msgid "European Economic and Social Committee (EESC)"
+msgstr "Comitè Econòmic i Social Europeu (CESE)"
+
+msgid "European Committee of the Regions (CoR)"
+msgstr "Comitè Europeu de les Regions (CdR)"
+
+msgid "European Investment Bank (EIB)"
+msgstr "Comitè Europeu de les Regions (CdR)"
+
+msgid "European Data Protection Supervisor (EDPS)"
+msgstr "Supervisor Europeu de Protecció de Dades (SEPD)"
+
+msgid "European Ombudsman"
+msgstr "Defensor del Poble Europeu"
+
+msgid "European Data Protection Board"
+msgstr "Comitè Europeu de Protecció de Dades "
+
+msgid "European Personnel Selection Office"
+msgstr "Oficina Europea de Selecció de Personal "
+
+msgid "Publications Office of the European Union"
+msgstr "Oficina de Publicacions de la Unió Europea"
+
+msgid "Agencies"
+msgstr "Agències"
+
+msgid "About this site"
+msgstr "Sobre aquest web"
+
+msgid "Language policy"
+msgstr "Política lingüística"
+
+msgid "Privacy policy"
+msgstr "Política de privacitat"
+
+msgid "Legal"
+msgstr "Declaracions legals"
+
+msgid "Legal notice"
+msgstr "Avís legal"
+
+msgid "European Commission website"
+msgstr "Lloc web de la Comissió Europea"
+
+msgid "Strategy"
+msgstr "Estratègia"
+
+msgid "About the European Commission"
+msgstr "Coneixeu la Comissió Europea"
+
+msgid "Business, Economy, Euro"
+msgstr "Empreses, economia i euro"
+
+msgid "Live, work, travel in the EU"
+msgstr "Viure, treballar i viatjar a la UE"
+
+msgid "Law"
+msgstr "Legislació"
+
+msgid "Funding, Tenders"
+msgstr "Finançament i licitacions"
+
+msgid "Research and innovation"
+msgstr "Recerca i innovació"
+
+msgid "Energy, Climate change, Environment"
+msgstr "Energia, canvi climàtic i medi ambient"
+
+msgid "Education"
+msgstr "Educació"
+
+msgid "Aid, Development cooperation, Fundamental rights"
+msgstr "Ajuda, cooperació al desenvolupament i drets fonamentals"
+
+msgid "Food, Farming, Fisheries"
+msgstr "Alimentació, agricultura i ramaderia, i pesca"
+
+msgid "EU regional and urban development"
+msgstr "Desenvolupament regional i urbà de la UE"
+
+msgid "Jobs at the European Commission"
+msgstr "Treballar a la Comissió Europea"
+
+msgid "Statistics"
+msgstr "Estadístiques"
+
+msgid "News"
+msgstr "Notícies"
+
+msgid "Events"
+msgstr "Esdeveniments"
+
+msgid "Publications"
+msgstr "Publicacions"
+
+msgid "Contact the European Commission"
+msgstr "Contacteu amb la Comissió Europea"
+
+msgid "Follow the European Commission on social media"
+msgstr "Seguiu la Comissió Europea a les xarxes socials"
+
+msgid "Resources for partners"
+msgstr "Recursos disponibles"
+
+msgid "Cookies"
+msgstr "Galetes"

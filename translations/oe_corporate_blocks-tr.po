@@ -1,0 +1,161 @@
+msgid ""
+msgstr ""
+
+msgid "Contact the EU"
+msgstr "AB ile iletişime geçin"
+
+msgid "tel:0080067891011"
+msgstr "Tel: 0080067891011 "
+
+msgid "Call us 00 800 6 7 8 9 10 11"
+msgstr "Bizi arayın 00 800 6 7 8 9 10 11"
+
+msgid "Use other telephone options"
+msgstr "Başka telefon seçenekleri kullanın"
+
+msgid "Write to us via our contact form"
+msgstr "İletişim formumuzu kullanarak bize yazın"
+
+msgid "Meet us at a local EU office"
+msgstr "Bir yerel AB ofisinde bizimle buluşun"
+
+msgid "Find a social media account"
+msgstr "Bir sosyal medya hesabı bulun"
+
+msgid "Search for EU social media channels"
+msgstr "AB sosyal medya kanallarını arayın"
+
+msgid "EU institutions"
+msgstr "AB kurumları"
+
+msgid "European Parliament"
+msgstr "Avrupa Parlamentosu"
+
+msgid "European Council"
+msgstr "AB Liderler Zirvesi"
+
+msgid "Council of the European Union"
+msgstr "Avrupa Birliği Konseyi"
+
+msgid "European Commission"
+msgstr "Avrupa Komisyonu"
+
+msgid "Court of Justice of the European Union (CJEU)"
+msgstr "Avrupa Birliği Adalet Divanı (CJEU)"
+
+msgid "European Central Bank (ECB)"
+msgstr "Avrupa Merkez Bankası (ECB)"
+
+msgid "European Court of Auditors (ECA)"
+msgstr "Avrupa Sayıştayı (ECA)"
+
+msgid "European External Action Service (EEAS)"
+msgstr "Avrupa Dış Eylem Servisi (EEAS)"
+
+msgid "European Economic and Social Committee (EESC)"
+msgstr "Avrupa Ekonomik ve Sosyal Komitesi (EESC)"
+
+msgid "European Committee of the Regions (CoR)"
+msgstr "Avrupa Bölgeler Komitesi (CoR)"
+
+msgid "European Investment Bank (EIB)"
+msgstr "Avrupa Yatırım Bankası (EIB)"
+
+msgid "European Data Protection Supervisor (EDPS)"
+msgstr "Avrupa Veri Koruma Denetçisi (EDPS)"
+
+msgid "European Ombudsman"
+msgstr "Avrupa Ombudsmanı"
+
+msgid "European Data Protection Board"
+msgstr "Avrupa Veri Koruma Kurulu"
+
+msgid "European Personnel Selection Office"
+msgstr "Avrupa Personel Seçim Ofisi"
+
+msgid "Publications Office of the European Union"
+msgstr "Avrupa Birliği Resmî Yayınlar Ofisi"
+
+msgid "Agencies"
+msgstr "Ajanslar"
+
+msgid "About this site"
+msgstr "Bu site hakkında"
+
+msgid "Language policy"
+msgstr "Dil politikası"
+
+msgid "Privacy policy"
+msgstr "Gizlilik politikası"
+
+msgid "Legal"
+msgstr "Yasal"
+
+msgid "Legal notice"
+msgstr "Yasal uyarı"
+
+msgid "European Commission website"
+msgstr "Avrupa Komisyonu websitesi"
+
+msgid "Strategy"
+msgstr "Strateji"
+
+msgid "About the European Commission"
+msgstr "Avrupa Komisyonu hakkında"
+
+msgid "Business, Economy, Euro"
+msgstr "İş, Ekonomi, Avro"
+
+msgid "Live, work, travel in the EU"
+msgstr "AB'de yaşa, çalış, seyahat et "
+
+msgid "Law"
+msgstr "Hukuk"
+
+msgid "Funding, Tenders"
+msgstr "Fonlama, İhaleler"
+
+msgid "Research and innovation"
+msgstr "Araştırma ve inovasyon"
+
+msgid "Energy, Climate change, Environment"
+msgstr "Enerji, İklim değişikliği, Çevre"
+
+msgid "Education"
+msgstr "Eğitim"
+
+msgid "Aid, Development cooperation, Fundamental rights"
+msgstr "Yardım, Kalkınma işbirliği  Temel haklar"
+
+msgid "Food, Farming, Fisheries"
+msgstr "Gıda, Çiftçilik, Balıkçılık"
+
+msgid "EU regional and urban development"
+msgstr "AB'de bölgesel ve kentsel kalkınma"
+
+msgid "Jobs at the European Commission"
+msgstr "Avrupa Komisyonu'nda işler"
+
+msgid "Statistics"
+msgstr "İstatistik"
+
+msgid "News"
+msgstr "Haberler"
+
+msgid "Events"
+msgstr "Etkinlikler"
+
+msgid "Publications"
+msgstr "Yayınlar"
+
+msgid "Contact the European Commission"
+msgstr "Avrupa Komisyonu ile iletişime geçin"
+
+msgid "Follow the European Commission on social media"
+msgstr "Avrupa Komisyonu'nu sosyal medyada takip edin"
+
+msgid "Resources for partners"
+msgstr "Ortaklar için kaynaklar"
+
+msgid "Cookies"
+msgstr "Çerezler"

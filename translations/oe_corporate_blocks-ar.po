@@ -1,0 +1,161 @@
+msgid ""
+msgstr ""
+
+msgid "Contact the EU"
+msgstr "اتصل بالاتحاد الأوروبي"
+
+msgid "tel:0080067891011"
+msgstr "هاتف: 0080067891011"
+
+msgid "Call us 00 800 6 7 8 9 10 11"
+msgstr "اتصل بنا: 0080067891011"
+
+msgid "Use other telephone options"
+msgstr "استخدم خيارات هاتف أخرى"
+
+msgid "Write to us via our contact form"
+msgstr "راسلنا بواسطة استمارة الاتصال"
+
+msgid "Meet us at a local EU office"
+msgstr "التق بنا في مكتب الاتحاد الأوروبي المحلي"
+
+msgid "Find a social media account"
+msgstr "اعثر على حساب شبكة التواصل الاجتماعي"
+
+msgid "Search for EU social media channels"
+msgstr "ابحث عن قنوات التواصل الاجتماعي للاتحاد الأوروبي"
+
+msgid "EU institutions"
+msgstr "مؤسسات الاتحاد الأوروبي"
+
+msgid "European Parliament"
+msgstr "البرلمان الأوروبي"
+
+msgid "European Council"
+msgstr "المجلس الأوروبي"
+
+msgid "Council of the European Union"
+msgstr "مجلس الاتحاد الأوروبي"
+
+msgid "European Commission"
+msgstr "المفوضية الأوروبية"
+
+msgid "Court of Justice of the European Union (CJEU)"
+msgstr "محكمة العدل التابعة للاتحاد الأوروبي (CJEU)"
+
+msgid "European Central Bank (ECB)"
+msgstr "البنك المركزي الأوروبي (ECB)"
+
+msgid "European Court of Auditors (ECA)"
+msgstr "ديوان مراجعي حسابات الاتحاد الأوروبي (ECA)"
+
+msgid "European External Action Service (EEAS)"
+msgstr "الدائرة الأوروبية للشؤون الخارجية (EEAS)"
+
+msgid "European Economic and Social Committee (EESC)"
+msgstr "اللجنة الأوروبية الإقتصادية والاجتماعية (EESC)"
+
+msgid "European Committee of the Regions (CoR)"
+msgstr "لجنة الأقاليم الأوروبية (CoR)"
+
+msgid "European Investment Bank (EIB)"
+msgstr "بنك الاستثمار الأوروبي (EIB)"
+
+msgid "European Data Protection Supervisor (EDPS)"
+msgstr "المشرف الأوروبي لحماية البيانات (EDPS)"
+
+msgid "European Ombudsman"
+msgstr "أمين المظالم الأوروبي"
+
+msgid "European Data Protection Board"
+msgstr "المجلس الأوروبي لحماية البيانات"
+
+msgid "European Personnel Selection Office"
+msgstr "المكتب الأوروبي لاختيار الموظفين"
+
+msgid "Publications Office of the European Union"
+msgstr "مكتب المنشورات التابع للاتحاد الأوروبي"
+
+msgid "Agencies"
+msgstr "الوكالات"
+
+msgid "About this site"
+msgstr "معلومات حول هذا الموقع"
+
+msgid "Language policy"
+msgstr "سياسة اللغات"
+
+msgid "Privacy policy"
+msgstr "سياسة الخصوصية"
+
+msgid "Legal"
+msgstr "قانوني"
+
+msgid "Legal notice"
+msgstr "إشعار قانوني"
+
+msgid "European Commission website"
+msgstr "موقع المفوضية الأوروبية الإلكتروني"
+
+msgid "Strategy"
+msgstr "استراتيجية"
+
+msgid "About the European Commission"
+msgstr "نبذة عن المفوضية الأوروبية"
+
+msgid "Business, Economy, Euro"
+msgstr "أعمال، اقتصاد، يورو"
+
+msgid "Live, work, travel in the EU"
+msgstr "معيشة، عمل، سفر إلى الاتحاد الأوروبي"
+
+msgid "Law"
+msgstr "قوانين"
+
+msgid "Funding, Tenders"
+msgstr "تمويل، عطاءات"
+
+msgid "Research and innovation"
+msgstr "بحث وابتكار"
+
+msgid "Energy, Climate change, Environment"
+msgstr "طاقة، تغير مناخي، بيئة"
+
+msgid "Education"
+msgstr "تعليم"
+
+msgid "Aid, Development cooperation, Fundamental rights"
+msgstr "مساعدة، مساعدات التنمية، حقوق أساسية"
+
+msgid "Food, Farming, Fisheries"
+msgstr "غذاء، فلاحة، مصائد أسماك"
+
+msgid "EU regional and urban development"
+msgstr "التنمية الإقليمية والحضرية للاتحاد الأوروبي"
+
+msgid "Jobs at the European Commission"
+msgstr "وظائف خالية في المفوضية الأوروبية"
+
+msgid "Statistics"
+msgstr "إحصائيات"
+
+msgid "News"
+msgstr "أخبار"
+
+msgid "Events"
+msgstr "أحداث"
+
+msgid "Publications"
+msgstr "منشورات"
+
+msgid "Contact the European Commission"
+msgstr "اتصل بالمفوضية الأوروبية"
+
+msgid "Follow the European Commission on social media"
+msgstr "تابع المفوضية الأوروبية في شبكات التواصل الاجتماعي"
+
+msgid "Resources for partners"
+msgstr "موارد للشركاء"
+
+msgid "Cookies"
+msgstr "كوكيز"
