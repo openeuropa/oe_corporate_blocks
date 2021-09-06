@@ -1,0 +1,161 @@
+msgid ""
+msgstr ""
+
+msgid "Contact the EU"
+msgstr "Hafa samband við ESB"
+
+msgid "tel:0080067891011"
+msgstr "Sími: 0080067891011"
+
+msgid "Call us 00 800 6 7 8 9 10 11"
+msgstr "Hafa samband: 00 800 6 7 8 9 10 11"
+
+msgid "Use other telephone options"
+msgstr "Nota aðrar símaaðgerðir"
+
+msgid "Write to us via our contact form"
+msgstr "Senda skilaboð gegnum netið"
+
+msgid "Meet us at a local EU office"
+msgstr "Koma til okkar á skrifstofu ESB"
+
+msgid "Find a social media account"
+msgstr "Finna reikning á samfélagsmiðlum"
+
+msgid "Search for EU social media channels"
+msgstr "Leita að ESB á samfélagsmiðlum"
+
+msgid "EU institutions"
+msgstr "Stofnanir ESB"
+
+msgid "European Parliament"
+msgstr "Evrópuþing"
+
+msgid "European Council"
+msgstr "Leiðtogaráð"
+
+msgid "Council of the European Union"
+msgstr "Ráð Evrópusambandsins"
+
+msgid "European Commission"
+msgstr "Framkvæmdastjórn ESB"
+
+msgid "Court of Justice of the European Union (CJEU)"
+msgstr "Evrópudómstóll"
+
+msgid "European Central Bank (ECB)"
+msgstr "Seðlabanki Evrópu"
+
+msgid "European Court of Auditors (ECA)"
+msgstr "Endurskoðunarrétturinn"
+
+msgid "European External Action Service (EEAS)"
+msgstr "Utanríkisþjónusta Evrópubandalagsins"
+
+msgid "European Economic and Social Committee (EESC)"
+msgstr "Efnahags- og félagsmálanefnd Evrópusambandsins"
+
+msgid "European Committee of the Regions (CoR)"
+msgstr "Byggðanefnd Evrópusambandsins"
+
+msgid "European Investment Bank (EIB)"
+msgstr "Fjárfestingarbanki Evrópu"
+
+msgid "European Data Protection Supervisor (EDPS)"
+msgstr "Evrópska persónuverndarstofnunin"
+
+msgid "European Ombudsman"
+msgstr "Umboðsmaður Evrópusambandsins"
+
+msgid "European Data Protection Board"
+msgstr "Evrópska persónuverndarnefndin"
+
+msgid "European Personnel Selection Office"
+msgstr "Ráðningarskrifstofa Evrópusambandsins"
+
+msgid "Publications Office of the European Union"
+msgstr "Útgáfuskrifstofa Evrópusambandsins"
+
+msgid "Agencies"
+msgstr "Stofnanir"
+
+msgid "About this site"
+msgstr "Um þessa síðu"
+
+msgid "Language policy"
+msgstr "Málstefna"
+
+msgid "Privacy policy"
+msgstr "Friðhelgisstefna"
+
+msgid "Legal"
+msgstr "Lög"
+
+msgid "Legal notice"
+msgstr "Lögbundin yfirlýsing"
+
+msgid "European Commission website"
+msgstr "Heimasíða framkvæmdastjórnar ESB"
+
+msgid "Strategy"
+msgstr "Stefnumótun"
+
+msgid "About the European Commission"
+msgstr "Um framkvæmdastjórn ESB"
+
+msgid "Business, Economy, Euro"
+msgstr "Viðskipti, hagkerfi og evran"
+
+msgid "Live, work, travel in the EU"
+msgstr "Daglegt líf, störf og ferðalög innan ESB"
+
+msgid "Law"
+msgstr "Lög"
+
+msgid "Funding, Tenders"
+msgstr "Fjármögnun og útboð"
+
+msgid "Research and innovation"
+msgstr "Rannsóknir og nýsköpun"
+
+msgid "Energy, Climate change, Environment"
+msgstr "Orka, loftslagsbreytingar og umhverfi"
+
+msgid "Education"
+msgstr "Menntun"
+
+msgid "Aid, Development cooperation, Fundamental rights"
+msgstr "Aðstoð, þróunarsamvinna og grundvallarréttindi"
+
+msgid "Food, Farming, Fisheries"
+msgstr "Matur, landbúnaður og útgerð"
+
+msgid "EU regional and urban development"
+msgstr "Dreifbýlis- og þéttbýlisþróun innan ESB"
+
+msgid "Jobs at the European Commission"
+msgstr "Störf hjá framkvæmdastjórn ESB"
+
+msgid "Statistics"
+msgstr "Tölfræði"
+
+msgid "News"
+msgstr "Fréttir"
+
+msgid "Events"
+msgstr "Viðburðir"
+
+msgid "Publications"
+msgstr "Útgáfa"
+
+msgid "Contact the European Commission"
+msgstr "Hafa samband við framkvæmdastjórn ESB"
+
+msgid "Follow the European Commission on social media"
+msgstr "Fylgjast með framkvæmdastjórn ESB á samfélagsmiðlum"
+
+msgid "Resources for partners"
+msgstr "Aðföng til aðildarríkja"
+
+msgid "Cookies"
+msgstr "Vefkökur"
