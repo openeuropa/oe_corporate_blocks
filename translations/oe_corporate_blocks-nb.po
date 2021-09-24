@@ -1,0 +1,161 @@
+msgid ""
+msgstr ""
+
+msgid "Contact the EU"
+msgstr "Kontakt oss"
+
+msgid "tel:0080067891011"
+msgstr "Telefonnr.: +80067891011"
+
+msgid "Call us 00 800 6 7 8 9 10 11"
+msgstr "Ring oss på +800 6 7 8 9 10 11"
+
+msgid "Use other telephone options"
+msgstr "Andre telefonnumre du kan bruke"
+
+msgid "Write to us via our contact form"
+msgstr "Skriv til oss gjennom vårt kontaktskjema"
+
+msgid "Meet us at a local EU office"
+msgstr "Møt oss på ditt lokale EU-kontor"
+
+msgid "Find a social media account"
+msgstr "Finn konto på sosiale media"
+
+msgid "Search for EU social media channels"
+msgstr "Søk etter EU-kanaler på sosiale media"
+
+msgid "EU institutions"
+msgstr "EU-organer"
+
+msgid "European Parliament"
+msgstr "Europaparlamentet"
+
+msgid "European Council"
+msgstr "Det europeiske rådet"
+
+msgid "Council of the European Union"
+msgstr "Rådet for Den europeiske union"
+
+msgid "European Commission"
+msgstr "Europakommisjonen"
+
+msgid "Court of Justice of the European Union (CJEU)"
+msgstr "Den europeiske unions domstol (CJEU)"
+
+msgid "European Central Bank (ECB)"
+msgstr "Den europeiske sentralbanken (ECB)"
+
+msgid "European Court of Auditors (ECA)"
+msgstr "Den europeiske revisjonsretten (ECA)"
+
+msgid "European External Action Service (EEAS)"
+msgstr "Den europeiske utenrikstjenesten (EEAS)"
+
+msgid "European Economic and Social Committee (EESC)"
+msgstr "Den europeiske økonomiske og sosiale komité (EESC)"
+
+msgid "European Committee of the Regions (CoR)"
+msgstr "Den europeiske regionkomitéen (CoR)"
+
+msgid "European Investment Bank (EIB)"
+msgstr "Den europeiske investeringsbanken (EIB)"
+
+msgid "European Data Protection Supervisor (EDPS)"
+msgstr "Det europeiske datatilsynet (EDPS)"
+
+msgid "European Ombudsman"
+msgstr "Det europeiske ombudet"
+
+msgid "European Data Protection Board"
+msgstr "Det europeiske datasikringsutvalget"
+
+msgid "European Personnel Selection Office"
+msgstr "Det europeiske rekrutteringsbyrået (EPSO)"
+
+msgid "Publications Office of the European Union"
+msgstr "Publikasjonskontoret for Den europeiske Union"
+
+msgid "Agencies"
+msgstr "Byråer"
+
+msgid "About this site"
+msgstr "Om nettstedet"
+
+msgid "Language policy"
+msgstr "Vår språkpolitikk"
+
+msgid "Privacy policy"
+msgstr "Personvern"
+
+msgid "Legal"
+msgstr "Juridisk"
+
+msgid "Legal notice"
+msgstr "Juridisk merknad"
+
+msgid "European Commission website"
+msgstr "Europakommisjonens nettsted"
+
+msgid "Strategy"
+msgstr "Strategi"
+
+msgid "About the European Commission"
+msgstr "Om Europakommisjonen"
+
+msgid "Business, Economy, Euro"
+msgstr "Handel, økonomi, euro"
+
+msgid "Live, work, travel in the EU"
+msgstr "Bo, arbeide, reise i EU"
+
+msgid "Law"
+msgstr "Lov og rett"
+
+msgid "Funding, Tenders"
+msgstr "Tilskuddsordninger, anbud"
+
+msgid "Research and innovation"
+msgstr "Forskning og innovasjon"
+
+msgid "Energy, Climate change, Environment"
+msgstr "Energi, klimaendring, miljø"
+
+msgid "Education"
+msgstr "Utdanning"
+
+msgid "Aid, Development cooperation, Fundamental rights"
+msgstr "Støtte, utviklingssamarbeid, grunnleggende rettigheter"
+
+msgid "Food, Farming, Fisheries"
+msgstr "Mat, jordbruk, fiske"
+
+msgid "EU regional and urban development"
+msgstr "Region- og byutvikling i EU"
+
+msgid "Jobs at the European Commission"
+msgstr "Jobb i Europakommisjonen"
+
+msgid "Statistics"
+msgstr "Statistikk"
+
+msgid "News"
+msgstr "Siste nytt"
+
+msgid "Events"
+msgstr "Arrangementer"
+
+msgid "Publications"
+msgstr "Publikasjoner"
+
+msgid "Contact the European Commission"
+msgstr "Kontakt Europakommisjonen"
+
+msgid "Follow the European Commission on social media"
+msgstr "Følg Europakommisjonen på sosiale media"
+
+msgid "Resources for partners"
+msgstr "Ressurser for samarbeidspartnere"
+
+msgid "Cookies"
+msgstr "Kjeks"
