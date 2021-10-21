@@ -306,3 +306,6 @@ msgstr "https://ec.europa.eu/info/privacy-policy_ga"
 
 msgid "https://ec.europa.eu/info/legal-notice_en"
 msgstr "https://ec.europa.eu/info/legal-notice_ga"
+
+msgid "Social media"
+msgstr "Na meáin shóisialta"

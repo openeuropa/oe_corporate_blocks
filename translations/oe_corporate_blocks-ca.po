@@ -159,3 +159,6 @@ msgstr "Recursos disponibles"
 
 msgid "Cookies"
 msgstr "Galetes"
+
+msgid "Social media"
+msgstr "Xarxes socials"

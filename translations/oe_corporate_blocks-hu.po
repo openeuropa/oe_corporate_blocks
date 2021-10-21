@@ -313,3 +313,6 @@ msgstr "https://ec.europa.eu/info/legal-notice_hu"
 
 msgid "European Economic and Social Committee (EESC)"
 msgstr "Európai Gazdasági és Szociális Bizottság (EGSZB)"
+
+msgid "Social media"
+msgstr "Közösségi média"

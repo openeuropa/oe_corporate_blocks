@@ -159,3 +159,6 @@ msgstr "Aðföng til aðildarríkja"
 
 msgid "Cookies"
 msgstr "Vefkökur"
+
+msgid "Social media"
+msgstr "Samfélagsmiðlar"

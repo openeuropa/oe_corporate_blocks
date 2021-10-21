@@ -309,3 +309,6 @@ msgstr "Comité das Regiões Europeu (CR)"
 
 msgid "Council of the European Union"
 msgstr "Conselho da União Europeia"
+
+msgid "Social media"
+msgstr "Redes sociais"

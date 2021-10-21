@@ -159,3 +159,6 @@ msgstr "Ortaklar için kaynaklar"
 
 msgid "Cookies"
 msgstr "Çerezler"
+
+msgid "Social media"
+msgstr "Sosyal medya"
