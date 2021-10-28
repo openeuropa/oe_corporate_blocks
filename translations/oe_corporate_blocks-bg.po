@@ -318,3 +318,6 @@ msgstr "https://ec.europa.eu/info/privacy-policy_bg"
 
 msgid "https://ec.europa.eu/info/legal-notice_en"
 msgstr "https://ec.europa.eu/info/legal-notice_bg"
+
+msgid "Social media"
+msgstr "Социални медии"

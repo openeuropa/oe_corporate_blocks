@@ -311,3 +311,6 @@ msgstr "https://ec.europa.eu/info/privacy-policy_lt"
 
 msgid "https://ec.europa.eu/info/legal-notice_en"
 msgstr "https://ec.europa.eu/info/legal-notice_lt"
+
+msgid "Social media"
+msgstr "Socialiniai tinklai"

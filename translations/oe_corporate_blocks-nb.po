@@ -159,3 +159,6 @@ msgstr "Ressurser for samarbeidspartnere"
 
 msgid "Cookies"
 msgstr "Kjeks"
+
+msgid "Social media"
+msgstr "Sosiale medier"

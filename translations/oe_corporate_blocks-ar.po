@@ -159,3 +159,6 @@ msgstr "موارد للشركاء"
 
 msgid "Cookies"
 msgstr "كوكيز"
+
+msgid "Social media"
+msgstr "وسائل التواصل الاجتماعي"
