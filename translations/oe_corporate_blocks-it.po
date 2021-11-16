@@ -10,23 +10,23 @@ msgstr "tel:0080067891011"
 msgid "Call us 00 800 6 7 8 9 10 11"
 msgstr "Telefonaci allo 00 800 6 7 8 9 10 11"
 
-msgid "https://europa.eu/european-union/contact/call-us_en"
-msgstr "https://europa.eu/european-union/contact/call-us_it"
+msgid "https://european-union.europa.eu/contact-eu/call-us_en"
+msgstr "https://european-union.europa.eu/contact-eu/call-us_it"
 
 msgid "Use other telephone options"
 msgstr "Scegli altre opzioni telefoniche"
 
-msgid "https://europa.eu/european-union/contact/write-to-us_en"
-msgstr "https://europa.eu/european-union/contact/write-to-us_it"
+msgid "https://european-union.europa.eu/contact-eu/write-us_en"
+msgstr "https://european-union.europa.eu/contact-eu/write-us_it"
 
 msgid "Write to us via our contact form"
 msgstr "Scrivici - compila il modulo di contatto"
 
-msgid "https://europa.eu/european-union/contact/meet-us_en"
-msgstr "https://europa.eu/european-union/contact/meet-us_it"
+msgid "https://european-union.europa.eu/contact-eu/meet-us_en"
+msgstr "https://european-union.europa.eu/contact-eu/meet-us_it"
 
-msgid "Meet us at a local EU office"
-msgstr "Vieni a trovarci nell'ufficio dell'UE più vicino"
+msgid "Meet us at one of the EU centres"
+msgstr "Vieni a trovarci in uno dei centri dell'UE"
 
 msgid "Find a social media account"
 msgstr "Trova un account sui social media"
@@ -34,8 +34,8 @@ msgstr "Trova un account sui social media"
 msgid "Search for EU social media channels"
 msgstr "Cerca i canali dell'UE sui social media"
 
-msgid "https://europa.eu/european-union/contact/social-networks_en"
-msgstr "https://europa.eu/european-union/contact/social-networks_it"
+msgid "https://european-union.europa.eu/contact-eu/social-media-channels_en"
+msgstr "https://european-union.europa.eu/contact-eu/social-media-channels_it"
 
 msgid "EU institutions"
 msgstr "Istituzioni dell’UE"
@@ -133,8 +133,8 @@ msgstr "https://op.europa.eu/it/home"
 msgid "Agencies"
 msgstr "Agenzie"
 
-msgid "https://europa.eu/european-union/about-eu/agencies_en"
-msgstr "https://europa.eu/european-union/about-eu/agencies_it"
+msgid "https://european-union.europa.eu/institutions-law-budget/institutions-and-bodies/institutions-and-bodies-profiles_en?f%5B0%5D=oe_organisation_eu_type%3Ahttp%3A//publications.europa.eu/resource/authority/corporate-body-classification/AGENCY_DEC&f%5B1%5D=oe_organisation_eu_type%3Ahttp%3A//publications.europa.eu/resource/authority/corporate-body-classification/AGENCY_EXEC&f%5B2%5D=oe_organisation_eu_type%3Ahttp%3A//publications.europa.eu/resource/authority/corporate-body-classification/EU_JU"
+msgstr "https://european-union.europa.eu/institutions-law-budget/institutions-and-bodies/institutions-and-bodies-profiles_it?f%5B0%5D=oe_organisation_eu_type%3Ahttp%3A//publications.europa.eu/resource/authority/corporate-body-classification/AGENCY_DEC&f%5B1%5D=oe_organisation_eu_type%3Ahttp%3A//publications.europa.eu/resource/authority/corporate-body-classification/AGENCY_EXEC&f%5B2%5D=oe_organisation_eu_type%3Ahttp%3A//publications.europa.eu/resource/authority/corporate-body-classification/EU_JU"
 
 msgid "About this site"
 msgstr "Informazioni sul sito"
@@ -145,14 +145,17 @@ msgstr "https://europa.eu/european-union/abouteuropa_it"
 msgid "Language policy"
 msgstr "Politica linguistica"
 
-msgid "https://europa.eu/european-union/abouteuropa/language-policy_en"
-msgstr "https://europa.eu/european-union/abouteuropa/language-policy_it"
+msgid "Languages on our websites"
+msgstr "Le lingue sui nostri siti web"
+
+msgid "https://european-union.europa.eu/languages-our-websites_en"
+msgstr "https://european-union.europa.eu/languages-our-websites_it"
 
 msgid "Privacy policy"
 msgstr "Politica in materia di privacy"
 
-msgid "https://europa.eu/european-union/abouteuropa/privacy-policy_en"
-msgstr "https://europa.eu/european-union/abouteuropa/privacy-policy_it"
+msgid "https://european-union.europa.eu/privacy-policy_en"
+msgstr "https://european-union.europa.eu/privacy-policy_it"
 
 msgid "Legal"
 msgstr "Informazioni legali"
@@ -160,14 +163,20 @@ msgstr "Informazioni legali"
 msgid "Legal notice"
 msgstr "Note legali"
 
-msgid "https://europa.eu/european-union/abouteuropa/legal_notices_en"
-msgstr "https://europa.eu/european-union/abouteuropa/legal_notices_it"
+msgid "https://european-union.europa.eu/legal-notice_en"
+msgstr "https://european-union.europa.eu/legal-notice_it"
 
 msgid "Cookies"
 msgstr "Cookie"
 
-msgid "https://europa.eu/european-union/abouteuropa/cookies_en"
-msgstr "https://europa.eu/european-union/abouteuropa/cookies_it"
+msgid "https://european-union.europa.eu/cookies_en"
+msgstr "https://european-union.europa.eu/cookies_it"
+
+msgid "Accessibility"
+msgstr "Accessibilità"
+
+msgid "https://european-union.europa.eu/web-accessibility-policy_en"
+msgstr "https://european-union.europa.eu/web-accessibility-policy_it"
 
 msgid "https://ec.europa.eu/info/index_en"
 msgstr "https://ec.europa.eu/info/index_it"
@@ -283,8 +292,8 @@ msgstr "https://ec.europa.eu/info/about-european-commission/contact_it"
 msgid "Contact the European Commission"
 msgstr "Contattare la Commissione europea"
 
-msgid "https://europa.eu/european-union/contact/social-networks_en#n:+i:4+e:1+t:+s"
-msgstr "https://europa.eu/european-union/contact/social-networks_it#n:+i:4+e:1+t:+s"
+msgid "https://european-union.europa.eu/contact-eu/social-media-channels_en#/search?page=0&institutions=european_commission"
+msgstr "https://european-union.europa.eu/contact-eu/social-media-channels_it#/search?page=0&institutions=european_commission"
 
 msgid "Follow the European Commission on social media"
 msgstr "Segui la Commissione europea sui social media"

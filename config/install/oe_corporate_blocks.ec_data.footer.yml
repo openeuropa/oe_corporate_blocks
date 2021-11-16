@@ -60,7 +60,7 @@ service_navigation:
     label: 'Contact the European Commission'
   -
     external: true
-    href: 'https://europa.eu/european-union/contact/social-networks_en#n:+i:4+e:1+t:+s'
+    href: 'https://european-union.europa.eu/contact-eu/social-media-channels_en#/search?page=0&institutions=european_commission'
     label: 'Follow the European Commission on social media'
   -
     href: 'https://ec.europa.eu/info/resources-partners_en'

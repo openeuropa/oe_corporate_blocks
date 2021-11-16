@@ -16,7 +16,7 @@ msgstr "استخدم خيارات هاتف أخرى"
 msgid "Write to us via our contact form"
 msgstr "راسلنا بواسطة استمارة الاتصال"
 
-msgid "Meet us at a local EU office"
+msgid "Meet us at one of the EU centres"
 msgstr "التق بنا في مكتب الاتحاد الأوروبي المحلي"
 
 msgid "Find a social media account"

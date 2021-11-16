@@ -10,23 +10,23 @@ msgstr "tel:0080067891011"
 msgid "Call us 00 800 6 7 8 9 10 11"
 msgstr "Hívjon minket! Telefonszámunk 00 800 6 7 8 9 10 11"
 
-msgid "https://europa.eu/european-union/contact/call-us_en"
-msgstr "https://europa.eu/european-union/contact/call-us_hu"
+msgid "https://european-union.europa.eu/contact-eu/call-us_en"
+msgstr "https://european-union.europa.eu/contact-eu/call-us_hu"
 
 msgid "Use other telephone options"
 msgstr "Válasszon a többi telefonos kapcsolatfelvételi lehetőség közül!"
 
-msgid "https://europa.eu/european-union/contact/write-to-us_en"
-msgstr "https://europa.eu/european-union/contact/write-to-us_hu"
+msgid "https://european-union.europa.eu/contact-eu/write-us_en"
+msgstr "https://european-union.europa.eu/contact-eu/write-us_hu"
 
 msgid "Write to us via our contact form"
 msgstr "Írjon nekünk kapcsolatfelvételi űrlapunk kitöltésével!"
 
-msgid "https://europa.eu/european-union/contact/meet-us_en"
-msgstr "https://europa.eu/european-union/contact/meet-us_hu"
+msgid "https://european-union.europa.eu/contact-eu/meet-us_en"
+msgstr "https://european-union.europa.eu/contact-eu/meet-us_hu"
 
-msgid "Meet us at a local EU office"
-msgstr "Jöjjön el személyesen helyi irodáink valamelyikébe!"
+msgid "Meet us at one of the EU centres"
+msgstr "Jöjjön el személyesen az uniós központok egyikébe"
 
 msgid "Find a social media account"
 msgstr ""
@@ -36,8 +36,8 @@ msgstr ""
 msgid "Search for EU social media channels"
 msgstr "Kövesse az EU közösségi oldalait"
 
-msgid "https://europa.eu/european-union/contact/social-networks_en"
-msgstr "https://europa.eu/european-union/contact/social-networks_hu"
+msgid "https://european-union.europa.eu/contact-eu/social-media-channels_en"
+msgstr "https://european-union.europa.eu/contact-eu/social-media-channels_hu"
 
 msgid "EU institutions"
 msgstr "Uniós intézmények"
@@ -137,8 +137,8 @@ msgstr "https://op.europa.eu/hu/home"
 msgid "Agencies"
 msgstr "Ügynökségek"
 
-msgid "https://europa.eu/european-union/about-eu/agencies_en"
-msgstr "https://europa.eu/european-union/about-eu/agencies_hu"
+msgid "https://european-union.europa.eu/institutions-law-budget/institutions-and-bodies/institutions-and-bodies-profiles_en?f%5B0%5D=oe_organisation_eu_type%3Ahttp%3A//publications.europa.eu/resource/authority/corporate-body-classification/AGENCY_DEC&f%5B1%5D=oe_organisation_eu_type%3Ahttp%3A//publications.europa.eu/resource/authority/corporate-body-classification/AGENCY_EXEC&f%5B2%5D=oe_organisation_eu_type%3Ahttp%3A//publications.europa.eu/resource/authority/corporate-body-classification/EU_JU"
+msgstr "https://european-union.europa.eu/institutions-law-budget/institutions-and-bodies/institutions-and-bodies-profiles_hu?f%5B0%5D=oe_organisation_eu_type%3Ahttp%3A//publications.europa.eu/resource/authority/corporate-body-classification/AGENCY_DEC&f%5B1%5D=oe_organisation_eu_type%3Ahttp%3A//publications.europa.eu/resource/authority/corporate-body-classification/AGENCY_EXEC&f%5B2%5D=oe_organisation_eu_type%3Ahttp%3A//publications.europa.eu/resource/authority/corporate-body-classification/EU_JU"
 
 msgid "About this site"
 msgstr "A honlapról"
@@ -149,14 +149,17 @@ msgstr "https://europa.eu/european-union/abouteuropa_hu"
 msgid "Language policy"
 msgstr "Nyelvpolitika"
 
-msgid "https://europa.eu/european-union/abouteuropa/language-policy_en"
-msgstr "https://europa.eu/european-union/abouteuropa/language-policy_hu"
+msgid "Languages on our websites"
+msgstr "Nyelvek a weboldalainkon"
+
+msgid "https://european-union.europa.eu/languages-our-websites_en"
+msgstr "https://european-union.europa.eu/languages-our-websites_hu"
 
 msgid "Privacy policy"
 msgstr "Adatvédelem"
 
-msgid "https://europa.eu/european-union/abouteuropa/privacy-policy_en"
-msgstr "https://europa.eu/european-union/abouteuropa/privacy-policy_hu"
+msgid "https://european-union.europa.eu/privacy-policy_en"
+msgstr "https://european-union.europa.eu/privacy-policy_hu"
 
 msgid "Legal"
 msgstr "Jogi információk"
@@ -164,14 +167,20 @@ msgstr "Jogi információk"
 msgid "Legal notice"
 msgstr "Jogi nyilatkozat"
 
-msgid "https://europa.eu/european-union/abouteuropa/legal_notices_en"
-msgstr "https://europa.eu/european-union/abouteuropa/legal_notices_hu"
+msgid "https://european-union.europa.eu/legal-notice_en"
+msgstr "https://european-union.europa.eu/legal-notice_hu"
 
 msgid "Cookies"
 msgstr "Cookie-k"
 
-msgid "https://europa.eu/european-union/abouteuropa/cookies_en"
-msgstr "https://europa.eu/european-union/abouteuropa/cookies_hu"
+msgid "https://european-union.europa.eu/cookies_en"
+msgstr "https://european-union.europa.eu/cookies_hu"
+
+msgid "Accessibility"
+msgstr "Hozzáférhetőség"
+
+msgid "https://european-union.europa.eu/web-accessibility-policy_en"
+msgstr "https://european-union.europa.eu/web-accessibility-policy_hu"
 
 msgid "https://ec.europa.eu/info/index_en"
 msgstr "https://ec.europa.eu/info/index_hu"
@@ -287,8 +296,8 @@ msgstr "https://ec.europa.eu/info/about-european-commission/contact_hu"
 msgid "Contact the European Commission"
 msgstr "Fel szeretné venni a kapcsolatot az Európai Bizottsággal?"
 
-msgid "https://europa.eu/european-union/contact/social-networks_en#n:+i:4+e:1+t:+s"
-msgstr "https://europa.eu/european-union/contact/social-networks_hu#n:+i:4+e:1+t:+s"
+msgid "https://european-union.europa.eu/contact-eu/social-media-channels_en#/search?page=0&institutions=european_commission"
+msgstr "https://european-union.europa.eu/contact-eu/social-media-channels_hu#/search?page=0&institutions=european_commission"
 
 msgid "Follow the European Commission on social media"
 msgstr "Az Európai Bizottság a közösségi média felületein"

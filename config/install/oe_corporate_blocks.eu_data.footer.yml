@@ -5,19 +5,19 @@ contact:
     href: 'tel:0080067891011'
     label: 'Call us 00 800 6 7 8 9 10 11'
   -
-    href: 'https://europa.eu/european-union/contact/call-us_en'
+    href: 'https://european-union.europa.eu/contact-eu/call-us_en'
     label: 'Use other telephone options'
   -
-    href: 'https://europa.eu/european-union/contact/write-to-us_en'
+    href: 'https://european-union.europa.eu/contact-eu/write-us_en'
     label: 'Write to us via our contact form'
   -
-    href: 'https://europa.eu/european-union/contact/meet-us_en'
-    label: 'Meet us at a local EU office'
+    href: 'https://european-union.europa.eu/contact-eu/meet-us_en'
+    label: 'Meet us at one of the EU centres'
 social_media_title: 'Social media'
 social_media:
   -
     label: 'Search for EU social media channels'
-    href: 'https://europa.eu/european-union/contact/social-networks_en'
+    href: 'https://european-union.europa.eu/contact-eu/social-media-channels_en'
 institution_links_title: 'EU institutions'
 institution_links:
   -
@@ -70,21 +70,21 @@ institution_links:
     href: 'https://op.europa.eu/en/home'
   -
     label: 'Agencies'
-    href: 'https://europa.eu/european-union/about-eu/agencies_en'
+    href: 'https://european-union.europa.eu/institutions-law-budget/institutions-and-bodies/institutions-and-bodies-profiles_en?f%5B0%5D=oe_organisation_eu_type%3Ahttp%3A//publications.europa.eu/resource/authority/corporate-body-classification/AGENCY_DEC&f%5B1%5D=oe_organisation_eu_type%3Ahttp%3A//publications.europa.eu/resource/authority/corporate-body-classification/AGENCY_EXEC&f%5B2%5D=oe_organisation_eu_type%3Ahttp%3A//publications.europa.eu/resource/authority/corporate-body-classification/EU_JU'
 legal_links_title: Legal
 legal_links:
   -
-    label: 'About this site'
-    href: 'https://europa.eu/european-union/abouteuropa_en'
-  -
-    label: 'Language policy'
-    href: 'https://europa.eu/european-union/abouteuropa/language-policy_en'
+    label: 'Languages on our websites'
+    href: 'https://european-union.europa.eu/languages-our-websites_en'
   -
     label: 'Privacy policy'
-    href: 'https://europa.eu/european-union/abouteuropa/privacy-policy_en'
+    href: 'https://european-union.europa.eu/privacy-policy_en'
   -
     label: 'Legal notice'
-    href: 'https://europa.eu/european-union/abouteuropa/legal_notices_en'
+    href: 'https://european-union.europa.eu/legal-notice_en'
   -
     label: Cookies
-    href: 'https://europa.eu/european-union/abouteuropa/cookies_en'
+    href: 'https://european-union.europa.eu/cookies_en'
+  -
+    label: Accessibility
+    href: 'https://european-union.europa.eu/web-accessibility-policy_en'

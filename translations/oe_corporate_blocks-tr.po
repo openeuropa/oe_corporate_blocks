@@ -16,7 +16,7 @@ msgstr "Başka telefon seçenekleri kullanın"
 msgid "Write to us via our contact form"
 msgstr "İletişim formumuzu kullanarak bize yazın"
 
-msgid "Meet us at a local EU office"
+msgid "Meet us at one of the EU centres"
 msgstr "Bir yerel AB ofisinde bizimle buluşun"
 
 msgid "Find a social media account"

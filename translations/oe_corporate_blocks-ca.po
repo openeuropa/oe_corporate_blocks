@@ -16,7 +16,7 @@ msgstr "Altres opcions telefòniques"
 msgid "Write to us via our contact form"
 msgstr "Formulari de contacte"
 
-msgid "Meet us at a local EU office"
+msgid "Meet us at one of the EU centres"
 msgstr "Oficines locals de la UE"
 
 msgid "Find a social media account"
