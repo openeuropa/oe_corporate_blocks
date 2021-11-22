@@ -190,3 +190,11 @@ function oe_corporate_blocks_post_update_40001(): void {
   $config_path = drupal_get_path('module', 'oe_corporate_blocks') . '/config/post_update/40001_update_eu_footer_data';
   _oe_corporate_blocks_import_corporate_links($config_path);
 }
+
+/**
+ * Updates EU and EC footer data.
+ */
+function oe_corporate_blocks_post_update_40002(&$sandbox): void {
+  $config_path = drupal_get_path('module', 'oe_corporate_blocks') . '/config/post_update/40002_update_footer_data';
+  _oe_corporate_blocks_import_corporate_links($config_path);
+}
