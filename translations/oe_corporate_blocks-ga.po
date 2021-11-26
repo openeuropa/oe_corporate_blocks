@@ -10,23 +10,23 @@ msgstr "tel:0080067891011"
 msgid "Call us 00 800 6 7 8 9 10 11"
 msgstr "Glaoigh orainn ar 00 800 6 7 8 9 10 11"
 
-msgid "https://europa.eu/european-union/contact/call-us_en"
-msgstr "https://europa.eu/european-union/contact/call-us_ga"
+msgid "https://european-union.europa.eu/contact-eu/call-us_en"
+msgstr "https://european-union.europa.eu/contact-eu/call-us_ga"
 
 msgid "Use other telephone options"
 msgstr "Úsáid roghanna teileafóin eile"
 
-msgid "https://europa.eu/european-union/contact/write-to-us_en"
-msgstr "https://europa.eu/european-union/contact/write-to-us_ga"
+msgid "https://european-union.europa.eu/contact-eu/write-us_en"
+msgstr "https://european-union.europa.eu/contact-eu/write-us_ga"
 
 msgid "Write to us via our contact form"
 msgstr "Scríobh chugainn tríd an bhfoirm theagmhála"
 
-msgid "https://europa.eu/european-union/contact/meet-us_en"
-msgstr "https://europa.eu/european-union/contact/meet-us_ga"
+msgid "https://european-union.europa.eu/contact-eu/meet-us_en"
+msgstr "https://european-union.europa.eu/contact-eu/meet-us_ga"
 
-msgid "Meet us at a local EU office"
-msgstr "Buail linn in oifig áitiúil de chuid an Aontais"
+msgid "Meet us at one of the EU centres"
+msgstr "Tabhair cuairt orainn ag ceann de lárionaid an Aontais"
 
 msgid "Find a social media account"
 msgstr "Cuntas sna meáin shóisialta a aimsiú"
@@ -34,8 +34,8 @@ msgstr "Cuntas sna meáin shóisialta a aimsiú"
 msgid "Search for EU social media channels"
 msgstr "Cainéil an Aontais Eorpaigh ar na meáin shóisialta a chuardach"
 
-msgid "https://europa.eu/european-union/contact/social-networks_en"
-msgstr "https://europa.eu/european-union/contact/social-networks_ga"
+msgid "https://european-union.europa.eu/contact-eu/social-media-channels_en"
+msgstr "https://european-union.europa.eu/contact-eu/social-media-channels_ga"
 
 msgid "EU institutions"
 msgstr "Institiúidí an Aontais Eorpaigh"
@@ -133,8 +133,8 @@ msgstr "https://op.europa.eu/ga/home"
 msgid "Agencies"
 msgstr "Gníomhaireachtaí"
 
-msgid "https://europa.eu/european-union/about-eu/agencies_en"
-msgstr "https://europa.eu/european-union/about-eu/agencies_ga"
+msgid "https://european-union.europa.eu/institutions-law-budget/institutions-and-bodies/institutions-and-bodies-profiles_en?f%5B0%5D=oe_organisation_eu_type%3Ahttp%3A//publications.europa.eu/resource/authority/corporate-body-classification/AGENCY_DEC&f%5B1%5D=oe_organisation_eu_type%3Ahttp%3A//publications.europa.eu/resource/authority/corporate-body-classification/AGENCY_EXEC&f%5B2%5D=oe_organisation_eu_type%3Ahttp%3A//publications.europa.eu/resource/authority/corporate-body-classification/EU_JU"
+msgstr "https://european-union.europa.eu/institutions-law-budget/institutions-and-bodies/institutions-and-bodies-profiles_ga?f%5B0%5D=oe_organisation_eu_type%3Ahttp%3A//publications.europa.eu/resource/authority/corporate-body-classification/AGENCY_DEC&f%5B1%5D=oe_organisation_eu_type%3Ahttp%3A//publications.europa.eu/resource/authority/corporate-body-classification/AGENCY_EXEC&f%5B2%5D=oe_organisation_eu_type%3Ahttp%3A//publications.europa.eu/resource/authority/corporate-body-classification/EU_JU"
 
 msgid "About this site"
 msgstr "Faoin suíomh seo"
@@ -145,14 +145,17 @@ msgstr "https://europa.eu/european-union/abouteuropa_ga"
 msgid "Language policy"
 msgstr "Beartas teanga"
 
-msgid "https://europa.eu/european-union/abouteuropa/language-policy_en"
-msgstr "https://europa.eu/european-union/abouteuropa/language-policy_ga"
+msgid "Languages on our websites"
+msgstr "Teangacha ar ár suíomhanna gréasáin"
+
+msgid "https://european-union.europa.eu/languages-our-websites_en"
+msgstr "https://european-union.europa.eu/languages-our-websites_ga"
 
 msgid "Privacy policy"
 msgstr "Beartas príobháideachais"
 
-msgid "https://europa.eu/european-union/abouteuropa/privacy-policy_en"
-msgstr "https://europa.eu/european-union/abouteuropa/privacy-policy_ga"
+msgid "https://european-union.europa.eu/privacy-policy_en"
+msgstr "https://european-union.europa.eu/privacy-policy_ga"
 
 msgid "Legal"
 msgstr "Fógraí Dlíthiúla"
@@ -160,14 +163,20 @@ msgstr "Fógraí Dlíthiúla"
 msgid "Legal notice"
 msgstr "Fógra dlíthiúil"
 
-msgid "https://europa.eu/european-union/abouteuropa/legal_notices_en"
-msgstr "https://europa.eu/european-union/abouteuropa/legal_notices_ga"
+msgid "https://european-union.europa.eu/legal-notice_en"
+msgstr "https://european-union.europa.eu/legal-notice_ga"
 
 msgid "Cookies"
 msgstr "Fianáin"
 
-msgid "https://europa.eu/european-union/abouteuropa/cookies_en"
-msgstr "https://europa.eu/european-union/abouteuropa/cookies_ga"
+msgid "https://european-union.europa.eu/cookies_en"
+msgstr "https://european-union.europa.eu/cookies_ga"
+
+msgid "Accessibility"
+msgstr "Inrochtaineacht"
+
+msgid "https://european-union.europa.eu/web-accessibility-policy_en"
+msgstr "https://european-union.europa.eu/web-accessibility-policy_ga"
 
 msgid "https://ec.europa.eu/info/index_en"
 msgstr "https://ec.europa.eu/info/index_ga"
@@ -283,8 +292,8 @@ msgstr "https://ec.europa.eu/info/about-european-commission/contact_ga"
 msgid "Contact the European Commission"
 msgstr "Teagmháil a dhéanamh leis an gCoimisiún Eorpach"
 
-msgid "https://europa.eu/european-union/contact/social-networks_en#n:+i:4+e:1+t:+s"
-msgstr "https://europa.eu/european-union/contact/social-networks_ga#n:+i:4+e:1+t:+s"
+msgid "https://european-union.europa.eu/contact-eu/social-media-channels_en#/search?page=0&institutions=european_commission"
+msgstr "https://european-union.europa.eu/contact-eu/social-media-channels_ga#/search?page=0&institutions=european_commission"
 
 msgid "Follow the European Commission on social media"
 msgstr "Lean an Coimisiún Eorpach ar na meáin shóisialta"

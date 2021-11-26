@@ -4,5 +4,5 @@ dependencies: {  }
 id: other_social_media
 label: 'Custom Other social media'
 social_network: ''
-url: 'https://europa.eu/european-union/contact/social-networks_en#n:+i:4+e:1+t:+s'
+url: 'https://european-union.europa.eu/contact-eu/social-media-channels_en'
 weight: -8

@@ -10,23 +10,23 @@ msgstr "tel:0080067891011"
 msgid "Call us 00 800 6 7 8 9 10 11"
 msgstr "Skambinkite mums telefonu 00 800 6 7 8 9 10 11"
 
-msgid "https://europa.eu/european-union/contact/call-us_en"
-msgstr "https://europa.eu/european-union/contact/call-us_lt"
+msgid "https://european-union.europa.eu/contact-eu/call-us_en"
+msgstr "https://european-union.europa.eu/contact-eu/call-us_lt"
 
 msgid "Use other telephone options"
 msgstr "Pasinaudokite kitomis telefoninio ryšio galimybėmis"
 
-msgid "https://europa.eu/european-union/contact/write-to-us_en"
-msgstr "https://europa.eu/european-union/contact/write-to-us_lt"
+msgid "https://european-union.europa.eu/contact-eu/write-us_en"
+msgstr "https://european-union.europa.eu/contact-eu/write-us_lt"
 
 msgid "Write to us via our contact form"
 msgstr "Rašykite e. paštu naudodamiesi kontaktine forma"
 
-msgid "https://europa.eu/european-union/contact/meet-us_en"
-msgstr "https://europa.eu/european-union/contact/meet-us_lt"
+msgid "https://european-union.europa.eu/contact-eu/meet-us_en"
+msgstr "https://european-union.europa.eu/contact-eu/meet-us_lt"
 
-msgid "Meet us at a local EU office"
-msgstr "Susitikite su mumis vietiniame ES biure"
+msgid "Meet us at one of the EU centres"
+msgstr "Susitikime viename iš ES biurų"
 
 msgid "Find a social media account"
 msgstr "Socialinės žiniasklaidos paskyros paieška"
@@ -34,8 +34,8 @@ msgstr "Socialinės žiniasklaidos paskyros paieška"
 msgid "Search for EU social media channels"
 msgstr "ES socialinės žiniasklaidos kanalai"
 
-msgid "https://europa.eu/european-union/contact/social-networks_en"
-msgstr "https://europa.eu/european-union/contact/social-networks_lt"
+msgid "https://european-union.europa.eu/contact-eu/social-media-channels_en"
+msgstr "https://european-union.europa.eu/contact-eu/social-media-channels_lt"
 
 msgid "EU institutions"
 msgstr "ES institucijos"
@@ -136,8 +136,8 @@ msgstr "https://op.europa.eu/lt/home"
 msgid "Agencies"
 msgstr "Agentūros"
 
-msgid "https://europa.eu/european-union/about-eu/agencies_en"
-msgstr "https://europa.eu/european-union/about-eu/agencies_lt"
+msgid "https://european-union.europa.eu/institutions-law-budget/institutions-and-bodies/institutions-and-bodies-profiles_en?f%5B0%5D=oe_organisation_eu_type%3Ahttp%3A//publications.europa.eu/resource/authority/corporate-body-classification/AGENCY_DEC&f%5B1%5D=oe_organisation_eu_type%3Ahttp%3A//publications.europa.eu/resource/authority/corporate-body-classification/AGENCY_EXEC&f%5B2%5D=oe_organisation_eu_type%3Ahttp%3A//publications.europa.eu/resource/authority/corporate-body-classification/EU_JU"
+msgstr "https://european-union.europa.eu/institutions-law-budget/institutions-and-bodies/institutions-and-bodies-profiles_lt?f%5B0%5D=oe_organisation_eu_type%3Ahttp%3A//publications.europa.eu/resource/authority/corporate-body-classification/AGENCY_DEC&f%5B1%5D=oe_organisation_eu_type%3Ahttp%3A//publications.europa.eu/resource/authority/corporate-body-classification/AGENCY_EXEC&f%5B2%5D=oe_organisation_eu_type%3Ahttp%3A//publications.europa.eu/resource/authority/corporate-body-classification/EU_JU"
 
 msgid "About this site"
 msgstr "Apie šią svetainę"
@@ -148,14 +148,17 @@ msgstr "https://europa.eu/european-union/abouteuropa_lt"
 msgid "Language policy"
 msgstr "Kalbų politika"
 
-msgid "https://europa.eu/european-union/abouteuropa/language-policy_en"
-msgstr "https://europa.eu/european-union/abouteuropa/language-policy_lt"
+msgid "Languages on our websites"
+msgstr "Kalbos mūsų interneto svetainėse"
+
+msgid "https://european-union.europa.eu/languages-our-websites_en"
+msgstr "https://european-union.europa.eu/languages-our-websites_lt"
 
 msgid "Privacy policy"
 msgstr "Privatumo politika"
 
-msgid "https://europa.eu/european-union/abouteuropa/privacy-policy_en"
-msgstr "https://europa.eu/european-union/abouteuropa/privacy-policy_lt"
+msgid "https://european-union.europa.eu/privacy-policy_en"
+msgstr "https://european-union.europa.eu/privacy-policy_lt"
 
 msgid "Legal"
 msgstr "Teisinis pranešimas"
@@ -163,14 +166,20 @@ msgstr "Teisinis pranešimas"
 msgid "Legal notice"
 msgstr "Teisinis pranešimas"
 
-msgid "https://europa.eu/european-union/abouteuropa/legal_notices_en"
-msgstr "https://europa.eu/european-union/abouteuropa/legal_notices_lt"
+msgid "https://european-union.europa.eu/legal-notice_en"
+msgstr "https://european-union.europa.eu/legal-notice_lt"
 
 msgid "Cookies"
 msgstr "Slapukai"
 
-msgid "https://europa.eu/european-union/abouteuropa/cookies_en"
-msgstr "https://europa.eu/european-union/abouteuropa/cookies_lt"
+msgid "https://european-union.europa.eu/cookies_en"
+msgstr "https://european-union.europa.eu/cookies_lt"
+
+msgid "Accessibility"
+msgstr "Prieinamumas"
+
+msgid "https://european-union.europa.eu/web-accessibility-policy_en"
+msgstr "https://european-union.europa.eu/web-accessibility-policy_lt"
 
 msgid "https://ec.europa.eu/info/index_en"
 msgstr "https://ec.europa.eu/info/index_lt"
@@ -288,8 +297,8 @@ msgstr "https://ec.europa.eu/info/about-european-commission/contact_lt"
 msgid "Contact the European Commission"
 msgstr "Susisiekite su Europos Komisija"
 
-msgid "https://europa.eu/european-union/contact/social-networks_en#n:+i:4+e:1+t:+s"
-msgstr "https://europa.eu/european-union/contact/social-networks_lt#n:+i:4+e:1+t:+s"
+msgid "https://european-union.europa.eu/contact-eu/social-media-channels_en#/search?page=0&institutions=european_commission"
+msgstr "https://european-union.europa.eu/contact-eu/social-media-channels_lt#/search?page=0&institutions=european_commission"
 
 msgid "Follow the European Commission on social media"
 msgstr "Sekite Europos Komisijos naujienas socialiniuose tinkluose"

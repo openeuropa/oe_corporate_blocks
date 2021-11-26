@@ -16,7 +16,7 @@ msgstr "Nota aðrar símaaðgerðir"
 msgid "Write to us via our contact form"
 msgstr "Senda skilaboð gegnum netið"
 
-msgid "Meet us at a local EU office"
+msgid "Meet us at one of the EU centres"
 msgstr "Koma til okkar á skrifstofu ESB"
 
 msgid "Find a social media account"
