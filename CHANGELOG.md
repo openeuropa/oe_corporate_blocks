@@ -1,11 +1,21 @@
 # Changelog
 
+## [4.4.0](https://github.com/openeuropa/oe_corporate_blocks/tree/4.4.0) (2021-12-06)
+
+[Full Changelog](https://github.com/openeuropa/oe_corporate_blocks/compare/4.3.0...4.4.0)
+
+**Merged pull requests:**
+
+- EWPP-1740: Add adjusting regarding changes in eu footer. [\#98](https://github.com/openeuropa/oe_corporate_blocks/pull/98) ([sergepavle](https://github.com/sergepavle))
+- Include missing translation for "Social media" [\#97](https://github.com/openeuropa/oe_corporate_blocks/pull/97) ([lisotton](https://github.com/lisotton))
+
 ## [4.3.0](https://github.com/openeuropa/oe_corporate_blocks/tree/4.3.0) (2021-09-27)
 
 [Full Changelog](https://github.com/openeuropa/oe_corporate_blocks/compare/4.2.0...4.3.0)
 
 **Merged pull requests:**
 
+- Release-4.3.0: Update changelog. [\#95](https://github.com/openeuropa/oe_corporate_blocks/pull/95) ([nagyad](https://github.com/nagyad))
 - EWPP-1465: Enable non-eu languages: nb, is. [\#94](https://github.com/openeuropa/oe_corporate_blocks/pull/94) ([yenyasinn](https://github.com/yenyasinn))
 - EWPP-1478: Add interface translations in non-eu languages. [\#93](https://github.com/openeuropa/oe_corporate_blocks/pull/93) ([yenyasinn](https://github.com/yenyasinn))
 
