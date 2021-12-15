@@ -5,7 +5,7 @@ msgid "Contact the EU"
 msgstr "Contacteu amb la UE"
 
 msgid "tel:0080067891011"
-msgstr "Tel. 0080067891011"
+msgstr "tel:0080067891011"
 
 msgid "Call us 00 800 6 7 8 9 10 11"
 msgstr "Truqueu-nos al 00 800 6 7 8 9 10 11"
