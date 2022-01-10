@@ -5,7 +5,7 @@ msgid "Contact the EU"
 msgstr "Hafa samband við ESB"
 
 msgid "tel:0080067891011"
-msgstr "Sími: 0080067891011"
+msgstr "tel:0080067891011"
 
 msgid "Call us 00 800 6 7 8 9 10 11"
 msgstr "Hafa samband: 00 800 6 7 8 9 10 11"

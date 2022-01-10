@@ -116,7 +116,7 @@ msgid "https://www.ombudsman.europa.eu/en/home"
 msgstr "https://www.ombudsman.europa.eu/lt/home"
 
 msgid "European Data Protection Board"
-msgstr "Eiropas Datu aizsardzības kolēģija (EDAK)"
+msgstr "Europos duomenų apsaugos valdyba"
 
 msgid "https://edpb.europa.eu/edpb_en"
 msgstr "https://edpb.europa.eu/edpb_lt"
