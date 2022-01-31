@@ -235,6 +235,9 @@ msgstr "Научни изследвания и иновации"
 msgid "https://ec.europa.eu/info/energy-climate-change-environment_en"
 msgstr "https://ec.europa.eu/info/energy-climate-change-environment_bg"
 
+msgid "European Union"
+msgstr "Европейски съюз"
+
 msgid "Energy, Climate change, Environment"
 msgstr ""
 "Енергетика, изменение на климата, "

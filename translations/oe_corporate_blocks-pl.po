@@ -304,6 +304,9 @@ msgstr "Komisja Europejska w mediach społecznościowych"
 msgid "https://ec.europa.eu/info/resources-partners_en"
 msgstr "https://ec.europa.eu/info/resources-partners_pl"
 
+msgid "European Union"
+msgstr "Unia Europejska"
+
 msgid "Resources for partners"
 msgstr "Materiały dla partnerów"
 

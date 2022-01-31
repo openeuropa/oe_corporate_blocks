@@ -271,6 +271,9 @@ msgstr "https://ec.europa.eu/info/statistics_hr"
 msgid "Statistics"
 msgstr "Statistike"
 
+msgid "European Union"
+msgstr "Europske unije"
+
 msgid "https://ec.europa.eu/commission/presscorner/home/en"
 msgstr "https://ec.europa.eu/commission/presscorner/home/hr"
 

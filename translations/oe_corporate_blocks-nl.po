@@ -241,6 +241,9 @@ msgstr "Onderwijs"
 msgid "https://ec.europa.eu/info/aid-development-cooperation-fundamental-rights_en"
 msgstr "https://ec.europa.eu/info/aid-development-cooperation-fundamental-rights_nl"
 
+msgid "European Union"
+msgstr "Europese Unie"
+
 msgid "Aid, Development cooperation, Fundamental rights"
 msgstr "Noodhulp, ontwikkelingssamenwerking, grondrechten"
 

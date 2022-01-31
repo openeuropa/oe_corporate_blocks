@@ -268,6 +268,9 @@ msgstr "https://ec.europa.eu/info/statistics_ga"
 msgid "Statistics"
 msgstr "Statisticí"
 
+msgid "European Union"
+msgstr "Aontais Eorpaigh"
+
 msgid "https://ec.europa.eu/commission/presscorner/home/en"
 msgstr "https://ec.europa.eu/commission/presscorner/home/ga"
 
