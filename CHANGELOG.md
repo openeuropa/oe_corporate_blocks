@@ -1,11 +1,21 @@
 # Changelog
 
+## [4.5.0](https://github.com/openeuropa/oe_corporate_blocks/tree/4.5.0) (2022-02-17)
+
+[Full Changelog](https://github.com/openeuropa/oe_corporate_blocks/compare/4.4.0...4.5.0)
+
+**Merged pull requests:**
+
+- EWPP-1896: Update to PHP8 [\#104](https://github.com/openeuropa/oe_corporate_blocks/pull/104) ([yenyasinn](https://github.com/yenyasinn))
+- EWPP-1782: Fix translations in EU footer. [\#102](https://github.com/openeuropa/oe_corporate_blocks/pull/102) ([mferran-europe](https://github.com/mferran-europe))
+
 ## [4.4.0](https://github.com/openeuropa/oe_corporate_blocks/tree/4.4.0) (2021-12-06)
 
 [Full Changelog](https://github.com/openeuropa/oe_corporate_blocks/compare/4.3.0...4.4.0)
 
 **Merged pull requests:**
 
+- Prepare release 4.4.0. [\#100](https://github.com/openeuropa/oe_corporate_blocks/pull/100) ([imanoleguskiza](https://github.com/imanoleguskiza))
 - EWPP-1740: Add adjusting regarding changes in eu footer. [\#98](https://github.com/openeuropa/oe_corporate_blocks/pull/98) ([sergepavle](https://github.com/sergepavle))
 - Include missing translation for "Social media" [\#97](https://github.com/openeuropa/oe_corporate_blocks/pull/97) ([lisotton](https://github.com/lisotton))
 
