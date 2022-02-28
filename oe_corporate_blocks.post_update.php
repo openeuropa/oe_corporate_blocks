@@ -29,6 +29,7 @@ function _oe_corporate_blocks_import_corporate_links(string $config_path): void 
 
   foreach ($configs as $config) {
     if ($data = $source->read($config)) {
+      $data['_core']['default_config_hash'] = Crypt::hashBase64(serialize($data));
       $config_storage->write($config, $data);
     }
   }
