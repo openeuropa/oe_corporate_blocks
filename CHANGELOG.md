@@ -1,11 +1,20 @@
 # Changelog
 
+## [4.6.0](https://github.com/openeuropa/oe_corporate_blocks/tree/4.6.0) (2022-03-07)
+
+[Full Changelog](https://github.com/openeuropa/oe_corporate_blocks/compare/4.5.0...4.6.0)
+
+**Merged pull requests:**
+
+- EWPP-2009: Add default config hash for post\_update helper method. [\#108](https://github.com/openeuropa/oe_corporate_blocks/pull/108) ([22Alexandra](https://github.com/22Alexandra))
+
 ## [4.5.0](https://github.com/openeuropa/oe_corporate_blocks/tree/4.5.0) (2022-02-17)
 
 [Full Changelog](https://github.com/openeuropa/oe_corporate_blocks/compare/4.4.0...4.5.0)
 
 **Merged pull requests:**
 
+- Release-4.5.0: Update changelog. [\#107](https://github.com/openeuropa/oe_corporate_blocks/pull/107) ([nagyad](https://github.com/nagyad))
 - EWPP-1896: Update to PHP8 [\#104](https://github.com/openeuropa/oe_corporate_blocks/pull/104) ([yenyasinn](https://github.com/yenyasinn))
 - EWPP-1782: Fix translations in EU footer. [\#102](https://github.com/openeuropa/oe_corporate_blocks/pull/102) ([mferran-europe](https://github.com/mferran-europe))
 
