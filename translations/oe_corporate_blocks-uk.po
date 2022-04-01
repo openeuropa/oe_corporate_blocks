@@ -1,0 +1,176 @@
+msgid ""
+msgstr ""
+
+msgid "Contact the EU"
+msgstr "Зв'язатися з ЄС"
+
+msgid "tel:0080067891011"
+msgstr "tel:0080067891011"
+
+msgid "Call us 00 800 6 7 8 9 10 11"
+msgstr "Зателефонуйте нам за номером 00 800 6 7 8 9 10 11"
+
+msgid "Use other telephone options"
+msgstr "Скористайтеся іншими варіантами дзвінка"
+
+msgid "Write to us via our contact form"
+msgstr "Напишіть нам через нашу форму для зв'язку"
+
+msgid "Meet us at one of the EU centres"
+msgstr "Зустрінтеся з нами в одному з центрів ЄС"
+
+msgid "Find a social media account"
+msgstr "Знайти канали у соціальних мережах"
+
+msgid "Search for EU social media channels"
+msgstr "Пошук каналів ЄС у соціальних мережах"
+
+msgid "EU institutions"
+msgstr "Установи ЄС"
+
+msgid "European Parliament"
+msgstr "Європейський парламент"
+
+msgid "European Council"
+msgstr "Рада Європи"
+
+msgid "Council of the European Union"
+msgstr "Рада Європейського Союзу"
+
+msgid "European Commission"
+msgstr "Європейська комісія"
+
+msgid "Court of Justice of the European Union (CJEU)"
+msgstr "Суд Європейського Союзу (CJEU)"
+
+msgid "European Central Bank (ECB)"
+msgstr "Європеський центральний банк (ECB)"
+
+msgid "European Court of Auditors (ECA)"
+msgstr "Європейський суд аудиторів (ECA)"
+
+msgid "European External Action Service (EEAS)"
+msgstr "Європейська служба зовнішніх справ (EESC)"
+
+msgid "European Economic and Social Committee (EESC)"
+msgstr "Європейський соціально-економічний комітет (EESC)"
+
+msgid "European Committee of the Regions (CoR)"
+msgstr "Комітет регіонів (CoR)"
+
+msgid "European Investment Bank (EIB)"
+msgstr "Європейський інвестиційний банк (ЄІБ)"
+
+msgid "European Ombudsman"
+msgstr "Європейський омбудсман"
+
+msgid "European Data Protection Board"
+msgstr "Європейська рада захисту даних"
+
+msgid "European Personnel Selection Office"
+msgstr "Європейське бюро з відбору персоналу"
+
+msgid "Publications Office of the European Union"
+msgstr "Бюро публікацій Європейського Союзу"
+
+msgid "Agencies"
+msgstr "Агенції"
+
+msgid "European Data Protection Supervisor (EDPS)"
+msgstr "Європейський інспектор із захисту даних (EDPS)"
+
+msgid "About this site"
+msgstr "Про цей сайт"
+
+msgid "Language policy"
+msgstr "Мовна політика"
+
+msgid "Languages on our websites"
+msgstr "Мови на наших вебсайтах"
+
+msgid "Privacy policy"
+msgstr "Політика конфіденційності"
+
+msgid "Legal"
+msgstr "Законодавство"
+
+msgid "Legal notice"
+msgstr "Юридичні примітки"
+
+msgid "Cookies"
+msgstr "Кукі"
+
+msgid "Accessibility"
+msgstr "Доступність"
+
+msgid "European Commission website"
+msgstr "Вебсайт Європейської комісії"
+
+msgid "Strategy"
+msgstr "Стратегія"
+
+msgid "About the European Commission"
+msgstr "Про Європейську комісію"
+
+msgid "Business, Economy, Euro"
+msgstr "Бізнес, економіка, євро"
+
+msgid "Live, work, travel in the EU"
+msgstr "Живіть, працюйте, подорожуйте по ЄС"
+
+msgid "Law"
+msgstr "Законодавство"
+
+msgid "Funding, Tenders"
+msgstr "Фінансування, тендери"
+
+msgid "Research and innovation"
+msgstr "Дослідження та інновації"
+
+msgid "Energy, Climate change, Environment"
+msgstr ""
+"Енергетика, зміна клімату, "
+"навколишнє середовище"
+
+msgid "Education"
+msgstr "Навчання"
+
+msgid "Aid, Development cooperation, Fundamental rights"
+msgstr ""
+"Допомога, розвиток співпраці, "
+"фундаментальні права"
+
+msgid "Food, Farming, Fisheries"
+msgstr "Продукти харчування, фермерство, рибальство"
+
+msgid "EU regional and urban development"
+msgstr "Регіональний та міський розвиток ЄС"
+
+msgid "Jobs at the European Commission"
+msgstr "Робота в Європейській комісії"
+
+msgid "Statistics"
+msgstr "Статистика"
+
+msgid "News"
+msgstr "Новини"
+
+msgid "Events"
+msgstr "Заходи"
+
+msgid "Publications"
+msgstr "Публікації"
+
+msgid "Contact the European Commission"
+msgstr "Контактні дані Європейської комісії"
+
+msgid "Follow the European Commission on social media"
+msgstr ""
+"Слідкуйте за Європейською комісією "
+"в соціальних мережах"
+
+msgid "Resources for partners"
+msgstr "Ресурси для партнерів"
+
+msgid "Social media"
+msgstr "Соціальні мережі"
