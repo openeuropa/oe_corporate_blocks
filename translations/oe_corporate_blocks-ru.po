@@ -1,0 +1,164 @@
+msgid ""
+msgstr ""
+
+msgid "Contact the EU"
+msgstr "Связаться с ЕС"
+
+msgid "tel:0080067891011"
+msgstr "tel:0080067891011"
+
+msgid "Call us 00 800 6 7 8 9 10 11"
+msgstr "Позвоните нам 00 800 6 7 8 9 10 11"
+
+msgid "Use other telephone options"
+msgstr "Используйте другие варианты телефонной связи"
+
+msgid "Write to us via our contact form"
+msgstr "Напишите нам через нашу контактную форму"
+
+msgid "Meet us at one of the EU centres"
+msgstr "Встретиться с нами в одном из центров ЕС"
+
+msgid "Find a social media account"
+msgstr "Найти аккаунт в социальных сетях"
+
+msgid "Search for EU social media channels"
+msgstr "Найти ЕС в социальных сетях"
+
+msgid "EU institutions"
+msgstr "Учреждения ЕС"
+
+msgid "European Parliament"
+msgstr "Европейский парламент"
+
+msgid "European Council"
+msgstr "Европейский совет"
+
+msgid "Council of the European Union"
+msgstr "Совет Европейского союза"
+
+msgid "European Commission"
+msgstr "Европейская комиссия"
+
+msgid "Court of Justice of the European Union (CJEU)"
+msgstr "Суд Европейского союза"
+
+msgid "European Central Bank (ECB)"
+msgstr "Европейский центральный банк"
+
+msgid "European Court of Auditors (ECA)"
+msgstr "Европейская Счётная палата"
+
+msgid "European External Action Service (EEAS)"
+msgstr "Европейская служба внешних связей"
+
+msgid "European Economic and Social Committee (EESC)"
+msgstr "Европейский экономический и социальный комитет"
+
+msgid "European Committee of the Regions (CoR)"
+msgstr "Комитет регионов"
+
+msgid "European Investment Bank (EIB)"
+msgstr "Европейский инвестиционный банк"
+
+msgid "European Data Protection Supervisor (EDPS)"
+msgstr "Европейский инспектор по защите данных"
+
+msgid "European Ombudsman"
+msgstr "Европейский уполномоченный по правам человека"
+
+msgid "European Data Protection Board"
+msgstr "Европейский совет по защите данных"
+
+msgid "European Personnel Selection Office"
+msgstr "Европейское бюро по набору персонала"
+
+msgid "Publications Office of the European Union"
+msgstr "Бюро официальных публикаций Европейского союза"
+
+msgid "Agencies"
+msgstr "Агентства"
+
+msgid "About this site"
+msgstr "Об этом сайте"
+
+msgid "Language policy"
+msgstr "Языковая политика"
+
+msgid "Privacy policy"
+msgstr "Политика конфиденциальности"
+
+msgid "Legal"
+msgstr "Юридическая информация"
+
+msgid "Legal notice"
+msgstr "Правовая информация"
+
+msgid "European Commission website"
+msgstr "Сайт Европейской комиссии"
+
+msgid "Strategy"
+msgstr "Стратегия"
+
+msgid "About the European Commission"
+msgstr "О Европейской комиссии"
+
+msgid "Business, Economy, Euro"
+msgstr "Бизнес, Экономика, Евро"
+
+msgid "Live, work, travel in the EU"
+msgstr "Жить, работать, путешествовать в ЕС"
+
+msgid "Law"
+msgstr "Законодательство"
+
+msgid "Funding, Tenders"
+msgstr "Финансирование, Тендеры"
+
+msgid "Research and innovation"
+msgstr "Исследования и инновации"
+
+msgid "Energy, Climate change, Environment"
+msgstr "Энергетика, Изменение климата, Окружающая среда"
+
+msgid "Education"
+msgstr "Образование"
+
+msgid "Aid, Development cooperation, Fundamental rights"
+msgstr "Помощь, Сотрудничество в целях развития, Основные права"
+
+msgid "Food, Farming, Fisheries"
+msgstr "Продовольствие, Сельское хозяйство, Рыболовство"
+
+msgid "EU regional and urban development"
+msgstr "Развитие регионов и городов ЕС"
+
+msgid "Jobs at the European Commission"
+msgstr "Вакансии в Европейской комиссии"
+
+msgid "Statistics"
+msgstr "Статистика"
+
+msgid "News"
+msgstr "Новости"
+
+msgid "Events"
+msgstr "Мероприятия"
+
+msgid "Publications"
+msgstr "Публикации"
+
+msgid "Contact the European Commission"
+msgstr "Связаться с Европейской комиссией"
+
+msgid "Follow the European Commission on social media"
+msgstr "Следить за Европейской комиссией в социальных сетях"
+
+msgid "Resources for partners"
+msgstr "Материалы для партнёров"
+
+msgid "Cookies"
+msgstr "Файлы cookie"
+
+msgid "Social media"
+msgstr "Социальные сети"
