@@ -1,0 +1,170 @@
+msgid ""
+msgstr ""
+
+msgid "Contact the EU"
+msgstr "联系欧盟委员会"
+
+msgid "tel:0080067891011"
+msgstr "tel:0080067891011"
+
+msgid "Call us 00 800 6 7 8 9 10 11"
+msgstr "致电我们 00 800 6 7 8 9 10 11"
+
+msgid "Use other telephone options"
+msgstr "使用其他电话选项"
+
+msgid "Write to us via our contact form"
+msgstr "通过填写联系表格联系我们"
+
+msgid "Meet us at one of the EU centres"
+msgstr "在欧盟机构旗下一个中心与我们会面"
+
+msgid "Find a social media account"
+msgstr "查找社交媒体帐户"
+
+msgid "Search for EU social media channels"
+msgstr "搜索欧盟社交媒体渠道"
+
+msgid "EU institutions"
+msgstr "欧盟机构"
+
+msgid "European Parliament"
+msgstr "欧盟议会"
+
+msgid "European Council"
+msgstr "欧洲理事会"
+
+msgid "Council of the European Union"
+msgstr "欧盟理事会"
+
+msgid "European Commission"
+msgstr "欧盟委员会"
+
+msgid "Court of Justice of the European Union (CJEU)"
+msgstr "欧盟法院 (CJEU)"
+
+msgid "European Central Bank (ECB)"
+msgstr "欧洲中央银行 (ECB)"
+
+msgid "European Court of Auditors (ECA)"
+msgstr "欧洲审计法院 (ECA)"
+
+msgid "European External Action Service (EEAS)"
+msgstr "欧盟对外行动署 (EEAS)"
+
+msgid "European Economic and Social Committee (EESC)"
+msgstr "欧洲经济和社会委员会 (EESC)"
+
+msgid "European Committee of the Regions (CoR)"
+msgstr "欧洲地区委员会 (CoR)"
+
+msgid "European Investment Bank (EIB)"
+msgstr "欧洲投资银行 (EIB)"
+
+msgid "European Ombudsman"
+msgstr "欧洲监察员"
+
+msgid "European Data Protection Board"
+msgstr "欧洲数据保护委员会 (EDPB)"
+
+msgid "European Personnel Selection Office"
+msgstr "欧洲人事甄选办公室（EPSO)"
+
+msgid "Publications Office of the European Union"
+msgstr "欧盟出版物办公室"
+
+msgid "Agencies"
+msgstr "机构"
+
+msgid "European Data Protection Supervisor (EDPS)"
+msgstr "欧洲数据保护监管机构 (EDPS)"
+
+msgid "About this site"
+msgstr "关于本站"
+
+msgid "Language policy"
+msgstr "语言政策"
+
+msgid "Languages on our websites"
+msgstr "我们网站使用的语言"
+
+msgid "Privacy policy"
+msgstr "隐私政策"
+
+msgid "Legal"
+msgstr "法律"
+
+msgid "Legal notice"
+msgstr "法律声明"
+
+msgid "Cookies"
+msgstr "服务器暂存数据（Cookies)"
+
+msgid "Accessibility"
+msgstr "可访问性"
+
+msgid "European Commission website"
+msgstr "欧盟委员会网站"
+
+msgid "Strategy"
+msgstr "战略"
+
+msgid "About the European Commission"
+msgstr "关于欧盟委员会"
+
+msgid "Business, Economy, Euro"
+msgstr "贸易、经济、欧元"
+
+msgid "Live, work, travel in the EU"
+msgstr "在欧盟生活、工作、旅行"
+
+msgid "Law"
+msgstr "法律"
+
+msgid "Funding, Tenders"
+msgstr "资金、招标"
+
+msgid "Research and innovation"
+msgstr "科研与创新"
+
+msgid "Energy, Climate change, Environment"
+msgstr "能源、气候变化、环境"
+
+msgid "Education"
+msgstr "教育"
+
+msgid "Aid, Development cooperation, Fundamental rights"
+msgstr "援助、发展合作、基本权利"
+
+msgid "Food, Farming, Fisheries"
+msgstr "食品、农业、渔业"
+
+msgid "EU regional and urban development"
+msgstr "欧盟区域和城市发展"
+
+msgid "Jobs at the European Commission"
+msgstr "在欧盟委员会工作的机会"
+
+msgid "Statistics"
+msgstr "统计数据"
+
+msgid "News"
+msgstr "最新消息"
+
+msgid "Events"
+msgstr "活动"
+
+msgid "Publications"
+msgstr "出版物"
+
+msgid "Contact the European Commission"
+msgstr "联系欧盟委员会"
+
+msgid "Follow the European Commission on social media"
+msgstr "在社交媒体上关注欧盟委员会"
+
+msgid "Resources for partners"
+msgstr "合作伙伴资源"
+
+msgid "Social media"
+msgstr "社交媒体"
