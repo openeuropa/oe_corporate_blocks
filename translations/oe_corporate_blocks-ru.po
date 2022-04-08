@@ -162,3 +162,6 @@ msgstr "Файлы cookie"
 
 msgid "Social media"
 msgstr "Социальные сети"
+
+msgid "Accessibility"
+msgstr "Специальные возможности"
