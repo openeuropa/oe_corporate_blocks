@@ -1,11 +1,21 @@
 # Changelog
 
+## [4.7.0](https://github.com/openeuropa/oe_corporate_blocks/tree/4.7.0) (2022-04-11)
+
+[Full Changelog](https://github.com/openeuropa/oe_corporate_blocks/compare/4.6.0...4.7.0)
+
+**Merged pull requests:**
+
+- EWPP-2125: Add translation for ru language. [\#111](https://github.com/openeuropa/oe_corporate_blocks/pull/111) ([sergepavle](https://github.com/sergepavle))
+- EWPP-2101: Add translation for ukrainian and chinese languages. [\#110](https://github.com/openeuropa/oe_corporate_blocks/pull/110) ([sergepavle](https://github.com/sergepavle))
+
 ## [4.6.0](https://github.com/openeuropa/oe_corporate_blocks/tree/4.6.0) (2022-03-07)
 
 [Full Changelog](https://github.com/openeuropa/oe_corporate_blocks/compare/4.5.0...4.6.0)
 
 **Merged pull requests:**
 
+- Prepare release-4.6.0. [\#109](https://github.com/openeuropa/oe_corporate_blocks/pull/109) ([imanoleguskiza](https://github.com/imanoleguskiza))
 - EWPP-2009: Add default config hash for post\_update helper method. [\#108](https://github.com/openeuropa/oe_corporate_blocks/pull/108) ([22Alexandra](https://github.com/22Alexandra))
 
 ## [4.5.0](https://github.com/openeuropa/oe_corporate_blocks/tree/4.5.0) (2022-02-17)
