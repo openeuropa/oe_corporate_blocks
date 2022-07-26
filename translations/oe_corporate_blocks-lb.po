@@ -1,0 +1,164 @@
+msgid ""
+msgstr ""
+
+msgid "Publications"
+msgstr "Verëffentlechungen"
+
+msgid "News"
+msgstr "Noriichten"
+
+msgid "European Commission"
+msgstr "Europäesch Kommissioun"
+
+msgid "European Commission website"
+msgstr "Site vun der Europäescher Kommissioun"
+
+msgid "Strategy"
+msgstr "Strategie"
+
+msgid "About the European Commission"
+msgstr "Iwwer d’Europäesch Kommissioun"
+
+msgid "Business, Economy, Euro"
+msgstr "Handel, Wirtschaft, Euro"
+
+msgid "Live, work, travel in the EU"
+msgstr "Liewen, Schaffen, Reesen an der EU"
+
+msgid "Law"
+msgstr "Recht"
+
+msgid "Funding, Tenders"
+msgstr "Finanzéierung, Ausschreiwungen"
+
+msgid "Research and innovation"
+msgstr "Fuerschung an Innovatioun"
+
+msgid "Energy, Climate change, Environment"
+msgstr "Energie, Klimawandel, Ëmwelt"
+
+msgid "Education"
+msgstr "Educatioun"
+
+msgid "Aid, Development cooperation, Fundamental rights"
+msgstr "Hëllef, Entwécklungszesummenaarbecht, Grondrechter"
+
+msgid "Food, Farming, Fisheries"
+msgstr "Liewensmëttel, Landwirtschaft, Fëscherei"
+
+msgid "EU regional and urban development"
+msgstr "Regional a stättesch Entwécklung an der EU / ech mengen et kann een och urban soen"
+
+msgid "Jobs at the European Commission"
+msgstr "Aarbechtsplaze bei der Europäescher Kommissioun"
+
+msgid "Statistics"
+msgstr "Statistiken"
+
+msgid "Contact the European Commission"
+msgstr "D’Europäesch Kommissioun kontaktéieren"
+
+msgid "Follow the European Commission on social media"
+msgstr "Suivéiert d' Europäesch Kommissioun op de soziale Medien"
+
+msgid "Resources for partners"
+msgstr "Ressourcë fir Partner"
+
+msgid "Language policy"
+msgstr "Sproochepolitik"
+
+msgid "Privacy policy"
+msgstr "Dateschutzerklärung"
+
+msgid "Contact the EU"
+msgstr "D’EU kontaktéieren"
+
+msgid "Call us 00 800 6 7 8 9 10 11"
+msgstr "Rufft eis um 00 800 6 7 8 9 10 11 un"
+
+msgid "Use other telephone options"
+msgstr "Aner Telefonsoptiounen notzen"
+
+msgid "Write to us via our contact form"
+msgstr "Schreift eis iwwer eise Kontaktformulaire"
+
+msgid "Search for EU social media channels"
+msgstr "Social Media Kanäl vun der EU sichen"
+
+msgid "EU institutions"
+msgstr "EU-Institutiounen"
+
+msgid "European Parliament"
+msgstr "Europäescht Parlament"
+
+msgid "European Council"
+msgstr "Europäesche Rot"
+
+msgid "Council of the European Union"
+msgstr "Rot vun der Europäescher Unioun"
+
+msgid "Court of Justice of the European Union (CJEU)"
+msgstr "Geriichtshaff vun der Europäescher Unioun (EuGH)"
+
+msgid "European Central Bank (ECB)"
+msgstr "Europäesch Zentralbank (EZB)"
+
+msgid "European Court of Auditors (ECA)"
+msgstr "Europäesche Rechnungshaff (EuRH)"
+
+msgid "European External Action Service (EEAS)"
+msgstr "Europäeschen auswäertegen Déngscht (EAD)"
+
+msgid "European Economic and Social Committee (EESC)"
+msgstr "Europäesche Wirtschafts- a Sozialausschoss (EWSA)"
+
+msgid "European Committee of the Regions (CoR)"
+msgstr "Europäeschen Kommittee vun de Regiounen"
+
+msgid "European Investment Bank (EIB)"
+msgstr "Europäesch Investitiounsbank (EIB)"
+
+msgid "European Ombudsman"
+msgstr "Europäeschen Ombudsmann"
+
+msgid "European Data Protection Supervisor (EDPS)"
+msgstr "Europäeschen Dateschutzbeoptraagten (EDSB)"
+
+msgid "European Data Protection Board"
+msgstr "Europäeschen Dateschutzgremium"
+
+msgid "European Personnel Selection Office"
+msgstr "Europäescht Amt fir Personalselektioun"
+
+msgid "Publications Office of the European Union"
+msgstr "Amt fir Verëffentlechunge vun der Europäescher Unioun"
+
+msgid "Agencies"
+msgstr "Agencen"
+
+msgid "Legal"
+msgstr "Rechtleches"
+
+msgid "Find a social media account"
+msgstr "E Social Media Kont sichen"
+
+msgid "About this site"
+msgstr "Iwwer dëse Site"
+
+msgid "Meet us at one of the EU centres"
+msgstr "Trefft eis an engem vun den EU-Zentren"
+
+msgid "Languages on our websites"
+msgstr "Sproochen op eise Sitten"
+
+msgid "Accessibility"
+msgstr "Accessibilitéit"
+
+msgid "Publications"
+msgstr "Verëffentlechungen"
+
+msgid "Law"
+msgstr "Recht"
+
+msgid "Events"
+msgstr "Veranstaltungen"
