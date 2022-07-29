@@ -1,11 +1,21 @@
 # Changelog
 
+## [4.8.0](https://github.com/openeuropa/oe_corporate_blocks/tree/4.8.0) (2022-07-29)
+
+[Full Changelog](https://github.com/openeuropa/oe_corporate_blocks/compare/4.7.0...4.8.0)
+
+**Merged pull requests:**
+
+- EWPP-2375: Add Luxembourgish string translations. [\#114](https://github.com/openeuropa/oe_corporate_blocks/pull/114) ([22Alexandra](https://github.com/22Alexandra))
+- EWPP-2358: Drupal 9.4 support. [\#113](https://github.com/openeuropa/oe_corporate_blocks/pull/113) ([yenyasinn](https://github.com/yenyasinn))
+
 ## [4.7.0](https://github.com/openeuropa/oe_corporate_blocks/tree/4.7.0) (2022-04-11)
 
 [Full Changelog](https://github.com/openeuropa/oe_corporate_blocks/compare/4.6.0...4.7.0)
 
 **Merged pull requests:**
 
+- Prepare release 4.7.0. [\#112](https://github.com/openeuropa/oe_corporate_blocks/pull/112) ([imanoleguskiza](https://github.com/imanoleguskiza))
 - EWPP-2125: Add translation for ru language. [\#111](https://github.com/openeuropa/oe_corporate_blocks/pull/111) ([sergepavle](https://github.com/sergepavle))
 - EWPP-2101: Add translation for ukrainian and chinese languages. [\#110](https://github.com/openeuropa/oe_corporate_blocks/pull/110) ([sergepavle](https://github.com/sergepavle))
 
