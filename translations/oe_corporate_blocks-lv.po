@@ -124,8 +124,8 @@ msgstr "https://edpb.europa.eu/edpb_lv"
 msgid "European Personnel Selection Office"
 msgstr "Eiropas Kopienu Personāla atlases birojs"
 
-msgid "https://epso.europa.eu/home_en"
-msgstr "https://epso.europa.eu/home_lv"
+msgid "https://epso.europa.eu/en"
+msgstr "https://epso.europa.eu/lv"
 
 msgid "Publications Office of the European Union"
 msgstr "Eiropas Savienības Publikāciju birojs"

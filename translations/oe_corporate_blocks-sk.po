@@ -121,8 +121,8 @@ msgstr "https://edpb.europa.eu/edpb_sk"
 msgid "European Personnel Selection Office"
 msgstr "Európsky úrad pre výber pracovníkov"
 
-msgid "https://epso.europa.eu/home_en"
-msgstr "https://epso.europa.eu/home_sk"
+msgid "https://epso.europa.eu/en"
+msgstr "https://epso.europa.eu/sk"
 
 msgid "Publications Office of the European Union"
 msgstr "Úrad pre vydávanie publikácií Európskej únie"
