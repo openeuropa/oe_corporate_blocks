@@ -121,8 +121,8 @@ msgstr "https://edpb.europa.eu/edpb_ga"
 msgid "European Personnel Selection Office"
 msgstr "An Oifig Eorpach um Roghnú Foirne"
 
-msgid "https://epso.europa.eu/home_en"
-msgstr "https://epso.europa.eu/home_ga"
+msgid "https://epso.europa.eu/en"
+msgstr "https://epso.europa.eu/ga"
 
 msgid "Publications Office of the European Union"
 msgstr "Oifig Foilseachán an Aontais Eorpaigh"

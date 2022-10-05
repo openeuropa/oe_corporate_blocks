@@ -124,8 +124,8 @@ msgstr "https://edpb.europa.eu/edpb_nl"
 msgid "European Personnel Selection Office"
 msgstr "Europees Bureau voor personeelsselectie"
 
-msgid "https://epso.europa.eu/home_en"
-msgstr "https://epso.europa.eu/home_nl"
+msgid "https://epso.europa.eu/en"
+msgstr "https://epso.europa.eu/nl"
 
 msgid "Publications Office of the European Union"
 msgstr "Bureau voor publicaties van de Europese Unie"

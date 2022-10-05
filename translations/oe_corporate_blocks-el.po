@@ -132,8 +132,8 @@ msgstr "https://edpb.europa.eu/edpb_el"
 msgid "European Personnel Selection Office"
 msgstr "Η Ευρωπαϊκή Υπηρεσία Επιλογής Προσωπικού"
 
-msgid "https://epso.europa.eu/home_en"
-msgstr "https://epso.europa.eu/home_el"
+msgid "https://epso.europa.eu/en"
+msgstr "https://epso.europa.eu/el"
 
 msgid "Publications Office of the European Union"
 msgstr "Υπηρεσία Εκδόσεων της Ευρωπαϊκής Ένωσης"

@@ -199,3 +199,21 @@ function oe_corporate_blocks_post_update_40002(&$sandbox): void {
   $config_path = drupal_get_path('module', 'oe_corporate_blocks') . '/config/post_update/40002_update_footer_data';
   _oe_corporate_blocks_import_corporate_links($config_path);
 }
+
+/**
+ * Updates European Personnel Selection Office link of EU footer data.
+ */
+function oe_corporate_blocks_post_update_40003(): void {
+  $config = \Drupal::configFactory()->getEditable('oe_corporate_blocks.eu_data.footer');
+  $institution_links = $config->get('institution_links');
+  foreach ($institution_links as $key => $link) {
+    if (
+      $link['label'] === 'European Personnel Selection Office' &&
+      $link['href'] === 'https://epso.europa.eu/home_en'
+    ) {
+      $institution_links[$key]['href'] = 'https://epso.europa.eu/en';
+    }
+  }
+  $config->set('institution_links', $institution_links);
+  $config->save();
+}

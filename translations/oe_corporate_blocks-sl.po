@@ -118,8 +118,8 @@ msgstr "https://edpb.europa.eu/edpb_sl"
 msgid "European Personnel Selection Office"
 msgstr "Evropski urad za izbor osebja"
 
-msgid "https://epso.europa.eu/home_en"
-msgstr "https://epso.europa.eu/home_sl"
+msgid "https://epso.europa.eu/en"
+msgstr "https://epso.europa.eu/sl"
 
 msgid "Publications Office of the European Union"
 msgstr "Urad za publikacije Evropske unije"
