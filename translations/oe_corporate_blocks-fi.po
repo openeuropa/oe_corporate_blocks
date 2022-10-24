@@ -122,7 +122,7 @@ msgid "https://edpb.europa.eu/edpb_en"
 msgstr "https://edpb.europa.eu/edpb_fi"
 
 msgid "European Personnel Selection Office"
-msgstr "Europees Bureau voor personeelsselectie"
+msgstr "Euroopan unionin henkilöstövalintatoimisto"
 
 msgid "https://epso.europa.eu/en"
 msgstr "https://epso.europa.eu/fi"
