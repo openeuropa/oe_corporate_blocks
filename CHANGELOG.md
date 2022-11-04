@@ -1,11 +1,20 @@
 # Changelog
 
-## [4.8.0](https://github.com/openeuropa/oe_corporate_blocks/tree/4.8.0) (2022-07-29)
+## [4.9.0](https://github.com/openeuropa/oe_corporate_blocks/tree/4.9.0) (2022-11-04)
+
+[Full Changelog](https://github.com/openeuropa/oe_corporate_blocks/compare/4.8.0...4.9.0)
+
+**Merged pull requests:**
+
+- EWPP-2596: Update EPSO link in EU footer. [\#116](https://github.com/openeuropa/oe_corporate_blocks/pull/116) ([22Alexandra](https://github.com/22Alexandra))
+
+## [4.8.0](https://github.com/openeuropa/oe_corporate_blocks/tree/4.8.0) (2022-08-02)
 
 [Full Changelog](https://github.com/openeuropa/oe_corporate_blocks/compare/4.7.0...4.8.0)
 
 **Merged pull requests:**
 
+- Prepare release 4.8.0. [\#115](https://github.com/openeuropa/oe_corporate_blocks/pull/115) ([imanoleguskiza](https://github.com/imanoleguskiza))
 - EWPP-2375: Add Luxembourgish string translations. [\#114](https://github.com/openeuropa/oe_corporate_blocks/pull/114) ([22Alexandra](https://github.com/22Alexandra))
 - EWPP-2358: Drupal 9.4 support. [\#113](https://github.com/openeuropa/oe_corporate_blocks/pull/113) ([yenyasinn](https://github.com/yenyasinn))
 
