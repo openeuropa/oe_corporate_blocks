@@ -32,6 +32,7 @@ Feature: Corporate blocks feature
       | Events                                           | https://ec.europa.eu/info/events_en                                                                                  |
       | Publications                                     | https://ec.europa.eu/info/publications_en                                                                            |
       | Contact the European Commission                  | https://ec.europa.eu/info/about-european-commission/contact_en                                                       |
+      | Accessibility                                    | https://commission.europa.eu/accessibility-websites-managed-european-commission_en                                   |
       | Follow the European Commission on social media   | https://european-union.europa.eu/contact-eu/social-media-channels_en#/search?page=0&institutions=european_commission |
       | Resources for partners                           | https://ec.europa.eu/info/resources-partners_en                                                                      |
       | Language policy                                  | https://ec.europa.eu/info/language-policy_en                                                                         |
@@ -60,6 +61,7 @@ Feature: Corporate blocks feature
       | Événements                                                | https://ec.europa.eu/info/events_fr                                                                                  |
       | Publications                                              | https://ec.europa.eu/info/publications_fr                                                                            |
       | Contacter la Commission européenne                        | https://ec.europa.eu/info/about-european-commission/contact_fr                                                       |
+      | Accessibilité                                             | https://commission.europa.eu/accessibility-websites-managed-european-commission_fr                                   |
       | Suivre la Commission européenne sur les médias sociaux    | https://european-union.europa.eu/contact-eu/social-media-channels_fr#/search?page=0&institutions=european_commission |
       | Ressources pour les partenaires                           | https://ec.europa.eu/info/resources-partners_fr                                                                      |
       | Politique linguistique                                    | https://ec.europa.eu/info/language-policy_fr                                                                         |

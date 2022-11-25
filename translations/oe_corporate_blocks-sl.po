@@ -175,6 +175,9 @@ msgstr "Dostopnost"
 msgid "https://european-union.europa.eu/web-accessibility-policy_en"
 msgstr "https://european-union.europa.eu/web-accessibility-policy_sl"
 
+msgid "https://commission.europa.eu/accessibility-websites-managed-european-commission_en"
+msgstr "https://commission.europa.eu/accessibility-websites-managed-european-commission_sl"
+
 msgid "European Commission"
 msgstr "Evropska komisija"
 

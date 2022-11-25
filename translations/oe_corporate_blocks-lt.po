@@ -181,6 +181,9 @@ msgstr "Prieinamumas"
 msgid "https://european-union.europa.eu/web-accessibility-policy_en"
 msgstr "https://european-union.europa.eu/web-accessibility-policy_lt"
 
+msgid "https://commission.europa.eu/accessibility-websites-managed-european-commission_en"
+msgstr "https://commission.europa.eu/accessibility-websites-managed-european-commission_lt"
+
 msgid "https://ec.europa.eu/info/index_en"
 msgstr "https://ec.europa.eu/info/index_lt"
 
