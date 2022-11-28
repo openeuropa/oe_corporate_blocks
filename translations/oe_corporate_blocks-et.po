@@ -178,11 +178,11 @@ msgstr "https://european-union.europa.eu/cookies_et"
 msgid "Accessibility"
 msgstr "Juurdepääsetavus"
 
-msgid "https://european-union.europa.eu/web-accessibility-policy_en"
-msgstr "https://european-union.europa.eu/web-accessibility-policy_et"
+msgid "https://european-union.europa.eu/accessibility-statement_en"
+msgstr "https://european-union.europa.eu/accessibility-statement_et"
 
-msgid "https://commission.europa.eu/accessibility-websites-managed-european-commission_en"
-msgstr "https://commission.europa.eu/accessibility-websites-managed-european-commission_et"
+msgid "https://commission.europa.eu/accessibility-statement_en"
+msgstr "https://commission.europa.eu/accessibility-statement_et"
 
 msgid "https://ec.europa.eu/info/index_en"
 msgstr "https://ec.europa.eu/info/index_et"

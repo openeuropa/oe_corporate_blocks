@@ -181,11 +181,11 @@ msgstr "https://european-union.europa.eu/cookies_bg"
 msgid "Accessibility"
 msgstr "Достъпност"
 
-msgid "https://european-union.europa.eu/web-accessibility-policy_en"
-msgstr "https://european-union.europa.eu/web-accessibility-policy_bg"
+msgid "https://european-union.europa.eu/accessibility-statement_en"
+msgstr "https://european-union.europa.eu/accessibility-statement_bg"
 
-msgid "https://commission.europa.eu/accessibility-websites-managed-european-commission_en"
-msgstr "https://commission.europa.eu/accessibility-websites-managed-european-commission_bg"
+msgid "https://commission.europa.eu/accessibility-statement_en"
+msgstr "https://commission.europa.eu/accessibility-statement_bg"
 
 msgid "https://ec.europa.eu/info/index_en"
 msgstr "https://ec.europa.eu/info/index_bg"

@@ -179,11 +179,11 @@ msgstr "https://european-union.europa.eu/cookies_hu"
 msgid "Accessibility"
 msgstr "Hozzáférhetőség"
 
-msgid "https://european-union.europa.eu/web-accessibility-policy_en"
-msgstr "https://european-union.europa.eu/web-accessibility-policy_hu"
+msgid "https://european-union.europa.eu/accessibility-statement_en"
+msgstr "https://european-union.europa.eu/accessibility-statement_hu"
 
-msgid "https://commission.europa.eu/accessibility-websites-managed-european-commission_en"
-msgstr "https://commission.europa.eu/accessibility-websites-managed-european-commission_hu"
+msgid "https://commission.europa.eu/accessibility-statement_en"
+msgstr "https://commission.europa.eu/accessibility-statement_hu"
 
 msgid "https://ec.europa.eu/info/index_en"
 msgstr "https://ec.europa.eu/info/index_hu"
