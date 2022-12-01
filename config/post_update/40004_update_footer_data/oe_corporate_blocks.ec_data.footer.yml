@@ -59,6 +59,7 @@ service_navigation:
     href: 'https://ec.europa.eu/info/about-european-commission/contact_en'
     label: 'Contact the European Commission'
   -
+    branding: core
     href: 'https://commission.europa.eu/accessibility-statement_en'
     label: 'Accessibility'
   -

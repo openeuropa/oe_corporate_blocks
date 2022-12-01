@@ -11,6 +11,9 @@ oe_corporate_blocks.footer.link:
     external:
       type: boolean
       label: 'Is external link.'
+    branding:
+      type: string
+      label: 'Show only for some ECL branding.'
     href:
       type: string
       label: 'Link URL'
