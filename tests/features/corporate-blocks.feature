@@ -13,61 +13,61 @@ Feature: Corporate blocks feature
     When I am on "the <path> page"
     Then I should see "This site is managed by the Directorate-General for Informatics" in the "ec_footer" region
     And the region "ec_footer" contains the links:
-      | European Commission website                      | https://ec.europa.eu/info/index_en                                                                                   |
-      | Strategy                                         | https://ec.europa.eu/info/strategy_en                                                                                |
-      | About the European Commission                    | https://ec.europa.eu/info/about-european-commission_en                                                               |
-      | Business, Economy, Euro                          | https://ec.europa.eu/info/business-economy-euro_en                                                                   |
-      | Live, work, travel in the EU                     | https://ec.europa.eu/info/live-work-travel-eu_en                                                                     |
-      | Law                                              | https://ec.europa.eu/info/law_en                                                                                     |
-      | Funding, Tenders                                 | https://ec.europa.eu/info/funding-tenders_en                                                                         |
-      | Research and innovation                          | https://ec.europa.eu/info/research-and-innovation_en                                                                 |
-      | Energy, Climate change, Environment              | https://ec.europa.eu/info/energy-climate-change-environment_en                                                       |
-      | Education                                        | https://ec.europa.eu/info/education_en                                                                               |
-      | Aid, Development cooperation, Fundamental rights | https://ec.europa.eu/info/aid-development-cooperation-fundamental-rights_en                                          |
-      | Food, Farming, Fisheries                         | https://ec.europa.eu/info/food-farming-fisheries_en                                                                  |
-      | EU regional and urban development                | https://ec.europa.eu/info/eu-regional-and-urban-development_en                                                       |
-      | Jobs at the European Commission                  | https://ec.europa.eu/info/jobs-european-commission_en                                                                |
-      | Statistics                                       | https://ec.europa.eu/info/statistics_en                                                                              |
-      | News                                             | https://ec.europa.eu/commission/presscorner/home/en                                                                  |
-      | Events                                           | https://ec.europa.eu/info/events_en                                                                                  |
-      | Publications                                     | https://ec.europa.eu/info/publications_en                                                                            |
-      | Contact the European Commission                  | https://ec.europa.eu/info/about-european-commission/contact_en                                                       |
-      | Accessibility                                    | https://commission.europa.eu/accessibility-statement_en                                                              |
-      | Follow the European Commission on social media   | https://european-union.europa.eu/contact-eu/social-media-channels_en#/search?page=0&institutions=european_commission |
-      | Resources for partners                           | https://ec.europa.eu/info/resources-partners_en                                                                      |
-      | Language policy                                  | https://ec.europa.eu/info/language-policy_en                                                                         |
-      | Cookies                                          | https://ec.europa.eu/info/cookies_en                                                                                 |
-      | Privacy policy                                   | https://ec.europa.eu/info/privacy-policy_en                                                                          |
-      | Legal notice                                     | https://ec.europa.eu/info/legal-notice_en                                                                            |
+      | European Commission website                      | https://commission.europa.eu/index_en                                                                                   |
+      | Strategy                                         | https://commission.europa.eu/strategy_en                                                                                |
+      | About the European Commission                    | https://commission.europa.eu/about-european-commission_en                                                               |
+      | Business, Economy, Euro                          | https://commission.europa.eu/business-economy-euro_en                                                                   |
+      | Live, work, travel in the EU                     | https://commission.europa.eu/live-work-travel-eu_en                                                                     |
+      | Law                                              | https://commission.europa.eu/law_en                                                                                     |
+      | Funding, Tenders                                 | https://commission.europa.eu/funding-tenders_en                                                                         |
+      | Research and innovation                          | https://commission.europa.eu/research-and-innovation_en                                                                 |
+      | Energy, Climate change, Environment              | https://commission.europa.eu/energy-climate-change-environment_en                                                       |
+      | Education                                        | https://commission.europa.eu/education_en                                                                               |
+      | Aid, Development cooperation, Fundamental rights | https://commission.europa.eu/aid-development-cooperation-fundamental-rights_en                                          |
+      | Food, Farming, Fisheries                         | https://commission.europa.eu/food-farming-fisheries_en                                                                  |
+      | EU regional and urban development                | https://commission.europa.eu/eu-regional-and-urban-development_en                                                       |
+      | Jobs at the European Commission                  | https://commission.europa.eu/jobs-european-commission_en                                                                |
+      | Statistics                                       | https://commission.europa.eu/statistics_en                                                                              |
+      | News                                             | https://ec.europa.eu/commission/presscorner/home/en                                                                     |
+      | Events                                           | https://commission.europa.eu/events_en                                                                                  |
+      | Publications                                     | https://commission.europa.eu/publications_en                                                                            |
+      | Contact the European Commission                  | https://commission.europa.eu/about-european-commission/contact_en                                                       |
+      | Accessibility                                    | https://commission.europa.eu/accessibility-statement_en                                                                 |
+      | Follow the European Commission on social media   | https://european-union.europa.eu/contact-eu/social-media-channels_en#/search?page=0&institutions=european_commission    |
+      | Resources for partners                           | https://commission.europa.eu/resources-partners_en                                                                      |
+      | Language policy                                  | https://commission.europa.eu/language-policy_en                                                                         |
+      | Cookies                                          | https://commission.europa.eu/cookies_en                                                                                 |
+      | Privacy policy                                   | https://commission.europa.eu/privacy-policy_en                                                                          |
+      | Legal notice                                     | https://commission.europa.eu/legal-notice_en                                                                            |
 
     When I click "français" in the "header"
     Then the region "ec_footer" contains the links:
-      | Site web de la Commission européenne                      | https://ec.europa.eu/info/index_fr                                                                                   |
-      | Stratégie                                                 | https://ec.europa.eu/info/strategy_fr                                                                                |
-      | À propos de la Commission européenne                      | https://ec.europa.eu/info/about-european-commission_fr                                                               |
-      | Entreprises, économie et euro                             | https://ec.europa.eu/info/business-economy-euro_fr                                                                   |
-      | Vivre, travailler et voyager dans l’UE                    | https://ec.europa.eu/info/live-work-travel-eu_fr                                                                     |
-      | Législation                                               | https://ec.europa.eu/info/law_fr                                                                                     |
-      | Financement, appels d’offres                              | https://ec.europa.eu/info/funding-tenders_fr                                                                         |
-      | Recherche et innovation                                   | https://ec.europa.eu/info/research-and-innovation_fr                                                                 |
-      | Énergie, changement climatique, environnement             | https://ec.europa.eu/info/energy-climate-change-environment_fr                                                       |
-      | Éducation                                                 | https://ec.europa.eu/info/education_fr                                                                               |
-      | Aide, coopération au développement et droits fondamentaux | https://ec.europa.eu/info/aid-development-cooperation-fundamental-rights_fr                                          |
-      | Alimentation, agriculture et pêche                        | https://ec.europa.eu/info/food-farming-fisheries_fr                                                                  |
-      | Développement régional et urbain de l’UE                  | https://ec.europa.eu/info/eu-regional-and-urban-development_fr                                                       |
-      | Travailler à la Commission européenne                     | https://ec.europa.eu/info/jobs-european-commission_fr                                                                |
-      | Statistiques                                              | https://ec.europa.eu/info/statistics_fr                                                                              |
-      | Actualité                                                 | https://ec.europa.eu/commission/presscorner/home/fr                                                                  |
-      | Événements                                                | https://ec.europa.eu/info/events_fr                                                                                  |
-      | Publications                                              | https://ec.europa.eu/info/publications_fr                                                                            |
-      | Contacter la Commission européenne                        | https://ec.europa.eu/info/about-european-commission/contact_fr                                                       |
-      | Accessibilité                                             | https://commission.europa.eu/accessibility-statement_fr                                                              |
-      | Suivre la Commission européenne sur les médias sociaux    | https://european-union.europa.eu/contact-eu/social-media-channels_fr#/search?page=0&institutions=european_commission |
-      | Ressources pour les partenaires                           | https://ec.europa.eu/info/resources-partners_fr                                                                      |
-      | Politique linguistique                                    | https://ec.europa.eu/info/language-policy_fr                                                                         |
-      | Cookies                                                   | https://ec.europa.eu/info/cookies_fr                                                                                 |
-      | Protection de la vie privée                               | https://ec.europa.eu/info/privacy-policy_fr                                                                          |
-      | Avis juridique                                            | https://ec.europa.eu/info/legal-notice_fr                                                                            |
+      | Site web de la Commission européenne                      | https://commission.europa.eu/index_fr                                                                                   |
+      | Stratégie                                                 | https://commission.europa.eu/strategy_fr                                                                                |
+      | À propos de la Commission européenne                      | https://commission.europa.eu/about-european-commission_fr                                                               |
+      | Entreprises, économie et euro                             | https://commission.europa.eu/business-economy-euro_fr                                                                   |
+      | Vivre, travailler et voyager dans l’UE                    | https://commission.europa.eu/live-work-travel-eu_fr                                                                     |
+      | Législation                                               | https://commission.europa.eu/law_fr                                                                                     |
+      | Financement, appels d’offres                              | https://commission.europa.eu/funding-tenders_fr                                                                         |
+      | Recherche et innovation                                   | https://commission.europa.eu/research-and-innovation_fr                                                                 |
+      | Énergie, changement climatique, environnement             | https://commission.europa.eu/energy-climate-change-environment_fr                                                       |
+      | Éducation                                                 | https://commission.europa.eu/education_fr                                                                               |
+      | Aide, coopération au développement et droits fondamentaux | https://commission.europa.eu/aid-development-cooperation-fundamental-rights_fr                                          |
+      | Alimentation, agriculture et pêche                        | https://commission.europa.eu/food-farming-fisheries_fr                                                                  |
+      | Développement régional et urbain de l’UE                  | https://commission.europa.eu/eu-regional-and-urban-development_fr                                                       |
+      | Travailler à la Commission européenne                     | https://commission.europa.eu/jobs-european-commission_fr                                                                |
+      | Statistiques                                              | https://commission.europa.eu/statistics_fr                                                                              |
+      | Actualité                                                 | https://ec.europa.eu/commission/presscorner/home/fr                                                                     |
+      | Événements                                                | https://commission.europa.eu/events_fr                                                                                  |
+      | Publications                                              | https://commission.europa.eu/publications_fr                                                                            |
+      | Contacter la Commission européenne                        | https://commission.europa.eu/about-european-commission/contact_fr                                                       |
+      | Accessibilité                                             | https://commission.europa.eu/accessibility-statement_fr                                                                 |
+      | Suivre la Commission européenne sur les médias sociaux    | https://european-union.europa.eu/contact-eu/social-media-channels_fr#/search?page=0&institutions=european_commission    |
+      | Ressources pour les partenaires                           | https://commission.europa.eu/resources-partners_fr                                                                      |
+      | Politique linguistique                                    | https://commission.europa.eu/language-policy_fr                                                                         |
+      | Cookies                                                   | https://commission.europa.eu/cookies_fr                                                                                 |
+      | Protection de la vie privée                               | https://commission.europa.eu/privacy-policy_fr                                                                          |
+      | Avis juridique                                            | https://commission.europa.eu/legal-notice_fr                                                                            |
     Examples:
       | path  |
       | home  |
@@ -164,8 +164,8 @@ Feature: Corporate blocks feature
   Scenario Outline: The custom footer block shows the correct links in different languages
     Given I am on "the <path> page"
     And the region "ec_footer" contains the links:
-      | Custom Contact            | https://ec.europa.eu/info/contact_en                                 |
-      | Custom Legal notice       | https://ec.europa.eu/info/legal-notice_en                            |
+      | Custom Contact            | https://commission.europa.eu/contact_en                              |
+      | Custom Legal notice       | https://commission.europa.eu/legal-notice_en                         |
       | Custom Facebook           | https://www.facebook.com/EuropeanCommission                          |
       | Custom Twitter            | https://twitter.com/EU_commission                                    |
       | Custom Other social media | https://european-union.europa.eu/contact-eu/social-media-channels_en |

@@ -14,7 +14,7 @@ Feature: Site specific footer links management.
     Then I should see the heading "Add footer link general"
     When I fill in "Label" with "00000 European Commission, official website"
     And I fill in "Machine-readable name" with "00000_eurpoean_commission_official_website"
-    And I fill in "URL" with "https://ec.europa.eu/info/index_en"
+    And I fill in "URL" with "https://commission.europa.eu/index_en"
     And I select "Related sites" from "Section"
     And I press "Save"
     Then I should see the heading "Footer Link General entities"
@@ -23,7 +23,7 @@ Feature: Site specific footer links management.
     Then I should see the heading "Add footer link general"
     When I fill in "Label" with "00001 About the European Commission"
     And I fill in "Machine-readable name" with "00001_about_the_european_commission"
-    And I fill in "URL" with "https://ec.europa.eu/info/strategy_en"
+    And I fill in "URL" with "https://commission.europa.eu/strategy_en"
     And I select "Related sites" from "Section"
     And I press "Save"
     Then I should see the heading "Footer Link General entities"
@@ -32,13 +32,13 @@ Feature: Site specific footer links management.
     When I log out
     And I am on the homepage
     Then the region "<region>" contains the links:
-      | 00000 European Commission, official website | https://ec.europa.eu/info/index_en    |
-      | 00001 About the European Commission         | https://ec.europa.eu/info/strategy_en |
+      | 00000 European Commission, official website | https://commission.europa.eu/index_en    |
+      | 00001 About the European Commission         | https://commission.europa.eu/strategy_en |
     # We should see the links which is not translated yet.
     And I click "français" in the "header"
     And the region "<region>" contains the links:
-      | 00000 European Commission, official website | https://ec.europa.eu/info/index_en    |
-      | 00001 About the European Commission         | https://ec.europa.eu/info/strategy_en |
+      | 00000 European Commission, official website | https://commission.europa.eu/index_en    |
+      | 00001 About the European Commission         | https://commission.europa.eu/strategy_en |
 
     # Translate links for French language.
     When I am logged in as a user with the "access administration pages, administer site specific footer links, translate configuration" permissions
@@ -47,14 +47,14 @@ Feature: Site specific footer links management.
     Then I should see "Translations for 00000 European Commission, official website footer link general"
     When I click "Add" in the "French" row
     And I fill in "Label" with "00000 European Commission, official website FR"
-    And I fill in "URL" with "https://ec.europa.eu/info/index_fr"
+    And I fill in "URL" with "https://commission.europa.eu/index_fr"
     And I press "Save translation"
 
     And I am on "the footer links manager page"
     And I click "Translate" in the "00001 About the European Commission" row
     And I click "Add" in the "French" row
     And I fill in "Label" with "00001 About the European Commission FR"
-    And I fill in "URL" with "https://ec.europa.eu/info/strategy_fr"
+    And I fill in "URL" with "https://commission.europa.eu/strategy_fr"
     And I press "Save translation"
 
     # Change original labels of links.
@@ -71,13 +71,13 @@ Feature: Site specific footer links management.
     And I log out
     And I am on the homepage
     Then the region "<region>" contains the links:
-      | 00000 European Commission, official website EN | https://ec.europa.eu/info/index_en    |
-      | 00001 About the European Commission EN         | https://ec.europa.eu/info/strategy_en |
+      | 00000 European Commission, official website EN | https://commission.europa.eu/index_en    |
+      | 00001 About the European Commission EN         | https://commission.europa.eu/strategy_en |
     # We shouldn't see the translated links.
     And I click "français" in the "header"
     And the region "<region>" contains the links:
-      | 00000 European Commission, official website FR | https://ec.europa.eu/info/index_fr    |
-      | 00001 About the European Commission FR         | https://ec.europa.eu/info/strategy_fr |
+      | 00000 European Commission, official website FR | https://commission.europa.eu/index_fr    |
+      | 00001 About the European Commission FR         | https://commission.europa.eu/strategy_fr |
 
     # Delete the general links.
     When I am logged in as a user with the "access administration pages, administer site specific footer links, translate configuration" permissions
@@ -91,13 +91,13 @@ Feature: Site specific footer links management.
     And I log out
     And I am on the homepage
     Then the region "<region>" does not contain the links:
-      | 00000 European Commission, official website EN | https://ec.europa.eu/info/index_en    |
-      | 00001 About the European Commission EN         | https://ec.europa.eu/info/strategy_en |
+      | 00000 European Commission, official website EN | https://commission.europa.eu/index_en    |
+      | 00001 About the European Commission EN         | https://commission.europa.eu/strategy_en |
     # We shouldn't see the translated links.
     And I click "français" in the "header"
     And the region "<region>" does not contain the links:
-      | 00000 European Commission, official website FR | https://ec.europa.eu/info/index_fr    |
-      | 00001 About the European Commission FR         | https://ec.europa.eu/info/strategy_fr |
+      | 00000 European Commission, official website FR | https://commission.europa.eu/index_fr    |
+      | 00001 About the European Commission FR         | https://commission.europa.eu/strategy_fr |
 
     Examples:
       | region    |

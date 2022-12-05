@@ -181,92 +181,92 @@ msgstr "https://commission.europa.eu/accessibility-statement_sl"
 msgid "European Commission"
 msgstr "Evropska komisija"
 
-msgid "https://ec.europa.eu/info/index_en"
-msgstr "https://ec.europa.eu/info/index_sl"
+msgid "https://commission.europa.eu/index_en"
+msgstr "https://commission.europa.eu/index_sl"
 
 msgid "European Commission website"
 msgstr "Spletišče Evropske komisije"
 
-msgid "https://ec.europa.eu/info/strategy_en"
-msgstr "https://ec.europa.eu/info/strategy_sl"
+msgid "https://commission.europa.eu/strategy_en"
+msgstr "https://commission.europa.eu/strategy_sl"
 
 msgid "Strategy"
 msgstr "Strategija"
 
-msgid "https://ec.europa.eu/info/about-european-commission_en"
-msgstr "https://ec.europa.eu/info/about-european-commission_sl"
+msgid "https://commission.europa.eu/about-european-commission_en"
+msgstr "https://commission.europa.eu/about-european-commission_sl"
 
 msgid "About the European Commission"
 msgstr "O Evropski komisiji"
 
-msgid "https://ec.europa.eu/info/business-economy-euro_en"
-msgstr "https://ec.europa.eu/info/business-economy-euro_sl"
+msgid "https://commission.europa.eu/business-economy-euro_en"
+msgstr "https://commission.europa.eu/business-economy-euro_sl"
 
 msgid "Business, Economy, Euro"
 msgstr "Podjetništvo, gospodarstvo, evro"
 
-msgid "https://ec.europa.eu/info/live-work-travel-eu_en"
-msgstr "https://ec.europa.eu/info/live-work-travel-eu_sl"
+msgid "https://commission.europa.eu/live-work-travel-eu_en"
+msgstr "https://commission.europa.eu/live-work-travel-eu_sl"
 
 msgid "Live, work, travel in the EU"
 msgstr "Življenje, delo, potovanje v EU"
 
-msgid "https://ec.europa.eu/info/law_en"
-msgstr "https://ec.europa.eu/info/law_sl"
+msgid "https://commission.europa.eu/law_en"
+msgstr "https://commission.europa.eu/law_sl"
 
 msgid "Law"
 msgstr "Zakonodaja"
 
-msgid "https://ec.europa.eu/info/funding-tenders_en"
-msgstr "https://ec.europa.eu/info/funding-tenders_sl"
+msgid "https://commission.europa.eu/funding-tenders_en"
+msgstr "https://commission.europa.eu/funding-tenders_sl"
 
 msgid "Funding, Tenders"
 msgstr "Financiranje, javna naročila"
 
-msgid "https://ec.europa.eu/info/research-and-innovation_en"
-msgstr "https://ec.europa.eu/info/research-and-innovation_sl"
+msgid "https://commission.europa.eu/research-and-innovation_en"
+msgstr "https://commission.europa.eu/research-and-innovation_sl"
 
 msgid "Research and innovation"
 msgstr "Raziskave in inovacije"
 
-msgid "https://ec.europa.eu/info/energy-climate-change-environment_en"
-msgstr "https://ec.europa.eu/info/energy-climate-change-environment_sl"
+msgid "https://commission.europa.eu/energy-climate-change-environment_en"
+msgstr "https://commission.europa.eu/energy-climate-change-environment_sl"
 
 msgid "Energy, Climate change, Environment"
 msgstr "Energija, podnebne spremembe, okolje"
 
-msgid "https://ec.europa.eu/info/education_en"
-msgstr "https://ec.europa.eu/info/education_sl"
+msgid "https://commission.europa.eu/education_en"
+msgstr "https://commission.europa.eu/education_sl"
 
 msgid "Education"
 msgstr "Izobraževanje"
 
-msgid "https://ec.europa.eu/info/aid-development-cooperation-fundamental-rights_en"
-msgstr "https://ec.europa.eu/info/aid-development-cooperation-fundamental-rights_sl"
+msgid "https://commission.europa.eu/aid-development-cooperation-fundamental-rights_en"
+msgstr "https://commission.europa.eu/aid-development-cooperation-fundamental-rights_sl"
 
 msgid "Aid, Development cooperation, Fundamental rights"
 msgstr "Pomoč, razvojno sodelovanje, temeljne pravice"
 
-msgid "https://ec.europa.eu/info/food-farming-fisheries_en"
-msgstr "https://ec.europa.eu/info/food-farming-fisheries_sl"
+msgid "https://commission.europa.eu/food-farming-fisheries_en"
+msgstr "https://commission.europa.eu/food-farming-fisheries_sl"
 
 msgid "Food, Farming, Fisheries"
 msgstr "Hrana, kmetijstvo, ribištvo"
 
-msgid "https://ec.europa.eu/info/eu-regional-and-urban-development_en"
-msgstr "https://ec.europa.eu/info/eu-regional-and-urban-development_sl"
+msgid "https://commission.europa.eu/eu-regional-and-urban-development_en"
+msgstr "https://commission.europa.eu/eu-regional-and-urban-development_sl"
 
 msgid "EU regional and urban development"
 msgstr "Razvoj regij in mest v EU"
 
-msgid "https://ec.europa.eu/info/jobs-european-commission_en"
-msgstr "https://ec.europa.eu/info/jobs-european-commission_sl"
+msgid "https://commission.europa.eu/jobs-european-commission_en"
+msgstr "https://commission.europa.eu/jobs-european-commission_sl"
 
 msgid "Jobs at the European Commission"
 msgstr "Zaposlitev pri Evropski komisiji"
 
-msgid "https://ec.europa.eu/info/statistics_en"
-msgstr "https://ec.europa.eu/info/statistics_sl"
+msgid "https://commission.europa.eu/statistics_en"
+msgstr "https://commission.europa.eu/statistics_sl"
 
 msgid "Statistics"
 msgstr "Statistika"
@@ -277,20 +277,20 @@ msgstr "https://ec.europa.eu/commission/presscorner/home/sl"
 msgid "News"
 msgstr "Novica"
 
-msgid "https://ec.europa.eu/info/events_en"
-msgstr "https://ec.europa.eu/info/events_sl"
+msgid "https://commission.europa.eu/events_en"
+msgstr "https://commission.europa.eu/events_sl"
 
 msgid "Events"
 msgstr "Dogodki"
 
-msgid "https://ec.europa.eu/info/publications_en"
-msgstr "https://ec.europa.eu/info/publications_sl"
+msgid "https://commission.europa.eu/publications_en"
+msgstr "https://commission.europa.eu/publications_sl"
 
 msgid "Publications"
 msgstr "Publikacije"
 
-msgid "https://ec.europa.eu/info/about-european-commission/contact_en"
-msgstr "https://ec.europa.eu/info/about-european-commission/contact_sl"
+msgid "https://commission.europa.eu/about-european-commission/contact_en"
+msgstr "https://commission.europa.eu/about-european-commission/contact_sl"
 
 msgid "Contact the European Commission"
 msgstr "Kontaktni podatki Evropske komisije"
@@ -301,23 +301,23 @@ msgstr "https://european-union.europa.eu/contact-eu/social-media-channels_sl#/se
 msgid "Follow the European Commission on social media"
 msgstr "Evropska komisija na družbenih medijih"
 
-msgid "https://ec.europa.eu/info/resources-partners_en"
-msgstr "https://ec.europa.eu/info/resources-partners_sl"
+msgid "https://commission.europa.eu/resources-partners_en"
+msgstr "https://commission.europa.eu/resources-partners_sl"
 
 msgid "Resources for partners"
 msgstr "Viri za partnerje"
 
-msgid "https://ec.europa.eu/info/language-policy_en"
-msgstr "https://ec.europa.eu/info/language-policy_sl"
+msgid "https://commission.europa.eu/language-policy_en"
+msgstr "https://commission.europa.eu/language-policy_sl"
 
-msgid "https://ec.europa.eu/info/cookies_en"
-msgstr "https://ec.europa.eu/info/cookies_sl"
+msgid "https://commission.europa.eu/cookies_en"
+msgstr "https://commission.europa.eu/cookies_sl"
 
-msgid "https://ec.europa.eu/info/privacy-policy_en"
-msgstr "https://ec.europa.eu/info/privacy-policy_sl"
+msgid "https://commission.europa.eu/privacy-policy_en"
+msgstr "https://commission.europa.eu/privacy-policy_sl"
 
-msgid "https://ec.europa.eu/info/legal-notice_en"
-msgstr "https://ec.europa.eu/info/legal-notice_sl"
+msgid "https://commission.europa.eu/legal-notice_en"
+msgstr "https://commission.europa.eu/legal-notice_sl"
 
 msgid "Social media"
 msgstr "Družbeni mediji"

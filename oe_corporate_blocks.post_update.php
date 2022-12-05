@@ -225,3 +225,11 @@ function oe_corporate_blocks_post_update_40004(&$sandbox): void {
   $config_path = drupal_get_path('module', 'oe_corporate_blocks') . '/config/post_update/40004_update_footer_data';
   _oe_corporate_blocks_import_corporate_links($config_path);
 }
+
+/**
+ * Change the core site url in footer data.
+ */
+function oe_corporate_blocks_post_update_40005(&$sandbox): void {
+  $config_path = \Drupal::service('extension.list.module')->getPath('oe_corporate_blocks') . '/config/post_update/40005_update_footer_data';
+  _oe_corporate_blocks_import_corporate_links($config_path);
+}
