@@ -175,8 +175,11 @@ msgstr "https://european-union.europa.eu/cookies_it"
 msgid "Accessibility"
 msgstr "Accessibilità"
 
-msgid "https://european-union.europa.eu/web-accessibility-policy_en"
-msgstr "https://european-union.europa.eu/web-accessibility-policy_it"
+msgid "https://european-union.europa.eu/accessibility-statement_en"
+msgstr "https://european-union.europa.eu/accessibility-statement_it"
+
+msgid "https://commission.europa.eu/accessibility-statement_en"
+msgstr "https://commission.europa.eu/accessibility-statement_it"
 
 msgid "https://ec.europa.eu/info/index_en"
 msgstr "https://ec.europa.eu/info/index_it"

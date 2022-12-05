@@ -68,7 +68,7 @@
       <ul class="footer__list footer__service_navigation">
         {% for menu_item in corporate_footer.service_navigation %}
           <li>
-            {{ link(menu_item.label, menu_item.href, create_attribute({'class': [menu_item.external ? 'external' ]})) }}
+            {{ link(menu_item.label, menu_item.href, create_attribute({'class': [menu_item.external ? 'external', menu_item.branding ]})) }}
           </li>
         {% endfor %}
       </ul>
