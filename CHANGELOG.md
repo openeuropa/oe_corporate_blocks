@@ -1,11 +1,21 @@
 # Changelog
 
+## [4.10.0](https://github.com/openeuropa/oe_corporate_blocks/tree/4.10.0) (2022-12-05)
+
+[Full Changelog](https://github.com/openeuropa/oe_corporate_blocks/compare/4.9.0...4.10.0)
+
+**Merged pull requests:**
+
+- EWPP-2831: Add Accessibility link into EC footer. [\#119](https://github.com/openeuropa/oe_corporate_blocks/pull/119) ([sergepavle](https://github.com/sergepavle))
+- EWPP-2666: Fix the 'European Personnel Selection Office' translation for the Finnish language. [\#117](https://github.com/openeuropa/oe_corporate_blocks/pull/117) ([sergepavle](https://github.com/sergepavle))
+
 ## [4.9.0](https://github.com/openeuropa/oe_corporate_blocks/tree/4.9.0) (2022-11-04)
 
 [Full Changelog](https://github.com/openeuropa/oe_corporate_blocks/compare/4.8.0...4.9.0)
 
 **Merged pull requests:**
 
+- Prepare release 4.9.0. [\#118](https://github.com/openeuropa/oe_corporate_blocks/pull/118) ([imanoleguskiza](https://github.com/imanoleguskiza))
 - EWPP-2596: Update EPSO link in EU footer. [\#116](https://github.com/openeuropa/oe_corporate_blocks/pull/116) ([22Alexandra](https://github.com/22Alexandra))
 
 ## [4.8.0](https://github.com/openeuropa/oe_corporate_blocks/tree/4.8.0) (2022-08-02)
