@@ -181,92 +181,92 @@ msgstr "https://european-union.europa.eu/accessibility-statement_ga"
 msgid "https://commission.europa.eu/accessibility-statement_en"
 msgstr "https://commission.europa.eu/accessibility-statement_ga"
 
-msgid "https://ec.europa.eu/info/index_en"
-msgstr "https://ec.europa.eu/info/index_ga"
+msgid "https://commission.europa.eu/index_en"
+msgstr "https://commission.europa.eu/index_ga"
 
 msgid "European Commission website"
 msgstr "Suíomh gréasáin an Choimisiúin Eorpaigh"
 
-msgid "https://ec.europa.eu/info/strategy_en"
-msgstr "https://ec.europa.eu/info/strategy_ga"
+msgid "https://commission.europa.eu/strategy_en"
+msgstr "https://commission.europa.eu/strategy_ga"
 
 msgid "Strategy"
 msgstr "Straitéis"
 
-msgid "https://ec.europa.eu/info/about-european-commission_en"
-msgstr "https://ec.europa.eu/info/about-european-commission_ga"
+msgid "https://commission.europa.eu/about-european-commission_en"
+msgstr "https://commission.europa.eu/about-european-commission_ga"
 
 msgid "About the European Commission"
 msgstr "Eolas faoin gCoimisiún Eorpach"
 
-msgid "https://ec.europa.eu/info/business-economy-euro_en"
-msgstr "https://ec.europa.eu/info/business-economy-euro_ga"
+msgid "https://commission.europa.eu/business-economy-euro_en"
+msgstr "https://commission.europa.eu/business-economy-euro_ga"
 
 msgid "Business, Economy, Euro"
 msgstr "Gnó, an geilleagar, an euro"
 
-msgid "https://ec.europa.eu/info/live-work-travel-eu_en"
-msgstr "https://ec.europa.eu/info/live-work-travel-eu_ga"
+msgid "https://commission.europa.eu/live-work-travel-eu_en"
+msgstr "https://commission.europa.eu/live-work-travel-eu_ga"
 
 msgid "Live, work, travel in the EU"
 msgstr "Cúrsaí saoil, oibre agus taistil san Aontas Eorpach"
 
-msgid "https://ec.europa.eu/info/law_en"
-msgstr "https://ec.europa.eu/info/law_ga"
+msgid "https://commission.europa.eu/law_en"
+msgstr "https://commission.europa.eu/law_ga"
 
 msgid "Law"
 msgstr "An dlí"
 
-msgid "https://ec.europa.eu/info/funding-tenders_en"
-msgstr "https://ec.europa.eu/info/funding-tenders_ga"
+msgid "https://commission.europa.eu/funding-tenders_en"
+msgstr "https://commission.europa.eu/funding-tenders_ga"
 
 msgid "Funding, Tenders"
 msgstr "Maoiniú, Glaonna ar Thairiscintí"
 
-msgid "https://ec.europa.eu/info/research-and-innovation_en"
-msgstr "https://ec.europa.eu/info/research-and-innovation_ga"
+msgid "https://commission.europa.eu/research-and-innovation_en"
+msgstr "https://commission.europa.eu/research-and-innovation_ga"
 
 msgid "Research and innovation"
 msgstr "Taighde agus nuálaíocht"
 
-msgid "https://ec.europa.eu/info/energy-climate-change-environment_en"
-msgstr "https://ec.europa.eu/info/energy-climate-change-environment_ga"
+msgid "https://commission.europa.eu/energy-climate-change-environment_en"
+msgstr "https://commission.europa.eu/energy-climate-change-environment_ga"
 
 msgid "Energy, Climate change, Environment"
 msgstr "Fuinneamh, an t-athrú aeráide, an comhshaol"
 
-msgid "https://ec.europa.eu/info/education_en"
-msgstr "https://ec.europa.eu/info/education_ga"
+msgid "https://commission.europa.eu/education_en"
+msgstr "https://commission.europa.eu/education_ga"
 
 msgid "Education"
 msgstr "Oideachas"
 
-msgid "https://ec.europa.eu/info/aid-development-cooperation-fundamental-rights_en"
-msgstr "https://ec.europa.eu/info/aid-development-cooperation-fundamental-rights_ga"
+msgid "https://commission.europa.eu/aid-development-cooperation-fundamental-rights_en"
+msgstr "https://commission.europa.eu/aid-development-cooperation-fundamental-rights_ga"
 
 msgid "Aid, Development cooperation, Fundamental rights"
 msgstr "Cabhair, comhar don fhorbairt, cearta bunúsacha"
 
-msgid "https://ec.europa.eu/info/food-farming-fisheries_en"
-msgstr "https://ec.europa.eu/info/food-farming-fisheries_ga"
+msgid "https://commission.europa.eu/food-farming-fisheries_en"
+msgstr "https://commission.europa.eu/food-farming-fisheries_ga"
 
 msgid "Food, Farming, Fisheries"
 msgstr "Bia, Feirmeoireacht, Iascaigh"
 
-msgid "https://ec.europa.eu/info/eu-regional-and-urban-development_en"
-msgstr "https://ec.europa.eu/info/eu-regional-and-urban-development_ga"
+msgid "https://commission.europa.eu/eu-regional-and-urban-development_en"
+msgstr "https://commission.europa.eu/eu-regional-and-urban-development_ga"
 
 msgid "EU regional and urban development"
 msgstr "Infheistíocht réigiúnach agus uirbeach an Aontais"
 
-msgid "https://ec.europa.eu/info/jobs-european-commission_en"
-msgstr "https://ec.europa.eu/info/jobs-european-commission_ga"
+msgid "https://commission.europa.eu/jobs-european-commission_en"
+msgstr "https://commission.europa.eu/jobs-european-commission_ga"
 
 msgid "Jobs at the European Commission"
 msgstr "Poist leis an gCoimisiún Eorpach"
 
-msgid "https://ec.europa.eu/info/statistics_en"
-msgstr "https://ec.europa.eu/info/statistics_ga"
+msgid "https://commission.europa.eu/statistics_en"
+msgstr "https://commission.europa.eu/statistics_ga"
 
 msgid "Statistics"
 msgstr "Statisticí"
@@ -277,20 +277,20 @@ msgstr "https://ec.europa.eu/commission/presscorner/home/ga"
 msgid "News"
 msgstr "Nuacht"
 
-msgid "https://ec.europa.eu/info/events_en"
-msgstr "https://ec.europa.eu/info/events_ga"
+msgid "https://commission.europa.eu/events_en"
+msgstr "https://commission.europa.eu/events_ga"
 
 msgid "Events"
 msgstr "Imeachtaí"
 
-msgid "https://ec.europa.eu/info/publications_en"
-msgstr "https://ec.europa.eu/info/publications_ga"
+msgid "https://commission.europa.eu/publications_en"
+msgstr "https://commission.europa.eu/publications_ga"
 
 msgid "Publications"
 msgstr "Foilseacháin"
 
-msgid "https://ec.europa.eu/info/about-european-commission/contact_en"
-msgstr "https://ec.europa.eu/info/about-european-commission/contact_ga"
+msgid "https://commission.europa.eu/about-european-commission/contact_en"
+msgstr "https://commission.europa.eu/about-european-commission/contact_ga"
 
 msgid "Contact the European Commission"
 msgstr "Teagmháil a dhéanamh leis an gCoimisiún Eorpach"
@@ -301,23 +301,23 @@ msgstr "https://european-union.europa.eu/contact-eu/social-media-channels_ga#/se
 msgid "Follow the European Commission on social media"
 msgstr "Lean an Coimisiún Eorpach ar na meáin shóisialta"
 
-msgid "https://ec.europa.eu/info/resources-partners_en"
-msgstr "https://ec.europa.eu/info/resources-partners_ga"
+msgid "https://commission.europa.eu/resources-partners_en"
+msgstr "https://commission.europa.eu/resources-partners_ga"
 
 msgid "Resources for partners"
 msgstr "Acmhainní le haghaidh comhpháirtithe"
 
-msgid "https://ec.europa.eu/info/language-policy_en"
-msgstr "https://ec.europa.eu/info/language-policy_ga"
+msgid "https://commission.europa.eu/language-policy_en"
+msgstr "https://commission.europa.eu/language-policy_ga"
 
-msgid "https://ec.europa.eu/info/cookies_en"
-msgstr "https://ec.europa.eu/info/cookies_ga"
+msgid "https://commission.europa.eu/cookies_en"
+msgstr "https://commission.europa.eu/cookies_ga"
 
-msgid "https://ec.europa.eu/info/privacy-policy_en"
-msgstr "https://ec.europa.eu/info/privacy-policy_ga"
+msgid "https://commission.europa.eu/privacy-policy_en"
+msgstr "https://commission.europa.eu/privacy-policy_ga"
 
-msgid "https://ec.europa.eu/info/legal-notice_en"
-msgstr "https://ec.europa.eu/info/legal-notice_ga"
+msgid "https://commission.europa.eu/legal-notice_en"
+msgstr "https://commission.europa.eu/legal-notice_ga"
 
 msgid "Social media"
 msgstr "Na meáin shóisialta"

@@ -184,94 +184,94 @@ msgstr "https://european-union.europa.eu/accessibility-statement_lt"
 msgid "https://commission.europa.eu/accessibility-statement_en"
 msgstr "https://commission.europa.eu/accessibility-statement_lt"
 
-msgid "https://ec.europa.eu/info/index_en"
-msgstr "https://ec.europa.eu/info/index_lt"
+msgid "https://commission.europa.eu/index_en"
+msgstr "https://commission.europa.eu/index_lt"
 
 msgid "European Commission website"
 msgstr "Europos Komisijos interneto svetainė"
 
-msgid "https://ec.europa.eu/info/strategy_en"
-msgstr "https://ec.europa.eu/info/strategy_lt"
+msgid "https://commission.europa.eu/strategy_en"
+msgstr "https://commission.europa.eu/strategy_lt"
 
 msgid "Strategy"
 msgstr "Strategija"
 
-msgid "https://ec.europa.eu/info/about-european-commission_en"
-msgstr "https://ec.europa.eu/info/about-european-commission_lt"
+msgid "https://commission.europa.eu/about-european-commission_en"
+msgstr "https://commission.europa.eu/about-european-commission_lt"
 
 msgid "About the European Commission"
 msgstr "Apie Europos Komisiją"
 
-msgid "https://ec.europa.eu/info/business-economy-euro_en"
-msgstr "https://ec.europa.eu/info/business-economy-euro_lt"
+msgid "https://commission.europa.eu/business-economy-euro_en"
+msgstr "https://commission.europa.eu/business-economy-euro_lt"
 
 msgid "Business, Economy, Euro"
 msgstr "Verslas, ekonomika, euras"
 
-msgid "https://ec.europa.eu/info/live-work-travel-eu_en"
-msgstr "https://ec.europa.eu/info/live-work-travel-eu_lt"
+msgid "https://commission.europa.eu/live-work-travel-eu_en"
+msgstr "https://commission.europa.eu/live-work-travel-eu_lt"
 
 msgid "Live, work, travel in the EU"
 msgstr "Gyvenimas, darbas, kelionės ES"
 
-msgid "https://ec.europa.eu/info/law_en"
-msgstr "https://ec.europa.eu/info/law_lt"
+msgid "https://commission.europa.eu/law_en"
+msgstr "https://commission.europa.eu/law_lt"
 
 msgid "Law"
 msgstr "Jogi szabályozás"
 
-msgid "https://ec.europa.eu/info/funding-tenders_en"
-msgstr "https://ec.europa.eu/info/funding-tenders_lt"
+msgid "https://commission.europa.eu/funding-tenders_en"
+msgstr "https://commission.europa.eu/funding-tenders_lt"
 
 msgid "Funding, Tenders"
 msgstr "Finansavimas, viešieji pirkimai"
 
-msgid "https://ec.europa.eu/info/research-and-innovation_en"
-msgstr "https://ec.europa.eu/info/research-and-innovation_lt"
+msgid "https://commission.europa.eu/research-and-innovation_en"
+msgstr "https://commission.europa.eu/research-and-innovation_lt"
 
 msgid "Research and innovation"
 msgstr "Moksliniai tyrimai ir inovacijos"
 
-msgid "https://ec.europa.eu/info/energy-climate-change-environment_en"
-msgstr "https://ec.europa.eu/info/energy-climate-change-environment_lt"
+msgid "https://commission.europa.eu/energy-climate-change-environment_en"
+msgstr "https://commission.europa.eu/energy-climate-change-environment_lt"
 
 msgid "Energy, Climate change, Environment"
 msgstr "Energija, klimato kaita, aplinka"
 
-msgid "https://ec.europa.eu/info/education_en"
-msgstr "https://ec.europa.eu/info/education_lt"
+msgid "https://commission.europa.eu/education_en"
+msgstr "https://commission.europa.eu/education_lt"
 
 msgid "Education"
 msgstr "Švietimas"
 
-msgid "https://ec.europa.eu/info/aid-development-cooperation-fundamental-rights_en"
-msgstr "https://ec.europa.eu/info/aid-development-cooperation-fundamental-rights_lt"
+msgid "https://commission.europa.eu/aid-development-cooperation-fundamental-rights_en"
+msgstr "https://commission.europa.eu/aid-development-cooperation-fundamental-rights_lt"
 
 msgid "Aid, Development cooperation, Fundamental rights"
 msgstr ""
 "Humanitarinė pagalba, vystomasis bendradarbiavimas, pagrindinės "
 "teisės"
 
-msgid "https://ec.europa.eu/info/food-farming-fisheries_en"
-msgstr "https://ec.europa.eu/info/food-farming-fisheries_lt"
+msgid "https://commission.europa.eu/food-farming-fisheries_en"
+msgstr "https://commission.europa.eu/food-farming-fisheries_lt"
 
 msgid "Food, Farming, Fisheries"
 msgstr "Maistas, ūkininkavimas, žuvininkystė"
 
-msgid "https://ec.europa.eu/info/eu-regional-and-urban-development_en"
-msgstr "https://ec.europa.eu/info/eu-regional-and-urban-development_lt"
+msgid "https://commission.europa.eu/eu-regional-and-urban-development_en"
+msgstr "https://commission.europa.eu/eu-regional-and-urban-development_lt"
 
 msgid "EU regional and urban development"
 msgstr "ES regionų ir miestų plėtra"
 
-msgid "https://ec.europa.eu/info/jobs-european-commission_en"
-msgstr "https://ec.europa.eu/info/jobs-european-commission_lt"
+msgid "https://commission.europa.eu/jobs-european-commission_en"
+msgstr "https://commission.europa.eu/jobs-european-commission_lt"
 
 msgid "Jobs at the European Commission"
 msgstr "Darbas Europos Komisijoje"
 
-msgid "https://ec.europa.eu/info/statistics_en"
-msgstr "https://ec.europa.eu/info/statistics_lt"
+msgid "https://commission.europa.eu/statistics_en"
+msgstr "https://commission.europa.eu/statistics_lt"
 
 msgid "Statistics"
 msgstr "Statistika"
@@ -282,20 +282,20 @@ msgstr "https://ec.europa.eu/commission/presscorner/home/lt"
 msgid "News"
 msgstr "Naujienos"
 
-msgid "https://ec.europa.eu/info/events_en"
-msgstr "https://ec.europa.eu/info/events_lt"
+msgid "https://commission.europa.eu/events_en"
+msgstr "https://commission.europa.eu/events_lt"
 
 msgid "Events"
 msgstr "Renginiai"
 
-msgid "https://ec.europa.eu/info/publications_en"
-msgstr "https://ec.europa.eu/info/publications_lt"
+msgid "https://commission.europa.eu/publications_en"
+msgstr "https://commission.europa.eu/publications_lt"
 
 msgid "Publications"
 msgstr "Leidiniai"
 
-msgid "https://ec.europa.eu/info/about-european-commission/contact_en"
-msgstr "https://ec.europa.eu/info/about-european-commission/contact_lt"
+msgid "https://commission.europa.eu/about-european-commission/contact_en"
+msgstr "https://commission.europa.eu/about-european-commission/contact_lt"
 
 msgid "Contact the European Commission"
 msgstr "Susisiekite su Europos Komisija"
@@ -306,23 +306,23 @@ msgstr "https://european-union.europa.eu/contact-eu/social-media-channels_lt#/se
 msgid "Follow the European Commission on social media"
 msgstr "Sekite Europos Komisijos naujienas socialiniuose tinkluose"
 
-msgid "https://ec.europa.eu/info/resources-partners_en"
-msgstr "https://ec.europa.eu/info/resources-partners_lt"
+msgid "https://commission.europa.eu/resources-partners_en"
+msgstr "https://commission.europa.eu/resources-partners_lt"
 
 msgid "Resources for partners"
 msgstr "Ištekliai partneriams"
 
-msgid "https://ec.europa.eu/info/language-policy_en"
-msgstr "https://ec.europa.eu/info/language-policy_lt"
+msgid "https://commission.europa.eu/language-policy_en"
+msgstr "https://commission.europa.eu/language-policy_lt"
 
-msgid "https://ec.europa.eu/info/cookies_en"
-msgstr "https://ec.europa.eu/info/cookies_lt"
+msgid "https://commission.europa.eu/cookies_en"
+msgstr "https://commission.europa.eu/cookies_lt"
 
-msgid "https://ec.europa.eu/info/privacy-policy_en"
-msgstr "https://ec.europa.eu/info/privacy-policy_lt"
+msgid "https://commission.europa.eu/privacy-policy_en"
+msgstr "https://commission.europa.eu/privacy-policy_lt"
 
-msgid "https://ec.europa.eu/info/legal-notice_en"
-msgstr "https://ec.europa.eu/info/legal-notice_lt"
+msgid "https://commission.europa.eu/legal-notice_en"
+msgstr "https://commission.europa.eu/legal-notice_lt"
 
 msgid "Social media"
 msgstr "Socialiniai tinklai"
