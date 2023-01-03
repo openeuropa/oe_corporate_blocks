@@ -1,11 +1,20 @@
 # Changelog
 
+## [4.11.0](https://github.com/openeuropa/oe_corporate_blocks/tree/4.11.0) (2023-01-03)
+
+[Full Changelog](https://github.com/openeuropa/oe_corporate_blocks/compare/4.10.0...4.11.0)
+
+**Merged pull requests:**
+
+- EWPP-2827: URL change of core site. [\#120](https://github.com/openeuropa/oe_corporate_blocks/pull/120) ([nagyad](https://github.com/nagyad))
+
 ## [4.10.0](https://github.com/openeuropa/oe_corporate_blocks/tree/4.10.0) (2022-12-05)
 
 [Full Changelog](https://github.com/openeuropa/oe_corporate_blocks/compare/4.9.0...4.10.0)
 
 **Merged pull requests:**
 
+- Prepare release 4.10.0. [\#121](https://github.com/openeuropa/oe_corporate_blocks/pull/121) ([imanoleguskiza](https://github.com/imanoleguskiza))
 - EWPP-2831: Add Accessibility link into EC footer. [\#119](https://github.com/openeuropa/oe_corporate_blocks/pull/119) ([sergepavle](https://github.com/sergepavle))
 - EWPP-2666: Fix the 'European Personnel Selection Office' translation for the Finnish language. [\#117](https://github.com/openeuropa/oe_corporate_blocks/pull/117) ([sergepavle](https://github.com/sergepavle))
 
