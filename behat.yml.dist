@@ -18,7 +18,7 @@ default:
               footer social links manager: 'admin/config/footer_link_social'
   extensions:
     Drupal\MinkExtension:
-      goutte: ~
+      browserkit_http: ~
       selenium2: ~
       ajax_timeout: 10
       javascript_session: selenium2
