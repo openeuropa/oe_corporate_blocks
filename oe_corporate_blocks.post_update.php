@@ -235,11 +235,12 @@ function oe_corporate_blocks_post_update_40005(&$sandbox): void {
 }
 
 /**
- * Updates 'Language policy' label and link of EC footer data.
+ * Updates links of EC footer data.
  */
 function oe_corporate_blocks_post_update_40006(): void {
   $config = \Drupal::configFactory()->getEditable('oe_corporate_blocks.ec_data.footer');
   $legal_navigation = $config->get('legal_navigation');
+  // Update the 'Language policy' label and link.
   foreach ($legal_navigation as $key => $link) {
     if (
       $link['label'] === 'Language policy' &&
@@ -250,5 +251,16 @@ function oe_corporate_blocks_post_update_40006(): void {
     }
   }
   $config->set('legal_navigation', $legal_navigation);
+  // Set the 'Follow the European Commission on social media' internal.
+  $service_navigation = $config->get('service_navigation');
+  foreach ($service_navigation as $key => $link) {
+    if (
+      $link['label'] === 'Follow the European Commission on social media' &&
+      $link['href'] === 'https://european-union.europa.eu/contact-eu/social-media-channels_en#/search?page=0&institutions=european_commission'
+    ) {
+      $service_navigation[$key]['external'] = FALSE;
+    }
+  }
+  $config->set('service_navigation', $service_navigation);
   $config->save();
 }
