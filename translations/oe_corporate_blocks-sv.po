@@ -142,14 +142,14 @@ msgstr "Om webbplatsen"
 msgid "https://europa.eu/european-union/abouteuropa_en"
 msgstr "https://europa.eu/european-union/abouteuropa_sv"
 
-msgid "Language policy"
-msgstr "Språkpolicy"
-
 msgid "Languages on our websites"
 msgstr "Språkpolicy för våra webbplatser"
 
 msgid "https://european-union.europa.eu/languages-our-websites_en"
 msgstr "https://european-union.europa.eu/languages-our-websites_sv"
+
+msgid "https://commission.europa.eu/languages-our-websites_en"
+msgstr "https://commission.europa.eu/languages-our-websites_sv"
 
 msgid "Privacy policy"
 msgstr "Integritetspolicy"

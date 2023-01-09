@@ -145,14 +145,14 @@ msgstr "Informacje o stronie"
 msgid "https://europa.eu/european-union/abouteuropa_en"
 msgstr "https://europa.eu/european-union/abouteuropa_pl"
 
-msgid "Language policy"
-msgstr "Polityka językowa"
-
 msgid "Languages on our websites"
 msgstr "Nasze strony w różnych wersjach językowych"
 
 msgid "https://european-union.europa.eu/languages-our-websites_en"
 msgstr "https://european-union.europa.eu/languages-our-websites_pl"
+
+msgid "https://commission.europa.eu/languages-our-websites_en"
+msgstr "https://commission.europa.eu/languages-our-websites_pl"
 
 msgid "Privacy policy"
 msgstr "Polityka prywatności"

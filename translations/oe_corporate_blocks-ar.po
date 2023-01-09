@@ -82,9 +82,6 @@ msgstr "الوكالات"
 msgid "About this site"
 msgstr "معلومات حول هذا الموقع"
 
-msgid "Language policy"
-msgstr "سياسة اللغات"
-
 msgid "Privacy policy"
 msgstr "سياسة الخصوصية"
 

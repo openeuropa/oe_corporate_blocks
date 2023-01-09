@@ -233,3 +233,22 @@ function oe_corporate_blocks_post_update_40005(&$sandbox): void {
   $config_path = \Drupal::service('extension.list.module')->getPath('oe_corporate_blocks') . '/config/post_update/40005_update_footer_data';
   _oe_corporate_blocks_import_corporate_links($config_path);
 }
+
+/**
+ * Updates 'Language policy' label and link of EC footer data.
+ */
+function oe_corporate_blocks_post_update_40006(): void {
+  $config = \Drupal::configFactory()->getEditable('oe_corporate_blocks.ec_data.footer');
+  $legal_navigation = $config->get('legal_navigation');
+  foreach ($legal_navigation as $key => $link) {
+    if (
+      $link['label'] === 'Language policy' &&
+      $link['href'] === 'https://commission.europa.eu/language-policy_en'
+    ) {
+      $legal_navigation[$key]['label'] = 'Languages on our websites';
+      $legal_navigation[$key]['href'] = 'https://commission.europa.eu/languages-our-websites_en';
+    }
+  }
+  $config->set('legal_navigation', $legal_navigation);
+  $config->save();
+}

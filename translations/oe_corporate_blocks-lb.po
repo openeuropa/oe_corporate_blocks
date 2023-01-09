@@ -64,9 +64,6 @@ msgstr "Suivéiert d' Europäesch Kommissioun op de soziale Medien"
 msgid "Resources for partners"
 msgstr "Ressourcë fir Partner"
 
-msgid "Language policy"
-msgstr "Sproochepolitik"
-
 msgid "Privacy policy"
 msgstr "Dateschutzerklärung"
 

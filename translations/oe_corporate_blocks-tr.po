@@ -82,9 +82,6 @@ msgstr "Ajanslar"
 msgid "About this site"
 msgstr "Bu site hakkında"
 
-msgid "Language policy"
-msgstr "Dil politikası"
-
 msgid "Privacy policy"
 msgstr "Gizlilik politikası"
 

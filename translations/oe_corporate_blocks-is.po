@@ -82,9 +82,6 @@ msgstr "Stofnanir"
 msgid "About this site"
 msgstr "Um þessa síðu"
 
-msgid "Language policy"
-msgstr "Málstefna"
-
 msgid "Privacy policy"
 msgstr "Friðhelgisstefna"
 

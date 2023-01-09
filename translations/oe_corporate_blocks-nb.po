@@ -82,9 +82,6 @@ msgstr "Byråer"
 msgid "About this site"
 msgstr "Om nettstedet"
 
-msgid "Language policy"
-msgstr "Vår språkpolitikk"
-
 msgid "Privacy policy"
 msgstr "Personvern"
 

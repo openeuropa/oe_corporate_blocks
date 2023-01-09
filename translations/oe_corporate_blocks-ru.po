@@ -82,9 +82,6 @@ msgstr "Агентства"
 msgid "About this site"
 msgstr "Об этом сайте"
 
-msgid "Language policy"
-msgstr "Языковая политика"
-
 msgid "Privacy policy"
 msgstr "Политика конфиденциальности"
 
