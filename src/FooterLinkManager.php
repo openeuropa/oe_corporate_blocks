@@ -63,7 +63,7 @@ class FooterLinkManager implements FooterLinkManagerInterface {
    */
   public function getLinksWithoutSection(): array {
     $entity_ids = $this->linkStorage->getQuery()
-      ->condition('section', NULL)
+      ->condition('section', '')
       ->sort('weight')
       ->execute();
     return $this->linkStorage->loadMultiple($entity_ids);
