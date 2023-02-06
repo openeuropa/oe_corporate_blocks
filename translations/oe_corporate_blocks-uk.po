@@ -82,9 +82,6 @@ msgstr "Європейський інспектор із захисту дани
 msgid "About this site"
 msgstr "Про цей сайт"
 
-msgid "Language policy"
-msgstr "Мовна політика"
-
 msgid "Languages on our websites"
 msgstr "Мови на наших вебсайтах"
 

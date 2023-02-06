@@ -142,14 +142,14 @@ msgstr "Faoin suíomh seo"
 msgid "https://europa.eu/european-union/abouteuropa_en"
 msgstr "https://europa.eu/european-union/abouteuropa_ga"
 
-msgid "Language policy"
-msgstr "Beartas teanga"
-
 msgid "Languages on our websites"
 msgstr "Teangacha ar ár suíomhanna gréasáin"
 
 msgid "https://european-union.europa.eu/languages-our-websites_en"
 msgstr "https://european-union.europa.eu/languages-our-websites_ga"
+
+msgid "https://commission.europa.eu/languages-our-websites_en"
+msgstr "https://commission.europa.eu/languages-our-websites_ga"
 
 msgid "Privacy policy"
 msgstr "Beartas príobháideachais"

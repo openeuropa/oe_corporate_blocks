@@ -148,14 +148,14 @@ msgstr "За този сайт"
 msgid "https://europa.eu/european-union/abouteuropa_en"
 msgstr "https://europa.eu/european-union/abouteuropa_bg"
 
-msgid "Language policy"
-msgstr "Езикова политика"
-
 msgid "Languages on our websites"
 msgstr "Езици на нашите уебсайтове"
 
 msgid "https://european-union.europa.eu/languages-our-websites_en"
 msgstr "https://european-union.europa.eu/languages-our-websites_bg"
+
+msgid "https://commission.europa.eu/languages-our-websites_en"
+msgstr "https://commission.europa.eu/languages-our-websites_bg"
 
 msgid "Privacy policy"
 msgstr "Политика за поверителност"

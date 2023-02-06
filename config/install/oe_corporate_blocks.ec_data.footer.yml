@@ -63,7 +63,7 @@ service_navigation:
     href: 'https://commission.europa.eu/accessibility-statement_en'
     label: 'Accessibility'
   -
-    external: true
+    external: false
     href: 'https://european-union.europa.eu/contact-eu/social-media-channels_en#/search?page=0&institutions=european_commission'
     label: 'Follow the European Commission on social media'
   -
@@ -71,8 +71,8 @@ service_navigation:
     label: 'Resources for partners'
 legal_navigation:
   -
-    href: 'https://commission.europa.eu/language-policy_en'
-    label: 'Language policy'
+    href: 'https://commission.europa.eu/languages-our-websites_en'
+    label: 'Languages on our websites'
   -
     href: 'https://commission.europa.eu/cookies_en'
     label: Cookies

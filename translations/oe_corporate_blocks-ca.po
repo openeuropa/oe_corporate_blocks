@@ -82,9 +82,6 @@ msgstr "Agències"
 msgid "About this site"
 msgstr "Sobre aquest web"
 
-msgid "Language policy"
-msgstr "Política lingüística"
-
 msgid "Privacy policy"
 msgstr "Política de privacitat"
 

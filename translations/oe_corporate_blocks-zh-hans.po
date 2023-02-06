@@ -82,9 +82,6 @@ msgstr "欧洲数据保护监管机构 (EDPS)"
 msgid "About this site"
 msgstr "关于本站"
 
-msgid "Language policy"
-msgstr "语言政策"
-
 msgid "Languages on our websites"
 msgstr "我们网站使用的语言"
 

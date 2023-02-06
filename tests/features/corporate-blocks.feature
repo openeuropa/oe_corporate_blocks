@@ -35,7 +35,7 @@ Feature: Corporate blocks feature
       | Accessibility                                    | https://commission.europa.eu/accessibility-statement_en                                                                 |
       | Follow the European Commission on social media   | https://european-union.europa.eu/contact-eu/social-media-channels_en#/search?page=0&institutions=european_commission    |
       | Resources for partners                           | https://commission.europa.eu/resources-partners_en                                                                      |
-      | Language policy                                  | https://commission.europa.eu/language-policy_en                                                                         |
+      | Languages on our websites                        | https://commission.europa.eu/languages-our-websites_en                                                                  |
       | Cookies                                          | https://commission.europa.eu/cookies_en                                                                                 |
       | Privacy policy                                   | https://commission.europa.eu/privacy-policy_en                                                                          |
       | Legal notice                                     | https://commission.europa.eu/legal-notice_en                                                                            |
@@ -64,7 +64,7 @@ Feature: Corporate blocks feature
       | Accessibilité                                             | https://commission.europa.eu/accessibility-statement_fr                                                                 |
       | Suivre la Commission européenne sur les médias sociaux    | https://european-union.europa.eu/contact-eu/social-media-channels_fr#/search?page=0&institutions=european_commission    |
       | Ressources pour les partenaires                           | https://commission.europa.eu/resources-partners_fr                                                                      |
-      | Politique linguistique                                    | https://commission.europa.eu/language-policy_fr                                                                         |
+      | Les langues sur nos sites web                             | https://commission.europa.eu/languages-our-websites_fr                                                                  |
       | Cookies                                                   | https://commission.europa.eu/cookies_fr                                                                                 |
       | Protection de la vie privée                               | https://commission.europa.eu/privacy-policy_fr                                                                          |
       | Avis juridique                                            | https://commission.europa.eu/legal-notice_fr                                                                            |

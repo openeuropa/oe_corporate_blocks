@@ -153,14 +153,14 @@ msgstr "Γενικά"
 msgid "https://europa.eu/european-union/abouteuropa_en"
 msgstr "https://europa.eu/european-union/abouteuropa_el"
 
-msgid "Language policy"
-msgstr "Γλωσσική πολιτική"
-
 msgid "Languages on our websites"
 msgstr "Γλώσσες στις οποίες είναι διαθέσιμοι οι ιστότοποί μας"
 
 msgid "https://european-union.europa.eu/languages-our-websites_en"
 msgstr "https://european-union.europa.eu/languages-our-websites_el"
+
+msgid "https://commission.europa.eu/languages-our-websites_en"
+msgstr "https://commission.europa.eu/languages-our-websites_el"
 
 msgid "Privacy policy"
 msgstr "Πολιτική απορρήτου"
