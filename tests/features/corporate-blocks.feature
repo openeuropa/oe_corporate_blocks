@@ -80,7 +80,7 @@ Feature: Corporate blocks feature
       | fr        |
     And I set the site owner to "Directorate-General for Informatics"
     When I am on "the <path> page"
-    Then I should see "This site is managed by the European Commission, Directorate-General for Informatics" in the "eu_footer" region
+    Then I should see "This site is managed by Directorate-General for Informatics and is an official website of the European Union" in the "eu_footer" region
     And I should see "Social media" in the "eu_footer" region
     And I should see "EU institutions" in the "eu_footer" region
     And I should see "Legal" in the "eu_footer_bottom_title" region
