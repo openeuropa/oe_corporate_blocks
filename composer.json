@@ -8,7 +8,7 @@
     "require": {
         "php": ">=8.0",
         "drupal/core": "^9.4",
-        "openeuropa/oe_corporate_site_info": "1.x-dev"
+        "openeuropa/oe_corporate_site_info": "^1.0.0-alpha6"
     },
     "require-dev": {
         "behat/behat": "^3.10",
@@ -21,10 +21,10 @@
         "drush/drush": "^11.1",
         "guzzlehttp/guzzle": "^7.0",
         "masterminds/html5": "^2.7.6",
-        "openeuropa/behat-transformation-context": "~0.1",
-        "openeuropa/code-review": "^2.0",
+        "openeuropa/behat-transformation-context": "^0.2",
+        "openeuropa/code-review": "^2.0.0-alpha6",
         "openeuropa/oe_multilingual": "^1.10",
-        "openeuropa/task-runner-drupal-project-symlink": "^1.0-beta5",
+        "openeuropa/task-runner-drupal-project-symlink": "^1.0-beta6",
         "phpspec/prophecy-phpunit": "^2",
         "symfony/console": "^4.4.30",
         "symfony/css-selector": "^4.4.44",
