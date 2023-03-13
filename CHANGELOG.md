@@ -1,11 +1,23 @@
 # Changelog
 
+## [4.12.0](https://github.com/openeuropa/oe_corporate_blocks/tree/4.12.0) (2023-03-13)
+
+[Full Changelog](https://github.com/openeuropa/oe_corporate_blocks/compare/4.11.0...4.12.0)
+
+**Merged pull requests:**
+
+- EWPP-2994: Update corporate site info dependency. [\#127](https://github.com/openeuropa/oe_corporate_blocks/pull/127) ([nagyad](https://github.com/nagyad))
+- EWPP-2893: Update site owner message of EU footer. [\#125](https://github.com/openeuropa/oe_corporate_blocks/pull/125) ([22Alexandra](https://github.com/22Alexandra))
+- EWPP-2883: Updates 'Language policy' label and link of EC footer data. [\#124](https://github.com/openeuropa/oe_corporate_blocks/pull/124) ([22Alexandra](https://github.com/22Alexandra))
+- OEL-2115: Update to PHP 8.1. [\#123](https://github.com/openeuropa/oe_corporate_blocks/pull/123) ([brummbar](https://github.com/brummbar))
+
 ## [4.11.0](https://github.com/openeuropa/oe_corporate_blocks/tree/4.11.0) (2023-01-03)
 
 [Full Changelog](https://github.com/openeuropa/oe_corporate_blocks/compare/4.10.0...4.11.0)
 
 **Merged pull requests:**
 
+- Release-4.11.0: Update changelog. [\#122](https://github.com/openeuropa/oe_corporate_blocks/pull/122) ([nagyad](https://github.com/nagyad))
 - EWPP-2827: URL change of core site. [\#120](https://github.com/openeuropa/oe_corporate_blocks/pull/120) ([nagyad](https://github.com/nagyad))
 
 ## [4.10.0](https://github.com/openeuropa/oe_corporate_blocks/tree/4.10.0) (2022-12-05)
