@@ -4,9 +4,9 @@ dependencies:
   module:
     - oe_corporate_blocks
   theme:
-    - bartik
+    - olivero
 id: ec_footer_block
-theme: bartik
+theme: olivero
 region: footer_fifth
 weight: 0
 provider: null

@@ -4,9 +4,9 @@ dependencies:
   module:
     - language
   theme:
-    - bartik
+    - olivero
 id: languageswitcher
-theme: bartik
+theme: olivero
 region: header
 weight: 0
 provider: null
