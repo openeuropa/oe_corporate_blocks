@@ -34,7 +34,7 @@ function oe_corporate_blocks_demo_post_update_20002() {
  * Add EC and EU demo corporate blocks to active configuration storage.
  */
 function oe_corporate_blocks_demo_post_update_20003() {
-  $config_path = drupal_get_path('module', 'oe_corporate_blocks_demo') . '/config/install';
+  $config_path = \Drupal::service('extension.list.module')->getPath('oe_corporate_blocks_demo') . '/config/install';
   $source = new FileStorage($config_path);
   $config_storage = \Drupal::service('config.storage');
   $config_factory = \Drupal::configFactory();

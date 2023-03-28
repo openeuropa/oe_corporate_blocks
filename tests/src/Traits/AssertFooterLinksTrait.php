@@ -47,9 +47,9 @@ trait AssertFooterLinksTrait {
    */
   protected function assertGeneralLinkEntity(string $label, string $url, string $section, int $weight): void {
     $link = $this->loadLinkByLabel('footer_link_general', $label);
-    $this->assertEqual($link->getUrl()->toString(), $url, "'{$label}' URL was expected to be set to '{$url}', but '{$link->getUrl()->toString()}' was found.");
-    $this->assertEqual($link->getSection(), $section, "'{$label}' section was expected to be set to '{$section}', but '{$link->getSection()}' was found.");
-    $this->assertEqual($link->getWeight(), $weight, "'{$label}' weight was expected to be set to '{$weight}', but '{$link->getWeight()}' was found.");
+    $this->assertEquals($url, $link->getUrl()->toString(), "'{$label}' URL was expected to be set to '{$url}', but '{$link->getUrl()->toString()}' was found.");
+    $this->assertEquals($section, $link->getSection(), "'{$label}' section was expected to be set to '{$section}', but '{$link->getSection()}' was found.");
+    $this->assertEquals($weight, $link->getWeight(), "'{$label}' weight was expected to be set to '{$weight}', but '{$link->getWeight()}' was found.");
   }
 
   /**
@@ -62,7 +62,7 @@ trait AssertFooterLinksTrait {
    */
   protected function assertLinkSectionEntity(string $label, int $weight): void {
     $link = $this->loadLinkByLabel('footer_link_section', $label);
-    $this->assertEqual($link->getWeight(), $weight, "'{$label}' weight was expected to be set to '{$weight}', but '{$link->getWeight()}' was found.");
+    $this->assertEquals($weight, $link->getWeight(), "'{$label}' weight was expected to be set to '{$weight}', but '{$link->getWeight()}' was found.");
   }
 
   /**

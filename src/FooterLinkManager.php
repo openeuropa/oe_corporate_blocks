@@ -43,7 +43,10 @@ class FooterLinkManager implements FooterLinkManagerInterface {
    * {@inheritdoc}
    */
   public function getSections(): array {
-    $entity_ids = $this->sectionStorage->getQuery()->sort('weight')->execute();
+    $entity_ids = $this->sectionStorage->getQuery()
+      ->sort('weight')
+      ->accessCheck()
+      ->execute();
     return $this->sectionStorage->loadMultiple($entity_ids);
   }
 
@@ -54,6 +57,7 @@ class FooterLinkManager implements FooterLinkManagerInterface {
     $entity_ids = $this->linkStorage->getQuery()
       ->condition('section', $section)
       ->sort('weight')
+      ->accessCheck()
       ->execute();
     return $this->linkStorage->loadMultiple($entity_ids);
   }
@@ -65,6 +69,7 @@ class FooterLinkManager implements FooterLinkManagerInterface {
     $entity_ids = $this->linkStorage->getQuery()
       ->condition('section', '')
       ->sort('weight')
+      ->accessCheck()
       ->execute();
     return $this->linkStorage->loadMultiple($entity_ids);
   }

@@ -17,7 +17,7 @@ class FooterLinkManagementTest extends BrowserTestBase {
   /**
    * {@inheritdoc}
    */
-  public static $modules = [
+  protected static $modules = [
     'config',
     'system',
     'oe_corporate_blocks',

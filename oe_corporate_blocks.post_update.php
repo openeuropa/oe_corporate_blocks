@@ -100,7 +100,7 @@ function oe_corporate_blocks_post_update_20002(&$sandbox): void {
 function oe_corporate_blocks_post_update_20003(&$sandbox): void {
   // Clear cached block definition as we have renamed EC footer base class.
   \Drupal::service('plugin.manager.block')->clearCachedDefinitions();
-  $config_path = drupal_get_path('module', 'oe_corporate_blocks') . '/config/post_update/20003_update_footer_data';
+  $config_path = \Drupal::service('extension.list.module')->getPath('oe_corporate_blocks') . '/config/post_update/20003_update_footer_data';
   _oe_corporate_blocks_import_corporate_links($config_path);
 }
 
@@ -135,7 +135,7 @@ function oe_corporate_blocks_post_update_30001(): void {
  * Import updated EC and EU footer data, along with their translations.
  */
 function oe_corporate_blocks_post_update_30002(): void {
-  $config_path = drupal_get_path('module', 'oe_corporate_blocks') . '/config/post_update/30002_update_footer_data';
+  $config_path = \Drupal::service('extension.list.module')->getPath('oe_corporate_blocks') . '/config/post_update/30002_update_footer_data';
   _oe_corporate_blocks_import_corporate_links($config_path);
 }
 
@@ -188,7 +188,7 @@ function oe_corporate_blocks_post_update_30004(): void {
  * Updates EU footer data.
  */
 function oe_corporate_blocks_post_update_40001(): void {
-  $config_path = drupal_get_path('module', 'oe_corporate_blocks') . '/config/post_update/40001_update_eu_footer_data';
+  $config_path = \Drupal::service('extension.list.module')->getPath('oe_corporate_blocks') . '/config/post_update/40001_update_eu_footer_data';
   _oe_corporate_blocks_import_corporate_links($config_path);
 }
 
@@ -196,7 +196,7 @@ function oe_corporate_blocks_post_update_40001(): void {
  * Updates EU and EC footer data.
  */
 function oe_corporate_blocks_post_update_40002(&$sandbox): void {
-  $config_path = drupal_get_path('module', 'oe_corporate_blocks') . '/config/post_update/40002_update_footer_data';
+  $config_path = \Drupal::service('extension.list.module')->getPath('oe_corporate_blocks') . '/config/post_update/40002_update_footer_data';
   _oe_corporate_blocks_import_corporate_links($config_path);
 }
 
@@ -222,7 +222,7 @@ function oe_corporate_blocks_post_update_40003(): void {
  * Updates EC footer data.
  */
 function oe_corporate_blocks_post_update_40004(&$sandbox): void {
-  $config_path = drupal_get_path('module', 'oe_corporate_blocks') . '/config/post_update/40004_update_footer_data';
+  $config_path = \Drupal::service('extension.list.module')->getPath('oe_corporate_blocks') . '/config/post_update/40004_update_footer_data';
   _oe_corporate_blocks_import_corporate_links($config_path);
 }
 

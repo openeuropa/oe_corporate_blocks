@@ -71,6 +71,8 @@ class FooterLinkSection extends ConfigEntityBase implements FooterLinkSectionInt
       $link_storage = \Drupal::entityTypeManager()->getStorage('footer_link_general');
       $link_ids = $link_storage->getQuery()
         ->condition('section', $entity->id())
+        // Delete all the links, regardless of the current user access.
+        ->accessCheck(FALSE)
         ->execute();
       foreach ($link_storage->loadMultiple($link_ids) as $link) {
         $link->set('section', '');

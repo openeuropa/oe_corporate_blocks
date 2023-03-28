@@ -155,7 +155,10 @@ abstract class FooterBlockBase extends BlockBase implements ContainerFactoryPlug
     /** @var \Drupal\Core\Entity\EntityStorageInterface $links_storage */
     $links_storage = $this->entityTypeManager->getStorage('footer_link_social');
     $cache->addCacheTags($links_storage->getEntityType()->getListCacheTags());
-    $link_ids = $links_storage->getQuery()->sort('weight')->execute();
+    $link_ids = $links_storage->getQuery()
+      ->sort('weight')
+      ->accessCheck()
+      ->execute();
     if (count($link_ids) > 0) {
       /** @var \Drupal\oe_corporate_blocks\Entity\FooterLinkInterface $link_entity */
       foreach ($links_storage->loadMultiple($link_ids) as $link_entity) {
