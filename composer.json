@@ -8,17 +8,17 @@
     "require": {
         "php": ">=8.0",
         "drupal/core": "^9.4 || ^10",
-        "openeuropa/oe_corporate_site_info": "^1.0.0-alpha6"
+        "openeuropa/oe_corporate_site_info": "dev-EWPP-3004"
     },
     "require-dev": {
         "composer/installers": "^1.11",
-        "drupal/config_devel": "^1.2",
+        "drupal/config_devel": "^1.9",
         "drupal/core-composer-scaffold": "^9.4 || ^10",
         "drupal/drupal-extension": "^5.0",
         "drush/drush": "^11.1",
         "openeuropa/behat-transformation-context": "^0.2",
         "openeuropa/code-review": "^2.0.0-alpha6",
-        "openeuropa/oe_multilingual": "^1.10",
+        "openeuropa/oe_multilingual": "^1.13",
         "openeuropa/task-runner-drupal-project-symlink": "^1.0-beta6",
         "phpspec/prophecy-phpunit": "^2",
         "symfony/phpunit-bridge": "^6.0"
