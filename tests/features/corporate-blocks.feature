@@ -40,7 +40,7 @@ Feature: Corporate blocks feature
       | Privacy policy                                   | https://commission.europa.eu/privacy-policy_en                                                                          |
       | Legal notice                                     | https://commission.europa.eu/legal-notice_en                                                                            |
 
-    When I click "français" in the "header"
+    When I click "français" in the "sidebar"
     Then the region "ec_footer" contains the links:
       | Site web de la Commission européenne                      | https://commission.europa.eu/index_fr                                                                                   |
       | Stratégie                                                 | https://commission.europa.eu/strategy_fr                                                                                |
@@ -119,7 +119,7 @@ Feature: Corporate blocks feature
       | Presidency of the Council of the EU | https://www.romania2019.eu/home/                |
       | About this site                     | https://europa.eu/european-union/abouteuropa_en |
 
-    When I click "français" in the "header"
+    When I click "français" in the "sidebar"
     Then I should see "Institutions de l’UE" in the "eu_footer" region
     And the region "eu_footer" contains the links:
       | Appelez-nous au 00 800 6 7 8 9 10 11                   | tel:0080067891011                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |

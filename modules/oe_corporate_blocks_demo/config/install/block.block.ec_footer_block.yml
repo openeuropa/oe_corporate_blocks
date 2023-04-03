@@ -7,7 +7,7 @@ dependencies:
     - olivero
 id: ec_footer_block
 theme: olivero
-region: footer_fifth
+region: footer_top
 weight: 0
 provider: null
 plugin: oe_corporate_blocks_ec_footer

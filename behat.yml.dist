@@ -31,7 +31,7 @@ default:
         ec_footer: "div.block-oe-corporate-blocks-ec-footer"
         eu_footer: "div.block-oe-corporate-blocks-eu-footer"
         eu_footer_bottom_title: "div.block-oe-corporate-blocks-eu-footer .footer__corporate-bottom--eu-title"
-        header: "div.region-header"
+        sidebar: "aside.region--sidebar"
       selectors:
         message_selector: ".messages"
         error_message_selector: ".messages.messages--error"

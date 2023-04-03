@@ -35,7 +35,7 @@ Feature: Site specific footer links management.
       | 00000 European Commission, official website | https://commission.europa.eu/index_en    |
       | 00001 About the European Commission         | https://commission.europa.eu/strategy_en |
     # We should see the links which is not translated yet.
-    And I click "français" in the "header"
+    And I click "français" in the "sidebar"
     And the region "<region>" contains the links:
       | 00000 European Commission, official website | https://commission.europa.eu/index_en    |
       | 00001 About the European Commission         | https://commission.europa.eu/strategy_en |
@@ -74,7 +74,7 @@ Feature: Site specific footer links management.
       | 00000 European Commission, official website EN | https://commission.europa.eu/index_en    |
       | 00001 About the European Commission EN         | https://commission.europa.eu/strategy_en |
     # We shouldn't see the translated links.
-    And I click "français" in the "header"
+    And I click "français" in the "sidebar"
     And the region "<region>" contains the links:
       | 00000 European Commission, official website FR | https://commission.europa.eu/index_fr    |
       | 00001 About the European Commission FR         | https://commission.europa.eu/strategy_fr |
@@ -94,7 +94,7 @@ Feature: Site specific footer links management.
       | 00000 European Commission, official website EN | https://commission.europa.eu/index_en    |
       | 00001 About the European Commission EN         | https://commission.europa.eu/strategy_en |
     # We shouldn't see the translated links.
-    And I click "français" in the "header"
+    And I click "français" in the "sidebar"
     And the region "<region>" does not contain the links:
       | 00000 European Commission, official website FR | https://commission.europa.eu/index_fr    |
       | 00001 About the European Commission FR         | https://commission.europa.eu/strategy_fr |
@@ -135,7 +135,7 @@ Feature: Site specific footer links management.
     Then the region "<region>" contains the links:
       | 00000 Instagram | https://www.instagram.com/europeancommission |
     # We should see the links which is not translated yet.
-    And I click "français" in the "header"
+    And I click "français" in the "sidebar"
     And the region "<region>" contains the links:
       | 00000 Instagram | https://www.instagram.com/europeancommission |
 
@@ -161,7 +161,7 @@ Feature: Site specific footer links management.
     Then the region "<region>" contains the links:
       | 00000 Instagram EN | https://www.instagram.com/europeancommission |
     # We shouldn't see the translated links.
-    And I click "français" in the "header"
+    And I click "français" in the "sidebar"
     And the region "<region>" contains the links:
       | 00000 Instagram FR | https://www.instagram.com/europeancommission?hl=fr |
 
@@ -177,7 +177,7 @@ Feature: Site specific footer links management.
     Then the region "<region>" does not contain the links:
       | 00000 Instagram EN | https://www.instagram.com/europeancommission |
     # We shouldn't see the translated links.
-    And I click "français" in the "header"
+    And I click "français" in the "sidebar"
     And the region "<region>" does not contain the links:
       | 00000 Instagram FR | https://www.instagram.com/europeancommission?hl=fr |
 
