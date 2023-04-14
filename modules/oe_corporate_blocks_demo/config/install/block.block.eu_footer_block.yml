@@ -4,10 +4,10 @@ dependencies:
   module:
     - oe_corporate_blocks
   theme:
-    - bartik
+    - olivero
 id: eu_footer_block
-theme: bartik
-region: footer_fifth
+theme: olivero
+region: footer_top
 weight: 1
 provider: null
 plugin: oe_corporate_blocks_eu_footer

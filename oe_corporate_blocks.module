@@ -40,7 +40,7 @@ function oe_corporate_blocks_theme() {
  * Implements hook_locale_translation_projects_alter().
  */
 function oe_corporate_blocks_locale_translation_projects_alter(&$projects) {
-  $projects['oe_corporate_blocks']['info']['interface translation server pattern'] = drupal_get_path('module', 'oe_corporate_blocks') . '/translations/%project-%language.po';
+  $projects['oe_corporate_blocks']['info']['interface translation server pattern'] = \Drupal::service('extension.list.module')->getPath('oe_corporate_blocks') . '/translations/%project-%language.po';
 }
 
 /**
