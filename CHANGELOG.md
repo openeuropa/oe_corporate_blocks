@@ -1,18 +1,29 @@
-# Changelog
+# Change Log
+
+## [4.13.0](https://github.com/openeuropa/oe_corporate_blocks/tree/4.13.0) (2023-04-14)
+[Full Changelog](https://github.com/openeuropa/oe_corporate_blocks/compare/4.12.0...4.13.0)
+
+**Closed issues:**
+
+- TypeError: preg\_match\(\): Argument \#2 \($subject\) must be of type string, null given [\#130](https://github.com/openeuropa/oe_corporate_blocks/issues/130)
+- Unable to install oe\_corporate\_blocks [\#129](https://github.com/openeuropa/oe_corporate_blocks/issues/129)
+
+**Merged pull requests:**
+
+- EWPP-3012: Drupal 10 compatibility. [\#131](https://github.com/openeuropa/oe_corporate_blocks/pull/131) ([brummbar](https://github.com/brummbar))
 
 ## [4.12.0](https://github.com/openeuropa/oe_corporate_blocks/tree/4.12.0) (2023-03-13)
-
 [Full Changelog](https://github.com/openeuropa/oe_corporate_blocks/compare/4.11.0...4.12.0)
 
 **Merged pull requests:**
 
+- Release-4.12.0: Update changelog. [\#128](https://github.com/openeuropa/oe_corporate_blocks/pull/128) ([nagyad](https://github.com/nagyad))
 - EWPP-2994: Update corporate site info dependency. [\#127](https://github.com/openeuropa/oe_corporate_blocks/pull/127) ([nagyad](https://github.com/nagyad))
 - EWPP-2893: Update site owner message of EU footer. [\#125](https://github.com/openeuropa/oe_corporate_blocks/pull/125) ([22Alexandra](https://github.com/22Alexandra))
 - EWPP-2883: Updates 'Language policy' label and link of EC footer data. [\#124](https://github.com/openeuropa/oe_corporate_blocks/pull/124) ([22Alexandra](https://github.com/22Alexandra))
 - OEL-2115: Update to PHP 8.1. [\#123](https://github.com/openeuropa/oe_corporate_blocks/pull/123) ([brummbar](https://github.com/brummbar))
 
 ## [4.11.0](https://github.com/openeuropa/oe_corporate_blocks/tree/4.11.0) (2023-01-03)
-
 [Full Changelog](https://github.com/openeuropa/oe_corporate_blocks/compare/4.10.0...4.11.0)
 
 **Merged pull requests:**
