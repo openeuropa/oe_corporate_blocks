@@ -46,7 +46,7 @@
 {% endif %}
 <div class="footer__corporate-top--eu">
   {% if site_owner is not empty %}
-    <span class="footer__content-owner-details">{{ 'This site is managed by @name and is an official website of the European Union'|t({'@name': site_owner}) }}</span>
+    <span class="footer__content-owner-details">{{ 'This site is managed by: @name'|t({'@name': site_owner}) }}</span>
   {% endif %}
   {% if corporate_footer.contact %}
     <h3>{{ corporate_footer.contact_title }}</h3>
