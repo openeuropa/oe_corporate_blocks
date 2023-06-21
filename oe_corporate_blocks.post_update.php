@@ -7,9 +7,9 @@
 
 declare(strict_types = 1);
 
+use Drupal\Component\Utility\Crypt;
 use Drupal\Core\Config\FileStorage;
 use Drupal\locale\Locale;
-use Drupal\Component\Utility\Crypt;
 
 /**
  * Helper function: import corporate links.
