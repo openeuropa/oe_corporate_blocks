@@ -1,5 +1,12 @@
 # Change Log
 
+## [4.14.0](https://github.com/openeuropa/oe_corporate_blocks/tree/4.14.0) (2023-06-21)
+[Full Changelog](https://github.com/openeuropa/oe_corporate_blocks/compare/4.13.0...4.14.0)
+
+**Merged pull requests:**
+
+- EWPP-3264: Change site footer string and translations. [\#134](https://github.com/openeuropa/oe_corporate_blocks/pull/134) ([nagyad](https://github.com/nagyad))
+
 ## [4.13.0](https://github.com/openeuropa/oe_corporate_blocks/tree/4.13.0) (2023-04-14)
 [Full Changelog](https://github.com/openeuropa/oe_corporate_blocks/compare/4.12.0...4.13.0)
 
