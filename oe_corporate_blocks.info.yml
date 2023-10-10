@@ -11,6 +11,7 @@ dependencies:
 config_devel:
   install:
     - oe_corporate_blocks.footer_link.section.about_us
+    - oe_corporate_blocks.footer_link.section.accessibility
     - oe_corporate_blocks.footer_link.section.contact_us
     - oe_corporate_blocks.footer_link.section.related_sites
 

@@ -15,6 +15,12 @@ Feature: Site specific footer links management.
     When I fill in "Label" with "00000 European Commission, official website"
     And I fill in "Machine-readable name" with "00000_eurpoean_commission_official_website"
     And I fill in "URL" with "https://commission.europa.eu/index_en"
+    And I should have the following options for the "Section" select:
+      | - Disabled -  |
+      | Contact us    |
+      | About us      |
+      | Related sites |
+      | Accessibility |
     And I select "Related sites" from "Section"
     And I press "Save"
     Then I should see the heading "Footer Link General entities"

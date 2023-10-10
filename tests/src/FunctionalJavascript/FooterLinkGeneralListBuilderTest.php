@@ -50,18 +50,23 @@ class FooterLinkGeneralListBuilderTest extends WebDriverTestBase {
 
     // Move "Link 1" under "Contact us".
     $link = $this->findRowByLabel('Link 1');
-    $this->moveRowWithKeyboard($link, 'up', 3);
+    $this->moveRowWithKeyboard($link, 'up', 4);
     $this->assertGeneralLinkRow($link, 'contact_us', -9);
 
     // Move "Link 2" under "About us".
     $link = $this->findRowByLabel('Link 2');
-    $this->moveRowWithKeyboard($link, 'up', 2);
+    $this->moveRowWithKeyboard($link, 'up', 3);
     $this->assertGeneralLinkRow($link, 'about_us', -7);
 
     // Move "Link 3" under "Related sites".
     $link = $this->findRowByLabel('Link 3');
-    $this->moveRowWithKeyboard($link, 'up', 1);
+    $this->moveRowWithKeyboard($link, 'up', 2);
     $this->assertGeneralLinkRow($link, 'related_sites', -5);
+
+    // Move "Link 4" under "Accessibility".
+    $link = $this->findRowByLabel('Link 4');
+    $this->moveRowWithKeyboard($link, 'up', 1);
+    $this->assertGeneralLinkRow($link, 'accessibility', -3);
 
     // Save current link disposition.
     $this->getSession()->getPage()->pressButton('Save');
@@ -70,19 +75,19 @@ class FooterLinkGeneralListBuilderTest extends WebDriverTestBase {
     $this->assertGeneralLinkEntity('Link 1', 'http://example.com/link-1', 'contact_us', -9);
     $this->assertGeneralLinkEntity('Link 2', 'http://example.com/link-2', 'about_us', -7);
     $this->assertGeneralLinkEntity('Link 3', 'http://example.com/link-3', 'related_sites', -5);
-    $this->assertGeneralLinkEntity('Link 4', 'http://example.com/link-4', '', -3);
-    $this->assertGeneralLinkEntity('Link 5', 'http://example.com/link-5', '', -2);
+    $this->assertGeneralLinkEntity('Link 4', 'http://example.com/link-4', 'accessibility', -3);
+    $this->assertGeneralLinkEntity('Link 5', 'http://example.com/link-5', '', -1);
 
     // Move "Link 3" under "Disabled".
     $link = $this->findRowByLabel('Link 3');
-    $this->moveRowWithKeyboard($link, 'down', 1);
-    $this->assertGeneralLinkRow($link, '', -4);
+    $this->moveRowWithKeyboard($link, 'down', 3);
+    $this->assertGeneralLinkRow($link, '', -2);
 
     // Save current link disposition.
     $this->getSession()->getPage()->pressButton('Save');
 
-    // Assert that "Link 3" has has been correctly saved.
-    $this->assertGeneralLinkEntity('Link 3', 'http://example.com/link-3', '', -4);
+    // Assert that "Link 3" has been correctly saved.
+    $this->assertGeneralLinkEntity('Link 3', 'http://example.com/link-3', '', -2);
 
     // Delete all sections.
     $section_storage = \Drupal::entityTypeManager()->getStorage('footer_link_section');
@@ -93,16 +98,16 @@ class FooterLinkGeneralListBuilderTest extends WebDriverTestBase {
     // Assert that all links have been assigned to the "Disabled" section.
     $this->assertGeneralLinkEntity('Link 1', 'http://example.com/link-1', '', -9);
     $this->assertGeneralLinkEntity('Link 2', 'http://example.com/link-2', '', -7);
-    $this->assertGeneralLinkEntity('Link 3', 'http://example.com/link-3', '', -4);
-    $this->assertGeneralLinkEntity('Link 4', 'http://example.com/link-4', '', -3);
-    $this->assertGeneralLinkEntity('Link 5', 'http://example.com/link-5', '', -2);
+    $this->assertGeneralLinkEntity('Link 3', 'http://example.com/link-3', '', -2);
+    $this->assertGeneralLinkEntity('Link 4', 'http://example.com/link-4', '', -4);
+    $this->assertGeneralLinkEntity('Link 5', 'http://example.com/link-5', '', -1);
 
     // Assert that all link entities contain the correct values.
     $this->assertGeneralLinkRow($this->findRowByLabel('Link 1'), '', -9);
     $this->assertGeneralLinkRow($this->findRowByLabel('Link 2'), '', -7);
-    $this->assertGeneralLinkRow($this->findRowByLabel('Link 3'), '', -4);
-    $this->assertGeneralLinkRow($this->findRowByLabel('Link 4'), '', -3);
-    $this->assertGeneralLinkRow($this->findRowByLabel('Link 5'), '', -2);
+    $this->assertGeneralLinkRow($this->findRowByLabel('Link 3'), '', -2);
+    $this->assertGeneralLinkRow($this->findRowByLabel('Link 4'), '', -4);
+    $this->assertGeneralLinkRow($this->findRowByLabel('Link 5'), '', -1);
   }
 
   /**
