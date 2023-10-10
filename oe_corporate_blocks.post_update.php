@@ -264,3 +264,20 @@ function oe_corporate_blocks_post_update_40006(): void {
   $config->set('service_navigation', $service_navigation);
   $config->save();
 }
+
+/**
+ * Create the Accessibility footer link section.
+ */
+function oe_corporate_blocks_post_update_40007(): void {
+  $storage = \Drupal::entityTypeManager()->getStorage('footer_link_section');
+  // We are creating the config which means that we are also shipping
+  // it in the config/install folder so we want to make sure it gets the hash
+  // so Drupal treats it as a shipped config. This means that it gets exposed
+  // to be translated via the locale system as well.
+  $config['_core']['default_config_hash'] = Crypt::hashBase64(serialize([
+    'id' => 'accessibility',
+    'label' => 'Accessibility',
+    'weight' => 0,
+  ]));
+  $storage->create($config)->save();
+}
