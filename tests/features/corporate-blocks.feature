@@ -28,7 +28,7 @@ Feature: Corporate blocks feature
       | EU regional and urban development                | https://commission.europa.eu/eu-regional-and-urban-development_en                                                       |
       | Jobs at the European Commission                  | https://commission.europa.eu/jobs-european-commission_en                                                                |
       | Statistics                                       | https://commission.europa.eu/statistics_en                                                                              |
-      | News                                             | https://ec.europa.eu/commission/presscorner/home/en                                                                     |
+      | Press Corner                                     | https://ec.europa.eu/commission/presscorner/home/en                                                                     |
       | Events                                           | https://commission.europa.eu/events_en                                                                                  |
       | Publications                                     | https://commission.europa.eu/publications_en                                                                            |
       | Contact the European Commission                  | https://commission.europa.eu/about-european-commission/contact_en                                                       |
@@ -57,7 +57,7 @@ Feature: Corporate blocks feature
       | Développement régional et urbain de l’UE                  | https://commission.europa.eu/eu-regional-and-urban-development_fr                                                       |
       | Travailler à la Commission européenne                     | https://commission.europa.eu/jobs-european-commission_fr                                                                |
       | Statistiques                                              | https://commission.europa.eu/statistics_fr                                                                              |
-      | Actualité                                                 | https://ec.europa.eu/commission/presscorner/home/fr                                                                     |
+      | Coin presse                                               | https://ec.europa.eu/commission/presscorner/home/fr                                                                     |
       | Événements                                                | https://commission.europa.eu/events_fr                                                                                  |
       | Publications                                              | https://commission.europa.eu/publications_fr                                                                            |
       | Contacter la Commission européenne                        | https://commission.europa.eu/about-european-commission/contact_fr                                                       |

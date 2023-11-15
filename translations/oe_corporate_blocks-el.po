@@ -341,3 +341,6 @@ msgstr "https://commission.europa.eu/legal-notice_el"
 
 msgid "Social media"
 msgstr "Μέσα κοινωνικής δικτύωσης"
+
+msgid "Press Corner"
+msgstr "Η γωνιά του Τύπου"

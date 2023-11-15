@@ -324,3 +324,6 @@ msgstr "Consiglio dell'Unione europea"
 
 msgid "Social media"
 msgstr "Social media"
+
+msgid "Press Corner"
+msgstr "L'angolo della stampa"

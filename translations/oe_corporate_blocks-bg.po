@@ -333,3 +333,6 @@ msgstr "https://commission.europa.eu/legal-notice_bg"
 
 msgid "Social media"
 msgstr "Социални медии"
+
+msgid "Press Corner"
+msgstr "Кът за медиите"
