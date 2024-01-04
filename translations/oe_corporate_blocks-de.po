@@ -324,3 +324,6 @@ msgstr "https://commission.europa.eu/legal-notice_de"
 
 msgid "Social media"
 msgstr "Soziale Medien"
+
+msgid "Press Corner"
+msgstr "Presseraum"

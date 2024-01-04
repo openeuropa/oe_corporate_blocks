@@ -321,3 +321,6 @@ msgstr "https://commission.europa.eu/legal-notice_ga"
 
 msgid "Social media"
 msgstr "Na meáin shóisialta"
+
+msgid "Press Corner"
+msgstr "An cúinne preasa"

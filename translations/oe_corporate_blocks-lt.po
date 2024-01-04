@@ -326,3 +326,6 @@ msgstr "https://commission.europa.eu/legal-notice_lt"
 
 msgid "Social media"
 msgstr "Socialiniai tinklai"
+
+msgid "Press Corner"
+msgstr "Spaudos centras"

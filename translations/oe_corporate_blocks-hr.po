@@ -324,3 +324,6 @@ msgstr "https://commission.europa.eu/legal-notice_hr"
 
 msgid "Social media"
 msgstr "Društvene mreže"
+
+msgid "Press Corner"
+msgstr "Kutak za medije"

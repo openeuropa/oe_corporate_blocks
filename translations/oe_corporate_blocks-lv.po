@@ -324,3 +324,6 @@ msgstr "https://commission.europa.eu/legal-notice_lv"
 
 msgid "Social media"
 msgstr "Sociālie plašsaziņas līdzekļi"
+
+msgid "Press Corner"
+msgstr "Presei"

@@ -321,3 +321,6 @@ msgstr "https://commission.europa.eu/legal-notice_mt"
 
 msgid "Social media"
 msgstr "Media soċjali"
+
+msgid "Press Corner"
+msgstr "Rokna tal-Istampa"

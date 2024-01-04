@@ -102,8 +102,6 @@ msgstr "http://cor.europa.eu/hu/"
 msgid "European Investment Bank (EIB)"
 msgstr "Európai Beruházási Bank (EBB)"
 
-msgid "https://www.eib.org/en/index.htm"
-msgstr ""
 msgid "European Data Protection Supervisor (EDPS)"
 msgstr "Európai adatvédelmi biztos"
 
@@ -328,3 +326,6 @@ msgstr "Európai Gazdasági és Szociális Bizottság (EGSZB)"
 
 msgid "Social media"
 msgstr "Közösségi média"
+
+msgid "Press Corner"
+msgstr "Sajtósarok"

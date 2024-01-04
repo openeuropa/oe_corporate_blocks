@@ -264,3 +264,22 @@ function oe_corporate_blocks_post_update_40006(): void {
   $config->set('service_navigation', $service_navigation);
   $config->save();
 }
+
+/**
+ * Update News link's label in EC footer.
+ */
+function oe_corporate_blocks_post_update_40007(): void {
+  $config = \Drupal::configFactory()->getEditable('oe_corporate_blocks.ec_data.footer');
+  $class_navigation = $config->get('class_navigation');
+  // Update the 'News' label.
+  foreach ($class_navigation as $key => $link) {
+    if (
+      $link['label'] === 'News' &&
+      $link['href'] === 'https://ec.europa.eu/commission/presscorner/home/en'
+    ) {
+      $class_navigation[$key]['label'] = 'Press Corner';
+    }
+  }
+  $config->set('class_navigation', $class_navigation);
+  $config->save();
+}
