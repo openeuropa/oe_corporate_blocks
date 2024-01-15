@@ -30,7 +30,7 @@ trait AssertFooterLinksTrait {
     $this->assertTrue($link->hasAttribute('data-drupal-selector'), 'Attribute "data-drupal-selector" not found.');
     $id = str_replace(['edit-entities-', '-'], ['', '_'], $link->getAttribute('data-drupal-selector'));
     $this->assertSession()->fieldValueEquals("entities[{$id}][section]", $section, $link);
-    $this->assertSession()->fieldValueEquals("entities[{$id}][weight]", $weight, $link);
+    $this->assertSession()->fieldValueEquals("entities[{$id}][weight]", (string) $weight, $link);
   }
 
   /**

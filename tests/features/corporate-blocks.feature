@@ -9,9 +9,9 @@ Feature: Corporate blocks feature
       | languages |
       | en        |
       | fr        |
-    And I set the site owner to "Directorate-General for Informatics"
+    And I set the site owner to "Directorate-General for Digital Services"
     When I am on "the <path> page"
-    Then I should see "This site is managed by: Directorate-General for Informatics" in the "ec_footer" region
+    Then I should see "This site is managed by: Directorate-General for Digital Services" in the "ec_footer" region
     And the region "ec_footer" contains the links:
       | European Commission website                      | https://commission.europa.eu/index_en                                                                                   |
       | Strategy                                         | https://commission.europa.eu/strategy_en                                                                                |
@@ -78,9 +78,9 @@ Feature: Corporate blocks feature
       | languages |
       | en        |
       | fr        |
-    And I set the site owner to "Directorate-General for Informatics"
+    And I set the site owner to "Directorate-General for Digital Services"
     When I am on "the <path> page"
-    Then I should see "This site is managed by: Directorate-General for Informatics" in the "eu_footer" region
+    Then I should see "This site is managed by: Directorate-General for Digital Services" in the "eu_footer" region
     And I should see "Social media" in the "eu_footer" region
     And I should see "EU institutions" in the "eu_footer" region
     And I should see "Legal" in the "eu_footer_bottom_title" region
