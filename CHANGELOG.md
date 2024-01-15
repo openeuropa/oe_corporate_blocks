@@ -1,13 +1,25 @@
-# Change Log
+# Changelog
+
+## [4.15.0](https://github.com/openeuropa/oe_corporate_blocks/tree/4.15.0) (2024-01-15)
+
+[Full Changelog](https://github.com/openeuropa/oe_corporate_blocks/compare/4.14.0...4.15.0)
+
+**Merged pull requests:**
+
+- EWPP-3905: Update corporate terms in tests. [\#140](https://github.com/openeuropa/oe_corporate_blocks/pull/140) ([imanoleguskiza](https://github.com/imanoleguskiza))
+- EWPP-3718: Change EC footer News link label to Press Corner. [\#138](https://github.com/openeuropa/oe_corporate_blocks/pull/138) ([22Alexandra](https://github.com/22Alexandra))
 
 ## [4.14.0](https://github.com/openeuropa/oe_corporate_blocks/tree/4.14.0) (2023-06-21)
+
 [Full Changelog](https://github.com/openeuropa/oe_corporate_blocks/compare/4.13.0...4.14.0)
 
 **Merged pull requests:**
 
+- Release 4.14.0 changelog. [\#135](https://github.com/openeuropa/oe_corporate_blocks/pull/135) ([22Alexandra](https://github.com/22Alexandra))
 - EWPP-3264: Change site footer string and translations. [\#134](https://github.com/openeuropa/oe_corporate_blocks/pull/134) ([nagyad](https://github.com/nagyad))
 
 ## [4.13.0](https://github.com/openeuropa/oe_corporate_blocks/tree/4.13.0) (2023-04-14)
+
 [Full Changelog](https://github.com/openeuropa/oe_corporate_blocks/compare/4.12.0...4.13.0)
 
 **Closed issues:**
@@ -17,9 +29,11 @@
 
 **Merged pull requests:**
 
+- Prepare changelog for release 4.13.0. [\#132](https://github.com/openeuropa/oe_corporate_blocks/pull/132) ([brummbar](https://github.com/brummbar))
 - EWPP-3012: Drupal 10 compatibility. [\#131](https://github.com/openeuropa/oe_corporate_blocks/pull/131) ([brummbar](https://github.com/brummbar))
 
 ## [4.12.0](https://github.com/openeuropa/oe_corporate_blocks/tree/4.12.0) (2023-03-13)
+
 [Full Changelog](https://github.com/openeuropa/oe_corporate_blocks/compare/4.11.0...4.12.0)
 
 **Merged pull requests:**
@@ -31,6 +45,7 @@
 - OEL-2115: Update to PHP 8.1. [\#123](https://github.com/openeuropa/oe_corporate_blocks/pull/123) ([brummbar](https://github.com/brummbar))
 
 ## [4.11.0](https://github.com/openeuropa/oe_corporate_blocks/tree/4.11.0) (2023-01-03)
+
 [Full Changelog](https://github.com/openeuropa/oe_corporate_blocks/compare/4.10.0...4.11.0)
 
 **Merged pull requests:**
