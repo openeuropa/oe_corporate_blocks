@@ -125,6 +125,8 @@ abstract class FooterBlockBase extends BlockBase implements ContainerFactoryPlug
       $links[$section->id()] = [
         'label' => $section->label(),
         'links' => [],
+        // Pass section config object for possible use in other components.
+        '#section' => $section,
       ];
 
       foreach ($section_links as $entity) {
@@ -132,6 +134,8 @@ abstract class FooterBlockBase extends BlockBase implements ContainerFactoryPlug
         $link = [
           'href' => $entity->getUrl(),
           'label' => $entity->label(),
+          // Pass link config object for possible use in other components.
+          '#link' => $entity,
         ];
 
         $links[$section->id()]['links'][] = $link;
@@ -168,6 +172,8 @@ abstract class FooterBlockBase extends BlockBase implements ContainerFactoryPlug
           'href' => $link_entity->getUrl(),
           'label' => $link_entity->label(),
           'social_network' => $link_entity->getSocialNetwork(),
+          // Pass link config object for possible use in other components.
+          '#link' => $link_entity,
         ];
 
         $links[] = $link;
