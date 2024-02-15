@@ -5,7 +5,7 @@
  * OpenEuropa Corporate Blocks module.
  */
 
-declare(strict_types = 1);
+declare(strict_types=1);
 
 use Drupal\Core\Cache\CacheableMetadata;
 use Drupal\oe_corporate_site_info\SiteInformation;

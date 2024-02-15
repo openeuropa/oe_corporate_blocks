@@ -5,7 +5,7 @@
  * OpenEuropa Corporate blocks Demo post updates.
  */
 
-declare(strict_types = 1);
+declare(strict_types=1);
 
 use Drupal\block\Entity\Block;
 use Drupal\Core\Config\FileStorage;

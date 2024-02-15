@@ -1,5 +1,13 @@
 # Changelog
 
+## [4.16.0](https://github.com/openeuropa/oe_corporate_blocks/tree/4.16.0) (2024-02-15)
+
+[Full Changelog](https://github.com/openeuropa/oe_corporate_blocks/compare/4.15.0...4.16.0)
+
+**Merged pull requests:**
+
+- EWPP-3950: Add Drupal 10.2.x and PHP 8.2 to matrix. [\#143](https://github.com/openeuropa/oe_corporate_blocks/pull/143) ([brummbar](https://github.com/brummbar))
+
 ## [4.15.0](https://github.com/openeuropa/oe_corporate_blocks/tree/4.15.0) (2024-01-15)
 
 [Full Changelog](https://github.com/openeuropa/oe_corporate_blocks/compare/4.14.0...4.15.0)
@@ -7,6 +15,7 @@
 **Merged pull requests:**
 
 - EWPP-3905: Update corporate terms in tests. [\#140](https://github.com/openeuropa/oe_corporate_blocks/pull/140) ([imanoleguskiza](https://github.com/imanoleguskiza))
+- Prepare release 4.15.0. [\#139](https://github.com/openeuropa/oe_corporate_blocks/pull/139) ([imanoleguskiza](https://github.com/imanoleguskiza))
 - EWPP-3718: Change EC footer News link label to Press Corner. [\#138](https://github.com/openeuropa/oe_corporate_blocks/pull/138) ([22Alexandra](https://github.com/22Alexandra))
 
 ## [4.14.0](https://github.com/openeuropa/oe_corporate_blocks/tree/4.14.0) (2023-06-21)
