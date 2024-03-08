@@ -106,9 +106,6 @@ msgstr "Il-Bank Ewropew tal-Investiment (BEI)"
 msgid "European Data Protection Supervisor (EDPS)"
 msgstr "Kontrollur Ewropew għall-Protezzjoni tad-Data (KEPD)"
 
-msgid "https://secure.edps.europa.eu/EDPSWEB/edps/EDPS?lang=en"
-msgstr "https://secure.edps.europa.eu/EDPSWEB/edps/EDPS?lang=mt"
-
 msgid "European Ombudsman"
 msgstr "L-Ombudsman Ewropew"
 

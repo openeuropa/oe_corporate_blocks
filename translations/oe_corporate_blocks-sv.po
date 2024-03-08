@@ -103,9 +103,6 @@ msgstr "Europeiska investeringsbanken"
 msgid "European Data Protection Supervisor (EDPS)"
 msgstr "Europeiska datatillsynsmannen"
 
-msgid "https://secure.edps.europa.eu/EDPSWEB/edps/EDPS?lang=en"
-msgstr "https://secure.edps.europa.eu/EDPSWEB/edps/EDPS?lang=sv"
-
 msgid "European Ombudsman"
 msgstr "Europeiska ombudsmannen"
 

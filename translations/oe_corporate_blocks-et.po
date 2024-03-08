@@ -103,9 +103,6 @@ msgstr "Euroopa Investeerimispank"
 msgid "European Data Protection Supervisor (EDPS)"
 msgstr "Euroopa Andmekaitseinspektor"
 
-msgid "https://secure.edps.europa.eu/EDPSWEB/edps/EDPS?lang=en"
-msgstr "https://secure.edps.europa.eu/EDPSWEB/edps/EDPS?lang=et"
-
 msgid "European Ombudsman"
 msgstr "Euroopa Ombudsman"
 

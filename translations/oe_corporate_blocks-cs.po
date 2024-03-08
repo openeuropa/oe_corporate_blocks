@@ -103,9 +103,6 @@ msgstr "Evropská investiční banka (EIB)"
 msgid "European Data Protection Supervisor (EDPS)"
 msgstr "Evropský inspektor ochrany údajů"
 
-msgid "https://secure.edps.europa.eu/EDPSWEB/edps/EDPS?lang=en"
-msgstr "https://secure.edps.europa.eu/EDPSWEB/edps/EDPS?lang=cs"
-
 msgid "European Ombudsman"
 msgstr "Evropský veřejný ochránce práv"
 

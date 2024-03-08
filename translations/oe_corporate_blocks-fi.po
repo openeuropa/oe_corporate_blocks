@@ -106,9 +106,6 @@ msgstr "Euroopan investointipankki (EIP)"
 msgid "European Data Protection Supervisor (EDPS)"
 msgstr "Euroopan tietosuojavaltuutettu"
 
-msgid "https://secure.edps.europa.eu/EDPSWEB/edps/EDPS?lang=en"
-msgstr "https://secure.edps.europa.eu/EDPSWEB/edps/EDPS?lang=fi"
-
 msgid "European Ombudsman"
 msgstr "Euroopan oikeusasiamies"
 

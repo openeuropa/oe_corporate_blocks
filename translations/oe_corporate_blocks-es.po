@@ -106,9 +106,6 @@ msgstr "Banco Europeo de Inversiones (BEI)"
 msgid "European Data Protection Supervisor (EDPS)"
 msgstr "Supervisor Europeo de Protección de Datos (SEPD)"
 
-msgid "https://secure.edps.europa.eu/EDPSWEB/edps/EDPS?lang=en"
-msgstr "https://secure.edps.europa.eu/EDPSWEB/edps/EDPS?lang=el"
-
 msgid "European Ombudsman"
 msgstr "Defensor del Pueblo Europeo"
 

@@ -106,9 +106,6 @@ msgstr "Europese Investeringsbank (EIB)"
 msgid "European Data Protection Supervisor (EDPS)"
 msgstr "Europese Toezichthouder voor gegevensbescherming (EDPS)"
 
-msgid "https://secure.edps.europa.eu/EDPSWEB/edps/EDPS?lang=en"
-msgstr "https://secure.edps.europa.eu/EDPSWEB/edps/EDPS?lang=nl"
-
 msgid "European Ombudsman"
 msgstr "Europese Ombudsman"
 
