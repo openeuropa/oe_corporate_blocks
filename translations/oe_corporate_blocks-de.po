@@ -109,8 +109,8 @@ msgstr "https://www.eib.org/de/index.htm"
 msgid "European Data Protection Supervisor (EDPS)"
 msgstr "Europäischer Datenschutzbeauftragter (EDSB)"
 
-msgid "https://secure.edps.europa.eu/EDPSWEB/edps/EDPS?lang=en"
-msgstr "https://secure.edps.europa.eu/EDPSWEB/edps/EDPS?lang=de"
+msgid "https://www.edps.europa.eu/_en"
+msgstr "https://www.edps.europa.eu/_de"
 
 msgid "European Ombudsman"
 msgstr "Europäischer Bürgerbeauftragter"

@@ -105,9 +105,6 @@ msgstr "Európai Beruházási Bank (EBB)"
 msgid "European Data Protection Supervisor (EDPS)"
 msgstr "Európai adatvédelmi biztos"
 
-msgid "https://secure.edps.europa.eu/EDPSWEB/edps/EDPS?lang=en"
-msgstr "https://secure.edps.europa.eu/EDPSWEB/edps/EDPS?lang=hu"
-
 msgid "European Ombudsman"
 msgstr "Európai ombudsman"
 

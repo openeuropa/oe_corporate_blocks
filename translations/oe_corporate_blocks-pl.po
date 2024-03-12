@@ -106,9 +106,6 @@ msgstr "Europejski Bank Inwestycyjny (EBI)"
 msgid "European Data Protection Supervisor (EDPS)"
 msgstr "Europejski Inspektor Ochrony Danych (EIOD)"
 
-msgid "https://secure.edps.europa.eu/EDPSWEB/edps/EDPS?lang=en"
-msgstr "https://secure.edps.europa.eu/EDPSWEB/edps/EDPS?lang=pl"
-
 msgid "European Ombudsman"
 msgstr "Europejski Rzecznik Praw Obywatelskich"
 

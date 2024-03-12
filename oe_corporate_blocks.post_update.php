@@ -283,3 +283,21 @@ function oe_corporate_blocks_post_update_40007(): void {
   $config->set('class_navigation', $class_navigation);
   $config->save();
 }
+
+/**
+ * Update EDPS' href from EU footer.
+ */
+function oe_corporate_blocks_post_update_40008(): void {
+  $config = \Drupal::configFactory()->getEditable('oe_corporate_blocks.eu_data.footer');
+  $institution_links = $config->get('institution_links');
+  foreach ($institution_links as $key => $link) {
+    if (
+      $link['label'] === 'European Data Protection Supervisor (EDPS)' &&
+      $link['href'] === 'https://secure.edps.europa.eu/EDPSWEB/edps/EDPS?lang=en'
+    ) {
+      $institution_links[$key]['href'] = 'https://www.edps.europa.eu/_en';
+    }
+  }
+  $config->set('institution_links', $institution_links);
+  $config->save();
+}

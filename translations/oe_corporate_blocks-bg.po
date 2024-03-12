@@ -139,9 +139,6 @@ msgstr "https://european-union.europa.eu/institutions-law-budget/institutions-an
 msgid "European Data Protection Supervisor (EDPS)"
 msgstr "Европейски надзорен орган по защита на данните (ЕНОЗД)"
 
-msgid "https://secure.edps.europa.eu/EDPSWEB/edps/EDPS?lang=en"
-msgstr "https://secure.edps.europa.eu/EDPSWEB/edps/EDPS?lang=bg"
-
 msgid "About this site"
 msgstr "За този сайт"
 
