@@ -1,7 +1,13 @@
-# Changelog
+# Change Log
+
+## [4.17.0](https://github.com/openeuropa/oe_corporate_blocks/tree/4.17.0) (2024-03-12)
+[Full Changelog](https://github.com/openeuropa/oe_corporate_blocks/compare/4.16.0...4.17.0)
+
+**Merged pull requests:**
+
+- EWPP-4171: Update EDPS' href from EU footer. [\#145](https://github.com/openeuropa/oe_corporate_blocks/pull/145) ([22Alexandra](https://github.com/22Alexandra))
 
 ## [4.16.0](https://github.com/openeuropa/oe_corporate_blocks/tree/4.16.0) (2024-02-15)
-
 [Full Changelog](https://github.com/openeuropa/oe_corporate_blocks/compare/4.15.0...4.16.0)
 
 **Merged pull requests:**
