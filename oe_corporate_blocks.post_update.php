@@ -301,3 +301,17 @@ function oe_corporate_blocks_post_update_40008(): void {
   $config->set('institution_links', $institution_links);
   $config->save();
 }
+
+/**
+ * Add Vulnerability disclosure link in EC Footer.
+ */
+function oe_corporate_blocks_post_update_40009(): void {
+  $config = \Drupal::configFactory()->getEditable('oe_corporate_blocks.ec_data.footer');
+  $service_navigation_links = $config->get('service_navigation');
+  $service_navigation_links[] = [
+    'href' => 'https://commission.europa.eu/legal-notice/vulnerability-disclosure-policy_en',
+    'label' => 'Report an IT vulnerability',
+  ];
+  $config->set('service_navigation', $service_navigation_links);
+  $config->save();
+}
