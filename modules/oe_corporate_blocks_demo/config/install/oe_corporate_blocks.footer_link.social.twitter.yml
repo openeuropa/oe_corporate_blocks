@@ -2,7 +2,7 @@ langcode: en
 status: true
 dependencies: {  }
 id: twitter
-label: 'Custom Twitter'
+label: 'Custom X'
 social_network: twitter
 url: 'https://twitter.com/EU_commission'
 weight: -9
