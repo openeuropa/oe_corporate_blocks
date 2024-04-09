@@ -169,7 +169,7 @@ Feature: Corporate blocks feature
       | Custom Contact            | https://commission.europa.eu/contact_en                              |
       | Custom Legal notice       | https://commission.europa.eu/legal-notice_en                         |
       | Custom Facebook           | https://www.facebook.com/EuropeanCommission                          |
-      | Custom Twitter            | https://twitter.com/EU_commission                                    |
+      | Custom X                  | https://twitter.com/EU_commission                                    |
       | Custom Other social media | https://european-union.europa.eu/contact-eu/social-media-channels_en |
 
     Examples:
