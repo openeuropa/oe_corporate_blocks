@@ -306,6 +306,12 @@ msgstr "https://commission.europa.eu/resources-partners_hu"
 msgid "Resources for partners"
 msgstr "Erőforrások, segédeszközök"
 
+msgid "Report an IT vulnerability"
+msgstr "Informatikai sebezhetőség bejelentése"
+
+msgid "https://commission.europa.eu/legal-notice/vulnerability-disclosure-policy_en"
+msgstr "https://commission.europa.eu/legal-notice/vulnerability-disclosure-policy_hu"
+
 msgid "https://commission.europa.eu/language-policy_en"
 msgstr "https://commission.europa.eu/language-policy_hu"
 

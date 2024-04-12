@@ -304,6 +304,12 @@ msgstr "https://commission.europa.eu/resources-partners_sv"
 msgid "Resources for partners"
 msgstr "Resurser för partner"
 
+msgid "Report an IT vulnerability"
+msgstr "Rapportera sårbarheter i it-systemen"
+
+msgid "https://commission.europa.eu/legal-notice/vulnerability-disclosure-policy_en"
+msgstr "https://commission.europa.eu/legal-notice/vulnerability-disclosure-policy_sv"
+
 msgid "https://commission.europa.eu/language-policy_en"
 msgstr "https://commission.europa.eu/language-policy_sv"
 

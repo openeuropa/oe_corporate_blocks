@@ -69,6 +69,9 @@ service_navigation:
   -
     href: 'https://commission.europa.eu/resources-partners_en'
     label: 'Resources for partners'
+  -
+    href: 'https://commission.europa.eu/legal-notice/vulnerability-disclosure-policy_en'
+    label: 'Report an IT vulnerability'
 legal_navigation:
   -
     href: 'https://commission.europa.eu/languages-our-websites_en'

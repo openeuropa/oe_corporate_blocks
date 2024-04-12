@@ -304,6 +304,12 @@ msgstr "Komisja Europejska w mediach społecznościowych"
 msgid "https://commission.europa.eu/resources-partners_en"
 msgstr "https://commission.europa.eu/resources-partners_pl"
 
+msgid "Report an IT vulnerability"
+msgstr "Zgłoś lukę w zabezpieczeniach informatycznych"
+
+msgid "https://commission.europa.eu/legal-notice/vulnerability-disclosure-policy_en"
+msgstr "https://commission.europa.eu/legal-notice/vulnerability-disclosure-policy_pl"
+
 msgid "Resources for partners"
 msgstr "Materiały dla partnerów"
 

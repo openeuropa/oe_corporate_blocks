@@ -307,6 +307,12 @@ msgstr "https://commission.europa.eu/resources-partners_et"
 msgid "Resources for partners"
 msgstr "Materjalid partneritele"
 
+msgid "Report an IT vulnerability"
+msgstr "Teatage turvanõrkusest"
+
+msgid "https://commission.europa.eu/legal-notice/vulnerability-disclosure-policy_en"
+msgstr "https://commission.europa.eu/legal-notice/vulnerability-disclosure-policy_et"
+
 msgid "https://commission.europa.eu/language-policy_en"
 msgstr "https://commission.europa.eu/language-policy_et"
 

@@ -324,6 +324,12 @@ msgstr "https://commission.europa.eu/resources-partners_el"
 msgid "Resources for partners"
 msgstr "Πόροι για εταίρους"
 
+msgid "Report an IT vulnerability"
+msgstr "Αναφορά τρωτού σημείου ΤΠ"
+
+msgid "https://commission.europa.eu/legal-notice/vulnerability-disclosure-policy_en"
+msgstr "https://commission.europa.eu/legal-notice/vulnerability-disclosure-policy_el"
+
 msgid "https://commission.europa.eu/language-policy_en"
 msgstr "https://commission.europa.eu/language-policy_el"
 
