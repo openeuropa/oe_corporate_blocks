@@ -120,7 +120,7 @@ Feature: Site specific footer links management.
       | Pinterest |
       | RSS       |
       | Skype     |
-      | Twitter   |
+      | X         |
       | YouTube   |
     When I fill in "Label" with "00000 Instagram"
     And I fill in "Machine-readable name" with "00000_instagram"

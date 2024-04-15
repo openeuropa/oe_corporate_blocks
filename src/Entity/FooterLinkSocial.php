@@ -58,7 +58,7 @@ class FooterLinkSocial extends FooterLinkGeneral implements FooterLinkSocialInte
     'pinterest' => 'Pinterest',
     'rss' => 'RSS',
     'skype' => 'Skype',
-    'twitter' => 'Twitter',
+    'twitter' => 'X',
     'youtube' => 'YouTube',
   ];
 
