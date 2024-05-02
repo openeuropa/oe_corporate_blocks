@@ -327,3 +327,12 @@ msgstr "Sociale media"
 
 msgid "Press Corner"
 msgstr "Pershoek"
+
+msgid "EU institutions and bodies"
+msgstr "EU-instellingen en -organen"
+
+msgid "Search all EU institutions and bodies"
+msgstr "Zoeken naar EU-instellingen en -organen"
+
+msgid "https://european-union.europa.eu/institutions-law-budget/institutions-and-bodies/search-all-eu-institutions-and-bodies_en"
+msgstr "https://european-union.europa.eu/institutions-law-budget/institutions-and-bodies/search-all-eu-institutions-and-bodies_nl"

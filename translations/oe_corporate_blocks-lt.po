@@ -332,3 +332,12 @@ msgstr "Socialiniai tinklai"
 
 msgid "Press Corner"
 msgstr "Spaudos centras"
+
+msgid "EU institutions and bodies"
+msgstr "ES institucijos ir įstaigos"
+
+msgid "Search all EU institutions and bodies"
+msgstr "ES institucijų ir įstaigų paieška"
+
+msgid "https://european-union.europa.eu/institutions-law-budget/institutions-and-bodies/search-all-eu-institutions-and-bodies_en"
+msgstr "https://european-union.europa.eu/institutions-law-budget/institutions-and-bodies/search-all-eu-institutions-and-bodies_lt"

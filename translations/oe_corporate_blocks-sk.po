@@ -327,3 +327,12 @@ msgstr "Sociálne médiá"
 
 msgid "Press Corner"
 msgstr "Tlačový kútik"
+
+msgid "EU institutions and bodies"
+msgstr "Inštitúcie a orgány EÚ"
+
+msgid "Search all EU institutions and bodies"
+msgstr "Vyhľadávanie všetkých inštitúcií a orgánov EÚ"
+
+msgid "https://european-union.europa.eu/institutions-law-budget/institutions-and-bodies/search-all-eu-institutions-and-bodies_en"
+msgstr "https://european-union.europa.eu/institutions-law-budget/institutions-and-bodies/search-all-eu-institutions-and-bodies_sk"

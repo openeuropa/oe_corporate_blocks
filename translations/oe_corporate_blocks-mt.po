@@ -327,3 +327,12 @@ msgstr "Media soċjali"
 
 msgid "Press Corner"
 msgstr "Rokna tal-Istampa"
+
+msgid "EU institutions and bodies"
+msgstr "Istituzzjonijiet u korpi tal-UE"
+
+msgid "Search all EU institutions and bodies"
+msgstr "Fittex l-istituzzjonijiet u l-korpi kollha tal-UE"
+
+msgid "https://european-union.europa.eu/institutions-law-budget/institutions-and-bodies/search-all-eu-institutions-and-bodies_en"
+msgstr "https://european-union.europa.eu/institutions-law-budget/institutions-and-bodies/search-all-eu-institutions-and-bodies_mt"

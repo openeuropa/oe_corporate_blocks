@@ -347,3 +347,12 @@ msgstr "Μέσα κοινωνικής δικτύωσης"
 
 msgid "Press Corner"
 msgstr "Η γωνιά του Τύπου"
+
+msgid "EU institutions and bodies"
+msgstr "Θεσμικά όργανα και οργανισμοί της ΕΕ"
+
+msgid "Search all EU institutions and bodies"
+msgstr "Αναζήτηση όλων των θεσμικών και λοιπών οργάνων και οργανισμών της ΕΕ"
+
+msgid "https://european-union.europa.eu/institutions-law-budget/institutions-and-bodies/search-all-eu-institutions-and-bodies_en"
+msgstr "https://european-union.europa.eu/institutions-law-budget/institutions-and-bodies/search-all-eu-institutions-and-bodies_el"

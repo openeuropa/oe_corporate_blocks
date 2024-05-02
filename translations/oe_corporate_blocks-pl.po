@@ -330,3 +330,12 @@ msgstr "Media społecznościowe"
 
 msgid "Press Corner"
 msgstr "Serwis prasowy"
+
+msgid "EU institutions and bodies"
+msgstr "Instytucje i organy UE"
+
+msgid "Search all EU institutions and bodies"
+msgstr "Wyszukiwanie instytucji i organów UE"
+
+msgid "https://european-union.europa.eu/institutions-law-budget/institutions-and-bodies/search-all-eu-institutions-and-bodies_en"
+msgstr "https://european-union.europa.eu/institutions-law-budget/institutions-and-bodies/search-all-eu-institutions-and-bodies_pl"

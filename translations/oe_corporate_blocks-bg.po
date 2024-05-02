@@ -339,3 +339,12 @@ msgstr "Социални медии"
 
 msgid "Press Corner"
 msgstr "Кът за медиите"
+
+msgid "EU institutions and bodies"
+msgstr "Институции и органи на ЕС"
+
+msgid "Search all EU institutions and bodies"
+msgstr "Търсене на всички институции и органи на ЕС"
+
+msgid "https://european-union.europa.eu/institutions-law-budget/institutions-and-bodies/search-all-eu-institutions-and-bodies_en"
+msgstr "https://european-union.europa.eu/institutions-law-budget/institutions-and-bodies/search-all-eu-institutions-and-bodies_bg"
