@@ -332,4 +332,15 @@ function oe_corporate_blocks_post_update_40010(&$sandbox): void {
     ],
   ]);
   $config->save();
+
+  // Allow for config translation re-import when running
+  // "drush oe-multilingual:import-local-translations".
+  // @see https://citnet.tech.ec.europa.eu/CITnet/jira/browse/OPENEUROPA-2407
+  $storage = \Drupal::service('locale.storage');
+  $string = $storage->findString(['source' => 'Search all EU institutions and bodies']);
+  $storage->delete($string);
+  $string = $storage->findString(['source' => 'EU institutions and bodies']);
+  $storage->delete($string);
+  $string = $storage->findString(['source' => 'https://european-union.europa.eu/institutions-law-budget/institutions-and-bodies/search-all-eu-institutions-and-bodies_en']);
+  $storage->delete($string);
 }
