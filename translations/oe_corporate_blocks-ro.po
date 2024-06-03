@@ -330,3 +330,12 @@ msgstr "Rețele sociale"
 
 msgid "Press Corner"
 msgstr "Spațiul presei"
+
+msgid "EU institutions and bodies"
+msgstr "Instituții și organisme UE"
+
+msgid "Search all EU institutions and bodies"
+msgstr "Găsiți o instituție/un organism UE"
+
+msgid "https://european-union.europa.eu/institutions-law-budget/institutions-and-bodies/search-all-eu-institutions-and-bodies_en"
+msgstr "https://european-union.europa.eu/institutions-law-budget/institutions-and-bodies/search-all-eu-institutions-and-bodies_ro"

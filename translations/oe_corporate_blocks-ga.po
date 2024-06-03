@@ -327,3 +327,12 @@ msgstr "Na meáin shóisialta"
 
 msgid "Press Corner"
 msgstr "An cúinne preasa"
+
+msgid "EU institutions and bodies"
+msgstr "Institiúidí agus comhlachtaí an AE"
+
+msgid "Search all EU institutions and bodies"
+msgstr "Cuardaigh na hinstitiúidí agus na comhlachtaí uile de chuid an Aontais Eorpaigh"
+
+msgid "https://european-union.europa.eu/institutions-law-budget/institutions-and-bodies/search-all-eu-institutions-and-bodies_en"
+msgstr "https://european-union.europa.eu/institutions-law-budget/institutions-and-bodies/search-all-eu-institutions-and-bodies_ga"

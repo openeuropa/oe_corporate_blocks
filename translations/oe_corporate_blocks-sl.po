@@ -327,3 +327,12 @@ msgstr "Družbeni mediji"
 
 msgid "Press Corner"
 msgstr "Tiskovni kotiček"
+
+msgid "EU institutions and bodies"
+msgstr "Institucije in organi EU"
+
+msgid "Search all EU institutions and bodies"
+msgstr "Iskanje po institucijah in organih EU"
+
+msgid "https://european-union.europa.eu/institutions-law-budget/institutions-and-bodies/search-all-eu-institutions-and-bodies_en"
+msgstr "https://european-union.europa.eu/institutions-law-budget/institutions-and-bodies/search-all-eu-institutions-and-bodies_sl"

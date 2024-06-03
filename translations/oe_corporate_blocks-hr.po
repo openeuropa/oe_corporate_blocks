@@ -330,3 +330,12 @@ msgstr "Društvene mreže"
 
 msgid "Press Corner"
 msgstr "Kutak za medije"
+
+msgid "EU institutions and bodies"
+msgstr "Institucije i tijela EU-a"
+
+msgid "Search all EU institutions and bodies"
+msgstr "Pretraživanje institucija i tijela EU-a"
+
+msgid "https://european-union.europa.eu/institutions-law-budget/institutions-and-bodies/search-all-eu-institutions-and-bodies_en"
+msgstr "https://european-union.europa.eu/institutions-law-budget/institutions-and-bodies/search-all-eu-institutions-and-bodies_hr"

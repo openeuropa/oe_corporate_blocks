@@ -327,3 +327,13 @@ msgstr "Sociala medier"
 
 msgid "Press Corner"
 msgstr "Presshörnan"
+
+msgid "EU institutions and bodies"
+msgstr "EU:s institutioner och organ"
+
+msgid "Search all EU institutions and bodies"
+msgstr "Hitta alla EU-institutioner och EU-organ"
+
+msgid "https://european-union.europa.eu/institutions-law-budget/institutions-and-bodies/search-all-eu-institutions-and-bodies_en"
+msgstr "https://european-union.europa.eu/institutions-law-budget/institutions-and-bodies/search-all-eu-institutions-and-bodies_sv"
+

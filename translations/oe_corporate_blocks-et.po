@@ -330,3 +330,12 @@ msgstr "Sotsiaalmeedia"
 
 msgid "Press Corner"
 msgstr "Pressinurk"
+
+msgid "EU institutions and bodies"
+msgstr "ELi institutsioonid ja asutused"
+
+msgid "Search all EU institutions and bodies"
+msgstr "Otsige kõiki ELi institutsioone ja ameteid"
+
+msgid "https://european-union.europa.eu/institutions-law-budget/institutions-and-bodies/search-all-eu-institutions-and-bodies_en"
+msgstr "https://european-union.europa.eu/institutions-law-budget/institutions-and-bodies/search-all-eu-institutions-and-bodies_et"

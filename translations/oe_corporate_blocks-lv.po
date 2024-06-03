@@ -330,3 +330,12 @@ msgstr "Sociālie plašsaziņas līdzekļi"
 
 msgid "Press Corner"
 msgstr "Presei"
+
+msgid "EU institutions and bodies"
+msgstr "ES iestādes un struktūras"
+
+msgid "Search all EU institutions and bodies"
+msgstr "Meklēt visas ES iestādes un struktūras"
+
+msgid "https://european-union.europa.eu/institutions-law-budget/institutions-and-bodies/search-all-eu-institutions-and-bodies_en"
+msgstr "https://european-union.europa.eu/institutions-law-budget/institutions-and-bodies/search-all-eu-institutions-and-bodies_lv"
