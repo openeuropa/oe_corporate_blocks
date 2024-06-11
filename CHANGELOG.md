@@ -1,11 +1,20 @@
 # Changelog
 
-## [4.18.0](https://github.com/openeuropa/oe_corporate_blocks/tree/4.18.0) (2024-04-15)
+## [4.19.0](https://github.com/openeuropa/oe_corporate_blocks/tree/4.19.0) (2024-06-10)
+
+[Full Changelog](https://github.com/openeuropa/oe_corporate_blocks/compare/4.18.0...4.19.0)
+
+**Merged pull requests:**
+
+- EWPP-4314: Update EU footer data. [\#152](https://github.com/openeuropa/oe_corporate_blocks/pull/152) ([nagyad](https://github.com/nagyad))
+
+## [4.18.0](https://github.com/openeuropa/oe_corporate_blocks/tree/4.18.0) (2024-04-16)
 
 [Full Changelog](https://github.com/openeuropa/oe_corporate_blocks/compare/4.17.0...4.18.0)
 
 **Merged pull requests:**
 
+- Release-4.18.0: Update changelog. [\#150](https://github.com/openeuropa/oe_corporate_blocks/pull/150) ([nagyad](https://github.com/nagyad))
 - EWPP-4263: Add Vulnerability disclosure link in EC Footer. [\#149](https://github.com/openeuropa/oe_corporate_blocks/pull/149) ([22Alexandra](https://github.com/22Alexandra))
 - EWPP-4012: Update Twitter to X. [\#148](https://github.com/openeuropa/oe_corporate_blocks/pull/148) ([22Alexandra](https://github.com/22Alexandra))
 - EWPP-3814: Update src/Plugin/Block/FooterBlockBase.php for passing in theme section config. [\#142](https://github.com/openeuropa/oe_corporate_blocks/pull/142) ([sergepavle](https://github.com/sergepavle))
