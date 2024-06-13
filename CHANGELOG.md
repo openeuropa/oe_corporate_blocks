@@ -1,11 +1,20 @@
 # Changelog
 
-## [4.19.0](https://github.com/openeuropa/oe_corporate_blocks/tree/4.19.0) (2024-06-10)
+## [4.19.1](https://github.com/openeuropa/oe_corporate_blocks/tree/4.19.1) (2024-06-13)
+
+[Full Changelog](https://github.com/openeuropa/oe_corporate_blocks/compare/4.19.0...4.19.1)
+
+**Merged pull requests:**
+
+- EWPP-4314: Check if locale enabled in update path. [\#156](https://github.com/openeuropa/oe_corporate_blocks/pull/156) ([nagyad](https://github.com/nagyad))
+
+## [4.19.0](https://github.com/openeuropa/oe_corporate_blocks/tree/4.19.0) (2024-06-11)
 
 [Full Changelog](https://github.com/openeuropa/oe_corporate_blocks/compare/4.18.0...4.19.0)
 
 **Merged pull requests:**
 
+- Prepare release 4.19.0. [\#153](https://github.com/openeuropa/oe_corporate_blocks/pull/153) ([imanoleguskiza](https://github.com/imanoleguskiza))
 - EWPP-4314: Update EU footer data. [\#152](https://github.com/openeuropa/oe_corporate_blocks/pull/152) ([nagyad](https://github.com/nagyad))
 
 ## [4.18.0](https://github.com/openeuropa/oe_corporate_blocks/tree/4.18.0) (2024-04-16)
