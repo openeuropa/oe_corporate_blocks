@@ -338,13 +338,13 @@ function oe_corporate_blocks_post_update_40010(&$sandbox): void {
   // @see https://citnet.tech.ec.europa.eu/CITnet/jira/browse/OPENEUROPA-2407
   if (\Drupal::moduleHandler()->moduleExists('locale')) {
     $storage = \Drupal::service('locale.storage');
-    $strings = [
-      ['source' => 'Search all EU institutions and bodies'],
-      ['source' => 'EU institutions and bodies'],
-      ['source' => 'https://european-union.europa.eu/institutions-law-budget/institutions-and-bodies/search-all-eu-institutions-and-bodies_en'],
+    $sources = [
+      'Search all EU institutions and bodies',
+      'EU institutions and bodies',
+      'https://european-union.europa.eu/institutions-law-budget/institutions-and-bodies/search-all-eu-institutions-and-bodies_en',
     ];
-    foreach ($strings as $string) {
-      $string = $storage->findString($string);
+    foreach ($sources as $source) {
+      $string = $storage->findString(['source' => $source]);
       if (!$string) {
         continue;
       }
