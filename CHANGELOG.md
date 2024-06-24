@@ -1,11 +1,18 @@
-# Changelog
+# Change Log
+
+## [4.19.2](https://github.com/openeuropa/oe_corporate_blocks/tree/4.19.2) (2024-06-24)
+[Full Changelog](https://github.com/openeuropa/oe_corporate_blocks/compare/4.19.1...4.19.2)
+
+**Merged pull requests:**
+
+- OEL-3058: Check strings before deletion. [\#159](https://github.com/openeuropa/oe_corporate_blocks/pull/159) ([drishu](https://github.com/drishu))
 
 ## [4.19.1](https://github.com/openeuropa/oe_corporate_blocks/tree/4.19.1) (2024-06-13)
-
 [Full Changelog](https://github.com/openeuropa/oe_corporate_blocks/compare/4.19.0...4.19.1)
 
 **Merged pull requests:**
 
+- Release-4.19.1: Update changelog. [\#157](https://github.com/openeuropa/oe_corporate_blocks/pull/157) ([nagyad](https://github.com/nagyad))
 - EWPP-4314: Check if locale enabled in update path. [\#156](https://github.com/openeuropa/oe_corporate_blocks/pull/156) ([nagyad](https://github.com/nagyad))
 
 ## [4.19.0](https://github.com/openeuropa/oe_corporate_blocks/tree/4.19.0) (2024-06-11)
