@@ -1,11 +1,3 @@
-oe_corporate_blocks.settings_index:
-  title: Corporate blocks
-  route_name: oe_corporate_blocks.settings_index
-  parent: system.admin_config
-  description: 'Configure corporate blocks.'
-  position: left
-  weight: -10
-
 entity.footer_link_general.collection:
   title: 'Footer links'
   route_name: entity.footer_link_general.collection
