@@ -16,6 +16,7 @@
         "drupal/core-composer-scaffold": "^10",
         "drupal/drupal-extension": "^5.0",
         "drush/drush": "^12",
+        "mikey179/vfsstream": "^1.6",
         "openeuropa/behat-transformation-context": "^0.2",
         "openeuropa/code-review": "^2.0.0-alpha6",
         "openeuropa/oe_multilingual": "^1.13",
