@@ -1,0 +1,134 @@
+msgid ""
+msgstr ""
+
+msgid "Publications"
+msgstr "出版物"
+
+msgid "About this site"
+msgstr "当ウェブサイトについて"
+
+msgid "Accessibility"
+msgstr "アクセシビリティ"
+
+msgid "Agencies"
+msgstr "専門機関"
+
+msgid "Call us 00 800 6 7 8 9 10 11"
+msgstr "電話：00 800 6 7 8 9 10 11"
+
+msgid "Contact the EU"
+msgstr "EUに問い合わせる"
+
+msgid "Contact the European Commission"
+msgstr "欧州委員会に問い合わせる"
+
+msgid "Cookies"
+msgstr "クッキー"
+
+msgid "Council of the European Union"
+msgstr "欧州連合理事会"
+
+msgid "EU institutions"
+msgstr "EU諸機関"
+
+msgid "EU institutions and bodies"
+msgstr "EU諸機関"
+
+msgid "European Central Bank (ECB)"
+msgstr "欧州中央銀行"
+
+msgid "European Commission"
+msgstr "欧州委員会"
+
+msgid "European Commission website"
+msgstr "欧州委員会ウェブサイト"
+
+msgid "European Committee of the Regions (CoR)"
+msgstr "欧州地域評議会"
+
+msgid "European Council"
+msgstr "欧州理事会"
+
+msgid "European Court of Auditors (ECA)"
+msgstr "欧州会計監査院"
+
+msgid "European Data Protection Board"
+msgstr "欧州データ保護委員会"
+
+msgid "European Data Protection Supervisor (EDPS)"
+msgstr "欧州データ保護監督官"
+
+msgid "European Economic and Social Committee (EESC)"
+msgstr "欧州経済社会評議会"
+
+msgid "European External Action Service (EEAS)"
+msgstr "欧州対外行動庁"
+
+msgid "European Investment Bank (EIB)"
+msgstr "欧州投資銀行"
+
+msgid "European Ombudsman"
+msgstr "欧州オンブズマン"
+
+msgid "European Parliament"
+msgstr "欧州議会"
+
+msgid "European Personnel Selection Office"
+msgstr "欧州人事選考局"
+
+msgid "Find a social media account"
+msgstr "SNSアカウントを探す"
+
+msgid "Follow the European Commission on social media"
+msgstr "SNSで欧州委員会をフォロー"
+
+msgid "Food, Farming, Fisheries"
+msgstr "食料、農業、漁業"
+
+msgid "Jobs at the European Commission"
+msgstr "欧州委員会の求人情報"
+
+msgid "Languages on our websites"
+msgstr "ウェブサイトの言語"
+
+msgid "Legal"
+msgstr "法的事項"
+
+msgid "Legal notice"
+msgstr "法的事項"
+
+msgid "Meet us at one of the EU centres"
+msgstr "EU情報センター"
+
+msgid "Press Corner"
+msgstr "報道発表など"
+
+msgid "Privacy policy"
+msgstr "プライバシーポリシー"
+
+msgid "Publications Office of the European Union"
+msgstr "欧州委員会出版局"
+
+msgid "Report an IT vulnerability"
+msgstr "ITに関する脆弱性を報告する"
+
+msgid "Resources for partners"
+msgstr "パートナー向け情報"
+
+msgid "Search all EU institutions and bodies"
+msgstr "全てのEU諸機関を検索"
+
+msgid "Search for EU social media channels"
+msgstr "EUのSNSを検索"
+
+msgid "Strategy"
+msgstr "戦略"
+
+msgid "tel:0080067891011"
+msgstr "電話：0080067891011"
+
+msgid "Use other telephone options"
+msgstr "他の電話オプションを利用"
+
+msgid "Write to us via our contact form"
+msgstr "問い合わせフォームを使う"
