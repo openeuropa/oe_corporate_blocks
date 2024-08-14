@@ -66,6 +66,7 @@ class CorporateFooterRenderTest extends BrowserTestBase {
 
     $accessibilityLink = $crawler->filter('a[href="https://example.com/accessibility"]');
     $this->assertCount(1, $accessibilityLink);
+    $this->assertEquals('Accessibility', $accessibilityLink->text());
   }
 
   /**
@@ -94,6 +95,7 @@ class CorporateFooterRenderTest extends BrowserTestBase {
 
     $accessibilityLink = $crawler->filter('a[href="https://example.com/accessibility"]');
     $this->assertCount(1, $accessibilityLink);
+    $this->assertEquals('Accessibility', $accessibilityLink->text());
   }
 
 }
