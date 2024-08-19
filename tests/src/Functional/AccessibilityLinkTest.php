@@ -29,24 +29,13 @@ class AccessibilityLinkTest extends BrowserTestBase {
   protected $defaultTheme = 'stark';
 
   /**
-   * {@inheritdoc}
-   */
-  protected function setUp(): void {
-    parent::setUp();
-
-    \Drupal::configFactory()
-      ->getEditable('oe_corporate_site_info.settings')
-      ->set('accessibility', 'https://example.com/accessibility')
-      ->save();
-  }
-
-  /**
    * Tests EC footer block rendering.
    */
   public function testAccessibilityLinkRendering(): void {
     $entity_type_manager = $this->container
       ->get('entity_type.manager')
       ->getStorage('block');
+    $builder = \Drupal::entityTypeManager()->getViewBuilder('block');
 
     foreach ($this->accessibilityLinkRenderingDataProvider() as $index => $data) {
       try {
@@ -62,17 +51,34 @@ class AccessibilityLinkTest extends BrowserTestBase {
           ],
         ]);
         $entity->save();
-        $builder = \Drupal::entityTypeManager()->getViewBuilder('block');
+
+        \Drupal::configFactory()
+          ->getEditable('oe_corporate_site_info.settings')
+          ->delete()
+          ->save();
+        $builder->resetCache();
+
         $build = $builder->view($entity, 'block');
-        $render = $this->container->get('renderer')->renderRoot($build);
-        $crawler = new Crawler($render->__toString());
+        $crawler = new Crawler((string) $this->container->get('renderer')->renderRoot($build));
+
+        $accessibilityLink = $crawler->filter($data['selector']);
+        $this->assertCount(0, $accessibilityLink);
+
+        \Drupal::configFactory()
+          ->getEditable('oe_corporate_site_info.settings')
+          ->set('accessibility', 'https://example.com/accessibility')
+          ->save();
+        $builder->resetCache();
+
+        $build = $builder->view($entity, 'block');
+        $crawler = new Crawler((string) $this->container->get('renderer')->renderRoot($build));
 
         $accessibilityLink = $crawler->filter($data['selector']);
         $this->assertCount(1, $accessibilityLink);
         $this->assertEquals('Accessibility', $accessibilityLink->text());
       }
       catch (\Exception $e) {
-        throw new \Exception(sprintf('Failed asserting data for item %s.', $index), 0, $e);
+        throw new \Exception(sprintf('Failed asserting data for index %s.', $index), 0, $e);
       }
     }
   }
