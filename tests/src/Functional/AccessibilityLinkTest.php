@@ -61,8 +61,8 @@ class AccessibilityLinkTest extends BrowserTestBase {
         $build = $builder->view($entity, 'block');
         $crawler = new Crawler((string) $this->container->get('renderer')->renderRoot($build));
 
-        $accessibilityLink = $crawler->filter($data['selector']);
-        $this->assertCount(0, $accessibilityLink);
+        $accessibility_link = $crawler->filter($data['selector']);
+        $this->assertCount(0, $accessibility_link);
 
         \Drupal::configFactory()
           ->getEditable('oe_corporate_site_info.settings')
@@ -73,9 +73,9 @@ class AccessibilityLinkTest extends BrowserTestBase {
         $build = $builder->view($entity, 'block');
         $crawler = new Crawler((string) $this->container->get('renderer')->renderRoot($build));
 
-        $accessibilityLink = $crawler->filter($data['selector']);
-        $this->assertCount(1, $accessibilityLink);
-        $this->assertEquals('Accessibility', $accessibilityLink->text());
+        $accessibility_link = $crawler->filter($data['selector']);
+        $this->assertCount(1, $accessibility_link);
+        $this->assertEquals('Accessibility', $accessibility_link->text());
       }
       catch (\Exception $e) {
         throw new \Exception(sprintf('Failed asserting data for index %s.', $index), 0, $e);
