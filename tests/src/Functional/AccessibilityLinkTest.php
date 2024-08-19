@@ -10,7 +10,7 @@ use Symfony\Component\DomCrawler\Crawler;
 /**
  * Test footer block rendering.
  */
-class CorporateFooterRenderTest extends BrowserTestBase {
+class AccessibilityLinkTest extends BrowserTestBase {
 
   /**
    * {@inheritdoc}
