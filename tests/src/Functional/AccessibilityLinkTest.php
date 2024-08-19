@@ -43,59 +43,55 @@ class AccessibilityLinkTest extends BrowserTestBase {
   /**
    * Tests EC footer block rendering.
    */
-  public function testEcFooterBlockRendering(): void {
+  public function testAccessibilityLinkRendering(): void {
     $entity_type_manager = $this->container
       ->get('entity_type.manager')
       ->getStorage('block');
-    $entity = $entity_type_manager->create([
-      'id' => 'ecfooterblock',
-      'theme' => 'stark',
-      'plugin' => 'oe_corporate_blocks_ec_footer',
-      'settings' => [
-        'id' => 'oe_corporate_blocks_ec_footer',
-        'label' => 'EC Footer block',
-        'provider' => 'oe_corporate_blocks',
-        'label_display' => '0',
-      ],
-    ]);
-    $entity->save();
-    $builder = \Drupal::entityTypeManager()->getViewBuilder('block');
-    $build = $builder->view($entity, 'block');
-    $render = $this->container->get('renderer')->renderRoot($build);
-    $crawler = new Crawler($render->__toString());
 
-    $accessibilityLink = $crawler->filter('a[href="https://example.com/accessibility"]');
-    $this->assertCount(1, $accessibilityLink);
-    $this->assertEquals('Accessibility', $accessibilityLink->text());
+    foreach ($this->accessibilityLinkRenderingDataProvider() as $index => $data) {
+      try {
+        $entity = $entity_type_manager->create([
+          'id' => 'footerblock-' . $index,
+          'theme' => 'stark',
+          'plugin' => $data['plugin'],
+          'settings' => [
+            'id' => $data['plugin'],
+            'label' => 'Footer block',
+            'provider' => 'oe_corporate_blocks',
+            'label_display' => '0',
+          ],
+        ]);
+        $entity->save();
+        $builder = \Drupal::entityTypeManager()->getViewBuilder('block');
+        $build = $builder->view($entity, 'block');
+        $render = $this->container->get('renderer')->renderRoot($build);
+        $crawler = new Crawler($render->__toString());
+
+        $accessibilityLink = $crawler->filter($data['selector']);
+        $this->assertCount(1, $accessibilityLink);
+        $this->assertEquals('Accessibility', $accessibilityLink->text());
+      }
+      catch (\Exception $e) {
+        throw new \Exception(sprintf('Failed asserting data for item %s.', $index), 0, $e);
+      }
+    }
   }
 
   /**
-   * Tests EU footer block rendering.
+   * Provides data for testAccessibilityLinkRendering().
+   *
+   * @return \Generator
+   *   The test data.
    */
-  public function testEuFooterBlockRendering(): void {
-    $entity_type_manager = $this->container
-      ->get('entity_type.manager')
-      ->getStorage('block');
-    $entity = $entity_type_manager->create([
-      'id' => 'eufooterblock',
-      'theme' => 'stark',
+  protected function accessibilityLinkRenderingDataProvider() {
+    yield [
+      'plugin' => 'oe_corporate_blocks_ec_footer',
+      'selector' => 'a[href="https://example.com/accessibility"]',
+    ];
+    yield [
       'plugin' => 'oe_corporate_blocks_eu_footer',
-      'settings' => [
-        'id' => 'oe_corporate_blocks_eu_footer',
-        'label' => 'EU Footer block',
-        'provider' => 'oe_corporate_blocks',
-        'label_display' => '0',
-      ],
-    ]);
-    $entity->save();
-    $builder = \Drupal::entityTypeManager()->getViewBuilder('block');
-    $build = $builder->view($entity, 'block');
-    $render = $this->container->get('renderer')->renderRoot($build);
-    $crawler = new Crawler($render->__toString());
-
-    $accessibilityLink = $crawler->filter('a[href="https://example.com/accessibility"]');
-    $this->assertCount(1, $accessibilityLink);
-    $this->assertEquals('Accessibility', $accessibilityLink->text());
+      'selector' => 'a[href="https://example.com/accessibility"]',
+    ];
   }
 
 }
