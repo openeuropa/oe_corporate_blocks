@@ -55,6 +55,11 @@
     {% if site_owner is not empty %}
       <span class="footer__content-owner-details">{{ 'This site is managed by: @name'|t({'@name': site_owner}) }}</span>
     {% endif %}
+
+    {% if accessibility_link is not empty %}
+      <p>{{ link('Accessibility'|t, accessibility_link) }}</p>
+    {% endif %}
+
     {% if corporate_footer.class_navigation is not empty %}
       <ul class="footer__list footer__class-navigation">
         {% for menu_item in corporate_footer.class_navigation %}
