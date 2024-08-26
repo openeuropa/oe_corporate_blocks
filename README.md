@@ -91,7 +91,7 @@ $databases["sparql_default"] = array(
     'prefix' => '',
     'host' => 'your-triple-store-host',
     'port' => '8890',
-    'namespace' => 'Drupal\\Driver\\Database\\sparql',
+    'namespace' => 'Drupal\\sparql_entity_storage\\Driver\\Database\\sparql',
     'driver' => 'sparql'
   )
 );
