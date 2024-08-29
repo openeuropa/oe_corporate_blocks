@@ -1,13 +1,28 @@
-# Change Log
+# Changelog
+
+## [4.20.0](https://github.com/openeuropa/oe_corporate_blocks/tree/4.20.0) (2024-08-29)
+
+[Full Changelog](https://github.com/openeuropa/oe_corporate_blocks/compare/4.19.2...4.20.0)
+
+**Merged pull requests:**
+
+- OEL-3170: Fix sparql namespace in readme. [\#164](https://github.com/openeuropa/oe_corporate_blocks/pull/164) ([drishu](https://github.com/drishu))
+- OEL-3015: Remove invalid route definition. [\#163](https://github.com/openeuropa/oe_corporate_blocks/pull/163) ([AaronGilMartinez](https://github.com/AaronGilMartinez))
+- EWPP-4526: Add Japanese translations. [\#162](https://github.com/openeuropa/oe_corporate_blocks/pull/162) ([22Alexandra](https://github.com/22Alexandra))
+- OEL-3041: Update to Drupal 10.3. [\#161](https://github.com/openeuropa/oe_corporate_blocks/pull/161) ([AaronGilMartinez](https://github.com/AaronGilMartinez))
+- UCPKN-3176: Accessibility statement link in the footer. [\#155](https://github.com/openeuropa/oe_corporate_blocks/pull/155) ([peterserfozo](https://github.com/peterserfozo))
 
 ## [4.19.2](https://github.com/openeuropa/oe_corporate_blocks/tree/4.19.2) (2024-06-24)
+
 [Full Changelog](https://github.com/openeuropa/oe_corporate_blocks/compare/4.19.1...4.19.2)
 
 **Merged pull requests:**
 
+- Prepare changelog for release 4.19.2. [\#160](https://github.com/openeuropa/oe_corporate_blocks/pull/160) ([brummbar](https://github.com/brummbar))
 - OEL-3058: Check strings before deletion. [\#159](https://github.com/openeuropa/oe_corporate_blocks/pull/159) ([drishu](https://github.com/drishu))
 
 ## [4.19.1](https://github.com/openeuropa/oe_corporate_blocks/tree/4.19.1) (2024-06-13)
+
 [Full Changelog](https://github.com/openeuropa/oe_corporate_blocks/compare/4.19.0...4.19.1)
 
 **Merged pull requests:**
@@ -205,6 +220,9 @@
 - EWPP-1065: Add links to EU footer. [\#88](https://github.com/openeuropa/oe_corporate_blocks/pull/88) ([sergepavle](https://github.com/sergepavle))
 
 ## [4.0.0](https://github.com/openeuropa/oe_corporate_blocks/tree/4.0.0) (2021-03-22)
+
+[Full Changelog](https://github.com/openeuropa/oe_corporate_blocks/compare/4ed0377b3780e2dc1af130bf9c0a68555feb6e82...4.0.0)
+
 **Fixed bugs:**
 
 - Post update hook fails when Interface translation is not enabled. [\#48](https://github.com/openeuropa/oe_corporate_blocks/issues/48)
