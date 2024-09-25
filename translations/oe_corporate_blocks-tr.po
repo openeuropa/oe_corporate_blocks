@@ -159,3 +159,21 @@ msgstr "Çerezler"
 
 msgid "Social media"
 msgstr "Sosyal medya"
+
+msgid "Accessibility"
+msgstr "Erişilebilirlik"
+
+msgid "EU institutions and bodies"
+msgstr "AB kurumları ve organları"
+
+msgid "Languages on our websites"
+msgstr "İnternet sitelerimizdeki diller"
+
+msgid "Press Corner"
+msgstr "Basın Köşesi"
+
+msgid "Report an IT vulnerability"
+msgstr "Bir BT güvenlik açığını bildirin"
+
+msgid "Search all EU institutions and bodies"
+msgstr "Tüm AB kurumlarını ve organlarını arayın"
