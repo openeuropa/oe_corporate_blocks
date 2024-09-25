@@ -159,3 +159,21 @@ msgstr "Vefkökur"
 
 msgid "Social media"
 msgstr "Samfélagsmiðlar"
+
+msgid "Accessibility"
+msgstr "Aðgengi"
+
+msgid "EU institutions and bodies"
+msgstr "Stofnanir og aðilar ESB"
+
+msgid "Languages on our websites"
+msgstr "Tungumál á vefsíðum okkar"
+
+msgid "Press Corner"
+msgstr "Fjölmiðlahorn"
+
+msgid "Report an IT vulnerability"
+msgstr "Tilkynna veikleika í upplýsingatækni"
+
+msgid "Search all EU institutions and bodies"
+msgstr "Leita hjá öllum stofnunum og aðilum ESB"
