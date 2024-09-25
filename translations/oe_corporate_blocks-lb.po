@@ -159,3 +159,18 @@ msgstr "Recht"
 
 msgid "Events"
 msgstr "Veranstaltungen"
+
+msgid "Cookies"
+msgstr "Cookien"
+
+msgid "EU institutions and bodies"
+msgstr "EU-Institutiounen an -Organer"
+
+msgid "Press Corner"
+msgstr "Eck vun der Press"
+
+msgid "Report an IT vulnerability"
+msgstr "Eng IT-Vulnerabilitéit mellen"
+
+msgid "Search all EU institutions and bodies"
+msgstr "All EU-Institutiounen an -Organer sichen"
