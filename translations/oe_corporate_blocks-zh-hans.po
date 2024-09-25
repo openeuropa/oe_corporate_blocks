@@ -83,7 +83,7 @@ msgid "About this site"
 msgstr "关于本站"
 
 msgid "Languages on our websites"
-msgstr "我们网站使用的语言"
+msgstr "我们网站所用语言"
 
 msgid "Privacy policy"
 msgstr "隐私政策"
@@ -165,3 +165,15 @@ msgstr "合作伙伴资源"
 
 msgid "Social media"
 msgstr "社交媒体"
+
+msgid "EU institutions and bodies"
+msgstr "欧盟机构和组织"
+
+msgid "Press Corner"
+msgstr "新闻媒体角"
+
+msgid "Report an IT vulnerability"
+msgstr "报告IT漏洞"
+
+msgid "Search all EU institutions and bodies"
+msgstr "搜索所有欧盟机构和组织"
