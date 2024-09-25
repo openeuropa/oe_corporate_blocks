@@ -161,4 +161,19 @@ msgid "Social media"
 msgstr "Социальные сети"
 
 msgid "Accessibility"
-msgstr "Специальные возможности"
+msgstr "Доступность"
+
+msgid "EU institutions and bodies"
+msgstr "Институты и органы ЕС"
+
+msgid "Languages on our websites"
+msgstr "Языки на наших веб-сайтах"
+
+msgid "Press Corner"
+msgstr "Для прессы"
+
+msgid "Report an IT vulnerability"
+msgstr "Сообщить об уязвимости IT"
+
+msgid "Search all EU institutions and bodies"
+msgstr "Искать во всех институтах и органах ЕС"
