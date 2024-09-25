@@ -7,8 +7,8 @@
 
 declare(strict_types=1);
 
-use Drupal\block\Entity\Block;
 use Drupal\Core\Config\FileStorage;
+use Drupal\block\Entity\Block;
 
 /**
  * Delete the block site switcher block.

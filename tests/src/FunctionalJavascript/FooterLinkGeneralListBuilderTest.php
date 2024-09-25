@@ -7,8 +7,8 @@ namespace Drupal\Tests\oe_corporate_blocks\FunctionalJavascript;
 use Behat\Mink\Element\NodeElement;
 use Drupal\Component\Utility\Html;
 use Drupal\FunctionalJavascriptTests\WebDriverTestBase;
-use Drupal\oe_corporate_blocks\Entity\FooterLinkGeneralInterface;
 use Drupal\Tests\oe_corporate_blocks\Traits\AssertFooterLinksTrait;
+use Drupal\oe_corporate_blocks\Entity\FooterLinkGeneralInterface;
 
 /**
  * Test the general footer link overview page.
