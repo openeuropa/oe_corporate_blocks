@@ -159,3 +159,21 @@ msgstr "Galetes"
 
 msgid "Social media"
 msgstr "Xarxes socials"
+
+msgid "Accessibility"
+msgstr "Accessibilitat"
+
+msgid "EU institutions and bodies"
+msgstr "Institucions i organismes de la UE"
+
+msgid "Languages on our websites"
+msgstr "Llengües dels nostres llocs web"
+
+msgid "Press Corner"
+msgstr "Sala de premsa"
+
+msgid "Report an IT vulnerability"
+msgstr "Notificar una vulnerabilitat informàtica"
+
+msgid "Search all EU institutions and bodies"
+msgstr "Cerca a totes les institucions i organismes de la UE"
