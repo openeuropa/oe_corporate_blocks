@@ -159,3 +159,21 @@ msgstr "Kjeks"
 
 msgid "Social media"
 msgstr "Sosiale medier"
+
+msgid "Accessibility"
+msgstr "Tilgjengelighet"
+
+msgid "EU institutions and bodies"
+msgstr "Institusjoner og organer i EU"
+
+msgid "Languages on our websites"
+msgstr "Språk på nettsidene våre"
+
+msgid "Press Corner"
+msgstr "Mediehjørnet"
+
+msgid "Report an IT vulnerability"
+msgstr "Rapportere om IT-sårbarhet"
+
+msgid "Search all EU institutions and bodies"
+msgstr "Søk alle EU-institusjoner og -organer"

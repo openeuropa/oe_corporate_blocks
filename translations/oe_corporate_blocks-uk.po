@@ -171,3 +171,15 @@ msgstr "Ресурси для партнерів"
 
 msgid "Social media"
 msgstr "Соціальні мережі"
+
+msgid "EU institutions and bodies"
+msgstr "Інституції й органи ЄС"
+
+msgid "Press Corner"
+msgstr "Для преси"
+
+msgid "Report an IT vulnerability"
+msgstr "Повідомити про ІТ-вразливість"
+
+msgid "Search all EU institutions and bodies"
+msgstr "Шукати в усіх інституціях і органах ЄС"

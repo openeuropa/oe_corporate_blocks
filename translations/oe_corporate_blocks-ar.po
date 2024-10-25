@@ -1,6 +1,9 @@
 msgid ""
 msgstr ""
 
+msgid "Accessibility"
+msgstr "الدخول"
+
 msgid "Contact the EU"
 msgstr "اتصل بالاتحاد الأوروبي"
 
@@ -159,3 +162,18 @@ msgstr "كوكيز"
 
 msgid "Social media"
 msgstr "وسائل التواصل الاجتماعي"
+
+msgid "EU institutions and bodies"
+msgstr "مؤسسات وكيانات الاتحاد الأوروبي"
+
+msgid "Languages on our websites"
+msgstr "اللغات المتاحة في مواقعنا"
+
+msgid "Press Corner"
+msgstr "ركن الصحافة"
+
+msgid "Report an IT vulnerability"
+msgstr "التبليغ عن ثغرات أمن المعلوماتية"
+
+msgid "Search all EU institutions and bodies"
+msgstr "البحث عن جميع مؤسسات وكيانات الاتحاد الأوروبي"
