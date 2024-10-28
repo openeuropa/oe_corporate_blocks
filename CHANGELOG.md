@@ -1,5 +1,17 @@
 # Changelog
 
+## [4.21.0](https://github.com/openeuropa/oe_corporate_blocks/tree/4.21.0) (2024-10-28)
+
+[Full Changelog](https://github.com/openeuropa/oe_corporate_blocks/compare/4.20.0...4.21.0)
+
+**Closed issues:**
+
+- No Translation in the footer for Language Policy link! [\#168](https://github.com/openeuropa/oe_corporate_blocks/issues/168)
+
+**Merged pull requests:**
+
+- EWPP-4782: Add translations for non-eu languages. [\#167](https://github.com/openeuropa/oe_corporate_blocks/pull/167) ([22Alexandra](https://github.com/22Alexandra))
+
 ## [4.20.0](https://github.com/openeuropa/oe_corporate_blocks/tree/4.20.0) (2024-08-29)
 
 [Full Changelog](https://github.com/openeuropa/oe_corporate_blocks/compare/4.19.2...4.20.0)
