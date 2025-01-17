@@ -9,7 +9,6 @@ declare(strict_types=1);
 
 use Drupal\Component\Utility\Crypt;
 use Drupal\Core\Config\FileStorage;
-use Drupal\locale\Locale;
 
 /**
  * Helper function: import corporate links.
@@ -40,7 +39,7 @@ function _oe_corporate_blocks_import_corporate_links(string $config_path): void 
 
   // Import translations.
   $langcodes = array_keys(\Drupal::languageManager()->getLanguages());
-  Locale::config()->updateConfigTranslations($configs, $langcodes);
+  \Drupal::service('locale.config_manager')->updateConfigTranslations($configs, $langcodes);
 }
 
 /**
