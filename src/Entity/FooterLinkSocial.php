@@ -51,7 +51,7 @@ class FooterLinkSocial extends FooterLinkGeneral implements FooterLinkSocialInte
    *
    * @var array
    */
-  static public $allowedSocialNetworks = [
+  public static $allowedSocialNetworks = [
     'facebook' => 'Facebook',
     'instagram' => 'Instagram',
     'linkedin' => 'Linkedin',

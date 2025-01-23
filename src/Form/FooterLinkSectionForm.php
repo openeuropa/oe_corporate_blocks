@@ -66,6 +66,8 @@ class FooterLinkSectionForm extends EntityForm {
         ]));
     }
     $form_state->setRedirectUrl($section->toUrl('collection'));
+
+    return $status;
   }
 
 }

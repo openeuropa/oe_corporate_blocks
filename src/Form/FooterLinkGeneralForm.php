@@ -80,6 +80,8 @@ class FooterLinkGeneralForm extends FooterLinkFormBase {
         ]));
     }
     $form_state->setRedirectUrl($footer_link_general->toUrl('collection'));
+
+    return $status;
   }
 
 }
