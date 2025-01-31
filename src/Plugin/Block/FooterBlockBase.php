@@ -83,9 +83,11 @@ abstract class FooterBlockBase extends BlockBase implements ContainerFactoryPlug
    *   The build render array of footer.
    * @param \Drupal\Core\Cache\CacheableMetadata $cache
    *   The Cacheable metadata abject.
+   * @param array $exclude_sections
+   *   The section IDs to exclude.
    */
-  protected function setSiteSpecificFooter(array &$build, CacheableMetadata &$cache): void {
-    $general_links = $this->getGeneralFooterLinks($cache);
+  protected function setSiteSpecificFooter(array &$build, CacheableMetadata &$cache, array $exclude_sections = []): void {
+    $general_links = $this->getGeneralFooterLinks($cache, $exclude_sections);
     $social_links = $this->getSocialFooterLinks($cache);
     $site_info_config = $this->configFactory->get('system.site');
     $cache->addCacheableDependency($site_info_config);
@@ -103,11 +105,13 @@ abstract class FooterBlockBase extends BlockBase implements ContainerFactoryPlug
    *
    * @param \Drupal\Core\Cache\CacheableMetadata $cache
    *   The Cacheable metadata abject.
+   * @param array $exclude_sections
+   *   The section IDs to exclude.
    *
    * @return array
    *   The array of links.
    */
-  protected function getGeneralFooterLinks(CacheableMetadata &$cache): array {
+  protected function getGeneralFooterLinks(CacheableMetadata &$cache, array $exclude_sections = []): array {
     /** @var \Drupal\Core\Entity\EntityStorageInterface $storage */
     $storage = $this->entityTypeManager->getStorage('footer_link_general');
     $cache->addCacheTags($storage->getEntityType()->getListCacheTags());
@@ -115,6 +119,11 @@ abstract class FooterBlockBase extends BlockBase implements ContainerFactoryPlug
     $cache->addCacheTags($storage->getEntityType()->getListCacheTags());
     $links = [];
     foreach ($this->linkManager->getSections() as $section) {
+      // Skip excluded sections.
+      if (in_array($section->id(), $exclude_sections)) {
+        continue;
+      }
+
       $section_links = $this->linkManager->getLinksBySection($section->id());
 
       if (empty($section_links)) {

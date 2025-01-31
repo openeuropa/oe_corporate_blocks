@@ -60,9 +60,9 @@
       <p>{{ link('Accessibility'|t, accessibility_link) }}</p>
     {% endif %}
 
-    {% if corporate_footer.class_navigation is not empty %}
-      <ul class="footer__list footer__class-navigation">
-        {% for menu_item in corporate_footer.class_navigation %}
+    {% if corporate_footer.ec_core_section is not empty %}
+      <ul class="footer__list footer__ec-core-section">
+        {% for menu_item in corporate_footer.ec_core_section %}
           <li class="footer__list-item">
             {{ link(menu_item.label, menu_item.href) }}
           </li>

@@ -1,0 +1,8 @@
+langcode: en
+status: true
+dependencies: {  }
+id: priorities
+label: Priorities
+url: 'https://commission.europa.eu/priorities-2024-2029_en'
+section: ec_core_column
+weight: -2
