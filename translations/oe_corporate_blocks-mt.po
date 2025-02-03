@@ -1,6 +1,42 @@
 msgid ""
 msgstr ""
 
+msgid "https://commission.europa.eu/priorities-2024-2029_en"
+msgstr "https://commission.europa.eu/priorities-2024-2029_mt"
+
+msgid "https://commission.europa.eu/topics_en"
+msgstr "https://commission.europa.eu/topics_mt"
+
+msgid "https://commission.europa.eu/funding-tenders_en"
+msgstr "https://commission.europa.eu/funding-tenders_mt"
+
+msgid "https://commission.europa.eu/get-involved/jobs-european-commission_en"
+msgstr "https://commission.europa.eu/get-involved/jobs-european-commission_mt"
+
+msgid "https://commission.europa.eu/get-involved/events_en"
+msgstr "https://commission.europa.eu/get-involved/events_mt"
+
+msgid "Jobs"
+msgstr "Impjiegi"
+
+msgid "Funding and tenders"
+msgstr "Finanzjament u offerti"
+
+msgid "Topics"
+msgstr "Temi"
+
+msgid "Priorities"
+msgstr "Prijoritajiet"
+
+msgid "https://commission.europa.eu/about/contact_en"
+msgstr "https://commission.europa.eu/about/contact_mt"
+
+msgid "Contact us"
+msgstr "Ikkuntattjana"
+
+msgid "About us"
+msgstr "Dwarna"
+
 msgid "Contact the EU"
 msgstr "Ikkuntattja lill-UE"
 
@@ -190,8 +226,8 @@ msgstr "https://commission.europa.eu/strategy_mt"
 msgid "Strategy"
 msgstr "Strateġija"
 
-msgid "https://commission.europa.eu/about-european-commission_en"
-msgstr "https://commission.europa.eu/about-european-commission_mt"
+msgid "https://commission.europa.eu/about_en"
+msgstr "https://commission.europa.eu/about_mt"
 
 msgid "About the European Commission"
 msgstr "Dwar il-Kummissjoni Ewropea"
@@ -313,11 +349,11 @@ msgstr "https://commission.europa.eu/legal-notice/vulnerability-disclosure-polic
 msgid "https://commission.europa.eu/language-policy_en"
 msgstr "https://commission.europa.eu/language-policy_mt"
 
-msgid "https://commission.europa.eu/cookies_en"
-msgstr "https://commission.europa.eu/cookies_mt"
+msgid "https://commission.europa.eu/cookies-policy_en"
+msgstr "https://commission.europa.eu/cookies-policy_mt"
 
-msgid "https://commission.europa.eu/privacy-policy_en"
-msgstr "https://commission.europa.eu/privacy-policy_mt"
+msgid "https://commission.europa.eu/privacy-policy-websites-managed-european-commission_en"
+msgstr "https://commission.europa.eu/privacy-policy-websites-managed-european-commission_mt"
 
 msgid "https://commission.europa.eu/legal-notice_en"
 msgstr "https://commission.europa.eu/legal-notice_mt"
@@ -325,7 +361,7 @@ msgstr "https://commission.europa.eu/legal-notice_mt"
 msgid "Social media"
 msgstr "Media soċjali"
 
-msgid "Press Corner"
+msgid "Press corner"
 msgstr "Rokna tal-Istampa"
 
 msgid "EU institutions and bodies"

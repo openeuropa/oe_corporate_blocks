@@ -1,6 +1,42 @@
 msgid ""
 msgstr ""
 
+msgid "https://commission.europa.eu/priorities-2024-2029_en"
+msgstr "https://commission.europa.eu/priorities-2024-2029_hr"
+
+msgid "https://commission.europa.eu/topics_en"
+msgstr "https://commission.europa.eu/topics_hr"
+
+msgid "https://commission.europa.eu/funding-tenders_en"
+msgstr "https://commission.europa.eu/funding-tenders_hr"
+
+msgid "https://commission.europa.eu/get-involved/jobs-european-commission_en"
+msgstr "https://commission.europa.eu/get-involved/jobs-european-commission_hr"
+
+msgid "https://commission.europa.eu/get-involved/events_en"
+msgstr "https://commission.europa.eu/get-involved/events_hr"
+
+msgid "Jobs"
+msgstr "Radna mjesta"
+
+msgid "Funding and tenders"
+msgstr "Financiranje i natječaji"
+
+msgid "Topics"
+msgstr "Teme"
+
+msgid "Priorities"
+msgstr "Prioriteti"
+
+msgid "https://commission.europa.eu/about/contact_en"
+msgstr "https://commission.europa.eu/about/contact_hr"
+
+msgid "Contact us"
+msgstr "Kontakt"
+
+msgid "About us"
+msgstr "O nama"
+
 msgid "Contact the EU"
 msgstr "Obratite se EU-u"
 
@@ -193,8 +229,8 @@ msgstr "https://commission.europa.eu/strategy_hr"
 msgid "Strategy"
 msgstr "Strategija"
 
-msgid "https://commission.europa.eu/about-european-commission_en"
-msgstr "https://commission.europa.eu/about-european-commission_hr"
+msgid "https://commission.europa.eu/about_en"
+msgstr "https://commission.europa.eu/about_hr"
 
 msgid "About the European Commission"
 msgstr "O Europskoj komisiji"
@@ -316,11 +352,11 @@ msgstr "https://commission.europa.eu/legal-notice/vulnerability-disclosure-polic
 msgid "https://commission.europa.eu/language-policy_en"
 msgstr "https://commission.europa.eu/language-policy_hr"
 
-msgid "https://commission.europa.eu/cookies_en"
-msgstr "https://commission.europa.eu/cookies_hr"
+msgid "https://commission.europa.eu/cookies-policy_en"
+msgstr "https://commission.europa.eu/cookies-policy_hr"
 
-msgid "https://commission.europa.eu/privacy-policy_en"
-msgstr "https://commission.europa.eu/privacy-policy_hr"
+msgid "https://commission.europa.eu/privacy-policy-websites-managed-european-commission_en"
+msgstr "https://commission.europa.eu/privacy-policy-websites-managed-european-commission_hr"
 
 msgid "https://commission.europa.eu/legal-notice_en"
 msgstr "https://commission.europa.eu/legal-notice_hr"
@@ -328,7 +364,7 @@ msgstr "https://commission.europa.eu/legal-notice_hr"
 msgid "Social media"
 msgstr "Društvene mreže"
 
-msgid "Press Corner"
+msgid "Press corner"
 msgstr "Kutak za medije"
 
 msgid "EU institutions and bodies"

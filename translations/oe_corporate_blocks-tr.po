@@ -1,6 +1,24 @@
 msgid ""
 msgstr ""
 
+msgid "Jobs"
+msgstr "Jobs"
+
+msgid "Funding and tenders"
+msgstr "Funding and tenders"
+
+msgid "Topics"
+msgstr "Topics"
+
+msgid "Priorities"
+msgstr "Priorities"
+
+msgid "Contact us"
+msgstr "Bize ulaşın"
+
+msgid "About us"
+msgstr "Hakkımızda"
+
 msgid "Contact the EU"
 msgstr "AB ile iletişime geçin"
 
@@ -169,7 +187,7 @@ msgstr "AB kurumları ve organları"
 msgid "Languages on our websites"
 msgstr "İnternet sitelerimizdeki diller"
 
-msgid "Press Corner"
+msgid "Press corner"
 msgstr "Basın Köşesi"
 
 msgid "Report an IT vulnerability"

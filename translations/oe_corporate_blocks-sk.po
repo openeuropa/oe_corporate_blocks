@@ -1,6 +1,42 @@
 msgid ""
 msgstr ""
 
+msgid "https://commission.europa.eu/priorities-2024-2029_en"
+msgstr "https://commission.europa.eu/priorities-2024-2029_sk"
+
+msgid "https://commission.europa.eu/topics_en"
+msgstr "https://commission.europa.eu/topics_sk"
+
+msgid "https://commission.europa.eu/funding-tenders_en"
+msgstr "https://commission.europa.eu/funding-tenders_sk"
+
+msgid "https://commission.europa.eu/get-involved/jobs-european-commission_en"
+msgstr "https://commission.europa.eu/get-involved/jobs-european-commission_sk"
+
+msgid "https://commission.europa.eu/get-involved/events_en"
+msgstr "https://commission.europa.eu/get-involved/events_sk"
+
+msgid "Jobs"
+msgstr "Pracovné miesta"
+
+msgid "Funding and tenders"
+msgstr "Financovanie a verejné súťaže"
+
+msgid "Topics"
+msgstr "Témy"
+
+msgid "Priorities"
+msgstr "Priority"
+
+msgid "https://commission.europa.eu/about/contact_en"
+msgstr "https://commission.europa.eu/about/contact_sk"
+
+msgid "Contact us"
+msgstr "Kontakt"
+
+msgid "About us"
+msgstr "O nás"
+
 msgid "Contact the EU"
 msgstr "Kontaktujte EÚ"
 
@@ -190,8 +226,8 @@ msgstr "https://commission.europa.eu/strategy_sk"
 msgid "Strategy"
 msgstr "Stratégia"
 
-msgid "https://commission.europa.eu/about-european-commission_en"
-msgstr "https://commission.europa.eu/about-european-commission_sk"
+msgid "https://commission.europa.eu/about_en"
+msgstr "https://commission.europa.eu/about_sk"
 
 msgid "About the European Commission"
 msgstr "O Európskej komisii"
@@ -313,11 +349,11 @@ msgstr "https://commission.europa.eu/legal-notice/vulnerability-disclosure-polic
 msgid "https://commission.europa.eu/language-policy_en"
 msgstr "https://commission.europa.eu/language-policy_sk"
 
-msgid "https://commission.europa.eu/cookies_en"
-msgstr "https://commission.europa.eu/cookies_sk"
+msgid "https://commission.europa.eu/cookies-policy_en"
+msgstr "https://commission.europa.eu/cookies-policy_sk"
 
-msgid "https://commission.europa.eu/privacy-policy_en"
-msgstr "https://commission.europa.eu/privacy-policy_sk"
+msgid "https://commission.europa.eu/privacy-policy-websites-managed-european-commission_en"
+msgstr "https://commission.europa.eu/privacy-policy-websites-managed-european-commission_sk"
 
 msgid "https://commission.europa.eu/legal-notice_en"
 msgstr "https://commission.europa.eu/legal-notice_sk"
@@ -325,7 +361,7 @@ msgstr "https://commission.europa.eu/legal-notice_sk"
 msgid "Social media"
 msgstr "Sociálne médiá"
 
-msgid "Press Corner"
+msgid "Press corner"
 msgstr "Tlačový kútik"
 
 msgid "EU institutions and bodies"

@@ -1,6 +1,24 @@
 msgid ""
 msgstr ""
 
+msgid "Jobs"
+msgstr "Jobs"
+
+msgid "Funding and tenders"
+msgstr "Funding and tenders"
+
+msgid "Topics"
+msgstr "Topics"
+
+msgid "Priorities"
+msgstr "Priorities"
+
+msgid "Contact us"
+msgstr "Зв'яжіться з нами"
+
+msgid "About us"
+msgstr "Про нас"
+
 msgid "Contact the EU"
 msgstr "Зв'язатися з ЄС"
 
@@ -175,7 +193,7 @@ msgstr "Соціальні мережі"
 msgid "EU institutions and bodies"
 msgstr "Інституції й органи ЄС"
 
-msgid "Press Corner"
+msgid "Press corner"
 msgstr "Для преси"
 
 msgid "Report an IT vulnerability"
