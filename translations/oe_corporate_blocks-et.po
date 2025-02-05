@@ -1,6 +1,42 @@
 msgid ""
 msgstr ""
 
+msgid "https://commission.europa.eu/priorities-2024-2029_en"
+msgstr "https://commission.europa.eu/priorities-2024-2029_et"
+
+msgid "https://commission.europa.eu/topics_en"
+msgstr "https://commission.europa.eu/topics_en"
+
+msgid "https://commission.europa.eu/funding-tenders_en"
+msgstr "https://commission.europa.eu/funding-tenders_en"
+
+msgid "https://commission.europa.eu/get-involved/jobs-european-commission_en"
+msgstr "https://commission.europa.eu/get-involved/jobs-european-commission_en"
+
+msgid "https://commission.europa.eu/get-involved/events_en"
+msgstr "https://commission.europa.eu/get-involved/events_en"
+
+msgid "Jobs"
+msgstr "Töökohad"
+
+msgid "Funding and tenders"
+msgstr "Rahastamine ja hanked"
+
+msgid "Topics"
+msgstr "Teemad"
+
+msgid "Priorities"
+msgstr "Prioriteedid"
+
+msgid "https://commission.europa.eu/about/contact_en"
+msgstr "https://commission.europa.eu/about/contact_et"
+
+msgid "Contact us"
+msgstr "Võtke meiega ühendust"
+
+msgid "About us"
+msgstr "Meist"
+
 msgid "Contact the EU"
 msgstr "Võtke ELiga ühendust"
 
@@ -193,8 +229,8 @@ msgstr "https://commission.europa.eu/strategy_et"
 msgid "Strategy"
 msgstr "Strateegia"
 
-msgid "https://commission.europa.eu/about-european-commission_en"
-msgstr "https://commission.europa.eu/about-european-commission_et"
+msgid "https://commission.europa.eu/about_en"
+msgstr "https://commission.europa.eu/about_et"
 
 msgid "About the European Commission"
 msgstr "Euroopa Komisjoni tutvustus"
@@ -316,11 +352,11 @@ msgstr "https://commission.europa.eu/legal-notice/vulnerability-disclosure-polic
 msgid "https://commission.europa.eu/language-policy_en"
 msgstr "https://commission.europa.eu/language-policy_et"
 
-msgid "https://commission.europa.eu/cookies_en"
-msgstr "https://commission.europa.eu/cookies_et"
+msgid "https://commission.europa.eu/cookies-policy_en"
+msgstr "https://commission.europa.eu/cookies-policy_et"
 
-msgid "https://commission.europa.eu/privacy-policy_en"
-msgstr "https://commission.europa.eu/privacy-policy_et"
+msgid "https://commission.europa.eu/privacy-policy-websites-managed-european-commission_en"
+msgstr "https://commission.europa.eu/privacy-policy-websites-managed-european-commission_et"
 
 msgid "https://commission.europa.eu/legal-notice_en"
 msgstr "https://commission.europa.eu/legal-notice_et"
@@ -328,7 +364,7 @@ msgstr "https://commission.europa.eu/legal-notice_et"
 msgid "Social media"
 msgstr "Sotsiaalmeedia"
 
-msgid "Press Corner"
+msgid "Press corner"
 msgstr "Pressinurk"
 
 msgid "EU institutions and bodies"

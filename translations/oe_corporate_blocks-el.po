@@ -1,6 +1,42 @@
 msgid ""
 msgstr ""
 
+msgid "https://commission.europa.eu/priorities-2024-2029_en"
+msgstr "https://commission.europa.eu/priorities-2024-2029_el"
+
+msgid "https://commission.europa.eu/topics_en"
+msgstr "https://commission.europa.eu/topics_el"
+
+msgid "https://commission.europa.eu/funding-tenders_en"
+msgstr "https://commission.europa.eu/funding-tenders_el"
+
+msgid "https://commission.europa.eu/get-involved/jobs-european-commission_en"
+msgstr "https://commission.europa.eu/get-involved/jobs-european-commission_el"
+
+msgid "https://commission.europa.eu/get-involved/events_en"
+msgstr "https://commission.europa.eu/get-involved/events_el"
+
+msgid "Jobs"
+msgstr "Θέσεις εργασίας"
+
+msgid "Funding and tenders"
+msgstr "Χρηματοδοτήσεις και υποβολή προσφορών"
+
+msgid "Topics"
+msgstr "Θέματα"
+
+msgid "Priorities"
+msgstr "Προτεραιότητες"
+
+msgid "https://commission.europa.eu/about/contact_en"
+msgstr "https://commission.europa.eu/about/contact_el"
+
+msgid "Contact us"
+msgstr "Επικοινωνήστε μαζί μας"
+
+msgid "About us"
+msgstr "Ποιοι είμαστε"
+
 msgid "Contact the EU"
 msgstr "Επικοινωνήστε με την ΕΕ"
 
@@ -198,8 +234,8 @@ msgstr "https://commission.europa.eu/strategy_el"
 msgid "Strategy"
 msgstr "Στρατηγική"
 
-msgid "https://commission.europa.eu/about-european-commission_en"
-msgstr "https://commission.europa.eu/about-european-commission_el"
+msgid "https://commission.europa.eu/about_en"
+msgstr "https://commission.europa.eu/about_el"
 
 msgid "About the European Commission"
 msgstr "Λίγα λόγια για την Ευρωπαϊκή Επιτροπή"
@@ -333,11 +369,11 @@ msgstr "https://commission.europa.eu/legal-notice/vulnerability-disclosure-polic
 msgid "https://commission.europa.eu/language-policy_en"
 msgstr "https://commission.europa.eu/language-policy_el"
 
-msgid "https://commission.europa.eu/cookies_en"
-msgstr "https://commission.europa.eu/cookies_el"
+msgid "https://commission.europa.eu/cookies-policy_en"
+msgstr "https://commission.europa.eu/cookies-policy_el"
 
-msgid "https://commission.europa.eu/privacy-policy_en"
-msgstr "https://commission.europa.eu/privacy-policy_el"
+msgid "https://commission.europa.eu/privacy-policy-websites-managed-european-commission_en"
+msgstr "https://commission.europa.eu/privacy-policy-websites-managed-european-commission_el"
 
 msgid "https://commission.europa.eu/legal-notice_en"
 msgstr "https://commission.europa.eu/legal-notice_el"
@@ -345,7 +381,7 @@ msgstr "https://commission.europa.eu/legal-notice_el"
 msgid "Social media"
 msgstr "Μέσα κοινωνικής δικτύωσης"
 
-msgid "Press Corner"
+msgid "Press corner"
 msgstr "Η γωνιά του Τύπου"
 
 msgid "EU institutions and bodies"

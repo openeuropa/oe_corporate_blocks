@@ -39,7 +39,7 @@ class EuFooterBlock extends FooterBlockBase implements ContainerFactoryPluginInt
     }
 
     NestedArray::setValue($build, ['#corporate_footer'], $data);
-    $this->setSiteSpecificFooter($build, $cache);
+    $this->setSiteSpecificFooter($build, $cache, ['ec_core_column']);
 
     $cache->applyTo($build);
 

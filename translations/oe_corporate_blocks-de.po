@@ -1,6 +1,42 @@
 msgid ""
 msgstr ""
 
+msgid "https://commission.europa.eu/priorities-2024-2029_en"
+msgstr "https://commission.europa.eu/priorities-2024-2029_de"
+
+msgid "https://commission.europa.eu/topics_en"
+msgstr "https://commission.europa.eu/topics_de"
+
+msgid "https://commission.europa.eu/funding-tenders_en"
+msgstr "https://commission.europa.eu/funding-tenders_de"
+
+msgid "https://commission.europa.eu/get-involved/jobs-european-commission_en"
+msgstr "https://commission.europa.eu/get-involved/jobs-european-commission_de"
+
+msgid "https://commission.europa.eu/get-involved/events_en"
+msgstr "https://commission.europa.eu/get-involved/events_de"
+
+msgid "Jobs"
+msgstr "Stellenangebote"
+
+msgid "Funding and tenders"
+msgstr "Fördermittel und Ausschreibungen"
+
+msgid "Topics"
+msgstr "Themen"
+
+msgid "Priorities"
+msgstr "Prioritäten"
+
+msgid "https://commission.europa.eu/about/contact_en"
+msgstr "https://commission.europa.eu/about/contact_de"
+
+msgid "Contact us"
+msgstr "Kontakt"
+
+msgid "About us"
+msgstr "Über uns"
+
 msgid "Contact the EU"
 msgstr "Kontakt"
 
@@ -196,8 +232,8 @@ msgstr "https://commission.europa.eu/strategy_de"
 msgid "Strategy"
 msgstr "Strategie"
 
-msgid "https://commission.europa.eu/about-european-commission_en"
-msgstr "https://commission.europa.eu/about-european-commission_de"
+msgid "https://commission.europa.eu/about_en"
+msgstr "https://commission.europa.eu/about_de"
 
 msgid "About the European Commission"
 msgstr "Informationen über die Europäische Kommission"
@@ -319,11 +355,11 @@ msgstr "https://commission.europa.eu/legal-notice/vulnerability-disclosure-polic
 msgid "https://commission.europa.eu/language-policy_en"
 msgstr "https://commission.europa.eu/language-policy_de"
 
-msgid "https://commission.europa.eu/cookies_en"
-msgstr "https://commission.europa.eu/cookies_de"
+msgid "https://commission.europa.eu/cookies-policy_en"
+msgstr "https://commission.europa.eu/cookies-policy_de"
 
-msgid "https://commission.europa.eu/privacy-policy_en"
-msgstr "https://commission.europa.eu/privacy-policy_de"
+msgid "https://commission.europa.eu/privacy-policy-websites-managed-european-commission_en"
+msgstr "https://commission.europa.eu/privacy-policy-websites-managed-european-commission_de"
 
 msgid "https://commission.europa.eu/legal-notice_en"
 msgstr "https://commission.europa.eu/legal-notice_de"
@@ -331,7 +367,7 @@ msgstr "https://commission.europa.eu/legal-notice_de"
 msgid "Social media"
 msgstr "Soziale Medien"
 
-msgid "Press Corner"
+msgid "Press corner"
 msgstr "Presseraum"
 
 msgid "EU institutions and bodies"

@@ -1,6 +1,24 @@
 msgid ""
 msgstr ""
 
+msgid "Jobs"
+msgstr "Jobs"
+
+msgid "Funding and tenders"
+msgstr "Funding and tenders"
+
+msgid "Topics"
+msgstr "Topics"
+
+msgid "Priorities"
+msgstr "Priorities"
+
+msgid "Contact us"
+msgstr "Contact us"
+
+msgid "About us"
+msgstr "About us"
+
 msgid "Contact the EU"
 msgstr "Hafa samband við ESB"
 
@@ -169,7 +187,7 @@ msgstr "Stofnanir og aðilar ESB"
 msgid "Languages on our websites"
 msgstr "Tungumál á vefsíðum okkar"
 
-msgid "Press Corner"
+msgid "Press corner"
 msgstr "Fjölmiðlahorn"
 
 msgid "Report an IT vulnerability"

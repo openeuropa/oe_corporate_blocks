@@ -1,0 +1,6 @@
+langcode: en
+status: true
+dependencies: {  }
+id: ec_core_column
+label: 'EC Core column'
+weight: 0

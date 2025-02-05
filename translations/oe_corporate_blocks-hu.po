@@ -1,6 +1,42 @@
 msgid ""
 msgstr ""
 
+msgid "https://commission.europa.eu/priorities-2024-2029_en"
+msgstr "https://commission.europa.eu/priorities-2024-2029_hu"
+
+msgid "https://commission.europa.eu/topics_en"
+msgstr "https://commission.europa.eu/topics_hu"
+
+msgid "https://commission.europa.eu/funding-tenders_en"
+msgstr "https://commission.europa.eu/funding-tenders_hu"
+
+msgid "https://commission.europa.eu/get-involved/jobs-european-commission_en"
+msgstr "https://commission.europa.eu/get-involved/jobs-european-commission_hu"
+
+msgid "https://commission.europa.eu/get-involved/events_en"
+msgstr "https://commission.europa.eu/get-involved/events_hu"
+
+msgid "Jobs"
+msgstr "Munkahelyek"
+
+msgid "Funding and tenders"
+msgstr "Finanszírozás és közbeszerzési felhívások"
+
+msgid "Topics"
+msgstr "Témák"
+
+msgid "Priorities"
+msgstr "Prioritások"
+
+msgid "https://commission.europa.eu/about/contact_en"
+msgstr "https://commission.europa.eu/about/contact_hu"
+
+msgid "Contact us"
+msgstr "Kapcsolatfelvétel"
+
+msgid "About us"
+msgstr "Bemutatkozás"
+
 msgid "Contact the EU"
 msgstr "Kapcsolatfelvétel"
 
@@ -192,8 +228,8 @@ msgstr "https://commission.europa.eu/strategy_hu"
 msgid "Strategy"
 msgstr "Stratégia"
 
-msgid "https://commission.europa.eu/about-european-commission_en"
-msgstr "https://commission.europa.eu/about-european-commission_hu"
+msgid "https://commission.europa.eu/about_en"
+msgstr "https://commission.europa.eu/about_hu"
 
 msgid "About the European Commission"
 msgstr "Az Európai Bizottságról"
@@ -315,11 +351,11 @@ msgstr "https://commission.europa.eu/legal-notice/vulnerability-disclosure-polic
 msgid "https://commission.europa.eu/language-policy_en"
 msgstr "https://commission.europa.eu/language-policy_hu"
 
-msgid "https://commission.europa.eu/cookies_en"
-msgstr "https://commission.europa.eu/cookies_hu"
+msgid "https://commission.europa.eu/cookies-policy_en"
+msgstr "https://commission.europa.eu/cookies-policy_hu"
 
-msgid "https://commission.europa.eu/privacy-policy_en"
-msgstr "https://commission.europa.eu/privacy-policy_hu"
+msgid "https://commission.europa.eu/privacy-policy-websites-managed-european-commission_en"
+msgstr "https://commission.europa.eu/privacy-policy-websites-managed-european-commission_hu"
 
 msgid "https://commission.europa.eu/legal-notice_en"
 msgstr "https://commission.europa.eu/legal-notice_hu"
@@ -330,7 +366,7 @@ msgstr "Európai Gazdasági és Szociális Bizottság (EGSZB)"
 msgid "Social media"
 msgstr "Közösségi média"
 
-msgid "Press Corner"
+msgid "Press corner"
 msgstr "Sajtósarok"
 
 msgid "EU institutions and bodies"

@@ -1,0 +1,8 @@
+langcode: en
+status: true
+dependencies: {  }
+id: press_corner
+label: 'Press corner'
+url: 'https://ec.europa.eu/commission/presscorner/home/en'
+section: ec_core_column
+weight: 3

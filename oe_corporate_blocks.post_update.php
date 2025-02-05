@@ -351,3 +351,21 @@ function oe_corporate_blocks_post_update_40010(&$sandbox): void {
     }
   }
 }
+
+/**
+ * Update EC footer data.
+ */
+function oe_corporate_blocks_post_update_50000(): void {
+  $config_path = \Drupal::service('extension.list.module')->getPath('oe_corporate_blocks') . '/config/post_update/50000_update_footer_data';
+  _oe_corporate_blocks_import_corporate_links($config_path);
+
+  $storage = new FileStorage($config_path);
+
+  foreach ($storage->listAll('oe_corporate_blocks.footer_link.section') as $name) {
+    _oe_corporate_blocks_import_config_from_file($name, $storage);
+  }
+
+  foreach ($storage->listAll('oe_corporate_blocks.footer_link.general') as $name) {
+    _oe_corporate_blocks_import_config_from_file($name, $storage);
+  }
+}
