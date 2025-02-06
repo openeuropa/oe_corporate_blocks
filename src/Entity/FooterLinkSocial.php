@@ -52,14 +52,20 @@ class FooterLinkSocial extends FooterLinkGeneral implements FooterLinkSocialInte
    * @var array
    */
   public static $allowedSocialNetworks = [
+    'bluesky' => 'Bluesky',
+    'email' => 'Email',
     'facebook' => 'Facebook',
     'instagram' => 'Instagram',
     'linkedin' => 'Linkedin',
+    'mastodon' => 'Mastodon',
     'pinterest' => 'Pinterest',
     'rss' => 'RSS',
     'skype' => 'Skype',
+    'telegram' => 'Telegram',
+    'threads' => 'Threads',
     'twitter' => 'X',
     'youtube' => 'YouTube',
+    'chain' => 'Other',
   ];
 
   /**
