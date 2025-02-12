@@ -1,5 +1,13 @@
 # Change Log
 
+## [5.0.0-beta1](https://github.com/openeuropa/oe_corporate_blocks/tree/5.0.0-beta1) (2025-02-11)
+[Full Changelog](https://github.com/openeuropa/oe_corporate_blocks/compare/4.22.0...5.0.0-beta1)
+
+**Merged pull requests:**
+
+- EWPP-5181: Add new social media network options. [\#173](https://github.com/openeuropa/oe_corporate_blocks/pull/173) ([22Alexandra](https://github.com/22Alexandra))
+- EWPP-5177: Add new sections for specific site footer. [\#172](https://github.com/openeuropa/oe_corporate_blocks/pull/172) ([sergepavle](https://github.com/sergepavle))
+
 ## [4.22.0](https://github.com/openeuropa/oe_corporate_blocks/tree/4.22.0) (2025-01-28)
 [Full Changelog](https://github.com/openeuropa/oe_corporate_blocks/compare/4.21.0...4.22.0)
 
