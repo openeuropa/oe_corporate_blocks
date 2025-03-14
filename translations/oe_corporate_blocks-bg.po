@@ -346,11 +346,11 @@ msgstr ""
 "Следвайте Европейската комисия в "
 "социалните медии"
 
-msgid "https://commission.europa.eu/resources-partners_en"
-msgstr "https://commission.europa.eu/resources-partners_bg"
+msgid "https://commission.europa.eu/resources_en"
+msgstr "https://commission.europa.eu/resources_bg"
 
-msgid "Resources for partners"
-msgstr "Ресурси за партньори"
+msgid "Resources"
+msgstr "Ресурси"
 
 msgid "Report an IT vulnerability"
 msgstr "Докладване на ИТ уязвимост"

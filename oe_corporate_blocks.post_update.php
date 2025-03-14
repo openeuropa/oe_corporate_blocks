@@ -369,3 +369,11 @@ function oe_corporate_blocks_post_update_50000(): void {
     _oe_corporate_blocks_import_config_from_file($name, $storage);
   }
 }
+
+/**
+ * Update EC footer data.
+ */
+function oe_corporate_blocks_post_update_50001(): void {
+  $config_path = \Drupal::service('extension.list.module')->getPath('oe_corporate_blocks') . '/config/post_update/50001_update_footer_data';
+  _oe_corporate_blocks_import_corporate_links($config_path);
+}

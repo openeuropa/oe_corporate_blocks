@@ -337,11 +337,11 @@ msgstr "https://european-union.europa.eu/contact-eu/social-media-channels_lv#/se
 msgid "Follow the European Commission on social media"
 msgstr "Sekojiet Eiropas Komisijai sociālajos medijos"
 
-msgid "https://commission.europa.eu/resources-partners_en"
-msgstr "https://commission.europa.eu/resources-partners_lv"
+msgid "https://commission.europa.eu/resources_en"
+msgstr "https://commission.europa.eu/resources_lv"
 
-msgid "Resources for partners"
-msgstr "Resursi partneriem"
+msgid "Resources"
+msgstr "Resursi"
 
 msgid "Report an IT vulnerability"
 msgstr "Ziņot par IT ievainojamību"

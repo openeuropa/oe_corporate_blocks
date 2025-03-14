@@ -336,11 +336,11 @@ msgstr "https://european-union.europa.eu/contact-eu/social-media-channels_hu#/se
 msgid "Follow the European Commission on social media"
 msgstr "Az Európai Bizottság a közösségi média felületein"
 
-msgid "https://commission.europa.eu/resources-partners_en"
-msgstr "https://commission.europa.eu/resources-partners_hu"
+msgid "https://commission.europa.eu/resources_en"
+msgstr "https://commission.europa.eu/resources_hu"
 
-msgid "Resources for partners"
-msgstr "Erőforrások, segédeszközök"
+msgid "Resources"
+msgstr "Források"
 
 msgid "Report an IT vulnerability"
 msgstr "Informatikai sebezhetőség bejelentése"

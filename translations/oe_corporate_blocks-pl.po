@@ -337,8 +337,8 @@ msgstr "https://european-union.europa.eu/contact-eu/social-media-channels_pl#/se
 msgid "Follow the European Commission on social media"
 msgstr "Komisja Europejska w mediach społecznościowych"
 
-msgid "https://commission.europa.eu/resources-partners_en"
-msgstr "https://commission.europa.eu/resources-partners_pl"
+msgid "https://commission.europa.eu/resources_en"
+msgstr "https://commission.europa.eu/resources_pl"
 
 msgid "Report an IT vulnerability"
 msgstr "Zgłoś lukę w zabezpieczeniach informatycznych"
@@ -346,8 +346,8 @@ msgstr "Zgłoś lukę w zabezpieczeniach informatycznych"
 msgid "https://commission.europa.eu/legal-notice/vulnerability-disclosure-policy_en"
 msgstr "https://commission.europa.eu/legal-notice/vulnerability-disclosure-policy_pl"
 
-msgid "Resources for partners"
-msgstr "Materiały dla partnerów"
+msgid "Resources"
+msgstr "Zasoby"
 
 msgid "https://commission.europa.eu/language-policy_en"
 msgstr "https://commission.europa.eu/language-policy_pl"

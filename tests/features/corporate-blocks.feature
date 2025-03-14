@@ -23,7 +23,7 @@ Feature: Corporate blocks feature
       | Press corner                                   | https://ec.europa.eu/commission/presscorner/home/en                                                                  |
       | Events                                         | https://commission.europa.eu/get-involved/events_en                                                                  |
       | Follow the European Commission on social media | https://european-union.europa.eu/contact-eu/social-media-channels_en#/search?page=0&institutions=european_commission |
-      | Resources for partners                         | https://commission.europa.eu/resources-partners_en                                                                   |
+      | Resources                                      | https://commission.europa.eu/resources_en                                                                   |
       | Report an IT vulnerability                     | https://commission.europa.eu/legal-notice/vulnerability-disclosure-policy_en                                         |
       | Languages on our websites                      | https://commission.europa.eu/languages-our-websites_en                                                               |
       | Cookies                                        | https://commission.europa.eu/cookies-policy_en                                                                       |
@@ -42,7 +42,7 @@ Feature: Corporate blocks feature
       | Coin presse                                            | https://ec.europa.eu/commission/presscorner/home/fr                                                                  |
       | Événements                                             | https://commission.europa.eu/get-involved/events_fr                                                                  |
       | Suivre la Commission européenne sur les médias sociaux | https://european-union.europa.eu/contact-eu/social-media-channels_fr#/search?page=0&institutions=european_commission |
-      | Ressources pour les partenaires                        | https://commission.europa.eu/resources-partners_fr                                                                   |
+      | Ressources                                             | https://commission.europa.eu/resources_fr                                                                            |
       | Signaler une vulnérabilité informatique                | https://commission.europa.eu/legal-notice/vulnerability-disclosure-policy_fr                                         |
       | Les langues sur nos sites web                          | https://commission.europa.eu/languages-our-websites_fr                                                               |
       | Cookies                                                | https://commission.europa.eu/cookies-policy_fr                                                                       |
