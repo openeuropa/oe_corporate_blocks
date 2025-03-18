@@ -334,11 +334,11 @@ msgstr "https://european-union.europa.eu/contact-eu/social-media-channels_sv#/se
 msgid "Follow the European Commission on social media"
 msgstr "Följ kommissionen på sociala medier"
 
-msgid "https://commission.europa.eu/resources-partners_en"
-msgstr "https://commission.europa.eu/resources-partners_sv"
+msgid "https://commission.europa.eu/resources_en"
+msgstr "https://commission.europa.eu/resources_sv"
 
-msgid "Resources for partners"
-msgstr "Resurser för partner"
+msgid "Resources"
+msgstr "Resurser"
 
 msgid "Report an IT vulnerability"
 msgstr "Rapportera sårbarheter i it-systemen"

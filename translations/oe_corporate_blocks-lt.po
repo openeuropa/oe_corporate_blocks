@@ -339,11 +339,11 @@ msgstr "https://european-union.europa.eu/contact-eu/social-media-channels_lt#/se
 msgid "Follow the European Commission on social media"
 msgstr "Sekite Europos Komisijos naujienas socialiniuose tinkluose"
 
-msgid "https://commission.europa.eu/resources-partners_en"
-msgstr "https://commission.europa.eu/resources-partners_lt"
+msgid "https://commission.europa.eu/resources_en"
+msgstr "https://commission.europa.eu/resources_lt"
 
-msgid "Resources for partners"
-msgstr "Ištekliai partneriams"
+msgid "Resources"
+msgstr "Ištekliai"
 
 msgid "Report an IT vulnerability"
 msgstr "Pranešti apie IT pažeidžiamumą"

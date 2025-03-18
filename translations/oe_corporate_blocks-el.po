@@ -354,11 +354,11 @@ msgstr ""
 "Ακολουθήστε την Ευρωπαϊκή Επιτροπή "
 "στα μέσα κοινωνικής δικτύωσης"
 
-msgid "https://commission.europa.eu/resources-partners_en"
-msgstr "https://commission.europa.eu/resources-partners_el"
+msgid "https://commission.europa.eu/resources_en"
+msgstr "https://commission.europa.eu/resources_el"
 
-msgid "Resources for partners"
-msgstr "Πόροι για εταίρους"
+msgid "Resources"
+msgstr "Πόροι"
 
 msgid "Report an IT vulnerability"
 msgstr "Αναφορά τρωτού σημείου ΤΠ"

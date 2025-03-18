@@ -331,11 +331,11 @@ msgstr "https://european-union.europa.eu/contact-eu/social-media-channels_pt#/se
 msgid "Follow the European Commission on social media"
 msgstr "Seguir a Comissão Europeia nas redes sociais"
 
-msgid "https://commission.europa.eu/resources-partners_en"
-msgstr "https://commission.europa.eu/resources-partners_pt"
+msgid "https://commission.europa.eu/resources_en"
+msgstr "https://commission.europa.eu/resources_pt"
 
-msgid "Resources for partners"
-msgstr "Recursos disponíveis"
+msgid "Resources"
+msgstr "Recursos"
 
 msgid "Report an IT vulnerability"
 msgstr "Comunicar uma vulnerabilidade informática"
