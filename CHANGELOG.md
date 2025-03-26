@@ -1,10 +1,19 @@
 # Change Log
 
-## [5.0.0-beta2](https://github.com/openeuropa/oe_corporate_blocks/tree/5.0.0-beta2) (2025-03-17)
+## [5.0.0-beta3](https://github.com/openeuropa/oe_corporate_blocks/tree/5.0.0-beta3) (2025-03-26)
+[Full Changelog](https://github.com/openeuropa/oe_corporate_blocks/compare/5.0.0-beta2...5.0.0-beta3)
+
+**Merged pull requests:**
+
+- EWPP-5369: Remove footer duplicate link. [\#177](https://github.com/openeuropa/oe_corporate_blocks/pull/177) ([gorsky87](https://github.com/gorsky87))
+- EWPP-5358: Change Resoruces link in footer. [\#176](https://github.com/openeuropa/oe_corporate_blocks/pull/176) ([gorsky87](https://github.com/gorsky87))
+
+## [5.0.0-beta2](https://github.com/openeuropa/oe_corporate_blocks/tree/5.0.0-beta2) (2025-03-18)
 [Full Changelog](https://github.com/openeuropa/oe_corporate_blocks/compare/5.0.0-beta1...5.0.0-beta2)
 
 **Merged pull requests:**
 
+- Release-5.0.0-beta2: Update changelog. [\#178](https://github.com/openeuropa/oe_corporate_blocks/pull/178) ([nagyad](https://github.com/nagyad))
 - EWPP-4638: D11 update. [\#175](https://github.com/openeuropa/oe_corporate_blocks/pull/175) ([piotrsmykaj](https://github.com/piotrsmykaj))
 
 ## [5.0.0-beta1](https://github.com/openeuropa/oe_corporate_blocks/tree/5.0.0-beta1) (2025-02-12)
