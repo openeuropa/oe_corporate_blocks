@@ -377,3 +377,54 @@ function oe_corporate_blocks_post_update_50001(): void {
   $config_path = \Drupal::service('extension.list.module')->getPath('oe_corporate_blocks') . '/config/post_update/50001_update_footer_data';
   _oe_corporate_blocks_import_corporate_links($config_path);
 }
+
+/**
+ * Update EC footer data.
+ */
+function oe_corporate_blocks_post_update_50002(): void {
+  $config_path = \Drupal::service('extension.list.module')->getPath('oe_corporate_blocks') . '/config/post_update/50002_update_footer_data';
+  $config_name = 'oe_corporate_blocks.ec_data.footer';
+
+  // Delete the config translations.
+  $languages = \Drupal::languageManager()->getLanguages();
+  foreach ($languages as $lang_code => $language) {
+    $config_translation = \Drupal::languageManager()->getLanguageConfigOverride($lang_code, $config_name);
+    $config_translation->delete();
+  }
+
+  // Allow for config translation re-import when running
+  // "drush oe-multilingual:import-local-translations".
+  if (\Drupal::moduleHandler()->moduleExists('locale')) {
+    $storage = \Drupal::service('locale.storage');
+    $sources = [
+      'https://commission.europa.eu/index_en',
+      'European Commission website',
+      'https://commission.europa.eu/about-european-commission/contact_en',
+      'Contact the European Commission',
+      'https://european-union.europa.eu/contact-eu/social-media-channels_en#/search?page=0&institutions=european_commission',
+      'Follow the European Commission on social media',
+      'https://commission.europa.eu/resources_en',
+      'Resources',
+      'https://commission.europa.eu/legal-notice/vulnerability-disclosure-policy_en',
+      'Report an IT vulnerability',
+      'https://commission.europa.eu/languages-our-websites_en',
+      'Languages on our websites',
+      'https://commission.europa.eu/cookies-policy_en',
+      'Cookies',
+      'https://commission.europa.eu/privacy-policy-websites-managed-european-commission_en',
+      'Privacy policy',
+      'https://commission.europa.eu/legal-notice_en',
+      'Legal notice',
+    ];
+    foreach ($sources as $source) {
+      $string = $storage->findString(['source' => $source]);
+      if (!$string) {
+        continue;
+      }
+      $storage->delete($string);
+    }
+  }
+
+  // Import the new config.
+  _oe_corporate_blocks_import_corporate_links($config_path);
+}
