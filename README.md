@@ -49,7 +49,7 @@ To do this, add the image to your `docker-compose.yml` file:
 
 ```
   sparql:
-    image: openeuropa/triple-store-dev
+    image: registry.fpfis.eu/fpfis/triple-store
     environment:
     - SPARQL_UPDATE=true
     - DBA_PASSWORD=dba
