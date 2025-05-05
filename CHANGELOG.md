@@ -1,10 +1,18 @@
 # Change Log
 
+## [5.0.0-beta4](https://github.com/openeuropa/oe_corporate_blocks/tree/5.0.0-beta4) (2025-05-02)
+[Full Changelog](https://github.com/openeuropa/oe_corporate_blocks/compare/5.0.0-beta3...5.0.0-beta4)
+
+**Merged pull requests:**
+
+- EWPP-5461: Update sparql image in docker-compose.yml and for drone.yml. [\#180](https://github.com/openeuropa/oe_corporate_blocks/pull/180) ([sergepavle](https://github.com/sergepavle))
+
 ## [5.0.0-beta3](https://github.com/openeuropa/oe_corporate_blocks/tree/5.0.0-beta3) (2025-03-26)
 [Full Changelog](https://github.com/openeuropa/oe_corporate_blocks/compare/5.0.0-beta2...5.0.0-beta3)
 
 **Merged pull requests:**
 
+- Release-5.0.0-beta3: Update changelog. [\#179](https://github.com/openeuropa/oe_corporate_blocks/pull/179) ([nagyad](https://github.com/nagyad))
 - EWPP-5369: Remove footer duplicate link. [\#177](https://github.com/openeuropa/oe_corporate_blocks/pull/177) ([gorsky87](https://github.com/gorsky87))
 - EWPP-5358: Change Resoruces link in footer. [\#176](https://github.com/openeuropa/oe_corporate_blocks/pull/176) ([gorsky87](https://github.com/gorsky87))
 
