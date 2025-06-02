@@ -6,6 +6,7 @@ namespace Drupal\oe_corporate_blocks;
 
 use Drupal\Core\Config\Entity\DraggableListBuilder;
 use Drupal\Core\Entity\EntityInterface;
+use Drupal\oe_corporate_blocks\Form\FooterLinkSocialSettingsForm;
 
 /**
  * Provides a listing of Footer social link item entities.
@@ -43,6 +44,23 @@ class FooterLinkSocialListBuilder extends DraggableListBuilder {
     ];
 
     return $row + parent::buildRow($entity);
+  }
+
+  /**
+   * {@inheritdoc}
+   */
+  public function render() {
+    $build = [];
+
+    $build['configuration_form'] = [
+      '#type' => 'fieldset',
+      '#title' => $this->t('Social media footer links settings'),
+      0 => $this->formBuilder->getForm(FooterLinkSocialSettingsForm::class),
+    ];
+
+    $build['table_form'] = $this->formBuilder->getForm($this);
+
+    return $build;
   }
 
 }

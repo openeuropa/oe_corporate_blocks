@@ -83,4 +83,33 @@ class FooterLinkManagementTest extends BrowserTestBase {
     $this->assertGeneralLinkRow($link, 'section_1', 0);
   }
 
+  /**
+   * Tests the social media footer links settings form.
+   */
+  public function testSocialMediaFooterLinksSettingsForm(): void {
+    // Login with a user that can create social media footer links.
+    $user = $this->createUser([
+      'access administration pages',
+      'administer site specific footer links',
+    ]);
+    $this->drupalLogin($user);
+    $this->drupalGet('/admin/config/footer_link_social');
+
+    // Assert the settings form content and the default values.
+    $this->assertSession()->checkboxNotChecked('Display labels');
+    $this->assertSession()->pageTextContains("Check this box if you'd like to display the social media links labels.");
+    $this->assertSession()->selectExists('Alignment');
+    $this->assertSession()->pageTextContains('The alignment of the social media links.');
+    $this->assertSession()->fieldValueEquals('Alignment', 'horizontal');
+
+    // Change the values and assert the config is correctly updated.
+    $this->getSession()->getPage()->checkField('Display labels');
+    $this->getSession()->getPage()->selectFieldOption('Alignment', 'vertical');
+    $this->getSession()->getPage()->pressButton('Save configuration');
+
+    $this->assertSession()->pageTextContains('The configuration options have been saved.');
+    $this->assertSession()->checkboxChecked('Display labels');
+    $this->assertSession()->fieldValueEquals('Alignment', 'vertical');
+  }
+
 }
