@@ -15,7 +15,7 @@ Feature: Site specific footer links management.
     When I fill in "Label" with "00000 European Commission, official website"
     And I fill in "Machine-readable name" with "00000_eurpoean_commission_official_website"
     And I fill in "URL" with "https://commission.europa.eu/index_en"
-    And I select "Related sites" from "Section"
+    And I select "Related links" from "Section"
     And I press "Save"
     Then I should see the heading "Footer Link General entities"
 
@@ -24,7 +24,7 @@ Feature: Site specific footer links management.
     When I fill in "Label" with "00001 About the European Commission"
     And I fill in "Machine-readable name" with "00001_about_the_european_commission"
     And I fill in "URL" with "https://commission.europa.eu/strategy_en"
-    And I select "Related sites" from "Section"
+    And I select "Related links" from "Section"
     And I press "Save"
     Then I should see the heading "Footer Link General entities"
 

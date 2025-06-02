@@ -2,5 +2,5 @@ langcode: en
 status: true
 dependencies: {  }
 id: related_sites
-label: 'Related sites'
+label: 'Related links'
 weight: -8

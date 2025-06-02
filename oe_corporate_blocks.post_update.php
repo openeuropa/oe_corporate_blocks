@@ -9,6 +9,7 @@ declare(strict_types=1);
 
 use Drupal\Component\Utility\Crypt;
 use Drupal\Core\Config\FileStorage;
+use Drupal\oe_corporate_blocks\Entity\FooterLinkSection;
 
 /**
  * Helper function: import corporate links.
@@ -426,5 +427,23 @@ function oe_corporate_blocks_post_update_50002(): void {
   }
 
   // Import the new config.
+  _oe_corporate_blocks_import_corporate_links($config_path);
+}
+
+/**
+ * Update EC footer links.
+ */
+function oe_corporate_blocks_post_update_50003(): void {
+  $section = FooterLinkSection::load('related_sites');
+  if (!$section) {
+    return;
+  }
+  // If the section's label is the original one, update it.
+  if ($section->label() !== 'Related sites') {
+    return;
+  }
+  $section->set('label', 'Related links');
+  $section->save();
+  $config_path = \Drupal::service('extension.list.module')->getPath('oe_corporate_blocks') . '/config/post_update/50003_update_ec_footer_data';
   _oe_corporate_blocks_import_corporate_links($config_path);
 }

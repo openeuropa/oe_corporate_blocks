@@ -11,9 +11,9 @@
  *   - other_links: Other links for custom footer.
  * - corporate_footer: Array with structure of corporate footer compatible with the ECL ec-components-footer component.
  *   - corporate_site_link: Corporate site link.
- *   - class_navigation: Provides the user with navigation through class names.
- *   - service_navigation: Contains services links - consistent throughout the family sites.
  *   - legal_navigation: Contains legal information links - consistent throughout the family sites.
+ *   - social_media_common_links: Contains the social media links - consistent throughout the family sites.
+ *   - extra_links: Contains the extra links - consistent throughout the family sites.
  *
  * @ingroup themeable
  */
@@ -69,17 +69,26 @@
         {% endfor %}
       </ul>
     {% endif %}
-    {% if corporate_footer.service_navigation is not empty %}
-      <ul class="footer__list footer__service_navigation">
-        {% for menu_item in corporate_footer.service_navigation %}
+  </div>
+  <div class="footer__corporate-bottom">
+    {% if corporate_footer.social_media_common_links is not empty %}
+      <ul class="footer__list footer__social_media_common_links">
+        {% for menu_item in corporate_footer.social_media_common_links %}
           <li>
             {{ link(menu_item.label, menu_item.href, create_attribute({'class': [menu_item.external ? 'external', menu_item.branding ]})) }}
           </li>
         {% endfor %}
       </ul>
     {% endif %}
-  </div>
-  <div class="footer__corporate-bottom">
+    {% if corporate_footer.extra_links is not empty %}
+      <ul class="footer__list footer__extra_links">
+        {% for menu_item in corporate_footer.extra_links %}
+          <li>
+            {{ link(menu_item.label, menu_item.href, create_attribute({'class': [menu_item.external ? 'external', menu_item.branding ]})) }}
+          </li>
+        {% endfor %}
+      </ul>
+    {% endif %}
     {% if corporate_footer.legal_navigation is not empty %}
       <ul class="footer__list footer__legal-navigation">
         {% for menu_item in corporate_footer.legal_navigation %}
