@@ -1,5 +1,12 @@
 # Change Log
 
+## [5.0.0-beta5](https://github.com/openeuropa/oe_corporate_blocks/tree/5.0.0-beta5) (2025-06-16)
+[Full Changelog](https://github.com/openeuropa/oe_corporate_blocks/compare/5.0.0-beta4...5.0.0-beta5)
+
+**Merged pull requests:**
+- EWPP-5626: Remove service navigation and add social media common and extra links to EC footer. [\#184](https://github.com/openeuropa/oe_corporate_blocks/pull/184) ([22Alexandra](https://github.com/22Alexandra))
+- EWPP-5553: Update sparql image in docker-compose.yml and .drone.yml. [\#183](https://github.com/openeuropa/oe_corporate_blocks/pull/183) ([sergepavle](https://github.com/sergepavle))
+
 ## [5.0.0-beta4](https://github.com/openeuropa/oe_corporate_blocks/tree/5.0.0-beta4) (2025-05-02)
 [Full Changelog](https://github.com/openeuropa/oe_corporate_blocks/compare/5.0.0-beta3...5.0.0-beta4)
 
