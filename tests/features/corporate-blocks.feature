@@ -22,8 +22,12 @@ Feature: Corporate blocks feature
       | Jobs                                           | https://commission.europa.eu/get-involved/jobs-european-commission_en                                                |
       | Press corner                                   | https://ec.europa.eu/commission/presscorner/home/en                                                                  |
       | Events                                         | https://commission.europa.eu/get-involved/events_en                                                                  |
-      | Follow the European Commission on social media | https://european-union.europa.eu/contact-eu/social-media-channels_en#/search?page=0&institutions=european_commission |
-      | Resources                                      | https://commission.europa.eu/resources_en                                                                   |
+      | Facebook                                       | https://www.facebook.com/EuropeanCommission                                                                          |
+      | Instagram                                      | https://www.instagram.com/europeancommission                                                                         |
+      | X                                              | https://x.com/EU_Commission                                                                                          |
+      | Linkedin                                       | https://www.linkedin.com/company/european-commission                                                                 |
+      | Other                                          | https://european-union.europa.eu/contact-eu/social-media-channels_en                                                 |
+      | Contact us                                     | https://commission.europa.eu/about/contact_en                                                                        |
       | Report an IT vulnerability                     | https://commission.europa.eu/legal-notice/vulnerability-disclosure-policy_en                                         |
       | Languages on our websites                      | https://commission.europa.eu/languages-our-websites_en                                                               |
       | Cookies                                        | https://commission.europa.eu/cookies-policy_en                                                                       |
@@ -41,8 +45,12 @@ Feature: Corporate blocks feature
       | Emplois                                                | https://commission.europa.eu/get-involved/jobs-european-commission_fr                                                |
       | Coin presse                                            | https://ec.europa.eu/commission/presscorner/home/fr                                                                  |
       | Événements                                             | https://commission.europa.eu/get-involved/events_fr                                                                  |
-      | Suivre la Commission européenne sur les médias sociaux | https://european-union.europa.eu/contact-eu/social-media-channels_fr#/search?page=0&institutions=european_commission |
-      | Ressources                                             | https://commission.europa.eu/resources_fr                                                                            |
+      | Facebook                                               | https://www.facebook.com/EuropeanCommission                                                                          |
+      | Instagram                                              | https://www.instagram.com/europeancommission                                                                         |
+      | X                                                      | https://x.com/EU_Commission                                                                                          |
+      | Linkedin                                               | https://www.linkedin.com/company/european-commission                                                                 |
+      | Other                                                  | https://european-union.europa.eu/contact-eu/social-media-channels_fr                                                 |
+      | Nous contacter                                         | https://commission.europa.eu/about/contact_fr                                                                        |
       | Signaler une vulnérabilité informatique                | https://commission.europa.eu/legal-notice/vulnerability-disclosure-policy_fr                                         |
       | Les langues sur nos sites web                          | https://commission.europa.eu/languages-our-websites_fr                                                               |
       | Cookies                                                | https://commission.europa.eu/cookies-policy_fr                                                                       |

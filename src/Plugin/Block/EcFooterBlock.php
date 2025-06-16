@@ -33,9 +33,11 @@ class EcFooterBlock extends FooterBlockBase implements ContainerFactoryPluginInt
 
     NestedArray::setValue($build, ['#corporate_footer', 'corporate_site_link'], $config->get('corporate_site_link'));
 
-    NestedArray::setValue($build, ['#corporate_footer', 'service_navigation'], $config->get('service_navigation'));
-
     NestedArray::setValue($build, ['#corporate_footer', 'legal_navigation'], $config->get('legal_navigation'));
+
+    NestedArray::setValue($build, ['#corporate_footer', 'social_media_common_links'], $config->get('social_media_common_links'));
+
+    NestedArray::setValue($build, ['#corporate_footer', 'extra_links'], $config->get('extra_links'));
 
     $ec_core_sections = $this->getEcCoreSectionsLinks($cache);
     NestedArray::setValue($build, ['#corporate_footer', 'ec_core_section'], $ec_core_sections['ec_core_column'] ?? []);

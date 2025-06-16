@@ -33,6 +33,10 @@ oe_corporate_blocks.ec_data.footer:
       type: oe_corporate_blocks.footer.links
     legal_navigation:
       type: oe_corporate_blocks.footer.links
+    social_media_common_links:
+      type: oe_corporate_blocks.footer.links
+    extra_links:
+      type: oe_corporate_blocks.footer.links
 
 oe_corporate_blocks.eu_data.footer:
   type: config_object
@@ -118,3 +122,14 @@ oe_corporate_blocks.footer_link.section.*:
     weight:
       type: integer
       label: 'Weight'
+
+oe_corporate_blocks.social_media_footer_links_settings:
+  type: config_object
+  label: 'Social media footer links settings'
+  mapping:
+    display_labels:
+      type: boolean
+      label: 'Display labels'
+    alignment:
+      type: string
+      label: 'The alignment of the social media links'
