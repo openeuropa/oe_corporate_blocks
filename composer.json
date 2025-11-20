@@ -11,7 +11,7 @@
         "openeuropa/oe_corporate_site_info": "^1.2.0"
     },
     "require-dev": {
-        "composer/installers": "^1.11",
+        "composer/installers": "^2.3",
         "drupal/config_devel": "^1.9",
         "drupal/core-composer-scaffold": "^10 || ^11",
         "drupal/core-dev": "^10 || ^11",
