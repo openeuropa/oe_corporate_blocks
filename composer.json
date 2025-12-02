@@ -8,7 +8,7 @@
     "require": {
         "php": ">=8.3",
         "drupal/core": "^10 || ^11",
-        "openeuropa/oe_corporate_site_info": "^1.2.0"
+        "openeuropa/oe_corporate_site_info": "dev-EWPP-6279"
     },
     "require-dev": {
         "composer/installers": "^1.11",

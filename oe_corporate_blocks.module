@@ -14,6 +14,7 @@ use Drupal\Core\Config\StorageInterface;
 use Drupal\Core\Url;
 use Drupal\node\NodeInterface;
 use Drupal\oe_corporate_site_info\SiteInformation;
+use Drupal\rdf_skos\Entity\ConceptInterface;
 
 /**
  * Implements hook_theme().
@@ -65,14 +66,20 @@ function oe_corporate_blocks_preprocess_set_site_owner(array &$variables): void 
 
   /** @var \Drupal\oe_corporate_site_info\SiteInformationInterface $site_information */
   $site_information = \Drupal::service('oe_corporate_site_info.site_information');
-  if (!$site_information->hasSiteOwner()) {
+  if (!$site_information->hasSiteOwners()) {
     return;
   }
 
-  $entity = $site_information->getSiteOwner();
-  $translation = \Drupal::service('entity.repository')->getTranslationFromContext($entity);
-  $variables['site_owner'] = $translation->label();
-  $cacheability->addCacheableDependency($entity)->applyTo($variables);
+  $entities = $site_information->getSiteOwners();
+  foreach ($entities as $entity) {
+    if (!$entity instanceof ConceptInterface) {
+      continue;
+    }
+    $translation = \Drupal::service('entity.repository')->getTranslationFromContext($entity);
+    $variables['site_owner'][] = $translation->label();
+    $cacheability->addCacheableDependency($entity);
+  }
+  $cacheability->applyTo($variables);
 }
 
 /**
