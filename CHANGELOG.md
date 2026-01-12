@@ -1,11 +1,20 @@
 # Changelog
 
+## [5.0.1](https://github.com/openeuropa/oe_corporate_blocks/tree/5.0.1) (2026-01-12)
+
+[Full Changelog](https://github.com/openeuropa/oe_corporate_blocks/compare/5.0.0...5.0.1)
+
+**Merged pull requests:**
+
+- EWPP-6352: Fix composer dependency version constraint. [\#196](https://github.com/openeuropa/oe_corporate_blocks/pull/196) ([nagyad](https://github.com/nagyad))
+
 ## [5.0.0](https://github.com/openeuropa/oe_corporate_blocks/tree/5.0.0) (2026-01-09)
 
 [Full Changelog](https://github.com/openeuropa/oe_corporate_blocks/compare/5.0.0-beta5...5.0.0)
 
 **Merged pull requests:**
 
+- Release-5.0.0: Update changelog. [\#195](https://github.com/openeuropa/oe_corporate_blocks/pull/195) ([nagyad](https://github.com/nagyad))
 - EWPP-6339: Cache docker images for GitHub actions. [\#193](https://github.com/openeuropa/oe_corporate_blocks/pull/193) ([nagyad](https://github.com/nagyad))
 - EWPP-6279: Update corporate site info version in composer.json. [\#192](https://github.com/openeuropa/oe_corporate_blocks/pull/192) ([sergepavle](https://github.com/sergepavle))
 - EWPP-6279: Co-owned sites. [\#191](https://github.com/openeuropa/oe_corporate_blocks/pull/191) ([sergepavle](https://github.com/sergepavle))
