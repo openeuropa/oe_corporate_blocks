@@ -76,7 +76,7 @@ function oe_corporate_blocks_preprocess_set_site_owner(array &$variables): void 
       continue;
     }
     $translation = \Drupal::service('entity.repository')->getTranslationFromContext($entity);
-    $variables['site_owner'][] = $translation->label();
+    $variables['site_owners'][] = $translation->label();
     $cacheability->addCacheableDependency($entity);
   }
   $cacheability->applyTo($variables);
