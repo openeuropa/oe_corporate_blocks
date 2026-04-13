@@ -453,3 +453,11 @@ function oe_corporate_blocks_post_update_50003(): void {
     'alignment' => 'horizontal',
   ])->save();
 }
+
+/**
+ * Update EC footer links.
+ */
+function oe_corporate_blocks_post_update_50004(): void {
+  $config_path = \Drupal::service('extension.list.module')->getPath('oe_corporate_blocks') . '/config/post_update/50004_update_ec_footer_data';
+  _oe_corporate_blocks_import_corporate_links($config_path);
+}

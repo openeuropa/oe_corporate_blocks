@@ -13,49 +13,51 @@ Feature: Corporate blocks feature
     When I am on "the <path> page"
     Then I should see "This site is managed by: Directorate-General for Digital Services, Directorate-General for Agriculture and Rural Development" in the "ec_footer" region
     And the region "ec_footer" contains the links:
-      | European Commission website                    | https://commission.europa.eu/index_en                                                                                |
-      | About us                                       | https://commission.europa.eu/about_en                                                                                |
-      | Contact us                                     | https://commission.europa.eu/about/contact_en                                                                        |
-      | Priorities                                     | https://commission.europa.eu/priorities-2024-2029_en                                                                 |
-      | Topics                                         | https://commission.europa.eu/topics_en                                                                               |
-      | Funding and tenders                            | https://commission.europa.eu/funding-tenders_en                                                                      |
-      | Jobs                                           | https://commission.europa.eu/get-involved/jobs-european-commission_en                                                |
-      | Press corner                                   | https://ec.europa.eu/commission/presscorner/home/en                                                                  |
-      | Events                                         | https://commission.europa.eu/get-involved/events_en                                                                  |
-      | Facebook                                       | https://www.facebook.com/EuropeanCommission                                                                          |
-      | Instagram                                      | https://www.instagram.com/europeancommission                                                                         |
-      | X                                              | https://x.com/EU_Commission                                                                                          |
-      | Linkedin                                       | https://www.linkedin.com/company/european-commission                                                                 |
-      | Other                                          | https://european-union.europa.eu/contact-eu/social-media-channels_en                                                 |
-      | Contact us                                     | https://commission.europa.eu/about/contact_en                                                                        |
-      | Report an IT vulnerability                     | https://commission.europa.eu/legal-notice/vulnerability-disclosure-policy_en                                         |
-      | Languages on our websites                      | https://commission.europa.eu/languages-our-websites_en                                                               |
-      | Cookies                                        | https://commission.europa.eu/cookies-policy_en                                                                       |
-      | Privacy policy                                 | https://commission.europa.eu/privacy-policy-websites-managed-european-commission_en                                  |
-      | Legal notice                                   | https://commission.europa.eu/legal-notice_en                                                                         |
+      | European Commission website | https://commission.europa.eu/index_en                                               |
+      | About us                    | https://commission.europa.eu/about_en                                               |
+      | Contact us                  | https://commission.europa.eu/about/contact_en                                       |
+      | Priorities                  | https://commission.europa.eu/priorities-2024-2029_en                                |
+      | Topics                      | https://commission.europa.eu/topics_en                                              |
+      | Funding and tenders         | https://commission.europa.eu/funding-tenders_en                                     |
+      | Jobs                        | https://commission.europa.eu/get-involved/jobs-european-commission_en               |
+      | Press corner                | https://ec.europa.eu/commission/presscorner/home/en                                 |
+      | Events                      | https://commission.europa.eu/get-involved/events_en                                 |
+      | Facebook                    | https://www.facebook.com/EuropeanCommission                                         |
+      | Bluesky                     | https://bsky.app/profile/ec.europa.eu                                               |
+      | Mastodon                    | https://ec.social-network.europa.eu/@EUCommission                                   |
+      | Youtube                     | https://www.youtube.com/user/eutube                                                 |
+      | LinkedIn                    | http://www.linkedin.com/company/european-commission                                 |
+      | Other                       | https://european-union.europa.eu/contact-eu/social-media-channels_en                |
+      | Contact us                  | https://commission.europa.eu/about/contact_en                                       |
+      | Report an IT vulnerability  | https://commission.europa.eu/legal-notice/vulnerability-disclosure-policy_en        |
+      | Languages on our websites   | https://commission.europa.eu/languages-our-websites_en                              |
+      | Cookies                     | https://commission.europa.eu/cookies-policy_en                                      |
+      | Privacy policy              | https://commission.europa.eu/privacy-policy-websites-managed-european-commission_en |
+      | Legal notice                | https://commission.europa.eu/legal-notice_en                                        |
 
     When I click "français" in the "sidebar"
     Then the region "ec_footer" contains the links:
-      | Site web de la Commission européenne                   | https://commission.europa.eu/index_fr                                                                                |
-      | Qui nous sommes                                        | https://commission.europa.eu/about_fr                                                                                |
-      | Nous contacter                                         | https://commission.europa.eu/about/contact_fr                                                                        |
-      | Priorités                                              | https://commission.europa.eu/priorities-2024-2029_fr                                                                 |
-      | Thèmes                                                 | https://commission.europa.eu/topics_fr                                                                               |
-      | Financement et appels d'offres                         | https://commission.europa.eu/funding-tenders_fr                                                                      |
-      | Emplois                                                | https://commission.europa.eu/get-involved/jobs-european-commission_fr                                                |
-      | Coin presse                                            | https://ec.europa.eu/commission/presscorner/home/fr                                                                  |
-      | Événements                                             | https://commission.europa.eu/get-involved/events_fr                                                                  |
-      | Facebook                                               | https://www.facebook.com/EuropeanCommission                                                                          |
-      | Instagram                                              | https://www.instagram.com/europeancommission                                                                         |
-      | X                                                      | https://x.com/EU_Commission                                                                                          |
-      | Linkedin                                               | https://www.linkedin.com/company/european-commission                                                                 |
-      | Other                                                  | https://european-union.europa.eu/contact-eu/social-media-channels_fr                                                 |
-      | Nous contacter                                         | https://commission.europa.eu/about/contact_fr                                                                        |
-      | Signaler une vulnérabilité informatique                | https://commission.europa.eu/legal-notice/vulnerability-disclosure-policy_fr                                         |
-      | Les langues sur nos sites web                          | https://commission.europa.eu/languages-our-websites_fr                                                               |
-      | Cookies                                                | https://commission.europa.eu/cookies-policy_fr                                                                       |
-      | Protection de la vie privée                            | https://commission.europa.eu/privacy-policy-websites-managed-european-commission_fr                                  |
-      | Avis juridique                                         | https://commission.europa.eu/legal-notice_fr                                                                         |
+      | Site web de la Commission européenne    | https://commission.europa.eu/index_fr                                               |
+      | Qui nous sommes                         | https://commission.europa.eu/about_fr                                               |
+      | Nous contacter                          | https://commission.europa.eu/about/contact_fr                                       |
+      | Priorités                               | https://commission.europa.eu/priorities-2024-2029_fr                                |
+      | Thèmes                                  | https://commission.europa.eu/topics_fr                                              |
+      | Financement et appels d'offres          | https://commission.europa.eu/funding-tenders_fr                                     |
+      | Emplois                                 | https://commission.europa.eu/get-involved/jobs-european-commission_fr               |
+      | Coin presse                             | https://ec.europa.eu/commission/presscorner/home/fr                                 |
+      | Événements                              | https://commission.europa.eu/get-involved/events_fr                                 |
+      | Facebook                                | https://www.facebook.com/EuropeanCommission                                         |
+      | Bluesky                                 | https://bsky.app/profile/ec.europa.eu                                               |
+      | Mastodon                                | https://ec.social-network.europa.eu/@EUCommission                                   |
+      | Youtube                                 | https://www.youtube.com/user/eutube                                                 |
+      | LinkedIn                                | http://www.linkedin.com/company/european-commission                                 |
+      | Other                                   | https://european-union.europa.eu/contact-eu/social-media-channels_fr                |
+      | Nous contacter                          | https://commission.europa.eu/about/contact_fr                                       |
+      | Signaler une vulnérabilité informatique | https://commission.europa.eu/legal-notice/vulnerability-disclosure-policy_fr        |
+      | Les langues sur nos sites web           | https://commission.europa.eu/languages-our-websites_fr                              |
+      | Cookies                                 | https://commission.europa.eu/cookies-policy_fr                                      |
+      | Protection de la vie privée             | https://commission.europa.eu/privacy-policy-websites-managed-european-commission_fr |
+      | Avis juridique                          | https://commission.europa.eu/legal-notice_fr                                        |
     Examples:
       | path  |
       | home  |
