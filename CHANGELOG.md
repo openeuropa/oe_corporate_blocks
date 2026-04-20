@@ -1,11 +1,20 @@
 # Changelog
 
+## [5.1.0](https://github.com/openeuropa/oe_corporate_blocks/tree/5.1.0) (2026-04-20)
+
+[Full Changelog](https://github.com/openeuropa/oe_corporate_blocks/compare/5.0.1...5.1.0)
+
+**Merged pull requests:**
+
+- EWPP-6461: Update ec footer social links. [\#201](https://github.com/openeuropa/oe_corporate_blocks/pull/201) ([sergepavle](https://github.com/sergepavle))
+
 ## [5.0.1](https://github.com/openeuropa/oe_corporate_blocks/tree/5.0.1) (2026-01-12)
 
 [Full Changelog](https://github.com/openeuropa/oe_corporate_blocks/compare/5.0.0...5.0.1)
 
 **Merged pull requests:**
 
+- Release-5.0.1: Update changelog. [\#197](https://github.com/openeuropa/oe_corporate_blocks/pull/197) ([nagyad](https://github.com/nagyad))
 - EWPP-6352: Fix composer dependency version constraint. [\#196](https://github.com/openeuropa/oe_corporate_blocks/pull/196) ([nagyad](https://github.com/nagyad))
 
 ## [5.0.0](https://github.com/openeuropa/oe_corporate_blocks/tree/5.0.0) (2026-01-09)
