@@ -29,6 +29,7 @@ function oe_corporate_blocks_theme() {
       'preprocess functions' => [
         'oe_corporate_blocks_preprocess_set_site_owner',
         'oe_corporate_blocks_preprocess_set_accessibility_link',
+        'oe_corporate_blocks_preprocess_set_subscribe_link',
       ],
     ],
     'oe_corporate_blocks_eu_footer' => [
@@ -39,6 +40,7 @@ function oe_corporate_blocks_theme() {
       'preprocess functions' => [
         'oe_corporate_blocks_preprocess_set_site_owner',
         'oe_corporate_blocks_preprocess_set_accessibility_link',
+        'oe_corporate_blocks_preprocess_set_subscribe_link',
       ],
     ],
   ];
@@ -97,12 +99,51 @@ function oe_corporate_blocks_preprocess_set_accessibility_link(array &$variables
 
   /** @var \Drupal\oe_corporate_site_info\SiteInformationInterface $site_information */
   $site_information = \Drupal::service('oe_corporate_site_info.site_information');
-  if (!$site_information->hasAccessibilityLink()) {
-    $cacheability->applyTo($variables);
-    return;
+  if ($site_information->hasAccessibilityLink()) {
+    $url = _oe_corporate_blocks_resolve_site_info_link($site_information->getAccessibilityLink(), $cacheability);
+    if ($url !== NULL) {
+      $variables['accessibility_link'] = $url;
+    }
   }
 
-  $uri = $site_information->getAccessibilityLink();
+  $cacheability->applyTo($variables);
+}
+
+/**
+ * Set subscribe for updates link on given render array, if any.
+ *
+ * @param array $variables
+ *   Render array variables.
+ */
+function oe_corporate_blocks_preprocess_set_subscribe_link(array &$variables): void {
+  $cacheability = CacheableMetadata::createFromRenderArray($variables);
+  $configuration = \Drupal::configFactory()->get(SiteInformation::CONFIG_NAME);
+  $cacheability->addCacheableDependency($configuration);
+
+  /** @var \Drupal\oe_corporate_site_info\SiteInformationInterface $site_information */
+  $site_information = \Drupal::service('oe_corporate_site_info.site_information');
+  if ($site_information->hasSubscribeLink()) {
+    $url = _oe_corporate_blocks_resolve_site_info_link($site_information->getSubscribeLink(), $cacheability);
+    if ($url !== NULL) {
+      $variables['subscribe_link'] = $url;
+    }
+  }
+
+  $cacheability->applyTo($variables);
+}
+
+/**
+ * Resolves a site information link URI to a URL, checking access.
+ *
+ * @param string $uri
+ *   The link URI.
+ * @param \Drupal\Core\Cache\CacheableMetadata $cacheability
+ *   The cacheable metadata.
+ *
+ * @return \Drupal\Core\Url|null
+ *   The URL or NULL.
+ */
+function _oe_corporate_blocks_resolve_site_info_link(string $uri, CacheableMetadata $cacheability): ?Url {
   $uri_parts = parse_url($uri);
   if ($uri_parts['scheme'] === 'entity') {
     [$entity_type_id, $entity_id] = explode('/', $uri_parts['path'], 2);
@@ -112,15 +153,13 @@ function oe_corporate_blocks_preprocess_set_accessibility_link(array &$variables
       $access = $entity->access('view', \Drupal::currentUser(), TRUE);
       $cacheability->addCacheableDependency($access);
       if (!$access->isAllowed()) {
-        $cacheability->applyTo($variables);
         // Do not show the link if access to the node is forbidden.
-        return;
+        return NULL;
       }
     }
   }
 
-  $variables['accessibility_link'] = Url::fromUri($uri);
-  $cacheability->applyTo($variables);
+  return Url::fromUri($uri);
 }
 
 /**

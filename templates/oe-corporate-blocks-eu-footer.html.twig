@@ -53,6 +53,10 @@
     <p>{{ link('Accessibility'|t, accessibility_link) }}</p>
   {% endif %}
 
+  {% if subscribe_link is not empty %}
+    <p>{{ link('Subscribe for updates'|t, subscribe_link) }}</p>
+  {% endif %}
+
   {% if corporate_footer.contact %}
     <h3>{{ corporate_footer.contact_title }}</h3>
     <ul class="footer__list">
