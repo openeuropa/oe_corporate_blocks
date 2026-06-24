@@ -60,6 +60,10 @@
       <p>{{ link('Accessibility'|t, accessibility_link) }}</p>
     {% endif %}
 
+    {% if subscribe_link is not empty %}
+      <p>{{ link('Subscribe for updates'|t, subscribe_link) }}</p>
+    {% endif %}
+
     {% if corporate_footer.ec_core_section is not empty %}
       <ul class="footer__list footer__ec-core-section">
         {% for menu_item in corporate_footer.ec_core_section %}
