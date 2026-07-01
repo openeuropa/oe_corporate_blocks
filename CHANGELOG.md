@@ -1,5 +1,14 @@
 # Changelog
 
+## [5.2.0](https://github.com/openeuropa/oe_corporate_blocks/tree/5.2.0) (2026-07-01)
+
+[Full Changelog](https://github.com/openeuropa/oe_corporate_blocks/compare/5.1.0...5.2.0)
+
+**Merged pull requests:**
+
+- EWPP-6963: Preprocess the "Subscribe for updates" site info link. [\#203](https://github.com/openeuropa/oe_corporate_blocks/pull/203) ([22Alexandra](https://github.com/22Alexandra))
+- EWPP-6514: Support D11.3. [\#200](https://github.com/openeuropa/oe_corporate_blocks/pull/200) ([nagyad](https://github.com/nagyad))
+
 ## [5.1.0](https://github.com/openeuropa/oe_corporate_blocks/tree/5.1.0) (2026-04-20)
 
 [Full Changelog](https://github.com/openeuropa/oe_corporate_blocks/compare/5.0.1...5.1.0)
