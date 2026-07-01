@@ -1,5 +1,13 @@
 # Changelog
 
+## [5.2.1](https://github.com/openeuropa/oe_corporate_blocks/tree/5.2.1) (2026-07-01)
+
+[Full Changelog](https://github.com/openeuropa/oe_corporate_blocks/compare/5.2.0...5.2.1)
+
+**Merged pull requests:**
+
+- Release-5.2.1: Remove dev version from composer. [\#206](https://github.com/openeuropa/oe_corporate_blocks/pull/206) ([nagyad](https://github.com/nagyad))
+
 ## [5.2.0](https://github.com/openeuropa/oe_corporate_blocks/tree/5.2.0) (2026-07-01)
 
 [Full Changelog](https://github.com/openeuropa/oe_corporate_blocks/compare/5.1.0...5.2.0)
