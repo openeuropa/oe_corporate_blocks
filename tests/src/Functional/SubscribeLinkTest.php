@@ -50,9 +50,12 @@ class SubscribeLinkTest extends BrowserTestBase {
         ]);
         $entity->save();
 
+        // Empty the value instead of deleting the config: a deleted config
+        // saves as "new", and Drupal 11.4 skips cache tag invalidation for new
+        // config, leaving the render cache stale.
         \Drupal::configFactory()
           ->getEditable('oe_corporate_site_info.settings')
-          ->delete()
+          ->set('subscribe', '')
           ->save();
         $builder->resetCache();
 
