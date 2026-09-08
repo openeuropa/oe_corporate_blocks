@@ -208,7 +208,7 @@ msgid "https://european-union.europa.eu/cookies_en"
 msgstr "https://european-union.europa.eu/cookies_hu"
 
 msgid "Accessibility"
-msgstr "Hozzáférhetőség"
+msgstr "Akadálymentesség"
 
 msgid "https://european-union.europa.eu/accessibility-statement_en"
 msgstr "https://european-union.europa.eu/accessibility-statement_hu"
