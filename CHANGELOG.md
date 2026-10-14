@@ -1,5 +1,15 @@
 # Changelog
 
+## [5.2.2](https://github.com/openeuropa/oe_corporate_blocks/tree/5.2.2) (2026-10-14)
+
+[Full Changelog](https://github.com/openeuropa/oe_corporate_blocks/compare/5.2.1...5.2.2)
+
+**Merged pull requests:**
+
+- EWPP-7447: Fix phpstan errors. [\#212](https://github.com/openeuropa/oe_corporate_blocks/pull/212) ([nagyad](https://github.com/nagyad))
+- EWPP-7154: Update accessibility label for hungarian. [\#210](https://github.com/openeuropa/oe_corporate_blocks/pull/210) ([fmmribeiro](https://github.com/fmmribeiro))
+- EWPP-6988: Trigger pipeline. [\#208](https://github.com/openeuropa/oe_corporate_blocks/pull/208) ([nagyad](https://github.com/nagyad))
+
 ## [5.2.1](https://github.com/openeuropa/oe_corporate_blocks/tree/5.2.1) (2026-07-01)
 
 [Full Changelog](https://github.com/openeuropa/oe_corporate_blocks/compare/5.2.0...5.2.1)
