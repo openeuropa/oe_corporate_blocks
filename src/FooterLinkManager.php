@@ -15,18 +15,11 @@ class FooterLinkManager implements FooterLinkManagerInterface {
   use StringTranslationTrait;
 
   /**
-   * Footer link entity storage.
+   * The entity type manager.
    *
-   * @var \Drupal\Core\Entity\EntityStorageInterface
+   * @var \Drupal\Core\Entity\EntityTypeManagerInterface
    */
-  protected $linkStorage;
-
-  /**
-   * Footer link section entity storage.
-   *
-   * @var \Drupal\Core\Entity\EntityStorageInterface
-   */
-  protected $sectionStorage;
+  protected EntityTypeManagerInterface $entityTypeManager;
 
   /**
    * Constructs a FooterLinkManager object.
@@ -35,43 +28,45 @@ class FooterLinkManager implements FooterLinkManagerInterface {
    *   The entity type manager.
    */
   public function __construct(EntityTypeManagerInterface $entity_type_manager) {
-    $this->linkStorage = $entity_type_manager->getStorage('footer_link_general');
-    $this->sectionStorage = $entity_type_manager->getStorage('footer_link_section');
+    $this->entityTypeManager = $entity_type_manager;
   }
 
   /**
    * {@inheritdoc}
    */
   public function getSections(): array {
-    $entity_ids = $this->sectionStorage->getQuery()
+    $storage = $this->entityTypeManager->getStorage('footer_link_section');
+    $entity_ids = $storage->getQuery()
       ->sort('weight')
       ->accessCheck()
       ->execute();
-    return $this->sectionStorage->loadMultiple($entity_ids);
+    return $storage->loadMultiple($entity_ids);
   }
 
   /**
    * {@inheritdoc}
    */
   public function getLinksBySection(string $section): array {
-    $entity_ids = $this->linkStorage->getQuery()
+    $storage = $this->entityTypeManager->getStorage('footer_link_general');
+    $entity_ids = $storage->getQuery()
       ->condition('section', $section)
       ->sort('weight')
       ->accessCheck()
       ->execute();
-    return $this->linkStorage->loadMultiple($entity_ids);
+    return $storage->loadMultiple($entity_ids);
   }
 
   /**
    * {@inheritdoc}
    */
   public function getLinksWithoutSection(): array {
-    $entity_ids = $this->linkStorage->getQuery()
+    $storage = $this->entityTypeManager->getStorage('footer_link_general');
+    $entity_ids = $storage->getQuery()
       ->condition('section', '')
       ->sort('weight')
       ->accessCheck()
       ->execute();
-    return $this->linkStorage->loadMultiple($entity_ids);
+    return $storage->loadMultiple($entity_ids);
   }
 
   /**
