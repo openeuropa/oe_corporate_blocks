@@ -72,7 +72,7 @@ class FooterLinkSocial extends FooterLinkGeneral implements FooterLinkSocialInte
    * {@inheritdoc}
    */
   public function getSocialNetwork(): string {
-    return $this->get('social_network');
+    return $this->get('social_network') ?? '';
   }
 
   /**

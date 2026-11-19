@@ -23,7 +23,7 @@ class FooterLinkSocialForm extends FooterLinkFormBase {
       '#title' => $this->t('Social network'),
       '#default_value' => $footer_link_social->get('social_network'),
       '#options' => FooterLinkSocial::$allowedSocialNetworks,
-      '#required' => FALSE,
+      '#required' => TRUE,
       '#empty_value' => '',
     ];
 
