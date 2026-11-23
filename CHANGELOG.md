@@ -1,5 +1,14 @@
 # Changelog
 
+## [5.3.0](https://github.com/openeuropa/oe_corporate_blocks/tree/5.3.0) (2026-11-23)
+
+[Full Changelog](https://github.com/openeuropa/oe_corporate_blocks/compare/5.2.2...5.3.0)
+
+**Merged pull requests:**
+
+- EWPP-0000: Disable the opcache revalidation delay in the test environment. [\#216](https://github.com/openeuropa/oe_corporate_blocks/pull/216) ([nagyad](https://github.com/nagyad))
+- EWPP-7526: Make social network required. [\#214](https://github.com/openeuropa/oe_corporate_blocks/pull/214) ([bircher](https://github.com/bircher))
+
 ## [5.2.2](https://github.com/openeuropa/oe_corporate_blocks/tree/5.2.2) (2026-10-14)
 
 [Full Changelog](https://github.com/openeuropa/oe_corporate_blocks/compare/5.2.1...5.2.2)
