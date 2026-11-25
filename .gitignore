@@ -1,6 +1,5 @@
 .DS_Store
 .idea
-behat.yml
 build
 composer.lock
 docker-compose.*.yml
@@ -13,3 +12,4 @@ runner.yml
 vendor
 yarn.lock
 /.gitattributes
+config/sync/*

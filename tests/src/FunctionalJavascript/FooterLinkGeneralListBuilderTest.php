@@ -9,6 +9,7 @@ use Drupal\Component\Utility\Html;
 use Drupal\FunctionalJavascriptTests\WebDriverTestBase;
 use Drupal\Tests\oe_corporate_blocks\Traits\AssertFooterLinksTrait;
 use Drupal\oe_corporate_blocks\Entity\FooterLinkGeneralInterface;
+use OpenEuropa\TestingUtilities\Traits\CachedDatabaseInstallTrait;
 
 /**
  * Test the general footer link overview page.
@@ -16,20 +17,37 @@ use Drupal\oe_corporate_blocks\Entity\FooterLinkGeneralInterface;
 class FooterLinkGeneralListBuilderTest extends WebDriverTestBase {
 
   use AssertFooterLinksTrait;
+  use CachedDatabaseInstallTrait;
 
   /**
    * {@inheritdoc}
    */
   protected static $modules = [
+    'block',
     'config',
-    'system',
+    'config_translation',
+    'dynamic_page_cache',
+    'language',
+    'locale',
     'oe_corporate_blocks',
+    'oe_corporate_site_info',
+    'page_cache',
+    'system',
+    'user',
   ];
 
   /**
    * {@inheritdoc}
    */
   protected $defaultTheme = 'stark';
+
+  /**
+   * {@inheritdoc}
+   */
+  protected function setUp(): void {
+    $this->cacheDbInstall = TRUE;
+    parent::setUp();
+  }
 
   /**
    * Test general footer link drag-and-drop management UI.

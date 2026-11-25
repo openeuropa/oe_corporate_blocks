@@ -116,7 +116,7 @@ composer install
 ```
 
 A post command hook (`drupal:site-setup`) is triggered automatically after `composer install`.
-This will symlink the module in the proper directory within the test site and perform token substitution in test configuration files such as `behat.yml.dist`.
+This will symlink the module in the proper directory within the test site and perform token substitution in test configuration files such as `phpunit.xml.dist`.
 
 **Please note:** project files and directories are symlinked within the test site by using the
 [OpenEuropa Task Runner's Drupal project symlink](https://github.com/openeuropa/task-runner-drupal-project-symlink) command.
@@ -198,12 +198,6 @@ To run the phpunit tests:
 
 ```bash
 docker-compose exec web ./vendor/bin/phpunit
-```
-
-To run the behat tests:
-
-```bash
-docker-compose exec web ./vendor/bin/behat
 ```
 
 #### Upgrade from 1.x to 2.x

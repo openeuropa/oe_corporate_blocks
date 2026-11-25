@@ -7,7 +7,7 @@ drupal:
   database:
     host: "mysql"
     port: "3306"
-    name: "oe_corporate_blocks"
+    name: "drupal"
     user: "root"
     password: ""
   sparql:
@@ -15,36 +15,31 @@ drupal:
     port: "8890"
   post_install:
     # Prepare the instance.
-    - "./vendor/bin/drush en toolbar -y"
-    - "./vendor/bin/drush theme:enable olivero -y"
-    - "./vendor/bin/drush theme:enable claro -y"
-    - "./vendor/bin/drush config-set system.theme default olivero -y"
-    - "./vendor/bin/drush config-set system.theme admin claro -y"
-    - "./vendor/bin/drush config-set node.settings use_admin_theme 1 -y"
+    - { task: "exec", command: "./vendor/bin/drush en toolbar -y" }
+    - { task: "exec", command: "./vendor/bin/drush theme:enable olivero -y" }
+    - { task: "exec", command: "./vendor/bin/drush theme:enable claro -y" }
+    - { task: "exec", command: "./vendor/bin/drush config-set system.theme default olivero -y" }
+    - { task: "exec", command: "./vendor/bin/drush config-set system.theme admin claro -y" }
+    - { task: "exec", command: "./vendor/bin/drush config-set node.settings use_admin_theme 1 -y" }
     # Enable the modules.
-    - "./vendor/bin/drush en config_devel -y"
-    - "./vendor/bin/drush en language -y"
-    - "./vendor/bin/drush en oe_multilingual -y"
-    - "./vendor/bin/drush en oe_corporate_blocks -y"
-    - "./vendor/bin/drush en oe_corporate_blocks_demo -y"
-    - "./vendor/bin/drush en config_translation -y"
-    - "./vendor/bin/drush oe-multilingual:import-local-translations"
-    - "./vendor/bin/drush cr"
-  settings:
-    settings:
-      file_scan_ignore_directories:
-        - "node_modules"
-        - "bower_components"
-        - "vendor"
-        - "${drupal.root}"
-    databases:
-      sparql_default:
-        default:
-          prefix: ""
-          host: ${drupal.sparql.host}
-          port: ${drupal.sparql.port}
-          namespace: 'Drupal\sparql_entity_storage\Driver\Database\sparql'
-          driver: 'sparql'
+    - { task: "exec", command: "./vendor/bin/drush en config_devel -y" }
+    - { task: "exec", command: "./vendor/bin/drush en language -y" }
+    - { task: "exec", command: "./vendor/bin/drush en oe_multilingual -y" }
+    - { task: "exec", command: "./vendor/bin/drush en oe_corporate_blocks -y" }
+    - { task: "exec", command: "./vendor/bin/drush en oe_corporate_blocks_demo -y" }
+    - { task: "exec", command: "./vendor/bin/drush en config_translation -y" }
+    - { task: "exec", command: "./vendor/bin/drush oe-multilingual:import-local-translations" }
+    - { task: "exec", command: "./vendor/bin/drush cr" }
+  additional_settings: |
+      $settings['file_scan_ignore_directories'] = array('vendor', 'build');
+      $settings['file_private_path'] = 'sites/default/files/private';
+      $settings['extension_discovery_scan_tests'] = TRUE;
+      $databases['sparql_default']['default'] = [
+        'host' => 'sparql',
+        'port' => '8890',
+        'namespace' => 'Drupal\sparql_entity_storage\Driver\Database\sparql',
+        'driver' => 'sparql',
+      ];
 
 selenium:
   host: "http://selenium"
@@ -57,11 +52,20 @@ commands:
     - { task: "run", command: "drupal:drush-setup" }
     - { task: "run", command: "drupal:settings-setup" }
     - { task: "run", command: "setup:phpunit" }
-    - { task: "run", command: "setup:behat" }
   setup:phpunit:
     - { task: "process", source: "phpunit.xml.dist", destination: "phpunit.xml" }
-  setup:behat:
-    - { task: "process", source: "behat.yml.dist", destination: "behat.yml" }
+    - { task: "remove", file: "build/sites/default/settings.testing.php" }
+    - task: "append"
+      file: "build/sites/default/settings.testing.php"
+      text: |
+          <?php
+              $settings['extension_discovery_scan_tests'] = TRUE;
+              $databases['sparql_default']['default'] = [
+                'host' => 'sparql',
+                'port' => '8890',
+                'namespace' => 'Drupal\sparql_entity_storage\Driver\Database\sparql',
+                'driver' => 'sparql',
+              ];
   # Use the following commands only if you can run Task Runner commands on your host machine.
   sparql:purge:
     - "docker-compose exec sparql ./vendor/bin/robo purge"
@@ -70,3 +74,18 @@ commands:
   sparql:reset:
     - { task: "run", command: "sparql:purge" }
     - { task: "run", command: "sparql:import" }
+  toolkit:code-review:
+      - { task: "exec", command: "./vendor/bin/grumphp run" }
+  toolkit:test-phpunit:
+    - { task: "run", command: "toolkit:test-phpunit" }
+
+toolkit:
+  build:
+    custom-code-folder: '${drupal.root}/modules/custom'
+  lint:
+    eslint:
+      options_yaml: 'no-error-on-unmatched-pattern'
+      options_js: 'no-error-on-unmatched-pattern'
+  test:
+    phpstan:
+      config: phpstan.neon.dist
