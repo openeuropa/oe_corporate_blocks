@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Drupal\Tests\oe_corporate_blocks\Functional;
 
 use Drupal\Tests\BrowserTestBase;
+use OpenEuropa\TestingUtilities\Traits\CachedDatabaseInstallTrait;
 use Symfony\Component\DomCrawler\Crawler;
 
 /**
@@ -12,13 +13,21 @@ use Symfony\Component\DomCrawler\Crawler;
  */
 class AccessibilityLinkTest extends BrowserTestBase {
 
+  use CachedDatabaseInstallTrait;
+
   /**
    * {@inheritdoc}
    */
   protected static $modules = [
     'block',
+    'config',
+    'config_translation',
+    'dynamic_page_cache',
+    'language',
+    'locale',
     'oe_corporate_blocks',
     'oe_corporate_site_info',
+    'page_cache',
     'system',
     'user',
   ];
@@ -27,6 +36,14 @@ class AccessibilityLinkTest extends BrowserTestBase {
    * {@inheritdoc}
    */
   protected $defaultTheme = 'stark';
+
+  /**
+   * {@inheritdoc}
+   */
+  protected function setUp(): void {
+    $this->cacheDbInstall = TRUE;
+    parent::setUp();
+  }
 
   /**
    * Tests EC footer block rendering.
